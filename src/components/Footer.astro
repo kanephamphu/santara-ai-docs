@@ -1,0 +1,29 @@
+---
+/*
+ * Starlight's footer, plus the machine-readable footnote.
+ *
+ * Every page says, at the bottom, where its markdown lives. It is one line, it costs nothing,
+ * and it is how someone discovers the convention without reading the page about it.
+ */
+import Default from "@astrojs/starlight/components/Footer.astro";
+
+const locale = (Astro.currentLocale ?? "en") as "en" | "id" | "vi";
+const path = Astro.url.pathname.replace(/\/$/, "");
+const markdown = `${path === "" ? "/index" : path}.md`;
+const llms = locale === "en" ? "/llms.txt" : `/${locale}/llms.txt`;
+
+const t = {
+  en: { lead: "For AI tools:", md: "this page as markdown", index: "llms.txt", full: "llms-full.txt" },
+  id: { lead: "Untuk alat AI:", md: "halaman ini sebagai markdown", index: "llms.txt", full: "llms-full.txt" },
+  vi: { lead: "Cho công cụ AI:", md: "trang này dạng markdown", index: "llms.txt", full: "llms-full.txt" },
+}[locale];
+---
+
+<Default><slot /></Default>
+
+<p class="docs-machine-note">
+  {t.lead}
+  <a href={markdown}>{t.md}</a> ·
+  <a href={llms}>{t.index}</a> ·
+  <a href={llms.replace("llms.txt", "llms-full.txt")}>{t.full}</a>
+</p>

@@ -1,0 +1,408 @@
+/*
+ * Santara docs skin.
+ *
+ * Starlight ships the structure — three columns, a sticky header, a right-hand contents rail.
+ * What is here is the SKIN: Santara's blue, Santara's ink, and the density adjustments that make
+ * a reference manual read like one (smaller sidebar type, quieter rules, a wider content column
+ * than the default so a table of channel statuses is not squeezed into a gutter).
+ *
+ * Colours come from the product's own tailwind.config.ts: brandBlue #1440E0, brandBlueSoft
+ * #718EF4 for dark surfaces, ink #0B1930. Do not invent a second blue here — a docs site in a
+ * slightly-off brand colour looks like a third-party wiki.
+ */
+
+:root {
+  --santara-blue: #1440e0;
+  --santara-blue-hover: #1033b3;
+  --santara-blue-soft: #718ef4;
+  --santara-ink: #0b1930;
+
+  --sl-font: "Inter var", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --sl-font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+  --sl-content-width: 48rem;
+  --sl-sidebar-width: 17.5rem;
+  --sl-nav-height: 3.75rem;
+  --sl-text-code: 0.875rem;
+}
+
+/* Light — the default, and the one the screenshots are taken in. */
+:root[data-theme="light"] {
+  --sl-color-accent-low: #dbe4ff;
+  --sl-color-accent: var(--santara-blue);
+  --sl-color-accent-high: #0e2ea0;
+
+  --sl-color-white: var(--santara-ink);
+  --sl-color-gray-1: #16233c;
+  --sl-color-gray-2: #33405a;
+  --sl-color-gray-3: #5b6880;
+  --sl-color-gray-4: #8a93a6;
+  --sl-color-gray-5: #d7dbe3;
+  --sl-color-gray-6: #eceef3;
+  --sl-color-gray-7: #f5f6fa;
+  --sl-color-black: #ffffff;
+
+  --sl-color-bg: #ffffff;
+  --sl-color-bg-nav: rgba(255, 255, 255, 0.86);
+  --sl-color-bg-sidebar: #ffffff;
+  --sl-color-hairline: #e6e8ef;
+  --sl-color-hairline-light: #eef0f5;
+  --sl-color-hairline-shade: #e2e5ec;
+  --sl-color-text: #33405a;
+  --sl-color-text-accent: var(--santara-blue);
+  --sl-color-text-invert: #ffffff;
+
+  --santara-surface: #f8f9fb;
+  --santara-surface-strong: #f1f3f8;
+}
+
+:root[data-theme="dark"] {
+  --sl-color-accent-low: #10214d;
+  --sl-color-accent: var(--santara-blue-soft);
+  --sl-color-accent-high: #b7c5fb;
+
+  --sl-color-white: #f8fafc;
+  --sl-color-gray-1: #eef1f7;
+  --sl-color-gray-2: #c8cfdd;
+  --sl-color-gray-3: #9aa4ba;
+  --sl-color-gray-4: #6b7793;
+  --sl-color-gray-5: #364159;
+  --sl-color-gray-6: #1c2740;
+  --sl-color-gray-7: #162034;
+  --sl-color-black: #0b1425;
+
+  --sl-color-bg: #0b1425;
+  --sl-color-bg-nav: rgba(11, 20, 37, 0.86);
+  --sl-color-bg-sidebar: #0b1425;
+  --sl-color-hairline: #1f2b45;
+  --sl-color-hairline-light: #1a2439;
+  --sl-color-hairline-shade: #202c47;
+  --sl-color-text: #c8cfdd;
+  --sl-color-text-accent: var(--santara-blue-soft);
+
+  --santara-surface: #101a2e;
+  --santara-surface-strong: #16223a;
+}
+
+/* ── Chrome ──────────────────────────────────────────────────────────────────────────────── */
+
+header.header {
+  backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid var(--sl-color-hairline);
+  box-shadow: none;
+}
+
+.site-title img {
+  height: 1.5rem;
+  width: auto;
+}
+
+/* Sidebar: quieter, denser, and with the active row reading as a state rather than a button. */
+.sidebar-content {
+  padding-top: 0.75rem;
+}
+
+.sidebar-content ul li {
+  border-inline-start: none;
+  padding-inline-start: 0;
+  margin-inline-start: 0;
+}
+
+.sidebar-content a {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.375rem;
+  color: var(--sl-color-gray-2);
+}
+
+.sidebar-content a:hover {
+  background: var(--santara-surface);
+  color: var(--sl-color-white);
+}
+
+.sidebar-content a[aria-current="page"],
+.sidebar-content a[aria-current="page"]:hover {
+  background: var(--sl-color-accent-low);
+  color: var(--sl-color-text-accent);
+  font-weight: 600;
+}
+
+.sidebar-content summary,
+.sidebar-content .group-label span {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-3);
+}
+
+/* ── Page head ───────────────────────────────────────────────────────────────────────────── */
+
+.title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.title-row h1 {
+  font-size: var(--sl-text-4xl);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-weight: 650;
+  color: var(--sl-color-white);
+  margin: 0;
+}
+
+.page-lead {
+  margin-top: 0.75rem;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--sl-color-gray-3);
+}
+
+/* ── Copy-for-LLM actions ────────────────────────────────────────────────────────────────── */
+
+.page-actions {
+  display: flex;
+  align-items: stretch;
+  gap: 1px;
+  flex: none;
+  margin-top: 0.4rem;
+}
+
+.pa-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--sl-color-gray-2);
+  background: var(--sl-color-bg);
+  border: 1px solid var(--sl-color-hairline-shade);
+  padding: 0.45rem 0.7rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.page-actions > .pa-button {
+  border-start-start-radius: 0.4rem;
+  border-end-start-radius: 0.4rem;
+}
+
+.pa-menu > .pa-button {
+  border-start-end-radius: 0.4rem;
+  border-end-end-radius: 0.4rem;
+  padding-inline: 0.5rem;
+}
+
+.pa-button::-webkit-details-marker {
+  display: none;
+}
+
+.pa-button:hover {
+  background: var(--santara-surface);
+  color: var(--sl-color-white);
+}
+
+.pa-copy.is-copied {
+  color: var(--sl-color-text-accent);
+}
+
+.pa-menu {
+  position: relative;
+}
+
+.pa-dropdown {
+  position: absolute;
+  inset-inline-end: 0;
+  top: calc(100% + 0.35rem);
+  z-index: 20;
+  min-width: 13rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+  background: var(--sl-color-bg);
+  border: 1px solid var(--sl-color-hairline-shade);
+  border-radius: 0.5rem;
+  box-shadow: 0 12px 32px rgb(11 25 48 / 0.14);
+}
+
+.pa-dropdown a {
+  font-size: 0.8125rem;
+  padding: 0.45rem 0.55rem;
+  border-radius: 0.35rem;
+  color: var(--sl-color-gray-2);
+  text-decoration: none;
+}
+
+.pa-dropdown a:hover {
+  background: var(--santara-surface);
+  color: var(--sl-color-white);
+}
+
+/* ── Content ─────────────────────────────────────────────────────────────────────────────── */
+
+.sl-markdown-content {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.sl-markdown-content h2 {
+  margin-top: 2.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--sl-color-hairline-light);
+  font-size: 1.4rem;
+  letter-spacing: -0.01em;
+  font-weight: 640;
+}
+
+.sl-markdown-content h3 {
+  font-size: 1.125rem;
+  font-weight: 620;
+  margin-top: 2rem;
+}
+
+.sl-markdown-content a:not(:where(.not-content *)) {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.sl-markdown-content :not(pre) > code:not(:where(.not-content *)) {
+  background: var(--santara-surface-strong);
+  border: 1px solid var(--sl-color-hairline-light);
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.85em;
+}
+
+.sl-markdown-content table:not(:where(.not-content *)) {
+  font-size: 0.9375rem;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 0.5rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  display: table;
+  width: 100%;
+}
+
+.sl-markdown-content th:not(:where(.not-content *)) {
+  background: var(--santara-surface);
+  font-size: 0.8125rem;
+  letter-spacing: 0.01em;
+  text-align: start;
+}
+
+.sl-markdown-content th:not(:where(.not-content *)),
+.sl-markdown-content td:not(:where(.not-content *)) {
+  border: 0;
+  border-bottom: 1px solid var(--sl-color-hairline-light);
+  padding: 0.6rem 0.85rem;
+  vertical-align: top;
+}
+
+.sl-markdown-content tr:last-child td:not(:where(.not-content *)) {
+  border-bottom: 0;
+}
+
+/* Wide tables scroll inside themselves rather than pushing the page sideways. */
+.sl-markdown-content .table-wrapper {
+  overflow-x: auto;
+}
+
+.card {
+  border-radius: 0.625rem;
+  border-color: var(--sl-color-hairline);
+  background: var(--sl-color-bg);
+  box-shadow: 0 1px 2px rgb(11 25 48 / 0.04);
+}
+
+.card .title {
+  font-size: 1rem;
+  color: var(--sl-color-white);
+}
+
+.starlight-aside {
+  border-radius: 0.5rem;
+  border-inline-start-width: 3px;
+  padding: 1rem 1.15rem;
+}
+
+.starlight-aside__title {
+  font-size: 0.9375rem;
+}
+
+/* ── Diagrams ────────────────────────────────────────────────────────────────────────────── */
+
+/*
+ * Figures are INLINE SVG (src/lib/rehype-diagrams.ts), so they paint in the page's own colour
+ * tokens and follow the theme. Two rules earn their place:
+ *
+ *   - `max-width: 100%` with the generator's own width as the natural size, so a diagram shrinks
+ *     on a narrow screen instead of pushing the page sideways. They are drawn at ≤660px wide and
+ *     with 11px as the smallest type precisely so that shrinking stays legible.
+ *   - The caption is the alt text. It is real prose under the picture, not a tooltip.
+ */
+
+.sl-markdown-content .diagram {
+  margin: 1.75rem 0;
+  padding: 1.25rem 1rem 1rem;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 0.625rem;
+  background: var(--sl-color-bg);
+  text-align: center;
+}
+
+.sl-markdown-content .diagram svg {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
+
+.sl-markdown-content .diagram figcaption {
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--sl-color-hairline-light);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--sl-color-gray-3);
+  text-align: start;
+}
+
+/* ── Footer / meta ───────────────────────────────────────────────────────────────────────── */
+
+.right-sidebar-panel h2 {
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-3);
+}
+
+.pagination-links a {
+  border-radius: 0.625rem;
+  border-color: var(--sl-color-hairline);
+}
+
+/* A footer line pointing at the machine-readable copies of the manual. */
+.docs-machine-note {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--sl-color-hairline-light);
+  font-size: 0.8125rem;
+  color: var(--sl-color-gray-3);
+}
+
+@media (max-width: 50rem) {
+  .title-row {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}

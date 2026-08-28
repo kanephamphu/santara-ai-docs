@@ -1,0 +1,148 @@
+---
+/*
+ * "Copy for LLM" — the row of actions under every page title.
+ *
+ * Copy page      → puts the page's markdown on the clipboard, ready to paste into a chat.
+ * View markdown  → the .md twin, for a human who wants the source or an agent handed the link.
+ * Open in …      → hands ChatGPT/Claude the markdown URL with a prompt already written.
+ *
+ * All of it is one small inline script and a fetch of a file that already exists (built by
+ * src/pages/[...slug].md.ts) — nothing here needs a server, which is the whole point.
+ */
+
+const locale = (Astro.currentLocale ?? "en") as "en" | "id" | "vi";
+
+const path = Astro.url.pathname.replace(/\/$/, "");
+const markdownPath = `${path === "" ? "/index" : path}.md`;
+const markdownUrl = new URL(markdownPath, Astro.site ?? "https://docs.santara.ai").href;
+
+const t = {
+  en: {
+    copy: "Copy page",
+    copied: "Copied",
+    failed: "Copy failed",
+    menu: "More formats",
+    view: "View as markdown",
+    chatgpt: "Open in ChatGPT",
+    claude: "Open in Claude",
+    hint: "Ask about this page",
+  },
+  id: {
+    copy: "Salin halaman",
+    copied: "Tersalin",
+    failed: "Gagal menyalin",
+    menu: "Format lain",
+    view: "Lihat sebagai markdown",
+    chatgpt: "Buka di ChatGPT",
+    claude: "Buka di Claude",
+    hint: "Tanya tentang halaman ini",
+  },
+  vi: {
+    copy: "Sao chép trang",
+    copied: "Đã sao chép",
+    failed: "Sao chép thất bại",
+    menu: "Định dạng khác",
+    view: "Xem dạng markdown",
+    chatgpt: "Mở trong ChatGPT",
+    claude: "Mở trong Claude",
+    hint: "Hỏi về trang này",
+  },
+}[locale];
+
+const prompt = {
+  en: `Read ${markdownUrl} so I can ask questions about it.`,
+  id: `Baca ${markdownUrl} supaya saya bisa bertanya tentang isinya.`,
+  vi: `Hãy đọc ${markdownUrl} để tôi có thể hỏi về nội dung này.`,
+}[locale];
+
+const chatgpt = `https://chatgpt.com/?q=${encodeURIComponent(prompt)}`;
+const claude = `https://claude.ai/new?q=${encodeURIComponent(prompt)}`;
+---
+
+<div class="page-actions" data-md={markdownPath}>
+  <button type="button" class="pa-button pa-copy" data-copied={t.copied} data-failed={t.failed}>
+    <svg aria-hidden="true" viewBox="0 0 16 16" width="14" height="14">
+      <path
+        fill="currentColor"
+        d="M4 2.5A1.5 1.5 0 0 1 5.5 1h5A1.5 1.5 0 0 1 12 2.5V3h.5A1.5 1.5 0 0 1 14 4.5v9A1.5 1.5 0 0 1 12.5 15h-7A1.5 1.5 0 0 1 4 13.5V13h-.5A1.5 1.5 0 0 1 2 11.5v-9A1.5 1.5 0 0 1 3.5 1H4v1.5Zm1 .5v8.5c0 .28.22.5.5.5H12V4.5a.5.5 0 0 0-.5-.5H5.5a.5.5 0 0 0-.5.5ZM3.5 2a.5.5 0 0 0-.5.5v9c0 .28.22.5.5.5H4V3H3.5Z"
+      ></path>
+    </svg>
+    <span class="pa-label">{t.copy}</span>
+  </button>
+
+  <details class="pa-menu">
+    <summary class="pa-button" aria-label={t.menu}>
+      <svg aria-hidden="true" viewBox="0 0 16 16" width="12" height="12">
+        <path fill="currentColor" d="M8 11 3.5 6.5 4.56 5.44 8 8.88l3.44-3.44L12.5 6.5 8 11Z"></path>
+      </svg>
+    </summary>
+    <div class="pa-dropdown">
+      <a href={markdownPath}>{t.view}</a>
+      <a href={chatgpt} target="_blank" rel="noopener noreferrer">{t.chatgpt}</a>
+      <a href={claude} target="_blank" rel="noopener noreferrer">{t.claude}</a>
+    </div>
+  </details>
+</div>
+
+<script>
+  /**
+   * Put text on the clipboard, with the old way as the fallback.
+   *
+   * navigator.clipboard is the right API and fails for reasons that have nothing to do with
+   * permission — an unfocused document is enough ("Document is not focused"), and some
+   * browsers still gate it on the page being served over https. The textarea + execCommand
+   * dance is deprecated and works everywhere, so it stands behind rather than in front.
+   */
+  async function write(text: string) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return;
+    } catch {
+      const area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.cssText = "position:fixed;top:0;left:-9999px;opacity:0";
+      document.body.append(area);
+      area.select();
+      const ok = document.execCommand("copy");
+      area.remove();
+      if (!ok) throw new Error("copy rejected");
+    }
+  }
+
+  document.querySelectorAll<HTMLElement>(".page-actions").forEach((root) => {
+    const button = root.querySelector<HTMLButtonElement>(".pa-copy");
+    const label = button?.querySelector<HTMLElement>(".pa-label");
+    const source = root.dataset.md;
+    if (!button || !label || !source) return;
+
+    const original = label.textContent ?? "";
+    let timer: number | undefined;
+
+    button.addEventListener("click", async () => {
+      try {
+        const response = await fetch(source);
+        if (!response.ok) throw new Error(String(response.status));
+        await write(await response.text());
+        label.textContent = button.dataset.copied ?? "Copied";
+        button.classList.add("is-copied");
+      } catch {
+        // A 404, an offline preview, a browser that refuses the clipboard outright — the user
+        // gets told either way rather than clicking a button that silently does nothing.
+        label.textContent = button.dataset.failed ?? "Copy failed";
+      }
+      window.clearTimeout(timer);
+      timer = window.setTimeout(() => {
+        label.textContent = original;
+        button.classList.remove("is-copied");
+      }, 2000);
+    });
+
+    // A dropdown that stays open after you have clicked past it is a bug people report as
+    // "the menu is stuck".
+    const menu = root.querySelector<HTMLDetailsElement>(".pa-menu");
+    document.addEventListener("click", (event) => {
+      if (menu?.open && !menu.contains(event.target as Node)) menu.open = false;
+    });
+  });
+</script>

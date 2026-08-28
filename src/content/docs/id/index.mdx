@@ -1,0 +1,73 @@
+---
+title: Dokumentasi Santara AI
+description: Hubungkan channel Anda, jalankan hari kerja, atur harga setahun penuh, dan terima pembayaran — seluruh produk, dijelaskan.
+template: splash
+hero:
+  tagline: Software manajemen operasional AI untuk sewa jangka pendek. Satu ruang kerja untuk channel, kalender, tamu, tim, dan pembukuan Anda.
+  image:
+    file: ../../../assets/santara-mark.svg
+  actions:
+    - text: Siap dalam 30 menit
+      link: /id/start/quickstart/
+      icon: right-arrow
+      variant: primary
+    - text: Apa yang dilakukan Santara AI
+      link: /id/start/
+      icon: open-book
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Baru di sini?
+
+<CardGrid>
+  <LinkCard
+    title="Panduan cepat"
+    href="/id/start/quickstart/"
+    description="Hubungkan channel, impor listing, periksa detail, lalu go live. Setengah jam, sebagian besar hanya menunggu."
+  />
+  <LinkCard
+    title="Bagaimana Santara disusun"
+    href="/id/start/concepts/"
+    description="Workspace, properti, kamar, rate plan, listing, koneksi — enam kata yang menjelaskan semua layar."
+  />
+  <LinkCard
+    title="Minggu pertama Anda"
+    href="/id/start/first-week/"
+    description="Apa yang dilihat tiap pagi, apa yang dikerjakan mingguan, dan apa yang aman diabaikan."
+  />
+  <LinkCard
+    title="Tidak ada yang live sebelum Anda menyetujuinya"
+    href="/id/channels/going-live/"
+    description="Mengimpor listing tidak menyerahkan kalender Anda. Baca ini sebelum menghubungkan apa pun."
+  />
+</CardGrid>
+
+## Berdasarkan tujuan Anda
+
+<CardGrid>
+  <Card title="Jual di Airbnb dan Booking.com" icon="puzzle">
+    Hubungkan [akun Airbnb](/id/channels/airbnb/) atau [properti Booking.com](/id/channels/booking-com/),
+    impor listing Anda, dan kelola satu kalender alih-alih tiga.
+  </Card>
+  <Card title="Jalankan hari kerja" icon="rocket">
+    [Hari ini dan ringkasan harian](/id/daily/), [pesan tamu](/id/daily/messages/),
+    [kebersihan dan perawatan](/id/daily/tasks/), serta [kalender](/id/daily/calendar/).
+  </Card>
+  <Card title="Hasilkan lebih per malam" icon="setting">
+    [Aturan smart pricing](/id/money/pricing/) yang menggerakkan tarif sendiri, dan
+    [upsell](/id/money/upsells/) yang terdeteksi dari kalender sebelum tamu bertanya.
+  </Card>
+  <Card title="Terima booking langsung" icon="laptop">
+    [Situs booking tanpa komisi](/id/setup/booking-site/) di subdomain Anda sendiri, dibayarkan ke
+    akun Stripe Anda sendiri.
+  </Card>
+</CardGrid>
+
+## Membaca ini dengan alat AI
+
+Setiap halaman juga tersedia sebagai markdown biasa: tambahkan `.md` pada URL mana pun, atau
+gunakan tombol **Salin halaman** di bagian atas halaman. Seluruh manual ada di
+[`/id/llms-full.txt`](/id/llms-full.txt), dan petanya di [`/id/llms.txt`](/id/llms.txt). Lihat
+[Menggunakan dokumentasi ini dengan alat AI](/id/help/for-ai-tools/).

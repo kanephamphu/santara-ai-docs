@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 276" width="660" height="276" role="img" aria-label="Workspace, property, room">
+  <title>Workspace, property, room</title>
+  <rect x="16" y="16" width="400" height="240" rx="10" fill="var(--santara-surface, #f8f9fb)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="32" y="40" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="650" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="start">WORKSPACE</text>
+  <rect x="32" y="54" width="368" height="186" rx="10" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="48" y="78" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="650" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Villa Melati</text>
+  <text x="48" y="96" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="start">address · wifi · house rules · cleaning cluster</text>
+  <rect x="48" y="110" width="336" height="34" rx="8" fill="var(--santara-surface, #f8f9fb)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="64" y="132" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Garden Room</text>
+  <text x="368" y="132" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="end">rate plan · $120</text>
+  <rect x="48" y="152" width="336" height="34" rx="8" fill="var(--santara-surface, #f8f9fb)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="64" y="174" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Pool Room</text>
+  <text x="368" y="174" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="end">rate plan · $150</text>
+  <rect x="48" y="194" width="336" height="34" rx="8" fill="var(--santara-surface, #f8f9fb)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="64" y="216" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Loft</text>
+  <text x="368" y="216" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="end">rate plan · $95</text>
+  <rect x="456" y="90" width="188" height="120" rx="10" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-text-accent, #1440e0)" stroke-width="1"/>
+  <text x="472" y="116" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="650" fill="var(--sl-color-text-accent, #1440e0)" text-anchor="start">LISTINGS</text>
+  <text x="472" y="140" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="start">Airbnb listing</text>
+  <text x="472" y="160" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="start">Booking.com room</text>
+  <text x="472" y="180" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="start">Your booking site</text>
+  <path d="M456 154 L392 154" stroke="var(--sl-color-text-accent, #1440e0)" stroke-width="1.5" fill="none"/><path d="M391 149.5 L400 154 L391 158.5 Z" fill="var(--sl-color-text-accent, #1440e0)"/>
+  <text x="428" y="138" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10" font-weight="400" fill="var(--sl-color-text-accent, #1440e0)" text-anchor="middle">one to one</text>
+</svg>

@@ -1,0 +1,19 @@
+---
+/*
+ * The default head, plus the machine-readable pointers.
+ *
+ * `rel="alternate" type="text/markdown"` is how a crawler finds the .md twin without guessing,
+ * and the llms.txt link is the site-level equivalent. Both are cheap and both are the reason
+ * an answer engine can quote this documentation correctly.
+ */
+import Default from "@astrojs/starlight/components/Head.astro";
+
+const locale = Astro.currentLocale ?? "en";
+const path = Astro.url.pathname.replace(/\/$/, "");
+const markdown = `${path === "" ? "/index" : path}.md`;
+const llms = locale === "en" ? "/llms.txt" : `/${locale}/llms.txt`;
+---
+
+<Default><slot /></Default>
+<link rel="alternate" type="text/markdown" href={markdown} title="This page as markdown" />
+<link rel="alternate" type="text/plain" href={llms} title="llms.txt" />

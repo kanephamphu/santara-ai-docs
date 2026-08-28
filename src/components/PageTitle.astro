@@ -1,0 +1,12 @@
+---
+/* Starlight's page title, with the "copy for LLM" actions beside it. */
+import PageActions from "./PageActions.astro";
+
+const { entry } = Astro.locals.starlightRoute;
+---
+
+<div class="title-row">
+  <h1 id="_top">{entry.data.title}</h1>
+  <PageActions />
+</div>
+{entry.data.description && <p class="page-lead">{entry.data.description}</p>}

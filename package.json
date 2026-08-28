@@ -1,0 +1,24 @@
+{
+  "name": "aircierge-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Santara AI documentation \u2014 docs.santara.ai",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "verify:docs": "node scripts/verify-docs.mjs",
+    "build:diagrams": "node scripts/build-diagrams.mjs",
+    "predev": "npm run build:diagrams",
+    "prebuild": "npm run build:diagrams"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.36.0",
+    "astro": "^5.16.0",
+    "sharp": "^0.34.2",
+    "unist-util-visit": "^5.0.0"
+  }
+}

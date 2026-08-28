@@ -1,0 +1,73 @@
+---
+title: Santara AI documentation
+description: Connect your channels, work the day, price the year, and get paid — the whole product, explained.
+template: splash
+hero:
+  tagline: AI operations management software for short-term rentals. One workspace for your channels, your calendar, your guests, your team and your books.
+  image:
+    file: ../../assets/santara-mark.svg
+  actions:
+    - text: Get set up in 30 minutes
+      link: /start/quickstart/
+      icon: right-arrow
+      variant: primary
+    - text: What Santara AI does
+      link: /start/
+      icon: open-book
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## New here?
+
+<CardGrid>
+  <LinkCard
+    title="Quickstart"
+    href="/start/quickstart/"
+    description="Connect a channel, import your listings, check the details, go live. Half an hour, most of it waiting."
+  />
+  <LinkCard
+    title="How Santara is put together"
+    href="/start/concepts/"
+    description="Workspace, property, room, rate plan, listing, connection — six words that explain every screen."
+  />
+  <LinkCard
+    title="Your first week"
+    href="/start/first-week/"
+    description="What to look at each morning, what to do weekly, and what you can safely ignore."
+  />
+  <LinkCard
+    title="Nothing goes live until you say so"
+    href="/channels/going-live/"
+    description="Importing a listing does not hand us your calendar. Read this before you connect anything."
+  />
+</CardGrid>
+
+## By what you are trying to do
+
+<CardGrid>
+  <Card title="Sell on Airbnb and Booking.com" icon="puzzle">
+    Connect an [Airbnb account](/channels/airbnb/) or a [Booking.com property](/channels/booking-com/), import
+    your listings, and keep one calendar instead of three.
+  </Card>
+  <Card title="Run the day" icon="rocket">
+    [Today and the daily brief](/daily/), [guest messages](/daily/messages/), [cleaning and maintenance](/daily/tasks/),
+    and the [calendar](/daily/calendar/).
+  </Card>
+  <Card title="Earn more per night" icon="setting">
+    [Smart pricing rules](/money/pricing/) that move your rates on their own, and
+    [upsells](/money/upsells/) spotted from the calendar before a guest asks.
+  </Card>
+  <Card title="Take direct bookings" icon="laptop">
+    A [commission-free booking site](/setup/booking-site/) on your own subdomain, paid into your own
+    Stripe account.
+  </Card>
+</CardGrid>
+
+## Reading this with an AI tool
+
+Every page is also plain markdown: add `.md` to any URL, or use the **Copy page** button at the
+top of a page. The whole manual is at [`/llms-full.txt`](/llms-full.txt), and the map of it is at
+[`/llms.txt`](/llms.txt). Indonesian and Vietnamese have their own copies at `/id/llms.txt` and
+`/vi/llms.txt`. See [Using these docs with AI tools](/help/for-ai-tools/).
