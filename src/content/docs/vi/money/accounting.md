@@ -2,7 +2,7 @@
 title: Kế toán và bảng kê chủ sở hữu
 description: Chi phí theo từng bất động sản, hợp đồng quản lý, và bảng kê có thể gửi cho chủ sở hữu mà không cần bảng tính.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Kế toán là phía chi phí. Nếu bạn quản lý villa cho người khác, đây cũng là cách họ được thanh toán.

@@ -2,7 +2,7 @@
 title: Menggunakan dokumentasi ini dengan alat AI
 description: Setiap halaman sebagai markdown bersih, plus llms.txt dan llms-full.txt dalam tiga bahasa.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Dokumentasi ini ditulis dalam markdown dan diterbitkan sebagai markdown. Jika Anda ingin memberikan

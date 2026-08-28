@@ -2,7 +2,7 @@
 title: Workspace settings
 description: Language, timezone, currency, notifications, message templates — the things you set once.
 sidebar:
-  order: 5
+  order: 7
 ---
 
 **Settings** is one page with tabs. Two of them are about **you** and follow you between
@@ -76,12 +76,12 @@ bookings and you are not notified about them — only about what happens after y
 
 ## Message templates
 
-Saved replies with placeholders that fill themselves in from the stay: guest name, check-in time,
-wifi password, door code, the amount due. Write them once per language you answer in, and use them
-from any thread in [Messages](/daily/messages/).
+Saved replies with placeholders that fill themselves in from the stay — guest name, check-in time,
+wifi password, door code, the amount due. Shared by the workspace, so an answer your team agreed on
+is the answer everyone sends.
 
-Templates are shared by the workspace, so an answer your team agreed on is the answer everyone
-sends.
+Writing them, previewing against a real reservation, and the five you start with:
+**[Message templates](/setup/message-templates/)**.
 
 ## Switching workspaces
 

@@ -77,3 +77,6 @@ iframe you supply. Pick the language guests see first — they can still switch.
 
 A site that lists your rooms with live availability and live prices from the same calendar the
 channels use. A direct booking closes those nights everywhere, exactly like a channel booking.
+
+What guests send you back — contact-form enquiries, and requests to book on request-mode
+properties — is **[Enquiries and booking requests](/setup/booking-site-requests/)**.

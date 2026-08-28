@@ -2,7 +2,7 @@
 title: On your phone
 description: What the mobile app will do, what the web app already does on a phone, and how cleaners work today.
 sidebar:
-  order: 6
+  order: 8
 ---
 
 Hosting does not happen at a desk. It happens in a doorway with a guest waiting, between two

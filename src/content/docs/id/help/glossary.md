@@ -2,7 +2,7 @@
 title: Glosarium
 description: Setiap istilah yang dipakai Santara di layar, dalam satu tempat.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 **ADR** — tarif harian rata-rata. Pendapatan dibagi malam yang terjual.

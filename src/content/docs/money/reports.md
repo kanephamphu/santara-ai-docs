@@ -2,7 +2,7 @@
 title: Reports
 description: Revenue, occupancy, upsell capture and operational reliability — as owner-ready summaries and as CSV.
 sidebar:
-  order: 3
+  order: 4
 ---
 
 Reports answer "how did we do", for you and for the people you answer to.

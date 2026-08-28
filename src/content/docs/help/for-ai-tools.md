@@ -2,7 +2,7 @@
 title: Using these docs with AI tools
 description: Every page as clean markdown, plus llms.txt and llms-full.txt in all three languages.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 This documentation is written in markdown and published as markdown. If you want to hand a page to

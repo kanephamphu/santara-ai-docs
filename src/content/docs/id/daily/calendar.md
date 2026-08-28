@@ -2,7 +2,7 @@
 title: Kalender
 description: Setiap malam di setiap kamar, dengan harga, minimum menginap, dan ketersediaan yang bisa diubah langsung di grid.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Kamar di kiri, tanggal di atas, masa menginap digambar sebagai batang. Gulir ke samping untuk memuat

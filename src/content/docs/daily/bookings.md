@@ -2,7 +2,7 @@
 title: Bookings
 description: The reservation feed as it arrives, and everything behind one stay — the guest, the money, the history.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 **Bookings** is the feed: every reservation across every channel, newest first, with the room,
@@ -50,7 +50,7 @@ their messages, their reviews, and a score summarising how they have been to hos
 are recognised across channels where the channel gives us enough to match on.
 
 Use it before replying to a complaint from someone on their fourth stay — the answer is usually
-different.
+different. See **[Guests](/daily/guests/)** for the score, the attention ordering and the trends.
 
 ## Money definitions
 

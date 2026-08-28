@@ -2,7 +2,7 @@
 title: Đặt phòng
 description: Dòng đặt phòng khi chúng đến, và mọi thứ phía sau một lượt lưu trú — khách, tiền, lịch sử.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 **Đặt phòng** là dòng chảy: mọi lượt đặt từ mọi kênh, mới nhất trước, kèm phòng, ngày, kênh và giá trị.
@@ -46,6 +46,7 @@ giá, và điểm tóm tắt trải nghiệm đón họ. Khách quay lại đư�
 dữ liệu để đối chiếu.
 
 Hãy dùng nó trước khi trả lời lời phàn nàn của một người đang ở lần thứ tư — câu trả lời thường khác.
+Xem **[Khách](/vi/daily/guests/)** để biết điểm số, thứ tự ưu tiên và các xu hướng.
 
 ## Định nghĩa về tiền
 

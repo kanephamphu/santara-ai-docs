@@ -2,7 +2,7 @@
 title: Plans and billing
 description: A 7-day trial, per-property pricing that gets cheaper as you add doors, and no commission on any booking.
 sidebar:
-  order: 4
+  order: 6
 ---
 
 **Settings → Billing**. The figures shown there are authoritative for your workspace — this page

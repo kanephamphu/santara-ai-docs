@@ -2,7 +2,7 @@
 title: Gói và thanh toán
 description: Dùng thử 7 ngày, tính phí theo từng bất động sản với đơn giá giảm dần, và không hoa hồng trên bất kỳ lượt đặt nào.
 sidebar:
-  order: 4
+  order: 6
 ---
 
 **Cài đặt → Thanh toán**. Các con số ở đó là con số có hiệu lực cho workspace của bạn — trang này giải

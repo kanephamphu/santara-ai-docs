@@ -2,7 +2,7 @@
 title: Lịch
 description: Mọi đêm ở mọi phòng, với giá, số đêm tối thiểu và tình trạng trống chỉnh sửa ngay trên lưới.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Phòng ở bên trái, ngày chạy ngang phía trên, lượt lưu trú vẽ thành thanh. Cuộn ngang để nạp thêm ngày;

@@ -2,7 +2,7 @@
 title: Mendapatkan bantuan
 description: Asisten, dukungan manusia, dan apa yang perlu disertakan agar balasan pertama langsung berguna.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Tiga tempat, berurutan

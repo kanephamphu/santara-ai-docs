@@ -12,6 +12,9 @@ anything goes out.
 Nothing is priced automatically until you assign a rule set to a listing. A listing with no rules
 keeps whatever price it has.
 
+To set one night by hand — or a minimum stay, or how many units are sellable — see
+**[Rates and availability](/money/rates/)**.
+
 ![A rule set on the Rules tab: seasons with their multipliers and weekend strength. This one is a Santara template, which is why it is read-only until you make your own copy.](/screens/pricing.en.png)
 
 ## The two halves

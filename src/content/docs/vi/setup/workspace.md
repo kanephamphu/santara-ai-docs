@@ -2,7 +2,7 @@
 title: Cài đặt workspace
 description: Ngôn ngữ, múi giờ, tiền tệ, thông báo, mẫu tin nhắn — những thứ bạn đặt một lần.
 sidebar:
-  order: 5
+  order: 7
 ---
 
 **Cài đặt** là một trang với nhiều tab. Hai tab thuộc về **bạn** và đi theo bạn giữa các workspace;
@@ -75,11 +75,12 @@ bạn không nhận thông báo về chúng — chỉ về những gì xảy ra 
 
 ## Mẫu tin nhắn
 
-Câu trả lời đã lưu với chỗ điền tự lấy từ lượt lưu trú: tên khách, giờ nhận phòng, mật khẩu wifi, mã
-cửa, số tiền phải trả. Viết một lần cho mỗi ngôn ngữ bạn dùng, rồi dùng từ bất kỳ luồng nào trong
-[Tin nhắn](/vi/daily/messages/).
+Câu trả lời đã lưu với chỗ giữ tự điền từ lượt lưu trú — tên khách, giờ nhận phòng, mật khẩu wifi, mã
+cửa, số tiền phải trả. Dùng chung trong workspace, nên câu trả lời cả đội đã thống nhất là câu trả lời
+mọi người gửi.
 
-Mẫu được dùng chung trong workspace, nên câu trả lời cả đội đã thống nhất là câu trả lời mọi người gửi.
+Cách viết, xem trước với một lượt đặt có thật, và năm mẫu có sẵn:
+**[Mẫu tin nhắn](/vi/setup/message-templates/)**.
 
 ## Chuyển workspace
 

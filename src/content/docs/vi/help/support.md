@@ -2,7 +2,7 @@
 title: Nhận trợ giúp
 description: Trợ lý, hỗ trợ từ người thật, và cần đưa gì vào để câu trả lời đầu tiên đã hữu ích.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Ba nơi, theo thứ tự

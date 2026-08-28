@@ -2,7 +2,7 @@
 title: Getting help
 description: The assistant, human support, and what to include so the first reply is the useful one.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Three places, in order

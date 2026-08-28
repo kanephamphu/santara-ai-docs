@@ -2,7 +2,7 @@
 title: Pengaturan workspace
 description: Bahasa, zona waktu, mata uang, notifikasi, template pesan — hal-hal yang diatur sekali.
 sidebar:
-  order: 5
+  order: 7
 ---
 
 **Pengaturan** adalah satu halaman dengan tab. Dua di antaranya tentang **Anda** dan mengikuti Anda
@@ -76,12 +76,12 @@ dan Anda tidak dinotifikasi soal itu — hanya soal yang terjadi setelah Anda te
 
 ## Template pesan
 
-Balasan tersimpan dengan placeholder yang terisi sendiri dari data menginap: nama tamu, jam check-in,
-kata sandi wifi, kode pintu, jumlah tagihan. Tulis sekali per bahasa yang Anda gunakan, lalu pakai
-dari utas mana pun di [Pesan](/id/daily/messages/).
+Balasan tersimpan dengan placeholder yang terisi sendiri dari data menginap — nama tamu, jam
+check-in, kata sandi wifi, kode pintu, jumlah tagihan. Dipakai bersama oleh workspace, jadi jawaban
+yang disepakati tim adalah jawaban yang dikirim semua orang.
 
-Template dipakai bersama oleh workspace, jadi jawaban yang disepakati tim adalah jawaban yang dikirim
-semua orang.
+Cara menulisnya, pratinjau terhadap reservasi nyata, dan lima template bawaannya:
+**[Template pesan](/id/setup/message-templates/)**.
 
 ## Berpindah workspace
 

@@ -2,7 +2,7 @@
 title: Ulasan
 description: Ulasan tamu dari semua channel di satu tempat, balasan Anda diterbitkan langsung, dan ulasan yang Anda tulis tentang tamu.
 sidebar:
-  order: 6
+  order: 8
 ---
 
 Setiap ulasan yang tamu tinggalkan, dari setiap channel terhubung, dalam satu daftar — dengan yang

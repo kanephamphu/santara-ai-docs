@@ -2,7 +2,7 @@
 title: Trên điện thoại
 description: Ứng dụng di động sẽ làm gì, ứng dụng web đã làm được gì trên điện thoại, và nhân viên dọn phòng làm việc thế nào hôm nay.
 sidebar:
-  order: 6
+  order: 8
 ---
 
 Việc cho thuê không diễn ra ở bàn làm việc. Nó diễn ra ngay trước cửa khi khách đang đợi, trên đường

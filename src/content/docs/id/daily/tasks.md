@@ -48,33 +48,13 @@ pintu bangunan lain. Lihat [Tim dan peran](/id/setup/team/).
 
 ## Tiket
 
-**Tiket** adalah apa pun yang perlu diperbaiki atau dikejar: AC rusak, keluhan tamu, pemasok yang
-harus dihubungi.
+Separuh lainnya dari layar ini: keluhan dan perawatan, dilacak dari terbuka sampai selesai.
+Sebagian besar terbuka **dengan sendirinya** dari pesan tamu yang terbaca sebagai keluhan atau
+kerusakan, dan tiket yang dijadwalkan digambar di [kalender](/id/daily/calendar/) sehingga perbaikan
+dua hari terlihat berdampingan dengan booking di sekitarnya.
 
-Tiket terbuka **dengan sendirinya** dari pesan tamu yang terbaca sebagai keluhan atau masalah
-perawatan, dan Anda bisa membuatnya manual dari layar tiket atau langsung dari
-[kalender](/id/daily/calendar/).
-
-Tiga hal tentang tiket otomatis yang perlu diketahui, karena inilah yang mencegah daftarnya menjadi
-kebisingan:
-
-- **Satu utas, satu tiket, selamanya.** Berapa kali pun klasifikasi berjalan, percakapan yang sudah
-  menghasilkan tiket tidak akan menghasilkan yang kedua.
-- **Hanya dua minggu terakhir.** Utas yang tidak disentuh siapa pun selama dua minggu adalah riwayat,
-  bukan pekerjaan.
-- **Tidak membanjir di hari pertama.** Menghubungkan riwayat pesan setahun tidak membuka tiga ratus
-  tiket; hanya yang terbaru dan masih bisa ditindaklanjuti yang dibuat.
-
-Tiap tiket punya:
-
-- **Status** — dari terbuka sampai selesai.
-- **Penanggung jawab** — anggota tim.
-- **Jadwal** — beri rentang tanggal dan tiket **digambar di kalender**, sehingga perbaikan dua hari
-  terlihat berdampingan dengan booking di sekitarnya.
-- **Rencana penyelesaian AI**, bila diminta — dugaan penyebab dan rencana langkah demi langkah.
-
-Tiket bersifat internal. Tamu tidak pernah melihatnya, bahkan tiket yang dibuka dari pesan mereka
-sendiri.
+Detail lengkap — tiket otomatis, rencana penyelesaian AI, siapa yang bisa melihatnya — ada di
+**[Tiket](/id/daily/tickets/)**.
 
 ## Obrolan tim
 

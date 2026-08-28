@@ -78,3 +78,7 @@ iframe peta yang Anda berikan. Pilih bahasa yang pertama dilihat tamu — mereka
 
 Situs yang menampilkan kamar Anda dengan ketersediaan dan harga langsung dari kalender yang sama
 dengan channel. Booking langsung menutup malam itu di mana-mana, persis seperti booking channel.
+
+Apa yang dikirim balik oleh tamu — pertanyaan dari formulir kontak, dan permintaan booking pada
+properti mode permintaan — ada di
+**[Pertanyaan dan permintaan booking](/id/setup/booking-site-requests/)**.

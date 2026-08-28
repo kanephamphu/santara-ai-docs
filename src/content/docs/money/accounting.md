@@ -2,7 +2,7 @@
 title: Accounting and owner statements
 description: Costs against each property, management agreements, and a statement an owner can be sent without a spreadsheet.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Accounting is the cost side. If you manage villas for other people, it is also how they get paid.

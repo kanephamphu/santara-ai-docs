@@ -2,7 +2,7 @@
 title: Glossary
 description: Every term Santara uses on screen, in one place.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 **ADR** — average daily rate. Revenue divided by the nights that sold.

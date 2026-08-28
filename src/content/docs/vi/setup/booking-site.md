@@ -77,3 +77,7 @@ bạn cung cấp. Chọn ngôn ngữ khách thấy đầu tiên — họ vẫn �
 
 Một website liệt kê phòng của bạn với tình trạng trống và giá trực tiếp từ chính cuốn lịch mà các kênh
 đang dùng. Một lượt đặt trực tiếp sẽ đóng những đêm đó ở mọi nơi, y như đặt phòng qua kênh.
+
+Những gì khách gửi lại cho bạn — câu hỏi từ biểu mẫu liên hệ, và yêu cầu đặt phòng trên các bất động
+sản ở chế độ yêu cầu — nằm ở
+**[Câu hỏi và yêu cầu đặt phòng](/vi/setup/booking-site-requests/)**.

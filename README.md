@@ -168,6 +168,12 @@ text or `role`), `css` for controls with no useful accessible name, `up: n` to m
 when the text you can find is a caption inside the card you want, and `expand` as the explicit
 escape hatch in pixels per edge — used where the DOM simply has no ancestor meaning "this card".
 
+**If every box sits slightly below its target, check `margin` on `.callouts`.** Starlight spaces
+stacked block elements with a `* + *` top margin, and an absolutely positioned element still
+honours its margins — so the overlay sat 16px below the image it is meant to cover exactly, and
+every red box pointed just under its button while the coordinates were right the whole time.
+`src/styles/santara.css` resets it.
+
 **Two callouts whose boxes are close together will collide**, because each pill is sized from its
 string and both are drawn outside their box. Box the pair together with one label instead; that is
 usually the better instruction anyway.

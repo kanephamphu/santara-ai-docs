@@ -2,7 +2,7 @@
 title: Booking
 description: Aliran reservasi begitu tiba, dan semua di balik satu masa menginap — tamunya, uangnya, riwayatnya.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 **Booking** adalah alirannya: setiap reservasi dari setiap channel, terbaru di atas, lengkap dengan
@@ -48,7 +48,8 @@ pesannya, ulasannya, dan skor yang merangkum pengalaman menerimanya. Tamu berula
 channel bila channel memberi cukup data untuk mencocokkan.
 
 Gunakan ini sebelum membalas keluhan dari seseorang yang sedang menginap untuk keempat kalinya —
-jawabannya biasanya berbeda.
+jawabannya biasanya berbeda. Lihat **[Tamu](/id/daily/guests/)** untuk skor, urutan perhatian, dan
+trennya.
 
 ## Definisi uang
 

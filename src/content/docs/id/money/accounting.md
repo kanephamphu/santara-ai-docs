@@ -2,7 +2,7 @@
 title: Akuntansi dan laporan pemilik
 description: Biaya per properti, perjanjian pengelolaan, dan laporan yang bisa dikirim ke pemilik tanpa spreadsheet.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Akuntansi adalah sisi biaya. Jika Anda mengelola vila milik orang lain, ini juga cara mereka dibayar.

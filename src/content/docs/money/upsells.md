@@ -2,7 +2,7 @@
 title: Upsells
 description: Late checkouts, early arrivals and extra nights found in the calendar and offered before the guest thinks to ask.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 An upsell is a night or an hour you already have, sold to a guest who is already staying. Santara

@@ -2,7 +2,7 @@
 title: Upsell
 description: Late check-out, kedatangan awal, dan malam tambahan yang ditemukan dari kalender dan ditawarkan sebelum tamu memikirkannya.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Upsell adalah malam atau jam yang sudah Anda miliki, dijual kepada tamu yang sudah menginap. Santara

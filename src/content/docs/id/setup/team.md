@@ -2,7 +2,7 @@
 title: Tim dan peran
 description: Undang co-host, manajer, dan petugas kebersihan, lalu berikan masing-masing bagian workspace yang mereka butuhkan.
 sidebar:
-  order: 3
+  order: 5
 ---
 
 **Pengaturan → Tim**. Undangan dikirim lewat email berupa tautan. Jika orangnya belum punya akun, ia

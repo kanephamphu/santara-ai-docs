@@ -2,7 +2,7 @@
 title: Báo cáo
 description: Doanh thu, công suất, hiệu quả upsell và độ tin cậy vận hành — dưới dạng bản tóm tắt gửi được cho chủ sở hữu và dưới dạng CSV.
 sidebar:
-  order: 3
+  order: 4
 ---
 
 Báo cáo trả lời câu "chúng ta làm ăn thế nào", cho bạn và cho những người bạn phải báo cáo.

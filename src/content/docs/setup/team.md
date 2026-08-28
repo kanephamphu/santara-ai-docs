@@ -2,7 +2,7 @@
 title: Team and roles
 description: Invite co-hosts, managers and cleaners, and give each of them exactly the part of the workspace they need.
 sidebar:
-  order: 3
+  order: 5
 ---
 
 **Settings → Team**. Invitations are sent by email as a link. If the person has no account they

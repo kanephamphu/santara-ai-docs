@@ -48,32 +48,13 @@ See [Team and roles](/setup/team/).
 
 ## Tickets
 
-A **ticket** is anything that needs fixing or chasing: a broken air-conditioner, a guest complaint,
-a supplier to call.
+The other half of this screen: complaints and maintenance, tracked from open to done. Most open
+**by themselves** from guest messages that read as a complaint or a fault, and a scheduled ticket
+is drawn on the [calendar](/daily/calendar/) so a two-day repair is visible against the bookings
+around it.
 
-Tickets open **by themselves** from guest messages that read as complaints or maintenance issues,
-and you can create one by hand from the ticket screen or straight from the
-[calendar](/daily/calendar/).
-
-Three things about the automatic ones are worth knowing, because they are what stop the list
-becoming noise:
-
-- **One thread, one ticket, ever.** However many times the classification runs, a conversation that
-  already produced a ticket never produces a second.
-- **Only the last fortnight.** A thread nobody has touched in two weeks is history, not a job.
-- **They do not flood on day one.** Connecting a year of message history does not open three hundred
-  tickets; only the recent ones somebody can still act on are raised.
-
-Each ticket has:
-
-- **A status** — open through to done.
-- **An assignee** — a teammate.
-- **A schedule** — give it a date range and it is **drawn on the calendar**, so a two-day repair is
-  visible against the bookings around it.
-- **An AI resolution plan**, on request — a likely cause and a step-by-step plan, generated from
-  the ticket and the property's history. It is a starting point for whoever does the work.
-
-Tickets are internal. Guests never see them, even the ones opened from their own message.
+Full detail — the automatic ones, the AI resolution plan, who can see them — on
+**[Tickets](/daily/tickets/)**.
 
 ## Team chat
 

@@ -2,7 +2,7 @@
 title: Laporan
 description: Pendapatan, okupansi, capaian upsell, dan keandalan operasional — sebagai ringkasan siap kirim ke pemilik dan sebagai CSV.
 sidebar:
-  order: 3
+  order: 4
 ---
 
 Laporan menjawab "bagaimana hasil kita", untuk Anda dan untuk orang yang Anda laporkan.

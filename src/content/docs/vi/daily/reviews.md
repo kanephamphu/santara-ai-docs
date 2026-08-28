@@ -2,7 +2,7 @@
 title: Đánh giá
 description: Đánh giá của khách từ mọi kênh ở một chỗ, phản hồi của bạn xuất bản thẳng trở lại, và bài đánh giá bạn viết về khách.
 sidebar:
-  order: 6
+  order: 8
 ---
 
 Mọi đánh giá khách để lại, từ mọi kênh đã kết nối, trong một danh sách — với những cái chưa được phản

@@ -45,29 +45,12 @@ khác. Xem [Đội ngũ và vai trò](/vi/setup/team/).
 
 ## Ticket
 
-**Ticket** là bất cứ thứ gì cần sửa hoặc cần theo đuổi: máy lạnh hỏng, khách phàn nàn, nhà cung cấp
-cần gọi.
+Nửa còn lại của màn hình này: phàn nàn và bảo trì, theo dõi từ lúc mở đến lúc xong. Phần lớn tự mở
+từ tin nhắn khách đọc ra như lời phàn nàn hoặc một hỏng hóc, và một ticket đã lên lịch được vẽ lên
+[lịch](/vi/daily/calendar/) để đợt sửa hai ngày hiện rõ bên cạnh các lượt đặt xung quanh.
 
-Ticket **tự mở** từ tin nhắn khách đọc ra như lời phàn nàn hoặc sự cố bảo trì, và bạn có thể tạo thủ
-công từ màn hình ticket hoặc ngay trên [lịch](/vi/daily/calendar/).
-
-Ba điều về ticket tự động đáng biết, vì chúng là thứ giữ cho danh sách không thành tạp âm:
-
-- **Một luồng, một ticket, mãi mãi.** Dù việc phân loại chạy bao nhiêu lần, một hội thoại đã sinh ra
-  ticket sẽ không sinh ra ticket thứ hai.
-- **Chỉ hai tuần gần nhất.** Một luồng không ai đụng tới trong hai tuần là lịch sử, không phải việc.
-- **Không tràn ngập trong ngày đầu.** Kết nối cả năm lịch sử tin nhắn không mở ba trăm ticket; chỉ
-  những cái gần đây mà ai đó còn xử lý được mới được tạo.
-
-Mỗi ticket có:
-
-- **Trạng thái** — từ mở đến xong.
-- **Người phụ trách** — một thành viên.
-- **Lịch** — cho một khoảng ngày và ticket được **vẽ lên lịch**, để một đợt sửa hai ngày hiện ra cạnh
-  các lượt đặt xung quanh.
-- **Kế hoạch xử lý bằng AI**, khi được yêu cầu — nguyên nhân khả dĩ và kế hoạch từng bước.
-
-Ticket là nội bộ. Khách không bao giờ thấy, kể cả ticket mở từ chính tin nhắn của họ.
+Chi tiết đầy đủ — ticket tự động, kế hoạch xử lý bằng AI, ai thấy được — ở
+**[Ticket](/vi/daily/tickets/)**.
 
 ## Trò chuyện nội bộ
 

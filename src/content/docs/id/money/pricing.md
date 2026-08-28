@@ -12,6 +12,9 @@ dilakukannya sebelum ada yang keluar.
 Tidak ada yang diberi harga otomatis sampai Anda menetapkan rule set pada sebuah listing. Listing
 tanpa aturan mempertahankan harga yang ada.
 
+Untuk menetapkan satu malam secara manual — atau minimum menginap, atau berapa unit yang bisa dijual —
+lihat **[Tarif dan ketersediaan](/id/money/rates/)**.
+
 ![Sebuah rule set di tab Aturan: musim beserta pengali dan kekuatan akhir pekannya. Ini template Santara, karena itu hanya-baca sampai Anda membuat salinan sendiri.](/screens/pricing.id.png)
 
 ## Dua bagiannya

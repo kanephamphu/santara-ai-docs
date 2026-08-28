@@ -11,6 +11,9 @@ Bộ máy định giá của Santara tính ra giá cho mọi đêm sắp tới v
 Không gì được định giá tự động cho tới khi bạn gán một rule set cho một listing. Listing không có quy
 tắc thì giữ nguyên giá hiện tại.
 
+Để đặt một đêm cụ thể bằng tay — hoặc số đêm tối thiểu, hoặc bao nhiêu đơn vị bán được — xem
+**[Giá và tình trạng trống](/vi/money/rates/)**.
+
 ![Một rule set ở tab Quy tắc: các mùa cùng hệ số nhân và cường độ cuối tuần. Đây là mẫu của Santara, nên nó chỉ đọc cho tới khi bạn tạo bản sao của mình.](/screens/pricing.vi.png)
 
 ## Hai nửa

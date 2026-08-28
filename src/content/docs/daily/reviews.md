@@ -2,7 +2,7 @@
 title: Reviews
 description: Guest reviews from every channel in one place, your replies published straight back, and the review you write about a guest.
 sidebar:
-  order: 6
+  order: 8
 ---
 
 Every review guests left you, from every connected channel, in one list — with the ones still

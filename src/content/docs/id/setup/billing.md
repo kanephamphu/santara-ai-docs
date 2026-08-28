@@ -2,7 +2,7 @@
 title: Paket dan penagihan
 description: Uji coba 7 hari, harga per properti yang makin murah saat unit bertambah, dan tanpa komisi atas booking apa pun.
 sidebar:
-  order: 4
+  order: 6
 ---
 
 **Pengaturan → Penagihan**. Angka di sana adalah yang berlaku untuk workspace Anda — halaman ini
