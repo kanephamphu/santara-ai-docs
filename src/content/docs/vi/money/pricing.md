@@ -11,6 +11,8 @@ Bộ máy định giá của Santara tính ra giá cho mọi đêm sắp tới v
 Không gì được định giá tự động cho tới khi bạn gán một rule set cho một listing. Listing không có quy
 tắc thì giữ nguyên giá hiện tại.
 
+![Một rule set ở tab Quy tắc: các mùa cùng hệ số nhân và cường độ cuối tuần. Đây là mẫu của Santara, nên nó chỉ đọc cho tới khi bạn tạo bản sao của mình.](/screens/pricing.vi.png)
+
 ## Hai nửa
 
 **Quy tắc quyết định hình dạng của cả năm. Các con số của listing quyết định đó là hình dạng của cái

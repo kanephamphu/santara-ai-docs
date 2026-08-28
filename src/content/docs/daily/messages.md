@@ -9,6 +9,8 @@ One thread per guest conversation, from every connected channel. A reply you sen
 out through the channel the guest booked on — the guest sees it in the Airbnb or Booking.com app,
 as they expect to.
 
+![The inbox: one thread per guest conversation, ordered by what needs answering rather than by when it arrived.](/screens/messages.en.png)
+
 ## The inbox
 
 Threads are ordered by what needs attention, not by time. Each carries:

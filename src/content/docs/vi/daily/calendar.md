@@ -8,6 +8,8 @@ sidebar:
 Phòng ở bên trái, ngày chạy ngang phía trên, lượt lưu trú vẽ thành thanh. Cuộn ngang để nạp thêm ngày;
 đêm trống hiển thị giá của nó.
 
+![Lịch: mọi phòng ở bên trái, mọi đêm chạy ngang phía trên. Đêm trống hiển thị mức giá sẽ bán.](/screens/calendar.vi.png)
+
 ## Cách đọc
 
 - **Một thanh** là một lượt đặt. Màu cho biết kênh; nhãn hiển thị khách và doanh thu.

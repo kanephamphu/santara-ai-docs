@@ -12,6 +12,8 @@ dilakukannya sebelum ada yang keluar.
 Tidak ada yang diberi harga otomatis sampai Anda menetapkan rule set pada sebuah listing. Listing
 tanpa aturan mempertahankan harga yang ada.
 
+![Sebuah rule set di tab Aturan: musim beserta pengali dan kekuatan akhir pekannya. Ini template Santara, karena itu hanya-baca sampai Anda membuat salinan sendiri.](/screens/pricing.id.png)
+
 ## Dua bagiannya
 
 **Aturan menentukan bentuk tahun. Angka listing menentukan bentuk itu bentuk dari apa.**

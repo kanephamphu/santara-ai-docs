@@ -101,22 +101,80 @@ have seen, because nobody reviews the Indonesian screenshots.
 
 ### Screenshots
 
-There are none, deliberately, and adding them is a real decision rather than an obvious win:
+Eight screens, in three languages, as `public/screens/<id>.<locale>.png`. **They are captured by a
+script, never by hand** — a screenshot goes stale the first time a button moves, and readers trust
+a stale picture over the prose beside it, so the only version worth having is one that regenerates
+in a single command:
 
-- A screenshot goes stale the first time a button moves, and a stale screenshot is worse than none
-  — readers trust it over the words next to it.
-- Screenshots of the product require a signed-in workspace with believable data. Ours would have to
-  be a seeded demo account, or they leak a customer's guests, revenue and door codes.
-- They cannot be translated. One screenshot becomes three, each needing an account in that
-  language, or the Vietnamese page shows an English UI.
+```bash
+npm run capture:screens              # every screen, every locale
+npm run capture:screens -- calendar  # just one, while composing it
+```
 
-If you add them anyway, the shape is the same as the diagrams: `public/screens/<id>.<locale>.png`,
-referenced with markdown image syntax and real alt text, `@2x` source scaled to 1400px wide, and
-**no browser chrome** — crop to the panel being described. `verify:docs` will need its diagram
-rules pointed at that folder too. The pages where one would genuinely help are the listing mapping
-table in `channels/airbnb.md`, the rule editor in `money/pricing.md`, and the cleaning board in
-`daily/tasks.md`;
-everywhere else the words are doing the work.
+`scripts/capture-screens.mjs` drives a headless Chromium: it signs in, defers the 19-step product
+tour (which otherwise puts a coach mark over whatever the caption is pointing at), forces light
+theme through the `aircierge_theme` cookie, and captures at 2x. Locale costs a page load, not a
+login — the whole dashboard follows the `aircierge_locale` cookie, so the three languages are one
+loop.
+
+**The workspace is seeded, never a customer's.** `scripts/seed-docs-demo.mts` in the `aircierge`
+repo builds one tenant of invented data in the dev database — three Bali villas, guests who do not
+exist — composed so each screen has something worth photographing: two checkouts today so the
+cleaning board is not empty, a deliberate two-night gap next week so the calendar shows the hole
+upsells exist for, an unanswered thread so the inbox has something at the top. Villa Melati is
+three rooms because that is the worked example in the object-model diagram; the picture and the
+drawing agree on purpose.
+
+Credentials live in `.env.capture` (gitignored) or the environment, never in the repo:
+
+```bash
+echo 'SANTARA_DEMO_PASSWORD=…' >> .env.capture
+```
+
+`verify:docs` fails on a screenshot that is missing, has no alt text, or — the one that matters —
+**carries another locale's suffix**. An English screenshot on a Vietnamese page renders perfectly
+and shows the reader an interface they will never see.
+
+#### Callouts
+
+The red boxes and labels are **never painted into the pixels**. A shot declares its callouts by
+selector; at capture time Playwright reads each target's bounding box out of the page it just
+photographed and writes them to a sibling `<id>.<locale>.json`, and
+`src/lib/rehype-figures.ts` draws them as an SVG over the `<img>` at render time:
+
+```js
+{
+  id: "tasks",
+  callouts: [
+    { find: /To clean today|Perlu dibersihkan|Cần dọn hôm nay/i,
+      up: 1, expand: { top: 40, left: 62, right: 300 },
+      label: { en: "Turnovers due today", id: "…", vi: "…" } },
+  ],
+}
+```
+
+That indirection buys three things a drawn-on arrow cannot: **the annotation survives a
+recapture** — move the button, rerun, the box follows; **the label is translated** like any other
+string instead of being retyped inside an image editor three times; and **a box can never
+silently drift onto the wrong element** — if the selector matches nothing the callout is skipped
+and the run says so, rather than pointing confidently at the wrong thing.
+
+Measuring per locale is not redundant. The Indonesian tile box comes out 536px wide against
+English's 468 because the caption is longer, and the Indonesian row box starts 32px further left.
+Reusing English coordinates would put every box slightly wrong in two languages out of three.
+
+Locating targets, in order of preference: `find` (a regex covering all three languages, matched on
+text or `role`), `css` for controls with no useful accessible name, `up: n` to measure an ancestor
+when the text you can find is a caption inside the card you want, and `expand` as the explicit
+escape hatch in pixels per edge — used where the DOM simply has no ancestor meaning "this card".
+
+**Two callouts whose boxes are close together will collide**, because each pill is sized from its
+string and both are drawn outside their box. Box the pair together with one label instead; that is
+usually the better instruction anyway.
+
+Two screens are **not** captured and cannot be: the Airbnb listing-mapping table and the go-live
+review only exist after a real OAuth authorization against a real host account. Those pages keep
+prose and diagrams.
 
 ## The markdown / LLM surface
 

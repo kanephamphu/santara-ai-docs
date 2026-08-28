@@ -12,6 +12,8 @@ anything goes out.
 Nothing is priced automatically until you assign a rule set to a listing. A listing with no rules
 keeps whatever price it has.
 
+![A rule set on the Rules tab: seasons with their multipliers and weekend strength. This one is a Santara template, which is why it is read-only until you make your own copy.](/screens/pricing.en.png)
+
 ## The two halves
 
 **The rules decide the shape of the year. The listing's numbers decide what it is a shape of.**

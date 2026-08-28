@@ -23,6 +23,7 @@ import { join, relative } from "node:path";
 
 const ROOT = new URL("../src/content/docs/", import.meta.url).pathname;
 const DIAGRAMS = new URL("../public/diagrams/", import.meta.url).pathname;
+const SCREENS = new URL("../public/screens/", import.meta.url).pathname;
 const LOCALES = ["id", "vi"];
 
 /** github-slugger's rules, for the subset of punctuation these pages actually use. */
@@ -80,8 +81,9 @@ const urls = new Map(
 for (const file of files) {
   const body = file.source.slice(file.front.length);
   for (const [, href, hash] of body.matchAll(/\]\((\/[^)#\s]*)(#[^)\s]*)?\)/g)) {
-    // .svg is an image — the diagram rules below check those, and they are not page routes.
-    if (href.endsWith(".txt") || href.endsWith(".md") || href.endsWith(".svg")) continue;
+    // Files, not page routes: .md/.txt are the machine-readable mirrors, and .svg/.png are
+    // figures — the diagram and screenshot rules below check those on their own terms.
+    if (/\.(txt|md|svg|png)$/.test(href)) continue;
     const normalized = href.endsWith("/") ? href : `${href}/`;
     const headings = urls.get(normalized);
     if (!headings) {
@@ -119,6 +121,25 @@ for (const file of files) {
     }
     if (!existsSync(join(DIAGRAMS, src.replace("/diagrams/", "")))) {
       problems.push(`${file.rel}: no such diagram — public${src}`);
+    }
+  }
+}
+
+// 4b. Screenshots — present, captioned, and captured in this page's own language
+for (const file of files) {
+  const body = file.source.slice(file.front.length);
+  for (const [, alt, src] of body.matchAll(/!\[([^\]]*)\]\((\/screens\/[^)\s]+)\)/g)) {
+    if (!alt.trim()) problems.push(`${file.rel}: screenshot ${src} has no alt text`);
+
+    // Same rule as the diagrams, and for a stronger reason: the product itself is translated,
+    // so an English screenshot on a Vietnamese page shows the reader an interface they will not
+    // see. It renders perfectly and teaches the wrong thing.
+    const suffix = /\.([a-z]{2})\.png$/.exec(src)?.[1];
+    if (suffix !== file.locale) {
+      problems.push(`${file.rel}: screenshot ${src} is not the ${file.locale} capture`);
+    }
+    if (!existsSync(join(SCREENS, src.replace("/screens/", "")))) {
+      problems.push(`${file.rel}: no such screenshot — public${src}`);
     }
   }
 }

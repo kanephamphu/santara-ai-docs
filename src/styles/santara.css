@@ -377,6 +377,64 @@ header.header {
   text-align: start;
 }
 
+/*
+ * Screenshots get a lighter frame than diagrams: a real screenshot already has its own edges,
+ * its own background and its own contrast, so a heavy border around one reads as a picture of a
+ * picture. The rounded clip and the hairline are there to stop a white app screenshot bleeding
+ * into a white page.
+ */
+
+.sl-markdown-content .screenshot {
+  margin: 1.75rem 0;
+}
+
+/* The positioning context for the callout overlay. */
+.sl-markdown-content .screenshot .shot {
+  position: relative;
+  display: block;
+}
+
+/*
+ * The overlay covers the image exactly. It shares the image's aspect ratio (the SVG's viewBox is
+ * the screenshot's own pixel size), so stretching it to the same box cannot distort it.
+ */
+.sl-markdown-content .screenshot .callouts {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /*
+   * margin: 0 IS THE WHOLE FIX for boxes that sit slightly below their target.
+   *
+   * Starlight spaces stacked block elements with a `* + *` top margin, and an absolutely
+   * positioned element still honours its margins — so the overlay was offset 16px down from the
+   * image it is meant to sit exactly on top of, and every red box pointed just under its button.
+   * The coordinates were right the whole time.
+   */
+  margin: 0;
+}
+
+.sl-markdown-content .screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 0.625rem;
+  box-shadow: 0 1px 2px rgb(11 25 48 / 0.06), 0 12px 28px rgb(11 25 48 / 0.06);
+}
+
+:root[data-theme="dark"] .sl-markdown-content .screenshot img {
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 28px rgb(0 0 0 / 0.3);
+}
+
+.sl-markdown-content .screenshot figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--sl-color-gray-3);
+}
+
 /* ── Footer / meta ───────────────────────────────────────────────────────────────────────── */
 
 .right-sidebar-panel h2 {

@@ -8,6 +8,8 @@ sidebar:
 **Tasks** is one screen for the work that has to happen in the physical world: cleans and
 maintenance jobs.
 
+![The cleaning board, grouped by day and then by building. Each card says whether it is a check-out clean or a prep, and who it is assigned to.](/screens/tasks.en.png)
+
 ## The cleaning board
 
 Cleans are laid out in **day columns** — today, tomorrow, the day after. Each card is one turnover:

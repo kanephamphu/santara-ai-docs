@@ -8,6 +8,8 @@ sidebar:
 **Booking** adalah alirannya: setiap reservasi dari setiap channel, terbaru di atas, lengkap dengan
 kamar, tanggal, channel, dan nilainya.
 
+![Aliran reservasi — setiap masa menginap dari setiap channel, terbaru di atas.](/screens/bookings.id.png)
+
 ## Membuka sebuah reservasi
 
 Klik reservasi mana pun untuk catatan lengkapnya:

@@ -8,6 +8,8 @@ sidebar:
 Mỗi hội thoại với khách là một luồng, từ mọi kênh đã kết nối. Trả lời bạn gửi ở đây sẽ đi ra qua đúng
 kênh khách đã đặt — khách thấy nó trong ứng dụng Airbnb hay Booking.com, như họ mong đợi.
 
+![Hộp thư: mỗi hội thoại với khách là một luồng, sắp theo việc cần trả lời chứ không theo thời điểm đến.](/screens/messages.vi.png)
+
 ## Hộp thư
 
 Các luồng được sắp theo mức cần chú ý, không theo thời gian. Mỗi luồng mang theo:

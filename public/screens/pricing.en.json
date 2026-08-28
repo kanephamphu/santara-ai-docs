@@ -1,0 +1,22 @@
+{
+  "width": 1440,
+  "height": 820,
+  "boxes": [
+    {
+      "x": 1056.828125,
+      "y": 214,
+      "width": 203.125,
+      "height": 56,
+      "label": "Copy before you can edit",
+      "side": "left"
+    },
+    {
+      "x": 282,
+      "y": 351,
+      "width": 1132,
+      "height": 465.5,
+      "label": "×1.85 = 85% above your base price",
+      "side": "right"
+    }
+  ]
+}

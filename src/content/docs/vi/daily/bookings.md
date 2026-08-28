@@ -7,6 +7,8 @@ sidebar:
 
 **Đặt phòng** là dòng chảy: mọi lượt đặt từ mọi kênh, mới nhất trước, kèm phòng, ngày, kênh và giá trị.
 
+![Dòng đặt phòng — mọi lượt lưu trú từ mọi kênh, mới nhất trước.](/screens/bookings.vi.png)
+
 ## Mở một lượt lưu trú
 
 Bấm vào bất kỳ lượt đặt nào để xem bản ghi đầy đủ:

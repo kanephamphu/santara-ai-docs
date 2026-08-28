@@ -30,6 +30,8 @@ changes a price on a channel that you did not either type or ask a pricing rule 
 | **VRBO** | Via the same channel manager | On the roadmap — it appears in Settings → Channels as a greyed card until it ships |
 | **PriceLabs** | Read-only detection: if you run PriceLabs, Santara's own pricing engine stands aside | Available |
 
+![Settings → Channels before anything is connected. Each channel is linked on its own and carries its own status and last-sync time.](/screens/channels.en.png)
+
 ## Connections and accounts
 
 A **connection** is one channel account. You can connect:

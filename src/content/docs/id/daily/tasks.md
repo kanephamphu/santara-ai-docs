@@ -7,6 +7,8 @@ sidebar:
 
 **Tugas** adalah satu layar untuk pekerjaan yang terjadi di dunia nyata: pembersihan dan perawatan.
 
+![Papan kebersihan, dikelompokkan per hari lalu per bangunan. Tiap kartu menyebut apakah itu pembersihan check-out atau persiapan, dan siapa petugasnya.](/screens/tasks.id.png)
+
 ## Papan kebersihan
 
 Pembersihan ditata dalam **kolom hari** — hari ini, besok, lusa. Tiap kartu adalah satu turnover:

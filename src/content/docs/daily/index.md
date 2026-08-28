@@ -8,6 +8,8 @@ sidebar:
 **Today** is the default screen. It has two halves: the **daily brief**, which is the day written
 out in sentences, and the metric tiles underneath, which are the numbers.
 
+![Today. The brief at the top says what needs a decision; the tiles under it are the numbers behind that.](/screens/today.en.png)
+
 ## The brief
 
 The brief is generated for your workspace each day, at the **time** and in the **language** you set

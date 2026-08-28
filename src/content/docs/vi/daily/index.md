@@ -8,6 +8,8 @@ sidebar:
 **Hôm nay** là màn hình mặc định. Nó có hai nửa: **bản tóm tắt hằng ngày**, tức là cả ngày được viết
 thành câu, và các thẻ chỉ số bên dưới, tức là các con số.
 
+![Hôm nay. Bản tóm tắt phía trên nói việc gì cần quyết định; các thẻ bên dưới là những con số phía sau nó.](/screens/today.vi.png)
+
 ## Bản tóm tắt
 
 Bản tóm tắt được tạo cho workspace của bạn mỗi ngày, vào **giờ** và bằng **ngôn ngữ** bạn đặt trong

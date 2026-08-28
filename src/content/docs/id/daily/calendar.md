@@ -8,6 +8,8 @@ sidebar:
 Kamar di kiri, tanggal di atas, masa menginap digambar sebagai batang. Gulir ke samping untuk memuat
 tanggal berikutnya; malam kosong menampilkan harganya.
 
+![Kalender: semua kamar di kiri, semua malam di atas. Malam kosong menampilkan harga jualnya.](/screens/calendar.id.png)
+
 ## Cara membacanya
 
 - **Batang** adalah reservasi. Warnanya menunjukkan channel; labelnya menampilkan tamu dan

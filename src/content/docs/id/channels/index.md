@@ -30,6 +30,8 @@ di channel yang tidak Anda ketik atau tidak dihitung oleh aturan pricing Anda.
 | **VRBO** | Lewat channel manager yang sama | Dalam roadmap — tampil sebagai kartu abu-abu di Pengaturan → Channel sampai rilis |
 | **PriceLabs** | Deteksi baca-saja: jika Anda memakai PriceLabs, mesin pricing Santara mengalah | Tersedia |
 
+![Pengaturan → Channel sebelum ada yang terhubung. Tiap channel ditautkan sendiri-sendiri dengan status dan waktu sinkron terakhirnya.](/screens/channels.id.png)
+
 ## Koneksi dan akun
 
 **Koneksi** adalah satu akun channel. Anda bisa menghubungkan:

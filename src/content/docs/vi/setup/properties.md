@@ -10,6 +10,8 @@ thứ khách đặt, thứ kênh ánh xạ tới, và thứ được tính phí.
 [Santara được cấu trúc thế nào](/vi/start/concepts/#bất-động-sản-rồi-phòng) nếu cách chia này còn mới
 với bạn.
 
+![Bất động sản: các tòa nhà của bạn, và những phòng bên trong mà khách thực sự đặt.](/screens/properties.vi.png)
+
 ## Tạo thủ công
 
 Bạn không cần kênh nào. **Bất động sản → Thêm bất động sản**, điền phần cơ bản, rồi thêm phòng đầu tiên

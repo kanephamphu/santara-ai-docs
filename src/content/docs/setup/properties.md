@@ -9,6 +9,8 @@ A **property** is a building or address. A **room** is a bookable unit inside it
 guests book, what channels map to, and what is billed. See
 [How Santara is put together](/start/concepts/#property-then-room) if that split is new to you.
 
+![Properties: your buildings, and the rooms inside them that guests actually book.](/screens/properties.en.png)
+
 ## Creating one by hand
 
 You do not need a channel. **Properties → Add property**, fill in the basics, then add its first

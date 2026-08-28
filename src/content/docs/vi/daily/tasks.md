@@ -7,6 +7,8 @@ sidebar:
 
 **Công việc** là một màn hình cho những việc diễn ra ngoài đời thật: dọn phòng và bảo trì.
 
+![Bảng dọn phòng, nhóm theo ngày rồi theo tòa nhà. Mỗi thẻ cho biết đó là ca dọn sau trả phòng hay chuẩn bị, và ai được giao.](/screens/tasks.vi.png)
+
 ## Bảng dọn phòng
 
 Các ca dọn được bày theo **cột ngày** — hôm nay, ngày mai, ngày kia. Mỗi thẻ là một turnover: phòng,

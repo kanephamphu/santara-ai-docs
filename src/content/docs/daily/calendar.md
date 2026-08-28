@@ -8,6 +8,8 @@ sidebar:
 Rooms down the left, dates across the top, stays drawn as bars. Scroll sideways to load more dates;
 free nights show their price.
 
+![The calendar: every room down the left, every night across the top. Free nights show the price they will sell at.](/screens/calendar.en.png)
+
 ## Reading it
 
 - **A bar** is a reservation. Its colour tells you the channel; its label shows the guest and the

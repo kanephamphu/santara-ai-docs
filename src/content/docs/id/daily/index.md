@@ -8,6 +8,8 @@ sidebar:
 **Hari ini** adalah layar bawaan. Ada dua bagian: **ringkasan harian**, yaitu hari itu ditulis dalam
 kalimat, dan kartu metrik di bawahnya, yaitu angkanya.
 
+![Hari ini. Ringkasan di atas menyampaikan apa yang butuh keputusan; kartu di bawahnya adalah angka di baliknya.](/screens/today.id.png)
+
 ## Ringkasan
 
 Ringkasan dibuat untuk workspace Anda setiap hari, pada **waktu** dan dalam **bahasa** yang Anda atur

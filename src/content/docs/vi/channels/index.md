@@ -30,6 +30,8 @@ giá trên kênh mà bạn không nhập hoặc không do quy tắc định giá
 | **VRBO** | Qua cùng channel manager | Trong lộ trình — hiện là thẻ xám trong Cài đặt → Kênh cho tới khi phát hành |
 | **PriceLabs** | Phát hiện chỉ-đọc: nếu bạn dùng PriceLabs, bộ máy định giá của Santara nhường bước | Có sẵn |
 
+![Cài đặt → Kênh trước khi kết nối bất cứ thứ gì. Mỗi kênh được liên kết riêng, với trạng thái và thời điểm đồng bộ cuối của nó.](/screens/channels.vi.png)
+
 ## Kết nối và tài khoản
 
 **Kết nối** là một tài khoản kênh. Bạn có thể kết nối:

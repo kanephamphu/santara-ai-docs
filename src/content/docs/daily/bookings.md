@@ -8,6 +8,8 @@ sidebar:
 **Bookings** is the feed: every reservation across every channel, newest first, with the room,
 the dates, the channel and the value.
 
+![The reservation feed — every stay from every channel, newest first.](/screens/bookings.en.png)
+
 ## Opening a stay
 
 Click any reservation for its full record:
