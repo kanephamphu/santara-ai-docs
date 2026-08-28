@@ -25,6 +25,8 @@ src/lib/docs-source.ts       the markdown, read as data (powers the .md twins an
 src/pages/[...slug].md.ts    every page's .md twin
 src/pages/llms*.txt.ts       llms.txt and llms-full.txt, per locale
 scripts/verify-docs.mjs      the pre-deploy check
+infrastructure/              the two CloudFormation stacks behind docs.santara.ai
+.github/workflows/           checks on every PR, deploy on merge to production
 ```
 
 Sections are directories, and the sidebar is generated from them — `start`, `channels`, `daily`,
@@ -131,11 +133,83 @@ footer of every page links to all three.
 
 ## Deploying
 
-**Amplify** — `amplify.yml` is the build spec. Set `DOCS_SITE_URL` (e.g.
-`https://docs.santara.ai`) in the app's environment variables; canonical URLs, the sitemap,
-`llms.txt` and every `Source:` line are built from it.
+`docs.santara.ai` is a private S3 bucket behind CloudFront, created and updated by CloudFormation.
+**Merging to `production` deploys it** — there is no manual step and no console clicking.
 
-**S3 + CloudFront** — `dist/` is a plain directory tree:
+```
+.github/workflows/deploy.yml      push to production -> build, deploy, sync, invalidate, smoke test
+.github/workflows/ci.yml          every PR -> the same build and checks, without AWS
+infrastructure/certificate.yaml   ACM certificate — us-east-1, because CloudFront takes it from nowhere else
+infrastructure/docs-site.yaml     bucket, OAC, distribution, index-rewrite function, DNS
+```
+
+### What the pipeline does, and why in that order
+
+1. **`verify:docs`, then build.** A dead link or an untranslated page fails the job before anything
+   touches AWS.
+2. **Two CloudFormation stacks.** The certificate in `us-east-1` (a region constraint, not a
+   preference), then the bucket and distribution in `ap-southeast-1` with that ARN passed in.
+   Both are idempotent — `--no-fail-on-empty-changeset` means an unchanged deploy is a no-op.
+3. **Sync, uploading before deleting.** Hashed `_astro/*` assets go up first and immutable for a
+   year; everything else gets `s-maxage=600`; `.md` and `.txt` get explicit content types. The
+   `--delete` pass runs last, so the site is never briefly missing a page.
+4. **Invalidate `/*` and wait for it.** The job goes green only once edges are serving the new
+   build.
+5. **Smoke test the live domain** — a page per locale, a markdown mirror, `llms.txt`, `robots.txt`,
+   and the trailing-slash redirect. Content types are asserted, not assumed: `.md` served as
+   `application/octet-stream` would make every Copy-page button hand the reader a download.
+
+### One-time setup
+
+1. **Create the `production` branch** and protect it. `main` is the working branch; merging
+   `main -> production` is the release.
+2. **Find the hosted zone id** for `santara.ai` — it is already in Route 53, which is what lets
+   ACM validate itself and the stack write its own DNS:
+
+   ```bash
+   aws route53 list-hosted-zones-by-name --dns-name santara.ai \
+     --query 'HostedZones[0].Id' --output text
+   ```
+
+3. **Configure the `production` environment** in GitHub (Settings -> Environments):
+
+   | Kind | Name | Value |
+   | --- | --- | --- |
+   | Variable | `SANTARA_HOSTED_ZONE_ID` | **Required.** From the command above, e.g. `Z0123456789ABCDEFGHIJ` |
+   | Variable | `AWS_REGION` | Optional, defaults to `ap-southeast-1` |
+   | Variable | `DOCS_DOMAIN` | Optional, defaults to `docs.santara.ai` |
+   | Variable | `DOCS_PRICE_CLASS` | Optional, defaults to `PriceClass_200` |
+   | Variable | `AWS_DEPLOY_ROLE_ARN` | Optional — see below |
+   | Secret | `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY` | Required unless using the role |
+
+   **Credentials, two ways.** Set `AWS_DEPLOY_ROLE_ARN` and the job assumes a role through GitHub's
+   OIDC provider, with no long-lived keys in the repo — the better option, and worth doing. Leave
+   it unset and it falls back to access keys, matching the other Santara repos so the first deploy
+   needs no IAM work. The workflow picks the path on its own.
+
+   The deploying identity needs: CloudFormation on the two stacks; `acm:*` on the certificate;
+   S3 bucket create/read/write plus `PutBucketPolicy`; CloudFront distribution, function,
+   response-headers-policy and OAC management; `cloudfront:CreateInvalidation`; and Route 53
+   `ChangeResourceRecordSets` on the santara.ai zone.
+
+4. **Merge to `production`.** The first run creates everything; the distribution takes ten to
+   fifteen minutes, and the smoke test retries while the edge settles.
+
+### The two things that break this deployment
+
+Both are handled in `infrastructure/docs-site.yaml`; they are written here because they are the
+first suspects if the site ever 404s everywhere:
+
+- **Directory indexes.** Pages are built as `/channels/airbnb/index.html` and linked as
+  `/channels/airbnb/`. S3's REST endpoint — the only one an Origin Access Control can lock down —
+  has no index document, so a CloudFront Function rewrites the request. It deliberately leaves
+  anything with a file extension alone, or `/channels/airbnb.md` would become a directory.
+- **Content types.** Set during the sync, not by guesswork. `.md` is `text/markdown`, `.txt` is
+  `text/plain`, both UTF-8.
+
+### Deploying by hand
+
+Only for a broken pipeline. Same steps, same order:
 
 ```bash
 DOCS_SITE_URL=https://docs.santara.ai npm run build
@@ -143,16 +217,8 @@ aws s3 sync dist/ s3://<bucket>/ --delete
 aws cloudfront create-invalidation --distribution-id <id> --paths '/*'
 ```
 
-Two things the distribution needs:
-
-- **Directory indexes.** URLs end in `/`, so `/channels/airbnb/` must serve
-  `/channels/airbnb/index.html`. On CloudFront that is a small viewer-request function (or
-  CloudFront Functions' built-in index rewrite); S3 website endpoints do it natively.
-- **Content types.** `.md` files must be served as `text/markdown` and `.txt` as `text/plain`,
-  both UTF-8. `aws s3 sync` guesses these correctly for `.txt`; set `.md` explicitly if your
-  tooling does not.
-
-Set a short cache TTL on `.md`, `.txt` and HTML, and a long one on `/_astro/*` (hashed).
+Note that a plain `sync` does **not** set the content types the workflow sets — read the
+`Sync to S3` step before relying on this.
 
 ## Search
 

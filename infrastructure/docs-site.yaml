@@ -1,0 +1,270 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+# docs.santara.ai — a private S3 bucket behind CloudFront.
+#
+# The whole site is static files (see astro.config.mjs), so there is nothing to run and nothing to
+# patch. What this template does buy, and what a plain public bucket would not:
+#
+#   * The bucket stays PRIVATE. CloudFront reaches it through an Origin Access Control and the
+#     bucket policy trusts only this distribution — so there is no second, unversioned way to read
+#     the site and no bucket to accidentally make public.
+#   * DIRECTORY INDEXES. The pages are built as /channels/airbnb/index.html and linked as
+#     /channels/airbnb/. S3's REST endpoint has no notion of an index document, so a CloudFront
+#     Function rewrites the request. Without it every page on the site 404s, which is the single
+#     most common way this deployment is got wrong.
+#   * CORS on GET. Every page has a `.md` twin and each locale an llms.txt; an answer engine
+#     fetching those cross-origin needs the header. It is the point of publishing them.
+#
+# The certificate comes from the us-east-1 stack — see infrastructure/certificate.yaml.
+
+Description: Static hosting for the Santara documentation site (S3 + CloudFront)
+
+Parameters:
+  DomainName:
+    Type: String
+    Default: docs.santara.ai
+
+  CertificateArn:
+    Type: String
+    Description: ACM certificate ARN from the us-east-1 certificate stack.
+    AllowedPattern: "^arn:aws[a-z-]*:acm:us-east-1:[0-9]{12}:certificate/.+$"
+    ConstraintDescription: must be an ACM certificate in us-east-1 — CloudFront accepts no other region.
+
+  HostedZoneId:
+    Type: String
+    Default: ""
+    Description: >-
+      Route 53 hosted zone for the parent domain. Leave blank to skip the DNS records and point
+      the domain at the distribution yourself — the stack still completes and outputs the target.
+
+  PriceClass:
+    Type: String
+    Default: PriceClass_200
+    AllowedValues: [PriceClass_100, PriceClass_200, PriceClass_All]
+    Description: >-
+      PriceClass_200 covers Asia, which PriceClass_100 does not — and the readers are in
+      Indonesia and Vietnam. Do not "save money" by dropping to 100.
+
+Conditions:
+  ManageDns: !Not [!Equals [!Ref HostedZoneId, ""]]
+
+Resources:
+  # ── Origin ─────────────────────────────────────────────────────────────────────────────────
+  Bucket:
+    Type: AWS::S3::Bucket
+    # Retain on delete: the bucket holds no state worth keeping (every object is rebuilt from the
+    # repo), but a stack deletion that silently discards the live site is not something to make
+    # easy. Empty and delete it deliberately.
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      OwnershipControls:
+        Rules:
+          - ObjectOwnership: BucketOwnerEnforced
+      Tags:
+        - Key: project
+          Value: santara-docs
+
+  BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref Bucket
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Sid: AllowThisDistributionOnly
+            Effect: Allow
+            Principal:
+              Service: cloudfront.amazonaws.com
+            Action: s3:GetObject
+            Resource: !Sub "${Bucket.Arn}/*"
+            Condition:
+              StringEquals:
+                # Scoped to THIS distribution, not to CloudFront in general: without the
+                # condition any CloudFront distribution in any account could read the bucket.
+                "AWS:SourceArn": !Sub "arn:${AWS::Partition}:cloudfront::${AWS::AccountId}:distribution/${Distribution}"
+
+  OriginAccessControl:
+    Type: AWS::CloudFront::OriginAccessControl
+    Properties:
+      OriginAccessControlConfig:
+        Name: !Sub "${AWS::StackName}-oac"
+        OriginAccessControlOriginType: s3
+        SigningBehavior: always
+        SigningProtocol: sigv4
+
+  # ── Request rewriting ──────────────────────────────────────────────────────────────────────
+  IndexRewriteFunction:
+    Type: AWS::CloudFront::Function
+    Properties:
+      Name: !Sub "${AWS::StackName}-index-rewrite"
+      FunctionConfig:
+        Comment: Directory indexes and canonical trailing slashes
+        Runtime: cloudfront-js-2.0
+      AutoPublish: true
+      FunctionCode: |
+        function handler(event) {
+          var request = event.request;
+          var uri = request.uri;
+
+          // "/channels/airbnb/" -> "/channels/airbnb/index.html". S3's REST endpoint has no
+          // index document, so without this every page on the site is a 404.
+          if (uri.charAt(uri.length - 1) === '/') {
+            request.uri = uri + 'index.html';
+            return request;
+          }
+
+          // "/channels/airbnb" -> 301 "/channels/airbnb/". One canonical URL per page, and the
+          // redirect is what makes a hand-typed or truncated link land somewhere real.
+          //
+          // THE EXTENSION CHECK IS LOAD-BEARING: "/channels/airbnb.md" and "/llms.txt" must pass
+          // straight through. They are the markdown mirrors, and turning them into directories
+          // would break every "Copy page" button on the site.
+          var lastSegment = uri.substring(uri.lastIndexOf('/') + 1);
+          if (lastSegment.indexOf('.') === -1) {
+            return {
+              statusCode: 301,
+              statusDescription: 'Moved Permanently',
+              headers: { location: { value: uri + '/' } }
+            };
+          }
+
+          return request;
+        }
+
+  # ── Response headers ───────────────────────────────────────────────────────────────────────
+  ResponseHeadersPolicy:
+    Type: AWS::CloudFront::ResponseHeadersPolicy
+    Properties:
+      ResponseHeadersPolicyConfig:
+        Name: !Sub "${AWS::StackName}-headers"
+        Comment: Security headers, plus CORS so the markdown mirrors can be fetched cross-origin
+        CorsConfig:
+          # The `.md` twins and llms.txt exist to be fetched by tools that are not this site.
+          # Without this header an answer engine gets a CORS error instead of the documentation.
+          AccessControlAllowCredentials: false
+          AccessControlAllowOrigins:
+            Items: ["*"]
+          AccessControlAllowMethods:
+            Items: [GET, HEAD]
+          AccessControlAllowHeaders:
+            Items: ["*"]
+          AccessControlMaxAgeSec: 86400
+          OriginOverride: true
+        SecurityHeadersConfig:
+          StrictTransportSecurity:
+            AccessControlMaxAgeSec: 63072000
+            IncludeSubdomains: false
+            Preload: false
+            Override: true
+          ContentTypeOptions:
+            # Matters more here than on a normal site: the `.md` files are served as
+            # text/markdown and must not be sniffed into something a browser will execute.
+            Override: true
+          ReferrerPolicy:
+            ReferrerPolicy: strict-origin-when-cross-origin
+            Override: true
+          FrameOptions:
+            FrameOption: SAMEORIGIN
+            Override: true
+
+  # ── Distribution ───────────────────────────────────────────────────────────────────────────
+  Distribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Enabled: true
+        Comment: !Sub "${DomainName} — Santara documentation"
+        Aliases:
+          - !Ref DomainName
+        DefaultRootObject: index.html
+        HttpVersion: http2and3
+        IPV6Enabled: true
+        PriceClass: !Ref PriceClass
+        ViewerCertificate:
+          AcmCertificateArn: !Ref CertificateArn
+          SslSupportMethod: sni-only
+          MinimumProtocolVersion: TLSv1.2_2021
+        Origins:
+          # RegionalDomainName, NOT WebsiteURL: the website endpoint is public HTTP and cannot be
+          # locked to an OAC. The REST endpoint is why the bucket can stay private — and why the
+          # CloudFront Function above has to supply the index document itself.
+          - Id: s3-origin
+            DomainName: !GetAtt Bucket.RegionalDomainName
+            OriginAccessControlId: !GetAtt OriginAccessControl.Id
+            S3OriginConfig:
+              OriginAccessIdentity: ""
+        DefaultCacheBehavior:
+          TargetOriginId: s3-origin
+          ViewerProtocolPolicy: redirect-to-https
+          AllowedMethods: [GET, HEAD, OPTIONS]
+          CachedMethods: [GET, HEAD, OPTIONS]
+          Compress: true
+          # Managed CachingOptimized. It honours the origin's Cache-Control, which is where the
+          # real policy lives: the deploy step stamps _astro/* immutable for a year and everything
+          # else s-maxage=600, then invalidates. Do not encode TTLs here as well — two sources of
+          # truth for caching is how a stale docs page survives a deploy.
+          CachePolicyId: 658327ea-f89d-4fab-a63d-7e88639e58f6
+          ResponseHeadersPolicyId: !Ref ResponseHeadersPolicy
+          FunctionAssociations:
+            - EventType: viewer-request
+              FunctionARN: !GetAtt IndexRewriteFunction.FunctionMetadata.FunctionARN
+        CustomErrorResponses:
+          # 403 is mapped as well as 404 on purpose. The bucket policy grants GetObject but not
+          # ListBucket, so S3 answers a missing key with AccessDenied rather than NoSuchKey — a
+          # 404-only mapping shows readers a raw XML error for every mistyped URL.
+          - ErrorCode: 403
+            ResponseCode: 404
+            ResponsePagePath: /404.html
+            ErrorCachingMinTTL: 60
+          - ErrorCode: 404
+            ResponseCode: 404
+            ResponsePagePath: /404.html
+            ErrorCachingMinTTL: 60
+      Tags:
+        - Key: project
+          Value: santara-docs
+
+  # ── DNS ────────────────────────────────────────────────────────────────────────────────────
+  DnsRecords:
+    Type: AWS::Route53::RecordSetGroup
+    Condition: ManageDns
+    Properties:
+      HostedZoneId: !Ref HostedZoneId
+      RecordSets:
+        - Name: !Ref DomainName
+          Type: A
+          AliasTarget: &cloudfrontAlias
+            # Z2FDTNDATAQYW2 is CloudFront's own fixed hosted-zone id, the same in every account
+            # and region. It is not a typo and it is not this zone.
+            HostedZoneId: Z2FDTNDATAQYW2
+            DNSName: !GetAtt Distribution.DomainName
+            EvaluateTargetHealth: false
+        - Name: !Ref DomainName
+          Type: AAAA
+          AliasTarget: *cloudfrontAlias
+
+Outputs:
+  BucketName:
+    Description: Sync the built site here.
+    Value: !Ref Bucket
+
+  DistributionId:
+    Description: Invalidate this after every deploy.
+    Value: !Ref Distribution
+
+  DistributionDomainName:
+    Description: Point the domain here if this stack is not managing DNS.
+    Value: !GetAtt Distribution.DomainName
+
+  SiteUrl:
+    Value: !Sub "https://${DomainName}/"

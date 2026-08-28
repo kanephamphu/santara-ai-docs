@@ -1,0 +1,90 @@
+name: Checks
+
+# Everything the deploy would do, minus AWS — run on every pull request so a merge to
+# `production` is boring.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    name: Build & verify
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify the docs
+        run: npm run verify:docs
+
+      - name: Check the committed diagrams match their generator
+        # public/diagrams/*.svg are generated artifacts that are committed, so the site builds on
+        # a fresh checkout without running the generator. That only holds if they stay in step:
+        # regenerate, and fail if anything moved.
+        run: |
+          set -euo pipefail
+          npm run build:diagrams
+          if ! git diff --quiet -- public/diagrams; then
+            echo "::error::public/diagrams is out of date. Run 'npm run build:diagrams' and commit the result."
+            git --no-pager diff --stat -- public/diagrams
+            exit 1
+          fi
+
+      - name: Build
+        env:
+          DOCS_SITE_URL: https://${{ vars.DOCS_DOMAIN || 'docs.santara.ai' }}
+        run: npm run build
+
+      - name: Check the build produced what it promises
+        # A build can succeed and still ship a site missing its whole markdown surface — the
+        # thing this project exists to publish. Count it.
+        run: |
+          set -euo pipefail
+          pages=$(find dist -name index.html | wc -l | tr -d ' ')
+          mirrors=$(find dist -name '*.md' | wc -l | tr -d ' ')
+          echo "pages: $pages, markdown mirrors: $mirrors"
+
+          # One mirror per page, and the four llms files per locale plus robots.txt.
+          [ "$mirrors" -gt 90 ] || { echo "::error::only $mirrors markdown mirrors — expected one per page"; exit 1; }
+          for f in llms.txt llms-full.txt id/llms.txt id/llms-full.txt vi/llms.txt vi/llms-full.txt robots.txt; do
+            [ -s "dist/$f" ] || { echo "::error::dist/$f is missing or empty"; exit 1; }
+          done
+
+  infrastructure:
+    name: Lint CloudFormation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install cfn-lint
+        run: pip install --disable-pip-version-check cfn-lint
+
+      - name: Lint
+        # Catches the errors that otherwise surface as a half-created stack in ROLLBACK_COMPLETE,
+        # which on a first deploy has to be deleted by hand before you can try again.
+        run: cfn-lint infrastructure/*.yaml

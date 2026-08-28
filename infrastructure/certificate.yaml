@@ -1,0 +1,49 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+# The TLS certificate for docs.santara.ai.
+#
+# THIS STACK EXISTS ONLY BECAUSE OF A REGION CONSTRAINT. CloudFront will attach a certificate
+# from us-east-1 and nowhere else, while the bucket and the distribution's own stack live in
+# ap-southeast-1 with the rest of the estate. One template cannot create a resource in another
+# region, so the certificate is its own stack and the site stack takes its ARN as a parameter.
+# .github/workflows/deploy.yml deploys this one first and pipes the output across.
+#
+# Validation is automatic: santara.ai is a Route 53 hosted zone in this account, so ACM writes
+# its own CNAME and the stack finishes on its own. Without a HostedZoneId the stack would sit in
+# CREATE_IN_PROGRESS until somebody added a DNS record by hand — which is why the parameter is
+# required rather than optional.
+
+Description: ACM certificate for the Santara docs site (must live in us-east-1 for CloudFront)
+
+Parameters:
+  DomainName:
+    Type: String
+    Default: docs.santara.ai
+    Description: The fully-qualified domain the docs are served from.
+
+  HostedZoneId:
+    Type: String
+    Description: >-
+      Route 53 hosted zone for the parent domain (santara.ai). ACM writes the validation record
+      into it, so the stack completes without anyone touching DNS.
+    AllowedPattern: "^Z[A-Z0-9]+$"
+
+Resources:
+  Certificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: !Ref DomainName
+      ValidationMethod: DNS
+      DomainValidationOptions:
+        - DomainName: !Ref DomainName
+          HostedZoneId: !Ref HostedZoneId
+      Tags:
+        - Key: project
+          Value: santara-docs
+
+Outputs:
+  CertificateArn:
+    Description: Pass this to the site stack's CertificateArn parameter.
+    Value: !Ref Certificate
+    Export:
+      Name: !Sub "${AWS::StackName}-CertificateArn"
