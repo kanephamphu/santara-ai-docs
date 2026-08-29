@@ -8,6 +8,8 @@ sidebar:
 A **guest** is a person, not a reservation. The same person across three stays is one record with
 a history, matched across channels wherever the channel gives us enough to match on.
 
+![The guest directory, with the ones needing attention first.](/screens/guests.en.png)
+
 ## The directory
 
 Guests are listed with the ones needing attention first — **risk, priority messages, or a live

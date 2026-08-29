@@ -8,6 +8,8 @@ sidebar:
 Booking.com hoạt động khác Airbnb: không có popup đăng nhập. Bạn cấp quyền trong extranet của chính
 mình, rồi cho Santara biết nó gắn với bất động sản nào.
 
+![Hộp thoại kết nối Booking.com — bước extranet, Hotel ID, và bất động sản để liên kết.](/screens/connect-booking-com.vi.png)
+
 ## 1. Bật kết nối trong extranet
 
 Trong **extranet Booking.com**:

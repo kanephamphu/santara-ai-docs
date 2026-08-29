@@ -8,6 +8,8 @@ sidebar:
 **Khách** là một con người, không phải một lượt đặt. Cùng một người qua ba lượt lưu trú là một hồ sơ
 có lịch sử, được đối chiếu xuyên kênh ở những nơi kênh cung cấp đủ dữ liệu để đối chiếu.
 
+![Danh bạ khách, với những người cần chú ý ở trên đầu.](/screens/guests.vi.png)
+
 ## Danh bạ
 
 Khách được liệt kê với những người cần chú ý ở trên đầu — **rủi ro, tin nhắn ưu tiên, hoặc một cơ hội

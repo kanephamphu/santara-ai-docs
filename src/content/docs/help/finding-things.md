@@ -5,6 +5,8 @@ sidebar:
   order: 2
 ---
 
+![The command palette: reservations, guests, properties and rooms, in one box.](/screens/search.en.png)
+
 ## Search — <kbd>⌘K</kbd>
 
 Press <kbd>⌘K</kbd> (or <kbd>Ctrl</kbd>+<kbd>K</kbd>) anywhere in the product. Search covers four

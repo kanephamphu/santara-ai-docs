@@ -10,6 +10,8 @@ những gì bán qua đó, và tiền vào tài khoản Stripe của bạn, khô
 
 **Cài đặt → Website đặt phòng**. Bên trái là phần thiết lập; bên phải là bản xem trước trực tiếp.
 
+![Trình dựng website đặt phòng: thiết lập bên trái, xem trước trực tiếp bên phải.](/screens/booking-site.vi.png)
+
 ## 1. Chọn tên miền phụ
 
 Chữ thường, số và dấu gạch nối. Đây là thứ khách sẽ gõ, nên hãy dùng tên doanh nghiệp của bạn. Lưu

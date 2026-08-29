@@ -5,6 +5,8 @@ sidebar:
   order: 2
 ---
 
+![Bảng lệnh: lượt đặt, khách, bất động sản và phòng, trong một ô.](/screens/search.vi.png)
+
 ## Tìm kiếm — <kbd>⌘K</kbd>
 
 Nhấn <kbd>⌘K</kbd> (hoặc <kbd>Ctrl</kbd>+<kbd>K</kbd>) ở bất cứ đâu trong sản phẩm. Tìm kiếm bao phủ

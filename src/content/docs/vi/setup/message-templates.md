@@ -10,6 +10,8 @@ nên "mã cửa của bạn là 4417" chỉ gõ một lần, không phải bốn
 
 Mẫu **thuộc phạm vi workspace**, nên câu trả lời cả đội đã thống nhất là câu trả lời mọi người gửi.
 
+![Mẫu tin nhắn, với các biến tự điền từ lượt lưu trú.](/screens/message-templates.vi.png)
+
 ## Biến
 
 Viết một chỗ giữ trong ngoặc nhọn và nó sẽ được điền khi mẫu được dùng:

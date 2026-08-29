@@ -10,6 +10,8 @@ sells, and the money goes to your Stripe account, not ours.
 
 **Settings → Booking Site**. The left side is the setup; the right is a live preview.
 
+![The booking site builder: setup on the left, live preview on the right.](/screens/booking-site.en.png)
+
 ## 1. Pick a subdomain
 
 Lowercase letters, numbers and hyphens. It is what guests will type, so make it your business name.

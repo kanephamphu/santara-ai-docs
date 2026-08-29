@@ -11,6 +11,8 @@ their own screen when you want the whole list.
 
 Tickets are internal. **Guests never see one**, even the ones opened from their own message.
 
+![The ticket list: status, who it is assigned to, and the property it came from.](/screens/tickets.en.png)
+
 ## They open themselves
 
 Most tickets are not created by a person. A guest message that reads as a complaint or a

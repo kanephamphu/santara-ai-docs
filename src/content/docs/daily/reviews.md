@@ -8,6 +8,8 @@ sidebar:
 Every review guests left you, from every connected channel, in one list — with the ones still
 waiting on a reply at the top.
 
+![Reviews from every channel, with the ones still awaiting a reply counted at the top.](/screens/reviews.en.png)
+
 ## Replying
 
 Write your reply here and it publishes back to the channel. The guest sees it where they left the

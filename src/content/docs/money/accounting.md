@@ -7,6 +7,8 @@ sidebar:
 
 Accounting is the cost side. If you manage villas for other people, it is also how they get paid.
 
+![Accounting, before anything is logged. Costs and Owners are its two halves; the period and property filters sit above both.](/screens/accounting.en.png)
+
 ## The ledger
 
 Log what you spend against a property: cleaning, maintenance, utilities, supplies, anything.

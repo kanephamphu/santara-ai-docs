@@ -11,6 +11,8 @@ muốn xem toàn bộ danh sách.
 
 Ticket là nội bộ. **Khách không bao giờ thấy**, kể cả ticket mở ra từ chính tin nhắn của họ.
 
+![Danh sách ticket: trạng thái, người phụ trách, và bất động sản nó đến từ.](/screens/tickets.vi.png)
+
 ## Ticket tự mở
 
 Phần lớn ticket không do con người tạo. Một tin nhắn khách đọc ra như lời phàn nàn hoặc sự cố bảo trì

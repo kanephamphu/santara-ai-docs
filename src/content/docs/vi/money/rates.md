@@ -11,6 +11,8 @@ sinh sống.
 
 Mở từ một bất động sản: **Bất động sản → chọn bất động sản → Giá**.
 
+![Lưới giá: tình trạng trống ở trên, giá ở dưới, và chú giải cách sửa cả một khoảng.](/screens/rates.vi.png)
+
 ## Lưới
 
 Phòng và rate plan của chúng ở bên trái, ngày chạy ngang phía trên. **Bấm một ô để sửa, hoặc

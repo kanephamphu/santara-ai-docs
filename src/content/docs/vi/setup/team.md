@@ -11,6 +11,8 @@ họ đăng ký trước, rồi chấp nhận lời mời để tham gia workspa
 Một người có thể giữ vai trò khác nhau ở các workspace khác nhau. Tài khoản đăng nhập là của họ; quyền
 truy cập là theo từng workspace.
 
+![Màn hình đội ngũ: ai đang trong workspace, vai trò của họ, và họ chạm được tới đâu.](/screens/team.vi.png)
+
 ## Ba vai trò
 
 | Vai trò | Thấy gì | Dùng khi nào |

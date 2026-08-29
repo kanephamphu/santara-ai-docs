@@ -8,6 +8,8 @@ sidebar:
 Mọi đánh giá khách để lại, từ mọi kênh đã kết nối, trong một danh sách — với những cái chưa được phản
 hồi nằm trên đầu.
 
+![Đánh giá từ mọi kênh, với số chưa được trả lời đếm ở phía trên.](/screens/reviews.vi.png)
+
 ## Phản hồi
 
 Viết phản hồi ở đây và nó được xuất bản trở lại kênh. Khách thấy nó ở nơi họ để lại đánh giá. Mọi

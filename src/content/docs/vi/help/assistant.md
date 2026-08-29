@@ -13,6 +13,8 @@ thật của bạn là hợp lệ:
 - *Vì sao listing Airbnb của Unit 3 chưa chạy?*
 - *Soạn giúp câu trả lời cho khách hỏi nhận phòng sớm.*
 
+![Hỏi Santara, mở ngay trên màn hình bạn đang xem.](/screens/assistant.vi.png)
+
 ## Nó thấy được gì
 
 Workspace của bạn, qua đúng quyền mà bạn có. Nó không thể thấy nhiều hơn bạn: một nhân viên dọn phòng

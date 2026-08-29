@@ -8,6 +8,8 @@ sidebar:
 **Tamu** adalah orang, bukan reservasi. Orang yang sama pada tiga kali menginap adalah satu catatan
 dengan riwayat, dicocokkan lintas channel bila channel memberi cukup data untuk mencocokkan.
 
+![Direktori tamu, dengan yang butuh perhatian di urutan teratas.](/screens/guests.id.png)
+
 ## Direktori
 
 Tamu diurutkan dengan yang butuh perhatian di atas — **risiko, pesan prioritas, atau peluang

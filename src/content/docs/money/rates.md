@@ -11,6 +11,8 @@ sellable — live.
 
 Open it from a property: **Properties → the property → Rates**.
 
+![The rates grid: availability above, price below, and the legend that explains how to edit a range.](/screens/rates.en.png)
+
 ## The grid
 
 Rooms and their rate plans down the left, dates across the top. **Click a cell to edit it, or

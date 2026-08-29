@@ -7,6 +7,8 @@ sidebar:
 
 Akuntansi adalah sisi biaya. Jika Anda mengelola vila milik orang lain, ini juga cara mereka dibayar.
 
+![Akuntansi, sebelum ada yang dicatat. Biaya dan Pemilik adalah dua bagiannya; filter periode dan properti ada di atas keduanya.](/screens/accounting.id.png)
+
 ## Buku besar
 
 Catat pengeluaran Anda per properti: kebersihan, perawatan, utilitas, perlengkapan, apa pun. Tiap

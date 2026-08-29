@@ -186,6 +186,84 @@ const SHOTS = [
     height: 760,
     note: "The estate: buildings and the rooms guests book",
   },
+
+  // ── added after an audit found 31 of 39 pages had no picture ──────────────────────────────
+  { id: "tickets", path: "/dashboard/tickets", settle: "main", height: 700, note: "The ticket list" },
+  { id: "guests", path: "/dashboard/guests", settle: "main", height: 820, note: "The guest directory" },
+  { id: "reviews", path: "/dashboard/reviews", settle: "main", height: 700, note: "Reviews from every channel" },
+  {
+    id: "upsells",
+    path: "/dashboard/upsells",
+    // Detection is rule-based and runs on a schedule, so a freshly seeded workspace shows
+    // "No active revenue signal" — a true screen, and a useless picture for a page about finding
+    // opportunities. The button runs the same detection on demand.
+    // Click, WAIT FOR IT, then reload. Detection is asynchronous — the first attempt captured a
+    // button reading "AI is working…" over a screen that still said "No active revenue signal".
+    steps: [
+      { click: { role: "button", find: /Find upsell opportunities|Temukan peluang|Tìm cơ hội/i }, settle: 25_000 },
+      { reload: true, settle: 3000 },
+    ],
+    settle: "main",
+    height: 800,
+    note: "The upsell pipeline",
+  },
+  { id: "reports", path: "/dashboard/reports", settle: "main", height: 820, note: "Reports and the CSV library" },
+  { id: "accounting", path: "/dashboard/accounting", settle: "main", height: 700, note: "Costs against each property" },
+  {
+    id: "rates",
+    // The rates grid hangs off a property id, so the shot finds the first property rather than
+    // hardcoding a uuid that is different in every workspace.
+    path: async (page) => {
+      await page.goto(`${BASE}/dashboard/properties`, { waitUntil: "domcontentloaded" });
+      await page.waitForTimeout(1200);
+      // Must be a property UUID, not any link under /dashboard/properties/ — the first match was
+      // /dashboard/properties/buildings, and /buildings/rates is a 404 that photographs perfectly.
+      const hrefs = await page.locator("a[href*='/dashboard/properties/']").evaluateAll((els) =>
+        els.map((el) => el.getAttribute("href")),
+      );
+      const property = hrefs.find((h) =>
+        /\/dashboard\/properties\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(
+          (h ?? "").replace(/\/$/, ""),
+        ),
+      );
+      if (!property) throw new Error("no property link found for the rates grid");
+      return `${property.replace(/\/$/, "")}/rates`;
+    },
+    settle: "main",
+    height: 780,
+    note: "Rates and availability, per date",
+  },
+  { id: "booking-site", path: "/dashboard/settings/booking-site", settle: "main", height: 820, note: "The booking site builder" },
+  { id: "message-templates", path: "/dashboard/settings/message-templates", settle: "main", height: 760, note: "Message templates" },
+  { id: "team", path: "/dashboard/settings/team", settle: "main", height: 700, note: "Team and access" },
+  { id: "billing", path: "/dashboard/settings/billing", settle: "main", height: 760, note: "Plan and billing" },
+  { id: "workspace-settings", path: "/dashboard/settings/workspace", settle: "main", height: 780, note: "Workspace preferences" },
+  {
+    id: "connect-booking-com",
+    path: "/dashboard/settings/channels",
+    steps: [{ click: { role: "button", find: /Connect Booking\.com|Hubungkan Booking\.com|Kết nối Booking\.com/i }, settle: 1400 }],
+    settle: "main",
+    height: 820,
+    note: "The Booking.com connect dialog",
+  },
+  {
+    id: "assistant",
+    path: "/dashboard",
+    // data-tour anchors are set by the product tour and are language-independent — a far better
+    // handle than an accessible name that changes with the interface language.
+    steps: [{ click: { css: "[data-tour='assistant-launcher']" }, settle: 1600 }],
+    settle: "main",
+    height: 820,
+    note: "Ask Santara, open on any screen",
+  },
+  {
+    id: "search",
+    path: "/dashboard",
+    steps: [{ press: "Meta+k", settle: 1200 }],
+    settle: "main",
+    height: 700,
+    note: "The command palette",
+  },
 ];
 
 const only = process.argv.slice(2).filter((a) => !a.startsWith("-"));
@@ -265,8 +343,35 @@ for (const locale of LOCALES) {
   await context.addCookies([{ name: "aircierge_locale", value: locale, url: BASE }]);
 
   for (const shot of shots) {
-    await page.goto(`${BASE}${shot.path}`, { waitUntil: "domcontentloaded" });
+    // `path` may be a function when the URL is not knowable up front — the rates grid lives under
+    // a property id that differs per workspace, so the shot finds one rather than hardcoding it.
+    const path = typeof shot.path === "function" ? await shot.path(page) : shot.path;
+    await page.goto(`${BASE}${path}`, { waitUntil: "domcontentloaded" });
     await dismissTour();
+
+    /*
+     * `steps` opens whatever the shot is actually about: a dialog, the command palette, a tab.
+     * Declared rather than scripted so a shot stays one object you can read in ten seconds.
+     */
+    for (const step of shot.steps ?? []) {
+      try {
+        if (step.reload) {
+          await page.reload({ waitUntil: "domcontentloaded" });
+        } else if (step.press) {
+          await page.keyboard.press(step.press);
+        } else if (step.click) {
+          const target = step.click.css
+            ? page.locator(step.click.css).first()
+            : step.click.role
+              ? page.getByRole(step.click.role, { name: step.click.find }).first()
+              : page.getByText(step.click.find).first();
+          await target.click({ timeout: 10_000 });
+        }
+        await page.waitForTimeout(step.settle ?? 900);
+      } catch {
+        console.warn(`  ! ${shot.id}.${locale}: step ${JSON.stringify(step)} did not run`);
+      }
+    }
 
     try {
       await page.waitForSelector(shot.settle, { timeout: 20_000 });
@@ -292,6 +397,21 @@ for (const locale of LOCALES) {
      */
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.waitForTimeout(300);
+
+    /*
+     * NEVER PHOTOGRAPH AN ERROR PAGE.
+     *
+     * A shot whose URL is wrong still produces a perfectly sharp PNG — of "We couldn't find that
+     * page" — and it lands in the docs looking deliberate. Caught exactly that way on the rates
+     * grid, whose URL is resolved at runtime.
+     */
+    const broken = await page
+      .getByText(/We couldn't find that page|Tidak menemukan halaman|Không tìm thấy trang/i)
+      .count();
+    if (broken) {
+      console.warn(`  x ${shot.id}.${locale}: landed on a not-found page — SKIPPED`);
+      continue;
+    }
 
     const file = `${OUT}${shot.id}.${locale}.png`;
     await page.screenshot({

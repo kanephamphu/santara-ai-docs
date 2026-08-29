@@ -11,6 +11,8 @@ register first, then accept the invitation to join this workspace.
 One person can hold different roles in different workspaces. Their login is theirs; the access is
 per workspace.
 
+![The team screen: who is in the workspace, their role, and what they can reach.](/screens/team.en.png)
+
 ## The three roles
 
 | Role | Sees | Typical use |

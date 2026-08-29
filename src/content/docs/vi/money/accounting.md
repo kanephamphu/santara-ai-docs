@@ -7,6 +7,8 @@ sidebar:
 
 Kế toán là phía chi phí. Nếu bạn quản lý villa cho người khác, đây cũng là cách họ được thanh toán.
 
+![Kế toán, trước khi ghi nhận gì. Chi phí và Chủ sở hữu là hai nửa của nó; bộ lọc kỳ và bất động sản nằm phía trên cả hai.](/screens/accounting.vi.png)
+
 ## Sổ cái
 
 Ghi những gì bạn chi cho từng bất động sản: dọn phòng, bảo trì, tiện ích, vật tư, bất cứ thứ gì. Mỗi

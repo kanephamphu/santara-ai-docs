@@ -8,6 +8,8 @@ sidebar:
 **Settings → Billing**. The figures shown there are authoritative for your workspace — this page
 explains the shape.
 
+![Billing: the plan, what is billed per property, and the card on file.](/screens/billing.en.png)
+
 ## The trial
 
 Seven days free. **A card is required** and **nothing is charged today** — cancel any time before

@@ -7,6 +7,8 @@ sidebar:
 
 Laporan menjawab "bagaimana hasil kita", untuk Anda dan untuk orang yang Anda laporkan.
 
+![Laporan: snapshot siap kirim ke pemilik, dan CSV yang dihasilkan dari data terkini.](/screens/reports.id.png)
+
 ## Arti pendapatan di sini
 
 **Pendapatan adalah payout bersih** — yang benar-benar dibayarkan channel setelah komisi. Selalu

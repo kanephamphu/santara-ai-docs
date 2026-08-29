@@ -19,6 +19,8 @@ phần còn lại thuộc về workspace mà mọi người dùng chung.
 | **Đội ngũ** | Dùng chung — [người và vai trò](/vi/setup/team/) |
 | **Thanh toán** | Dùng chung — [gói và hóa đơn](/vi/setup/billing/) |
 
+![Cài đặt workspace: giờ và ngôn ngữ bản tóm tắt, múi giờ, tiền tệ và phần còn lại.](/screens/workspace-settings.vi.png)
+
 ## Ngôn ngữ
 
 Giao diện Santara có sẵn bằng **English, Bahasa Indonesia và Tiếng Việt**.

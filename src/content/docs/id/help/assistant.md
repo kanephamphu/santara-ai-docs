@@ -13,6 +13,8 @@ tentang bisnis Anda yang sebenarnya adalah wajar:
 - *Kenapa listing Airbnb Unit 3 belum live?*
 - *Buatkan draf balasan untuk tamu yang menanyakan check-in awal.*
 
+![Tanya Santara, terbuka di atas layar mana pun yang sedang Anda buka.](/screens/assistant.id.png)
+
 ## Apa yang bisa dilihatnya
 
 Workspace Anda, lewat izin yang sama dengan milik Anda. Ia tidak bisa melihat lebih banyak dari yang

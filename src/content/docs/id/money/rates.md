@@ -11,6 +11,8 @@ bisa dijual — berada.
 
 Buka dari sebuah properti: **Properti → properti tersebut → Tarif**.
 
+![Grid tarif: ketersediaan di atas, harga di bawah, dan legenda yang menjelaskan cara mengedit satu rentang.](/screens/rates.id.png)
+
 ## Grid
 
 Kamar dan rate plan-nya di kiri, tanggal di atas. **Klik satu sel untuk mengeditnya, atau shift-klik

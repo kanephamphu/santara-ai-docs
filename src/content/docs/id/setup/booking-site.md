@@ -10,6 +10,8 @@ apa pun yang terjual di sana, dan uangnya masuk ke akun Stripe Anda, bukan kami.
 
 **Pengaturan → Situs Booking**. Sisi kiri untuk pengaturan; sisi kanan pratinjau langsung.
 
+![Pembangun situs booking: pengaturan di kiri, pratinjau langsung di kanan.](/screens/booking-site.id.png)
+
 ## 1. Pilih subdomain
 
 Huruf kecil, angka, dan tanda hubung. Inilah yang akan diketik tamu, jadi gunakan nama bisnis Anda.

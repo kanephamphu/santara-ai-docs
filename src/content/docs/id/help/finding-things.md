@@ -5,6 +5,8 @@ sidebar:
   order: 2
 ---
 
+![Palet perintah: reservasi, tamu, properti, dan kamar, dalam satu kotak.](/screens/search.id.png)
+
 ## Pencarian — <kbd>⌘K</kbd>
 
 Tekan <kbd>⌘K</kbd> (atau <kbd>Ctrl</kbd>+<kbd>K</kbd>) di mana pun dalam produk. Pencarian mencakup

@@ -8,6 +8,8 @@ sidebar:
 Booking.com works differently from Airbnb: there is no login popup. You give Booking.com
 permission in your own extranet, then tell Santara which property to attach to.
 
+![The Booking.com connect dialog — the extranet step, the Hotel ID, and the property to link it to.](/screens/connect-booking-com.en.png)
+
 ## 1. Enable the connection in your extranet
 
 In the **Booking.com extranet**:

@@ -12,6 +12,8 @@ times.
 Templates are **scoped to the workspace**, so an answer your team agreed on is the answer everyone
 sends.
 
+![Message templates, with the variables that fill themselves in from the stay.](/screens/message-templates.en.png)
+
 ## Variables
 
 Write a placeholder in braces and it resolves when the template is used:

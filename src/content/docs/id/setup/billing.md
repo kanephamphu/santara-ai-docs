@@ -8,6 +8,8 @@ sidebar:
 **Pengaturan → Penagihan**. Angka di sana adalah yang berlaku untuk workspace Anda — halaman ini
 menjelaskan bentuknya.
 
+![Penagihan: paket, apa yang ditagih per properti, dan kartu yang tersimpan.](/screens/billing.id.png)
+
 ## Uji coba
 
 Tujuh hari gratis. **Kartu diperlukan** dan **tidak ada tagihan hari ini** — batalkan kapan saja

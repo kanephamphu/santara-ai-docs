@@ -7,6 +7,8 @@ sidebar:
 
 Reports answer "how did we do", for you and for the people you answer to.
 
+![Reports: the owner-ready snapshot, and the CSVs generated from live data.](/screens/reports.en.png)
+
 ## What revenue means here
 
 **Revenue is net payout** — what the channel actually pays you, after commission. It is labelled on

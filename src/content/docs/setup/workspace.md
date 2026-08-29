@@ -19,6 +19,8 @@ workspaces; the rest belong to the workspace everyone shares.
 | **Team** | Shared — [people and roles](/setup/team/) |
 | **Billing** | Shared — [plan and invoices](/setup/billing/) |
 
+![Workspace settings: the brief's time and language, timezone, currency and the rest.](/screens/workspace-settings.en.png)
+
 ## Language
 
 Santara's interface is available in **English, Bahasa Indonesia and Tiếng Việt**.

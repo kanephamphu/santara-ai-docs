@@ -8,6 +8,8 @@ sidebar:
 Setiap ulasan yang tamu tinggalkan, dari setiap channel terhubung, dalam satu daftar — dengan yang
 belum dibalas berada di atas.
 
+![Ulasan dari semua channel, dengan jumlah yang belum dibalas di bagian atas.](/screens/reviews.id.png)
+
 ## Membalas
 
 Tulis balasan di sini dan ia terbit kembali ke channel. Tamu melihatnya di tempat mereka menulis

@@ -19,6 +19,8 @@ antar workspace; sisanya milik workspace yang dipakai bersama.
 | **Tim** | Bersama — [orang dan peran](/id/setup/team/) |
 | **Penagihan** | Bersama — [paket dan faktur](/id/setup/billing/) |
 
+![Pengaturan workspace: waktu dan bahasa ringkasan, zona waktu, mata uang, dan selebihnya.](/screens/workspace-settings.id.png)
+
 ## Bahasa
 
 Antarmuka Santara tersedia dalam **English, Bahasa Indonesia, dan Tiếng Việt**.

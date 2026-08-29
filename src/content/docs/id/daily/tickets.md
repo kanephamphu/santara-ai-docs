@@ -12,6 +12,8 @@ sendiri saat Anda ingin melihat seluruh daftarnya.
 Tiket bersifat internal. **Tamu tidak pernah melihatnya**, bahkan tiket yang dibuka dari pesan
 mereka sendiri.
 
+![Daftar tiket: status, penanggung jawab, dan properti asalnya.](/screens/tickets.id.png)
+
 ## Tiket membuka dirinya sendiri
 
 Sebagian besar tiket tidak dibuat oleh orang. Pesan tamu yang terbaca sebagai keluhan atau masalah

@@ -11,6 +11,8 @@ mendaftar dulu, lalu menerima undangan untuk bergabung ke workspace ini.
 Satu orang bisa memegang peran berbeda di workspace berbeda. Login-nya miliknya; aksesnya per
 workspace.
 
+![Layar tim: siapa yang ada di workspace, perannya, dan apa yang bisa mereka akses.](/screens/team.id.png)
+
 ## Tiga peran
 
 | Peran | Melihat | Contoh penggunaan |

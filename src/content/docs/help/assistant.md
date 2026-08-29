@@ -13,6 +13,8 @@ questions about your actual business are fair:
 - *Why isn't the Airbnb listing for Unit 3 live?*
 - *Draft a reply to the guest asking about early check-in.*
 
+![Ask Santara, open over whatever screen you were on.](/screens/assistant.en.png)
+
 ## What it can see
 
 Your workspace, through the same permissions you have. It cannot see more than you can: a cleaner

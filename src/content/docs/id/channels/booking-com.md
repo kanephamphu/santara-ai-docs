@@ -8,6 +8,8 @@ sidebar:
 Booking.com bekerja berbeda dari Airbnb: tidak ada popup login. Anda memberi izin di extranet Anda
 sendiri, lalu memberi tahu Santara properti mana yang dituju.
 
+![Dialog koneksi Booking.com — langkah extranet, Hotel ID, dan properti yang ditautkan.](/screens/connect-booking-com.id.png)
+
 ## 1. Aktifkan koneksi di extranet
 
 Di **extranet Booking.com**:

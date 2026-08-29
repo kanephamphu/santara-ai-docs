@@ -8,6 +8,8 @@ sidebar:
 **Cài đặt → Thanh toán**. Các con số ở đó là con số có hiệu lực cho workspace của bạn — trang này giải
 thích cấu trúc.
 
+![Thanh toán: gói, những gì tính theo từng bất động sản, và thẻ đã lưu.](/screens/billing.vi.png)
+
 ## Dùng thử
 
 Bảy ngày miễn phí. **Cần có thẻ** và **hôm nay không bị tính phí** — hủy bất cứ lúc nào trước ngày thứ

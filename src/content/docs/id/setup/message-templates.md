@@ -12,6 +12,8 @@ ratus kali.
 Template **dicakup oleh workspace**, jadi jawaban yang disepakati tim adalah jawaban yang dikirim
 semua orang.
 
+![Template pesan, dengan variabel yang terisi sendiri dari data menginap.](/screens/message-templates.id.png)
+
 ## Variabel
 
 Tulis placeholder di dalam kurung kurawal dan ia akan terisi saat template dipakai:
