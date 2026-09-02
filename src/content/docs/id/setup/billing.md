@@ -122,7 +122,7 @@ dikembalikan** — itu dinyatakan pada konfirmasi penghapusan.
 ## Mengelola pembayaran
 
 **Kelola metode pembayaran** membuka portal milik Stripe, tempat Anda memperbarui kartu dan
-mengunduh tagihan. Formulir kartunya milik Stripe sepenuhnya; Santara tidak pernah melihat
+mengunduh tagihan. Formulir kartunya milik Stripe sepenuhnya; Santara AI tidak pernah melihat
 nomornya. Tagihan Stripe adalah dokumen yang diinginkan akuntan Anda.
 
 ## Jika pembayaran gagal
@@ -148,6 +148,6 @@ kartunya dan semuanya pulih.
 
 Batalkan dari layar Tagihan. Akses berlanjut sampai akhir periode berbayar, tanpa tagihan lagi.
 
-Listing channel Anda tidak terpengaruh — membatalkan Santara tidak menyentuh akun Airbnb atau
+Listing channel Anda tidak terpengaruh — membatalkan Santara AI tidak menyentuh akun Airbnb atau
 Booking.com Anda. Tetapi pembatalan mengakhiri sinkronisasi yang menjaga kalender mereka tetap
 selaras, jadi **tutup atau rekonsiliasi kalender Anda sebelum pergi**.

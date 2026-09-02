@@ -25,7 +25,7 @@ Vila empat kamar adalah empat listing, baik kamarnya Anda buat manual maupun dit
 Booking.com; sebelumnya kedua jalur itu berbeda hasil dan bisa terpaut berkali-kali lipat untuk
 bangunan yang sama.
 
-Kalau Anda menambah listing melebihi cakupan paket, Santara sekarang **bertanya dulu, menampilkan
+Kalau Anda menambah listing melebihi cakupan paket, Santara AI sekarang **bertanya dulu, menampilkan
 harganya, dan menagih untuk sisa periode penagihan** alih-alih diam-diam mengubah tagihan Anda.
 Kode promo diterima saat pembayaran. Lihat [Paket dan penagihan](/id/setup/billing/).
 
@@ -37,11 +37,11 @@ wawasan harga, dan upsell, dan harganya turun per pintu seiring pertumbuhan. And
 tingkatnya; hanya band di dalam Operator yang mengikuti jumlah listing. Lihat
 [Memilih antara Host dan Operator](/id/setup/billing/#memilih-antara-host-dan-operator).
 
-### Tanya Santara
+### Tanya Santara AI
 
 Asisten di setiap layar yang membaca workspace Anda dengan izin Anda sendiri. Hanya-baca, dengan
 satu pengecualian: ia bisa membuat draf balasan untuk tamu. Lihat
-[Tanya Santara](/id/help/assistant/).
+[Tanya Santara AI](/id/help/assistant/).
 
 ### Smart pricing menjadi dewasa
 

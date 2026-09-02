@@ -1,6 +1,6 @@
 ---
 title: Data dan privasi Anda
-description: Apa yang disimpan Santara, siapa di dalam workspace Anda yang bisa melihatnya, apa yang keluar, cara mengeluarkannya, dan apa yang terjadi saat Anda menghapus sesuatu.
+description: Apa yang disimpan Santara AI, siapa di dalam workspace Anda yang bisa melihatnya, apa yang keluar, cara mengeluarkannya, dan apa yang terjadi saat Anda menghapus sesuatu.
 sidebar:
   order: 9
 ---
@@ -35,7 +35,7 @@ Kira-kira, semua yang dibutuhkan produk ini untuk menjalankan hari Anda:
 | **Akun** | Nama, email, bahasa, zona waktu, dan hash kata sandi Anda |
 
 Kata sandi disimpan sebagai **hash PBKDF2 dengan 310.000 iterasi**, tidak pernah sebagai teks.
-Tidak ada orang di Santara yang bisa membaca kata sandi Anda, dan kami pun tidak bisa
+Tidak ada orang di Santara AI yang bisa membaca kata sandi Anda, dan kami pun tidak bisa
 memulihkannya — itulah sebabnya pengaturan ulang menerbitkan kata sandi baru alih-alih memberi tahu
 yang lama.
 
@@ -84,7 +84,7 @@ Tidak ada yang terkirim ke tamu tanpa Anda menekan kirim.
 | --- | --- |
 | **Airbnb / Booking.com** | Ketersediaan, tarif, dan restriksi keluar; booking, tamu, pesan, ulasan masuk — lewat penyedia konektivitas channel kami |
 | **Penyedia model AI** | Teks yang dibutuhkan untuk menulis ringkasan, draf balasan, atau menilai peluang |
-| **Stripe** | Kartu Anda, untuk langganan. Santara tidak pernah melihat nomornya |
+| **Stripe** | Kartu Anda, untuk langganan. Santara AI tidak pernah melihat nomornya |
 | **Stripe, akun Anda sendiri** | Pembayaran booking langsung — lihat di bawah |
 | **Email** | Undangan, kode verifikasi dan atur ulang, serta apa pun yang Anda kirim sendiri |
 
@@ -93,7 +93,7 @@ Tidak ada yang lain. Tidak ada jaringan iklan dan tidak ada pialang data dalam d
 ## Uang di situs booking Anda
 
 Pembayaran dari [situs booking langsung](/id/setup/booking-site/) masuk **ke akun Stripe Anda
-sendiri**, bukan ke akun kami. Santara tidak pernah memegang uang tamu dan tidak pernah mengambil
+sendiri**, bukan ke akun kami. Santara AI tidak pernah memegang uang tamu dan tidak pernah mengambil
 komisi atas booking, di channel mana pun.
 
 Satu-satunya tambahan pada booking langsung adalah **biaya layanan 3% yang dibayar tamu** di atas
@@ -144,7 +144,7 @@ berhenti lebih dulu. Lihat [Jika pembayaran gagal](/id/setup/billing/#jika-pemba
 
 ## Data tamu juga tanggung jawab Anda
 
-Santara menyimpannya; Anda yang memutuskan siapa di tim Anda yang bisa menjangkaunya. Dua kebiasaan
+Santara AI menyimpannya; Anda yang memutuskan siapa di tim Anda yang bisa menjangkaunya. Dua kebiasaan
 yang layak dibangun:
 
 - **Undang orang dengan benar, jangan berbagi login.** Login bersama membuat semua keputusan kontrol

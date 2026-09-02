@@ -7,7 +7,7 @@ sidebar:
 
 **Bất động sản** là một tòa nhà hoặc địa chỉ. **Phòng** là đơn vị có thể đặt bên trong nó. Phòng là
 thứ khách đặt, thứ kênh ánh xạ tới, và thứ được tính phí. Xem
-[Santara được cấu trúc thế nào](/vi/start/concepts/#bất-động-sản-rồi-phòng) nếu cách chia này còn mới
+[Santara AI được cấu trúc thế nào](/vi/start/concepts/#bất-động-sản-rồi-phòng) nếu cách chia này còn mới
 với bạn.
 
 ![Bất động sản: các tòa nhà của bạn, và những phòng bên trong mà khách thực sự đặt.](/screens/properties.vi.png)

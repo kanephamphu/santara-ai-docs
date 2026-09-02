@@ -5,7 +5,7 @@ sidebar:
   order: 2
 ---
 
-Setiap workspace dapat menerbitkan situs booking langsung. Santara **tidak mengambil komisi** atas
+Setiap workspace dapat menerbitkan situs booking langsung. Santara AI **tidak mengambil komisi** atas
 apa pun yang terjual di sana, dan uangnya masuk ke akun Stripe Anda, bukan kami.
 
 **Pengaturan → Situs Booking**. Sisi kiri untuk pengaturan; sisi kanan pratinjau langsung.
@@ -49,7 +49,7 @@ lewat pertanyaan.
 ## 5. Hubungkan Stripe
 
 **Pembayaran** menghubungkan akun Stripe Anda sendiri. Anda masuk (atau membuat akun) di situs
-Stripe. Santara tidak pernah menyentuh uangnya dan tidak pernah melihat nomor kartu.
+Stripe. Santara AI tidak pernah menyentuh uangnya dan tidak pernah melihat nomor kartu.
 
 Anda dapat menambahkan **biaya layanan** pada booking langsung, dibayar tamu di atas harga menginap:
 
@@ -73,7 +73,7 @@ atau mesin pencari akan memakai apa pun yang bisa diambilnya.
 
 ## Detail kontak
 
-Ditampilkan di bagian kontak dan footer. Alamat menautkan ke Maps; Santara tidak pernah menyematkan
+Ditampilkan di bagian kontak dan footer. Alamat menautkan ke Maps; Santara AI tidak pernah menyematkan
 iframe peta yang Anda berikan. Pilih bahasa yang pertama dilihat tamu — mereka tetap bisa berganti.
 
 ## Yang didapat tamu

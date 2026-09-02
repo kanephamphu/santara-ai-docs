@@ -7,7 +7,7 @@ sidebar:
 
 ## Try these first, in this order
 
-1. **Refresh the page.** Santara updates screens live; a tab left open overnight can hold a stale
+1. **Refresh the page.** Santara AI updates screens live; a tab left open overnight can hold a stale
    view.
 2. **Check the channel.** **Settings → Channels** — is the connection *Connected*, and when did it
    last sync? Press **Refresh** on it.
@@ -73,7 +73,7 @@ stopped syncing cannot deliver it. The message stays in the thread and can be re
 
 ## Numbers disagree with the extranet
 
-Check which figure you are comparing. Santara's **revenue** is net payout; an extranet usually
+Check which figure you are comparing. Santara AI's **revenue** is net payout; an extranet usually
 shows gross. Both are stored — [Bookings](/daily/bookings/) shows all three for a stay.
 
 ## Something is genuinely broken

@@ -1,6 +1,6 @@
 ---
 title: Your data and privacy
-description: What Santara holds, who inside your workspace can see it, what leaves it, how to get it out, and what happens when you delete something.
+description: What Santara AI holds, who inside your workspace can see it, what leaves it, how to get it out, and what happens when you delete something.
 sidebar:
   order: 9
 ---
@@ -32,7 +32,7 @@ Roughly, everything the product needs to run your day:
 | **Operational** | Cleans, tickets, notes, who did what and when |
 | **Account** | Your name, email, language, timezone, and a hash of your password |
 
-Passwords are stored as **PBKDF2 hashes with 310,000 iterations**, never as text. Nobody at Santara
+Passwords are stored as **PBKDF2 hashes with 310,000 iterations**, never as text. Nobody at Santara AI
 can read your password, and neither can we recover it — which is why a reset issues a new one
 rather than telling you the old one.
 
@@ -79,7 +79,7 @@ sent to a guest without you pressing send.
 | --- | --- |
 | **Airbnb / Booking.com** | Availability, rates and restrictions out; bookings, guests, messages and reviews in — via our channel connectivity provider |
 | **AI model provider** | The text needed to write a brief, draft a reply or score an opportunity |
-| **Stripe** | Your card, for the subscription. Santara never sees the number |
+| **Stripe** | Your card, for the subscription. Santara AI never sees the number |
 | **Stripe, your own account** | Direct booking payments — see below |
 | **Email** | Invitations, verification and reset codes, and anything you choose to send |
 
@@ -88,7 +88,7 @@ Nothing else. There is no advertising network and no data broker in this list.
 ## Money on your booking site
 
 Payments from your [direct booking site](/setup/booking-site/) go **into your own Stripe account**,
-not ours. Santara never holds guest money and never takes a commission on a booking, on any
+not ours. Santara AI never holds guest money and never takes a commission on a booking, on any
 channel.
 
 The one thing added to a direct booking is the optional booking engine's **3% service fee, paid by
@@ -138,7 +138,7 @@ See [If a payment fails](/setup/billing/#if-a-payment-fails).
 
 ## Guest data is your responsibility too
 
-Santara holds it; you decide who in your team can reach it. Two habits are worth building:
+Santara AI holds it; you decide who in your team can reach it. Two habits are worth building:
 
 - **Invite people properly rather than sharing a login.** A shared login makes every access-control
   decision above meaningless, and destroys the record of who did what.

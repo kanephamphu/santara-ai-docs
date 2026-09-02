@@ -27,7 +27,7 @@ Một bất động sản, bốn phòng. Ánh xạ từng listing Airbnb tới p
 
 ## Hằng ngày
 
-**Santara có tự nhắn tin cho khách không?**
+**Santara AI có tự nhắn tin cho khách không?**
 Không. Nó soạn nháp; bạn gửi. Không có chế độ trả lời tự động.
 
 **Nó có tự đổi giá của tôi không?**
@@ -46,7 +46,7 @@ việc, hãy báo [hỗ trợ](/vi/help/support/).
 
 ## Tiền
 
-**Santara có lấy hoa hồng không?**
+**Santara AI có lấy hoa hồng không?**
 Không — ở bất kỳ kênh nào, kể cả website đặt phòng của bạn.
 
 **"Doanh thu" trên các màn hình này nghĩa là gì?**
@@ -54,7 +54,7 @@ Tiền thực nhận: số kênh thực trả cho bạn. Tổng thu và doanh th
 Xem [Báo cáo](/vi/money/reports/).
 
 **Tiền từ website đặt phòng của tôi đi đâu?**
-Thẳng vào tài khoản Stripe của chính bạn. Santara không bao giờ giữ nó.
+Thẳng vào tài khoản Stripe của chính bạn. Santara AI không bao giờ giữ nó.
 
 **Nếu tôi xóa một bất động sản giữa tháng thì sao?**
 Nó ngừng được tính phí từ đó về sau. Khoản đã trả cho tháng hiện tại không được hoàn.

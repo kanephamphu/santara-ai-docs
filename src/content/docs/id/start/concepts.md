@@ -1,5 +1,5 @@
 ---
-title: Bagaimana Santara disusun
+title: Bagaimana Santara AI disusun
 description: Workspace, properti, kamar, rate plan, listing, koneksi. Enam kata yang menjelaskan setiap layar dalam produk.
 sidebar:
   order: 3
@@ -53,7 +53,7 @@ tersebut; bukan membuat plan baru.
 **Koneksi** adalah satu akun channel yang Anda tautkan — satu login Airbnb, atau satu properti
 Booking.com. Anda bisa punya beberapa, termasuk beberapa akun Airbnb.
 
-**Listing** adalah satu objek di channel yang dipetakan ke satu kamar Santara. Pemetaannya
+**Listing** adalah satu objek di channel yang dipetakan ke satu kamar Santara AI. Pemetaannya
 satu-ke-satu. Ketika listing terpetakan dan channel aktif, ketersediaan dan harga kamar itu mengalir
 keluar, sementara booking dan pesannya mengalir masuk.
 
@@ -85,7 +85,7 @@ bisa tahu bangunan mana tanpa bisa membuka seluruh portofolio Anda. Lihat
 
 ## Istilah uang
 
-- **Pendapatan** di Santara berarti **payout bersih** — yang benar-benar dibayarkan channel kepada
+- **Pendapatan** di Santara AI berarti **payout bersih** — yang benar-benar dibayarkan channel kepada
   Anda setelah komisinya. Selalu diberi label di layar, karena gross dan payout berbeda sekitar 15%
   dan mencampurnya merusak laporan setahun.
 - **RevPAN** adalah pendapatan per malam tersedia: pendapatan dibagi seluruh malam yang harus Anda

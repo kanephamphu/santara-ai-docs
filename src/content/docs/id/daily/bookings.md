@@ -57,6 +57,6 @@ trennya.
 | --- | --- |
 | **Gross** | Yang dibayar tamu, termasuk komisi channel |
 | **Pendapatan kamar** | Bagian akomodasi, tanpa biaya lain |
-| **Payout / bersih** | Yang dibayarkan channel kepada Anda. Inilah arti **pendapatan** di Santara |
+| **Payout / bersih** | Yang dibayarkan channel kepada Anda. Inilah arti **pendapatan** di Santara AI |
 
 Setiap angka di layar diberi label. Lihat [Laporan](/id/money/reports/).

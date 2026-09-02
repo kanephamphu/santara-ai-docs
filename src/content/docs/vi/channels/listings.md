@@ -14,11 +14,11 @@ Mỗi tài khoản đã kết nối có trang riêng hiển thị:
 
 - **Trạng thái** và thời điểm **đồng bộ lần cuối**.
 - **Listing trên kết nối này**, mỗi cái kèm trạng thái — *đã liên kết*, *đã ánh xạ*, *đang chạy* — và
-  phòng Santara mà nó trỏ tới.
+  phòng Santara AI mà nó trỏ tới.
 - **Làm mới**, đọc lại mọi thứ từ kênh ngay lập tức.
 
 Hãy dùng **Làm mới** trước tiên mỗi khi có gì đó trông cũ. Nó an toàn, lặp lại được, và xử lý phần lớn
-các báo cáo "kênh và Santara không khớp".
+các báo cáo "kênh và Santara AI không khớp".
 
 ## Nhập listing bạn đã bỏ qua
 
@@ -32,7 +32,7 @@ tài khoản Airbnb. Mỗi kết nối độc lập với nhau.
 
 ## Chuyển một listing sang phòng khác
 
-Xóa listing khỏi Santara, rồi nhập lại vào phòng bạn muốn. Không có cách trỏ lại tại chỗ, và điều đó
+Xóa listing khỏi Santara AI, rồi nhập lại vào phòng bạn muốn. Không có cách trỏ lại tại chỗ, và điều đó
 là cố ý: các đặt phòng và tin nhắn đã đến thuộc về phòng chúng đã đến, và âm thầm chuyển chúng là viết
 lại lịch sử.
 
@@ -41,7 +41,7 @@ sản**. Đặt phòng và tin nhắn trong tương lai về bất động sản
 
 ## Xóa một listing
 
-**Xóa khỏi Santara** xóa các đặt phòng, tin nhắn, khách và đánh giá của phòng đó. Listing của bạn trên
+**Xóa khỏi Santara AI** xóa các đặt phòng, tin nhắn, khách và đánh giá của phòng đó. Listing của bạn trên
 kênh không bị ảnh hưởng. Bạn có thể nhập lại sau; lịch sử quay lại cùng nó.
 
 ## Ngắt một tài khoản
@@ -54,19 +54,19 @@ nối cũ trước.
 
 ## Xóa bất động sản vẫn còn kết nối
 
-Santara từ chối. Hãy ngắt các listing của nó trước để phía kênh cũng được dọn dẹp — nếu không, kênh
+Santara AI từ chối. Hãy ngắt các listing của nó trước để phía kênh cũng được dọn dẹp — nếu không, kênh
 vẫn ánh xạ tới một phòng không còn tồn tại ở đây.
 
 ## PriceLabs
 
 Nếu bạn đã dùng PriceLabs, hãy kết nối tại **Cài đặt → Kênh → Kết nối PriceLabs** và bộ máy định giá
-của Santara sẽ nhường bước cho các listing do PriceLabs quản lý.
+của Santara AI sẽ nhường bước cho các listing do PriceLabs quản lý.
 
 Bạn cung cấp **email tài khoản** PriceLabs và một **API key** (PriceLabs → account settings → API).
-Key được xác minh với PriceLabs, lưu ở dạng mã hóa, và chỉ dùng để xác nhận tài khoản — Santara không
+Key được xác minh với PriceLabs, lưu ở dạng mã hóa, và chỉ dùng để xác nhận tài khoản — Santara AI không
 đọc giá từ PriceLabs.
 
 :::caution
-Đừng bao giờ dán mật khẩu PriceLabs vào bất kỳ đâu trong Santara. Hãy đăng nhập trên trang chính thức
+Đừng bao giờ dán mật khẩu PriceLabs vào bất kỳ đâu trong Santara AI. Hãy đăng nhập trên trang chính thức
 của PriceLabs, rồi chỉ cung cấp API key dành cho tích hợp.
 :::

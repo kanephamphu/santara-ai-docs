@@ -51,7 +51,7 @@ ticket keeps the link back to the thread.
 ## History
 
 Threads carry the conversation as the channel has it, including messages sent before you connected
-Santara. Where a channel closes a thread after checkout, the history stays here.
+Santara AI. Where a channel closes a thread after checkout, the history stays here.
 
 ## What guests never see
 

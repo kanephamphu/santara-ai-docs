@@ -29,7 +29,7 @@ ini" untuk kedatangan, kebersihan, dan ringkasan harian.
 
 **Pengaturan → Channel**.
 
-- **Airbnb** — tekan *Hubungkan Airbnb*, otorisasi di halaman Airbnb, lalu kembali. Santara membaca
+- **Airbnb** — tekan *Hubungkan Airbnb*, otorisasi di halaman Airbnb, lalu kembali. Santara AI membaca
   listing yang dibagikan akun tersebut. Panduan lengkap:
   [Hubungkan Airbnb](/id/channels/airbnb/).
 - **Booking.com** — Anda menambahkan connectivity provider kami di extranet dulu, lalu memasukkan
@@ -44,7 +44,7 @@ Setelah otorisasi, Anda mendapat daftar listing pada akun itu. Hapus centang yan
 Untuk masing-masing, tentukan apakah menjadi **properti baru** atau **kamar di properti yang sudah
 ada** — vila tiga kamar yang dijual terpisah adalah satu properti dengan tiga kamar.
 
-Tekan *Siapkan listing*. Santara membuat properti dan kamar, memetakan tiap listing, dan membaca
+Tekan *Siapkan listing*. Santara AI membuat properti dan kamar, memetakan tiap listing, dan membaca
 tarif dari channel.
 
 :::caution[Ini belum live]
@@ -62,7 +62,7 @@ Buka **Properti** dan lihat tiap kamar hasil impor:
   tambahan dan situs booking.
 - **Foto, wifi, kode pintu, alamat** — dipakai oleh pesan tamu dan situs booking Anda.
 
-Lalu kembali ke **Pengaturan → Channel** dan tekan **Go live**. Itulah saat Santara mengambil alih
+Lalu kembali ke **Pengaturan → Channel** dan tekan **Go live**. Itulah saat Santara AI mengambil alih
 kalender. Baca [Go live](/id/channels/going-live/) dulu — satu halaman, dan menjelaskan persis apa
 yang berubah.
 

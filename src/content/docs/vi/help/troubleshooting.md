@@ -7,7 +7,7 @@ sidebar:
 
 ## Thử những việc này trước, theo thứ tự
 
-1. **Tải lại trang.** Santara cập nhật màn hình theo thời gian thực; một tab để qua đêm có thể giữ
+1. **Tải lại trang.** Santara AI cập nhật màn hình theo thời gian thực; một tab để qua đêm có thể giữ
    khung nhìn cũ.
 2. **Kiểm tra kênh.** **Cài đặt → Kênh** — kết nối có đang *Đã kết nối*, và đồng bộ lần cuối khi nào?
    Bấm **Làm mới**.
@@ -66,7 +66,7 @@ Kiểm tra trạng thái kết nối trước: trả lời đi ra qua kênh, nê
 
 ## Con số khác với extranet
 
-Hãy xem bạn đang so con số nào. **Doanh thu** của Santara là tiền thực nhận; extranet thường hiển thị
+Hãy xem bạn đang so con số nào. **Doanh thu** của Santara AI là tiền thực nhận; extranet thường hiển thị
 tổng thu. Cả hai đều được lưu — [Đặt phòng](/vi/daily/bookings/) hiển thị cả ba.
 
 ## Có thứ gì đó thực sự hỏng

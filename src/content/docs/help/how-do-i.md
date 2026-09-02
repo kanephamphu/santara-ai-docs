@@ -17,7 +17,7 @@ than in general.
 | I want to… | Do this |
 | --- | --- |
 | Set the whole thing up from scratch | [Quickstart](/start/quickstart/) — four steps, about half an hour |
-| Understand the words on every screen | [How Santara is put together](/start/concepts/) |
+| Understand the words on every screen | [How Santara AI is put together](/start/concepts/) |
 | Try it without connecting a channel | [Create properties by hand](/setup/properties/#creating-one-by-hand) |
 | Know what changes when I connect Airbnb | Nothing, until you press Go live — [Going live](/channels/going-live/) |
 | Work out what to do each morning | [Your first week](/start/first-week/) |
@@ -95,7 +95,7 @@ than in general.
 | Import a listing I skipped the first time | [Import a listing you skipped](/channels/listings/#import-a-listing-you-skipped) |
 | Move a listing onto a different room | [Move a listing to a different room](/channels/listings/#move-a-listing-to-a-different-room) |
 | Force a channel to re-read everything now | **Refresh** on [the connection page](/channels/listings/#the-connection-page) |
-| Take one listing off Santara | [Remove one listing](/channels/listings/#remove-one-listing) |
+| Take one listing off Santara AI | [Remove one listing](/channels/listings/#remove-one-listing) |
 | Stop syncing entirely | [Disconnect an account](/channels/listings/#disconnect-an-account) |
 | Find out why a listing will not go live | [If it does not work](/channels/going-live/#if-it-does-not-work) |
 
@@ -129,7 +129,7 @@ than in general.
 | Log cleaning, utilities and repair costs | [The ledger](/money/accounting/#the-ledger) |
 | Send an owner their statement | [Periods and statements](/money/accounting/#periods-and-statements) |
 | Understand RevPAN, ADR and occupancy | [Occupancy, ADR, RevPAN](/money/reports/#occupancy-adr-revpan) |
-| Reconcile Santara against an extranet | [What revenue means here](/money/reports/#what-revenue-means-here) — ours is net payout |
+| Reconcile Santara AI against an extranet | [What revenue means here](/money/reports/#what-revenue-means-here) — ours is net payout |
 
 ## People and access
 

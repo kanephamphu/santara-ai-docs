@@ -119,7 +119,7 @@ Nó ngừng bị tính từ đó về sau. **Khoản đã trả cho tháng đang
 ## Quản lý thanh toán
 
 **Quản lý phương thức thanh toán** mở chính cổng của Stripe, nơi bạn cập nhật thẻ và tải hóa đơn.
-Biểu mẫu thẻ hoàn toàn là của Stripe; Santara không bao giờ thấy số thẻ. Hóa đơn của Stripe là chứng
+Biểu mẫu thẻ hoàn toàn là của Stripe; Santara AI không bao giờ thấy số thẻ. Hóa đơn của Stripe là chứng
 từ mà kế toán của bạn cần.
 
 ## Nếu thanh toán thất bại
@@ -144,6 +144,6 @@ thứ trở lại.
 
 Hủy từ màn hình Thanh toán. Quyền truy cập kéo dài tới hết kỳ đã trả tiền, không bị tính thêm.
 
-Listing trên kênh của bạn không bị ảnh hưởng — hủy Santara không đụng tới tài khoản Airbnb hay
+Listing trên kênh của bạn không bị ảnh hưởng — hủy Santara AI không đụng tới tài khoản Airbnb hay
 Booking.com của bạn. Nhưng nó chấm dứt việc đồng bộ vốn giữ lịch của các kênh khớp nhau, nên hãy
 **đóng hoặc đối chiếu lịch của bạn trước khi rời đi**.

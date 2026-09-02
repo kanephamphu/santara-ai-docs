@@ -10,8 +10,8 @@ sudah berjualan — Airbnb, Booking.com, situs booking Anda sendiri — dan seja
 kalender, satu kotak masuk, satu jadwal kebersihan, dan satu set pembukuan, bukan browser dengan
 enam tab terbuka.
 
-Ini bukan situs listing. Santara tidak pernah mengambil komisi atas booking, dan tamu tidak pernah
-memesan "lewat Santara" kecuali Anda menerbitkan [situs booking langsung](/id/setup/booking-site/)
+Ini bukan situs listing. Santara AI tidak pernah mengambil komisi atas booking, dan tamu tidak pernah
+memesan "lewat Santara AI" kecuali Anda menerbitkan [situs booking langsung](/id/setup/booking-site/)
 milik Anda sendiri, yang dibayarkan ke akun Stripe Anda.
 
 ## Apa yang digantikannya
@@ -27,7 +27,7 @@ milik Anda sendiri, yang dibayarkan ke akun Stripe Anda.
 
 ## Apa yang benar-benar otomatis
 
-Santara sengaja tegas soal ini, karena software yang bertindak pada listing aktif tanpa diminta
+Santara AI sengaja tegas soal ini, karena software yang bertindak pada listing aktif tanpa diminta
 adalah cara host kehilangan booking:
 
 - **Tugas turnover** muncul sendiri semalam sebelum tiap check-out.

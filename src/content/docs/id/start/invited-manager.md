@@ -19,7 +19,7 @@ property manager.
 2. **Atur bahasa dan zona waktu Anda sendiri** —
    [Akun Anda](/id/setup/account/#bahasa-dan-zona-waktu). Keduanya mengikuti Anda dan terpisah dari
    milik workspace.
-3. **Baca [Bagaimana Santara disusun](/id/start/concepts/)**. Enam istilah — workspace, properti,
+3. **Baca [Bagaimana Santara AI disusun](/id/start/concepts/)**. Enam istilah — workspace, properti,
    kamar, rate plan, listing, koneksi — dan setiap layar berhenti terasa misterius.
 4. **Buka Hari ini.** Ringkasan harian itulah pekerjaannya. Sisanya adalah tempat yang Anda tuju
    ketika ringkasan mengarahkan Anda ke sana.

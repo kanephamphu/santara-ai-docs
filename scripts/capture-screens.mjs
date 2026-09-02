@@ -254,7 +254,7 @@ const SHOTS = [
     steps: [{ click: { css: "[data-tour='assistant-launcher']" }, settle: 1600 }],
     settle: "main",
     height: 820,
-    note: "Ask Santara, open on any screen",
+    note: "Ask Santara AI, open on any screen",
   },
   {
     id: "search",

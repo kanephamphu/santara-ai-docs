@@ -1,6 +1,6 @@
 ---
 title: Glossary
-description: Every term Santara uses on screen, in one place.
+description: Every term Santara AI uses on screen, in one place.
 sidebar:
   order: 9
 ---
@@ -23,21 +23,21 @@ workspace in the workspace's language.
 
 **Direct booking** — a booking through your own site. No commission.
 
-**Go live** — the deliberate action that hands a listing's calendar control to Santara. See
+**Go live** — the deliberate action that hands a listing's calendar control to Santara AI. See
 [Going live](/channels/going-live/).
 
 **Gross** — what the guest paid, including the channel's commission.
 
-**Listing** — one thing on a channel, mapped one-to-one to a Santara room.
+**Listing** — one thing on a channel, mapped one-to-one to a Santara AI room.
 
 **Manual price** — a nightly rate you typed. Protected from the pricing engine unless you allow
 overwriting.
 
-**Mapping** — the link between a channel listing and a Santara room.
+**Mapping** — the link between a channel listing and a Santara AI room.
 
 **Occupancy** — nights sold divided by nights available.
 
-**Payout / net** — what the channel actually pays you. This is what Santara means by **revenue**.
+**Payout / net** — what the channel actually pays you. This is what Santara AI means by **revenue**.
 
 **Property** — a building or address. Holds rooms.
 

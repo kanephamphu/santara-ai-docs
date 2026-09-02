@@ -18,7 +18,7 @@ Không có vai trò "property manager" riêng, và bạn cũng không cần — 
 2. **Đặt ngôn ngữ và múi giờ của riêng bạn** —
    [Tài khoản của bạn](/vi/setup/account/#ngôn-ngữ-và-múi-giờ). Chúng đi theo bạn và tách khỏi cài
    đặt của workspace.
-3. **Đọc [Santara được cấu trúc thế nào](/vi/start/concepts/)**. Sáu từ — workspace, bất động sản,
+3. **Đọc [Santara AI được cấu trúc thế nào](/vi/start/concepts/)**. Sáu từ — workspace, bất động sản,
    phòng, rate plan, listing, kết nối — và mọi màn hình thôi khó hiểu.
 4. **Mở Hôm nay.** Bản tóm tắt hằng ngày chính là công việc. Mọi thứ khác là nơi bạn tới khi bản
    tóm tắt chỉ bạn tới đó.

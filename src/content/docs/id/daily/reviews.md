@@ -20,7 +20,7 @@ Daftar ini menaruh yang belum Anda balas di urutan teratas, dan hanya itu priori
 
 ## Skor
 
-Channel menilai dengan skala dan kriteria berbeda. Santara menyimpannya dalam satu bentuk, sehingga
+Channel menilai dengan skala dan kriteria berbeda. Santara AI menyimpannya dalam satu bentuk, sehingga
 8,6 dari Booking.com dan 4,3 dari Airbnb bisa berada dalam satu rata-rata tanpa salah satunya
 diam-diam keliru. Yang ditampilkan kepada Anda adalah skala channel itu sendiri, agar cocok dengan
 extranet.
@@ -30,7 +30,7 @@ menyediakannya, dan itulah yang dilihat ketika rata-rata bergerak dan Anda ingin
 
 ## Mengulas tamu (Airbnb)
 
-Airbnb mengizinkan host mengulas tamu, dan Santara dapat menerbitkannya untuk Anda dari data menginap.
+Airbnb mengizinkan host mengulas tamu, dan Santara AI dapat menerbitkannya untuk Anda dari data menginap.
 
 Ada tiga bagian:
 

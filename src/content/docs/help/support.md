@@ -7,11 +7,11 @@ sidebar:
 
 ## Three places, in order
 
-1. **[Ask Santara](/help/assistant/)** — in-product, can read your workspace. Fastest for "what is
+1. **[Ask Santara AI](/help/assistant/)** — in-product, can read your workspace. Fastest for "what is
    the status of…" and "why is this listing not live".
 2. **These docs** — every page is also [markdown](/help/for-ai-tools/) if you would rather read it
    in a tool.
-3. **Human support** — from the same panel as the assistant, escalate to the Santara team. If you
+3. **Human support** — from the same panel as the assistant, escalate to the Santara AI team. If you
    have been talking to the assistant, that conversation is carried over.
 
 ## What to include

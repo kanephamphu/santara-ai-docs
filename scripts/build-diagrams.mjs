@@ -305,8 +305,8 @@ const LABELS = {
   "sync-directions": {
     render: syncDirections,
     en: {
-      title: "What moves between Santara and a channel",
-      left: "Santara",
+      title: "What moves between Santara AI and a channel",
+      left: "Santara AI",
       right: "The channel",
       rightNote: "Airbnb, Booking.com",
       footer: "Nothing else moves. Your listing description is never edited from here.",
@@ -318,8 +318,8 @@ const LABELS = {
       ],
     },
     id: {
-      title: "Apa yang berpindah antara Santara dan channel",
-      left: "Santara",
+      title: "Apa yang berpindah antara Santara AI dan channel",
+      left: "Santara AI",
       right: "Channel",
       rightNote: "Airbnb, Booking.com",
       footer: "Tidak ada yang lain. Deskripsi listing Anda tidak pernah diubah dari sini.",
@@ -331,8 +331,8 @@ const LABELS = {
       ],
     },
     vi: {
-      title: "Cái gì di chuyển giữa Santara và một kênh",
-      left: "Santara",
+      title: "Cái gì di chuyển giữa Santara AI và một kênh",
+      left: "Santara AI",
       right: "Kênh bán",
       rightNote: "Airbnb, Booking.com",
       footer: "Không gì khác. Mô tả listing của bạn không bao giờ bị sửa từ đây.",

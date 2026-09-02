@@ -56,5 +56,5 @@ inbox, not your other properties, not your pricing.
 
 ## Fitting it to your accountant
 
-Everything here exports as CSV from [Reports](/money/reports/). Santara is not a bookkeeping
+Everything here exports as CSV from [Reports](/money/reports/). Santara AI is not a bookkeeping
 system, and it does not try to be your general ledger — it is the operational record that feeds one.

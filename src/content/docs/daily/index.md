@@ -36,7 +36,7 @@ someone has looked, not a completion score — nothing is hidden once you do.
 today's highlights and a link to the full brief. Each channel gets copy written for it rather than
 the same paragraph pasted three times.
 
-The link opens the full brief in Santara, so recipients need an account with access to this
+The link opens the full brief in Santara AI, so recipients need an account with access to this
 workspace. For a cleaner who should not see the estate, share the **cluster message** instead: it
 contains only their jobs.
 

@@ -17,7 +17,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Saya ingin… | Lakukan ini |
 | --- | --- |
 | Menyiapkan semuanya dari nol | [Panduan cepat](/id/start/quickstart/) — empat langkah, sekitar setengah jam |
-| Memahami istilah di setiap layar | [Bagaimana Santara disusun](/id/start/concepts/) |
+| Memahami istilah di setiap layar | [Bagaimana Santara AI disusun](/id/start/concepts/) |
 | Mencoba tanpa menghubungkan channel | [Buat properti manual](/id/setup/properties/#membuatnya-manual) |
 | Tahu apa yang berubah saat menghubungkan Airbnb | Tidak ada, sampai Anda menekan Go live — [Go live](/id/channels/going-live/) |
 | Tahu apa yang harus dikerjakan tiap pagi | [Minggu pertama Anda](/id/start/first-week/) |
@@ -95,7 +95,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Mengimpor listing yang tadi terlewat | [Impor listing yang terlewat](/id/channels/listings/#impor-listing-yang-terlewat) |
 | Memindahkan listing ke kamar lain | [Pindahkan listing ke kamar lain](/id/channels/listings/#pindahkan-listing-ke-kamar-lain) |
 | Memaksa channel membaca ulang sekarang | **Segarkan** di [halaman koneksi](/id/channels/listings/#halaman-koneksi) |
-| Melepas satu listing dari Santara | [Hapus satu listing](/id/channels/listings/#hapus-satu-listing) |
+| Melepas satu listing dari Santara AI | [Hapus satu listing](/id/channels/listings/#hapus-satu-listing) |
 | Menghentikan sinkronisasi sepenuhnya | [Putuskan sebuah akun](/id/channels/listings/#putuskan-sebuah-akun) |
 | Tahu kenapa sebuah listing tidak mau live | [Jika gagal](/id/channels/going-live/#jika-gagal) |
 
@@ -129,7 +129,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Mencatat biaya kebersihan, utilitas, perbaikan | [Buku besar](/id/money/accounting/#buku-besar) |
 | Mengirim laporan ke pemilik | [Periode dan laporan](/id/money/accounting/#periode-dan-laporan) |
 | Memahami RevPAN, ADR, dan okupansi | [Okupansi, ADR, RevPAN](/id/money/reports/#okupansi-adr-revpan) |
-| Merekonsiliasi Santara dengan extranet | [Arti pendapatan di sini](/id/money/reports/#arti-pendapatan-di-sini) — di sini artinya payout bersih |
+| Merekonsiliasi Santara AI dengan extranet | [Arti pendapatan di sini](/id/money/reports/#arti-pendapatan-di-sini) — di sini artinya payout bersih |
 
 ## Orang dan akses
 

@@ -1,6 +1,6 @@
 ---
 title: Arti pesan itu
-description: Kata-kata persis yang ditampilkan Santara, apa maksudnya, dan apa perbaikannya. Cari kalimat yang sedang Anda lihat di halaman ini.
+description: Kata-kata persis yang ditampilkan Santara AI, apa maksudnya, dan apa perbaikannya. Cari kalimat yang sedang Anda lihat di halaman ini.
 sidebar:
   order: 7
 ---

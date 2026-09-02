@@ -16,10 +16,10 @@ sidebar:
 
 **Pengaturan → Channel → Hubungkan Airbnb**.
 
-Anda ditanya, secara opsional, properti Santara mana yang menjadi tujuan listing akun ini. Jika
+Anda ditanya, secara opsional, properti Santara AI mana yang menjadi tujuan listing akun ini. Jika
 belum punya properti, lewati — properti akan dibuat dari listing.
 
-Tekan **Lanjut ke Airbnb**. Masuk di halaman Airbnb dan setujui koneksi di sana. Tab Santara
+Tekan **Lanjut ke Airbnb**. Masuk di halaman Airbnb dan setujui koneksi di sana. Tab Santara AI
 menampilkan *Menunggu Anda menyelesaikan otorisasi di Airbnb* sampai selesai.
 
 Jika jendela ditutup sebelum menyetujui, Anda melihat *Otorisasi belum selesai*. Tidak ada yang
@@ -37,7 +37,7 @@ Setelah Airbnb membagikan listing akun tersebut, Anda mendapat tabel. Untuk tiap
 - Listing yang sudah terhubung di tempat lain ditandai *sudah terhubung* dan tidak bisa dipilih dua
   kali.
 
-Tekan **Siapkan listing**. Santara lalu:
+Tekan **Siapkan listing**. Santara AI lalu:
 
 1. membuat properti dan kamar,
 2. memetakan tiap listing ke kamarnya,
@@ -55,7 +55,7 @@ Layar tinjauan menampilkan apa yang terbaca dari Airbnb per listing:
 - **Harga per malam**, harga akhir pekan, tamu termasuk, harga tamu tambahan, biaya kebersihan.
 - **Tetap di Airbnb** — pengaturan yang tidak punya padanan persis di sini. Tetap berlaku di Airbnb;
   ditampilkan agar Anda tahu keberadaannya.
-- **Perlu diperiksa di Airbnb** — nilai yang tampak tidak lazim. Santara menandai, bukan menebak.
+- **Perlu diperiksa di Airbnb** — nilai yang tampak tidak lazim. Santara AI menandai, bukan menebak.
 - **Kami tidak dapat membaca harga listing ini dengan aman** — kamar mempertahankan harganya sendiri
   dan tidak ada yang dikarang. Tetapkan harga sebelum go live.
 
@@ -67,7 +67,7 @@ ditahan sampai ada harga sungguhan — dan tautan itu pulih sendiri begitu ada.
 
 ## 4. Go live
 
-**Go live di Airbnb** menyerahkan kendali kalender ke Santara. Ketersediaan mulai tersinkronisasi.
+**Go live di Airbnb** menyerahkan kendali kalender ke Santara AI. Ketersediaan mulai tersinkronisasi.
 **Harga tetap seperti di Airbnb** sampai Anda mengubahnya di sini atau aturan pricing menerbitkannya.
 
 Jika sebuah listing gagal live, alasannya ditampilkan sebagaimana disampaikan Airbnb:
@@ -88,7 +88,7 @@ akun yang sudah terhubung akan ditolak — putuskan yang lama dulu.
 
 ## Menghapus
 
-- **Hapus dari Santara** pada satu listing — menghapus reservasi, pesan, tamu, dan ulasan kamar itu
+- **Hapus dari Santara AI** pada satu listing — menghapus reservasi, pesan, tamu, dan ulasan kamar itu
   di sini. Listing Airbnb Anda tidak tersentuh dan bisa diimpor kembali.
 - **Putuskan** akun — sama, untuk seluruh listing di akun itu, dan sinkronisasi berhenti.
 

@@ -43,7 +43,7 @@ manager currently holds — a blank is "don't manage this", not "set it to zero"
 
 :::caution[Booking.com needs its occupancies priced]
 If a rate plan has no price for a guest count Booking.com accepts, that room stays *linked but not
-mapped* — Santara will not guess a price on a live listing. Price the occupancy on the plan and
+mapped* — Santara AI will not guess a price on a live listing. Price the occupancy on the plan and
 map it again. See [Connect Booking.com](/channels/booking-com/).
 :::
 

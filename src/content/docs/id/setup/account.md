@@ -5,7 +5,7 @@ sidebar:
   order: 8
 ---
 
-Hampir semua hal di Santara milik sebuah **workspace**. Dua hal tidak: akun dan keamanan Anda.
+Hampir semua hal di Santara AI milik sebuah **workspace**. Dua hal tidak: akun dan keamanan Anda.
 Keduanya mengikuti Anda di setiap workspace yang Anda ikuti, dan tidak ada orang lain yang bisa
 mengubahnya — termasuk pemilik workspace tempat Anda bekerja.
 

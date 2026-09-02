@@ -44,7 +44,7 @@ mempertahankan nilai yang kini dipegang channel manager — kosong berarti "jang
 
 :::caution[Booking.com butuh okupansinya diberi harga]
 Jika sebuah rate plan tidak punya harga untuk jumlah tamu yang diterima Booking.com, kamar itu tetap
-*tertaut tetapi belum dipetakan* — Santara tidak akan menebak harga pada listing aktif. Beri harga
+*tertaut tetapi belum dipetakan* — Santara AI tidak akan menebak harga pada listing aktif. Beri harga
 untuk okupansi tersebut pada plan-nya, lalu petakan lagi. Lihat
 [Hubungkan Booking.com](/id/channels/booking-com/).
 :::

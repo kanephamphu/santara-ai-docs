@@ -1,6 +1,6 @@
 ---
 title: Dữ liệu và quyền riêng tư của bạn
-description: Santara lưu gì, ai trong workspace của bạn xem được, cái gì đi ra ngoài, cách lấy dữ liệu về, và điều gì xảy ra khi bạn xóa thứ gì đó.
+description: Santara AI lưu gì, ai trong workspace của bạn xem được, cái gì đi ra ngoài, cách lấy dữ liệu về, và điều gì xảy ra khi bạn xóa thứ gì đó.
 sidebar:
   order: 9
 ---
@@ -33,7 +33,7 @@ Santara AI là sản phẩm của **AirCierge AI LLC**, đăng ký tại Wyoming
 | **Tài khoản** | Tên, email, ngôn ngữ, múi giờ, và bản băm mật khẩu của bạn |
 
 Mật khẩu được lưu dưới dạng **băm PBKDF2 với 310.000 vòng lặp**, không bao giờ ở dạng văn bản thô.
-Không ai ở Santara đọc được mật khẩu của bạn, và chúng tôi cũng không khôi phục được — vì thế việc
+Không ai ở Santara AI đọc được mật khẩu của bạn, và chúng tôi cũng không khôi phục được — vì thế việc
 đặt lại sẽ cấp mật khẩu mới thay vì cho bạn biết mật khẩu cũ.
 
 ## Ai trong workspace xem được
@@ -80,7 +80,7 @@ AI có thể sai — bản tóm tắt, bản nháp và tín hiệu giá đều l
 | --- | --- |
 | **Airbnb / Booking.com** | Tình trạng trống, giá và ràng buộc đi ra; đặt phòng, khách, tin nhắn và đánh giá đi vào — qua nhà cung cấp kết nối kênh của chúng tôi |
 | **Nhà cung cấp mô hình AI** | Phần văn bản cần để viết bản tóm tắt, soạn nháp trả lời hoặc chấm điểm cơ hội |
-| **Stripe** | Thẻ của bạn, cho gói thuê bao. Santara không bao giờ thấy số thẻ |
+| **Stripe** | Thẻ của bạn, cho gói thuê bao. Santara AI không bao giờ thấy số thẻ |
 | **Stripe, tài khoản của chính bạn** | Thanh toán đặt phòng trực tiếp — xem bên dưới |
 | **Email** | Lời mời, mã xác minh và mã đặt lại, cùng những gì bạn chủ động gửi |
 
@@ -89,7 +89,7 @@ Không có gì khác. Trong danh sách này không có mạng quảng cáo và k
 ## Tiền trên website đặt phòng của bạn
 
 Thanh toán từ [website đặt phòng trực tiếp](/vi/setup/booking-site/) đi thẳng **vào tài khoản Stripe
-của chính bạn**, không phải của chúng tôi. Santara không bao giờ giữ tiền của khách và không bao giờ
+của chính bạn**, không phải của chúng tôi. Santara AI không bao giờ giữ tiền của khách và không bao giờ
 lấy hoa hồng trên một lượt đặt, ở bất kỳ kênh nào.
 
 Thứ duy nhất được cộng thêm vào một lượt đặt trực tiếp là **phí dịch vụ 3% do khách trả** trên giá
@@ -141,7 +141,7 @@ mọi thứ vẫn còn đó, bạn chỉ không thay đổi được cho tới k
 
 ## Dữ liệu khách cũng là trách nhiệm của bạn
 
-Santara lưu nó; bạn quyết định ai trong đội chạm tới được. Hai thói quen đáng xây dựng:
+Santara AI lưu nó; bạn quyết định ai trong đội chạm tới được. Hai thói quen đáng xây dựng:
 
 - **Hãy mời người khác đúng cách thay vì dùng chung tài khoản.** Tài khoản dùng chung làm mọi quyết
   định kiểm soát truy cập ở trên trở nên vô nghĩa, và phá hủy ghi nhận ai đã làm gì.

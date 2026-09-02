@@ -56,6 +56,6 @@ dibayarkan. Bukan kotak masuk Anda, bukan properti Anda yang lain, bukan pricing
 
 ## Menyesuaikan dengan akuntan Anda
 
-Semua di sini bisa diekspor sebagai CSV dari [Laporan](/id/money/reports/). Santara bukan sistem
+Semua di sini bisa diekspor sebagai CSV dari [Laporan](/id/money/reports/). Santara AI bukan sistem
 pembukuan dan tidak berusaha menjadi buku besar umum Anda — ini catatan operasional yang memberi
 makan sistem itu.

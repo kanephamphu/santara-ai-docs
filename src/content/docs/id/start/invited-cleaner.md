@@ -13,7 +13,7 @@ kecil yang memang disengaja, bukan versi terpotong dari produk pemilik.
 
 1. Anda menerima **email berisi tautan undangan**. Buka di ponsel atau laptop yang benar-benar akan
    Anda pakai.
-2. Kalau belum pernah memakai Santara, **buat akun dulu** — nama, email, dan kata sandi minimal 12
+2. Kalau belum pernah memakai Santara AI, **buat akun dulu** — nama, email, dan kata sandi minimal 12
    karakter — lalu terima undangannya.
 3. Kalau sudah punya akun (misalnya Anda bekerja untuk dua pemilik), tinggal masuk. Login yang sama
    berlaku; menu akun memungkinkan Anda berpindah antar workspace.

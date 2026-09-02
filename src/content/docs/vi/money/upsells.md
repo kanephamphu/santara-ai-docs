@@ -7,7 +7,7 @@ sidebar:
 
 ![Dòng cơ hội upsell: từng cơ hội kèm lượt lưu trú phía sau, giá trị của nó, và bản nháp tin nhắn để chào.](/screens/upsells.vi.png)
 
-Upsell là một đêm hoặc một giờ bạn đã có, bán cho khách đang ở. Santara tìm ra chúng bằng cách đọc
+Upsell là một đêm hoặc một giờ bạn đã có, bán cho khách đang ở. Santara AI tìm ra chúng bằng cách đọc
 lịch, không phải bằng cách đoán khách muốn gì.
 
 ## Nó tìm gì
@@ -40,7 +40,7 @@ Bạn kéo dài hoặc điều chỉnh lượt lưu trú trong [Đặt phòng](/
 [lịch](/vi/daily/calendar/). Các đêm được đóng ở mọi kênh như thường lệ, và doanh thu tăng thêm xuất
 hiện trong [Báo cáo](/vi/money/reports/).
 
-Santara không âm thầm sửa một lượt đặt thay bạn.
+Santara AI không âm thầm sửa một lượt đặt thay bạn.
 
 ## Lời chào còn xuất hiện ở đâu
 

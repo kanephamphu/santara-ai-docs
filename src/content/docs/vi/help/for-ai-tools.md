@@ -52,5 +52,5 @@ không có thanh điều hướng, sidebar hay biểu ngữ cookie chen vào.
 ## Hỏi về workspace *của bạn*
 
 Tài liệu này mô tả sản phẩm. Với câu hỏi về dữ liệu của chính bạn — đặt phòng, doanh thu, listing của
-bạn — hãy dùng [Hỏi Santara](/vi/help/assistant/) trong sản phẩm. Nó có workspace của bạn; một chatbot
+bạn — hãy dùng [Hỏi Santara AI](/vi/help/assistant/) trong sản phẩm. Nó có workspace của bạn; một chatbot
 chỉ có URL này thì không.

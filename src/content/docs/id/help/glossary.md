@@ -1,6 +1,6 @@
 ---
 title: Glosarium
-description: Setiap istilah yang dipakai Santara di layar, dalam satu tempat.
+description: Setiap istilah yang dipakai Santara AI di layar, dalam satu tempat.
 sidebar:
   order: 9
 ---
@@ -22,22 +22,22 @@ workspace dalam bahasa workspace.
 
 **Booking langsung** — booking lewat situs Anda sendiri. Tanpa komisi.
 
-**Go live** — tindakan sengaja yang menyerahkan kendali kalender sebuah listing ke Santara. Lihat
+**Go live** — tindakan sengaja yang menyerahkan kendali kalender sebuah listing ke Santara AI. Lihat
 [Go live](/id/channels/going-live/).
 
 **Gross** — yang dibayar tamu, termasuk komisi channel.
 
-**Listing** — satu objek di channel, dipetakan satu-ke-satu ke kamar Santara.
+**Listing** — satu objek di channel, dipetakan satu-ke-satu ke kamar Santara AI.
 
 **Harga manual** — tarif per malam yang Anda ketik. Dilindungi dari mesin pricing kecuali Anda
 mengizinkan penimpaan.
 
-**Pemetaan** — tautan antara listing channel dan kamar Santara.
+**Pemetaan** — tautan antara listing channel dan kamar Santara AI.
 
 **Okupansi** — malam terjual dibagi malam tersedia.
 
 **Payout / bersih** — yang benar-benar dibayarkan channel kepada Anda. Inilah arti **pendapatan** di
-Santara.
+Santara AI.
 
 **Properti** — bangunan atau alamat. Memuat kamar.
 

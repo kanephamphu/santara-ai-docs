@@ -1,5 +1,5 @@
 ---
-title: Ask Santara
+title: Ask Santara AI
 description: The in-product assistant — what it can read, what it can do, and what it will never do on your behalf.
 sidebar:
   order: 1
@@ -13,7 +13,7 @@ questions about your actual business are fair:
 - *Why isn't the Airbnb listing for Unit 3 live?*
 - *Draft a reply to the guest asking about early check-in.*
 
-![Ask Santara, open over whatever screen you were on.](/screens/assistant.en.png)
+![Ask Santara AI, open over whatever screen you were on.](/screens/assistant.en.png)
 
 ## What it can see
 
@@ -48,5 +48,5 @@ screen. The conversation goes with the message.
 
 ## Escalating to a person
 
-Support in the product is a real channel to the Santara team, separate from the assistant. If you
+Support in the product is a real channel to the Santara AI team, separate from the assistant. If you
 escalate, the assistant conversation is carried over so you do not repeat yourself.

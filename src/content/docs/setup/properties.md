@@ -7,7 +7,7 @@ sidebar:
 
 A **property** is a building or address. A **room** is a bookable unit inside it. The room is what
 guests book, what channels map to, and what is billed. See
-[How Santara is put together](/start/concepts/#property-then-room) if that split is new to you.
+[How Santara AI is put together](/start/concepts/#property-then-room) if that split is new to you.
 
 ![Properties: your buildings, and the rooms inside them that guests actually book.](/screens/properties.en.png)
 

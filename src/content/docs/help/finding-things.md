@@ -46,7 +46,7 @@ mid-sentence.
 
 :::note[It needs a wide screen]
 The walkthrough points at things, and on a phone there is nothing to point at — the layout is
-different. Open Santara on a laptop for it.
+different. Open Santara AI on a laptop for it.
 :::
 
 ## The setup checklist

@@ -24,7 +24,7 @@ Chưa có gì trong tháng này.
 villa bốn phòng là bốn listing, dù bạn tạo phòng thủ công hay liên kết từ Booking.com; trước đây hai
 con đường này cho kết quả khác nhau và có thể chênh nhau nhiều lần cho cùng một tòa nhà.
 
-Nếu bạn thêm listing vượt mức gói, Santara giờ **hỏi trước, hiện giá, và tính tiền cho phần còn lại
+Nếu bạn thêm listing vượt mức gói, Santara AI giờ **hỏi trước, hiện giá, và tính tiền cho phần còn lại
 của kỳ thanh toán** thay vì lặng lẽ đổi hóa đơn của bạn. Mã khuyến mãi được chấp nhận khi thanh
 toán. Xem [Gói và thanh toán](/vi/setup/billing/).
 
@@ -36,10 +36,10 @@ và upsell, và giá của nó giảm dần theo từng cửa khi bạn lớn l�
 Operator là chạy theo số listing. Xem
 [Chọn giữa Host và Operator](/vi/setup/billing/#chọn-giữa-host-và-operator).
 
-### Hỏi Santara
+### Hỏi Santara AI
 
 Một trợ lý ở mọi màn hình, đọc workspace của bạn dưới chính quyền hạn của bạn. Chỉ đọc, với một ngoại
-lệ: nó soạn nháp được câu trả lời cho khách. Xem [Hỏi Santara](/vi/help/assistant/).
+lệ: nó soạn nháp được câu trả lời cho khách. Xem [Hỏi Santara AI](/vi/help/assistant/).
 
 ### Smart pricing trưởng thành
 

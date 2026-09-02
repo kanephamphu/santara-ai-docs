@@ -5,7 +5,7 @@ sidebar:
   order: 2
 ---
 
-Mỗi workspace đều có thể xuất bản một website đặt phòng trực tiếp. Santara **không lấy hoa hồng** trên
+Mỗi workspace đều có thể xuất bản một website đặt phòng trực tiếp. Santara AI **không lấy hoa hồng** trên
 những gì bán qua đó, và tiền vào tài khoản Stripe của bạn, không phải của chúng tôi.
 
 **Cài đặt → Website đặt phòng**. Bên trái là phần thiết lập; bên phải là bản xem trước trực tiếp.
@@ -49,7 +49,7 @@ cầu.
 ## 5. Kết nối Stripe
 
 **Thanh toán** kết nối tài khoản Stripe của chính bạn. Bạn đăng nhập (hoặc tạo tài khoản) trên trang
-của Stripe. Santara không bao giờ chạm vào tiền và không bao giờ thấy số thẻ.
+của Stripe. Santara AI không bao giờ chạm vào tiền và không bao giờ thấy số thẻ.
 
 Bạn có thể thêm **phí dịch vụ** cho đặt phòng trực tiếp, do khách trả thêm ngoài tiền phòng:
 
@@ -72,7 +72,7 @@ không công cụ tìm kiếm sẽ lấy bất cứ gì nó nhặt được.
 
 ## Thông tin liên hệ
 
-Hiển thị ở mục liên hệ và chân trang. Địa chỉ dẫn tới Maps; Santara không bao giờ nhúng iframe bản đồ do
+Hiển thị ở mục liên hệ và chân trang. Địa chỉ dẫn tới Maps; Santara AI không bao giờ nhúng iframe bản đồ do
 bạn cung cấp. Chọn ngôn ngữ khách thấy đầu tiên — họ vẫn đổi được.
 
 ## Khách nhận được gì

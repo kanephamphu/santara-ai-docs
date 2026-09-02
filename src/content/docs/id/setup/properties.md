@@ -7,7 +7,7 @@ sidebar:
 
 **Properti** adalah bangunan atau alamat. **Kamar** adalah unit yang bisa dipesan di dalamnya. Kamar
 adalah yang dipesan tamu, yang dipetakan channel, dan yang ditagihkan. Lihat
-[Bagaimana Santara disusun](/id/start/concepts/#properti-lalu-kamar) bila pembagian ini baru bagi
+[Bagaimana Santara AI disusun](/id/start/concepts/#properti-lalu-kamar) bila pembagian ini baru bagi
 Anda.
 
 ![Properti: bangunan Anda, dan kamar-kamar di dalamnya yang benar-benar dipesan tamu.](/screens/properties.id.png)

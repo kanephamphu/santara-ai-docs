@@ -37,7 +37,7 @@ skor penyelesaian — tidak ada yang disembunyikan setelahnya.
 berisi sorotan hari ini dan tautan ke ringkasan lengkap. Tiap channel mendapat teks yang ditulis
 untuknya, bukan satu paragraf yang ditempel tiga kali.
 
-Tautannya membuka ringkasan penuh di Santara, jadi penerima butuh akun dengan akses ke workspace ini.
+Tautannya membuka ringkasan penuh di Santara AI, jadi penerima butuh akun dengan akses ke workspace ini.
 Untuk petugas kebersihan yang tidak boleh melihat portofolio, bagikan **pesan klaster** saja: isinya
 hanya pekerjaan mereka.
 

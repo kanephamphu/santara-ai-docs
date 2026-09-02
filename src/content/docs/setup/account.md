@@ -5,7 +5,7 @@ sidebar:
   order: 8
 ---
 
-Almost everything in Santara belongs to a **workspace**. Two things do not: your account and your
+Almost everything in Santara AI belongs to a **workspace**. Two things do not: your account and your
 security. They follow you between every workspace you belong to, and nobody else can change them —
 not even the owner of the workspace you work in.
 

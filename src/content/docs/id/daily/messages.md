@@ -52,7 +52,7 @@ yang akan tergulung. Tiket menyimpan tautan kembali ke utas.
 ## Riwayat
 
 Utas membawa percakapan sebagaimana ada di channel, termasuk pesan yang dikirim sebelum Anda
-menghubungkan Santara.
+menghubungkan Santara AI.
 
 ## Yang tidak pernah dilihat tamu
 

@@ -28,7 +28,7 @@ khách đến, dọn phòng và bản tóm tắt hằng ngày.
 
 **Cài đặt → Kênh**.
 
-- **Airbnb** — bấm *Kết nối Airbnb*, cấp phép trên trang của Airbnb, rồi quay lại. Santara đọc các
+- **Airbnb** — bấm *Kết nối Airbnb*, cấp phép trên trang của Airbnb, rồi quay lại. Santara AI đọc các
   listing mà tài khoản đó chia sẻ. Hướng dẫn đầy đủ:
   [Kết nối Airbnb](/vi/channels/airbnb/).
 - **Booking.com** — bạn thêm nhà cung cấp kết nối của chúng tôi trong extranet trước, rồi nhập Hotel
@@ -43,7 +43,7 @@ Sau khi cấp phép, bạn nhận được danh sách listing của tài khoản
 mỗi listing, chọn nó trở thành **bất động sản mới** hay **một phòng trong bất động sản sẵn có** —
 một villa ba phòng ngủ bán riêng lẻ là một bất động sản với ba phòng.
 
-Bấm *Thiết lập listing*. Santara tạo bất động sản và phòng, ánh xạ từng listing, và đọc giá từ kênh.
+Bấm *Thiết lập listing*. Santara AI tạo bất động sản và phòng, ánh xạ từng listing, và đọc giá từ kênh.
 
 :::caution[Chưa lên sóng]
 Cuối quá trình nhập, bạn sẽ thấy **Đã thiết lập — chưa lên sóng**. Listing đã được ánh xạ, giá đã
@@ -59,7 +59,7 @@ Mở **Bất động sản** và xem từng phòng vừa nhập:
   website đặt phòng.
 - **Ảnh, wifi, mã cửa, địa chỉ** — được dùng cho tin nhắn khách và website đặt phòng.
 
-Rồi quay lại **Cài đặt → Kênh** và bấm **Go live**. Đó là khoảnh khắc Santara tiếp quản lịch. Hãy đọc
+Rồi quay lại **Cài đặt → Kênh** và bấm **Go live**. Đó là khoảnh khắc Santara AI tiếp quản lịch. Hãy đọc
 [Go live](/vi/channels/going-live/) trước — chỉ một trang, và nó nói chính xác điều gì thay đổi.
 
 ## Sau đó điều gì xảy ra

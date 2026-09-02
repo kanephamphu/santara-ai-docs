@@ -1,5 +1,5 @@
 ---
-title: Santara được cấu trúc thế nào
+title: Santara AI được cấu trúc thế nào
 description: Workspace, bất động sản, phòng, rate plan, listing, kết nối. Sáu từ giải thích mọi màn hình trong sản phẩm.
 sidebar:
   order: 3
@@ -53,7 +53,7 @@ không tạo plan mới.
 **Kết nối** là một tài khoản kênh bạn đã liên kết — một tài khoản Airbnb, hoặc một chỗ nghỉ
 Booking.com. Bạn có thể có nhiều, kể cả nhiều tài khoản Airbnb.
 
-**Listing** là một mục trên kênh, ánh xạ tới một phòng Santara. Ánh xạ là một-một. Khi listing đã
+**Listing** là một mục trên kênh, ánh xạ tới một phòng Santara AI. Ánh xạ là một-một. Khi listing đã
 được ánh xạ và kênh đang hoạt động, tình trạng trống và giá của phòng đó chảy ra, còn đặt phòng và
 tin nhắn chảy vào.
 
@@ -84,7 +84,7 @@ của bạn là một gói năng lực, có thể được thu hẹp về một 
 
 ## Các từ về tiền
 
-- **Doanh thu** trong Santara nghĩa là **tiền thực nhận** — số kênh thực trả cho bạn sau hoa hồng.
+- **Doanh thu** trong Santara AI nghĩa là **tiền thực nhận** — số kênh thực trả cho bạn sau hoa hồng.
   Điều này được ghi nhãn ở mọi nơi, vì tổng thu và tiền thực nhận chênh nhau khoảng 15% và lẫn lộn
   chúng sẽ phá hỏng báo cáo cả năm.
 - **RevPAN** là doanh thu trên mỗi đêm khả dụng: doanh thu chia cho toàn bộ số đêm bạn phải bán. Đó

@@ -7,7 +7,7 @@ sidebar:
 
 ![The upsell pipeline: each opportunity with the stay behind it, what it is worth, and the draft message that offers it.](/screens/upsells.en.png)
 
-An upsell is a night or an hour you already have, sold to a guest who is already staying. Santara
+An upsell is a night or an hour you already have, sold to a guest who is already staying. Santara AI
 finds them by reading the calendar, not by guessing at what a guest might want.
 
 ## What it looks for
@@ -41,7 +41,7 @@ You extend or adjust the stay in [Bookings](/daily/bookings/) or the
 [calendar](/daily/calendar/). The nights close on every channel as usual, and the extra revenue
 appears in [Reports](/money/reports/) under the stay it belongs to.
 
-Santara does not silently modify a reservation on your behalf.
+Santara AI does not silently modify a reservation on your behalf.
 
 ## Where else offers surface
 

@@ -13,7 +13,7 @@ có chủ đích của sản phẩm, không phải một bản rút gọn của 
 
 1. Bạn nhận **email kèm liên kết lời mời**. Hãy mở nó trên chiếc điện thoại hoặc laptop bạn thực sự
    sẽ dùng.
-2. Nếu chưa từng dùng Santara, hãy **tạo tài khoản trước** — tên, email, mật khẩu ít nhất 12 ký tự
+2. Nếu chưa từng dùng Santara AI, hãy **tạo tài khoản trước** — tên, email, mật khẩu ít nhất 12 ký tự
    — rồi chấp nhận lời mời.
 3. Nếu đã có tài khoản (có thể bạn dọn phòng cho hai chủ nhà), chỉ cần đăng nhập. Cùng một tài
    khoản dùng được; menu tài khoản cho phép bạn chuyển giữa các workspace.

@@ -46,7 +46,7 @@ ditawari di tengah kalimat.
 
 :::note[Butuh layar lebar]
 Panduan ini menunjuk berbagai hal, dan di ponsel tidak ada yang bisa ditunjuk — tata letaknya berbeda.
-Buka Santara di laptop untuk menjalankannya.
+Buka Santara AI di laptop untuk menjalankannya.
 :::
 
 ## Checklist persiapan

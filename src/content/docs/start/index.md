@@ -9,8 +9,8 @@ Santara AI is operations software for short-term rentals. You connect the places
 sell — Airbnb, Booking.com, your own booking site — and from then on there is one calendar, one
 inbox, one cleaning schedule and one set of books, instead of a browser with six tabs open.
 
-It is not a listing site. Santara never takes a commission on a booking, and guests never book
-"through Santara" unless you publish your own [direct booking site](/setup/booking-site/), which
+It is not a listing site. Santara AI never takes a commission on a booking, and guests never book
+"through Santara AI" unless you publish your own [direct booking site](/setup/booking-site/), which
 is yours and paid into your own Stripe account.
 
 ## What it replaces
@@ -26,7 +26,7 @@ is yours and paid into your own Stripe account.
 
 ## What is actually automatic
 
-Santara is deliberate about this, because software that acts on a live listing without being
+Santara AI is deliberate about this, because software that acts on a live listing without being
 asked is how a host loses a booking:
 
 - **Turnover tasks** appear on their own the night before each checkout.

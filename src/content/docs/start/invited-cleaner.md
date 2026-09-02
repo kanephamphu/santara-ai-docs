@@ -13,7 +13,7 @@ small, deliberate part of the product, not a cut-down version of the owner's one
 
 1. You get an **email with an invitation link**. Open it on the phone or laptop you will actually
    use.
-2. If you have never used Santara, you **create an account first** — your name, your email, a
+2. If you have never used Santara AI, you **create an account first** — your name, your email, a
    password of at least 12 characters — then accept the invitation.
 3. If you already have an account (perhaps you clean for two different owners), just sign in. The
    same login works; the account menu lets you switch between the workspaces you belong to.

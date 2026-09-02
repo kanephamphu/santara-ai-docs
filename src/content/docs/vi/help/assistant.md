@@ -1,5 +1,5 @@
 ---
-title: Hỏi Santara
+title: Hỏi Santara AI
 description: Trợ lý trong sản phẩm — nó đọc được gì, làm được gì, và điều gì nó sẽ không bao giờ làm thay bạn.
 sidebar:
   order: 1
@@ -13,7 +13,7 @@ thật của bạn là hợp lệ:
 - *Vì sao listing Airbnb của Unit 3 chưa chạy?*
 - *Soạn giúp câu trả lời cho khách hỏi nhận phòng sớm.*
 
-![Hỏi Santara, mở ngay trên màn hình bạn đang xem.](/screens/assistant.vi.png)
+![Hỏi Santara AI, mở ngay trên màn hình bạn đang xem.](/screens/assistant.vi.png)
 
 ## Nó thấy được gì
 
@@ -46,5 +46,5 @@ thoại sẽ đi kèm.
 
 ## Chuyển tới người thật
 
-Hỗ trợ trong sản phẩm là kênh thật tới đội ngũ Santara, tách biệt với trợ lý. Nếu bạn chuyển tiếp, cuộc
+Hỗ trợ trong sản phẩm là kênh thật tới đội ngũ Santara AI, tách biệt với trợ lý. Nếu bạn chuyển tiếp, cuộc
 trò chuyện với trợ lý được mang theo để bạn không phải kể lại.

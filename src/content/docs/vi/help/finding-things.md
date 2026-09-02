@@ -45,7 +45,7 @@ chào bán giữa câu.
 
 :::note[Cần màn hình rộng]
 Phần hướng dẫn chỉ vào từng thứ, và trên điện thoại thì không có gì để chỉ — bố cục khác hẳn. Hãy mở
-Santara trên laptop để chạy nó.
+Santara AI trên laptop để chạy nó.
 :::
 
 ## Danh sách thiết lập

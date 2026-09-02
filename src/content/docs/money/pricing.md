@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Santara's pricing engine works out a nightly rate for every future night and publishes it to your
+Santara AI's pricing engine works out a nightly rate for every future night and publishes it to your
 channels. You control it with a **rule set**, and you can see exactly what it would do before
 anything goes out.
 
@@ -15,7 +15,7 @@ keeps whatever price it has.
 To set one night by hand — or a minimum stay, or how many units are sellable — see
 **[Rates and availability](/money/rates/)**.
 
-![A rule set on the Rules tab: seasons with their multipliers and weekend strength. This one is a Santara template, which is why it is read-only until you make your own copy.](/screens/pricing.en.png)
+![A rule set on the Rules tab: seasons with their multipliers and weekend strength. This one is a Santara AI template, which is why it is read-only until you make your own copy.](/screens/pricing.en.png)
 
 ## The two halves
 
@@ -48,7 +48,7 @@ higher. Use them for holidays we do not ship, and for dates nobody travels.
 | **Blackout** | Blocks last-minute and demand-based discounts on those nights |
 | **Blocks check-in** | An availability rule, not a price one — for days nobody can travel |
 
-**Starting from ours.** Santara ships rule sets with the regional holidays kept up to date each
+**Starting from ours.** Santara AI ships rule sets with the regional holidays kept up to date each
 year. You can see exactly what they would do. Make your own copy to change anything — and note that
 once it is yours, **we stop maintaining its dates**, including the ones that move with the moon:
 Nyepi and Idul Fitri shift every year.
@@ -103,11 +103,11 @@ newest run's work, not a running total for the window.
 
 ## Market suggestions
 
-Based on where each listing is, Santara can suggest what to price it on. Suggestions are
+Based on where each listing is, Santara AI can suggest what to price it on. Suggestions are
 suggestions: nothing is published until you choose.
 
 ## If you already use PriceLabs
 
-Connect it under [Settings → Channels](/channels/listings/#pricelabs) and Santara's own engine
+Connect it under [Settings → Channels](/channels/listings/#pricelabs) and Santara AI's own engine
 stands aside for the listings PriceLabs manages, rather than the two fighting over the same
 calendar.

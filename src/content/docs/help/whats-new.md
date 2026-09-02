@@ -23,7 +23,7 @@ The billable unit is now a **listing — a sellable room**, not a property row. 
 four listings whether you created the rooms by hand or linked them from Booking.com; before this,
 the two routes disagreed and could differ several-fold for the same building.
 
-If you add a listing beyond what your plan covers, Santara now **asks first, shows the price, and
+If you add a listing beyond what your plan covers, Santara AI now **asks first, shows the price, and
 charges for the rest of the billing period** rather than silently changing your invoice. Promotion
 codes are accepted at checkout. See [Plans and billing](/setup/billing/).
 
@@ -35,10 +35,10 @@ insights and upsells, and its price falls per door as you grow. You choose the t
 inside Operator follows your listing count. See
 [Choosing between Host and Operator](/setup/billing/#choosing-between-host-and-operator).
 
-### Ask Santara
+### Ask Santara AI
 
 An assistant on every screen that reads your workspace under your own permissions. Read-only, with
-one exception: it can draft a guest reply. See [Ask Santara](/help/assistant/).
+one exception: it can draft a guest reply. See [Ask Santara AI](/help/assistant/).
 
 ### Smart pricing grew up
 

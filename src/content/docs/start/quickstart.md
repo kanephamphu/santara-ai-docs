@@ -31,7 +31,7 @@ confusion later.
 
 **Settings → Channels**.
 
-- **Airbnb** — press *Connect Airbnb*, authorise on Airbnb's own page, and come back. Santara
+- **Airbnb** — press *Connect Airbnb*, authorise on Airbnb's own page, and come back. Santara AI
   reads the listings the account shares with it. Full walkthrough:
   [Connect Airbnb](/channels/airbnb/).
 - **Booking.com** — you first add our connectivity provider in your extranet, then enter your
@@ -46,7 +46,7 @@ After authorising, you get a list of the listings on the account. Untick anythin
 For each one, choose whether it becomes a **new property** or a **room inside a property you
 already have** — a villa with three bedrooms sold separately is one property with three rooms.
 
-Press *Set up listings*. Santara creates the properties and rooms, maps each listing, and reads
+Press *Set up listings*. Santara AI creates the properties and rooms, maps each listing, and reads
 the rates from the channel.
 
 :::caution[This does not go live]
@@ -63,7 +63,7 @@ Open **Properties** and look at each imported room:
   pricing and the booking site.
 - **Photos, wifi, door code, address** — used by guest messages and your booking site.
 
-Then go back to **Settings → Channels** and press **Go live**. That is the moment Santara takes
+Then go back to **Settings → Channels** and press **Go live**. That is the moment Santara AI takes
 over the calendar. Read [Going live](/channels/going-live/) first — it is one page and it explains
 exactly what changes.
 

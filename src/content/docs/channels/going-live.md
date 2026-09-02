@@ -22,10 +22,10 @@ Control moves at one moment, by one deliberate action: **Go live**.
 
 From that moment, for the listings you took live:
 
-- **The channel hands calendar control to Santara.** Availability is now driven from here. A
+- **The channel hands calendar control to Santara AI.** Availability is now driven from here. A
   booking on any channel closes the night on every channel.
 - **Rates are pushed from here.** Prices stay exactly as they are on the channel until you change
-  one in Santara or a [pricing rule](/money/pricing/) publishes.
+  one in Santara AI or a [pricing rule](/money/pricing/) publishes.
 - **Restrictions are pushed** — minimum stay, closed-to-arrival, and the rest.
 - Bookings, guests, messages and reviews were already syncing in from the import; that does not
   change.
@@ -33,7 +33,7 @@ From that moment, for the listings you took live:
 ## Check these five things first
 
 1. **Every room has a nightly price.** A room with no price cannot sell, and going live with a
-   zero price is the one mistake with a same-day cost. Santara blocks a zero-price channel link
+   zero price is the one mistake with a same-day cost. Santara AI blocks a zero-price channel link
    for exactly this reason, but check anyway.
 2. **Occupancy is right.** How many guests each room sleeps drives extra-guest pricing and what
    Booking.com will accept.
@@ -60,11 +60,11 @@ live are live, the rest stay set up, and you can retry.
 
 - **To stop selling nights**, close the dates in the [calendar](/daily/calendar/). This is the
   right way to pause. Your data and history are kept.
-- **To hand control back**, remove the listing from Santara or disconnect the connection. Your
+- **To hand control back**, remove the listing from Santara AI or disconnect the connection. Your
   channel listing and its calendar are unaffected, but the reservations, messages and reviews
   imported here are removed with it.
 
 :::caution[Bookings taken while live are real]
 Anything a guest books during the live period exists on the channel and must be honoured, whatever
-you do in Santara afterwards. Disconnecting removes the record from here, not the obligation.
+you do in Santara AI afterwards. Disconnecting removes the record from here, not the obligation.
 :::

@@ -35,7 +35,7 @@ hoàn thành — không gì bị ẩn đi sau đó.
 **Chia sẻ** soạn tin cho kênh bạn chọn — WhatsApp, email, nhóm dọn phòng — kèm điểm nhấn hôm nay và
 liên kết tới bản tóm tắt đầy đủ. Mỗi kênh có nội dung viết riêng, không phải cùng một đoạn dán ba lần.
 
-Liên kết mở bản tóm tắt đầy đủ trong Santara, nên người nhận cần tài khoản có quyền truy cập workspace
+Liên kết mở bản tóm tắt đầy đủ trong Santara AI, nên người nhận cần tài khoản có quyền truy cập workspace
 này. Với nhân viên dọn phòng không nên thấy toàn danh mục, hãy chia sẻ **tin nhắn cụm**: nó chỉ chứa
 công việc của họ.
 

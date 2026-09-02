@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Bộ máy định giá của Santara tính ra giá cho mọi đêm sắp tới và xuất bản sang các kênh của bạn. Bạn
+Bộ máy định giá của Santara AI tính ra giá cho mọi đêm sắp tới và xuất bản sang các kênh của bạn. Bạn
 điều khiển nó bằng một **rule set**, và bạn thấy chính xác nó sẽ làm gì trước khi bất cứ thứ gì đi ra.
 
 Không gì được định giá tự động cho tới khi bạn gán một rule set cho một listing. Listing không có quy
@@ -14,7 +14,7 @@ tắc thì giữ nguyên giá hiện tại.
 Để đặt một đêm cụ thể bằng tay — hoặc số đêm tối thiểu, hoặc bao nhiêu đơn vị bán được — xem
 **[Giá và tình trạng trống](/vi/money/rates/)**.
 
-![Một rule set ở tab Quy tắc: các mùa cùng hệ số nhân và cường độ cuối tuần. Đây là mẫu của Santara, nên nó chỉ đọc cho tới khi bạn tạo bản sao của mình.](/screens/pricing.vi.png)
+![Một rule set ở tab Quy tắc: các mùa cùng hệ số nhân và cường độ cuối tuần. Đây là mẫu của Santara AI, nên nó chỉ đọc cho tới khi bạn tạo bản sao của mình.](/screens/pricing.vi.png)
 
 ## Hai nửa
 
@@ -47,7 +47,7 @@ ngày lễ chúng tôi không cung cấp sẵn, và cho những ngày không ai 
 | **Blackout** | Chặn giảm giá phút chót và giảm giá theo nhu cầu trong những đêm đó |
 | **Chặn nhận phòng** | Là quy tắc tình trạng trống, không phải quy tắc giá |
 
-**Bắt đầu từ bộ của chúng tôi.** Santara cung cấp sẵn các rule set với ngày lễ khu vực được cập nhật
+**Bắt đầu từ bộ của chúng tôi.** Santara AI cung cấp sẵn các rule set với ngày lễ khu vực được cập nhật
 hằng năm. Bạn thấy chính xác chúng sẽ làm gì. Hãy tạo bản sao của riêng bạn để chỉnh sửa — và lưu ý,
 khi đã là của bạn thì **chúng tôi ngừng bảo trì ngày tháng của nó**, kể cả những ngày dịch chuyển theo
 mặt trăng: Nyepi và Idul Fitri đổi mỗi năm.
@@ -101,10 +101,10 @@ chạy mới nhất, không phải tổng của cả kỳ.
 
 ## Gợi ý theo thị trường
 
-Dựa trên vị trí của từng listing, Santara có thể gợi ý mức giá nền. Gợi ý vẫn là gợi ý: không gì được
+Dựa trên vị trí của từng listing, Santara AI có thể gợi ý mức giá nền. Gợi ý vẫn là gợi ý: không gì được
 xuất bản cho tới khi bạn chọn.
 
 ## Nếu bạn đã dùng PriceLabs
 
-Kết nối tại [Cài đặt → Kênh](/vi/channels/listings/#pricelabs) và bộ máy của Santara sẽ nhường bước cho
+Kết nối tại [Cài đặt → Kênh](/vi/channels/listings/#pricelabs) và bộ máy của Santara AI sẽ nhường bước cho
 các listing do PriceLabs quản lý, thay vì hai bên giành nhau cùng một cuốn lịch.

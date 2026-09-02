@@ -1,6 +1,6 @@
 ---
 title: What that message means
-description: The exact words Santara puts on screen, what each one is actually telling you, and the fix. Search this page for the sentence you are looking at.
+description: The exact words Santara AI puts on screen, what each one is actually telling you, and the fix. Search this page for the sentence you are looking at.
 sidebar:
   order: 7
 ---

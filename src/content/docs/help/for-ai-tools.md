@@ -52,5 +52,5 @@ them correctly, because there is no navigation, no sidebar and no cookie banner 
 ## Asking about *your* workspace
 
 These docs describe the product. For questions about your own data — your bookings, your revenue,
-your listings — use [Ask Santara](/help/assistant/) inside the product. It has your workspace; a
+your listings — use [Ask Santara AI](/help/assistant/) inside the product. It has your workspace; a
 chatbot with this URL does not.

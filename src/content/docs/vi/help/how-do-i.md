@@ -17,7 +17,7 @@ không phải câu trả lời chung chung.
 | Tôi muốn… | Làm thế này |
 | --- | --- |
 | Thiết lập toàn bộ từ đầu | [Hướng dẫn nhanh](/vi/start/quickstart/) — bốn bước, khoảng nửa tiếng |
-| Hiểu các từ ngữ trên mọi màn hình | [Santara được cấu trúc thế nào](/vi/start/concepts/) |
+| Hiểu các từ ngữ trên mọi màn hình | [Santara AI được cấu trúc thế nào](/vi/start/concepts/) |
 | Dùng thử mà chưa kết nối kênh nào | [Tạo bất động sản thủ công](/vi/setup/properties/#tạo-thủ-công) |
 | Biết điều gì thay đổi khi kết nối Airbnb | Không gì cả, cho tới khi bạn bấm Go live — [Go live](/vi/channels/going-live/) |
 | Biết mỗi sáng cần làm gì | [Tuần đầu tiên của bạn](/vi/start/first-week/) |
@@ -95,7 +95,7 @@ không phải câu trả lời chung chung.
 | Nhập listing lần trước đã bỏ qua | [Nhập listing bạn đã bỏ qua](/vi/channels/listings/#nhập-listing-bạn-đã-bỏ-qua) |
 | Chuyển một listing sang phòng khác | [Chuyển một listing sang phòng khác](/vi/channels/listings/#chuyển-một-listing-sang-phòng-khác) |
 | Buộc kênh đọc lại mọi thứ ngay | **Làm mới** ở [trang kết nối](/vi/channels/listings/#trang-kết-nối) |
-| Gỡ một listing khỏi Santara | [Xóa một listing](/vi/channels/listings/#xóa-một-listing) |
+| Gỡ một listing khỏi Santara AI | [Xóa một listing](/vi/channels/listings/#xóa-một-listing) |
 | Ngừng đồng bộ hoàn toàn | [Ngắt một tài khoản](/vi/channels/listings/#ngắt-một-tài-khoản) |
 | Biết vì sao một listing không chạy được | [Nếu không thành công](/vi/channels/going-live/#nếu-không-thành-công) |
 
@@ -129,7 +129,7 @@ không phải câu trả lời chung chung.
 | Ghi chi phí dọn phòng, điện nước, sửa chữa | [Sổ cái](/vi/money/accounting/#sổ-cái) |
 | Gửi bảng kê cho chủ sở hữu | [Kỳ và bảng kê](/vi/money/accounting/#kỳ-và-bảng-kê) |
 | Hiểu RevPAN, ADR và công suất | [Công suất, ADR, RevPAN](/vi/money/reports/#công-suất-adr-revpan) |
-| Đối chiếu Santara với extranet | [Doanh thu ở đây nghĩa là gì](/vi/money/reports/#doanh-thu-ở-đây-nghĩa-là-gì) — ở đây là payout ròng |
+| Đối chiếu Santara AI với extranet | [Doanh thu ở đây nghĩa là gì](/vi/money/reports/#doanh-thu-ở-đây-nghĩa-là-gì) — ở đây là payout ròng |
 
 ## Con người và quyền truy cập
 

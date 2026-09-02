@@ -43,7 +43,7 @@ channel manager đang có — trống nghĩa là "đừng quản lý cái này",
 
 :::caution[Booking.com cần các mức sức chứa được định giá]
 Nếu một rate plan không có giá cho số khách mà Booking.com chấp nhận, phòng đó sẽ ở nguyên trạng thái
-*đã liên kết nhưng chưa ánh xạ* — Santara sẽ không đoán giá trên một listing đang bán. Hãy định giá
+*đã liên kết nhưng chưa ánh xạ* — Santara AI sẽ không đoán giá trên một listing đang bán. Hãy định giá
 cho mức sức chứa đó trên plan, rồi ánh xạ lại. Xem
 [Kết nối Booking.com](/vi/channels/booking-com/).
 :::

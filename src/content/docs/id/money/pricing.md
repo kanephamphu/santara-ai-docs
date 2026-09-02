@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Mesin pricing Santara menghitung tarif untuk setiap malam mendatang dan menerbitkannya ke channel
+Mesin pricing Santara AI menghitung tarif untuk setiap malam mendatang dan menerbitkannya ke channel
 Anda. Anda mengendalikannya dengan **rule set**, dan Anda bisa melihat persis apa yang akan
 dilakukannya sebelum ada yang keluar.
 
@@ -15,7 +15,7 @@ tanpa aturan mempertahankan harga yang ada.
 Untuk menetapkan satu malam secara manual — atau minimum menginap, atau berapa unit yang bisa dijual —
 lihat **[Tarif dan ketersediaan](/id/money/rates/)**.
 
-![Sebuah rule set di tab Aturan: musim beserta pengali dan kekuatan akhir pekannya. Ini template Santara, karena itu hanya-baca sampai Anda membuat salinan sendiri.](/screens/pricing.id.png)
+![Sebuah rule set di tab Aturan: musim beserta pengali dan kekuatan akhir pekannya. Ini template Santara AI, karena itu hanya-baca sampai Anda membuat salinan sendiri.](/screens/pricing.id.png)
 
 ## Dua bagiannya
 
@@ -48,7 +48,7 @@ orang bepergian.
 | **Blackout** | Memblokir diskon menit terakhir dan diskon berbasis permintaan pada malam itu |
 | **Blokir check-in** | Aturan ketersediaan, bukan aturan harga — untuk hari yang tidak mungkin bepergian |
 
-**Mulai dari milik kami.** Santara menyediakan rule set dengan tanggal libur regional yang kami
+**Mulai dari milik kami.** Santara AI menyediakan rule set dengan tanggal libur regional yang kami
 perbarui tiap tahun. Anda bisa melihat persis apa yang akan dilakukannya. Buat salinan Anda sendiri
 untuk mengubahnya — dan perhatikan, begitu menjadi milik Anda, **kami berhenti memelihara
 tanggalnya**, termasuk yang bergeser mengikuti bulan: Nyepi dan Idul Fitri berubah setiap tahun.
@@ -104,10 +104,10 @@ kolom aktivitas adalah hasil jalannya yang terbaru, bukan total periode.
 
 ## Saran pasar
 
-Berdasarkan lokasi tiap listing, Santara dapat menyarankan dasar harganya. Saran tetap saran: tidak
+Berdasarkan lokasi tiap listing, Santara AI dapat menyarankan dasar harganya. Saran tetap saran: tidak
 ada yang diterbitkan sampai Anda memilih.
 
 ## Jika Anda sudah memakai PriceLabs
 
-Hubungkan di [Pengaturan → Channel](/id/channels/listings/#pricelabs) dan mesin Santara akan mengalah
+Hubungkan di [Pengaturan → Channel](/id/channels/listings/#pricelabs) dan mesin Santara AI akan mengalah
 untuk listing yang dikelola PriceLabs, alih-alih keduanya berebut kalender yang sama.

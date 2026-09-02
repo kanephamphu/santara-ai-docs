@@ -27,7 +27,7 @@ what. See [Team and roles](/setup/team/).
 
 ## Day to day
 
-**Will Santara message my guests automatically?**
+**Will Santara AI message my guests automatically?**
 No. It drafts; you send. There is no auto-reply mode.
 
 **Will it change my prices automatically?**
@@ -47,7 +47,7 @@ evening, tell [support](/help/support/).
 
 ## Money
 
-**Does Santara take a commission?**
+**Does Santara AI take a commission?**
 No — on any channel, including your own booking site.
 
 **What does "revenue" mean on these screens?**
@@ -55,7 +55,7 @@ Net payout: what the channel actually pays you. Gross and room revenue are store
 labelled where shown. See [Reports](/money/reports/).
 
 **Where does money from my booking site go?**
-Straight to your own Stripe account. Santara never holds it.
+Straight to your own Stripe account. Santara AI never holds it.
 
 **What happens if I delete a property mid-month?**
 It stops being billed going forward. The charge already paid for the current month is not refunded.

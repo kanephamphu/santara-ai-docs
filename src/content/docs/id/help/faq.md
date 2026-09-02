@@ -27,7 +27,7 @@ apa. Lihat [Tim dan peran](/id/setup/team/).
 
 ## Sehari-hari
 
-**Apakah Santara akan mengirim pesan ke tamu secara otomatis?**
+**Apakah Santara AI akan mengirim pesan ke tamu secara otomatis?**
 Tidak. Ia membuat draf; Anda yang mengirim. Tidak ada mode balas-otomatis.
 
 **Apakah ia akan mengubah harga saya otomatis?**
@@ -47,7 +47,7 @@ tahu [dukungan](/id/help/support/).
 
 ## Uang
 
-**Apakah Santara mengambil komisi?**
+**Apakah Santara AI mengambil komisi?**
 Tidak — di channel mana pun, termasuk situs booking Anda sendiri.
 
 **Apa arti "pendapatan" di layar ini?**
@@ -55,7 +55,7 @@ Payout bersih: yang benar-benar dibayarkan channel. Gross dan pendapatan kamar d
 diberi label. Lihat [Laporan](/id/money/reports/).
 
 **Ke mana uang dari situs booking saya?**
-Langsung ke akun Stripe Anda sendiri. Santara tidak pernah memegangnya.
+Langsung ke akun Stripe Anda sendiri. Santara AI tidak pernah memegangnya.
 
 **Apa yang terjadi jika saya menghapus properti di tengah bulan?**
 Ia berhenti ditagih ke depan. Tagihan yang sudah dibayar untuk bulan berjalan tidak dikembalikan.

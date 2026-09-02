@@ -55,5 +55,5 @@ bạn, không phải các bất động sản khác của bạn, không phải c
 
 ## Khớp với kế toán của bạn
 
-Mọi thứ ở đây xuất được ra CSV từ [Báo cáo](/vi/money/reports/). Santara không phải hệ thống kế toán và
+Mọi thứ ở đây xuất được ra CSV từ [Báo cáo](/vi/money/reports/). Santara AI không phải hệ thống kế toán và
 không cố trở thành sổ cái tổng hợp — đây là bản ghi vận hành cung cấp dữ liệu cho hệ thống đó.

@@ -54,6 +54,6 @@ Xem **[Khách](/vi/daily/guests/)** để biết điểm số, thứ tự ưu ti
 | --- | --- |
 | **Tổng thu** | Khách trả bao nhiêu, gồm cả hoa hồng kênh |
 | **Doanh thu phòng** | Phần lưu trú, không gồm các khoản phí |
-| **Tiền thực nhận** | Số kênh trả cho bạn. Đây là ý nghĩa của **doanh thu** trong Santara |
+| **Tiền thực nhận** | Số kênh trả cho bạn. Đây là ý nghĩa của **doanh thu** trong Santara AI |
 
 Mọi con số trên màn hình đều ghi rõ nó là loại nào. Xem [Báo cáo](/vi/money/reports/).

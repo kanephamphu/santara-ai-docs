@@ -5,7 +5,7 @@ sidebar:
   order: 8
 ---
 
-Hầu như mọi thứ trong Santara đều thuộc về một **workspace**. Hai thứ thì không: tài khoản và bảo
+Hầu như mọi thứ trong Santara AI đều thuộc về một **workspace**. Hai thứ thì không: tài khoản và bảo
 mật của bạn. Chúng đi theo bạn ở mọi workspace bạn tham gia, và không ai khác đổi được — kể cả chủ
 sở hữu workspace nơi bạn làm việc.
 

@@ -17,7 +17,7 @@ There is no separate "property manager" role and you do not need one — a co-ho
    login is yours and works across every workspace you are invited to.
 2. **Set your own language and timezone** — [Your account](/setup/account/#language-and-timezone).
    These follow you, and they are separate from the workspace's.
-3. **Read [How Santara is put together](/start/concepts/)**. Six words — workspace, property, room,
+3. **Read [How Santara AI is put together](/start/concepts/)**. Six words — workspace, property, room,
    rate plan, listing, connection — and every screen stops being mysterious.
 4. **Open Today.** The daily brief is the job. Everything else is where you go when the brief sends
    you there.

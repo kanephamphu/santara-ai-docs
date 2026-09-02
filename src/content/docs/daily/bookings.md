@@ -58,6 +58,6 @@ different. See **[Guests](/daily/guests/)** for the score, the attention orderin
 | --- | --- |
 | **Gross** | What the guest paid, including the channel's commission |
 | **Room revenue** | The accommodation portion, excluding fees |
-| **Payout / net** | What the channel pays you. This is what Santara means by **revenue** |
+| **Payout / net** | What the channel pays you. This is what Santara AI means by **revenue** |
 
 Every figure on screen is labelled with which one it is. See [Reports](/money/reports/).

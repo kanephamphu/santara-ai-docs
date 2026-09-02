@@ -1,5 +1,5 @@
 ---
-title: Tanya Santara
+title: Tanya Santara AI
 description: Asisten di dalam produk — apa yang bisa dibacanya, apa yang bisa dilakukannya, dan apa yang tidak akan pernah dilakukannya atas nama Anda.
 sidebar:
   order: 1
@@ -13,7 +13,7 @@ tentang bisnis Anda yang sebenarnya adalah wajar:
 - *Kenapa listing Airbnb Unit 3 belum live?*
 - *Buatkan draf balasan untuk tamu yang menanyakan check-in awal.*
 
-![Tanya Santara, terbuka di atas layar mana pun yang sedang Anda buka.](/screens/assistant.id.png)
+![Tanya Santara AI, terbuka di atas layar mana pun yang sedang Anda buka.](/screens/assistant.id.png)
 
 ## Apa yang bisa dilihatnya
 
@@ -50,5 +50,5 @@ Percakapannya ikut terkirim.
 
 ## Meningkat ke manusia
 
-Dukungan di dalam produk adalah saluran nyata ke tim Santara, terpisah dari asisten. Jika Anda
+Dukungan di dalam produk adalah saluran nyata ke tim Santara AI, terpisah dari asisten. Jika Anda
 eskalasi, percakapan dengan asisten dibawa serta sehingga Anda tidak perlu mengulang.

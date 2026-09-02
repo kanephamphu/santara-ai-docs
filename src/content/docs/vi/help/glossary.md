@@ -1,6 +1,6 @@
 ---
 title: Thuật ngữ
-description: Mọi thuật ngữ Santara dùng trên màn hình, trong một trang.
+description: Mọi thuật ngữ Santara AI dùng trên màn hình, trong một trang.
 sidebar:
   order: 9
 ---
@@ -22,21 +22,21 @@ workspace bằng ngôn ngữ của workspace.
 
 **Đặt phòng trực tiếp** — lượt đặt qua website của chính bạn. Không hoa hồng.
 
-**Go live** — hành động có chủ ý trao quyền kiểm soát lịch của một listing cho Santara. Xem
+**Go live** — hành động có chủ ý trao quyền kiểm soát lịch của một listing cho Santara AI. Xem
 [Go live](/vi/channels/going-live/).
 
 **Tổng thu** — số khách trả, gồm cả hoa hồng kênh.
 
-**Listing** — một mục trên kênh, ánh xạ một-một tới một phòng Santara.
+**Listing** — một mục trên kênh, ánh xạ một-một tới một phòng Santara AI.
 
 **Giá nhập tay** — mức giá mỗi đêm bạn tự nhập. Được bảo vệ khỏi bộ máy định giá trừ khi bạn cho phép
 ghi đè.
 
-**Ánh xạ** — mối liên kết giữa listing của kênh và phòng Santara.
+**Ánh xạ** — mối liên kết giữa listing của kênh và phòng Santara AI.
 
 **Công suất** — số đêm bán chia số đêm khả dụng.
 
-**Tiền thực nhận** — số kênh thực trả cho bạn. Đây là ý nghĩa của **doanh thu** trong Santara.
+**Tiền thực nhận** — số kênh thực trả cho bạn. Đây là ý nghĩa của **doanh thu** trong Santara AI.
 
 **Bất động sản** — một tòa nhà hoặc địa chỉ. Chứa các phòng.
 

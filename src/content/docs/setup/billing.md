@@ -119,7 +119,7 @@ refunded** — that is stated on the delete confirmation.
 ## Managing payment
 
 **Manage payment method** opens Stripe's own portal, where you update the card and download
-invoices. The card form is Stripe's throughout; Santara never sees the number. Stripe's invoices
+invoices. The card form is Stripe's throughout; Santara AI never sees the number. Stripe's invoices
 are the document your accountant wants.
 
 ## If a payment fails
@@ -145,6 +145,6 @@ everything resumes.
 Cancel from the Billing screen. Access continues to the end of the paid period, with no further
 charge.
 
-Your channel listings are unaffected — cancelling Santara does not touch your Airbnb or
+Your channel listings are unaffected — cancelling Santara AI does not touch your Airbnb or
 Booking.com account. But it does end the syncing that keeps their calendars aligned, so **close or
 reconcile your calendars before you go**.

@@ -49,7 +49,7 @@ liên kết ngược về luồng.
 
 ## Lịch sử
 
-Luồng mang theo hội thoại như kênh đang có, kể cả tin nhắn gửi trước khi bạn kết nối Santara.
+Luồng mang theo hội thoại như kênh đang có, kể cả tin nhắn gửi trước khi bạn kết nối Santara AI.
 
 ## Những gì khách không bao giờ thấy
 

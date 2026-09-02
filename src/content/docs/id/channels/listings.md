@@ -14,11 +14,11 @@ Tiap akun terhubung punya halaman sendiri yang menampilkan:
 
 - **Status** dan waktu **sinkron terakhir**.
 - **Listing pada koneksi ini**, masing-masing dengan statusnya — *tertaut*, *dipetakan*, *live* — dan
-  kamar Santara yang ditunjuknya.
+  kamar Santara AI yang ditunjuknya.
 - **Segarkan**, yang membaca ulang semuanya dari channel sekarang juga.
 
 Gunakan **Segarkan** lebih dulu setiap kali ada yang tampak usang. Aman, idempoten, dan menyelesaikan
-sebagian besar laporan "channel dan Santara tidak cocok".
+sebagian besar laporan "channel dan Santara AI tidak cocok".
 
 ## Impor listing yang terlewat
 
@@ -33,7 +33,7 @@ login Airbnb. Tiap koneksi berdiri sendiri.
 
 ## Pindahkan listing ke kamar lain
 
-Hapus listing dari Santara, lalu impor lagi ke kamar yang diinginkan. Tidak ada pemindahan
+Hapus listing dari Santara AI, lalu impor lagi ke kamar yang diinginkan. Tidak ada pemindahan
 langsung, dan itu disengaja: reservasi dan pesan yang sudah tiba milik kamar tempat mereka tiba, dan
 memindahkannya diam-diam berarti menulis ulang riwayat.
 
@@ -42,7 +42,7 @@ properti**. Reservasi dan pesan mendatang mendarat di properti baru; yang sudah 
 
 ## Hapus satu listing
 
-**Hapus dari Santara** menghapus reservasi, pesan, tamu, dan ulasan kamar itu. Listing Anda di
+**Hapus dari Santara AI** menghapus reservasi, pesan, tamu, dan ulasan kamar itu. Listing Anda di
 channel tidak terpengaruh. Anda bisa mengimpornya lagi nanti; riwayatnya ikut kembali.
 
 ## Putuskan sebuah akun
@@ -55,19 +55,19 @@ putuskan koneksi lama dulu.
 
 ## Menghapus properti yang masih terhubung
 
-Santara menolaknya. Putuskan listing-nya dulu agar sisi channel ikut dibersihkan — jika tidak,
+Santara AI menolaknya. Putuskan listing-nya dulu agar sisi channel ikut dibersihkan — jika tidak,
 channel akan tetap memetakan ke kamar yang sudah tidak ada di sini.
 
 ## PriceLabs
 
 Jika Anda sudah memakai PriceLabs, hubungkan di **Pengaturan → Channel → Hubungkan PriceLabs** dan
-mesin pricing Santara akan mengalah untuk listing yang dikelola PriceLabs.
+mesin pricing Santara AI akan mengalah untuk listing yang dikelola PriceLabs.
 
 Anda memberikan **email akun** PriceLabs dan **API key** (PriceLabs → account settings → API). Key
-diverifikasi ke PriceLabs, disimpan terenkripsi, dan hanya dipakai untuk memastikan akun — Santara
+diverifikasi ke PriceLabs, disimpan terenkripsi, dan hanya dipakai untuk memastikan akun — Santara AI
 tidak membaca harga dari PriceLabs.
 
 :::caution
-Jangan pernah menempelkan kata sandi PriceLabs di mana pun dalam Santara. Masuklah di situs resmi
+Jangan pernah menempelkan kata sandi PriceLabs di mana pun dalam Santara AI. Masuklah di situs resmi
 PriceLabs, lalu berikan hanya API key yang memang untuk integrasi.
 :::
