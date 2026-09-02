@@ -5,6 +5,8 @@ sidebar:
   order: 3
 ---
 
+![The upsell pipeline: each opportunity with the stay behind it, what it is worth, and the draft message that offers it.](/screens/upsells.en.png)
+
 An upsell is a night or an hour you already have, sold to a guest who is already staying. Santara
 finds them by reading the calendar, not by guessing at what a guest might want.
 

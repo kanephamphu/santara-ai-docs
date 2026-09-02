@@ -5,13 +5,13 @@ sidebar:
   order: 7
 ---
 
-**Pengaturan** adalah satu halaman dengan tab. Dua di antaranya tentang **Anda** dan mengikuti Anda
-antar workspace; sisanya milik workspace yang dipakai bersama.
+**Pengaturan** adalah satu halaman dengan tab, dan setiap tab di sana milik **workspace** yang
+dipakai bersama. Akun Anda sendiri sengaja bukan salah satunya — akun ada di balik menu akun di
+bagian bawah bilah samping, karena di situlah orang mencari kata sandinya sendiri. Lihat
+[Akun dan keamanan Anda](/id/setup/account/).
 
 | Tab | Cakupan |
 | --- | --- |
-| **Personal** | Anda — nama, bahasa, zona waktu |
-| **Keamanan** | Anda — kata sandi dan perlindungan akun |
 | **Workspace** | Bersama — nama, bahasa, zona waktu, mata uang |
 | **Situs Booking** | Bersama — [situs booking langsung Anda](/id/setup/booking-site/) |
 | **Channel** | Bersama — [koneksi channel](/id/channels/) |

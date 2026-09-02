@@ -5,6 +5,8 @@ sidebar:
   order: 3
 ---
 
+![Dòng cơ hội upsell: từng cơ hội kèm lượt lưu trú phía sau, giá trị của nó, và bản nháp tin nhắn để chào.](/screens/upsells.vi.png)
+
 Upsell là một đêm hoặc một giờ bạn đã có, bán cho khách đang ở. Santara tìm ra chúng bằng cách đọc
 lịch, không phải bằng cách đoán khách muốn gì.
 

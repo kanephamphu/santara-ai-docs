@@ -5,13 +5,13 @@ sidebar:
   order: 7
 ---
 
-**Settings** is one page with tabs. Two of them are about **you** and follow you between
-workspaces; the rest belong to the workspace everyone shares.
+**Settings** is one page with tabs, and every tab on it belongs to the **workspace** everyone
+shares. Your own account is deliberately not one of them — it lives behind the account menu at the
+foot of the sidebar, because that is where somebody looks for their own password. See
+[Your account and security](/setup/account/).
 
 | Tab | Scope |
 | --- | --- |
-| **Personal** | You — name, language, timezone |
-| **Security** | You — password and account protection |
 | **Workspace** | Shared — name, language, timezone, currency |
 | **Booking Site** | Shared — [your direct booking site](/setup/booking-site/) |
 | **Channels** | Shared — [channel connections](/channels/) |

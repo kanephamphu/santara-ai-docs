@@ -2,7 +2,7 @@
 title: Tìm mọi thứ
 description: Bảng tìm kiếm, và phần hướng dẫn tham quan chỉ cho bạn mọi thứ nằm ở đâu.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 ![Bảng lệnh: lượt đặt, khách, bất động sản và phòng, trong một ô.](/screens/search.vi.png)

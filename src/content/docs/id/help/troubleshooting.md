@@ -2,7 +2,7 @@
 title: Kalau ada yang janggal
 description: Urutan diagnosis singkat untuk seluruh produk, dan perbaikan spesifik untuk hal-hal yang memang sering rusak.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Coba ini dulu, berurutan

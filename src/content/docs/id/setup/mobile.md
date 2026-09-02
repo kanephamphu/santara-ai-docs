@@ -2,7 +2,7 @@
 title: Di ponsel Anda
 description: Apa yang akan dilakukan aplikasi mobile, apa yang sudah bisa dilakukan aplikasi web di ponsel, dan bagaimana petugas kebersihan bekerja hari ini.
 sidebar:
-  order: 8
+  order: 10
 ---
 
 Menjadi host tidak terjadi di meja kerja. Itu terjadi di depan pintu saat tamu menunggu, di

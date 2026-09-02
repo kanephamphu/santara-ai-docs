@@ -73,6 +73,7 @@ ca dọn đã xong, tin nhắn đã gửi, ticket đã xử lý — vẫn ghi nh
 
 ## Tài khoản của chính bạn
 
-**Cài đặt → Cá nhân** chứa tên, ngôn ngữ và múi giờ của bạn. **Cài đặt → Bảo mật** chứa mật khẩu và
-bảo vệ tài khoản. Cả hai đi theo bạn giữa các workspace. Xem
-[Cài đặt workspace](/vi/setup/workspace/) để biết phần dùng chung.
+Tên, ngôn ngữ, múi giờ và mật khẩu là **của bạn**, không phải của workspace, và đi theo bạn ở mọi
+workspace bạn tham gia. Chúng nằm sau menu tài khoản ở cuối thanh bên chứ không phải trên các tab
+Cài đặt — xem [Tài khoản và bảo mật của bạn](/vi/setup/account/). Về phần workspace dùng chung, xem
+[Cài đặt workspace](/vi/setup/workspace/).

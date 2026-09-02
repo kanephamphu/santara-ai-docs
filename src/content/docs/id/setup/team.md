@@ -76,6 +76,7 @@ Hapus dari tim dan aksesnya berakhir seketika di semua perangkat. Pekerjaan yang
 
 ## Akun Anda sendiri
 
-**Pengaturan → Personal** memuat nama, bahasa, dan zona waktu Anda. **Pengaturan → Keamanan** memuat
-kata sandi dan perlindungan akun. Keduanya mengikuti Anda antar workspace. Lihat
-[Pengaturan workspace](/id/setup/workspace/) untuk yang dibagi bersama.
+Nama, bahasa, zona waktu, dan kata sandi Anda adalah **milik Anda**, bukan milik workspace, dan
+mengikuti Anda di setiap workspace yang Anda ikuti. Semuanya ada di balik menu akun di bagian bawah
+bilah samping, bukan di tab Pengaturan — lihat [Akun dan keamanan Anda](/id/setup/account/). Untuk
+yang dibagi bersama workspace, lihat [Pengaturan workspace](/id/setup/workspace/).

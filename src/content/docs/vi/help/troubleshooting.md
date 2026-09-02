@@ -2,7 +2,7 @@
 title: Khi có gì đó bất thường
 description: Trình tự chẩn đoán ngắn cho toàn sản phẩm, và cách xử lý cụ thể cho những thứ thực sự hay hỏng.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Thử những việc này trước, theo thứ tự

@@ -5,13 +5,13 @@ sidebar:
   order: 7
 ---
 
-**Cài đặt** là một trang với nhiều tab. Hai tab thuộc về **bạn** và đi theo bạn giữa các workspace;
-phần còn lại thuộc về workspace mà mọi người dùng chung.
+**Cài đặt** là một trang với nhiều tab, và mọi tab ở đó đều thuộc về **workspace** mà cả nhóm dùng
+chung. Tài khoản của riêng bạn cố ý không nằm trong số đó — nó ở sau menu tài khoản cuối thanh bên,
+vì đó là nơi người ta tìm mật khẩu của chính mình. Xem
+[Tài khoản và bảo mật của bạn](/vi/setup/account/).
 
 | Tab | Phạm vi |
 | --- | --- |
-| **Cá nhân** | Bạn — tên, ngôn ngữ, múi giờ |
-| **Bảo mật** | Bạn — mật khẩu và bảo vệ tài khoản |
 | **Workspace** | Dùng chung — tên, ngôn ngữ, múi giờ, tiền tệ |
 | **Website đặt phòng** | Dùng chung — [website đặt phòng của bạn](/vi/setup/booking-site/) |
 | **Kênh** | Dùng chung — [kết nối kênh](/vi/channels/) |

@@ -2,7 +2,7 @@
 title: Dùng tài liệu này với công cụ AI
 description: Mỗi trang là markdown sạch, kèm llms.txt và llms-full.txt trong cả ba ngôn ngữ.
 sidebar:
-  order: 3
+  order: 4
 ---
 
 Tài liệu này được viết bằng markdown và xuất bản dưới dạng markdown. Nếu bạn muốn đưa một trang cho

@@ -2,7 +2,7 @@
 title: Câu hỏi thường gặp
 description: Những câu hỏi mà người dùng mới thực sự hỏi trong tuần đầu.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 ## Thiết lập

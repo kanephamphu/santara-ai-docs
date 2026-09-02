@@ -75,6 +75,7 @@ marked done, messages sent, tickets resolved — stays attributed to them in the
 
 ## Your own account
 
-**Settings → Personal** holds your name, language and timezone. **Settings → Security** holds your
-password and account protection. Both follow you between workspaces; they are not workspace
-settings. See [Workspace settings](/setup/workspace/) for what is shared.
+Your name, language, timezone and password are **yours**, not the workspace's, and they follow you
+between every workspace you belong to. They live behind the account menu at the foot of the
+sidebar rather than on the Settings tabs — see [Your account and security](/setup/account/). For
+what the workspace shares, see [Workspace settings](/setup/workspace/).

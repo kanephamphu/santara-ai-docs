@@ -5,6 +5,8 @@ sidebar:
   order: 3
 ---
 
+![Pipeline upsell: setiap peluang dengan reservasi di baliknya, nilainya, dan draf pesan yang menawarkannya.](/screens/upsells.id.png)
+
 Upsell adalah malam atau jam yang sudah Anda miliki, dijual kepada tamu yang sudah menginap. Santara
 menemukannya dengan membaca kalender, bukan dengan menebak keinginan tamu.
 

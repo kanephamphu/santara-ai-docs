@@ -2,7 +2,7 @@
 title: Finding things
 description: The search palette, and the walkthrough that shows you where everything is.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 ![The command palette: reservations, guests, properties and rooms, in one box.](/screens/search.en.png)

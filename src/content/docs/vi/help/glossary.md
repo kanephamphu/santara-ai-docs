@@ -2,7 +2,7 @@
 title: Thuật ngữ
 description: Mọi thuật ngữ Santara dùng trên màn hình, trong một trang.
 sidebar:
-  order: 7
+  order: 9
 ---
 
 **ADR** — giá trung bình mỗi đêm. Doanh thu chia số đêm đã bán.
