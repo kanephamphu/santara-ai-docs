@@ -8,7 +8,7 @@ sidebar:
 Setiap workspace dapat menerbitkan situs booking langsung. Santara AI **tidak mengambil komisi** atas
 apa pun yang terjual di sana, dan uangnya masuk ke akun Stripe Anda, bukan kami.
 
-**Pengaturan → Situs Booking**. Sisi kiri untuk pengaturan; sisi kanan pratinjau langsung.
+**Situs Booking** di bilah samping. Sisi kiri untuk pengaturan; sisi kanan pratinjau langsung.
 
 ![Pembangun situs booking: pengaturan di kiri, pratinjau langsung di kanan.](/screens/booking-site.id.png)
 

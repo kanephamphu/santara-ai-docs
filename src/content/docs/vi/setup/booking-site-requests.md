@@ -9,7 +9,7 @@ sidebar:
 
 ## Câu hỏi
 
-**Cài đặt → Website đặt phòng → Khách tiềm năng.** Tất cả những ai đã dùng biểu mẫu liên hệ trên
+**Website đặt phòng → Khách tiềm năng** ở thanh bên. Tất cả những ai đã dùng biểu mẫu liên hệ trên
 website: tên, lời nhắn, và cách liên lạc với họ.
 
 Nếu nó trống trong khi bạn nghĩ đáng lẽ phải có, nguyên nhân thường là website không có biểu mẫu nào —
@@ -20,7 +20,7 @@ hỏi nào đến.
 
 ## Yêu cầu đặt phòng
 
-**Cài đặt → Website đặt phòng → Yêu cầu.** Những mục này chỉ tồn tại với các bất động sản bạn đặt ở
+**Website đặt phòng → Yêu cầu** ở thanh bên. Những mục này chỉ tồn tại với các bất động sản bạn đặt ở
 **chế độ yêu cầu** thay vì đặt ngay — khách hỏi xin ngày, và không gì được giữ cho tới khi bạn đồng ý.
 
 Màn hình cho biết bao nhiêu người đang chờ bạn, vì đó mới là con số quan trọng: một yêu cầu bị bỏ

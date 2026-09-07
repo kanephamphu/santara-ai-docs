@@ -8,7 +8,7 @@ sidebar:
 Every workspace can publish a direct booking site. Santara AI takes **no commission** on what it
 sells, and the money goes to your Stripe account, not ours.
 
-**Settings → Booking Site**. The left side is the setup; the right is a live preview.
+**Booking Site** in the sidebar. The left side is the setup; the right is a live preview.
 
 ![The booking site builder: setup on the left, live preview on the right.](/screens/booking-site.en.png)
 

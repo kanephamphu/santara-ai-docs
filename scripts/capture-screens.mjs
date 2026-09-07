@@ -233,7 +233,7 @@ const SHOTS = [
     height: 780,
     note: "Rates and availability, per date",
   },
-  { id: "booking-site", path: "/dashboard/settings/booking-site", settle: "main", height: 820, note: "The booking site builder" },
+  { id: "booking-site", path: "/dashboard/booking-site", settle: "main", height: 820, note: "The booking site builder" },
   { id: "message-templates", path: "/dashboard/settings/message-templates", settle: "main", height: 760, note: "Message templates" },
   { id: "team", path: "/dashboard/settings/team", settle: "main", height: 700, note: "Team and access" },
   { id: "billing", path: "/dashboard/settings/billing", settle: "main", height: 760, note: "Plan and billing" },

@@ -10,7 +10,7 @@ yang sama.
 
 ## Pertanyaan
 
-**Pengaturan → Situs Booking → Prospek.** Semua orang yang memakai formulir kontak di situs Anda:
+**Situs Booking → Prospek** di bilah samping. Semua orang yang memakai formulir kontak di situs Anda:
 nama, pesan, dan cara menghubungi mereka.
 
 Jika kosong padahal Anda mengharapkan sebaliknya, penyebab biasanya tidak ada formulir di situs —
@@ -21,7 +21,7 @@ Ini prospek, bukan booking. Tidak ada yang ditahan dan tidak ada tanggal yang di
 
 ## Permintaan booking
 
-**Pengaturan → Situs Booking → Permintaan.** Ini hanya ada untuk properti yang Anda setel ke **mode
+**Situs Booking → Permintaan** di bilah samping. Ini hanya ada untuk properti yang Anda setel ke **mode
 permintaan**, bukan booking instan — tamu meminta tanggal, dan tidak ada yang dipesan sampai Anda
 menyetujuinya.
 

@@ -8,7 +8,7 @@ sidebar:
 Mỗi workspace đều có thể xuất bản một website đặt phòng trực tiếp. Santara AI **không lấy hoa hồng** trên
 những gì bán qua đó, và tiền vào tài khoản Stripe của bạn, không phải của chúng tôi.
 
-**Cài đặt → Website đặt phòng**. Bên trái là phần thiết lập; bên phải là bản xem trước trực tiếp.
+**Website đặt phòng** ở thanh bên. Bên trái là phần thiết lập; bên phải là bản xem trước trực tiếp.
 
 ![Trình dựng website đặt phòng: thiết lập bên trái, xem trước trực tiếp bên phải.](/screens/booking-site.vi.png)
 

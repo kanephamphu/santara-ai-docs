@@ -9,7 +9,7 @@ Your [booking site](/setup/booking-site/) produces two inboxes, and they are not
 
 ## Enquiries
 
-**Settings → Booking Site → Leads.** Everyone who has used the contact form on your site: name,
+**Booking Site → Leads** in the sidebar. Everyone who has used the contact form on your site: name,
 message, and how to reach them.
 
 If it is empty and you expected otherwise, the usual cause is that there is no form on the site —
@@ -19,7 +19,7 @@ These are leads, not bookings. Nothing is held and no dates are reserved.
 
 ## Booking requests
 
-**Settings → Booking Site → Requests.** These only exist for properties you have set to
+**Booking Site → Requests** in the sidebar. These only exist for properties you have set to
 **request mode** rather than instant booking — the guest asks for dates, and nothing is reserved
 until you say yes.
 
