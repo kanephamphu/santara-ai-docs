@@ -14,7 +14,46 @@ tanggal **Terakhir diperbarui** di bagian bawah, yang merupakan jawaban lebih ri
 
 ## September 2026
 
-Belum ada bulan ini.
+### Pesan tamu dalam bahasa Anda
+
+Tamu yang menulis dalam bahasa Jerman, Korea, atau Prancis kini terbaca oleh Anda dalam bahasa
+Inggris, Indonesia, atau Vietnam — sesuai yang diatur di profil Anda sendiri — dengan **Lihat pesan
+asli** tinggal satu klik. Tiap anggota tim membaca dalam bahasanya sendiri; balasan Anda terkirim
+persis seperti yang Anda tulis. Lihat
+[Membaca tamu dalam bahasa Anda](/id/daily/messages/#membaca-tamu-dalam-bahasa-anda).
+
+### Kotak masuk yang bekerja sebagai daftar tugas
+
+Setiap utas punya satu status — **Perlu dibalas**, **Menunggu tamu**, atau **Selesai** — dan kotak
+masuk dibuka pada **Perlu Anda**. Utas yang tamunya datang atau pergi hari ini naik ke **Perlu Anda
+sekarang**, sematan ikut ke perangkat lain, tab browser menampilkan jumlah yang menunggu, dan nada
+(yang bisa dibisukan) berbunyi saat tamu menulis. Lihat
+[Satu status per utas](/id/daily/messages/#satu-status-per-utas).
+
+### Peringatan kedatangan hari ini
+
+Booking untuk tamu yang check-in **hari ini** kini langsung mengirim email ke tim dan petugas
+kebersihan kamarnya, dengan jendela pembersihan dan peringatan bila pembersihan akan selesai
+terlambat. Aktif secara bawaan. Lihat
+[Peringatan kedatangan hari ini](/id/setup/workspace/#peringatan-kedatangan-hari-ini).
+
+### Asisten bisa menugaskan pekerjaan
+
+Tanya Santara AI kini bisa menugaskan pembersihan, menugaskan tiket, atau mengubah status tiket —
+masing-masing hanya setelah Anda menekan **Konfirmasi**. Lihat
+[Apa yang bisa dilakukannya](/id/help/assistant/#apa-yang-bisa-dilakukannya).
+
+### Lainnya
+
+- **Pembersih tanpa akun** — tambahkan pembersih lewat nama dan nomor WhatsApp, lalu langsung
+  tugaskan — [Tugas](/id/daily/tasks/#pembersih-tanpa-akun).
+- **Tiket tertutup hilang dari papan setelah 30 hari**; riwayatnya tetap ada —
+  [Tiket](/id/daily/tickets/#berapa-lama-tiket-tertutup-tetap-di-papan).
+- **Notifikasi saat channel terhubung**, dengan jumlah kamar yang dipetakan —
+  [Notifikasi](/id/setup/workspace/#notifikasi).
+- **Booking menampilkan sumber aslinya**: Agoda, Expedia, Traveloka, Trip.com, dan lainnya tampil
+  dengan namanya sendiri, bukan "Manual", dan Reservasi bisa difilter per channel —
+  [Booking](/id/daily/bookings/).
 
 ## Agustus 2026
 

@@ -59,6 +59,12 @@ người chưa từng đến tòa nhà đó.
 
 Nó soạn nháp. Nó không đặt linh kiện, không nhắn cho khách, và không đóng ticket.
 
+## Ticket đã đóng ở lại bảng bao lâu
+
+Ticket đang mở luôn hiển thị. Ticket **đã xong** và **đã hủy** ở lại trên bảng **30 ngày sau lần cập
+nhật cuối**, rồi rời khỏi bảng để bảng chỉ còn việc hiện tại. Không có gì bị xóa: ticket và lịch sử của
+nó vẫn còn.
+
 ## Ai thấy được ticket
 
 Ticket theo cùng [quy tắc năng lực](/vi/setup/team/) như mọi thứ khác. Thành viên không có quyền xem

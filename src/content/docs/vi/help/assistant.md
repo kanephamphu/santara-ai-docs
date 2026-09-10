@@ -25,10 +25,25 @@ bạn, không đến từ bất cứ điều gì bạn hay nó có thể gõ ra.
 
 ## Nó làm được gì
 
-Nó **chỉ đọc, với một ngoại lệ**: nó có thể soạn nháp câu trả lời cho khách. Nó không gửi được tin
-nhắn, không đổi được giá, không sửa được đặt phòng, không đưa listing lên sóng, và không chuyển tiền.
+Phần lớn thời gian nó **chỉ đọc**. Nó cũng làm được bốn việc, mỗi việc chỉ sau khi bạn xác nhận:
 
-Ngoại lệ đó tồn tại vì soạn nháp là việc đáng tự động hóa còn bấm gửi là việc đáng giữ cho con người.
+- **Soạn nháp câu trả lời cho khách** — nó soạn; bạn gửi.
+- **Giao ca dọn** cho một người dọn, kể cả người dọn
+  [chưa có tài khoản](/vi/daily/tasks/#người-dọn-chưa-có-tài-khoản) mà nó thêm theo tên.
+- **Giao ticket** cho một đồng nghiệp.
+- **Đổi trạng thái ticket** — sang cần làm, đang làm, đã xong hoặc đã hủy.
+
+Trước mọi thay đổi, nó hiện một thẻ **Xác nhận trước khi tôi làm**, ghi chính xác việc sắp làm.
+**Xác nhận** thì thực hiện; **Đừng làm** giữ nguyên mọi thứ (**Chưa thực hiện — không có gì bị thay
+đổi.**). Mỗi lần nó chỉ đề xuất một thay đổi, và người được giao sẽ nhận thông báo như thể chính bạn
+giao. Thẻ để quá lâu sẽ hết hạn — hỏi lại và nó sẽ kiểm tra lại trước.
+
+Nó vẫn không gửi được tin nhắn cho khách, không đổi được giá, không sửa được đặt phòng, không đưa
+listing lên sóng, và không chuyển tiền. Soạn nháp và giao việc thường ngày đáng tự động hóa; bấm gửi và
+chuyện tiền bạc đáng giữ cho con người.
+
+Nó hành động bằng quyền của **bạn**: nếu trên màn hình bạn không giao được ca dọn hay ticket, nó cũng
+không làm được.
 
 ## Để nhận câu trả lời tốt
 

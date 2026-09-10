@@ -30,6 +30,17 @@ Tetapkan petugas utama **per kamar** di pengaturan kebersihan. Tidak ada bawaan 
 disengaja: dalam praktiknya kamar-kamar satu vila ditangani orang berbeda, dan bawaan per bangunan
 diam-diam salah menugaskan.
 
+### Pembersih tanpa akun
+
+Tidak semua petugas kebersihan akan login, dan mereka tidak harus. Di pemilih petugas mana pun — di
+sebuah pembersihan, atau di bawaan sebuah kamar — pilih **+ Tambah pembersih lewat nama…**, ketik
+**Nama pembersih** dan, jika ada, **Nomor WhatsApp (opsional)**, lalu **Simpan pembersih**. Mereka
+langsung bisa ditugaskan.
+
+Setelah itu pemilih menampilkan **Anggota tim** dan **Pembersih tanpa akun** secara terpisah.
+Pembersih yang hanya bernama tidak pernah melihat aplikasi; mereka menerima pekerjaan seperti biasa,
+dari pesan WhatsApp klaster di bawah.
+
 ### Klaster kebersihan
 
 **Klaster kebersihan** adalah kelompok properti yang ditangani satu orang — biasanya karena

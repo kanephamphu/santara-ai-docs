@@ -22,6 +22,79 @@ Utas diurutkan berdasarkan yang butuh perhatian, bukan berdasarkan waktu. Tiap u
 
 Utas tanpa hal tertunda turun sendiri dari daftar.
 
+### Satu status per utas
+
+Setiap utas membawa tepat satu dari tiga status:
+
+| Status | Artinya |
+| --- | --- |
+| **Perlu dibalas** | Tamu menulis terakhir dan belum ada yang menjawab |
+| **Menunggu tamu** | Anda sudah menjawab; giliran tamu |
+| **Selesai** | Tidak ada yang tertunda |
+
+Dua tombol di kepala utas mengaturnya secara manual: **Tandai selesai** untuk pesan yang tidak perlu
+dijawab ("Oke, terima kasih!"), dan **Perlu dibalas** untuk mengembalikannya ke daftar Anda. Utas
+yang sudah selesai otomatis kembali menjadi **Perlu dibalas** begitu tamu menulis lagi.
+
+### Apa yang ditampilkan daftar
+
+Filter **Tampilkan** dibuka pada **Perlu Anda**, jadi kotak masuk dimulai sebagai daftar tugas,
+bukan riwayat. Filter lainnya **Belum dibaca**, **Hari ini**, dan **Semua**; masing-masing
+menampilkan jumlahnya, dan kotak masuk mengingat filter terakhir Anda di browser ini.
+
+Di dalamnya, utas terbagi menjadi tiga kelompok:
+
+- **Disematkan** — semua yang Anda sematkan dengan **Sematkan ke atas**. Sematan tampil di setiap
+  filter dan disimpan di akun Anda, jadi ikut ke perangkat lain. Sematan tiap orang milik sendiri.
+- **Perlu Anda sekarang** — belum dijawab, dan tamunya datang atau pergi hari ini. Label di baris
+  menyebutkan yang mana: check-in hari ini, check-out hari ini, atau tamu yang sedang menginap.
+- **Lainnya**, yang terbaru di atas.
+
+Bila daftar kosong, tertulis **Tidak ada yang perlu Anda tangani sekarang.** — itu tujuannya, bukan
+kesalahan.
+
+### Belum dibaca, judul tab, dan suara
+
+Utas dengan pesan tamu yang belum dibaca tampil tebal dengan titik, dan membukanya menandainya
+terbaca. **Status terbaca berlaku untuk seluruh tim**, bukan per orang: saat rekan membuka utas,
+titiknya hilang untuk semua orang. Membaca utas tidak menandainya selesai — itu tetap keputusan.
+
+Tab browser menaruh jumlah yang menunggu Anda di depan judul halaman — **(3)** — supaya terlihat
+dari tab lain. Angkanya sama dengan lencana di sidebar: pesan tamu yang belum dijawab ditambah
+obrolan tim yang belum dibaca. Nada singkat berbunyi saat pesan tamu masuk. Matikan di menu ruang
+kerja, di samping Bantuan dan pengalih tema — **Suara pesan aktif** menjadi **Suara pesan mati**.
+Pilihan ini disimpan per browser, jadi membisukan laptop tidak memengaruhi ponsel Anda.
+
+## Membaca tamu dalam bahasa Anda
+
+Tamu yang menulis dalam bahasa Jerman, Korea, atau Prancis ditampilkan kepada Anda **dalam bahasa
+Anda**. Teks terjemahan menggantikan aslinya di gelembung pesan, dan baris di bawahnya bertuliskan
+**Diterjemahkan dari Jerman · Lihat pesan asli**. Lihat pesan asli mengembalikan kata-kata tamu;
+**Lihat terjemahan** beralih lagi. Ini berlaku per pesan, jadi Anda bisa memeriksa satu baris tanpa
+kehilangan yang lain.
+
+![Tamu menulis dalam bahasa Jerman di Airbnb; Anda membacanya dalam bahasa Indonesia, dengan tautan ke aslinya. Balasan Anda terkirim seperti yang Anda tulis.](/diagrams/message-translation.id.svg)
+
+- **Bahasa Anda** adalah Bahasa di profil Anda sendiri (**Akun**). Jika belum diatur, dipakai
+  [bahasa ringkasan harian](/id/setup/workspace/#preferensi-operasional) workspace, lalu bahasa
+  Inggris. Terjemahan tersedia ke **bahasa Inggris, Indonesia, atau Vietnam**.
+- **Tiap anggota tim membaca dalam bahasanya sendiri.** Co-host berbahasa Vietnam dan pemilik
+  berbahasa Inggris membuka utas yang sama dan masing-masing membacanya dengan caranya; tamu tidak
+  melihat keduanya.
+- **Terjadi saat Anda menggulir.** Tidak ada tombol: pesan diterjemahkan tepat sebelum terlihat,
+  lalu disimpan, jadi tidak pernah diterjemahkan dua kali.
+- **Hanya pesan tamu.** Balasan Anda terkirim persis seperti yang Anda tulis, dan pratinjau di
+  daftar kotak masuk menampilkan kata-kata asli tamu.
+- **Pesan yang sudah dalam bahasa Anda dibiarkan**, begitu juga yang tidak ada untuk diterjemahkan —
+  emoji, tautan, nomor telepon.
+- Pesan yang sangat panjang diterjemahkan sampai sekitar 2.000 karakter dan diakhiri "…"; Lihat
+  pesan asli selalu memuat teks lengkapnya.
+
+:::note[Saat terjemahan tidak muncul]
+Jika terjemahan gagal atau hanya setengah jadi, hasilnya dibuang dan pesan asli yang ditampilkan —
+terjemahan yang salah lebih buruk daripada tanpa terjemahan. Ia dicoba lagi nanti.
+:::
+
 ## Membalas
 
 Tulis dan kirim. Tiga hal tersedia di samping kotak:

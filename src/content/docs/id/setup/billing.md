@@ -74,6 +74,29 @@ kesebelas hanya lebih murah daripada yang kesepuluh.
 aritmetika lebih murah di setiap jumlah, jadi tidak ada jumlah listing di mana pembayaran mandiri
 bisa menawarkannya dengan jujur. Di atas empat puluh listing, [bicaralah dengan kami](/id/help/support/).
 
+## Vietnam
+
+Vietnam punya daftar harga sendiri, dan ini yang paling sederhana dari semua yang kami terbitkan:
+**249.000₫ per listing, per bulan.** Tanpa biaya dasar, tanpa tingkatan, tanpa band. Satu listing
+atau lima puluh, setiap listing berharga sama, dan paketnya mencakup **seluruh produk** — semua
+yang ada di kolom Operator di atas.
+
+| Listing | Per bulan |
+| --- | --- |
+| 1 | 249.000₫ |
+| 6 | 1.494.000₫ |
+| 20 | 4.980.000₫ |
+
+Ditagih **dalam dong**, bukan dolar yang dikonversi saat pembayaran. Angka di atas adalah harga
+terbit; tidak ada konversi di checkout.
+
+**Daftar harga mana yang berlaku ditentukan saat workspace dibuat**, dari negara tempat Anda
+mendaftar — jadi mengikuti operatornya, bukan propertinya. Pengelola yang berbasis di luar Vietnam
+tetap pada jadwal global di atas meski seluruh listing-nya di Vietnam, dan sebaliknya juga berlaku.
+Setelah itu tidak berubah sendiri: sebuah kartu hanya bisa ditagih dalam satu mata uang, jadi
+berpindah daftar harga berarti langganan baru, bukan sekadar pengaturan — [hubungi kami](/id/help/support/)
+jika Anda berada di daftar yang keliru.
+
 ## Memilih antara Host dan Operator
 
 Ubah dari **Pengaturan → Tagihan**, dan hanya **pemilik workspace** yang bisa:

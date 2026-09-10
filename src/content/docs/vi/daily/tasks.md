@@ -28,6 +28,16 @@ Với mỗi công việc bạn có thể:
 Đặt nhân viên chính **theo từng phòng** trong cài đặt dọn phòng. Không có mặc định theo tòa nhà, và đó
 là chủ ý: trên thực tế các phòng của cùng một villa do những người khác nhau phụ trách.
 
+### Người dọn chưa có tài khoản
+
+Không phải nhân viên dọn nào cũng đăng nhập, và họ không cần phải làm vậy. Trong bất kỳ ô chọn người
+dọn nào — ở một ca dọn, hoặc ở mặc định của một phòng — chọn **+ Thêm người dọn theo tên…**, nhập **Tên
+người dọn** và, nếu có, **Số WhatsApp (không bắt buộc)**, rồi **Lưu người dọn**. Có thể giao việc cho
+họ ngay.
+
+Sau đó ô chọn hiển thị riêng **Thành viên nhóm** và **Người dọn chưa có tài khoản**. Người dọn chỉ có
+tên không bao giờ thấy ứng dụng; họ nhận việc như trước nay, qua tin nhắn WhatsApp của cụm bên dưới.
+
 ### Cụm dọn phòng
 
 **Cụm dọn phòng** là nhóm bất động sản do một người phụ trách — thường vì chúng gần nhau. Đặt cụm cho

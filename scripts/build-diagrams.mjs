@@ -261,7 +261,91 @@ function pricingPipeline(t) {
 }
 
 // ── labels ──────────────────────────────────────────────────────────────────────────────────
+// ── 5. a guest message, translated for the reader ───────────────────────────────────────────
+function messageTranslation(t) {
+  const W = 680;
+  const H = 214;
+  const colW = 200;
+  const cardH = 150;
+  const top = 16;
+  const leftX = 16;
+  const rightX = W - colW - 16;
+  const x1 = leftX + colW + 14;
+  const x2 = rightX - 14;
+  const mid = (x1 + x2) / 2;
+  const parts = [
+    // The guest's side: what actually arrived from the channel.
+    box(leftX, top, colW, cardH, { fill: SURFACE, stroke: LINE }),
+    text(leftX + 16, top + 24, [t.guest], { size: 11, weight: 650, fill: MUTED }),
+    box(leftX + 16, top + 38, colW - 32, 62, { fill: CARD, stroke: LINE, r: 12 }),
+    text(leftX + 28, top + 63, t.original, { size: 13, weight: 500 }),
+    text(leftX + 16, top + 128, [t.guestNote], { size: 11, fill: MUTED }),
+    // The reader's side: the same message, in their language, with the way back to the original.
+    box(rightX, top, colW, cardH, { fill: ACCENT_WASH, stroke: ACCENT }),
+    text(rightX + 16, top + 24, [t.you], { size: 11, weight: 650, fill: ACCENT }),
+    box(rightX + 16, top + 38, colW - 32, 62, { fill: CARD, stroke: ACCENT, r: 12 }),
+    text(rightX + 28, top + 63, t.translated, { size: 13, weight: 500 }),
+    text(rightX + 16, top + 120, t.toggle, { size: 11, fill: MUTED, leading: 15 }),
+    // In: translated once, as it scrolls into view.
+    arrowRight(x1, x2, top + 54, { stroke: ACCENT }),
+    text(mid, top + 42, [t.forward], { size: 12, weight: 600, anchor: "middle", fill: ACCENT }),
+    text(mid, top + 74, [t.forwardNote], { size: 11, fill: MUTED, anchor: "middle" }),
+    // Out: the reply is never translated.
+    arrowLeft(x1, x2, top + 118, { stroke: MUTED, dash: "5 4" }),
+    text(mid, top + 106, [t.reply], { size: 12, weight: 600, anchor: "middle" }),
+    text(mid, top + 138, [t.replyNote], { size: 11, fill: MUTED, anchor: "middle" }),
+    text(W / 2, H - 14, [t.footer], { size: 11, fill: MUTED, anchor: "middle" }),
+  ];
+  return svg(W, H, t.title, parts.join("\n  "));
+}
+
 const LABELS = {
+  "message-translation": {
+    render: messageTranslation,
+    en: {
+      title: "How a guest message is translated",
+      guest: "THE GUEST WRITES",
+      original: ["Können wir früher", "einchecken?"],
+      guestNote: "in German, on Airbnb",
+      you: "YOU READ",
+      translated: ["Can we check in", "early?"],
+      toggle: ["Translated from German", "· Show original"],
+      forward: "Into your language",
+      forwardNote: "once, as it scrolls into view",
+      reply: "Your reply",
+      replyNote: "goes out exactly as you wrote it",
+      footer: "Each teammate reads in their own language: English, Indonesian or Vietnamese.",
+    },
+    id: {
+      title: "Bagaimana pesan tamu diterjemahkan",
+      guest: "TAMU MENULIS",
+      original: ["Können wir früher", "einchecken?"],
+      guestNote: "dalam bahasa Jerman, di Airbnb",
+      you: "ANDA MEMBACA",
+      translated: ["Bisakah kami check-in", "lebih awal?"],
+      toggle: ["Diterjemahkan dari Jerman", "· Lihat pesan asli"],
+      forward: "Ke bahasa Anda",
+      forwardNote: "sekali, saat mulai terlihat",
+      reply: "Balasan Anda",
+      replyNote: "terkirim persis seperti ditulis",
+      footer: "Tiap anggota tim membaca dalam bahasanya sendiri: Inggris, Indonesia, atau Vietnam.",
+    },
+    vi: {
+      title: "Tin nhắn của khách được dịch ra sao",
+      guest: "KHÁCH VIẾT",
+      original: ["Können wir früher", "einchecken?"],
+      guestNote: "bằng tiếng Đức, trên Airbnb",
+      you: "BẠN ĐỌC",
+      translated: ["Chúng tôi nhận phòng", "sớm được không?"],
+      toggle: ["Đã dịch từ tiếng Đức", "· Xem bản gốc"],
+      forward: "Sang ngôn ngữ của bạn",
+      forwardNote: "một lần, khi cuộn tới",
+      reply: "Trả lời của bạn",
+      replyNote: "gửi đi đúng như bạn viết",
+      footer: "Mỗi thành viên đọc bằng ngôn ngữ của mình: tiếng Anh, Indonesia hoặc Việt.",
+    },
+  },
+
   "listing-states": {
     render: listingStates,
     en: {

@@ -60,6 +60,12 @@ for handing a job to someone who has not seen that building before.
 
 It drafts. It does not order parts, message the guest, or close the ticket.
 
+## How long closed tickets stay on the board
+
+Open tickets always show. **Done** and **cancelled** ones stay on the board for **30 days after
+their last update**, then drop off it so the board stays about current work. Nothing is deleted:
+the ticket and its history are still there.
+
 ## Who can see them
 
 Tickets follow the same [capability rules](/setup/team/) as everything else. A member without

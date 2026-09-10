@@ -72,6 +72,28 @@ eleventh listing simply costs less than the tenth.
 arithmetically cheaper at every count, so there is no listing count at which a self-serve checkout
 could honestly sell it. Above forty listings, [talk to us](/help/support/).
 
+## Vietnam
+
+Vietnam has its own price book, and it is the simplest one we publish: **₫249,000 per listing, per
+month.** No base fee, no tiers, no bands. One listing or fifty, every listing costs the same, and
+the plan carries the **whole product** — everything in the Operator column above.
+
+| Listings | Monthly |
+| --- | --- |
+| 1 | ₫249,000 |
+| 6 | ₫1,494,000 |
+| 20 | ₫4,980,000 |
+
+Billed **in dong**, not in dollars converted at the till. The figure above is the published price;
+nothing converts it at checkout.
+
+**Which book you are on is set when the workspace is created**, from the country you signed up
+from — so it follows the operator rather than the properties. A manager based outside Vietnam is
+on the global schedule above even if every listing is Vietnamese, and the reverse holds too. It
+does not switch afterwards: a card can only ever be charged in one currency, so moving between
+books means a new subscription rather than a setting — [talk to us](/help/support/) if you are on
+the wrong one.
+
 ## Choosing between Host and Operator
 
 Change it from **Settings → Billing**, and only the **workspace owner** can:

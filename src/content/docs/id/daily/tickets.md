@@ -63,6 +63,12 @@ saat menyerahkan pekerjaan kepada orang yang belum pernah melihat bangunan itu.
 
 Ia membuat draf. Ia tidak memesan suku cadang, tidak mengirim pesan ke tamu, dan tidak menutup tiket.
 
+## Berapa lama tiket tertutup tetap di papan
+
+Tiket terbuka selalu tampil. Tiket **selesai** dan **dibatalkan** tetap di papan selama **30 hari
+setelah pembaruan terakhirnya**, lalu hilang dari papan agar papan tetap berisi pekerjaan saat ini.
+Tidak ada yang dihapus: tiket dan riwayatnya tetap ada.
+
 ## Siapa yang bisa melihatnya
 
 Tiket mengikuti [aturan kapabilitas](/id/setup/team/) yang sama dengan bagian lain. Anggota tanpa

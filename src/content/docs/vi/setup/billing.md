@@ -73,6 +73,28 @@ mười một đơn giản là rẻ hơn listing thứ mười.
 luôn rẻ hơn ở mọi số lượng, nên không có con số listing nào mà một luồng tự thanh toán có thể chào
 nó một cách trung thực. Trên bốn mươi listing, [hãy nói chuyện với chúng tôi](/vi/help/support/).
 
+## Việt Nam
+
+Việt Nam có bảng giá riêng, và đây là bảng giá đơn giản nhất chúng tôi công bố: **249.000₫ mỗi tin
+đăng, mỗi tháng.** Không phí nền, không chia bậc, không phân nhóm. Một tin đăng hay năm mươi tin
+đăng đều cùng đơn giá, và gói này bao gồm **trọn bộ sản phẩm** — mọi thứ trong cột Operator ở trên.
+
+| Tin đăng | Mỗi tháng |
+| --- | --- |
+| 1 | 249.000₫ |
+| 6 | 1.494.000₫ |
+| 20 | 4.980.000₫ |
+
+Thanh toán **bằng đồng Việt Nam**, không phải đô la quy đổi lúc tính tiền. Con số ở trên là giá
+công bố; không có bước quy đổi nào khi thanh toán.
+
+**Bạn thuộc bảng giá nào được xác định khi workspace được tạo**, dựa trên quốc gia bạn đăng ký từ
+đó — nghĩa là theo nhà điều hành chứ không theo bất động sản. Một nhà quản lý ở ngoài Việt Nam sẽ
+dùng bảng giá toàn cầu ở trên ngay cả khi mọi tin đăng đều ở Việt Nam, và ngược lại cũng vậy. Sau
+đó nó không tự đổi: một thẻ chỉ có thể bị tính bằng một loại tiền, nên chuyển giữa hai bảng giá
+nghĩa là một đăng ký mới chứ không phải một thiết lập — [liên hệ với chúng tôi](/vi/help/support/)
+nếu bạn đang ở sai bảng giá.
+
 ## Chọn giữa Host và Operator
 
 Đổi từ **Cài đặt → Thanh toán**, và chỉ **chủ sở hữu workspace** mới đổi được:

@@ -31,6 +31,16 @@ Set the primary cleaner **per room** under the cleaning settings. There is no bu
 default, deliberately: in practice one villa's rooms are covered by different people, and a
 building default silently mis-assigns them.
 
+### Cleaners without an account
+
+Not every cleaner will log in, and they do not have to. In any cleaner picker — on a clean, or on a
+room's default — choose **+ Add a cleaner by name…**, type the **Cleaner's name** and, if you have
+it, a **WhatsApp number (optional)**, then **Save cleaner**. They can be assigned straight away.
+
+The picker then lists **Team members** and **Cleaners without an account** separately. A name-only
+cleaner never sees the app; they get their work the way they always did, from the cluster's
+WhatsApp message below.
+
 ### Cleaning clusters
 
 A **cleaning cluster** is a group of properties one person covers — usually because they are within

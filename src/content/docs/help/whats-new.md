@@ -13,7 +13,42 @@ own **Last updated** date at the foot, which is the finer-grained answer to "has
 
 ## September 2026
 
-Nothing yet this month.
+### Guest messages in your language
+
+A guest who writes in German, Korean or French now reads to you in English, Indonesian or
+Vietnamese — whichever is set on your own profile — with **Show original** one click away. Each
+teammate reads in their own language; your replies go out exactly as you wrote them. See
+[Reading a guest in their language](/daily/messages/#reading-a-guest-in-their-language).
+
+### An inbox that works as a to-do list
+
+Every thread has one status — **Needs reply**, **Waiting on guest** or **Handled** — and the inbox
+opens on **Needs you**. Threads arriving or leaving today rise to **Needs you now**, pins follow
+you across devices, the browser tab shows how many are waiting, and a chime (which you can mute)
+plays when a guest writes. See [One status per thread](/daily/messages/#one-status-per-thread).
+
+### Same-day arrival alerts
+
+A booking made for a stay checking in **today** now emails the team and the room's cleaner
+straight away, with the cleaning window and a warning if the clean will finish late. On by default.
+See [Same-day arrival alerts](/setup/workspace/#same-day-arrival-alerts).
+
+### The assistant can assign work
+
+Ask Santara AI can now assign a clean, assign a ticket or change a ticket's status — each only
+after you press **Confirm**. See [What it can do](/help/assistant/#what-it-can-do).
+
+### Elsewhere
+
+- **Cleaners without an account** — add a cleaner by name and WhatsApp number and assign them
+  straight away — [Tasks](/daily/tasks/#cleaners-without-an-account).
+- **Closed tickets leave the board after 30 days**; their history stays —
+  [Tickets](/daily/tickets/#how-long-closed-tickets-stay-on-the-board).
+- **A notification when a channel connects**, with how many rooms were mapped —
+  [Notifications](/setup/workspace/#notifications).
+- **Bookings show their real source**: Agoda, Expedia, Traveloka, Trip.com and others appear under
+  their own name instead of "Manual", and Reservations can be filtered by channel —
+  [Bookings](/daily/bookings/).
 
 ## August 2026
 

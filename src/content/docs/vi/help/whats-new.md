@@ -14,7 +14,41 @@ không?".
 
 ## Tháng 9 năm 2026
 
-Chưa có gì trong tháng này.
+### Tin nhắn của khách bằng ngôn ngữ của bạn
+
+Khách viết bằng tiếng Đức, tiếng Hàn hay tiếng Pháp giờ hiện ra với bạn bằng tiếng Anh, tiếng
+Indonesia hoặc tiếng Việt — theo ngôn ngữ trong hồ sơ của chính bạn — và **Xem bản gốc** chỉ cách một
+cú bấm. Mỗi thành viên đọc bằng ngôn ngữ của mình; trả lời của bạn được gửi đúng như bạn viết. Xem
+[Đọc tin khách bằng ngôn ngữ của bạn](/vi/daily/messages/#đọc-tin-khách-bằng-ngôn-ngữ-của-bạn).
+
+### Hộp thư hoạt động như danh sách việc cần làm
+
+Mỗi luồng có một trạng thái — **Cần phản hồi**, **Đang chờ khách** hoặc **Đã xử lý** — và hộp thư mở ở
+**Cần bạn**. Luồng có khách đến hoặc đi hôm nay được đưa lên **Cần bạn xử lý**, luồng ghim đi theo bạn
+sang thiết bị khác, tab trình duyệt hiện số việc đang chờ, và một âm báo (có thể tắt) phát khi khách
+nhắn. Xem [Mỗi luồng một trạng thái](/vi/daily/messages/#mỗi-luồng-một-trạng-thái).
+
+### Cảnh báo khách đến trong ngày
+
+Đặt phòng cho khách nhận phòng **hôm nay** giờ gửi email ngay cho nhóm và người dọn của phòng đó, kèm
+khung giờ dọn và cảnh báo nếu ca dọn sẽ xong muộn. Mặc định bật. Xem
+[Cảnh báo khách đến trong ngày](/vi/setup/workspace/#cảnh-báo-khách-đến-trong-ngày).
+
+### Trợ lý có thể giao việc
+
+Hỏi Santara AI giờ có thể giao ca dọn, giao ticket hoặc đổi trạng thái ticket — mỗi việc chỉ sau khi
+bạn bấm xác nhận. Xem [Nó làm được gì](/vi/help/assistant/#nó-làm-được-gì).
+
+### Những thay đổi khác
+
+- **Người dọn chưa có tài khoản** — thêm người dọn theo tên và số WhatsApp rồi giao việc ngay —
+  [Công việc](/vi/daily/tasks/#người-dọn-chưa-có-tài-khoản).
+- **Ticket đã đóng rời bảng sau 30 ngày**; lịch sử vẫn còn —
+  [Ticket](/vi/daily/tickets/#ticket-đã-đóng-ở-lại-bảng-bao-lâu).
+- **Thông báo khi một kênh được kết nối**, kèm số phòng đã ghép —
+  [Thông báo](/vi/setup/workspace/#thông-báo).
+- **Đặt phòng hiện đúng nguồn**: Agoda, Expedia, Traveloka, Trip.com và các kênh khác hiện đúng tên
+  thay vì "Thủ công", và trang Đặt phòng lọc được theo kênh — [Đặt phòng](/vi/daily/bookings/).
 
 ## Tháng 8 năm 2026
 

@@ -55,7 +55,25 @@ Tab workspace memuat pengaturan yang mengubah perilaku produk bagi semua orang d
 | **Nada pesan bawaan** | Nada awal draf balasan untuk tamu |
 | **Nilai upsell minimum** | Peluang di bawah nilai ini tidak ditampilkan, agar pipeline tetap layak dibaca |
 | **Buka Ringkasan Harian dulu** | Mulai aplikasi dari ringkasan, bukan dari dasbor |
+| **Peringatan kedatangan hari ini** | Kirim email ke tim saat ada pemesanan untuk tamu yang check-in hari ini — aktif secara bawaan |
 | **Channel notifikasi** | Dasbor untuk saat ini; email dan SMS belum tersambung |
+
+### Peringatan kedatangan hari ini
+
+Booking untuk **hari ini** adalah yang paling mungkin bermasalah: kamarnya bisa belum sempat
+dibersihkan. Saat booking dibuat — atau dibatalkan — untuk tamu yang check-in hari ini (menurut zona
+waktu workspace), email langsung terkirim, baik booking itu datang dari channel, situs booking Anda,
+atau dimasukkan manual.
+
+- **Manajer dan co-host** menerima email kedatangan (atau pembatalan) hari ini berisi detail
+  menginap, kontak tamu, nilai uangnya, dan jendela pembersihan. Jika pembersihan akan selesai
+  terlambat, email menyebutkannya dan meminta keputusan.
+- **Petugas kebersihan kamar itu** menerima email pembersihan hari ini (atau pembatalannya) beserta
+  perintah kerjanya.
+- Orang yang memasukkan booking tidak menerima email tentang booking-nya sendiri.
+
+Perubahan tanggal tidak mengirim email; itu muncul di [lonceng](#notifikasi). Hanya pemilik workspace
+atau admin yang bisa mematikan peringatan ini.
 
 Ada juga **nama dan avatar** workspace — logo yang tampil di sidebar dan pemilih workspace, yang
 mencegah dua workspace terlihat identik sekilas.
@@ -66,8 +84,9 @@ Lonceng di header. Notifikasi dialamatkan berdasarkan **siapa yang bisa menindak
 berdasarkan nama — karena itulah manajer yang ditambahkan bulan depan langsung menerima yang memang
 ditujukan bagi perannya.
 
-Ada delapan jenis: booking **dibuat**, **berubah**, atau **dibatalkan**; pembersihan **ditugaskan**
-kepada Anda atau **selesai**; tiket **dibuka**, **ditugaskan** kepada Anda, atau **selesai**. Hal
+Ada sembilan jenis: booking **dibuat**, **berubah**, atau **dibatalkan**; pembersihan **ditugaskan**
+kepada Anda atau **selesai**; tiket **dibuka**, **ditugaskan** kepada Anda, atau **selesai**; dan
+**channel terhubung**, yang menyebut channel, properti, dan berapa kamar yang dipetakan. Hal
 lain yang diketahui produk tinggal di layarnya masing-masing, dan itu disengaja — daftar notifikasi
 yang melaporkan hal yang tidak bisa Anda tindaklanjuti akan berhenti dibaca.
 

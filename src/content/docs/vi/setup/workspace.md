@@ -55,7 +55,22 @@ Tab workspace chứa những thiết lập thay đổi cách sản phẩm hoạt
 | **Giọng điệu tin nhắn mặc định** | Giọng mà bản nháp trả lời khách bắt đầu từ đó |
 | **Giá trị upsell tối thiểu** | Cơ hội thấp hơn mức này không được đưa lên, để dòng cơ hội còn đáng đọc |
 | **Mở Bản tóm tắt trước** | Khởi động ứng dụng ở bản tóm tắt thay vì bảng điều khiển |
+| **Cảnh báo khách đến trong ngày** | Gửi email cho nhóm khi có đặt phòng cho khách nhận phòng hôm nay — mặc định bật |
 | **Kênh thông báo** | Hiện tại là bảng điều khiển; email và SMS chưa nối |
+
+### Cảnh báo khách đến trong ngày
+
+Đặt phòng cho **hôm nay** là loại dễ trục trặc nhất: phòng có thể chưa kịp dọn. Khi một đặt phòng được
+tạo — hoặc bị hủy — cho khách nhận phòng hôm nay (theo múi giờ workspace), email được gửi ngay, dù đặt
+phòng đến từ kênh bán, website đặt phòng của bạn hay được nhập tay.
+
+- **Quản lý và co-host** nhận email khách đến (hoặc hủy) hôm nay, gồm thông tin lưu trú, liên hệ của
+  khách, số tiền và khung giờ dọn phòng. Nếu ca dọn sẽ xong muộn, email nói rõ và yêu cầu quyết định.
+- **Nhân viên dọn của phòng đó** nhận email dọn phòng hôm nay (hoặc báo hủy ca dọn) kèm phiếu công việc.
+- Người nhập đặt phòng không nhận email về đặt phòng của chính mình.
+
+Đổi ngày không gửi email; thay đổi đó hiện trong [chuông](#thông-báo). Chỉ chủ workspace hoặc admin mới
+tắt được cảnh báo này.
 
 Còn có **tên và ảnh đại diện** của workspace — logo hiển thị ở thanh bên và ở trình chuyển workspace,
 thứ khiến hai workspace không trông giống hệt nhau khi liếc qua.
@@ -65,8 +80,9 @@ thứ khiến hai workspace không trông giống hệt nhau khi liếc qua.
 Chiếc chuông trên thanh đầu trang. Thông báo được gửi theo **ai có thể xử lý** thay vì theo tên — nhờ
 vậy một quản lý được thêm vào tháng sau lập tức nhận đúng những thông báo vốn dành cho vai trò đó.
 
-Có tám loại: lượt đặt **được tạo**, **thay đổi** hoặc **bị hủy**; ca dọn **được giao** cho bạn hoặc
-**đã hoàn tất**; ticket **được mở**, **được giao** cho bạn hoặc **đã xong**. Mọi thứ khác mà sản phẩm
+Có chín loại: lượt đặt **được tạo**, **thay đổi** hoặc **bị hủy**; ca dọn **được giao** cho bạn hoặc
+**đã hoàn tất**; ticket **được mở**, **được giao** cho bạn hoặc **đã xong**; và **kênh đã kết nối**,
+cho biết kênh, bất động sản và số phòng đã được ghép. Mọi thứ khác mà sản phẩm
 biết đều nằm trên màn hình của nó chứ không nằm trong chuông, và đó là chủ ý — một danh sách thông
 báo kể những chuyện bạn không xử lý được sẽ không còn ai đọc.
 

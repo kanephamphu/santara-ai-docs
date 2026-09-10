@@ -55,7 +55,24 @@ The workspace tab carries the settings that change how the product behaves for e
 | **Default message tone** | The register the drafted guest replies start from |
 | **Minimum upsell value** | Opportunities below this are not surfaced, so the pipeline stays worth reading |
 | **Open Daily Brief first** | Start the app on the brief rather than the dashboard |
+| **Same-day arrival alerts** | Email the team when a booking lands for a stay checking in today — on by default |
 | **Notification channel** | Dashboard today; email and SMS are not wired up yet |
+
+### Same-day arrival alerts
+
+A booking made for **today** is the one that can go wrong: the room may not be cleaned in time. When
+a booking is created — or cancelled — for a stay checking in today (in the workspace timezone), an
+email goes out straight away, whether the booking came from a channel, your booking site or was
+entered by hand.
+
+- **Managers and co-hosts** get **Arriving today** (or **Cancelled today**) with the stay, the
+  guest's contact details, the money and the cleaning window. If the clean will finish late, it
+  says so and asks for a decision.
+- **The cleaner for that room** gets **Clean today** (or **Clean stood down**) with the work order.
+- The person who entered the booking is not emailed about their own booking.
+
+Changed dates do not send an email; they appear in the [bell](#notifications). Only the workspace
+owner or an admin can turn the alerts off.
 
 There is also the workspace's **name and avatar** — the logo shown in the sidebar and the workspace
 switcher, which is what stops two workspaces looking identical at a glance.
@@ -66,8 +83,9 @@ The bell in the header. Notifications are addressed by **who can act on them** r
 which is why a manager added next month immediately receives the ones that were always meant for
 their role — nothing has to be re-pointed at them.
 
-There are eight kinds: a booking **created**, **changed** or **cancelled**; a clean **assigned** to
-you or **finished**; a ticket **opened**, **assigned** to you or **done**. Everything else the
+There are nine kinds: a booking **created**, **changed** or **cancelled**; a clean **assigned** to
+you or **finished**; a ticket **opened**, **assigned** to you or **done**; and a **channel
+connected**, which names the channel, the property and how many rooms were mapped. Everything else the
 product knows lives on a screen rather than in the bell, on purpose — a notification list that
 reports things you cannot act on stops being read.
 
