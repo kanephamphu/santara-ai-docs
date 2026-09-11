@@ -72,20 +72,16 @@ eleventh listing simply costs less than the tenth.
 arithmetically cheaper at every count, so there is no listing count at which a self-serve checkout
 could honestly sell it. Above forty listings, [talk to us](/help/support/).
 
-## Vietnam
+## Markets with their own price
 
-Vietnam has its own price book, and it is the simplest one we publish: **₫249,000 per listing, per
-month.** No base fee, no tiers, no bands. One listing or fifty, every listing costs the same, and
-the plan carries the **whole product** — everything in the Operator column above.
+Some countries have their own price book — Vietnam first. It is the simplest one we publish: **one
+flat rate per listing, per month, in the local currency.** No base fee, no tiers, no bands. One
+listing or fifty, every listing costs the same, and the plan carries the **whole product** —
+everything in the Operator column above.
 
-| Listings | Monthly |
-| --- | --- |
-| 1 | ₫249,000 |
-| 6 | ₫1,494,000 |
-| 20 | ₫4,980,000 |
-
-Billed **in dong**, not in dollars converted at the till. The figure above is the published price;
-nothing converts it at checkout.
+The rate for your country is on the [pricing page](https://santara.ai/pricing/), which shows the
+price for where you are, and — once you subscribe — on **Settings → Billing**. It is billed in the
+local currency, not in dollars converted at checkout.
 
 **Which book you are on is set when the workspace is created**, from the country you signed up
 from — so it follows the operator rather than the properties. A manager based outside Vietnam is

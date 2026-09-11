@@ -74,21 +74,16 @@ kesebelas hanya lebih murah daripada yang kesepuluh.
 aritmetika lebih murah di setiap jumlah, jadi tidak ada jumlah listing di mana pembayaran mandiri
 bisa menawarkannya dengan jujur. Di atas empat puluh listing, [bicaralah dengan kami](/id/help/support/).
 
-## Vietnam
+## Pasar dengan harga sendiri
 
-Vietnam punya daftar harga sendiri, dan ini yang paling sederhana dari semua yang kami terbitkan:
-**249.000₫ per listing, per bulan.** Tanpa biaya dasar, tanpa tingkatan, tanpa band. Satu listing
-atau lima puluh, setiap listing berharga sama, dan paketnya mencakup **seluruh produk** — semua
-yang ada di kolom Operator di atas.
+Beberapa negara punya daftar harga sendiri — dimulai dari Vietnam. Ini yang paling sederhana dari
+semua yang kami terbitkan: **satu tarif rata per listing, per bulan, dalam mata uang lokal.** Tanpa
+biaya dasar, tanpa tingkatan, tanpa band. Satu listing atau lima puluh, setiap listing berharga sama,
+dan paketnya mencakup **seluruh produk** — semua yang ada di kolom Operator di atas.
 
-| Listing | Per bulan |
-| --- | --- |
-| 1 | 249.000₫ |
-| 6 | 1.494.000₫ |
-| 20 | 4.980.000₫ |
-
-Ditagih **dalam dong**, bukan dolar yang dikonversi saat pembayaran. Angka di atas adalah harga
-terbit; tidak ada konversi di checkout.
+Tarif untuk negara Anda ada di [halaman harga](https://santara.ai/id/harga/), yang menampilkan harga
+untuk lokasi Anda, dan — setelah berlangganan — di **Settings → Billing**. Ditagih dalam mata uang
+lokal, bukan dolar yang dikonversi saat pembayaran.
 
 **Daftar harga mana yang berlaku ditentukan saat workspace dibuat**, dari negara tempat Anda
 mendaftar — jadi mengikuti operatornya, bukan propertinya. Pengelola yang berbasis di luar Vietnam
