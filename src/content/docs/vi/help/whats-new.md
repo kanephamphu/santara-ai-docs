@@ -17,8 +17,8 @@ không?".
 ### Sổ tay hướng dẫn cho khách qua mã QR
 
 In một nhãn QR cho mỗi phòng. Khách quét để xem giờ nhận phòng, Wi-Fi, nội quy, tiện nghi, địa điểm bạn
-gợi ý và bản đồ — bằng tiếng Anh, tiếng Indonesia hoặc tiếng Việt — và sau khi xác nhận mã đặt phòng và
-họ, xem được mã cửa và mật khẩu Wi-Fi. Ngay trên trang đó khách có thể yêu cầu nhận phòng sớm, trả phòng
+gợi ý và bản đồ — bằng tiếng Anh, tiếng Indonesia hoặc tiếng Việt — và sau khi nhập mã đặt phòng,
+xem được mã cửa và mật khẩu Wi-Fi. Ngay trên trang đó khách có thể yêu cầu nhận phòng sớm, trả phòng
 muộn hoặc ở thêm đêm, và yêu cầu hiện trên Upsell với trạng thái đã chấp nhận. AI có thể soạn nháp danh
 sách địa điểm quanh đây để bạn kiểm tra rồi xuất bản. Xem
 [Sổ tay hướng dẫn và mã QR dán phòng](/vi/setup/guidebook/).

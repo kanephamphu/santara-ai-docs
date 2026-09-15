@@ -8,7 +8,7 @@ sidebar:
 Cetak satu stiker QR per kamar. Tamu memindainya dengan kamera ponsel dan membuka halaman tentang masa
 inapnya, dalam bahasanya sendiri: jam check-in dan check-out, nama jaringan Wi-Fi, aturan rumah,
 fasilitas, tempat yang Anda rekomendasikan, peta, dan layanan tambahan yang Anda tawarkan. Setelah
-tamu memasukkan kode pemesanan dan nama belakangnya, halaman yang sama menampilkan **kode pintu**,
+tamu memasukkan kode pemesanannya, halaman yang sama menampilkan **kode pintu**,
 **kata sandi Wi-Fi**, dan **cara masuk**.
 
 Tamu tidak perlu memasang apa pun dan tidak perlu membuat akun.
@@ -19,6 +19,8 @@ tamu**. Halaman setiap kamar juga punya kartu ini, dengan tombol **Kelola stiker
 ## Yang dilihat tamu
 
 Halaman ini punya dua lapisan, dan perbedaan keduanya adalah inti desainnya.
+
+![Halaman tamu dari stiker kamar, sebelum konfirmasi: info menginap, aturan, dan satu kotak untuk kode pemesanan.](/screens/guidebook-guest.id.png)
 
 | Siapa pun yang memindai stiker | Hanya tamu yang sudah mengonfirmasi pemesanan |
 | --- | --- |
@@ -46,13 +48,10 @@ kamar, dan layanan tambahan dari [pengaturan upsell](/id/money/upsells/).
 
 ## Cara tamu mengonfirmasi pemesanan
 
-Tamu mengetik dua hal yang ada di konfirmasi pemesanannya:
+Tamu mengetik **kode pemesanan** dari konfirmasinya — tidak ada yang lain. Spasi, tanda hubung, dan
+huruf besar tidak berpengaruh. Kode yang lebih pendek dari enam karakter tidak pernah dicocokkan.
 
-- **Kode pemesanan** — spasi, tanda hubung, dan huruf besar tidak berpengaruh.
-- **Nama belakang** — tanda aksen tidak berpengaruh, jadi *Nguyen* cocok dengan *Nguyễn*. Kata pertama
-  atau terakhir dari nama di pemesanan diterima, karena tidak semua tamu menulis nama keluarga di akhir,
-  begitu pula **nama lengkap** (*Sandra Drywa*) — yang paling sering diketik tamu di kolom itu. Jika
-  channel hanya mengirim inisial nama belakang, nama depan ditambah nama belakang tetap diterima.
+![Halaman yang sama setelah kode pemesanan dimasukkan: sapaan, kode pintu (disamarkan sampai diketuk), dan kata sandi Wi-Fi.](/screens/guidebook-verified.id.png)
 
 Akses mengikuti masa inap, dalam zona waktu properti itu sendiri:
 
@@ -115,6 +114,10 @@ terdekat.
   dipublikasikan diterjemahkan ke dua bahasa lainnya. Terjemahan yang sudah ada tetap dipertahankan.
 
 Satu gedung memuat hingga 60 tempat.
+
+Tamu melihat setiap tempat beserta jenisnya — ikon dan label berwarna — dan bisa memfilter daftar menurut jenis. Di ponsel, setiap tempat tampil sebagai satu baris ringkas dengan tombol **Peta**.
+
+![Tempat sekitar di ponsel tamu, bisa difilter menurut jenis, dalam bahasa tamu.](/screens/guidebook-places-phone.id.png)
 
 ## Yang dilihat tamu: pengaturannya
 

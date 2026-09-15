@@ -7,8 +7,8 @@ sidebar:
 
 Print one QR sticker per room. A guest scans it with their phone camera and gets a page about their
 stay, in their own language: check-in and check-out times, the Wi-Fi network, house rules,
-amenities, your local recommendations, a map, and the extras you sell. Once they confirm their
-booking code and last name, the same page shows the **door code**, the **Wi-Fi password** and **how
+amenities, your local recommendations, a map, and the extras you sell. Once they enter their
+booking code, the same page shows the **door code**, the **Wi-Fi password** and **how
 to get in**.
 
 There is nothing to install and no account for the guest to create.
@@ -19,6 +19,8 @@ card. A room's own page has the same card, with **Manage stickers**.
 ## What the guest sees
 
 The page has two levels, and the difference between them is the whole design.
+
+![The guest page from a room sticker, before confirming: the stay, the rules and one box for the booking code.](/screens/guidebook-guest.en.png)
 
 | Anyone who scans the sticker | Only a guest who has confirmed their booking |
 | --- | --- |
@@ -46,13 +48,10 @@ room, and extras from your [upsell settings](/money/upsells/).
 
 ## How a guest confirms their booking
 
-The guest types two things printed on their confirmation:
+The guest types the **booking code** from their confirmation — nothing else. Spaces, dashes and
+capital letters do not matter. Codes shorter than six characters are never matched.
 
-- **Booking code** — spaces, dashes and capital letters do not matter.
-- **Last name** — accents do not matter, so *Nguyen* matches *Nguyễn*. The first or last word of
-  the name on the booking is accepted, because not every guest writes the family name last, and so
-  is the **full name** (*Sandra Drywa*) — the commonest thing guests type into that box. When a
-  channel sent only an initial for the surname, the first name plus the surname works.
+![The same page once the booking code is entered: a greeting, the door code (masked until tapped) and the Wi-Fi password.](/screens/guidebook-verified.en.png)
 
 Access then follows the stay, in the property's own time zone:
 
@@ -116,6 +115,10 @@ station.
   are translated into the other two. Translations you already have are kept.
 
 A building holds up to 60 places.
+
+Guests see every place with its type — a coloured icon and label — and can filter the list by type. On a phone each place is one compact row with a **Map** button.
+
+![Nearby places on a guest's phone, filtered by type, in the guest's language.](/screens/guidebook-places-phone.en.png)
 
 ## What guests see: the settings
 

@@ -17,7 +17,7 @@ own **Last updated** date at the foot, which is the finer-grained answer to "has
 
 Print a QR sticker for every room. Guests scan it for check-in times, Wi-Fi, house rules, amenities,
 your local recommendations and a map — in English, Indonesian or Vietnamese — and, after confirming
-their booking code and last name, the door code and Wi-Fi password. They can request early check-in,
+their booking code, the door code and Wi-Fi password. They can request early check-in,
 late checkout or an extra night from the same page, and the request arrives on Upsells already
 accepted. AI can draft a list of nearby places for you to check and publish. See
 [Guest guidebook and QR stickers](/setup/guidebook/).

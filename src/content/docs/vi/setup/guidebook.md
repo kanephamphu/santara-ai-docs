@@ -7,7 +7,7 @@ sidebar:
 
 In một nhãn QR cho mỗi phòng. Khách quét bằng camera điện thoại và mở ra một trang về kỳ lưu trú của
 họ, bằng ngôn ngữ của họ: giờ nhận và trả phòng, tên mạng Wi-Fi, nội quy, tiện nghi, những địa điểm
-bạn gợi ý, bản đồ, và các dịch vụ bán thêm. Khi khách xác nhận mã đặt phòng và họ, cùng trang đó hiện
+bạn gợi ý, bản đồ, và các dịch vụ bán thêm. Khi khách nhập mã đặt phòng, cùng trang đó hiện
 **mã cửa**, **mật khẩu Wi-Fi** và **cách vào phòng**.
 
 Khách không phải cài gì, cũng không phải tạo tài khoản.
@@ -18,6 +18,8 @@ cho khách**. Trang của từng phòng cũng có thẻ này, với nút **Quả
 ## Khách thấy gì
 
 Trang có hai lớp, và sự khác biệt giữa hai lớp là toàn bộ thiết kế.
+
+![Trang khách mở từ nhãn QR của phòng, trước khi xác nhận: thông tin lưu trú, nội quy và một ô nhập mã đặt phòng.](/screens/guidebook-guest.vi.png)
 
 | Bất kỳ ai quét nhãn | Chỉ khách đã xác nhận đặt phòng |
 | --- | --- |
@@ -44,12 +46,10 @@ và dịch vụ bán thêm từ [cài đặt upsell](/vi/money/upsells/).
 
 ## Khách xác nhận đặt phòng thế nào
 
-Khách nhập hai thông tin có trong xác nhận đặt phòng:
+Khách chỉ nhập **mã đặt phòng** trong xác nhận đặt phòng — không cần gì khác. Khoảng trắng, dấu gạch và
+chữ hoa không quan trọng. Mã ngắn hơn sáu ký tự không bao giờ được khớp.
 
-- **Mã đặt phòng** — khoảng trắng, dấu gạch và chữ hoa không quan trọng.
-- **Họ** — dấu không quan trọng, nên *Nguyen* khớp với *Nguyễn*. Chấp nhận từ đầu hoặc từ cuối của tên
-  trên đặt phòng, vì không phải khách nào cũng viết họ ở cuối, và cả **họ tên đầy đủ** (*Sandra Drywa*)
-  — thứ khách hay gõ vào ô này nhất. Khi kênh chỉ gửi chữ cái đầu của họ, tên cộng họ vẫn được chấp nhận.
+![Cùng trang đó sau khi nhập mã đặt phòng: lời chào, mã cửa (được che cho tới khi chạm) và mật khẩu Wi-Fi.](/screens/guidebook-verified.vi.png)
 
 Quyền xem đi theo kỳ lưu trú, theo múi giờ của chính bất động sản:
 
@@ -110,6 +110,10 @@ gần nhất.
   sang hai ngôn ngữ còn lại. Bản dịch sẵn có được giữ nguyên.
 
 Mỗi tòa nhà chứa tối đa 60 địa điểm.
+
+Khách thấy mỗi địa điểm kèm loại của nó — biểu tượng và nhãn có màu — và lọc được danh sách theo loại. Trên điện thoại, mỗi địa điểm là một dòng gọn với nút **Bản đồ**.
+
+![Địa điểm gợi ý trên điện thoại của khách, lọc theo loại, bằng ngôn ngữ của khách.](/screens/guidebook-places-phone.vi.png)
 
 ## Khách sẽ thấy gì: phần cài đặt
 

@@ -176,7 +176,14 @@ export function rehypeFigures() {
         parent.children![index] = {
           type: "element",
           tagName: "figure",
-          properties: { className: overlay ? ["screenshot", "annotated"] : ["screenshot"] },
+          // A "-phone" shot is 390px wide: at the column's full width it would be a page tall.
+          properties: {
+            className: [
+              "screenshot",
+              ...(overlay ? ["annotated"] : []),
+              ...(/-phone\.[a-z]{2}\.png$/.test(src) ? ["phone"] : []),
+            ],
+          },
           children: [
             {
               type: "element",

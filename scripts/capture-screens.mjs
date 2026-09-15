@@ -43,14 +43,6 @@ const OUT = new URL("../public/screens/", import.meta.url).pathname;
 
 const LOCALES = ["en", "id", "vi"];
 
-if (!PASSWORD) {
-  console.error(
-    "\n  SANTARA_DEMO_PASSWORD is not set.\n\n" +
-      "  Put it in .env.capture (gitignored) or the environment:\n\n" +
-      "    echo 'SANTARA_DEMO_PASSWORD=…' >> .env.capture\n",
-  );
-  process.exit(1);
-}
 
 /*
  * The shots.
@@ -264,12 +256,127 @@ const SHOTS = [
     height: 700,
     note: "The command palette",
   },
+
+  // ── guest guidebook ───────────────────────────────────────────────────────────────────────
+  // The seed gives Villa Melati fixed sticker codes, so these open without looking one up —
+  // and without signing in: `guest: true` shots are public pages. DEMVPR3ABC is the Pool Room;
+  // DEMO-0002 is the stay arriving there today.
+  {
+    id: "guidebook",
+    path: async (page) => {
+      await page.goto(`${BASE}/dashboard/properties`, { waitUntil: "domcontentloaded" });
+      await page.waitForTimeout(1200);
+      const href = await page
+        .locator("a[href*='/dashboard/properties/']", { hasText: "Villa Melati" })
+        .evaluateAll((els) =>
+          els
+            .map((el) => el.getAttribute("href") ?? "")
+            .find((h) => /\/dashboard\/properties\/[0-9a-f-]{36}\/?$/.test(h)),
+        );
+      if (!href) throw new Error("no Villa Melati link found for the guidebook screen");
+      return `${href.replace(/\/$/, "")}/guidebook`;
+    },
+    settle: "main",
+    height: 900,
+    note: "The guidebook screen: stickers, numbers and places",
+    callouts: [
+      {
+        find: /^(Print QR stickers|Cetak stiker QR|In mã QR)$/,
+        label: { en: "One A4 sheet, every sticker", id: "Satu lembar A4, semua stiker", vi: "Một tờ A4, đủ mọi nhãn" },
+        side: "left",
+      },
+    ],
+  },
+  {
+    id: "guidebook-guest",
+    guest: true,
+    path: "/g/DEMVPR3ABC/",
+    steps: [{ clearGuideSession: true, settle: 1500 }],
+    settle: "#access",
+    height: 900,
+    note: "What a guest sees after scanning, before confirming",
+    callouts: [
+      {
+        css: "#access input",
+        label: {
+          en: "Only the booking code — nothing else",
+          id: "Hanya kode pemesanan — tidak ada yang lain",
+          vi: "Chỉ mã đặt phòng — không cần gì khác",
+        },
+        side: "left",
+      },
+    ],
+  },
+  {
+    id: "guidebook-verified",
+    guest: true,
+    path: "/g/DEMVPR3ABC/",
+    steps: [
+      { clearGuideSession: true, settle: 1500 },
+      { fill: { css: "#access input", value: "DEMO-0002" }, settle: 200 },
+      { click: { css: "#access button[type='submit']" }, settle: 4000 },
+      { click: { role: "button", find: /^(Show|Tampilkan|Hiện)$/ }, settle: 600 },
+    ],
+    settle: "#access",
+    height: 900,
+    note: "The same page once the guest has entered their booking code",
+    callouts: [
+      {
+        find: /^(Door code|Kode pintu|Mã cửa)$/,
+        up: 1,
+        label: { en: "Masked until the guest taps Show", id: "Disamarkan sampai tamu mengetuk Tampilkan", vi: "Được che cho tới khi khách chạm Hiện" },
+        side: "right",
+      },
+    ],
+  },
+  {
+    id: "guidebook-places-phone",
+    guest: true,
+    path: "/g/DEMVPR3ABC/",
+    steps: [{ clearGuideSession: true, settle: 1500 }],
+    width: 390,
+    viewportHeight: 844,
+    from: "#places",
+    settle: "#places",
+    height: 760,
+    note: "Nearby places on a phone, filterable by type",
+  },
+  {
+    id: "guidebook-print",
+    path: async (page) => {
+      await page.goto(`${BASE}/dashboard/properties`, { waitUntil: "domcontentloaded" });
+      await page.waitForTimeout(1200);
+      const href = await page
+        .locator("a[href*='/dashboard/properties/']", { hasText: "Villa Melati" })
+        .evaluateAll((els) =>
+          els
+            .map((el) => el.getAttribute("href") ?? "")
+            .find((h) => /\/dashboard\/properties\/[0-9a-f-]{36}\/?$/.test(h)),
+        );
+      if (!href) throw new Error("no Villa Melati link found for the sticker sheet");
+      return `${href.replace(/\/$/, "")}/guidebook/print`;
+    },
+    settle: "main, body",
+    height: 820,
+    note: "The printable sticker sheet",
+  },
 ];
 
 const only = process.argv.slice(2).filter((a) => !a.startsWith("-"));
 const shots = only.length ? SHOTS.filter((s) => only.includes(s.id)) : SHOTS;
 if (!shots.length) {
   console.error(`no shot matches ${only.join(", ")} — known ids: ${SHOTS.map((s) => s.id).join(", ")}`);
+  process.exit(1);
+}
+
+// Guest-guidebook shots are PUBLIC pages: a run of only those needs no sign-in, and no password.
+const needsLogin = shots.some((shot) => !shot.guest);
+if (needsLogin && !PASSWORD) {
+  console.error(
+    "\n  SANTARA_DEMO_PASSWORD is not set.\n\n" +
+      "  Put it in .env.capture (gitignored) or the environment:\n\n" +
+      "    echo 'SANTARA_DEMO_PASSWORD=…' >> .env.capture\n",
+  );
   process.exit(1);
 }
 
@@ -301,13 +408,15 @@ page.setDefaultNavigationTimeout(90_000);
 page.setDefaultTimeout(30_000);
 
 // ── sign in ────────────────────────────────────────────────────────────────────────────────────
-await page.goto(`${BASE}/login`, { waitUntil: "domcontentloaded" });
-await page.fill('input[type="email"]', EMAIL);
-await page.fill('input[type="password"]', PASSWORD);
-// Enter, not a click on button[type="submit"] — the login button carries no type attribute
-// (it is the form's implicit submit), so a type selector matches nothing and waits 30s to say so.
-await page.press('input[type="password"]', "Enter");
-await page.waitForURL(/\/dashboard/, { timeout: 60_000 });
+if (needsLogin) {
+  await page.goto(`${BASE}/login`, { waitUntil: "domcontentloaded" });
+  await page.fill('input[type="email"]', EMAIL);
+  await page.fill('input[type="password"]', PASSWORD);
+  // Enter, not a click on button[type="submit"] — the login button carries no type attribute
+  // (it is the form's implicit submit), so a type selector matches nothing and waits 30s to say so.
+  await page.press('input[type="password"]', "Enter");
+  await page.waitForURL(/\/dashboard/, { timeout: 60_000 });
+}
 
 /*
  * The 19-step product tour opens itself on a workspace that has not seen it, and it covers the
@@ -332,19 +441,27 @@ async function dismissTour(waitMs = 1000) {
 // THE TOUR MOUNTS AFTER THE PAGE SETTLES, not with it. Dismissing immediately after login found
 // nothing and every screenshot came back with a coach mark over the metric tiles; this waits for
 // it to appear once, and the deferral then holds for the rest of the run.
-await page.waitForTimeout(2500);
-await dismissTour(15_000);
+if (needsLogin) {
+  await page.waitForTimeout(2500);
+  await dismissTour(15_000);
+}
 
 let written = 0;
 for (const locale of LOCALES) {
   // The whole dashboard follows this cookie — verified against the running app, where setting it
   // to `id` turned Calendar into "Kalender" and the sidebar into Indonesian. It is why capturing
   // three languages costs three page loads rather than three logins.
-  await context.addCookies([{ name: "aircierge_locale", value: locale, url: BASE }]);
+  // The guest guidebook has its own language cookie (lib/booking/i18n.ts), shared with the booking site.
+  await context.addCookies([
+    { name: "aircierge_locale", value: locale, url: BASE },
+    { name: "aircierge_booking_locale", value: locale, url: BASE },
+  ]);
 
   for (const shot of shots) {
     // `path` may be a function when the URL is not knowable up front — the rates grid lives under
     // a property id that differs per workspace, so the shot finds one rather than hardcoding it.
+    const width = shot.width ?? 1440;
+    await page.setViewportSize({ width, height: shot.viewportHeight ?? 900 });
     const path = typeof shot.path === "function" ? await shot.path(page) : shot.path;
     await page.goto(`${BASE}${path}`, { waitUntil: "domcontentloaded" });
     await dismissTour();
@@ -355,7 +472,14 @@ for (const locale of LOCALES) {
      */
     for (const step of shot.steps ?? []) {
       try {
-        if (step.reload) {
+        if (step.clearGuideSession) {
+          // The verified-guest cookie is per sticker (santara_guide_<CODE>). The device cookie
+          // (santara_guide_device) stays, so attempts keep counting against one phone.
+          await context.clearCookies({ name: /^santara_guide_[0-9A-Z]{10}$/ });
+          await page.reload({ waitUntil: "domcontentloaded" });
+        } else if (step.fill) {
+          await page.locator(step.fill.css).first().fill(step.fill.value, { timeout: 10_000 });
+        } else if (step.reload) {
           await page.reload({ waitUntil: "domcontentloaded" });
         } else if (step.press) {
           await page.keyboard.press(step.press);
@@ -406,17 +530,29 @@ for (const locale of LOCALES) {
      * grid, whose URL is resolved at runtime.
      */
     const broken = await page
-      .getByText(/We couldn't find that page|Tidak menemukan halaman|Không tìm thấy trang/i)
+      .getByText(/We couldn't find that page|Tidak menemukan halaman|Không tìm thấy trang|This guide is not available/i)
       .count();
     if (broken) {
       console.warn(`  x ${shot.id}.${locale}: landed on a not-found page — SKIPPED`);
       continue;
     }
 
+    /*
+     * `from` starts the frame at a section instead of the top of the page — the places list sits
+     * below the fold on a phone.
+     */
+    const clipY = shot.from
+      ? await page.locator(shot.from).first().evaluate((el) => Math.max(0, el.getBoundingClientRect().top + window.scrollY - 4))
+      : 0;
+    // Local captures run against `next dev`, whose floating dev-tools badge would otherwise sit in
+    // the corner of every picture.
+    await page.addStyleTag({ content: "nextjs-portal { display: none !important; }" });
     const file = `${OUT}${shot.id}.${locale}.png`;
     await page.screenshot({
       path: file,
-      clip: { x: 0, y: 0, width: 1440, height: shot.height },
+      clip: { x: 0, y: clipY, width, height: shot.height },
+      // A clip below the fold is only allowed against the full page.
+      fullPage: clipY > 0,
     });
 
     /*
@@ -481,7 +617,7 @@ for (const locale of LOCALES) {
         const grew = callout.expand ?? {};
         boxes.push({
           x: Math.max(0, box.x + scroll.x - pad - (grew.left ?? 0)),
-          y: Math.max(0, box.y + scroll.y - pad - (grew.top ?? 0)),
+          y: Math.max(0, box.y + scroll.y - clipY - pad - (grew.top ?? 0)),
           width: box.width + pad * 2 + (grew.left ?? 0) + (grew.right ?? 0),
           // A grow of 1 is "this row", 2 is "this section" — expressed in multiples of the
           // element's own height so it scales with the type rather than with a magic pixel count.
@@ -493,7 +629,7 @@ for (const locale of LOCALES) {
       if (boxes.length) {
         writeFileSync(
           `${OUT}${shot.id}.${locale}.json`,
-          `${JSON.stringify({ width: 1440, height: shot.height, boxes }, null, 2)}\n`,
+          `${JSON.stringify({ width, height: shot.height, boxes }, null, 2)}\n`,
         );
       }
     }
