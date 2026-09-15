@@ -48,6 +48,14 @@ Santara AI không âm thầm sửa một lượt đặt thay bạn.
 - Trong [Tin nhắn](/vi/daily/messages/) — như một gợi ý trong luồng liên quan.
 - Trong [Báo cáo](/vi/money/reports/) — báo cáo upsell xếp hạng cơ hội đang mở, bị bỏ lỡ và đã chốt.
 
+## Khi khách hỏi trước
+
+Khách đã xác nhận đặt phòng trong [sổ tay hướng dẫn](/vi/setup/guidebook/) có thể tự yêu cầu nhận phòng
+sớm, trả phòng muộn hoặc ở thêm một đêm, từ nhãn QR trong phòng. Yêu cầu hiện ở đây với trạng thái
+**Đã chấp nhận**, đúng mức giá sổ tay đã hiện cho khách, và cả nhóm nhận thông báo. Yêu cầu đã qua cùng
+bước kiểm tra lịch như một cơ hội được phát hiện, nhưng đặt phòng không thay đổi cho tới khi bạn điều
+chỉnh kỳ lưu trú.
+
 ## Không gì được gửi tự động
 
 Mọi lời chào đều là bản nháp. Bạn là người gửi. Một khách nhận lời chào tự động cho đêm mà năm phút

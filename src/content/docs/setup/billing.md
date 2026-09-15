@@ -2,7 +2,7 @@
 title: Plans and billing
 description: A 7-day trial with a three-listing limit, two tiers, pricing per listing that falls as you grow, and no commission on any booking.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 **Settings → Billing**. The figures on that screen are authoritative for your workspace — this page

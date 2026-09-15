@@ -2,7 +2,7 @@
 title: Cài đặt workspace
 description: Ngôn ngữ, múi giờ, tiền tệ, thông báo, mẫu tin nhắn — những thứ bạn đặt một lần.
 sidebar:
-  order: 7
+  order: 8
 ---
 
 **Cài đặt** là một trang với nhiều tab, và mọi tab ở đó đều thuộc về **workspace** mà cả nhóm dùng
@@ -80,9 +80,11 @@ thứ khiến hai workspace không trông giống hệt nhau khi liếc qua.
 Chiếc chuông trên thanh đầu trang. Thông báo được gửi theo **ai có thể xử lý** thay vì theo tên — nhờ
 vậy một quản lý được thêm vào tháng sau lập tức nhận đúng những thông báo vốn dành cho vai trò đó.
 
-Có chín loại: lượt đặt **được tạo**, **thay đổi** hoặc **bị hủy**; ca dọn **được giao** cho bạn hoặc
-**đã hoàn tất**; ticket **được mở**, **được giao** cho bạn hoặc **đã xong**; và **kênh đã kết nối**,
-cho biết kênh, bất động sản và số phòng đã được ghép. Mọi thứ khác mà sản phẩm
+Có mười loại: lượt đặt **được tạo**, **thay đổi** hoặc **bị hủy**; ca dọn **được giao** cho bạn hoặc
+**đã hoàn tất**; ticket **được mở**, **được giao** cho bạn hoặc **đã xong**; **kênh đã kết nối**,
+cho biết kênh, bất động sản và số phòng đã được ghép; và **yêu cầu từ khách** gửi qua
+[sổ tay hướng dẫn](/vi/setup/guidebook/#khi-khách-yêu-cầu-dịch-vụ-bán-thêm), cho biết khách, dịch vụ,
+giá và phòng. Mọi thứ khác mà sản phẩm
 biết đều nằm trên màn hình của nó chứ không nằm trong chuông, và đó là chủ ý — một danh sách thông
 báo kể những chuyện bạn không xử lý được sẽ không còn ai đọc.
 

@@ -2,7 +2,7 @@
 title: Đội ngũ và vai trò
 description: Mời co-host, quản lý và nhân viên dọn phòng, rồi trao cho mỗi người đúng phần workspace họ cần.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 **Cài đặt → Đội ngũ**. Lời mời được gửi qua email dưới dạng liên kết. Nếu người nhận chưa có tài khoản,

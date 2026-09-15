@@ -2,7 +2,7 @@
 title: Mẫu tin nhắn
 description: Những câu trả lời bạn hay gửi, viết một lần, với thông tin của khách tự điền vào.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 **Cài đặt → Mẫu tin nhắn**. Một mẫu là câu trả lời bạn hay gửi, với **biến** tự điền từ lượt lưu trú —

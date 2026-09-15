@@ -2,7 +2,7 @@
 title: Data dan privasi Anda
 description: Apa yang disimpan Santara AI, siapa di dalam workspace Anda yang bisa melihatnya, apa yang keluar, cara mengeluarkannya, dan apa yang terjadi saat Anda menghapus sesuatu.
 sidebar:
-  order: 9
+  order: 10
 ---
 
 Anda memasukkan data tamu ke perangkat lunak milik orang lain. Halaman ini adalah jawaban

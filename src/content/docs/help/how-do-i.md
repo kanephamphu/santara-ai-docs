@@ -109,6 +109,10 @@ than in general.
 | Give one room a different door code | Set it on the room; the room wins over the building |
 | Delete a property | [Moving, duplicating and deleting](/setup/properties/#moving-duplicating-and-deleting) — disconnect its listings first |
 | Refresh photos and details from the channel | [Syncing from the channel](/setup/properties/#syncing-from-the-channel) |
+| Put a QR code in each room with the Wi-Fi and house info | [Guest guidebook and QR stickers](/setup/guidebook/) — then [Printing](/setup/guidebook/#printing) |
+| Let a guest see the door code without messaging it | [How a guest confirms their booking](/setup/guidebook/#how-a-guest-confirms-their-booking) |
+| Stop a lost or photographed sticker from working | [Replace its code](/setup/guidebook/#qr-stickers) |
+| Recommend restaurants and sights near the property | [Local places](/setup/guidebook/#local-places) — AI can draft them |
 
 ## Direct bookings
 

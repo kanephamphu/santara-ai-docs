@@ -14,6 +14,15 @@ tanggal **Terakhir diperbarui** di bagian bawah, yang merupakan jawaban lebih ri
 
 ## September 2026
 
+### Buku panduan tamu di balik stiker QR
+
+Cetak stiker QR untuk setiap kamar. Tamu memindainya untuk melihat jam check-in, Wi-Fi, aturan rumah,
+fasilitas, rekomendasi tempat sekitar, dan peta — dalam bahasa Inggris, Indonesia, atau Vietnam — lalu,
+setelah mengonfirmasi kode pemesanan dan nama belakang, kode pintu dan kata sandi Wi-Fi. Dari halaman
+yang sama mereka bisa meminta check-in lebih awal, check-out lebih lambat, atau tambah malam, dan
+permintaannya masuk ke Upsell dengan status diterima. AI bisa menyusun draf tempat sekitar untuk Anda
+periksa dan publikasikan. Lihat [Buku panduan tamu dan stiker QR](/id/setup/guidebook/).
+
 ### Pesan tamu dalam bahasa Anda
 
 Tamu yang menulis dalam bahasa Jerman, Korea, atau Prancis kini terbaca oleh Anda dalam bahasa

@@ -109,6 +109,10 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Memberi satu kamar kode pintu berbeda | Atur di kamarnya; kamar mengalahkan bangunan |
 | Menghapus sebuah properti | [Memindahkan, menggandakan, menghapus](/id/setup/properties/#memindahkan-menggandakan-menghapus) — putuskan listing-nya dulu |
 | Menyegarkan foto dan detail dari channel | [Menyinkronkan dari channel](/id/setup/properties/#menyinkronkan-dari-channel) |
+| Menaruh kode QR di setiap kamar berisi Wi-Fi dan info properti | [Buku panduan tamu dan stiker QR](/id/setup/guidebook/) — lalu [Mencetak](/id/setup/guidebook/#mencetak) |
+| Membiarkan tamu melihat kode pintu tanpa mengirimkannya | [Cara tamu mengonfirmasi pemesanan](/id/setup/guidebook/#cara-tamu-mengonfirmasi-pemesanan) |
+| Menghentikan stiker yang hilang atau difoto orang | [Ganti kodenya](/id/setup/guidebook/#stiker-qr) |
+| Merekomendasikan restoran dan tempat wisata di sekitar properti | [Tempat sekitar](/id/setup/guidebook/#tempat-sekitar) — AI bisa membuat drafnya |
 
 ## Booking langsung
 

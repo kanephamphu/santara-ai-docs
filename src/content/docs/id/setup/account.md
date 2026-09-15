@@ -2,7 +2,7 @@
 title: Akun dan keamanan Anda
 description: Pengaturan yang milik Anda, bukan milik workspace — nama, bahasa, zona waktu, kata sandi — dan apa yang dilakukan kalau tidak bisa masuk.
 sidebar:
-  order: 8
+  order: 9
 ---
 
 Hampir semua hal di Santara AI milik sebuah **workspace**. Dua hal tidak: akun dan keamanan Anda.

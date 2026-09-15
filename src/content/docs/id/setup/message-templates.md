@@ -2,7 +2,7 @@
 title: Template pesan
 description: Balasan yang sering Anda kirim, ditulis sekali, dengan detail tamu terisi sendiri.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 **Pengaturan → Template Pesan**. Template adalah balasan yang sering Anda kirim, dengan **variabel**

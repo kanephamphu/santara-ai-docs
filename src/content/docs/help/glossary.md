@@ -26,6 +26,10 @@ workspace in the workspace's language.
 **Go live** — the deliberate action that hands a listing's calendar control to Santara AI. See
 [Going live](/channels/going-live/).
 
+**Guidebook** — the page a guest opens from the QR sticker in their room: house info, local places
+and extras for anyone, the door code only for a guest who has confirmed their booking. See
+[Guest guidebook and QR stickers](/setup/guidebook/).
+
 **Gross** — what the guest paid, including the channel's commission.
 
 **Listing** — one thing on a channel, mapped one-to-one to a Santara AI room.

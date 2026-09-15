@@ -2,7 +2,7 @@
 title: Tài khoản và bảo mật của bạn
 description: Những cài đặt thuộc về bạn chứ không thuộc về workspace — tên, ngôn ngữ, múi giờ, mật khẩu — và phải làm gì khi không vào được.
 sidebar:
-  order: 8
+  order: 9
 ---
 
 Hầu như mọi thứ trong Santara AI đều thuộc về một **workspace**. Hai thứ thì không: tài khoản và bảo

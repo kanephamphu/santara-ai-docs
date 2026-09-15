@@ -109,6 +109,10 @@ không phải câu trả lời chung chung.
 | Cho một phòng mã cửa khác | Đặt ở phòng đó; phòng thắng tòa nhà |
 | Xóa một bất động sản | [Di chuyển, nhân bản, xóa](/vi/setup/properties/#di-chuyển-nhân-bản-xóa) — ngắt listing của nó trước |
 | Làm mới ảnh và thông tin từ kênh | [Đồng bộ từ kênh](/vi/setup/properties/#đồng-bộ-từ-kênh) |
+| Dán mã QR trong mỗi phòng có Wi-Fi và thông tin chỗ ở | [Sổ tay hướng dẫn và mã QR dán phòng](/vi/setup/guidebook/) — rồi [In nhãn](/vi/setup/guidebook/#in-nhãn) |
+| Cho khách xem mã cửa mà không phải nhắn tin | [Khách xác nhận đặt phòng thế nào](/vi/setup/guidebook/#khách-xác-nhận-đặt-phòng-thế-nào) |
+| Vô hiệu một nhãn bị mất hoặc bị chụp lại | [Đổi mã](/vi/setup/guidebook/#mã-qr-dán-phòng) |
+| Gợi ý nhà hàng và điểm tham quan gần chỗ ở | [Địa điểm gợi ý](/vi/setup/guidebook/#địa-điểm-gợi-ý) — AI có thể soạn nháp |
 
 ## Đặt phòng trực tiếp
 

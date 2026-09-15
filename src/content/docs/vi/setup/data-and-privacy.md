@@ -2,7 +2,7 @@
 title: Dữ liệu và quyền riêng tư của bạn
 description: Santara AI lưu gì, ai trong workspace của bạn xem được, cái gì đi ra ngoài, cách lấy dữ liệu về, và điều gì xảy ra khi bạn xóa thứ gì đó.
 sidebar:
-  order: 9
+  order: 10
 ---
 
 Bạn đang đưa thông tin khách của mình vào phần mềm của người khác. Trang này là câu trả lời vận hành

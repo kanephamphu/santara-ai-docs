@@ -25,6 +25,10 @@ workspace bằng ngôn ngữ của workspace.
 **Go live** — hành động có chủ ý trao quyền kiểm soát lịch của một listing cho Santara AI. Xem
 [Go live](/vi/channels/going-live/).
 
+**Sổ tay hướng dẫn** — trang khách mở từ nhãn QR trong phòng: thông tin chỗ ở, địa điểm gợi ý và dịch vụ
+bán thêm cho bất kỳ ai; mã cửa chỉ cho khách đã xác nhận đặt phòng. Xem
+[Sổ tay hướng dẫn và mã QR dán phòng](/vi/setup/guidebook/).
+
 **Tổng thu** — số khách trả, gồm cả hoa hồng kênh.
 
 **Listing** — một mục trên kênh, ánh xạ một-một tới một phòng Santara AI.

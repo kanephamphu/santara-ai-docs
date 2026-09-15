@@ -2,7 +2,7 @@
 title: Your data and privacy
 description: What Santara AI holds, who inside your workspace can see it, what leaves it, how to get it out, and what happens when you delete something.
 sidebar:
-  order: 9
+  order: 10
 ---
 
 You are putting your guests' details into somebody else's software. This page is the operational

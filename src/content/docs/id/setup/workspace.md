@@ -2,7 +2,7 @@
 title: Pengaturan workspace
 description: Bahasa, zona waktu, mata uang, notifikasi, template pesan — hal-hal yang diatur sekali.
 sidebar:
-  order: 7
+  order: 8
 ---
 
 **Pengaturan** adalah satu halaman dengan tab, dan setiap tab di sana milik **workspace** yang
@@ -84,9 +84,11 @@ Lonceng di header. Notifikasi dialamatkan berdasarkan **siapa yang bisa menindak
 berdasarkan nama — karena itulah manajer yang ditambahkan bulan depan langsung menerima yang memang
 ditujukan bagi perannya.
 
-Ada sembilan jenis: booking **dibuat**, **berubah**, atau **dibatalkan**; pembersihan **ditugaskan**
-kepada Anda atau **selesai**; tiket **dibuka**, **ditugaskan** kepada Anda, atau **selesai**; dan
-**channel terhubung**, yang menyebut channel, properti, dan berapa kamar yang dipetakan. Hal
+Ada sepuluh jenis: booking **dibuat**, **berubah**, atau **dibatalkan**; pembersihan **ditugaskan**
+kepada Anda atau **selesai**; tiket **dibuka**, **ditugaskan** kepada Anda, atau **selesai**;
+**channel terhubung**, yang menyebut channel, properti, dan berapa kamar yang dipetakan; dan
+**permintaan tamu** dari [buku panduan tamu](/id/setup/guidebook/#saat-tamu-meminta-layanan-tambahan),
+yang menyebut tamu, layanan, harga, dan kamarnya. Hal
 lain yang diketahui produk tinggal di layarnya masing-masing, dan itu disengaja — daftar notifikasi
 yang melaporkan hal yang tidak bisa Anda tindaklanjuti akan berhenti dibaca.
 

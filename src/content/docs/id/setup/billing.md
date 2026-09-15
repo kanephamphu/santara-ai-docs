@@ -2,7 +2,7 @@
 title: Paket dan penagihan
 description: Uji coba 7 hari dengan batas tiga listing, dua tingkat, harga per listing yang turun seiring pertumbuhan, dan tanpa komisi atas booking mana pun.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 **Pengaturan → Tagihan**. Angka di layar itu otoritatif untuk workspace Anda — halaman ini

@@ -2,7 +2,7 @@
 title: Gói và thanh toán
 description: Bản dùng thử 7 ngày với giới hạn ba listing, hai bậc, giá theo listing giảm dần khi bạn lớn lên, và không hoa hồng trên bất kỳ lượt đặt nào.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 **Cài đặt → Thanh toán**. Các con số trên màn hình đó là căn cứ chính thức cho workspace của bạn —

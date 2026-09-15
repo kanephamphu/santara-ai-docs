@@ -2,7 +2,7 @@
 title: Your account and security
 description: The settings that belong to you rather than to a workspace — name, language, timezone, password — and what to do when you cannot get in.
 sidebar:
-  order: 8
+  order: 9
 ---
 
 Almost everything in Santara AI belongs to a **workspace**. Two things do not: your account and your

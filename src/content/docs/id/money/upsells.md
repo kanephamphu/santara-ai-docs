@@ -50,6 +50,14 @@ Santara AI tidak mengubah reservasi diam-diam atas nama Anda.
 - Di [Laporan](/id/money/reports/) — laporan upsell yang memeringkat tawaran terbuka, terlewat, dan
   diterima.
 
+## Saat tamu meminta lebih dulu
+
+Tamu yang sudah mengonfirmasi pemesanannya di [buku panduan tamu](/id/setup/guidebook/) bisa meminta
+check-in lebih awal, check-out lebih lambat, atau tambah satu malam sendiri, dari stiker QR di
+kamarnya. Permintaan masuk ke sini dengan status **Diterima**, pada harga yang ditampilkan buku panduan,
+dan tim mendapat notifikasi. Permintaan itu sudah lolos pemeriksaan kalender yang sama dengan tawaran
+yang terdeteksi, tetapi pemesanan tidak berubah sampai Anda menyesuaikan masa inapnya.
+
 ## Tidak ada yang dikirim otomatis
 
 Setiap tawaran adalah draf. Anda yang mengirim. Tamu yang menerima tawaran otomatis untuk malam yang

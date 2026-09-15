@@ -2,7 +2,7 @@
 title: Workspace settings
 description: Language, timezone, currency, notifications, message templates — the things you set once.
 sidebar:
-  order: 7
+  order: 8
 ---
 
 **Settings** is one page with tabs, and every tab on it belongs to the **workspace** everyone
@@ -83,9 +83,11 @@ The bell in the header. Notifications are addressed by **who can act on them** r
 which is why a manager added next month immediately receives the ones that were always meant for
 their role — nothing has to be re-pointed at them.
 
-There are nine kinds: a booking **created**, **changed** or **cancelled**; a clean **assigned** to
-you or **finished**; a ticket **opened**, **assigned** to you or **done**; and a **channel
-connected**, which names the channel, the property and how many rooms were mapped. Everything else the
+There are ten kinds: a booking **created**, **changed** or **cancelled**; a clean **assigned** to
+you or **finished**; a ticket **opened**, **assigned** to you or **done**; a **channel
+connected**, which names the channel, the property and how many rooms were mapped; and a **guest
+request** from the [guest guidebook](/setup/guidebook/#when-a-guest-asks-for-an-extra), which names
+the guest, the extra, its price and the room. Everything else the
 product knows lives on a screen rather than in the bell, on purpose — a notification list that
 reports things you cannot act on stops being read.
 

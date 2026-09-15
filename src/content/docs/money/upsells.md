@@ -50,6 +50,14 @@ Santara AI does not silently modify a reservation on your behalf.
 - In [Reports](/money/reports/) — an upsell report ranking open, missed and accepted offers, and
   which offer types earn most per property.
 
+## When the guest asks first
+
+A guest who has confirmed their booking in the [guest guidebook](/setup/guidebook/) can request an
+early check-in, a late checkout or one more night themselves, from the QR sticker in their room. The
+request lands here already **Accepted**, at the price the guidebook showed them, and the team is
+notified. It passed the same calendar check as a detected offer, but nothing on the booking changes
+until you adjust the stay.
+
 ## Nothing is sent automatically
 
 Every offer is a draft. You send it. A guest who receives an automated offer for a night that was

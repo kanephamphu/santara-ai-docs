@@ -25,6 +25,10 @@ workspace dalam bahasa workspace.
 **Go live** — tindakan sengaja yang menyerahkan kendali kalender sebuah listing ke Santara AI. Lihat
 [Go live](/id/channels/going-live/).
 
+**Buku panduan** — halaman yang dibuka tamu dari stiker QR di kamarnya: info properti, tempat sekitar,
+dan layanan tambahan untuk siapa saja; kode pintu hanya untuk tamu yang sudah mengonfirmasi pemesanan.
+Lihat [Buku panduan tamu dan stiker QR](/id/setup/guidebook/).
+
 **Gross** — yang dibayar tamu, termasuk komisi channel.
 
 **Listing** — satu objek di channel, dipetakan satu-ke-satu ke kamar Santara AI.

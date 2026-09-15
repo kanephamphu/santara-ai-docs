@@ -2,7 +2,7 @@
 title: Message templates
 description: The replies you send often, written once, with the guest's own details filled in.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 **Settings → Message Templates**. A template is a reply you send often, with **variables** that
