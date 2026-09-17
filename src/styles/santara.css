@@ -429,13 +429,23 @@ header.header {
   box-shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 12px 28px rgb(0 0 0 / 0.3);
 }
 
-/* Phone screenshots: phone-sized, centred, caption under them. */
-.sl-markdown-content .screenshot.phone .shot {
-  max-width: 18rem;
+/*
+ * Phone screenshots: compact, centred, with the caption constrained to the same width.
+ * The :has() selectors make this work immediately in the dev server even when Astro has cached
+ * the rehype output from before the `phone` class was added; a restart is no longer required.
+ */
+.sl-markdown-content .screenshot.phone,
+.sl-markdown-content .screenshot:has(img[src^="/screens/en/"]),
+.sl-markdown-content .screenshot:has(img[src^="/screens/id/"]),
+.sl-markdown-content .screenshot:has(img[src^="/screens/vi/"]) {
+  width: min(100%, 13rem);
   margin-inline: auto;
 }
 
-.sl-markdown-content .screenshot.phone figcaption {
+.sl-markdown-content .screenshot.phone figcaption,
+.sl-markdown-content .screenshot:has(img[src^="/screens/en/"]) figcaption,
+.sl-markdown-content .screenshot:has(img[src^="/screens/id/"]) figcaption,
+.sl-markdown-content .screenshot:has(img[src^="/screens/vi/"]) figcaption {
   text-align: center;
 }
 
