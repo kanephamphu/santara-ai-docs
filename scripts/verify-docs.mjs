@@ -19,7 +19,7 @@
  */
 
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
-import { join, relative } from "node:path";
+import { basename, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = fileURLToPath(new URL("../src/content/docs/", import.meta.url));
@@ -39,6 +39,23 @@ function slug(text) {
     .replace(/\s+/g, "-");
 }
 
+/** Generate the unique IDs Starlight gives repeated headings: "example", "example-1", etc. */
+function headingIds(source) {
+  const used = new Set();
+
+  for (const [, rawHeading] of source.matchAll(/^#{2,6}[ \t]+(.+?)[ \t]*$/gm)) {
+    // CommonMark permits optional closing hashes when whitespace separates them from the title.
+    const heading = rawHeading.replace(/[ \t]+#+[ \t]*$/, "");
+    const base = slug(heading);
+    let id = base;
+    let duplicate = 0;
+    while (used.has(id)) id = `${base}-${++duplicate}`;
+    used.add(id);
+  }
+
+  return used;
+}
+
 function walk(dir) {
   return readdirSync(dir).flatMap((entry) => {
     const full = join(dir, entry);
@@ -52,13 +69,14 @@ const files = walk(ROOT).map((full) => {
   const locale = LOCALES.includes(parts[0]) ? parts[0] : "en";
   const localeless = locale === "en" ? rel : parts.slice(1).join("/");
   const source = readFileSync(full, "utf8");
-  const front = /^---\r?\n([\s\S]*?)\r?\n---/.exec(source)?.[1] ?? "";
+  const frontMatch = /^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/.exec(source);
+  const front = frontMatch?.[1] ?? "";
   return {
     rel,
     locale,
     localeless,
-    source,
     front,
+    body: source.slice(frontMatch?.[0].length ?? 0),
     // "start/index" is served at /start/, "index" at /.
     url: `/${[locale === "en" ? "" : locale, localeless.replace(/(^|\/)index$/, "")]
       .filter(Boolean)
@@ -67,48 +85,73 @@ const files = walk(ROOT).map((full) => {
 });
 
 const problems = [];
-const urls = new Map(
-  files.map((file) => [
-    file.url.endsWith("/") ? file.url : `${file.url}/`,
-    new Set(
-      [...file.source.slice(file.front.length).matchAll(/^#{2,4}\s+(.+?)\s*$/gm)].map(
-        ([, heading]) => slug(heading),
-      ),
-    ),
-  ]),
-);
+const urls = new Map();
+for (const file of files) {
+  const route = file.url.endsWith("/") ? file.url : `${file.url}/`;
+  if (urls.has(route)) problems.push(`${file.rel}: duplicate route ${route}`);
+  urls.set(route, headingIds(file.body));
+}
 
 // 1 + 2. Links and their anchors
 for (const file of files) {
-  const body = file.source.slice(file.front.length);
-  for (const [, href, hash] of body.matchAll(/\]\((\/[^)#\s]*)(#[^)\s]*)?\)/g)) {
+  for (const [, target] of file.body.matchAll(/\]\(((?:\/|#)[^)\s]*)\)/g)) {
+    const hashAt = target.indexOf("#");
+    const href = hashAt === -1 ? target : target.slice(0, hashAt);
+    const hash = hashAt === -1 ? "" : target.slice(hashAt + 1);
+
     // .svg, .jpg, .png are images — the diagram rules below check those, and they are not page routes.
-    if (href.endsWith(".txt") || href.endsWith(".md") || href.endsWith(".svg") || href.endsWith(".jpg") || href.endsWith(".png")) continue;
-    const normalized = href.endsWith("/") ? href : `${href}/`;
+    if (/\.(?:txt|md|svg|jpe?g|png|webp|gif|avif)$/i.test(href)) continue;
+    const normalized = href
+      ? href.endsWith("/")
+        ? href
+        : `${href}/`
+      : file.url.endsWith("/")
+        ? file.url
+        : `${file.url}/`;
     const headings = urls.get(normalized);
     if (!headings) {
-      problems.push(`${file.rel}: dead link ${href}`);
+      problems.push(`${file.rel}: dead link ${target}`);
       continue;
     }
-    if (hash && !headings.has(decodeURIComponent(hash.slice(1)))) {
-      problems.push(`${file.rel}: dead anchor ${href}${hash}`);
+
+    const firstSegment = normalized.split("/")[1];
+    const targetLocale = LOCALES.includes(firstSegment) ? firstSegment : "en";
+    if (targetLocale !== file.locale) {
+      problems.push(`${file.rel}: link ${target} points to the ${targetLocale} locale`);
+    }
+
+    if (hash) {
+      let decodedHash;
+      try {
+        decodedHash = decodeURIComponent(hash);
+      } catch {
+        problems.push(`${file.rel}: malformed anchor ${target}`);
+        continue;
+      }
+      if (!headings.has(decodedHash)) problems.push(`${file.rel}: dead anchor ${target}`);
     }
   }
 }
 
 // 3. Translations
 const english = files.filter((file) => file.locale === "en");
+const englishPaths = new Set(english.map((file) => file.localeless));
 for (const locale of LOCALES) {
-  const have = new Set(files.filter((file) => file.locale === locale).map((file) => file.localeless));
+  const translated = files.filter((file) => file.locale === locale);
+  const have = new Set(translated.map((file) => file.localeless));
   for (const page of english) {
     if (!have.has(page.localeless)) problems.push(`${locale}: missing translation of ${page.localeless}`);
+  }
+  for (const page of translated) {
+    if (!englishPaths.has(page.localeless)) {
+      problems.push(`${locale}: translation has no English source for ${page.localeless}`);
+    }
   }
 }
 
 // 4. Diagrams — the right locale, present on disk, and never without alt text
 for (const file of files) {
-  const body = file.source.slice(file.front.length);
-  for (const [, alt, src] of body.matchAll(/!\[([^\]]*)\]\((\/diagrams\/[^)\s]+)\)/g)) {
+  for (const [, alt, src] of file.body.matchAll(/!\[([^\]]*)\]\((\/diagrams\/[^)\s]+)\)/g)) {
     if (!alt.trim()) problems.push(`${file.rel}: diagram ${src} has no alt text`);
 
     // Diagrams carry words, so each is generated per locale (scripts/build-diagrams.mjs) and the
@@ -127,18 +170,18 @@ for (const file of files) {
 
 // 4b. Screenshots — present, captioned, and captured in this page's own language
 for (const file of files) {
-  const body = file.source.slice(file.front.length);
-  for (const [, alt, src] of body.matchAll(/!\[([^\]]*)\]\((\/screens\/[^)\s]+)\)/g)) {
+  for (const [, alt, src] of file.body.matchAll(/!\[([^\]]*)\]\((\/screens\/[^)\s]+)\)/g)) {
     if (!alt.trim()) problems.push(`${file.rel}: screenshot ${src} has no alt text`);
 
     // Same rule as the diagrams, and for a stronger reason: the product itself is translated,
     // so an English screenshot on a Vietnamese page shows the reader an interface they will not
     // see. It renders perfectly and teaches the wrong thing.
-    let suffixMatch = /_(en|id|vn)(?:_|\.)/i.exec(src);
-    let suffix = suffixMatch ? suffixMatch[1].toLowerCase() : null;
-    if (suffix === "vn") suffix = "vi";
+    // Screenshots use both "name.en.png" and legacy "name_en.jpg" naming. Older Vietnamese
+    // captures use "vn", which is an alias for the site's canonical "vi" locale.
+    const suffix = /(?:_|\.)(en|id|vi|vn)(?=[_.])/i.exec(basename(src))?.[1].toLowerCase() ?? null;
+    const screenshotLocale = suffix === "vn" ? "vi" : suffix;
 
-    if (suffix !== file.locale) {
+    if (screenshotLocale !== file.locale) {
       problems.push(`${file.rel}: screenshot ${src} is not the ${file.locale} capture`);
     }
     if (!existsSync(join(SCREENS, src.replace("/screens/", "")))) {
