@@ -173,6 +173,13 @@ export function rehypeFigures() {
           // No callouts for this screenshot, which is the common case.
         }
 
+        // The localized subdirectories contain the mobile-app captures. Their source files are
+        // high-resolution phone screenshots, so rendering them at the article column's full width
+        // makes each image several screens tall. Guest-facing web shots retain the explicit
+        // "-phone" suffix used by the original capture pipeline.
+        const isPhone =
+          /^\/screens\/(?:en|id|vi)\//i.test(src) || /-phone\.(?:en|id|vi)\.png$/i.test(src);
+
         parent.children![index] = {
           type: "element",
           tagName: "figure",
@@ -181,7 +188,7 @@ export function rehypeFigures() {
             className: [
               "screenshot",
               ...(overlay ? ["annotated"] : []),
-              ...(/-phone\.[a-z]{2}\.png$/.test(src) ? ["phone"] : []),
+              ...(isPhone ? ["phone"] : []),
             ],
           },
           children: [
