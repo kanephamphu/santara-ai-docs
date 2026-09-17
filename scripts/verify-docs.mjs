@@ -47,8 +47,8 @@ function walk(dir) {
 }
 
 const files = walk(ROOT).map((full) => {
-  const rel = relative(ROOT, full).replace(/\.mdx?$/, "");
-  const parts = rel.split(/\/|\\/);
+  const rel = relative(ROOT, full).replace(/\.mdx?$/, "").replace(/\\/g, "/");
+  const parts = rel.split("/");
   const locale = LOCALES.includes(parts[0]) ? parts[0] : "en";
   const localeless = locale === "en" ? rel : parts.slice(1).join("/");
   const source = readFileSync(full, "utf8");
@@ -134,7 +134,10 @@ for (const file of files) {
     // Same rule as the diagrams, and for a stronger reason: the product itself is translated,
     // so an English screenshot on a Vietnamese page shows the reader an interface they will not
     // see. It renders perfectly and teaches the wrong thing.
-    const suffix = /\.([a-z]{2})\.png$/.exec(src)?.[1];
+    let suffixMatch = /_(en|id|vn)(?:_|\.)/i.exec(src);
+    let suffix = suffixMatch ? suffixMatch[1].toLowerCase() : null;
+    if (suffix === "vn") suffix = "vi";
+
     if (suffix !== file.locale) {
       problems.push(`${file.rel}: screenshot ${src} is not the ${file.locale} capture`);
     }
