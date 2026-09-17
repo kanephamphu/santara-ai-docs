@@ -112,6 +112,11 @@ export default defineConfig({
           autogenerate: { directory: "setup" },
         },
         {
+          label: "Mobile App Guide",
+          translations: { id: "Panduan Aplikasi Mobile", vi: "Hướng dẫn dùng App" },
+          autogenerate: { directory: "mobile" },
+        },
+        {
           label: "Help",
           translations: { id: "Bantuan", vi: "Trợ giúp" },
           autogenerate: { directory: "help" },
