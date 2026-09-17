@@ -23,8 +23,9 @@
  */
 
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 
-const OUT = new URL("../public/diagrams/", import.meta.url).pathname;
+const OUT = fileURLToPath(new URL("../public/diagrams/", import.meta.url));
 const LOCALES = ["en", "id", "vi"];
 
 // ── tokens ──────────────────────────────────────────────────────────────────────────────────

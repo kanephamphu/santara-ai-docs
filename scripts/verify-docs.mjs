@@ -20,10 +20,11 @@
 
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const ROOT = new URL("../src/content/docs/", import.meta.url).pathname;
-const DIAGRAMS = new URL("../public/diagrams/", import.meta.url).pathname;
-const SCREENS = new URL("../public/screens/", import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL("../src/content/docs/", import.meta.url));
+const DIAGRAMS = fileURLToPath(new URL("../public/diagrams/", import.meta.url));
+const SCREENS = fileURLToPath(new URL("../public/screens/", import.meta.url));
 const LOCALES = ["id", "vi"];
 
 /** github-slugger's rules, for the subset of punctuation these pages actually use. */
@@ -47,7 +48,7 @@ function walk(dir) {
 
 const files = walk(ROOT).map((full) => {
   const rel = relative(ROOT, full).replace(/\.mdx?$/, "");
-  const parts = rel.split("/");
+  const parts = rel.split(/\/|\\/);
   const locale = LOCALES.includes(parts[0]) ? parts[0] : "en";
   const localeless = locale === "en" ? rel : parts.slice(1).join("/");
   const source = readFileSync(full, "utf8");
@@ -81,9 +82,8 @@ const urls = new Map(
 for (const file of files) {
   const body = file.source.slice(file.front.length);
   for (const [, href, hash] of body.matchAll(/\]\((\/[^)#\s]*)(#[^)\s]*)?\)/g)) {
-    // Files, not page routes: .md/.txt are the machine-readable mirrors, and .svg/.png are
-    // figures — the diagram and screenshot rules below check those on their own terms.
-    if (/\.(txt|md|svg|png)$/.test(href)) continue;
+    // .svg, .jpg, .png are images — the diagram rules below check those, and they are not page routes.
+    if (href.endsWith(".txt") || href.endsWith(".md") || href.endsWith(".svg") || href.endsWith(".jpg") || href.endsWith(".png")) continue;
     const normalized = href.endsWith("/") ? href : `${href}/`;
     const headings = urls.get(normalized);
     if (!headings) {
