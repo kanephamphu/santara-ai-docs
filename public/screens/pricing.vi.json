@@ -1,0 +1,22 @@
+{
+  "width": 1440,
+  "height": 820,
+  "boxes": [
+    {
+      "x": 992.75,
+      "y": 214,
+      "width": 254.078125,
+      "height": 56,
+      "label": "Sao chép trước khi sửa được",
+      "side": "left"
+    },
+    {
+      "x": 282,
+      "y": 351,
+      "width": 1132,
+      "height": 445.5,
+      "label": "×1,85 = cao hơn giá cơ sở 85%",
+      "side": "right"
+    }
+  ]
+}

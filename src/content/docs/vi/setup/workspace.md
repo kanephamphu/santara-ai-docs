@@ -2,16 +2,16 @@
 title: Cài đặt workspace
 description: Ngôn ngữ, múi giờ, tiền tệ, thông báo, mẫu tin nhắn — những thứ bạn đặt một lần.
 sidebar:
-  order: 5
+  order: 8
 ---
 
-**Cài đặt** là một trang với nhiều tab. Hai tab thuộc về **bạn** và đi theo bạn giữa các workspace;
-phần còn lại thuộc về workspace mà mọi người dùng chung.
+**Cài đặt** là một trang với nhiều tab, và mọi tab ở đó đều thuộc về **workspace** mà cả nhóm dùng
+chung. Tài khoản của riêng bạn cố ý không nằm trong số đó — nó ở sau menu tài khoản cuối thanh bên,
+vì đó là nơi người ta tìm mật khẩu của chính mình. Xem
+[Tài khoản và bảo mật của bạn](/vi/setup/account/).
 
 | Tab | Phạm vi |
 | --- | --- |
-| **Cá nhân** | Bạn — tên, ngôn ngữ, múi giờ |
-| **Bảo mật** | Bạn — mật khẩu và bảo vệ tài khoản |
 | **Workspace** | Dùng chung — tên, ngôn ngữ, múi giờ, tiền tệ |
 | **Website đặt phòng** | Dùng chung — [website đặt phòng của bạn](/vi/setup/booking-site/) |
 | **Kênh** | Dùng chung — [kết nối kênh](/vi/channels/) |
@@ -19,9 +19,11 @@ phần còn lại thuộc về workspace mà mọi người dùng chung.
 | **Đội ngũ** | Dùng chung — [người và vai trò](/vi/setup/team/) |
 | **Thanh toán** | Dùng chung — [gói và hóa đơn](/vi/setup/billing/) |
 
+![Cài đặt workspace: giờ và ngôn ngữ bản tóm tắt, múi giờ, tiền tệ và phần còn lại.](/screens/workspace-settings.vi.png)
+
 ## Ngôn ngữ
 
-Giao diện Santara có sẵn bằng **English, Bahasa Indonesia và Tiếng Việt**.
+Giao diện Santara AI có sẵn bằng **English, Bahasa Indonesia và Tiếng Việt**.
 
 - Cài đặt ngôn ngữ của **bạn** đổi giao diện cho bạn.
 - Ngôn ngữ của **workspace** quyết định [bản tóm tắt hằng ngày](/vi/daily/) được viết bằng ngôn ngữ
@@ -53,7 +55,22 @@ Tab workspace chứa những thiết lập thay đổi cách sản phẩm hoạt
 | **Giọng điệu tin nhắn mặc định** | Giọng mà bản nháp trả lời khách bắt đầu từ đó |
 | **Giá trị upsell tối thiểu** | Cơ hội thấp hơn mức này không được đưa lên, để dòng cơ hội còn đáng đọc |
 | **Mở Bản tóm tắt trước** | Khởi động ứng dụng ở bản tóm tắt thay vì bảng điều khiển |
+| **Cảnh báo khách đến trong ngày** | Gửi email cho nhóm khi có đặt phòng cho khách nhận phòng hôm nay — mặc định bật |
 | **Kênh thông báo** | Hiện tại là bảng điều khiển; email và SMS chưa nối |
+
+### Cảnh báo khách đến trong ngày
+
+Đặt phòng cho **hôm nay** là loại dễ trục trặc nhất: phòng có thể chưa kịp dọn. Khi một đặt phòng được
+tạo — hoặc bị hủy — cho khách nhận phòng hôm nay (theo múi giờ workspace), email được gửi ngay, dù đặt
+phòng đến từ kênh bán, website đặt phòng của bạn hay được nhập tay.
+
+- **Quản lý và co-host** nhận email khách đến (hoặc hủy) hôm nay, gồm thông tin lưu trú, liên hệ của
+  khách, số tiền và khung giờ dọn phòng. Nếu ca dọn sẽ xong muộn, email nói rõ và yêu cầu quyết định.
+- **Nhân viên dọn của phòng đó** nhận email dọn phòng hôm nay (hoặc báo hủy ca dọn) kèm phiếu công việc.
+- Người nhập đặt phòng không nhận email về đặt phòng của chính mình.
+
+Đổi ngày không gửi email; thay đổi đó hiện trong [chuông](#thông-báo). Chỉ chủ workspace hoặc admin mới
+tắt được cảnh báo này.
 
 Còn có **tên và ảnh đại diện** của workspace — logo hiển thị ở thanh bên và ở trình chuyển workspace,
 thứ khiến hai workspace không trông giống hệt nhau khi liếc qua.
@@ -63,8 +80,11 @@ thứ khiến hai workspace không trông giống hệt nhau khi liếc qua.
 Chiếc chuông trên thanh đầu trang. Thông báo được gửi theo **ai có thể xử lý** thay vì theo tên — nhờ
 vậy một quản lý được thêm vào tháng sau lập tức nhận đúng những thông báo vốn dành cho vai trò đó.
 
-Có tám loại: lượt đặt **được tạo**, **thay đổi** hoặc **bị hủy**; ca dọn **được giao** cho bạn hoặc
-**đã hoàn tất**; ticket **được mở**, **được giao** cho bạn hoặc **đã xong**. Mọi thứ khác mà sản phẩm
+Có mười loại: lượt đặt **được tạo**, **thay đổi** hoặc **bị hủy**; ca dọn **được giao** cho bạn hoặc
+**đã hoàn tất**; ticket **được mở**, **được giao** cho bạn hoặc **đã xong**; **kênh đã kết nối**,
+cho biết kênh, bất động sản và số phòng đã được ghép; và **yêu cầu từ khách** gửi qua
+[sổ tay hướng dẫn](/vi/setup/guidebook/#khi-khách-yêu-cầu-dịch-vụ-bán-thêm), cho biết khách, dịch vụ,
+giá và phòng. Mọi thứ khác mà sản phẩm
 biết đều nằm trên màn hình của nó chứ không nằm trong chuông, và đó là chủ ý — một danh sách thông
 báo kể những chuyện bạn không xử lý được sẽ không còn ai đọc.
 
@@ -75,11 +95,12 @@ bạn không nhận thông báo về chúng — chỉ về những gì xảy ra 
 
 ## Mẫu tin nhắn
 
-Câu trả lời đã lưu với chỗ điền tự lấy từ lượt lưu trú: tên khách, giờ nhận phòng, mật khẩu wifi, mã
-cửa, số tiền phải trả. Viết một lần cho mỗi ngôn ngữ bạn dùng, rồi dùng từ bất kỳ luồng nào trong
-[Tin nhắn](/vi/daily/messages/).
+Câu trả lời đã lưu với chỗ giữ tự điền từ lượt lưu trú — tên khách, giờ nhận phòng, mật khẩu wifi, mã
+cửa, số tiền phải trả. Dùng chung trong workspace, nên câu trả lời cả đội đã thống nhất là câu trả lời
+mọi người gửi.
 
-Mẫu được dùng chung trong workspace, nên câu trả lời cả đội đã thống nhất là câu trả lời mọi người gửi.
+Cách viết, xem trước với một lượt đặt có thật, và năm mẫu có sẵn:
+**[Mẫu tin nhắn](/vi/setup/message-templates/)**.
 
 ## Chuyển workspace
 

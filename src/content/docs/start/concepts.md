@@ -1,5 +1,5 @@
 ---
-title: How Santara is put together
+title: How Santara AI is put together
 description: Workspace, property, room, rate plan, listing, connection. Six words that explain every screen in the product.
 sidebar:
   order: 3
@@ -54,7 +54,7 @@ that number; they do not create new plans.
 A **connection** is one channel account you have linked — one Airbnb login, or one Booking.com
 property. You can have several, including several Airbnb accounts.
 
-A **listing** is one thing on that channel that maps to one Santara room. Mapping is one-to-one:
+A **listing** is one thing on that channel that maps to one Santara AI room. Mapping is one-to-one:
 this Airbnb listing is that room. When a listing is mapped and the channel is active, that room's
 availability and prices flow out, and its bookings and messages flow in.
 
@@ -84,7 +84,7 @@ is in without being able to open your estate. See [Team and roles](/setup/team/)
 
 ## Money words
 
-- **Revenue** in Santara means **net payout** — what the channel actually pays you, after its
+- **Revenue** in Santara AI means **net payout** — what the channel actually pays you, after its
   commission. It is labelled on screen wherever it is shown, because gross and payout differ by
   15% and mixing them up ruins a year of reporting.
 - **RevPAN** is revenue per available night: revenue divided by every night you had to sell.

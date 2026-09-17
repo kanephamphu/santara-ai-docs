@@ -2,16 +2,16 @@
 title: Mendapatkan bantuan
 description: Asisten, dukungan manusia, dan apa yang perlu disertakan agar balasan pertama langsung berguna.
 sidebar:
-  order: 5
+  order: 8
 ---
 
 ## Tiga tempat, berurutan
 
-1. **[Tanya Santara](/id/help/assistant/)** — di dalam produk, bisa membaca workspace Anda. Tercepat
+1. **[Tanya Santara AI](/id/help/assistant/)** — di dalam produk, bisa membaca workspace Anda. Tercepat
    untuk "apa status…" dan "kenapa listing ini belum live".
 2. **Dokumentasi ini** — setiap halaman juga tersedia sebagai
    [markdown](/id/help/for-ai-tools/).
-3. **Dukungan manusia** — dari panel yang sama dengan asisten, eskalasi ke tim Santara. Jika Anda
+3. **Dukungan manusia** — dari panel yang sama dengan asisten, eskalasi ke tim Santara AI. Jika Anda
    sudah berbicara dengan asisten, percakapan itu dibawa serta.
 
 ## Apa yang perlu disertakan

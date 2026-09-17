@@ -1,5 +1,5 @@
 ---
-title: Ask Santara
+title: Ask Santara AI
 description: The in-product assistant — what it can read, what it can do, and what it will never do on your behalf.
 sidebar:
   order: 1
@@ -13,6 +13,8 @@ questions about your actual business are fair:
 - *Why isn't the Airbnb listing for Unit 3 live?*
 - *Draft a reply to the guest asking about early check-in.*
 
+![Ask Santara AI, open over whatever screen you were on.](/screens/assistant.en.png)
+
 ## What it can see
 
 Your workspace, through the same permissions you have. It cannot see more than you can: a cleaner
@@ -23,11 +25,25 @@ session, not from anything you or it can type.
 
 ## What it can do
 
-It is **read-only, with one exception**: it can draft a reply to a guest. It cannot send the
-message, change a price, alter a booking, take a listing live, or move money.
+Mostly it **reads**. It can also do four things, and only after you confirm each one:
 
-The exception exists because drafting is the thing worth automating and sending is the thing worth
-keeping human.
+- **Draft a reply to a guest** — it drafts; you send.
+- **Assign a clean** to a cleaner, including one [without an account](/daily/tasks/#cleaners-without-an-account)
+  it adds by name.
+- **Assign a ticket** to a teammate.
+- **Change a ticket's status** — to do, in progress, done or cancelled.
+
+Before any change it shows a card, **Confirm before I do this**, with exactly what it is about to
+do. **Confirm** does it; **Don't** leaves everything as it was (**Not done — nothing was
+changed.**). It proposes one change at a time, and whoever it assigns is notified as if you had
+done it yourself. A card left too long expires — ask again and it re-checks first.
+
+It still cannot send a guest message, change a price, alter a booking, take a listing live, or move
+money. Drafting and routine assignments are worth automating; sending and money are worth keeping
+human.
+
+It acts with **your** permissions: if you cannot assign cleans or tickets on screen, it cannot
+either.
 
 ## Getting good answers
 
@@ -46,5 +62,5 @@ screen. The conversation goes with the message.
 
 ## Escalating to a person
 
-Support in the product is a real channel to the Santara team, separate from the assistant. If you
+Support in the product is a real channel to the Santara AI team, separate from the assistant. If you
 escalate, the assistant conversation is carried over so you do not repeat yourself.

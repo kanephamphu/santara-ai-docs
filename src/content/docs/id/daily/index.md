@@ -8,6 +8,8 @@ sidebar:
 **Hari ini** adalah layar bawaan. Ada dua bagian: **ringkasan harian**, yaitu hari itu ditulis dalam
 kalimat, dan kartu metrik di bawahnya, yaitu angkanya.
 
+![Hari ini. Ringkasan di atas menyampaikan apa yang butuh keputusan; kartu di bawahnya adalah angka di baliknya.](/screens/today.id.png)
+
 ## Ringkasan
 
 Ringkasan dibuat untuk workspace Anda setiap hari, pada **waktu** dan dalam **bahasa** yang Anda atur
@@ -35,7 +37,7 @@ skor penyelesaian — tidak ada yang disembunyikan setelahnya.
 berisi sorotan hari ini dan tautan ke ringkasan lengkap. Tiap channel mendapat teks yang ditulis
 untuknya, bukan satu paragraf yang ditempel tiga kali.
 
-Tautannya membuka ringkasan penuh di Santara, jadi penerima butuh akun dengan akses ke workspace ini.
+Tautannya membuka ringkasan penuh di Santara AI, jadi penerima butuh akun dengan akses ke workspace ini.
 Untuk petugas kebersihan yang tidak boleh melihat portofolio, bagikan **pesan klaster** saja: isinya
 hanya pekerjaan mereka.
 

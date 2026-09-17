@@ -2,10 +2,12 @@
 title: Upsell
 description: Trả phòng muộn, nhận phòng sớm và đêm tăng thêm, được tìm ra từ lịch và chào trước khi khách kịp nghĩ tới.
 sidebar:
-  order: 2
+  order: 3
 ---
 
-Upsell là một đêm hoặc một giờ bạn đã có, bán cho khách đang ở. Santara tìm ra chúng bằng cách đọc
+![Dòng cơ hội upsell: từng cơ hội kèm lượt lưu trú phía sau, giá trị của nó, và bản nháp tin nhắn để chào.](/screens/upsells.vi.png)
+
+Upsell là một đêm hoặc một giờ bạn đã có, bán cho khách đang ở. Santara AI tìm ra chúng bằng cách đọc
 lịch, không phải bằng cách đoán khách muốn gì.
 
 ## Nó tìm gì
@@ -38,13 +40,21 @@ Bạn kéo dài hoặc điều chỉnh lượt lưu trú trong [Đặt phòng](/
 [lịch](/vi/daily/calendar/). Các đêm được đóng ở mọi kênh như thường lệ, và doanh thu tăng thêm xuất
 hiện trong [Báo cáo](/vi/money/reports/).
 
-Santara không âm thầm sửa một lượt đặt thay bạn.
+Santara AI không âm thầm sửa một lượt đặt thay bạn.
 
 ## Lời chào còn xuất hiện ở đâu
 
 - Trong [bản tóm tắt hằng ngày](/vi/daily/) — cơ hội giá trị nhất cho khách hôm nay.
 - Trong [Tin nhắn](/vi/daily/messages/) — như một gợi ý trong luồng liên quan.
 - Trong [Báo cáo](/vi/money/reports/) — báo cáo upsell xếp hạng cơ hội đang mở, bị bỏ lỡ và đã chốt.
+
+## Khi khách hỏi trước
+
+Khách đã xác nhận đặt phòng trong [sổ tay hướng dẫn](/vi/setup/guidebook/) có thể tự yêu cầu nhận phòng
+sớm, trả phòng muộn hoặc ở thêm một đêm, từ nhãn QR trong phòng. Yêu cầu hiện ở đây với trạng thái
+**Đã chấp nhận**, đúng mức giá sổ tay đã hiện cho khách, và cả nhóm nhận thông báo. Yêu cầu đã qua cùng
+bước kiểm tra lịch như một cơ hội được phát hiện, nhưng đặt phòng không thay đổi cho tới khi bạn điều
+chỉnh kỳ lưu trú.
 
 ## Không gì được gửi tự động
 

@@ -2,11 +2,13 @@
 title: Đánh giá
 description: Đánh giá của khách từ mọi kênh ở một chỗ, phản hồi của bạn xuất bản thẳng trở lại, và bài đánh giá bạn viết về khách.
 sidebar:
-  order: 6
+  order: 8
 ---
 
 Mọi đánh giá khách để lại, từ mọi kênh đã kết nối, trong một danh sách — với những cái chưa được phản
 hồi nằm trên đầu.
+
+![Đánh giá từ mọi kênh, với số chưa được trả lời đếm ở phía trên.](/screens/reviews.vi.png)
 
 ## Phản hồi
 
@@ -18,7 +20,7 @@ Danh sách đưa những cái bạn chưa trả lời lên đầu, và đó là 
 
 ## Điểm số
 
-Các kênh chấm theo thang và tiêu chí khác nhau. Santara lưu chúng theo một dạng duy nhất, để 8,6 của
+Các kênh chấm theo thang và tiêu chí khác nhau. Santara AI lưu chúng theo một dạng duy nhất, để 8,6 của
 Booking.com và 4,3 của Airbnb có thể nằm chung một mức trung bình mà không cái nào âm thầm sai. Cái
 hiển thị cho bạn là thang của chính kênh đó, để khớp với extranet.
 
@@ -27,7 +29,7 @@ hiển thị cho bạn là thang của chính kênh đó, để khớp với ext
 
 ## Đánh giá khách (Airbnb)
 
-Airbnb cho phép chủ nhà đánh giá khách, và Santara có thể xuất bản bài đó giúp bạn từ lượt lưu trú.
+Airbnb cho phép chủ nhà đánh giá khách, và Santara AI có thể xuất bản bài đó giúp bạn từ lượt lưu trú.
 
 Nó có ba phần:
 

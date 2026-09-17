@@ -2,7 +2,7 @@
 title: Team and roles
 description: Invite co-hosts, managers and cleaners, and give each of them exactly the part of the workspace they need.
 sidebar:
-  order: 3
+  order: 6
 ---
 
 **Settings → Team**. Invitations are sent by email as a link. If the person has no account they
@@ -10,6 +10,8 @@ register first, then accept the invitation to join this workspace.
 
 One person can hold different roles in different workspaces. Their login is theirs; the access is
 per workspace.
+
+![The team screen: who is in the workspace, their role, and what they can reach.](/screens/team.en.png)
 
 ## The three roles
 
@@ -73,6 +75,7 @@ marked done, messages sent, tickets resolved — stays attributed to them in the
 
 ## Your own account
 
-**Settings → Personal** holds your name, language and timezone. **Settings → Security** holds your
-password and account protection. Both follow you between workspaces; they are not workspace
-settings. See [Workspace settings](/setup/workspace/) for what is shared.
+Your name, language, timezone and password are **yours**, not the workspace's, and they follow you
+between every workspace you belong to. They live behind the account menu at the foot of the
+sidebar rather than on the Settings tabs — see [Your account and security](/setup/account/). For
+what the workspace shares, see [Workspace settings](/setup/workspace/).

@@ -1,0 +1,14 @@
+{
+  "width": 1440,
+  "height": 900,
+  "boxes": [
+    {
+      "x": 195,
+      "y": 616.5,
+      "width": 588.328125,
+      "height": 58.390625,
+      "label": "Only the booking code — nothing else",
+      "side": "left"
+    }
+  ]
+}

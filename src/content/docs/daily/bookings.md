@@ -2,11 +2,13 @@
 title: Bookings
 description: The reservation feed as it arrives, and everything behind one stay — the guest, the money, the history.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 **Bookings** is the feed: every reservation across every channel, newest first, with the room,
 the dates, the channel and the value.
+
+![The reservation feed — every stay from every channel, newest first.](/screens/bookings.en.png)
 
 ## Opening a stay
 
@@ -48,7 +50,7 @@ their messages, their reviews, and a score summarising how they have been to hos
 are recognised across channels where the channel gives us enough to match on.
 
 Use it before replying to a complaint from someone on their fourth stay — the answer is usually
-different.
+different. See **[Guests](/daily/guests/)** for the score, the attention ordering and the trends.
 
 ## Money definitions
 
@@ -56,6 +58,6 @@ different.
 | --- | --- |
 | **Gross** | What the guest paid, including the channel's commission |
 | **Room revenue** | The accommodation portion, excluding fees |
-| **Payout / net** | What the channel pays you. This is what Santara means by **revenue** |
+| **Payout / net** | What the channel pays you. This is what Santara AI means by **revenue** |
 
 Every figure on screen is labelled with which one it is. See [Reports](/money/reports/).

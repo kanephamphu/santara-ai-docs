@@ -2,7 +2,7 @@
 title: Tim dan peran
 description: Undang co-host, manajer, dan petugas kebersihan, lalu berikan masing-masing bagian workspace yang mereka butuhkan.
 sidebar:
-  order: 3
+  order: 6
 ---
 
 **Pengaturan → Tim**. Undangan dikirim lewat email berupa tautan. Jika orangnya belum punya akun, ia
@@ -10,6 +10,8 @@ mendaftar dulu, lalu menerima undangan untuk bergabung ke workspace ini.
 
 Satu orang bisa memegang peran berbeda di workspace berbeda. Login-nya miliknya; aksesnya per
 workspace.
+
+![Layar tim: siapa yang ada di workspace, perannya, dan apa yang bisa mereka akses.](/screens/team.id.png)
 
 ## Tiga peran
 
@@ -74,6 +76,7 @@ Hapus dari tim dan aksesnya berakhir seketika di semua perangkat. Pekerjaan yang
 
 ## Akun Anda sendiri
 
-**Pengaturan → Personal** memuat nama, bahasa, dan zona waktu Anda. **Pengaturan → Keamanan** memuat
-kata sandi dan perlindungan akun. Keduanya mengikuti Anda antar workspace. Lihat
-[Pengaturan workspace](/id/setup/workspace/) untuk yang dibagi bersama.
+Nama, bahasa, zona waktu, dan kata sandi Anda adalah **milik Anda**, bukan milik workspace, dan
+mengikuti Anda di setiap workspace yang Anda ikuti. Semuanya ada di balik menu akun di bagian bawah
+bilah samping, bukan di tab Pengaturan — lihat [Akun dan keamanan Anda](/id/setup/account/). Untuk
+yang dibagi bersama workspace, lihat [Pengaturan workspace](/id/setup/workspace/).

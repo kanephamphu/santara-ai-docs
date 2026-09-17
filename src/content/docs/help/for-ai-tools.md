@@ -2,7 +2,7 @@
 title: Using these docs with AI tools
 description: Every page as clean markdown, plus llms.txt and llms-full.txt in all three languages.
 sidebar:
-  order: 2
+  order: 4
 ---
 
 This documentation is written in markdown and published as markdown. If you want to hand a page to
@@ -52,5 +52,5 @@ them correctly, because there is no navigation, no sidebar and no cookie banner 
 ## Asking about *your* workspace
 
 These docs describe the product. For questions about your own data — your bookings, your revenue,
-your listings — use [Ask Santara](/help/assistant/) inside the product. It has your workspace; a
+your listings — use [Ask Santara AI](/help/assistant/) inside the product. It has your workspace; a
 chatbot with this URL does not.

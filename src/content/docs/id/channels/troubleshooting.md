@@ -48,7 +48,7 @@ namanya, atau tautkan ke kamar yang sudah ada.
 
 ## Setelah live
 
-**Channel dan Santara berbeda soal sebuah tanggal.**
+**Channel dan Santara AI berbeda soal sebuah tanggal.**
 Tekan **Segarkan** pada koneksi. Jika tetap berbeda, catat tanggal dan kamarnya lalu
 [hubungi dukungan](/id/help/support/) — jangan memperbaiki di kedua sisi sekaligus.
 

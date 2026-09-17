@@ -7,8 +7,10 @@ sidebar:
 
 **Properti** adalah bangunan atau alamat. **Kamar** adalah unit yang bisa dipesan di dalamnya. Kamar
 adalah yang dipesan tamu, yang dipetakan channel, dan yang ditagihkan. Lihat
-[Bagaimana Santara disusun](/id/start/concepts/#properti-lalu-kamar) bila pembagian ini baru bagi
+[Bagaimana Santara AI disusun](/id/start/concepts/#properti-lalu-kamar) bila pembagian ini baru bagi
 Anda.
+
+![Properti: bangunan Anda, dan kamar-kamar di dalamnya yang benar-benar dipesan tamu.](/screens/properties.id.png)
 
 ## Membuatnya manual
 
@@ -48,9 +50,9 @@ yang menang. Kosongkan nilai kamar untuk mewarisi.
 
 | Kolom | Dipakai di |
 | --- | --- |
-| Nama dan kata sandi wifi | Pesan kedatangan, situs booking, balasan tamu |
-| Kode pintu / lockbox | Hanya pesan kedatangan |
-| Catatan akses | Pesan kedatangan |
+| Nama dan kata sandi wifi | Pesan kedatangan, situs booking, balasan tamu, [buku panduan tamu](/id/setup/guidebook/) (kata sandi hanya untuk tamu terverifikasi) |
+| Kode pintu / lockbox | Pesan kedatangan; buku panduan tamu, hanya untuk tamu yang sudah mengonfirmasi pemesanan |
+| Catatan akses | Pesan kedatangan; buku panduan tamu, hanya untuk tamu terverifikasi |
 | Jam check-in dan check-out | Di mana-mana, termasuk penjadwalan kebersihan |
 
 :::caution[Kode pintu dikendalikan aksesnya]

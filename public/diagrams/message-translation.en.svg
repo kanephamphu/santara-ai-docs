@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 214" width="680" height="214" role="img" aria-label="How a guest message is translated">
+  <title>How a guest message is translated</title>
+  <rect x="16" y="16" width="200" height="150" rx="10" fill="var(--santara-surface, #f8f9fb)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="32" y="40" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="650" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="start">THE GUEST WRITES</text>
+  <rect x="32" y="54" width="168" height="62" rx="12" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="44" y="79" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="500" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Können wir früher</text>
+  <text x="44" y="96" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="500" fill="var(--sl-color-white, #0b1930)" text-anchor="start">einchecken?</text>
+  <text x="32" y="144" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="start">in German, on Airbnb</text>
+  <rect x="464" y="16" width="200" height="150" rx="10" fill="var(--sl-color-accent-low, #dbe4ff)" stroke="var(--sl-color-text-accent, #1440e0)" stroke-width="1"/>
+  <text x="480" y="40" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="650" fill="var(--sl-color-text-accent, #1440e0)" text-anchor="start">YOU READ</text>
+  <rect x="480" y="54" width="168" height="62" rx="12" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-text-accent, #1440e0)" stroke-width="1"/>
+  <text x="492" y="79" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="500" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Can we check in</text>
+  <text x="492" y="96" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" font-weight="500" fill="var(--sl-color-white, #0b1930)" text-anchor="start">early?</text>
+  <text x="480" y="136" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="start">Translated from German</text>
+  <text x="480" y="151" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="start">· Show original</text>
+  <path d="M230 70 L442 70" stroke="var(--sl-color-text-accent, #1440e0)" stroke-width="1.5" fill="none"/><path d="M441 65.5 L450 70 L441 74.5 Z" fill="var(--sl-color-text-accent, #1440e0)"/>
+  <text x="340" y="58" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="var(--sl-color-text-accent, #1440e0)" text-anchor="middle">Into your language</text>
+  <text x="340" y="90" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="middle">once, as it scrolls into view</text>
+  <path d="M450 134 L222 134" stroke="var(--sl-color-gray-3, #5b6880)" stroke-width="1.5" fill="none" stroke-dasharray="5 4"/><path d="M221 129.5 L230 134 L221 138.5 Z" fill="var(--sl-color-gray-3, #5b6880)"/>
+  <text x="340" y="122" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="600" fill="var(--sl-color-white, #0b1930)" text-anchor="middle">Your reply</text>
+  <text x="340" y="154" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="middle">goes out exactly as you wrote it</text>
+  <text x="340" y="200" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="middle">Each teammate reads in their own language: English, Indonesian or Vietnamese.</text>
+</svg>

@@ -22,10 +22,10 @@ Kendali berpindah pada satu momen, lewat satu tindakan sengaja: **Go live**.
 
 Sejak saat itu, untuk listing yang Anda live-kan:
 
-- **Channel menyerahkan kendali kalender ke Santara.** Ketersediaan kini dikemudikan dari sini.
+- **Channel menyerahkan kendali kalender ke Santara AI.** Ketersediaan kini dikemudikan dari sini.
   Booking di channel mana pun menutup malam itu di semua channel.
 - **Tarif dikirim dari sini.** Harga tetap persis seperti di channel sampai Anda mengubahnya di
-  Santara atau [aturan pricing](/id/money/pricing/) menerbitkannya.
+  Santara AI atau [aturan pricing](/id/money/pricing/) menerbitkannya.
 - **Restriksi dikirim** — minimum menginap, closed-to-arrival, dan seterusnya.
 - Booking, tamu, pesan, dan ulasan sudah tersinkronisasi sejak impor; itu tidak berubah.
 
@@ -56,11 +56,11 @@ Kegagalan ditampilkan sebagaimana dilaporkan channel. Yang umum beserta perbaika
 
 - **Untuk berhenti menjual malam**, tutup tanggalnya di [kalender](/id/daily/calendar/). Ini cara yang
   benar untuk menjeda. Data dan riwayat Anda tetap.
-- **Untuk mengembalikan kendali**, hapus listing dari Santara atau putuskan koneksinya. Listing dan
+- **Untuk mengembalikan kendali**, hapus listing dari Santara AI atau putuskan koneksinya. Listing dan
   kalender channel Anda tidak terpengaruh, tetapi reservasi, pesan, dan ulasan yang diimpor di sini
   ikut terhapus.
 
 :::caution[Booking yang masuk saat live itu nyata]
 Apa pun yang dipesan tamu selama periode live ada di channel dan harus dipenuhi, apa pun yang Anda
-lakukan di Santara setelahnya. Memutus koneksi menghapus catatan di sini, bukan kewajibannya.
+lakukan di Santara AI setelahnya. Memutus koneksi menghapus catatan di sini, bukan kewajibannya.
 :::

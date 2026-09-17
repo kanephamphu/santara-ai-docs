@@ -2,11 +2,13 @@
 title: Reviews
 description: Guest reviews from every channel in one place, your replies published straight back, and the review you write about a guest.
 sidebar:
-  order: 6
+  order: 8
 ---
 
 Every review guests left you, from every connected channel, in one list — with the ones still
 waiting on a reply at the top.
+
+![Reviews from every channel, with the ones still awaiting a reply counted at the top.](/screens/reviews.en.png)
 
 ## Replying
 
@@ -17,7 +19,7 @@ The list puts the ones you have not answered first, which is the only prioritisa
 
 ## Scores
 
-Channels score on different scales and different criteria. Santara stores them in a single shape,
+Channels score on different scales and different criteria. Santara AI stores them in a single shape,
 so a Booking.com 8.6 and an Airbnb 4.3 can sit in the same average without one of them being
 silently wrong. What is shown to you is the channel's own scale, so it matches what you see in the
 extranet.
@@ -27,7 +29,7 @@ channel provides them, and are what to look at when an average moves and you wan
 
 ## Reviewing a guest (Airbnb)
 
-Airbnb lets a host review a guest, and Santara can publish that review for you from the guest's
+Airbnb lets a host review a guest, and Santara AI can publish that review for you from the guest's
 stay.
 
 It has three parts:

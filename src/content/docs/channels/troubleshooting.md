@@ -49,7 +49,7 @@ or link them to rooms you already have.
 
 ## Once live
 
-**The channel and Santara disagree about a date.**
+**The channel and Santara AI disagree about a date.**
 Press **Refresh** on the connection. If it persists, note the exact date and room and
 [contact support](/help/support/) — do not fix it by editing both sides, which can loop.
 

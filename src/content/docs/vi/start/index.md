@@ -9,8 +9,8 @@ Santara AI là phần mềm vận hành cho thuê ngắn hạn. Bạn kết nố
 Booking.com, website đặt phòng của chính bạn — và từ đó chỉ còn một cuốn lịch, một hộp thư, một lịch
 dọn phòng và một bộ sổ sách, thay vì trình duyệt mở sáu tab.
 
-Đây không phải trang niêm yết. Santara không bao giờ lấy hoa hồng trên một lượt đặt, và khách không
-đặt "qua Santara" trừ khi bạn xuất bản [website đặt phòng trực tiếp](/vi/setup/booking-site/) của
+Đây không phải trang niêm yết. Santara AI không bao giờ lấy hoa hồng trên một lượt đặt, và khách không
+đặt "qua Santara AI" trừ khi bạn xuất bản [website đặt phòng trực tiếp](/vi/setup/booking-site/) của
 riêng mình, với tiền vào tài khoản Stripe của bạn.
 
 ## Nó thay thế điều gì
@@ -26,7 +26,7 @@ riêng mình, với tiền vào tài khoản Stripe của bạn.
 
 ## Điều gì thực sự tự động
 
-Santara cố tình rạch ròi chuyện này, vì phần mềm tự ý tác động lên một listing đang bán là cách chủ
+Santara AI cố tình rạch ròi chuyện này, vì phần mềm tự ý tác động lên một listing đang bán là cách chủ
 nhà mất khách:
 
 - **Công việc turnover** tự xuất hiện vào đêm trước mỗi lượt trả phòng.

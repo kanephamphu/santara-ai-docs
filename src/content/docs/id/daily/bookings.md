@@ -2,11 +2,13 @@
 title: Booking
 description: Aliran reservasi begitu tiba, dan semua di balik satu masa menginap — tamunya, uangnya, riwayatnya.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 **Booking** adalah alirannya: setiap reservasi dari setiap channel, terbaru di atas, lengkap dengan
 kamar, tanggal, channel, dan nilainya.
+
+![Aliran reservasi — setiap masa menginap dari setiap channel, terbaru di atas.](/screens/bookings.id.png)
 
 ## Membuka sebuah reservasi
 
@@ -46,7 +48,8 @@ pesannya, ulasannya, dan skor yang merangkum pengalaman menerimanya. Tamu berula
 channel bila channel memberi cukup data untuk mencocokkan.
 
 Gunakan ini sebelum membalas keluhan dari seseorang yang sedang menginap untuk keempat kalinya —
-jawabannya biasanya berbeda.
+jawabannya biasanya berbeda. Lihat **[Tamu](/id/daily/guests/)** untuk skor, urutan perhatian, dan
+trennya.
 
 ## Definisi uang
 
@@ -54,6 +57,6 @@ jawabannya biasanya berbeda.
 | --- | --- |
 | **Gross** | Yang dibayar tamu, termasuk komisi channel |
 | **Pendapatan kamar** | Bagian akomodasi, tanpa biaya lain |
-| **Payout / bersih** | Yang dibayarkan channel kepada Anda. Inilah arti **pendapatan** di Santara |
+| **Payout / bersih** | Yang dibayarkan channel kepada Anda. Inilah arti **pendapatan** di Santara AI |
 
 Setiap angka di layar diberi label. Lihat [Laporan](/id/money/reports/).

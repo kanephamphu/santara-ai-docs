@@ -22,9 +22,9 @@ Quyền kiểm soát chuyển ở đúng một thời điểm, bằng đúng m�
 
 Từ lúc đó, với các listing bạn đã đưa lên:
 
-- **Kênh trao quyền kiểm soát lịch cho Santara.** Tình trạng trống nay được điều khiển từ đây. Một
+- **Kênh trao quyền kiểm soát lịch cho Santara AI.** Tình trạng trống nay được điều khiển từ đây. Một
   lượt đặt ở bất kỳ kênh nào sẽ đóng đêm đó ở mọi kênh.
-- **Giá được đẩy từ đây.** Giá vẫn y như trên kênh cho tới khi bạn đổi trong Santara hoặc
+- **Giá được đẩy từ đây.** Giá vẫn y như trên kênh cho tới khi bạn đổi trong Santara AI hoặc
   [quy tắc định giá](/vi/money/pricing/) xuất bản.
 - **Các ràng buộc được đẩy đi** — số đêm tối thiểu, đóng nhận phòng, v.v.
 - Đặt phòng, khách, tin nhắn và đánh giá đã đồng bộ từ lúc nhập; điều đó không đổi.
@@ -53,10 +53,10 @@ Lỗi được hiển thị đúng như kênh báo. Các lỗi thường gặp v
 ## Tạm dừng hoặc rút lui
 
 - **Để ngừng bán đêm**, hãy đóng ngày trong [lịch](/vi/daily/calendar/). Đây là cách đúng để tạm dừng.
-- **Để trả lại quyền kiểm soát**, xóa listing khỏi Santara hoặc ngắt kết nối. Listing và lịch trên
+- **Để trả lại quyền kiểm soát**, xóa listing khỏi Santara AI hoặc ngắt kết nối. Listing và lịch trên
   kênh không bị ảnh hưởng, nhưng các đặt phòng, tin nhắn và đánh giá đã nhập ở đây sẽ bị xóa theo.
 
 :::caution[Đặt phòng phát sinh khi đang chạy là thật]
 Bất cứ điều gì khách đặt trong thời gian chạy đều tồn tại trên kênh và phải được thực hiện, dù sau đó
-bạn làm gì trong Santara. Ngắt kết nối xóa bản ghi ở đây, không xóa nghĩa vụ.
+bạn làm gì trong Santara AI. Ngắt kết nối xóa bản ghi ở đây, không xóa nghĩa vụ.
 :::

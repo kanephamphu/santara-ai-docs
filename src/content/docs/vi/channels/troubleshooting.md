@@ -46,7 +46,7 @@ liên kết chúng với phòng bạn đã có.
 
 ## Sau khi chạy
 
-**Kênh và Santara khác nhau về một ngày.**
+**Kênh và Santara AI khác nhau về một ngày.**
 Bấm **Làm mới** trên kết nối. Nếu vẫn khác, ghi lại chính xác ngày và phòng rồi
 [liên hệ hỗ trợ](/vi/help/support/) — đừng sửa cả hai phía cùng lúc.
 

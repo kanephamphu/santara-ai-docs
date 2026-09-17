@@ -1,0 +1,22 @@
+{
+  "width": 1440,
+  "height": 760,
+  "boxes": [
+    {
+      "x": 303,
+      "y": 223,
+      "width": 399.203125,
+      "height": 66.5,
+      "label": "Turnover cần làm hôm nay",
+      "side": "right"
+    },
+    {
+      "x": 941.921875,
+      "y": 422,
+      "width": 296,
+      "height": 48,
+      "label": "Giao cho nhân viên, rồi đánh dấu xong",
+      "side": "left"
+    }
+  ]
+}

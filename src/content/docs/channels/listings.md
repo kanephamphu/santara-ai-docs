@@ -14,11 +14,11 @@ Each connected account has its own page showing:
 
 - **Status** and **last sync** time.
 - **Listings on this connection**, each with its state — *linked*, *mapped*, *live* — and the
-  Santara room it points at.
+  Santara AI room it points at.
 - **Refresh**, which re-reads everything from the channel now rather than waiting for the schedule.
 
 Use **Refresh** first whenever something looks stale. It is safe, it is idempotent, and it fixes
-most "the channel and Santara disagree" reports on its own.
+most "the channel and Santara AI disagree" reports on its own.
 
 ## Import a listing you skipped
 
@@ -33,7 +33,7 @@ Airbnb logins. Each connection is independent — its own listings, its own stat
 
 ## Move a listing to a different room
 
-Remove the listing from Santara, then import it again into the room you want. There is no in-place
+Remove the listing from Santara AI, then import it again into the room you want. There is no in-place
 re-point, on purpose: the reservations and messages that arrived belong to the room they arrived
 on, and silently moving them would rewrite history.
 
@@ -43,7 +43,7 @@ stays where it is.
 
 ## Remove one listing
 
-**Remove from Santara** removes that room's imported reservations, messages, guests and reviews.
+**Remove from Santara AI** removes that room's imported reservations, messages, guests and reviews.
 Your listing on the channel is not affected. You can import it again later; the history comes back
 with it on the next sync.
 
@@ -57,19 +57,19 @@ connected"* — disconnect the existing connection first.
 
 ## Deleting a property that is still connected
 
-Santara refuses. Disconnect its listings first, so they are cleaned up on the channel side too —
+Santara AI refuses. Disconnect its listings first, so they are cleaned up on the channel side too —
 otherwise the channel keeps a mapping to a room that no longer exists here.
 
 ## PriceLabs
 
 If you already run PriceLabs, connect it under **Settings → Channels → Connect PriceLabs** and
-Santara's own pricing engine stands aside for the listings PriceLabs manages.
+Santara AI's own pricing engine stands aside for the listings PriceLabs manages.
 
 You provide your PriceLabs **account email** and an **API key** (PriceLabs → account settings →
 API). The key is verified with PriceLabs, stored encrypted, and used only to confirm the account —
-Santara does not read prices from PriceLabs.
+Santara AI does not read prices from PriceLabs.
 
 :::caution
-Never paste a PriceLabs password anywhere in Santara. Sign in on PriceLabs' own site and provide
+Never paste a PriceLabs password anywhere in Santara AI. Sign in on PriceLabs' own site and provide
 an API key intended for integrations.
 :::

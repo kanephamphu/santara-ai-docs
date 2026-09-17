@@ -24,6 +24,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = fileURLToPath(new URL("../src/content/docs/", import.meta.url));
 const DIAGRAMS = fileURLToPath(new URL("../public/diagrams/", import.meta.url));
+const SCREENS = fileURLToPath(new URL("../public/screens/", import.meta.url));
 const LOCALES = ["id", "vi"];
 
 /** github-slugger's rules, for the subset of punctuation these pages actually use. */
@@ -120,6 +121,25 @@ for (const file of files) {
     }
     if (!existsSync(join(DIAGRAMS, src.replace("/diagrams/", "")))) {
       problems.push(`${file.rel}: no such diagram — public${src}`);
+    }
+  }
+}
+
+// 4b. Screenshots — present, captioned, and captured in this page's own language
+for (const file of files) {
+  const body = file.source.slice(file.front.length);
+  for (const [, alt, src] of body.matchAll(/!\[([^\]]*)\]\((\/screens\/[^)\s]+)\)/g)) {
+    if (!alt.trim()) problems.push(`${file.rel}: screenshot ${src} has no alt text`);
+
+    // Same rule as the diagrams, and for a stronger reason: the product itself is translated,
+    // so an English screenshot on a Vietnamese page shows the reader an interface they will not
+    // see. It renders perfectly and teaches the wrong thing.
+    const suffix = /\.([a-z]{2})\.png$/.exec(src)?.[1];
+    if (suffix !== file.locale) {
+      problems.push(`${file.rel}: screenshot ${src} is not the ${file.locale} capture`);
+    }
+    if (!existsSync(join(SCREENS, src.replace("/screens/", "")))) {
+      problems.push(`${file.rel}: no such screenshot — public${src}`);
     }
   }
 }

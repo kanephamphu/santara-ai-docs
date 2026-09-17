@@ -7,6 +7,8 @@ sidebar:
 
 **Tugas** adalah satu layar untuk pekerjaan yang terjadi di dunia nyata: pembersihan dan perawatan.
 
+![Papan kebersihan, dikelompokkan per hari lalu per bangunan. Tiap kartu menyebut apakah itu pembersihan check-out atau persiapan, dan siapa petugasnya.](/screens/tasks.id.png)
+
 ## Papan kebersihan
 
 Pembersihan ditata dalam **kolom hari** — hari ini, besok, lusa. Tiap kartu adalah satu turnover:
@@ -28,6 +30,17 @@ Tetapkan petugas utama **per kamar** di pengaturan kebersihan. Tidak ada bawaan 
 disengaja: dalam praktiknya kamar-kamar satu vila ditangani orang berbeda, dan bawaan per bangunan
 diam-diam salah menugaskan.
 
+### Pembersih tanpa akun
+
+Tidak semua petugas kebersihan akan login, dan mereka tidak harus. Di pemilih petugas mana pun — di
+sebuah pembersihan, atau di bawaan sebuah kamar — pilih **+ Tambah pembersih lewat nama…**, ketik
+**Nama pembersih** dan, jika ada, **Nomor WhatsApp (opsional)**, lalu **Simpan pembersih**. Mereka
+langsung bisa ditugaskan.
+
+Setelah itu pemilih menampilkan **Anggota tim** dan **Pembersih tanpa akun** secara terpisah.
+Pembersih yang hanya bernama tidak pernah melihat aplikasi; mereka menerima pekerjaan seperti biasa,
+dari pesan WhatsApp klaster di bawah.
+
 ### Klaster kebersihan
 
 **Klaster kebersihan** adalah kelompok properti yang ditangani satu orang — biasanya karena
@@ -46,33 +59,13 @@ pintu bangunan lain. Lihat [Tim dan peran](/id/setup/team/).
 
 ## Tiket
 
-**Tiket** adalah apa pun yang perlu diperbaiki atau dikejar: AC rusak, keluhan tamu, pemasok yang
-harus dihubungi.
+Separuh lainnya dari layar ini: keluhan dan perawatan, dilacak dari terbuka sampai selesai.
+Sebagian besar terbuka **dengan sendirinya** dari pesan tamu yang terbaca sebagai keluhan atau
+kerusakan, dan tiket yang dijadwalkan digambar di [kalender](/id/daily/calendar/) sehingga perbaikan
+dua hari terlihat berdampingan dengan booking di sekitarnya.
 
-Tiket terbuka **dengan sendirinya** dari pesan tamu yang terbaca sebagai keluhan atau masalah
-perawatan, dan Anda bisa membuatnya manual dari layar tiket atau langsung dari
-[kalender](/id/daily/calendar/).
-
-Tiga hal tentang tiket otomatis yang perlu diketahui, karena inilah yang mencegah daftarnya menjadi
-kebisingan:
-
-- **Satu utas, satu tiket, selamanya.** Berapa kali pun klasifikasi berjalan, percakapan yang sudah
-  menghasilkan tiket tidak akan menghasilkan yang kedua.
-- **Hanya dua minggu terakhir.** Utas yang tidak disentuh siapa pun selama dua minggu adalah riwayat,
-  bukan pekerjaan.
-- **Tidak membanjir di hari pertama.** Menghubungkan riwayat pesan setahun tidak membuka tiga ratus
-  tiket; hanya yang terbaru dan masih bisa ditindaklanjuti yang dibuat.
-
-Tiap tiket punya:
-
-- **Status** — dari terbuka sampai selesai.
-- **Penanggung jawab** — anggota tim.
-- **Jadwal** — beri rentang tanggal dan tiket **digambar di kalender**, sehingga perbaikan dua hari
-  terlihat berdampingan dengan booking di sekitarnya.
-- **Rencana penyelesaian AI**, bila diminta — dugaan penyebab dan rencana langkah demi langkah.
-
-Tiket bersifat internal. Tamu tidak pernah melihatnya, bahkan tiket yang dibuka dari pesan mereka
-sendiri.
+Detail lengkap — tiket otomatis, rencana penyelesaian AI, siapa yang bisa melihatnya — ada di
+**[Tiket](/id/daily/tickets/)**.
 
 ## Obrolan tim
 

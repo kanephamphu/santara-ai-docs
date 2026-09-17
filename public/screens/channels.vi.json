@@ -1,0 +1,14 @@
+{
+  "width": 1440,
+  "height": 760,
+  "boxes": [
+    {
+      "x": 1141,
+      "y": 625,
+      "width": 252,
+      "height": 56,
+      "label": "Bắt đầu ở đây — tài khoản sở hữu listing",
+      "side": "left"
+    }
+  ]
+}

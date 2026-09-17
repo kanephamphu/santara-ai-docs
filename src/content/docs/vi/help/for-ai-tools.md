@@ -2,7 +2,7 @@
 title: Dùng tài liệu này với công cụ AI
 description: Mỗi trang là markdown sạch, kèm llms.txt và llms-full.txt trong cả ba ngôn ngữ.
 sidebar:
-  order: 2
+  order: 4
 ---
 
 Tài liệu này được viết bằng markdown và xuất bản dưới dạng markdown. Nếu bạn muốn đưa một trang cho
@@ -52,5 +52,5 @@ không có thanh điều hướng, sidebar hay biểu ngữ cookie chen vào.
 ## Hỏi về workspace *của bạn*
 
 Tài liệu này mô tả sản phẩm. Với câu hỏi về dữ liệu của chính bạn — đặt phòng, doanh thu, listing của
-bạn — hãy dùng [Hỏi Santara](/vi/help/assistant/) trong sản phẩm. Nó có workspace của bạn; một chatbot
+bạn — hãy dùng [Hỏi Santara AI](/vi/help/assistant/) trong sản phẩm. Nó có workspace của bạn; một chatbot
 chỉ có URL này thì không.

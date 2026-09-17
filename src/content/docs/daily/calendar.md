@@ -2,11 +2,13 @@
 title: Calendar
 description: Every night across every room, with prices, minimum stays and availability editable straight on the grid.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Rooms down the left, dates across the top, stays drawn as bars. Scroll sideways to load more dates;
 free nights show their price.
+
+![The calendar: every room down the left, every night across the top. Free nights show the price they will sell at.](/screens/calendar.en.png)
 
 ## Reading it
 

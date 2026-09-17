@@ -1,0 +1,22 @@
+{
+  "width": 1440,
+  "height": 760,
+  "boxes": [
+    {
+      "x": 303,
+      "y": 223,
+      "width": 385.984375,
+      "height": 66.5,
+      "label": "Turnovers due today",
+      "side": "right"
+    },
+    {
+      "x": 962.453125,
+      "y": 422,
+      "width": 296,
+      "height": 48,
+      "label": "Assign a cleaner, then mark it done",
+      "side": "left"
+    }
+  ]
+}

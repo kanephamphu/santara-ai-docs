@@ -2,10 +2,12 @@
 title: Akuntansi dan laporan pemilik
 description: Biaya per properti, perjanjian pengelolaan, dan laporan yang bisa dikirim ke pemilik tanpa spreadsheet.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Akuntansi adalah sisi biaya. Jika Anda mengelola vila milik orang lain, ini juga cara mereka dibayar.
+
+![Akuntansi, sebelum ada yang dicatat. Biaya dan Pemilik adalah dua bagiannya; filter periode dan properti ada di atas keduanya.](/screens/accounting.id.png)
 
 ## Buku besar
 
@@ -54,6 +56,6 @@ dibayarkan. Bukan kotak masuk Anda, bukan properti Anda yang lain, bukan pricing
 
 ## Menyesuaikan dengan akuntan Anda
 
-Semua di sini bisa diekspor sebagai CSV dari [Laporan](/id/money/reports/). Santara bukan sistem
+Semua di sini bisa diekspor sebagai CSV dari [Laporan](/id/money/reports/). Santara AI bukan sistem
 pembukuan dan tidak berusaha menjadi buku besar umum Anda — ini catatan operasional yang memberi
 makan sistem itu.

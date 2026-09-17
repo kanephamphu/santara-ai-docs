@@ -7,7 +7,9 @@ sidebar:
 
 A **property** is a building or address. A **room** is a bookable unit inside it. The room is what
 guests book, what channels map to, and what is billed. See
-[How Santara is put together](/start/concepts/#property-then-room) if that split is new to you.
+[How Santara AI is put together](/start/concepts/#property-then-room) if that split is new to you.
+
+![Properties: your buildings, and the rooms inside them that guests actually book.](/screens/properties.en.png)
 
 ## Creating one by hand
 
@@ -48,9 +50,9 @@ room and that room wins. Leave a room's value empty to inherit.
 
 | Field | Where it is used |
 | --- | --- |
-| Wifi name and password | Arrival messages, booking site, guest replies |
-| Door code / lockbox | Arrival messages only |
-| Access notes | Arrival messages |
+| Wifi name and password | Arrival messages, booking site, guest replies, [guest guidebook](/setup/guidebook/) (the password only to a verified guest) |
+| Door code / lockbox | Arrival messages; the guest guidebook, only to a guest who has confirmed their booking |
+| Access notes | Arrival messages; the guest guidebook, only to a verified guest |
 | Check-in and check-out times | Everywhere, including cleaning timing |
 
 :::caution[Door codes are access-controlled]

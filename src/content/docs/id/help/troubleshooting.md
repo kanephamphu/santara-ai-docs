@@ -2,12 +2,12 @@
 title: Kalau ada yang janggal
 description: Urutan diagnosis singkat untuk seluruh produk, dan perbaikan spesifik untuk hal-hal yang memang sering rusak.
 sidebar:
-  order: 4
+  order: 6
 ---
 
 ## Coba ini dulu, berurutan
 
-1. **Segarkan halaman.** Santara memperbarui layar secara langsung; tab yang dibiarkan semalaman bisa
+1. **Segarkan halaman.** Santara AI memperbarui layar secara langsung; tab yang dibiarkan semalaman bisa
    menahan tampilan usang.
 2. **Periksa channel.** **Pengaturan → Channel** — apakah koneksinya *Terhubung*, dan kapan sinkron
    terakhir? Tekan **Segarkan**.
@@ -71,7 +71,7 @@ tidak bisa mengirimkannya. Pesannya tetap ada di utas dan bisa dikirim ulang.
 
 ## Angka berbeda dengan extranet
 
-Periksa angka mana yang Anda bandingkan. **Pendapatan** Santara adalah payout bersih; extranet
+Periksa angka mana yang Anda bandingkan. **Pendapatan** Santara AI adalah payout bersih; extranet
 biasanya menampilkan gross. Keduanya disimpan — [Booking](/id/daily/bookings/) menampilkan ketiganya.
 
 ## Ada yang benar-benar rusak

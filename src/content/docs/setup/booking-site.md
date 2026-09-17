@@ -5,10 +5,12 @@ sidebar:
   order: 2
 ---
 
-Every workspace can publish a direct booking site. Santara takes **no commission** on what it
+Every workspace can publish a direct booking site. Santara AI takes **no commission** on what it
 sells, and the money goes to your Stripe account, not ours.
 
-**Settings → Booking Site**. The left side is the setup; the right is a live preview.
+**Booking Site** in the sidebar. The left side is the setup; the right is a live preview.
+
+![The booking site builder: setup on the left, live preview on the right.](/screens/booking-site.en.png)
 
 ## 1. Pick a subdomain
 
@@ -46,7 +48,7 @@ Pick the properties on the site and how guests can book each one — instantly, 
 ## 5. Connect Stripe
 
 **Payments** connects your own Stripe account. You sign in to (or create) Stripe on Stripe's own
-site. Santara never touches the money and never sees a card number.
+site. Santara AI never touches the money and never sees a card number.
 
 You can optionally add a **service fee** on direct bookings, paid by the guest on top of the stay:
 
@@ -70,10 +72,13 @@ search engines get whatever they can scrape.
 
 ## Contact details
 
-Shown in the contact section and the footer. The address links to Maps; Santara never embeds a map
+Shown in the contact section and the footer. The address links to Maps; Santara AI never embeds a map
 iframe you supply. Pick the language guests see first — they can still switch.
 
 ## What guests get
 
 A site that lists your rooms with live availability and live prices from the same calendar the
 channels use. A direct booking closes those nights everywhere, exactly like a channel booking.
+
+What guests send you back — contact-form enquiries, and requests to book on request-mode
+properties — is **[Enquiries and booking requests](/setup/booking-site-requests/)**.

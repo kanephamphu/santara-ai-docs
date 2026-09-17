@@ -8,6 +8,8 @@ sidebar:
 **Today** is the default screen. It has two halves: the **daily brief**, which is the day written
 out in sentences, and the metric tiles underneath, which are the numbers.
 
+![Today. The brief at the top says what needs a decision; the tiles under it are the numbers behind that.](/screens/today.en.png)
+
 ## The brief
 
 The brief is generated for your workspace each day, at the **time** and in the **language** you set
@@ -34,7 +36,7 @@ someone has looked, not a completion score — nothing is hidden once you do.
 today's highlights and a link to the full brief. Each channel gets copy written for it rather than
 the same paragraph pasted three times.
 
-The link opens the full brief in Santara, so recipients need an account with access to this
+The link opens the full brief in Santara AI, so recipients need an account with access to this
 workspace. For a cleaner who should not see the estate, share the **cluster message** instead: it
 contains only their jobs.
 

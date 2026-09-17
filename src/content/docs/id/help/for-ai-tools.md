@@ -2,7 +2,7 @@
 title: Menggunakan dokumentasi ini dengan alat AI
 description: Setiap halaman sebagai markdown bersih, plus llms.txt dan llms-full.txt dalam tiga bahasa.
 sidebar:
-  order: 2
+  order: 4
 ---
 
 Dokumentasi ini ditulis dalam markdown dan diterbitkan sebagai markdown. Jika Anda ingin memberikan
@@ -52,5 +52,5 @@ dan mengutipnya dengan benar, karena tidak ada navigasi, sidebar, atau banner co
 ## Bertanya tentang workspace *Anda*
 
 Dokumentasi ini menjelaskan produk. Untuk pertanyaan tentang data Anda sendiri — booking, pendapatan,
-listing Anda — gunakan [Tanya Santara](/id/help/assistant/) di dalam produk. Ia punya workspace Anda;
+listing Anda — gunakan [Tanya Santara AI](/id/help/assistant/) di dalam produk. Ia punya workspace Anda;
 chatbot yang hanya punya URL ini tidak.

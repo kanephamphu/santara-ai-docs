@@ -2,10 +2,12 @@
 title: Kế toán và bảng kê chủ sở hữu
 description: Chi phí theo từng bất động sản, hợp đồng quản lý, và bảng kê có thể gửi cho chủ sở hữu mà không cần bảng tính.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Kế toán là phía chi phí. Nếu bạn quản lý villa cho người khác, đây cũng là cách họ được thanh toán.
+
+![Kế toán, trước khi ghi nhận gì. Chi phí và Chủ sở hữu là hai nửa của nó; bộ lọc kỳ và bất động sản nằm phía trên cả hai.](/screens/accounting.vi.png)
 
 ## Sổ cái
 
@@ -53,5 +55,5 @@ bạn, không phải các bất động sản khác của bạn, không phải c
 
 ## Khớp với kế toán của bạn
 
-Mọi thứ ở đây xuất được ra CSV từ [Báo cáo](/vi/money/reports/). Santara không phải hệ thống kế toán và
+Mọi thứ ở đây xuất được ra CSV từ [Báo cáo](/vi/money/reports/). Santara AI không phải hệ thống kế toán và
 không cố trở thành sổ cái tổng hợp — đây là bản ghi vận hành cung cấp dữ liệu cho hệ thống đó.
