@@ -2,7 +2,7 @@
 title: Managing listings after setup
 description: Import one more, unlink one, move a listing to a different room, and read what each connection is doing.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 Everything below lives on **Settings → Channels**, or on a connection's own page — open a

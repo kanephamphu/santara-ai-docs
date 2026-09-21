@@ -2,7 +2,7 @@
 title: Mengelola listing setelah setup
 description: Impor satu lagi, lepas satu, pindahkan listing ke kamar lain, dan baca apa yang sedang dilakukan tiap koneksi.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 Semua di bawah ini ada di **Pengaturan → Channel**, atau di halaman koneksi masing-masing — buka

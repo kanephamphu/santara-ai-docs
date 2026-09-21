@@ -2,7 +2,7 @@
 title: Khắc phục sự cố kênh
 description: Hơn chục thứ thực sự hay hỏng với một kết nối, và cách xử lý từng cái.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 Bắt đầu bằng hai thao tác xử lý được phần lớn vấn đề: kiểm tra trạng thái và lần đồng bộ cuối của kết

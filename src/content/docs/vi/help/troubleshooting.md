@@ -54,7 +54,7 @@ Tình trạng trống bị chặn ở **số đơn vị** của phòng. Một c�
 Turnover được tạo vào đêm trước ngày trả phòng, chỉ cho đúng ngày đó. Nếu lượt trả phòng có mà công
 việc không có vào tối đó, hãy liên hệ hỗ trợ kèm mã đặt phòng.
 
-## Bản tóm tắt hằng ngày sai ngôn ngữ
+## Bản tin hằng ngày sai ngôn ngữ
 
 Bản tóm tắt theo ngôn ngữ của **workspace**, không theo ngôn ngữ cá nhân của bạn — đó là chủ ý, vì nó
 được gửi cho cả đội. **Cài đặt → Workspace**.

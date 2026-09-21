@@ -2,7 +2,7 @@
 title: Pemecahan masalah channel
 description: Selusin hal yang benar-benar sering salah pada koneksi, dan apa yang memperbaikinya.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 Mulai dari dua langkah yang menyelesaikan sebagian besar masalah: periksa status dan sinkron terakhir

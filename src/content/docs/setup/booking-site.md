@@ -1,6 +1,6 @@
 ---
 title: Your direct booking site
-description: A commission-free booking website on your own subdomain, paid into your own Stripe account.
+description: A commission-free booking website on your own subdomain or domain, paid into your own Stripe account.
 sidebar:
   order: 2
 ---
@@ -50,7 +50,8 @@ Pick the properties on the site and how guests can book each one — instantly, 
 **Payments** connects your own Stripe account. You sign in to (or create) Stripe on Stripe's own
 site. Santara AI never touches the money and never sees a card number.
 
-You can optionally add a **service fee** on direct bookings, paid by the guest on top of the stay:
+You can optionally add a **service fee** on direct bookings — **3%** unless your plan says
+otherwise — paid by the guest on top of the stay:
 
 - Your payout is unchanged.
 - It is shown as its own line before anyone reaches a card form.
@@ -61,6 +62,22 @@ You can optionally add a **service fee** on direct bookings, paid by the guest o
 Until you publish, the site is fully disallowed to crawlers — nothing leaks before you are ready.
 Publishing generates the sitemap and robots rules and keeps them in step with what you publish
 afterwards.
+
+## Your own domain
+
+The site always lives at its subdomain. To serve it from a domain you own as well — say
+`stay.yourvilla.com` — use the **Custom domain** card on the booking site page:
+
+1. Enter the domain and press **Connect domain**.
+2. Add the two DNS records it shows (a TXT and a CNAME) at your DNS provider, then press
+   **Verify**. DNS changes can take up to an hour to spread.
+3. Once it shows **Active**, links, the sitemap and social previews use the new domain. The
+   subdomain keeps working alongside it.
+
+Most providers cannot put a CNAME on a root domain (`yourvilla.com` with no prefix) — use an ALIAS
+or ANAME record, or connect a subdomain such as `stay.` instead. HTTPS for a custom domain is
+switched on by the Santara AI team after you verify; if the padlock has not appeared within a day,
+[contact support](/help/support/).
 
 ## Pages and blog posts
 

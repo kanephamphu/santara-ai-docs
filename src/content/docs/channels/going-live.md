@@ -2,7 +2,7 @@
 title: Going live
 description: Importing a listing does not hand over your calendar. This page is what changes when you press Go live, and what to check first.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Read this before you press the button. It is the one page in these docs that describes an action

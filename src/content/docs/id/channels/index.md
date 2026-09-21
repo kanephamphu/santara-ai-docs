@@ -22,13 +22,25 @@ di channel yang tidak Anda ketik atau tidak dihitung oleh aturan pricing Anda.
 
 ## Channel yang didukung
 
-| Channel | Cara menghubungkan | Status |
-| --- | --- | --- |
-| **Airbnb** | Anda mengotorisasi Santara AI di Airbnb, lalu memilih listing | Tersedia |
-| **Booking.com** | Anda menambahkan connectivity provider di extranet, lalu memasukkan Hotel ID | Tersedia |
-| **Situs booking Anda** | Bawaan Santara AI, tanpa koneksi | Tersedia |
-| **VRBO** | Lewat channel manager yang sama | Dalam roadmap — tampil sebagai kartu abu-abu di Pengaturan → Channel sampai rilis |
-| **PriceLabs** | Deteksi baca-saja: jika Anda memakai PriceLabs, mesin pricing Santara AI mengalah | Tersedia |
+Santara AI terhubung ke **54 channel penjualan**, ditambah situs booking Anda sendiri. Dua di
+antaranya punya alur yang dibangun penuh di Santara AI; 52 lainnya Anda pilih dari katalog channel
+di aplikasi.
+
+| Channel | Cara menghubungkan |
+| --- | --- |
+| **Airbnb** | Anda mengotorisasi Santara AI di Airbnb, lalu memilih listing — [Hubungkan Airbnb](/id/channels/airbnb/) |
+| **Booking.com** | Anda menambahkan connectivity provider di extranet, lalu memasukkan Hotel ID — [Hubungkan Booking.com](/id/channels/booking-com/) |
+| **52 lainnya** — Agoda, Expedia, Trip.com, Vrbo, Traveloka, Tiket.com, Hostelworld, dan lainnya | **Pengaturan → Channel → Tambah channel**, pilih dari katalog, lalu hubungkan dan petakan dalam tiga langkah — [Hubungkan channel lain](/id/channels/other-channels/) |
+| **Situs booking Anda** | Bawaan Santara AI, tanpa koneksi — [Situs booking langsung Anda](/id/setup/booking-site/) |
+| **PriceLabs** | Deteksi baca-saja: jika Anda memakai PriceLabs, mesin pricing Santara AI mengalah |
+
+Setiap channel mendapat kalender, tarif, dan restriksi yang sama, serta membawa masuk booking,
+pembatalan, dan tamu. Dua hal berbeda per channel:
+
+- **Pesan tamu.** Balasan hanya bisa dikirim di **Airbnb, Booking.com, dan Expedia** — channel yang
+  pesan tamunya dibawa oleh channel manager. Di channel lain, balas tamu di kotak masuk channel itu
+  sendiri. Pesan tamu Vrbo tidak didukung.
+- **Ulasan** masuk, dan bisa dibalas, bila channel meneruskannya.
 
 ![Pengaturan → Channel sebelum ada yang terhubung. Tiap channel ditautkan sendiri-sendiri dengan status dan waktu sinkron terakhirnya.](/screens/channels.id.png)
 
@@ -38,7 +50,9 @@ di channel yang tidak Anda ketik atau tidak dihitung oleh aturan pricing Anda.
 
 - beberapa **akun Airbnb** ke satu workspace — umum bagi manajer yang memegang listing di beberapa
   login host;
-- beberapa **properti Booking.com**, satu per Hotel ID.
+- beberapa **properti Booking.com**, satu per Hotel ID;
+- channel lain dari katalog, **satu properti setiap kali** — hubungkan channel yang sama lagi untuk
+  properti lain.
 
 Setiap koneksi punya halaman sendiri di **Pengaturan → Channel** yang menampilkan listing-nya, waktu
 sinkron terakhir, dan seluruh tindakan yang tersedia. Tidak ada bagian Santara AI yang mengasumsikan

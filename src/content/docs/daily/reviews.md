@@ -5,7 +5,7 @@ sidebar:
   order: 8
 ---
 
-Every review guests left you, from every connected channel, in one list — with the ones still
+Every review guests left you, from every connected channel that passes reviews on, in one list — with the ones still
 waiting on a reply at the top.
 
 ![Reviews from every channel, with the ones still awaiting a reply counted at the top.](/screens/reviews.en.png)

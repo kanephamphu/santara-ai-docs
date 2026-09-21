@@ -22,7 +22,7 @@ sidebar:
 chính là ba bước dưới đây và có ghi nhận tiến độ — bạn có thể rời đi rồi quay lại.
 
 Đặt ngôn ngữ và múi giờ ngay tại **Cài đặt → Cá nhân**. Múi giờ quyết định "hôm nay" nghĩa là gì với
-khách đến, dọn phòng và bản tóm tắt hằng ngày.
+khách đến, dọn phòng và bản tin hằng ngày.
 
 ## 2. Kết nối một kênh
 
@@ -72,7 +72,7 @@ Trong vài phút:
 | Hội thoại với khách trước đây | [Tin nhắn](/vi/daily/messages/) |
 | Đánh giá khách đã để lại | [Đánh giá](/vi/daily/reviews/) |
 | Công việc turnover cho lượt trả phòng tối nay | [Công việc](/vi/daily/tasks/) |
-| Bản tóm tắt hằng ngày đầu tiên | [Hôm nay](/vi/daily/) |
+| Bản tin hằng ngày đầu tiên | [Hôm nay](/vi/daily/) |
 
 Nhập lịch sử có thể mất vài phút với tài khoản lớn. Nếu một màn hình trông trống, hãy đợi năm phút và
 tải lại trước khi kết luận có lỗi.

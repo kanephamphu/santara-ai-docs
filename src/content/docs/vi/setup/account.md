@@ -27,12 +27,12 @@ Cả hai khối nằm trên cùng một trang:
 - **Ngôn ngữ** đổi giao diện **cho bạn**. English, Bahasa Indonesia và Tiếng Việt.
 - **Múi giờ** là tùy chọn hiển thị của riêng bạn.
 
-Cả hai đều không đổi gì cho người khác — và cũng không phải thứ điều khiển bản tóm tắt hằng ngày.
-Bản tóm tắt theo ngôn ngữ **của workspace** và múi giờ **của workspace**, để một đội nhận một bản
+Cả hai đều không đổi gì cho người khác — và cũng không phải thứ điều khiển bản tin hằng ngày.
+Bản tin hằng ngày theo ngôn ngữ **của workspace** và múi giờ **của workspace**, để một đội nhận một bản
 tóm tắt, một ngôn ngữ, một khung giờ. Nếu ngày tháng sai trên toàn sản phẩm, thứ bạn cần là múi giờ
 workspace chứ không phải mục này. Xem [Cài đặt workspace](/vi/setup/workspace/#múi-giờ).
 
-Một quản lý nói tiếng Việt làm việc trong workspace có bản tóm tắt bằng tiếng Indonesia là một sắp
+Một quản lý nói tiếng Việt làm việc trong workspace có bản tin hằng ngày bằng tiếng Indonesia là một sắp
 xếp bình thường và được hỗ trợ.
 
 ## Ảnh đại diện của bạn

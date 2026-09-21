@@ -9,14 +9,17 @@ Once you are live, the product settles into a rhythm. This is it.
 
 ## Every morning — five minutes
 
-Open **Today**. The daily brief is written for the workspace at the time you set, and says, in order:
+Open **Today** (the same brief is in your inbox — at 06:00 unless you picked another hour). It
+says, in order:
 
-1. **What needs a decision** — a guest asking something, an unconfirmed arrival, a clean with
-   nobody assigned.
-2. **Arrivals, in-house and departures** for today.
-3. **Cleaning** for the next three days, grouped by cluster, with a message you can paste
-   straight into WhatsApp.
-4. **Revenue so far** this month against last.
+1. **The day at a glance** — today's arrivals, departures and turnovers.
+2. **The scorecard** — revenue today, occupancy and average nightly rate, against the month so far.
+3. **What needs a decision** — a guest asking something, a risky turnover, a clean with nobody
+   assigned, a ticket left open.
+4. **Upsells worth offering** — late checkouts, early check-ins and extra nights the calendar can take.
+5. **Cleaning** for the next three days, grouped by cluster, with each cluster's plan ready to
+   share to Zalo or WhatsApp in one tap.
+6. **Tomorrow** — one line on tomorrow's arrivals, departures and turnovers.
 
 If a card says something needs you, tap it — it opens the exact screen. If nothing does, you are
 done for the morning.

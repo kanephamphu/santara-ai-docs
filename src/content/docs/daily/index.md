@@ -12,27 +12,37 @@ out in sentences, and the metric tiles underneath, which are the numbers.
 
 ## The brief
 
-The brief is generated for your workspace each day, at the **time** and in the **language** you set
-under [workspace settings](/setup/workspace/#operations-preferences), and it is refreshed as the day
-moves. It is one dense sheet, in this order:
+The brief is generated for your workspace each day and emailed to you — at **06:00** in the
+workspace timezone by default, or whichever hour you pick — in the **language** you set under
+[workspace settings](/setup/workspace/#operations-preferences). The same brief is on this screen,
+and it is refreshed as the day moves. It is one dense sheet, in this order:
 
-1. **A header scorecard** — revenue and occupancy for the period, against the last one.
-2. **AI insights** — one card per guest who needs something, with what happened and what to do.
-   Risky checkouts, unanswered questions, a complaint building over three messages, an upsell
-   worth offering. Each card links to the exact thread or stay.
-3. **Arrivals, in-house, departures** for today.
-4. **Cleaning, three days out** — grouped by [cleaning cluster](/daily/tasks/#cleaning-clusters),
-   with a per-cluster message ready to paste into WhatsApp.
-5. **Ready-to-copy guest messages** for the arrivals and departures that need one.
+1. **The header strip** — the date, today's arrivals, departures and turnovers, and how much of
+   your cleaners' day is already spoken for.
+2. **The scorecard** — revenue today, occupancy and average nightly rate, each against the
+   month to date.
+3. **AI insights** — one card per guest or problem that needs something, with what happened and
+   what to do: risky checkouts, unanswered questions, a complaint building over three messages,
+   unassigned cleans, tickets left open. Each card links to the exact thread or stay.
+4. **Upsell opportunities** — late checkouts, early check-ins and extra nights the calendar can
+   actually take, each with the price and the message to send.
+5. **Cleaning, three days out** — grouped by [cleaning cluster](/daily/tasks/#cleaning-clusters).
+   Each cluster has a **Share** menu with that day's plan already written — send it to Zalo,
+   WhatsApp, Messenger or Telegram in one tap, or copy it. Cleaners with an email address also
+   receive their own Cleaner Brief email automatically, without revenue in it.
+6. **Tomorrow** — one line with tomorrow's arrivals, departures and turnovers.
+
+Nothing in the brief is sent to a guest or a cleaner on its own: every message waits for you to
+send it.
 
 ### Marking it reviewed
 
-Press **Reviewed** when you have been through it. It is a signal to the rest of the team that
+Press **Mark all reviewed** when you have been through it. It is a signal to the rest of the team that
 someone has looked, not a completion score — nothing is hidden once you do.
 
 ### Sharing it
 
-**Share** writes a message for the channel you pick — WhatsApp, email, a cleaner's group — with
+**Share** writes a message for the channel you pick — email, WhatsApp or a text message — with
 today's highlights and a link to the full brief. Each channel gets copy written for it rather than
 the same paragraph pasted three times.
 
@@ -42,8 +52,9 @@ contains only their jobs.
 
 ### Language and timing
 
-The brief is written in the workspace's language, set under
-[Workspace settings](/setup/workspace/). Its idea of "today" comes from the workspace timezone —
+The brief is written in the workspace's language and sent at the hour you choose (06:00 unless you
+change it), both set under [Workspace settings](/setup/workspace/). Its idea of "today" comes from
+the workspace timezone —
 which matters more than it sounds, because a brief generated in the wrong timezone reports
 yesterday's checkouts.
 

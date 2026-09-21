@@ -10,14 +10,14 @@ sidebar:
 **Năng lực** — một quyền có tên như `stay.read` hoặc `pricing.write`. Vai trò là gói năng lực; màn hình
 và route API đều yêu cầu cùng những năng lực đó. Xem [Đội ngũ và vai trò](/vi/setup/team/).
 
-**Kênh** — nơi bạn bán: Airbnb, Booking.com, website đặt phòng của bạn.
+**Kênh** — nơi bạn bán: Airbnb, Booking.com, Agoda, Expedia và các kênh khác trong danh mục, website đặt phòng của bạn.
 
 **Cụm dọn phòng** — nhóm bất động sản do một người phụ trách. Quyết định cách nhóm trên bảng và tin
-nhắn WhatsApp theo cụm trong bản tóm tắt hằng ngày.
+nhắn WhatsApp theo cụm trong bản tin hằng ngày.
 
 **Kết nối** — một tài khoản kênh đã liên kết. Một workspace có thể có nhiều.
 
-**Bản tóm tắt hằng ngày** — cả ngày được viết ra: rủi ro, lượt đến, dọn phòng, doanh thu. Tạo cho
+**Bản tin hằng ngày** — cả ngày được viết ra: rủi ro, lượt đến, dọn phòng, doanh thu. Tạo cho
 workspace bằng ngôn ngữ của workspace.
 
 **Đặt phòng trực tiếp** — lượt đặt qua website của chính bạn. Không hoa hồng.

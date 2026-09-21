@@ -6,8 +6,9 @@ sidebar:
 ---
 
 One thread per guest conversation, from every connected channel. A reply you send here goes back
-out through the channel the guest booked on — the guest sees it in the Airbnb or Booking.com app,
-as they expect to.
+out through the channel the guest booked on — the guest sees it in the Airbnb, Booking.com or Expedia
+app, as they expect to. Those three are the channels replies can go out on; see
+[Supported channels](/channels/#supported-channels).
 
 ![The inbox: one thread per guest conversation, ordered by what needs answering rather than by when it arrived.](/screens/messages.en.png)
 

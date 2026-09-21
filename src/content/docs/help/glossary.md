@@ -10,7 +10,7 @@ sidebar:
 **Capability** — a named permission such as `stay.read` or `pricing.write`. Roles are bundles of
 capabilities; screens and API routes ask for the same ones. See [Team and roles](/setup/team/).
 
-**Channel** — a place you sell: Airbnb, Booking.com, your own booking site.
+**Channel** — a place you sell: Airbnb, Booking.com, Agoda, Expedia and the rest of the catalogue, your own booking site.
 
 **Cleaning cluster** — a group of properties one cleaner covers. Drives the board's grouping and
 the per-cluster WhatsApp message in the daily brief.
