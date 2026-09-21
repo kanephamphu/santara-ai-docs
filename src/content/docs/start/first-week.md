@@ -9,7 +9,7 @@ Once you are live, the product settles into a rhythm. This is it.
 
 ## Every morning — five minutes
 
-Open **Today** (the same brief is in your inbox — at 05:00 unless you picked another hour). It
+Open **Today** (the same brief is in your inbox — at 06:00 unless you picked another hour). It
 says, in order:
 
 1. **The day at a glance** — today's arrivals, departures and turnovers.

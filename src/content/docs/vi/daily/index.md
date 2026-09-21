@@ -12,7 +12,7 @@ thành câu, và các thẻ chỉ số bên dưới, tức là các con số.
 
 ## Bản tin
 
-Bản tin được tạo cho workspace của bạn mỗi ngày và gửi vào email của bạn — mặc định lúc **05:00**
+Bản tin được tạo cho workspace của bạn mỗi ngày và gửi vào email của bạn — mặc định lúc **06:00**
 theo múi giờ workspace, hoặc bất kỳ giờ nào bạn chọn — bằng **ngôn ngữ** bạn đặt trong
 [cài đặt workspace](/vi/setup/workspace/#tùy-chọn-vận-hành). Cùng bản tin đó nằm trên màn hình này,
 và được làm mới khi ngày trôi đi. Một tờ duy nhất, theo thứ tự:
@@ -50,7 +50,7 @@ công việc của họ.
 
 ### Ngôn ngữ và thời gian
 
-Bản tin được viết bằng ngôn ngữ của workspace và gửi vào giờ bạn chọn (05:00 nếu bạn không đổi),
+Bản tin được viết bằng ngôn ngữ của workspace và gửi vào giờ bạn chọn (06:00 nếu bạn không đổi),
 cả hai đặt ở [Cài đặt workspace](/vi/setup/workspace/). Khái niệm "hôm nay" đến từ múi giờ workspace — điều này
 quan trọng hơn vẻ ngoài của nó, vì bản tin sai múi giờ sẽ báo cáo lượt trả phòng của hôm qua.
 

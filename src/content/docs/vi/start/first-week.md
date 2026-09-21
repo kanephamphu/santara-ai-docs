@@ -9,7 +9,7 @@ Khi đã lên sóng, sản phẩm đi vào một nhịp. Đây là nhịp đó.
 
 ## Mỗi sáng — năm phút
 
-Mở **Hôm nay** (cùng bản tin đó có trong email của bạn — lúc 05:00 nếu bạn không chọn giờ khác).
+Mở **Hôm nay** (cùng bản tin đó có trong email của bạn — lúc 06:00 nếu bạn không chọn giờ khác).
 Nội dung theo thứ tự:
 
 1. **Tổng quan hôm nay** — khách đến, khách đi và lượt dọn giữa hai lượt khách hôm nay.

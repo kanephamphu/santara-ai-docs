@@ -12,7 +12,7 @@ kalimat, dan kartu metrik di bawahnya, yaitu angkanya.
 
 ## Ringkasan
 
-Ringkasan dibuat untuk workspace Anda setiap hari dan dikirim ke email Anda — pukul **05.00** di
+Ringkasan dibuat untuk workspace Anda setiap hari dan dikirim ke email Anda — pukul **06.00** di
 zona waktu workspace secara bawaan, atau jam mana pun yang Anda pilih — dalam **bahasa** yang Anda
 atur di [pengaturan workspace](/id/setup/workspace/#preferensi-operasional). Ringkasan yang sama ada
 di layar ini, dan diperbarui seiring hari berjalan. Satu lembar padat, dengan urutan:
@@ -54,7 +54,7 @@ hanya pekerjaan mereka.
 
 ### Bahasa dan waktu
 
-Ringkasan ditulis dalam bahasa workspace dan dikirim pada jam yang Anda pilih (05.00 kecuali Anda
+Ringkasan ditulis dalam bahasa workspace dan dikirim pada jam yang Anda pilih (06.00 kecuali Anda
 mengubahnya), keduanya diatur di [Pengaturan workspace](/id/setup/workspace/). Pengertian "hari ini" mengikuti zona waktu workspace —
 yang lebih penting daripada kedengarannya, karena ringkasan dengan zona waktu salah melaporkan
 check-out kemarin.

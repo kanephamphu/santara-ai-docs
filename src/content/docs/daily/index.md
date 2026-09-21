@@ -12,7 +12,7 @@ out in sentences, and the metric tiles underneath, which are the numbers.
 
 ## The brief
 
-The brief is generated for your workspace each day and emailed to you — at **05:00** in the
+The brief is generated for your workspace each day and emailed to you — at **06:00** in the
 workspace timezone by default, or whichever hour you pick — in the **language** you set under
 [workspace settings](/setup/workspace/#operations-preferences). The same brief is on this screen,
 and it is refreshed as the day moves. It is one dense sheet, in this order:
@@ -52,7 +52,7 @@ contains only their jobs.
 
 ### Language and timing
 
-The brief is written in the workspace's language and sent at the hour you choose (05:00 unless you
+The brief is written in the workspace's language and sent at the hour you choose (06:00 unless you
 change it), both set under [Workspace settings](/setup/workspace/). Its idea of "today" comes from
 the workspace timezone —
 which matters more than it sounds, because a brief generated in the wrong timezone reports

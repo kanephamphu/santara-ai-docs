@@ -9,7 +9,7 @@ Setelah live, produk ini masuk ke ritme. Inilah ritmenya.
 
 ## Setiap pagi — lima menit
 
-Buka **Hari ini** (ringkasan yang sama ada di email Anda — pukul 05.00 kecuali Anda memilih jam
+Buka **Hari ini** (ringkasan yang sama ada di email Anda — pukul 06.00 kecuali Anda memilih jam
 lain). Isinya berurutan:
 
 1. **Sekilas hari ini** — kedatangan, keberangkatan, dan pergantian tamu hari ini.
