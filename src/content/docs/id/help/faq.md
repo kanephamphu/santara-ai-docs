@@ -82,5 +82,7 @@ English, Bahasa Indonesia, dan Tiếng Việt — untuk antarmuka, ringkasan har
 Belum — sedang dibangun untuk iOS dan Android sekaligus. Lihat [Di ponsel Anda](/id/setup/mobile/).
 
 **Channel apa saja yang didukung?**
-Airbnb dan Booking.com saat ini, ditambah situs booking Anda sendiri. Lainnya ada dalam roadmap —
-lihat [Channel](/id/channels/).
+54 channel penjualan, ditambah situs booking Anda sendiri. Airbnb dan Booking.com punya alur
+koneksi sendiri; Agoda, Expedia, Trip.com, Vrbo, dan lainnya terhubung dari katalog channel di
+**Pengaturan → Channel**. Balasan ke tamu dikirim di Airbnb, Booking.com, dan Expedia. Lihat
+[Channel](/id/channels/).

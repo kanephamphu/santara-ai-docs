@@ -22,13 +22,24 @@ giá trên kênh mà bạn không nhập hoặc không do quy tắc định giá
 
 ## Các kênh được hỗ trợ
 
-| Kênh | Cách kết nối | Trạng thái |
-| --- | --- | --- |
-| **Airbnb** | Bạn cấp phép cho Santara AI trên Airbnb, rồi chọn listing | Có sẵn |
-| **Booking.com** | Bạn thêm nhà cung cấp kết nối trong extranet, rồi nhập Hotel ID | Có sẵn |
-| **Website đặt phòng của bạn** | Có sẵn trong Santara AI, không cần kết nối | Có sẵn |
-| **VRBO** | Qua cùng channel manager | Trong lộ trình — hiện là thẻ xám trong Cài đặt → Kênh cho tới khi phát hành |
-| **PriceLabs** | Phát hiện chỉ-đọc: nếu bạn dùng PriceLabs, bộ máy định giá của Santara AI nhường bước | Có sẵn |
+Santara AI kết nối với **54 kênh bán phòng**, cùng website đặt phòng của bạn. Hai kênh có luồng được
+xây trọn vẹn trong Santara AI; 52 kênh còn lại bạn chọn từ danh mục kênh ngay trong ứng dụng.
+
+| Kênh | Cách kết nối |
+| --- | --- |
+| **Airbnb** | Bạn cấp phép cho Santara AI trên Airbnb, rồi chọn listing — [Kết nối Airbnb](/vi/channels/airbnb/) |
+| **Booking.com** | Bạn thêm nhà cung cấp kết nối trong extranet, rồi nhập Hotel ID — [Kết nối Booking.com](/vi/channels/booking-com/) |
+| **52 kênh còn lại** — Agoda, Expedia, Trip.com, Vrbo, Traveloka, Tiket.com, Hostelworld và nhiều kênh khác | **Cài đặt → Kênh → Thêm kênh**, chọn từ danh mục, rồi kết nối và ánh xạ qua ba bước — [Kết nối kênh khác](/vi/channels/other-channels/) |
+| **Website đặt phòng của bạn** | Có sẵn trong Santara AI, không cần kết nối — [Website đặt phòng trực tiếp của bạn](/vi/setup/booking-site/) |
+| **PriceLabs** | Phát hiện chỉ-đọc: nếu bạn dùng PriceLabs, bộ máy định giá của Santara AI nhường bước |
+
+Mọi kênh đều dùng chung lịch, giá và ràng buộc, và đều đưa về đặt phòng, lượt hủy và khách. Có hai
+điểm khác nhau theo kênh:
+
+- **Tin nhắn khách.** Chỉ trả lời được trên **Airbnb, Booking.com và Expedia** — những kênh có tin
+  nhắn khách được channel manager chuyển qua. Với kênh khác, hãy trả lời khách trong hộp thư của
+  chính kênh đó. Tin nhắn khách Vrbo chưa được hỗ trợ.
+- **Đánh giá** được đưa về, và trả lời được, ở những kênh có chuyển đánh giá.
 
 ![Cài đặt → Kênh trước khi kết nối bất cứ thứ gì. Mỗi kênh được liên kết riêng, với trạng thái và thời điểm đồng bộ cuối của nó.](/screens/channels.vi.png)
 
@@ -38,7 +49,9 @@ giá trên kênh mà bạn không nhập hoặc không do quy tắc định giá
 
 - nhiều **tài khoản Airbnb** vào một workspace — thường gặp với đơn vị quản lý giữ listing dưới nhiều
   tài khoản chủ nhà;
-- nhiều **chỗ nghỉ Booking.com**, mỗi Hotel ID một cái.
+- nhiều **chỗ nghỉ Booking.com**, mỗi Hotel ID một cái;
+- bất kỳ kênh nào khác trong danh mục, **mỗi lần một chỗ nghỉ** — kết nối lại cùng kênh đó cho chỗ
+  nghỉ khác.
 
 Mỗi kết nối có trang riêng tại **Cài đặt → Kênh**, hiển thị listing của nó, lần đồng bộ gần nhất, và
 mọi thao tác khả dụng. Không phần nào của Santara AI giả định chỉ có một cái duy nhất.

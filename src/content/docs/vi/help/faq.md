@@ -68,18 +68,19 @@ Không. Vai trò được dựng từ các năng lực có tên, và con số t�
 Có — quyền xem mã cửa tách khỏi quyền truy cập bất động sản. Xem
 [Đội ngũ và vai trò](/vi/setup/team/).
 
-**Ai xem được bản tóm tắt hằng ngày?**
+**Ai xem được bản tin hằng ngày?**
 Bất kỳ ai trong workspace có quyền vào các màn hình liên quan. **Liên kết chia sẻ** cần tài khoản;
 **tin nhắn cụm** thì không, và nó chỉ chứa công việc của cụm đó.
 
 ## Sản phẩm
 
 **Những ngôn ngữ nào?**
-English, Bahasa Indonesia và Tiếng Việt — cho giao diện, bản tóm tắt hằng ngày và tài liệu này.
+English, Bahasa Indonesia và Tiếng Việt — cho giao diện, bản tin hằng ngày và tài liệu này.
 
 **Có ứng dụng di động không?**
 Chưa — đang được xây dựng cho iOS và Android cùng lúc. Xem [Trên điện thoại](/vi/setup/mobile/).
 
 **Hỗ trợ những kênh nào?**
-Airbnb và Booking.com hiện tại, cùng website đặt phòng của bạn. Các kênh khác trong lộ trình — xem
-[Kênh](/vi/channels/).
+54 kênh bán phòng, cùng website đặt phòng của bạn. Airbnb và Booking.com có luồng kết nối riêng;
+Agoda, Expedia, Trip.com, Vrbo và các kênh còn lại kết nối từ danh mục kênh trong **Cài đặt → Kênh**.
+Trả lời khách được gửi trên Airbnb, Booking.com và Expedia. Xem [Kênh](/vi/channels/).

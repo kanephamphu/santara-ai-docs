@@ -6,8 +6,9 @@ sidebar:
 ---
 
 Satu utas per percakapan tamu, dari setiap channel terhubung. Balasan yang Anda kirim di sini keluar
-lewat channel tempat tamu memesan — tamu melihatnya di aplikasi Airbnb atau Booking.com, seperti yang
-mereka harapkan.
+lewat channel tempat tamu memesan — tamu melihatnya di aplikasi Airbnb, Booking.com, atau Expedia, seperti
+yang mereka harapkan. Hanya tiga channel itu yang bisa dikirimi balasan; lihat
+[Channel yang didukung](/id/channels/#channel-yang-didukung).
 
 ![Kotak masuk: satu utas per percakapan tamu, diurutkan berdasarkan yang perlu dijawab, bukan waktu kedatangannya.](/screens/messages.id.png)
 

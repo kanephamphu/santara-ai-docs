@@ -22,13 +22,24 @@ changes a price on a channel that you did not either type or ask a pricing rule 
 
 ## Supported channels
 
-| Channel | How it connects | Status |
-| --- | --- | --- |
-| **Airbnb** | You authorise Santara AI on Airbnb, then pick listings | Available |
-| **Booking.com** | You add a connectivity provider in the extranet, then enter your Hotel ID | Available |
-| **Your booking site** | Built into Santara AI, no connection needed | Available |
-| **VRBO** | Via the same channel manager | On the roadmap — it appears in Settings → Channels as a greyed card until it ships |
-| **PriceLabs** | Read-only detection: if you run PriceLabs, Santara AI's own pricing engine stands aside | Available |
+Santara AI connects to **54 sales channels**, plus your own booking site. Two of them have a flow
+built into Santara AI end to end; the other 52 you pick from the channel catalogue in the app.
+
+| Channel | How it connects |
+| --- | --- |
+| **Airbnb** | You authorise Santara AI on Airbnb, then pick listings — [Connect Airbnb](/channels/airbnb/) |
+| **Booking.com** | You add a connectivity provider in the extranet, then enter your Hotel ID — [Connect Booking.com](/channels/booking-com/) |
+| **The other 52** — Agoda, Expedia, Trip.com, Vrbo, Traveloka, Tiket.com, Hostelworld and more | **Settings → Channels → Add a channel**, pick it from the catalogue, then connect and map it in a three-step setup — [Connect another channel](/channels/other-channels/) |
+| **Your booking site** | Built into Santara AI, no connection needed — [Your direct booking site](/setup/booking-site/) |
+| **PriceLabs** | Read-only detection: if you run PriceLabs, Santara AI's own pricing engine stands aside |
+
+Every channel gets the same calendar, rates and restrictions, and brings bookings, cancellations
+and guests in. Two things differ by channel:
+
+- **Guest messages.** Replies go out on **Airbnb, Booking.com and Expedia** only — those are the
+  channels whose guest messaging the channel manager carries. On any other channel, answer the
+  guest in that channel's own inbox. Vrbo guest messages are not supported.
+- **Reviews** arrive, and can be answered, where the channel passes them on.
 
 ![Settings → Channels before anything is connected. Each channel is linked on its own and carries its own status and last-sync time.](/screens/channels.en.png)
 
@@ -38,7 +49,9 @@ A **connection** is one channel account. You can connect:
 
 - several **Airbnb accounts** to one workspace — a common case for managers who hold listings
   under different host logins;
-- several **Booking.com properties**, one per Hotel ID.
+- several **Booking.com properties**, one per Hotel ID;
+- any other channel from the catalogue, **one property at a time** — connect the same channel again
+  for another property.
 
 Each connection has its own page under **Settings → Channels** showing its listings, when it last
 synced, and every action available for it. Nothing in Santara AI assumes there is only one of

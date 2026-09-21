@@ -1,6 +1,6 @@
 ---
 title: Situs booking langsung Anda
-description: Situs pemesanan tanpa komisi di subdomain Anda sendiri, dibayarkan ke akun Stripe Anda sendiri.
+description: Situs pemesanan tanpa komisi di subdomain atau domain Anda sendiri, dibayarkan ke akun Stripe Anda sendiri.
 sidebar:
   order: 2
 ---
@@ -51,7 +51,8 @@ lewat pertanyaan.
 **Pembayaran** menghubungkan akun Stripe Anda sendiri. Anda masuk (atau membuat akun) di situs
 Stripe. Santara AI tidak pernah menyentuh uangnya dan tidak pernah melihat nomor kartu.
 
-Anda dapat menambahkan **biaya layanan** pada booking langsung, dibayar tamu di atas harga menginap:
+Anda dapat menambahkan **biaya layanan** pada booking langsung — **3%** kecuali paket Anda
+menyebut lain — dibayar tamu di atas harga menginap:
 
 - Payout Anda tidak berubah.
 - Biaya ditampilkan sebagai baris tersendiri sebelum siapa pun mencapai formulir kartu.
@@ -62,6 +63,22 @@ Anda dapat menambahkan **biaya layanan** pada booking langsung, dibayar tamu di 
 
 Sebelum Anda menerbitkan, situs sepenuhnya ditolak untuk crawler — tidak ada yang bocor sebelum Anda
 siap. Menerbitkan menghasilkan sitemap dan aturan robots, dan menjaganya tetap sejalan.
+
+## Domain Anda sendiri
+
+Situs selalu tersedia di subdomainnya. Untuk menayangkannya juga dari domain milik Anda — misalnya
+`stay.villaanda.com` — gunakan kartu **Domain kustom** di halaman situs booking:
+
+1. Masukkan domain lalu tekan **Hubungkan domain**.
+2. Tambahkan dua record DNS yang ditampilkan (TXT dan CNAME) di penyedia DNS Anda, lalu tekan
+   **Verifikasi**. Perubahan DNS bisa memakan waktu hingga satu jam.
+3. Setelah statusnya **Aktif**, tautan, sitemap, dan pratinjau media sosial memakai domain baru.
+   Subdomain tetap berfungsi di sampingnya.
+
+Sebagian besar penyedia tidak bisa memasang CNAME di domain utama (`villaanda.com` tanpa awalan) —
+gunakan record ALIAS atau ANAME, atau hubungkan subdomain seperti `stay.`. HTTPS untuk domain
+kustom diaktifkan oleh tim Santara AI setelah Anda memverifikasi; jika ikon gembok belum muncul
+dalam sehari, [hubungi dukungan](/id/help/support/).
 
 ## Halaman dan tulisan blog
 

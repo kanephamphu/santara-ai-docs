@@ -5,7 +5,7 @@ sidebar:
   order: 8
 ---
 
-Mọi đánh giá khách để lại, từ mọi kênh đã kết nối, trong một danh sách — với những cái chưa được phản
+Mọi đánh giá khách để lại, từ mọi kênh đã kết nối có chuyển đánh giá, trong một danh sách — với những cái chưa được phản
 hồi nằm trên đầu.
 
 ![Đánh giá từ mọi kênh, với số chưa được trả lời đếm ở phía trên.](/screens/reviews.vi.png)

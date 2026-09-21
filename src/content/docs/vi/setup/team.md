@@ -63,7 +63,7 @@ Họ đăng nhập và thấy các ca dọn được giao, đúng ngày diễn r
 tòa đó. Họ đánh dấu hoàn tất, kèm ảnh nếu cần. Với họ, sản phẩm chỉ có vậy, và đó là chủ ý.
 
 Nếu bạn không muốn cấp tài khoản, hãy chia sẻ
-[tin nhắn cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng) từ bản tóm tắt hằng ngày — nó chứa công việc
+[tin nhắn cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng) từ bản tin hằng ngày — nó chứa công việc
 của họ và không có gì khác.
 
 ## Gỡ một người khỏi đội

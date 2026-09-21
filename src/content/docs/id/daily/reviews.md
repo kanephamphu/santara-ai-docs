@@ -5,7 +5,7 @@ sidebar:
   order: 8
 ---
 
-Setiap ulasan yang tamu tinggalkan, dari setiap channel terhubung, dalam satu daftar — dengan yang
+Setiap ulasan yang tamu tinggalkan, dari setiap channel terhubung yang meneruskan ulasan, dalam satu daftar — dengan yang
 belum dibalas berada di atas.
 
 ![Ulasan dari semua channel, dengan jumlah yang belum dibalas di bagian atas.](/screens/reviews.id.png)

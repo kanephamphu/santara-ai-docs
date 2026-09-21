@@ -34,7 +34,7 @@ nhà mất khách:
 - **Giá** do quy tắc của bạn tính ra được xuất bản sang các kênh.
 - **Cơ hội upsell** — trả phòng muộn, thêm một đêm, nhận phòng sớm — được phát hiện từ lịch và soạn
   sẵn thành bản nháp.
-- **Bản tóm tắt hằng ngày** được viết cho bạn mỗi sáng, bằng ngôn ngữ của bạn.
+- **Bản tin hằng ngày** được viết cho bạn mỗi sáng, bằng ngôn ngữ của bạn.
 
 Và điều gì thì không:
 

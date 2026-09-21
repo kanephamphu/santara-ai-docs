@@ -43,7 +43,7 @@ tên không bao giờ thấy ứng dụng; họ nhận việc như trước nay,
 **Cụm dọn phòng** là nhóm bất động sản do một người phụ trách — thường vì chúng gần nhau. Đặt cụm cho
 một bất động sản trên trang của nó.
 
-Cụm thay đổi hai thứ: bảng nhóm theo cụm, và [bản tóm tắt hằng ngày](/vi/daily/) tạo **một tin nhắn
+Cụm thay đổi hai thứ: bảng nhóm theo cụm, và [bản tin hằng ngày](/vi/daily/) tạo **một tin nhắn
 WhatsApp cho mỗi cụm** chỉ liệt kê công việc của cụm đó. Đó là tin bạn gửi cho nhân viên — nó chứa
 công việc của họ và không có gì khác về danh mục của bạn.
 
