@@ -2,7 +2,7 @@
 title: Kết nối kênh khác
 description: Agoda, Expedia, Trip.com, Vrbo và phần còn lại của danh mục — chọn chỗ nghỉ, kết nối kênh, ánh xạ phòng, rồi để đặt phòng tự chuyển về.
 sidebar:
-  order: 3.5
+  order: 4
 ---
 
 Airbnb và Booking.com có luồng riêng ([Airbnb](/vi/channels/airbnb/),

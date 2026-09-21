@@ -2,7 +2,7 @@
 title: Go live
 description: Mengimpor listing tidak menyerahkan kalender Anda. Halaman ini menjelaskan apa yang berubah saat Anda menekan Go live, dan apa yang harus diperiksa dulu.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Baca ini sebelum menekan tombolnya. Inilah satu-satunya halaman dalam dokumentasi ini yang

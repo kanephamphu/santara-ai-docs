@@ -2,7 +2,7 @@
 title: Connect another channel
 description: Agoda, Expedia, Trip.com, Vrbo and the rest of the catalogue — pick a property, connect the channel, map its rooms, and watch the bookings come across.
 sidebar:
-  order: 3.5
+  order: 4
 ---
 
 Airbnb and Booking.com have their own flows ([Airbnb](/channels/airbnb/),

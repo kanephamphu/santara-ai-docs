@@ -2,7 +2,7 @@
 title: Channel troubleshooting
 description: The dozen things that actually go wrong with a connection, and what fixes each one.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 Start with the two moves that fix most of it: check **Settings → Channels** for the connection's

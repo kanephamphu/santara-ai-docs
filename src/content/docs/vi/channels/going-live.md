@@ -2,7 +2,7 @@
 title: Go live
 description: Nhập listing không đồng nghĩa với giao lịch. Trang này nói điều gì thay đổi khi bạn bấm Go live, và cần kiểm tra gì trước.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Hãy đọc trước khi bấm nút. Đây là trang duy nhất trong tài liệu này mô tả một hành động không thể âm

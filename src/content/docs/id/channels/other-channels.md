@@ -2,7 +2,7 @@
 title: Hubungkan channel lain
 description: Agoda, Expedia, Trip.com, Vrbo, dan seluruh katalog — pilih properti, hubungkan channel, petakan kamarnya, lalu biarkan booking masuk.
 sidebar:
-  order: 3.5
+  order: 4
 ---
 
 Airbnb dan Booking.com punya alur sendiri ([Airbnb](/id/channels/airbnb/),

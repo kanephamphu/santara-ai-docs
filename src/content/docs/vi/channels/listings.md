@@ -2,7 +2,7 @@
 title: Quản lý listing sau khi thiết lập
 description: Nhập thêm, gỡ một cái, chuyển listing sang phòng khác, và đọc xem mỗi kết nối đang làm gì.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 Mọi thứ dưới đây nằm ở **Cài đặt → Kênh**, hoặc trên trang riêng của từng kết nối — mở một kết nối để
