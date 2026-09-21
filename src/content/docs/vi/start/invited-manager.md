@@ -20,7 +20,7 @@ Không có vai trò "property manager" riêng, và bạn cũng không cần — 
    đặt của workspace.
 3. **Đọc [Santara AI được cấu trúc thế nào](/vi/start/concepts/)**. Sáu từ — workspace, bất động sản,
    phòng, rate plan, listing, kết nối — và mọi màn hình thôi khó hiểu.
-4. **Mở Hôm nay.** Bản tóm tắt hằng ngày chính là công việc. Mọi thứ khác là nơi bạn tới khi bản
+4. **Mở Hôm nay.** Bản tin hằng ngày chính là công việc. Mọi thứ khác là nơi bạn tới khi bản
    tóm tắt chỉ bạn tới đó.
 
 Rồi theo [Tuần đầu tiên của bạn](/vi/start/first-week/), đó mới là nhịp làm việc thật.
@@ -81,7 +81,7 @@ tóm tắt như *"3 tòa nhà · 7 phòng"* trên màn hình đội ngũ là nh�
 
 - **Thông báo được gửi theo ai có thể xử lý**, không theo tên. Bạn sẽ bắt đầu nhận những thông báo
   thuộc trách nhiệm vai trò của mình mà không ai phải trỏ lại thứ gì.
-- **Bản tóm tắt hằng ngày được viết bằng ngôn ngữ của workspace**, không phải của bạn. Nếu đội đọc
+- **Bản tin hằng ngày được viết bằng ngôn ngữ của workspace**, không phải của bạn. Nếu đội đọc
   tiếng Indonesia còn bạn làm việc bằng tiếng Anh, đó chính là kết quả được thiết kế — giao diện của
   bạn vẫn là tiếng Anh.
 - **Mọi việc bạn làm đều ghi tên bạn** và vẫn giữ tên bạn sau khi bạn rời đi. Điều đó bảo vệ bạn

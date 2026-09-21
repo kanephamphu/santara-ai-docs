@@ -10,7 +10,7 @@ sidebar:
 **Kapabilitas** — izin bernama seperti `stay.read` atau `pricing.write`. Peran adalah kumpulan
 kapabilitas; layar dan rute API meminta yang sama. Lihat [Tim dan peran](/id/setup/team/).
 
-**Channel** — tempat Anda berjualan: Airbnb, Booking.com, situs booking Anda sendiri.
+**Channel** — tempat Anda berjualan: Airbnb, Booking.com, Agoda, Expedia, dan channel lain di katalog, situs booking Anda sendiri.
 
 **Klaster kebersihan** — kelompok properti yang ditangani satu petugas. Menentukan pengelompokan
 papan dan pesan WhatsApp per klaster di ringkasan harian.

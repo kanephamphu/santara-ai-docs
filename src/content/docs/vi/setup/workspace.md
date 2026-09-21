@@ -19,22 +19,22 @@ vì đó là nơi người ta tìm mật khẩu của chính mình. Xem
 | **Đội ngũ** | Dùng chung — [người và vai trò](/vi/setup/team/) |
 | **Thanh toán** | Dùng chung — [gói và hóa đơn](/vi/setup/billing/) |
 
-![Cài đặt workspace: giờ và ngôn ngữ bản tóm tắt, múi giờ, tiền tệ và phần còn lại.](/screens/workspace-settings.vi.png)
+![Cài đặt workspace: giờ và ngôn ngữ bản tin hằng ngày, múi giờ, tiền tệ và phần còn lại.](/screens/workspace-settings.vi.png)
 
 ## Ngôn ngữ
 
 Giao diện Santara AI có sẵn bằng **English, Bahasa Indonesia và Tiếng Việt**.
 
 - Cài đặt ngôn ngữ của **bạn** đổi giao diện cho bạn.
-- Ngôn ngữ của **workspace** quyết định [bản tóm tắt hằng ngày](/vi/daily/) được viết bằng ngôn ngữ
+- Ngôn ngữ của **workspace** quyết định [bản tin hằng ngày](/vi/daily/) được viết bằng ngôn ngữ
   nào, và là mặc định cho mọi thứ workspace tạo ra cho cả nhóm.
 
 Hai thứ này tách nhau có chủ ý: một quản lý nói tiếng Việt có thể làm việc bằng tiếng Việt trong một
-workspace mà bản tóm tắt được gửi bằng tiếng Indonesia cho đội dọn phòng.
+workspace mà bản tin hằng ngày được gửi bằng tiếng Indonesia cho đội dọn phòng.
 
 ## Múi giờ
 
-Múi giờ của workspace quyết định "hôm nay" nghĩa là gì — cho lượt đến, dọn phòng, bản tóm tắt, và mọi
+Múi giờ của workspace quyết định "hôm nay" nghĩa là gì — cho lượt đến, dọn phòng, bản tin hằng ngày, và mọi
 ngày trên mọi báo cáo. Hãy đặt theo nơi có bất động sản, không phải nơi bạn đang ở.
 
 ## Tiền tệ
@@ -48,13 +48,13 @@ Tab workspace chứa những thiết lập thay đổi cách sản phẩm hoạt
 
 | Thiết lập | Tác dụng |
 | --- | --- |
-| **Giờ tạo bản tóm tắt** | Khi nào [bản tóm tắt](/vi/daily/) được tạo mỗi ngày |
-| **Ngôn ngữ bản tóm tắt** | Nó được viết bằng ngôn ngữ nào — tách khỏi ngôn ngữ giao diện |
+| **Giờ báo cáo hằng ngày** | Khi nào [bản tin hằng ngày](/vi/daily/) được tạo mỗi ngày |
+| **Ngôn ngữ báo cáo hằng ngày** | Nó được viết bằng ngôn ngữ nào — tách khỏi ngôn ngữ giao diện |
 | **Múi giờ workspace** | "Hôm nay" nghĩa là gì, ở mọi nơi |
 | **Tiền tệ hiển thị** | Đơn vị hiển thị các con số |
 | **Giọng điệu tin nhắn mặc định** | Giọng mà bản nháp trả lời khách bắt đầu từ đó |
 | **Giá trị upsell tối thiểu** | Cơ hội thấp hơn mức này không được đưa lên, để dòng cơ hội còn đáng đọc |
-| **Mở Bản tóm tắt trước** | Khởi động ứng dụng ở bản tóm tắt thay vì bảng điều khiển |
+| **Mở Bản tin hằng ngày trước** | Khởi động ứng dụng ở bản tin hằng ngày thay vì bảng điều khiển |
 | **Cảnh báo khách đến trong ngày** | Gửi email cho nhóm khi có đặt phòng cho khách nhận phòng hôm nay — mặc định bật |
 | **Kênh thông báo** | Hiện tại là bảng điều khiển; email và SMS chưa nối |
 

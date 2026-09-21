@@ -9,15 +9,19 @@ Setelah live, produk ini masuk ke ritme. Inilah ritmenya.
 
 ## Setiap pagi — lima menit
 
-Buka **Hari ini**. Ringkasan harian ditulis untuk workspace pada waktu yang Anda atur, dan
-menyampaikan berurutan:
+Buka **Hari ini** (ringkasan yang sama ada di email Anda — pukul 05.00 kecuali Anda memilih jam
+lain). Isinya berurutan:
 
-1. **Yang butuh keputusan** — tamu bertanya, kedatangan yang belum dikonfirmasi, kebersihan tanpa
-   petugas.
-2. **Kedatangan, sedang menginap, dan keberangkatan** hari ini.
-3. **Kebersihan** tiga hari ke depan, dikelompokkan per klaster, lengkap dengan pesan siap tempel
-   ke WhatsApp.
-4. **Pendapatan sejauh ini** bulan ini dibanding bulan lalu.
+1. **Sekilas hari ini** — kedatangan, keberangkatan, dan pergantian tamu hari ini.
+2. **Kartu skor** — pendapatan hari ini, okupansi, dan tarif rata-rata per malam, dibanding bulan
+   berjalan.
+3. **Yang butuh keputusan** — tamu bertanya, pergantian yang berisiko, kebersihan tanpa petugas,
+   tiket yang masih terbuka.
+4. **Upsell yang layak ditawarkan** — late check-out, check-in awal, dan malam tambahan yang muat
+   di kalender.
+5. **Kebersihan** tiga hari ke depan, dikelompokkan per klaster, dengan rencana tiap klaster siap
+   dibagikan ke Zalo atau WhatsApp dengan satu ketukan.
+6. **Besok** — satu baris tentang kedatangan, keberangkatan, dan pergantian tamu besok.
 
 Jika sebuah kartu menyatakan ada yang butuh Anda, ketuk — layar yang tepat akan terbuka. Jika tidak
 ada, pagi Anda selesai.

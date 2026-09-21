@@ -37,7 +37,7 @@ Hai cách, và bạn không phải chọn một cách cho tất cả mọi ngư�
 
 - **Cấp tài khoản cho họ.** Nhân viên đăng nhập và thấy các ca dọn được giao, đánh dấu hoàn tất, và
   đính kèm ảnh. Không gì khác. Xem [Đội ngũ và vai trò](/vi/setup/team/).
-- **Gửi họ tin nhắn theo cụm.** [Bản tóm tắt hằng ngày](/vi/daily/) soạn một tin WhatsApp cho mỗi
+- **Gửi họ tin nhắn theo cụm.** [Bản tin hằng ngày](/vi/daily/) soạn một tin WhatsApp cho mỗi
   [cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng), chứa công việc của cụm đó và không có gì khác về
   danh mục của bạn. Không ai bị ép dùng ứng dụng.
 

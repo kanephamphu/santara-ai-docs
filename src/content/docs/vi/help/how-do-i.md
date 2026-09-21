@@ -153,7 +153,7 @@ không phải câu trả lời chung chung.
 | Đổi mật khẩu | [Tài khoản và bảo mật của bạn](/vi/setup/account/#đổi-mật-khẩu) |
 | Vào lại sau quá nhiều lần đăng nhập sai | Chờ 15 phút — [Nếu bạn bị khóa](/vi/setup/account/#nếu-bạn-bị-khóa) |
 | Đổi ngôn ngữ giao diện chỉ cho riêng tôi | [Tài khoản và bảo mật của bạn](/vi/setup/account/#ngôn-ngữ-và-múi-giờ) |
-| Đổi ngôn ngữ của bản tóm tắt hằng ngày | Đó là cài đặt workspace — [Ngôn ngữ](/vi/setup/workspace/#ngôn-ngữ) |
+| Đổi ngôn ngữ của bản tin hằng ngày | Đó là cài đặt workspace — [Ngôn ngữ](/vi/setup/workspace/#ngôn-ngữ) |
 | Sửa ngày tháng và "hôm nay" bị sai | [Múi giờ](/vi/setup/workspace/#múi-giờ) |
 | Tắt những thông báo tôi không cần | [Thông báo](/vi/setup/workspace/#thông-báo) |
 | Chạy hai danh mục không được lẫn nhau | Hai workspace — [Chuyển workspace](/vi/setup/workspace/#chuyển-workspace) |

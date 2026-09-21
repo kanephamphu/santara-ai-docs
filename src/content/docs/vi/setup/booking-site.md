@@ -1,6 +1,6 @@
 ---
 title: Website đặt phòng trực tiếp của bạn
-description: Website đặt phòng không hoa hồng trên tên miền phụ của bạn, tiền vào thẳng tài khoản Stripe của bạn.
+description: Website đặt phòng không hoa hồng trên tên miền phụ hoặc tên miền riêng của bạn, tiền vào thẳng tài khoản Stripe của bạn.
 sidebar:
   order: 2
 ---
@@ -51,7 +51,8 @@ cầu.
 **Thanh toán** kết nối tài khoản Stripe của chính bạn. Bạn đăng nhập (hoặc tạo tài khoản) trên trang
 của Stripe. Santara AI không bao giờ chạm vào tiền và không bao giờ thấy số thẻ.
 
-Bạn có thể thêm **phí dịch vụ** cho đặt phòng trực tiếp, do khách trả thêm ngoài tiền phòng:
+Bạn có thể thêm **phí dịch vụ** cho đặt phòng trực tiếp — **3%** trừ khi gói của bạn quy định
+khác — do khách trả thêm ngoài tiền phòng:
 
 - Số tiền bạn nhận không đổi.
 - Phí hiển thị thành dòng riêng trước khi ai đó tới biểu mẫu thẻ.
@@ -61,6 +62,22 @@ Bạn có thể thêm **phí dịch vụ** cho đặt phòng trực tiếp, do k
 
 Trước khi bạn xuất bản, site hoàn toàn bị chặn với trình thu thập — không gì rò rỉ trước khi bạn sẵn
 sàng. Xuất bản sẽ tạo sitemap và quy tắc robots, và giữ chúng đồng bộ về sau.
+
+## Tên miền của riêng bạn
+
+Website luôn chạy ở tên miền phụ của nó. Để phục vụ thêm từ một tên miền bạn sở hữu — ví dụ
+`stay.villacuaban.com` — hãy dùng thẻ **Tên miền riêng** trên trang website đặt phòng:
+
+1. Nhập tên miền rồi bấm **Kết nối tên miền**.
+2. Thêm hai bản ghi DNS được hiển thị (một TXT và một CNAME) tại nhà cung cấp DNS, rồi bấm
+   **Xác minh**. Thay đổi DNS có thể mất tới một giờ để lan truyền.
+3. Khi trạng thái là **Đang hoạt động**, liên kết, sitemap và ảnh xem trước mạng xã hội sẽ dùng tên
+   miền mới. Tên miền phụ vẫn chạy song song.
+
+Đa số nhà cung cấp không đặt được CNAME cho tên miền gốc (`villacuaban.com` không có tiền tố) — hãy
+dùng bản ghi ALIAS hoặc ANAME, hoặc kết nối một tên miền phụ như `stay.`. HTTPS cho tên miền riêng
+được đội Santara AI bật sau khi bạn xác minh; nếu sau một ngày vẫn chưa thấy biểu tượng ổ khóa, hãy
+[liên hệ hỗ trợ](/vi/help/support/).
 
 ## Trang và bài blog
 

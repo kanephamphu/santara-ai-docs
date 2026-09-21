@@ -44,7 +44,7 @@ Santara AI không âm thầm sửa một lượt đặt thay bạn.
 
 ## Lời chào còn xuất hiện ở đâu
 
-- Trong [bản tóm tắt hằng ngày](/vi/daily/) — cơ hội giá trị nhất cho khách hôm nay.
+- Trong [bản tin hằng ngày](/vi/daily/) — cơ hội giá trị nhất cho khách hôm nay.
 - Trong [Tin nhắn](/vi/daily/messages/) — như một gợi ý trong luồng liên quan.
 - Trong [Báo cáo](/vi/money/reports/) — báo cáo upsell xếp hạng cơ hội đang mở, bị bỏ lỡ và đã chốt.
 
