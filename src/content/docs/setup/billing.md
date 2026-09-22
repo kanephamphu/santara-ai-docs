@@ -108,9 +108,7 @@ mid-month by accident.
 [direct booking site](/setup/booking-site/). Nothing is deducted from your payout at any plan level
 or portfolio size.
 
-There is exactly one charge beyond the subscription, and it is optional: the direct booking
-engine's **3% service fee**, which is added on top of the rate and **paid by the guest**. It never
-touches this bill and never touches your payout.
+**0% commission on bookings and upsells**, on every channel and on direct bookings.
 
 ## Adding a listing mid-month
 

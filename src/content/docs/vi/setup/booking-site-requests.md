@@ -37,8 +37,7 @@ bằng sự tiện lợi.
 
 ### Tiền
 
-Nếu khách đã trả, số tiền bao gồm **phí dịch vụ** bạn đã cấu hình — phần bạn nhận là số còn lại, và
-phí đó hiển thị thành dòng riêng trước khi ai đó tới biểu mẫu thẻ.
+Santara AI không lấy hoa hồng trên lượt đặt đó.
 
 :::caution[Hoàn tiền không phải là hủy]
 **Hoàn tiền chỉ trả lại tiền. Lượt lưu trú vẫn nằm trên lịch của bạn cho tới khi bạn hủy nó** — và

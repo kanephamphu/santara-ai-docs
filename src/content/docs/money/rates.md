@@ -39,7 +39,7 @@ Plans are **mirrored with your connected channels**. Edits here sync out; a plan
 channel side appears here after a refresh rather than needing to be retyped.
 
 Restriction fields on a plan apply to **every day**. Leave one blank to keep whatever the channel
-manager currently holds — a blank is "don't manage this", not "set it to zero".
+currently holds — a blank is "don't manage this", not "set it to zero".
 
 :::caution[Booking.com needs its occupancies priced]
 If a rate plan has no price for a guest count Booking.com accepts, that room stays *linked but not

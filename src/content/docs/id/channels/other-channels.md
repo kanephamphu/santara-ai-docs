@@ -1,12 +1,12 @@
 ---
 title: Hubungkan channel lain
-description: Agoda, Expedia, Trip.com, Vrbo, dan seluruh katalog — pilih properti, hubungkan channel, petakan kamarnya, lalu biarkan booking masuk.
+description: Agoda, Expedia, Trip.com, Vrbo, dan setiap channel lain — pilih properti, hubungkan channel, petakan kamarnya, lalu biarkan booking masuk.
 sidebar:
   order: 4
 ---
 
 Airbnb dan Booking.com punya alur sendiri ([Airbnb](/id/channels/airbnb/),
-[Booking.com](/id/channels/booking-com/)). Setiap channel lain di katalog terhubung dengan cara yang
+[Booking.com](/id/channels/booking-com/)). Setiap channel lain terhubung dengan cara yang
 sama, lewat tiga langkah di dalam Santara AI.
 
 ## Yang Anda perlukan
@@ -34,9 +34,8 @@ lain di channel yang sama, hubungkan lagi dan pilih properti itu.
 - **Petakan setiap kamar** ke kamar atau listing yang cocok di channel, dan pilih rate plan Anda
   mana yang mengisi setiap tarif channel. Beberapa channel membaca rate plan Anda langsung — di sana
   Anda memilih rate plan yang harus diterima channel.
-- Di beberapa channel langkah ini berjalan di **layar milik channel manager**, disematkan di
-  halaman. Tampilannya berbeda dari bagian lain Santara AI, dan hanya properti yang Anda pilih yang
-  terlihat di sana. Setelah selesai, tekan **Saya sudah selesai**.
+- Di beberapa channel langkah ini menampilkan **layar pemetaan tersendiri**. Tampilannya berbeda
+  dari bagian lain Santara AI, dan hanya properti yang Anda pilih yang terlihat di sana. Setelah selesai, tekan **Saya sudah selesai**.
 
 Kamar yang rate plan-nya tidak menetapkan harga untuk jumlah tamu yang diterima channel tetap
 **tertaut tetapi belum dipetakan**, dengan catatan kamar mana. Santara AI tidak menebak pada listing

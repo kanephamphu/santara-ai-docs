@@ -1,12 +1,12 @@
 ---
 title: Connect another channel
-description: Agoda, Expedia, Trip.com, Vrbo and the rest of the catalogue — pick a property, connect the channel, map its rooms, and watch the bookings come across.
+description: Agoda, Expedia, Trip.com, Vrbo and every other channel — pick a property, connect the channel, map its rooms, and watch the bookings come across.
 sidebar:
   order: 4
 ---
 
 Airbnb and Booking.com have their own flows ([Airbnb](/channels/airbnb/),
-[Booking.com](/channels/booking-com/)). Every other channel in the catalogue connects the same way,
+[Booking.com](/channels/booking-com/)). Every other channel connects the same way,
 in a three-step setup inside Santara AI.
 
 ## What you need
@@ -34,9 +34,8 @@ same channel, connect it again and pick that property.
 - **Map each room** to the matching room or listing on the channel, and choose which of your rate
   plans each channel rate feeds. A few channels read your rate plans directly instead — there you
   pick the rate plans the channel should receive.
-- On some channels this step runs in the **channel manager's own screens**, embedded in the page.
-  They look different from the rest of Santara AI, and only the property you picked is visible in
-  them. When you have finished, press **I'm done**.
+- On some channels this step shows a **mapping screen of its own**. It looks different from the
+  rest of Santara AI, and only the property you picked is visible in it. When you have finished, press **I'm done**.
 
 A room whose rate plan does not price a guest count the channel accepts stays **linked but not
 mapped**, with a note saying which. Santara AI does not guess on a live listing — adjust the rate

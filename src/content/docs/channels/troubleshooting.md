@@ -26,7 +26,7 @@ none.
 
 **No Booking.com rooms are found.**
 Almost always the connectivity provider step. In the extranet, **Account → Connectivity provider**,
-search **Channex**, select it, accept the agreement. Then refresh here. If it still finds nothing,
+search for the provider named in the connect dialog, select it, accept the agreement. Then refresh here. If it still finds nothing,
 re-check the Hotel ID against the number at the top of the extranet.
 
 ## After import

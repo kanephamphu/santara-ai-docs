@@ -15,7 +15,7 @@ permission in your own extranet, then tell Santara AI which property to attach t
 In the **Booking.com extranet**:
 
 1. Open **Account → Connectivity provider**.
-2. Search for **Channex** — our connectivity partner.
+2. Search for the connectivity provider named in Santara AI's Booking.com connect dialog.
 3. Select it and **accept the connection agreement**.
 
 Nothing happens in Santara AI until this is done. The connect dialog has a checkbox confirming you

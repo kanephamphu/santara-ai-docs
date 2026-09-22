@@ -25,7 +25,7 @@ bạn đã cấp phép bằng tài khoản sở hữu listing — tài khoản c
 
 **Không tìm thấy phòng Booking.com.**
 Hầu như luôn là bước nhà cung cấp kết nối. Trong extranet: **Account → Connectivity provider**, tìm
-**Channex**, chọn, chấp nhận thỏa thuận. Rồi làm mới tại đây. Nếu vẫn trống, kiểm tra lại Hotel ID.
+nhà cung cấp được nêu trong hộp thoại kết nối, chọn, chấp nhận thỏa thuận. Rồi làm mới tại đây. Nếu vẫn trống, kiểm tra lại Hotel ID.
 
 ## Sau khi nhập
 

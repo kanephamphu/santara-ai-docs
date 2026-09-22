@@ -92,8 +92,7 @@ Thanh toán từ [website đặt phòng trực tiếp](/vi/setup/booking-site/) 
 của chính bạn**, không phải của chúng tôi. Santara AI không bao giờ giữ tiền của khách và không bao giờ
 lấy hoa hồng trên một lượt đặt, ở bất kỳ kênh nào.
 
-Thứ duy nhất được cộng thêm vào một lượt đặt trực tiếp là **phí dịch vụ 3% do khách trả** trên giá
-phòng, và nó là tùy chọn. Khoản đó không bị trừ vào payout của bạn.
+Đặt phòng trực tiếp cũng **0% hoa hồng**.
 
 ## Lấy dữ liệu ra
 

@@ -39,7 +39,7 @@ Các plan được **phản chiếu với những kênh bạn đã kết nối**
 ở phía kênh sẽ xuất hiện tại đây sau khi làm mới, không phải gõ lại.
 
 Các trường ràng buộc trên một plan áp cho **mọi ngày**. Để trống một trường là giữ nguyên giá trị
-channel manager đang có — trống nghĩa là "đừng quản lý cái này", không phải "đặt về 0".
+kênh đang có — trống nghĩa là "đừng quản lý cái này", không phải "đặt về 0".
 
 :::caution[Booking.com cần các mức sức chứa được định giá]
 Nếu một rate plan không có giá cho số khách mà Booking.com chấp nhận, phòng đó sẽ ở nguyên trạng thái

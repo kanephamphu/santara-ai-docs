@@ -1,12 +1,12 @@
 ---
 title: Kết nối kênh khác
-description: Agoda, Expedia, Trip.com, Vrbo và phần còn lại của danh mục — chọn chỗ nghỉ, kết nối kênh, ánh xạ phòng, rồi để đặt phòng tự chuyển về.
+description: Agoda, Expedia, Trip.com, Vrbo và mọi kênh khác — chọn chỗ nghỉ, kết nối kênh, ánh xạ phòng, rồi để đặt phòng tự chuyển về.
 sidebar:
   order: 4
 ---
 
 Airbnb và Booking.com có luồng riêng ([Airbnb](/vi/channels/airbnb/),
-[Booking.com](/vi/channels/booking-com/)). Mọi kênh khác trong danh mục kết nối theo cùng một cách,
+[Booking.com](/vi/channels/booking-com/)). Mọi kênh khác kết nối theo cùng một cách,
 qua ba bước ngay trong Santara AI.
 
 ## Bạn cần gì
@@ -34,8 +34,8 @@ cùng kênh, hãy kết nối lại và chọn chỗ nghỉ đó.
 - **Ánh xạ từng phòng** với phòng hoặc listing tương ứng trên kênh, và chọn gói giá nào của bạn cấp
   cho từng mức giá của kênh. Một vài kênh đọc thẳng gói giá của bạn — khi đó bạn chọn những gói giá
   kênh sẽ nhận.
-- Ở một số kênh, bước này chạy trong **màn hình riêng của channel manager**, được nhúng vào trang.
-  Giao diện khác phần còn lại của Santara AI, và chỉ chỗ nghỉ bạn đã chọn hiện trong đó. Xong thì bấm
+- Ở một số kênh, bước này hiện **màn hình ánh xạ riêng**. Giao diện khác phần còn lại của
+  Santara AI, và chỉ chỗ nghỉ bạn đã chọn hiện trong đó. Xong thì bấm
   **Tôi đã xong**.
 
 Phòng có gói giá không định giá cho số khách mà kênh chấp nhận sẽ ở trạng thái **đã liên kết nhưng

@@ -82,5 +82,5 @@ Chưa — đang được xây dựng cho iOS và Android cùng lúc. Xem [Trên 
 
 **Hỗ trợ những kênh nào?**
 54 kênh bán phòng, cùng website đặt phòng của bạn. Airbnb và Booking.com có luồng kết nối riêng;
-Agoda, Expedia, Trip.com, Vrbo và các kênh còn lại kết nối từ danh mục kênh trong **Cài đặt → Kênh**.
+Agoda, Expedia, Trip.com, Vrbo và các kênh còn lại kết nối từ danh sách kênh trong **Cài đặt → Kênh**.
 Trả lời khách được gửi trên Airbnb, Booking.com và Expedia. Xem [Kênh](/vi/channels/).

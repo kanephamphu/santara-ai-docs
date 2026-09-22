@@ -39,7 +39,7 @@ Plan **dicerminkan dengan channel terhubung Anda**. Perubahan di sini tersinkron
 dibuat di sisi channel muncul di sini setelah disegarkan, tanpa perlu diketik ulang.
 
 Kolom restriksi pada sebuah plan berlaku untuk **setiap hari**. Kosongkan satu kolom untuk
-mempertahankan nilai yang kini dipegang channel manager — kosong berarti "jangan kelola ini", bukan
+mempertahankan nilai yang kini dipegang channel — kosong berarti "jangan kelola ini", bukan
 "setel ke nol".
 
 :::caution[Booking.com butuh okupansinya diberi harga]
