@@ -15,7 +15,7 @@ mình, rồi cho Santara AI biết nó gắn với bất động sản nào.
 Trong **extranet Booking.com**:
 
 1. Mở **Account → Connectivity provider**.
-2. Tìm **Channex** — đối tác kết nối của chúng tôi.
+2. Tìm nhà cung cấp kết nối được nêu trong hộp thoại kết nối Booking.com của Santara AI.
 3. Chọn và **chấp nhận thỏa thuận kết nối**.
 
 Không gì xảy ra trong Santara AI trước khi việc này hoàn tất. Hộp thoại kết nối có ô xác nhận, vì bỏ qua

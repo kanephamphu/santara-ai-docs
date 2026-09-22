@@ -50,12 +50,7 @@ Pick the properties on the site and how guests can book each one — instantly, 
 **Payments** connects your own Stripe account. You sign in to (or create) Stripe on Stripe's own
 site. Santara AI never touches the money and never sees a card number.
 
-You can optionally add a **service fee** on direct bookings — **3%** unless your plan says
-otherwise — paid by the guest on top of the stay:
-
-- Your payout is unchanged.
-- It is shown as its own line before anyone reaches a card form.
-- It applies to **new bookings only** — bookings already taken keep the fee they were quoted.
+Santara AI takes **0% commission** on direct bookings. Payments go to your own Stripe account.
 
 ## 6. Publish
 

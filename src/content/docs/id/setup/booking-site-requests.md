@@ -38,9 +38,7 @@ yang tamunya ingin Anda saring, dan pilihan salah untuk apa pun yang bersaing pa
 
 ### Uang
 
-Jika tamu sudah membayar, jumlahnya termasuk **biaya layanan** yang Anda konfigurasikan — bagian Anda
-adalah sisanya, dan biaya itu ditampilkan sebagai baris tersendiri sebelum siapa pun mencapai
-formulir kartu.
+Santara AI tidak mengambil komisi atas booking tersebut.
 
 :::caution[Mengembalikan dana bukan membatalkan]
 **Pengembalian dana hanya mengembalikan uang. Masa menginap tetap ada di kalender Anda sampai Anda

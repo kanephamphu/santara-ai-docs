@@ -109,9 +109,7 @@ không nên xảy ra giữa tháng vì sơ ý.
 [website đặt phòng trực tiếp](/vi/setup/booking-site/) của chính bạn. Không có gì bị trừ khỏi payout
 của bạn ở bất kỳ bậc gói nào và quy mô danh mục nào.
 
-Có đúng một khoản ngoài gói thuê bao, và nó là tùy chọn: **phí dịch vụ 3%** của bộ máy đặt phòng
-trực tiếp, được cộng lên trên giá phòng và **do khách trả**. Nó không bao giờ chạm vào hóa đơn này
-và không bao giờ chạm vào payout của bạn.
+**0% hoa hồng trên booking và upsell**, trên mọi kênh và cả đặt phòng trực tiếp.
 
 ## Thêm listing giữa tháng
 

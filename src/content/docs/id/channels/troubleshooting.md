@@ -26,7 +26,7 @@ menampilkan apa pun.
 
 **Kamar Booking.com tidak ditemukan.**
 Hampir selalu langkah connectivity provider. Di extranet: **Account → Connectivity provider**, cari
-**Channex**, pilih, setujui perjanjiannya. Lalu segarkan di sini. Jika masih kosong, periksa ulang
+provider yang disebutkan di dialog koneksi, pilih, setujui perjanjiannya. Lalu segarkan di sini. Jika masih kosong, periksa ulang
 Hotel ID.
 
 ## Setelah impor

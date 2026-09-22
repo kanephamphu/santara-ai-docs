@@ -83,6 +83,6 @@ Belum — sedang dibangun untuk iOS dan Android sekaligus. Lihat [Di ponsel Anda
 
 **Channel apa saja yang didukung?**
 54 channel penjualan, ditambah situs booking Anda sendiri. Airbnb dan Booking.com punya alur
-koneksi sendiri; Agoda, Expedia, Trip.com, Vrbo, dan lainnya terhubung dari katalog channel di
+koneksi sendiri; Agoda, Expedia, Trip.com, Vrbo, dan lainnya terhubung dari daftar channel di
 **Pengaturan → Channel**. Balasan ke tamu dikirim di Airbnb, Booking.com, dan Expedia. Lihat
 [Channel](/id/channels/).

@@ -85,6 +85,6 @@ Not yet — it is in build for iOS and Android together. See [On your phone](/se
 
 **Which channels are supported?**
 54 sales channels, plus your own booking site. Airbnb and Booking.com have their own connect
-flows; Agoda, Expedia, Trip.com, Vrbo and the rest connect from the channel catalogue in
+flows; Agoda, Expedia, Trip.com, Vrbo and the rest connect from the channel list in
 **Settings → Channels**. Guest replies go out on Airbnb, Booking.com and Expedia. See
 [Channels](/channels/).

@@ -37,8 +37,7 @@ convenience.
 
 ### Money
 
-If the guest paid, the amount includes any **service fee** you have configured — your payout is
-the rest of it, and the fee is shown as its own line before anyone reaches a card form.
+Santara AI takes no commission on the booking.
 
 :::caution[Refunding is not cancelling]
 **Refunding returns the money only. The stay remains on your calendar until you cancel it** — and

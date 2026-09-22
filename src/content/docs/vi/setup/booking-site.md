@@ -51,12 +51,7 @@ cầu.
 **Thanh toán** kết nối tài khoản Stripe của chính bạn. Bạn đăng nhập (hoặc tạo tài khoản) trên trang
 của Stripe. Santara AI không bao giờ chạm vào tiền và không bao giờ thấy số thẻ.
 
-Bạn có thể thêm **phí dịch vụ** cho đặt phòng trực tiếp — **3%** trừ khi gói của bạn quy định
-khác — do khách trả thêm ngoài tiền phòng:
-
-- Số tiền bạn nhận không đổi.
-- Phí hiển thị thành dòng riêng trước khi ai đó tới biểu mẫu thẻ.
-- Chỉ áp dụng cho **đặt phòng mới** — các lượt đã đặt giữ nguyên mức phí đã báo.
+Santara AI lấy **0% hoa hồng** trên đặt phòng trực tiếp. Tiền thanh toán về tài khoản Stripe của chính bạn.
 
 ## 6. Xuất bản
 

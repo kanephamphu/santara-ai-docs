@@ -110,9 +110,7 @@ boleh terjadi di tengah bulan secara tidak sengaja.
 [situs booking langsung](/id/setup/booking-site/) Anda sendiri. Tidak ada yang dipotong dari payout
 Anda pada tingkat paket mana pun dan ukuran portofolio berapa pun.
 
-Ada tepat satu biaya di luar langganan, dan itu opsional: **biaya layanan 3%** mesin booking
-langsung, yang ditambahkan di atas tarif dan **dibayar tamu**. Biaya itu tidak pernah menyentuh
-tagihan ini dan tidak pernah menyentuh payout Anda.
+**0% komisi atas booking dan upsell**, di semua kanal dan pada booking langsung.
 
 ## Menambah listing di tengah bulan
 

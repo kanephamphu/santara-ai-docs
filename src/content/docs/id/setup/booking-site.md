@@ -51,13 +51,7 @@ lewat pertanyaan.
 **Pembayaran** menghubungkan akun Stripe Anda sendiri. Anda masuk (atau membuat akun) di situs
 Stripe. Santara AI tidak pernah menyentuh uangnya dan tidak pernah melihat nomor kartu.
 
-Anda dapat menambahkan **biaya layanan** pada booking langsung — **3%** kecuali paket Anda
-menyebut lain — dibayar tamu di atas harga menginap:
-
-- Payout Anda tidak berubah.
-- Biaya ditampilkan sebagai baris tersendiri sebelum siapa pun mencapai formulir kartu.
-- Hanya berlaku untuk **booking baru** — booking yang sudah diambil tetap memakai biaya yang
-  dikutipkan.
+Santara AI mengambil **0% komisi** atas booking langsung. Pembayaran masuk ke akun Stripe Anda sendiri.
 
 ## 6. Terbitkan
 

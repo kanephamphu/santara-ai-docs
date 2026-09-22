@@ -96,8 +96,7 @@ Pembayaran dari [situs booking langsung](/id/setup/booking-site/) masuk **ke aku
 sendiri**, bukan ke akun kami. Santara AI tidak pernah memegang uang tamu dan tidak pernah mengambil
 komisi atas booking, di channel mana pun.
 
-Satu-satunya tambahan pada booking langsung adalah **biaya layanan 3% yang dibayar tamu** di atas
-tarif, dan itu opsional. Biaya itu tidak dipotong dari payout Anda.
+Booking langsung juga **0% komisi**.
 
 ## Mengeluarkan data Anda
 

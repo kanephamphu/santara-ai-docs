@@ -91,8 +91,7 @@ Payments from your [direct booking site](/setup/booking-site/) go **into your ow
 not ours. Santara AI never holds guest money and never takes a commission on a booking, on any
 channel.
 
-The one thing added to a direct booking is the optional booking engine's **3% service fee, paid by
-the guest** on top of the rate. It does not come out of your payout.
+Direct bookings carry **0% commission** too.
 
 ## Getting your data out
 

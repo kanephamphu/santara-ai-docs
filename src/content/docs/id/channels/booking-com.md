@@ -15,7 +15,7 @@ sendiri, lalu memberi tahu Santara AI properti mana yang dituju.
 Di **extranet Booking.com**:
 
 1. Buka **Account → Connectivity provider**.
-2. Cari **Channex** — mitra konektivitas kami.
+2. Cari connectivity provider yang disebutkan di dialog koneksi Booking.com di Santara AI.
 3. Pilih dan **setujui perjanjian koneksi**.
 
 Tidak ada yang terjadi di Santara AI sebelum ini selesai. Dialog koneksi punya kotak centang konfirmasi
