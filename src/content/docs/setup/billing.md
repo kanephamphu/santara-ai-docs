@@ -79,7 +79,7 @@ flat rate per listing, per month, in the local currency.** No base fee, no tiers
 listing or fifty, every listing costs the same, and the plan carries the **whole product** —
 everything in the Operator column above.
 
-The rate for your country is on the [pricing page](https://santara.ai/pricing/), which shows the
+The rate for your country is on the [pricing page](https://www.santara.ai/pricing/), which shows the
 price for where you are, and — once you subscribe — on **Settings → Billing**. It is billed in the
 local currency, not in dollars converted at checkout.
 

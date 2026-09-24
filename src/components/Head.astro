@@ -12,8 +12,38 @@ const locale = Astro.currentLocale ?? "en";
 const path = Astro.url.pathname.replace(/\/$/, "");
 const markdown = `${path === "" ? "/index" : path}.md`;
 const llms = locale === "en" ? "/llms.txt" : `/${locale}/llms.txt`;
+
+/*
+ * x-default: Starlight writes one hreflang per locale but no x-default, which SEO audits flag on
+ * every page. The English page is the default — every page exists in all three locales
+ * (verify:docs enforces it), so the English twin is this path minus its locale prefix.
+ */
+const site = Astro.site?.origin ?? "https://docs.santara.ai";
+const englishPath = Astro.url.pathname.replace(/^\/(?:id|vi)(?=\/|$)/, "") || "/";
+const xDefault = new URL(englishPath, site).href;
+
+/*
+ * The share card. Starlight emits og:title/description but no image, so a docs link previewed in
+ * WhatsApp, Zalo or Slack showed a bare text card. The marketing site's /og route draws the same
+ * branded card the rest of santara.ai uses, in this page's language (bundled Inter covers
+ * Vietnamese). `v` mirrors SOCIAL_IMAGE_VERSION in aircierge/lib/seo.ts.
+ */
+const EYEBROW: Record<string, string> = { en: "Santara AI Docs", id: "Dokumentasi Santara AI", vi: "Tài liệu Santara AI" };
+const title = Astro.locals.starlightRoute.entry.data.title;
+const card = new URL("https://www.santara.ai/og");
+card.searchParams.set("title", title);
+card.searchParams.set("eyebrow", EYEBROW[locale] ?? EYEBROW.en);
+card.searchParams.set("l", locale in EYEBROW ? locale : "en");
+card.searchParams.set("v", "2");
+const cardAlt = `${title} — ${EYEBROW[locale] ?? EYEBROW.en}`;
 ---
 
 <Default><slot /></Default>
 <link rel="alternate" type="text/markdown" href={markdown} title="This page as markdown" />
 <link rel="alternate" type="text/plain" href={llms} title="llms.txt" />
+<link rel="alternate" hreflang="x-default" href={xDefault} />
+<meta property="og:image" content={card.href} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={cardAlt} />
+<meta name="twitter:image" content={card.href} />

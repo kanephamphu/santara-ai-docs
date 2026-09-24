@@ -81,7 +81,7 @@ semua yang kami terbitkan: **satu tarif rata per listing, per bulan, dalam mata 
 biaya dasar, tanpa tingkatan, tanpa band. Satu listing atau lima puluh, setiap listing berharga sama,
 dan paketnya mencakup **seluruh produk** — semua yang ada di kolom Operator di atas.
 
-Tarif untuk negara Anda ada di [halaman harga](https://santara.ai/id/harga/), yang menampilkan harga
+Tarif untuk negara Anda ada di [halaman harga](https://www.santara.ai/id/harga/), yang menampilkan harga
 untuk lokasi Anda, dan — setelah berlangganan — di **Settings → Billing**. Ditagih dalam mata uang
 lokal, bukan dolar yang dikonversi saat pembayaran.
 
