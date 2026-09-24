@@ -80,7 +80,7 @@ bố: **một mức giá duy nhất cho mỗi tin đăng mỗi tháng, bằng ti
 bậc, không phân nhóm. Một tin đăng hay năm mươi tin đăng đều cùng đơn giá, và gói này bao gồm **trọn
 bộ sản phẩm** — mọi thứ trong cột Operator ở trên.
 
-Mức giá cho quốc gia của bạn có trên [trang bảng giá](https://santara.ai/vi/bang-gia/) — trang này
+Mức giá cho quốc gia của bạn có trên [trang bảng giá](https://www.santara.ai/vi/bang-gia/) — trang này
 hiển thị giá theo nơi bạn đang ở — và, sau khi đăng ký, trong **Settings → Billing**. Giá được tính
 bằng tiền địa phương, không phải đô la quy đổi khi thanh toán.
 

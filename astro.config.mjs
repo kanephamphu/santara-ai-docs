@@ -71,6 +71,8 @@ export default defineConfig({
         Head: "./src/components/Head.astro",
         Footer: "./src/components/Footer.astro",
       },
+      // Adds the trailing slash to the header logo link (see the file for why).
+      routeMiddleware: "./src/routeData.ts",
       defaultLocale: "root",
       locales: {
         root: { label: "English", lang: "en" },

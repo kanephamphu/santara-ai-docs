@@ -554,6 +554,9 @@ for (const locale of LOCALES) {
       // A clip below the fold is only allowed against the full page.
       fullPage: clipY > 0,
     });
+    // The page serves the .webp (scripts/build-screens.mjs); drop the stale one so the next
+    // dev/build run re-encodes this capture.
+    rmSync(file.replace(/\.png$/, ".webp"), { force: true });
 
     /*
      * The callouts, MEASURED rather than guessed.

@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { visit } from "unist-util-visit";
 
 /*
@@ -129,6 +129,13 @@ function calloutOverlay(meta: { width: number; height: number; boxes: Callout[] 
   };
 }
 
+/** The screenshot's WebP twin, when one was built; the PNG otherwise, so nothing ever 404s. */
+function webpFor(src: string) {
+  if (!src.endsWith(".png")) return src;
+  const webp = src.replace(/\.png$/, ".webp");
+  return existsSync(`${PUBLIC}${webp}`) ? webp : src;
+}
+
 function escapeXml(value: string) {
   return value
     .replace(/&/g, "&amp;")
@@ -199,7 +206,14 @@ export function rehypeFigures() {
               children: [
                 {
                   ...node,
-                  properties: { ...node.properties, loading: "lazy", decoding: "async" },
+                  // The .webp from scripts/build-screens.mjs, not the lossless capture: the PNGs
+                  // are 0.5–1.3 MB at 2x, the WebPs a fifth of that.
+                  properties: {
+                    ...node.properties,
+                    src: webpFor(src),
+                    loading: "lazy",
+                    decoding: "async",
+                  },
                 },
                 ...(overlay ? [overlay] : []),
               ],

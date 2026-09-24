@@ -12,8 +12,9 @@
     "check": "astro check",
     "verify:docs": "node scripts/verify-docs.mjs",
     "build:diagrams": "node scripts/build-diagrams.mjs",
-    "predev": "npm run build:diagrams",
-    "prebuild": "npm run build:diagrams",
+    "predev": "npm run build:diagrams && npm run build:screens",
+    "prebuild": "npm run build:diagrams && npm run build:screens",
+    "build:screens": "node scripts/build-screens.mjs",
     "capture:screens": "node scripts/capture-screens.mjs"
   },
   "dependencies": {
