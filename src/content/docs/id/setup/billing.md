@@ -1,6 +1,6 @@
 ---
 title: Paket dan penagihan
-description: Uji coba 7 hari dengan batas tiga listing, dua tingkat, harga per listing yang turun seiring pertumbuhan, dan tanpa komisi atas booking mana pun.
+description: Uji coba 7 hari dengan batas tiga listing, dua tingkat, harga per listing yang turun seiring pertumbuhan, dan komisi 0% atas booking kanal dan upsell.
 sidebar:
   order: 7
 ---
@@ -104,13 +104,11 @@ Ubah dari **Pengaturan → Tagihan**, dan hanya **pemilik workspace** yang bisa:
 Ketidaksimetrisan ini disengaja: mendapatkan fitur tidak perlu menunggu, dan kehilangan fitur tidak
 boleh terjadi di tengah bulan secara tidak sengaja.
 
-## Tanpa komisi, selamanya
+## Komisi
 
-**Tanpa komisi atas booking mana pun, di channel mana pun** — Airbnb, Booking.com, atau
-[situs booking langsung](/id/setup/booking-site/) Anda sendiri. Tidak ada yang dipotong dari payout
-Anda pada tingkat paket mana pun dan ukuran portofolio berapa pun.
-
-**0% komisi atas booking dan upsell**, di semua kanal dan pada booking langsung.
+Santara AI **tidak mengambil komisi atas booking dari kanal** (Airbnb, Booking.com, dan lainnya) **maupun atas upsell**.
+Santara AI hanya mengambil **3% komisi atas booking langsung** yang dibuat lewat
+[situs booking langsung](/id/setup/booking-site/) Anda. Selebihnya adalah langganan seperti dijelaskan di atas.
 
 ## Menambah listing di tengah bulan
 

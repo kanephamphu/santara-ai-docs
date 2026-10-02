@@ -37,7 +37,7 @@ convenience.
 
 ### Money
 
-Santara AI takes no commission on the booking.
+Santara AI takes 3% commission on the booking.
 
 :::caution[Refunding is not cancelling]
 **Refunding returns the money only. The stay remains on your calendar until you cancel it** — and
@@ -48,7 +48,7 @@ do. If the guest is not coming, do both.
 
 ## Where these differ from channel bookings
 
-A direct booking is yours: no commission, and the guest's real email address rather than a
+A direct booking is yours: the guest's real email address rather than a
 forwarding alias. What you give up is the channel's dispute process — which is why request mode
 exists, and why the [contact details](/setup/booking-site/) on your site are worth filling in
 properly.

@@ -1,12 +1,11 @@
 ---
 title: Website đặt phòng trực tiếp của bạn
-description: Website đặt phòng không hoa hồng trên tên miền phụ hoặc tên miền riêng của bạn, tiền vào thẳng tài khoản Stripe của bạn.
+description: Website đặt phòng trên tên miền phụ hoặc tên miền riêng của bạn, tiền vào thẳng tài khoản Stripe của bạn.
 sidebar:
   order: 2
 ---
 
-Mỗi workspace đều có thể xuất bản một website đặt phòng trực tiếp. Santara AI **không lấy hoa hồng** trên
-những gì bán qua đó, và tiền vào tài khoản Stripe của bạn, không phải của chúng tôi.
+Mỗi workspace đều có thể xuất bản một website đặt phòng trực tiếp. Tiền vào tài khoản Stripe của bạn, không phải của chúng tôi.
 
 **Website đặt phòng** ở thanh bên. Bên trái là phần thiết lập; bên phải là bản xem trước trực tiếp.
 
@@ -51,7 +50,7 @@ cầu.
 **Thanh toán** kết nối tài khoản Stripe của chính bạn. Bạn đăng nhập (hoặc tạo tài khoản) trên trang
 của Stripe. Santara AI không bao giờ chạm vào tiền và không bao giờ thấy số thẻ.
 
-Santara AI lấy **0% hoa hồng** trên đặt phòng trực tiếp. Tiền thanh toán về tài khoản Stripe của chính bạn.
+Santara AI lấy **3% hoa hồng** trên đặt phòng trực tiếp. Tiền thanh toán về tài khoản Stripe của chính bạn.
 
 ## 6. Xuất bản
 

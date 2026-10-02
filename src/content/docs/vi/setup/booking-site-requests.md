@@ -37,7 +37,7 @@ bằng sự tiện lợi.
 
 ### Tiền
 
-Santara AI không lấy hoa hồng trên lượt đặt đó.
+Santara AI lấy 3% hoa hồng trên lượt đặt đó.
 
 :::caution[Hoàn tiền không phải là hủy]
 **Hoàn tiền chỉ trả lại tiền. Lượt lưu trú vẫn nằm trên lịch của bạn cho tới khi bạn hủy nó** — và
@@ -48,7 +48,7 @@ cả hai.
 
 ## Khác gì so với lượt đặt từ kênh
 
-Một lượt đặt trực tiếp là của bạn: không hoa hồng, và địa chỉ email thật của khách thay vì một địa chỉ
+Một lượt đặt trực tiếp là của bạn: địa chỉ email thật của khách thay vì một địa chỉ
 chuyển tiếp. Thứ bạn đánh đổi là quy trình xử lý tranh chấp của kênh — đó là lý do chế độ yêu cầu tồn
 tại, và là lý do [thông tin liên hệ](/vi/setup/booking-site/) trên website của bạn đáng được điền đầy
 đủ.

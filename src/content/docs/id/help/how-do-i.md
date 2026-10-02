@@ -118,7 +118,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 
 | Saya ingin… | Lakukan ini |
 | --- | --- |
-| Menerbitkan situs booking tanpa komisi | [Situs booking langsung Anda](/id/setup/booking-site/) |
+| Menerbitkan situs booking langsung | [Situs booking langsung Anda](/id/setup/booking-site/) |
 | Menerima pembayaran kartu sendiri | [Hubungkan Stripe](/id/setup/booking-site/#5-hubungkan-stripe) — uang masuk ke akun Anda |
 | Menyetujui tamu sebelum booking dikonfirmasi | [Permintaan booking](/id/setup/booking-site-requests/#permintaan-booking) |
 | Melihat siapa yang mengisi formulir kontak | [Pertanyaan](/id/setup/booking-site-requests/#pertanyaan) |

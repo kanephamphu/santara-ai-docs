@@ -81,5 +81,5 @@ tải lại trước khi kết luận có lỗi.
 
 1. [Thiết lập quy tắc định giá](/vi/money/pricing/) để giá dịch chuyển theo mùa và thời gian đặt trước.
 2. [Mời đội ngũ của bạn](/vi/setup/team/) — nhân viên dọn phòng chỉ thấy việc của họ.
-3. [Xuất bản website đặt phòng trực tiếp](/vi/setup/booking-site/) và ngừng trả hoa hồng cho khách
+3. [Xuất bản website đặt phòng trực tiếp](/vi/setup/booking-site/) và trả ít hoa hồng hơn cho khách
    quay lại.

@@ -118,7 +118,7 @@ không phải câu trả lời chung chung.
 
 | Tôi muốn… | Làm thế này |
 | --- | --- |
-| Xuất bản website đặt phòng không hoa hồng | [Website đặt phòng trực tiếp của bạn](/vi/setup/booking-site/) |
+| Xuất bản website đặt phòng trực tiếp | [Website đặt phòng trực tiếp của bạn](/vi/setup/booking-site/) |
 | Tự nhận thanh toán thẻ | [Kết nối Stripe](/vi/setup/booking-site/#5-kết-nối-stripe) — tiền vào tài khoản của bạn |
 | Duyệt khách trước khi xác nhận đặt phòng | [Yêu cầu đặt phòng](/vi/setup/booking-site-requests/#yêu-cầu-đặt-phòng) |
 | Xem ai đã điền biểu mẫu liên hệ | [Câu hỏi](/vi/setup/booking-site-requests/#câu-hỏi) |

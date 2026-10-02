@@ -89,10 +89,9 @@ Không có gì khác. Trong danh sách này không có mạng quảng cáo và k
 ## Tiền trên website đặt phòng của bạn
 
 Thanh toán từ [website đặt phòng trực tiếp](/vi/setup/booking-site/) đi thẳng **vào tài khoản Stripe
-của chính bạn**, không phải của chúng tôi. Santara AI không bao giờ giữ tiền của khách và không bao giờ
-lấy hoa hồng trên một lượt đặt, ở bất kỳ kênh nào.
+của chính bạn**, không phải của chúng tôi. Santara AI không bao giờ giữ tiền của khách.
 
-Đặt phòng trực tiếp cũng **0% hoa hồng**.
+Santara AI lấy **3% hoa hồng** trên đặt phòng trực tiếp.
 
 ## Lấy dữ liệu ra
 

@@ -1,6 +1,6 @@
 ---
 title: Gói và thanh toán
-description: Bản dùng thử 7 ngày với giới hạn ba listing, hai bậc, giá theo listing giảm dần khi bạn lớn lên, và không hoa hồng trên bất kỳ lượt đặt nào.
+description: Bản dùng thử 7 ngày với giới hạn ba listing, hai bậc, giá theo listing giảm dần khi bạn lớn lên, và 0% hoa hồng trên booking từ kênh và upsell.
 sidebar:
   order: 7
 ---
@@ -103,13 +103,11 @@ nếu bạn đang ở sai bảng giá.
 Sự bất đối xứng này là chủ đích: có thêm tính năng thì không nên phải chờ, còn mất tính năng thì
 không nên xảy ra giữa tháng vì sơ ý.
 
-## Không hoa hồng, mãi mãi
+## Hoa hồng
 
-**Không hoa hồng trên bất kỳ lượt đặt nào, ở bất kỳ kênh nào** — Airbnb, Booking.com, hay
-[website đặt phòng trực tiếp](/vi/setup/booking-site/) của chính bạn. Không có gì bị trừ khỏi payout
-của bạn ở bất kỳ bậc gói nào và quy mô danh mục nào.
-
-**0% hoa hồng trên booking và upsell**, trên mọi kênh và cả đặt phòng trực tiếp.
+Santara AI **không lấy hoa hồng trên booking từ kênh** (Airbnb, Booking.com và các kênh khác) **hay trên upsell**.
+Santara AI chỉ lấy **3% hoa hồng trên đặt phòng trực tiếp** được tạo qua
+[website đặt phòng trực tiếp](/vi/setup/booking-site/) của bạn. Phần còn lại là gói thuê bao như mô tả ở trên.
 
 ## Thêm listing giữa tháng
 
