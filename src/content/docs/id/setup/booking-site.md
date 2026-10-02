@@ -1,12 +1,11 @@
 ---
 title: Situs booking langsung Anda
-description: Situs pemesanan tanpa komisi di subdomain atau domain Anda sendiri, dibayarkan ke akun Stripe Anda sendiri.
+description: Situs pemesanan di subdomain atau domain Anda sendiri, dibayarkan ke akun Stripe Anda sendiri.
 sidebar:
   order: 2
 ---
 
-Setiap workspace dapat menerbitkan situs booking langsung. Santara AI **tidak mengambil komisi** atas
-apa pun yang terjual di sana, dan uangnya masuk ke akun Stripe Anda, bukan kami.
+Setiap workspace dapat menerbitkan situs booking langsung. Uangnya masuk ke akun Stripe Anda, bukan kami.
 
 **Situs Booking** di bilah samping. Sisi kiri untuk pengaturan; sisi kanan pratinjau langsung.
 
@@ -51,7 +50,7 @@ lewat pertanyaan.
 **Pembayaran** menghubungkan akun Stripe Anda sendiri. Anda masuk (atau membuat akun) di situs
 Stripe. Santara AI tidak pernah menyentuh uangnya dan tidak pernah melihat nomor kartu.
 
-Santara AI mengambil **0% komisi** atas booking langsung. Pembayaran masuk ke akun Stripe Anda sendiri.
+Santara AI mengambil **3% komisi** atas booking langsung. Pembayaran masuk ke akun Stripe Anda sendiri.
 
 ## 6. Terbitkan
 

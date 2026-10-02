@@ -118,7 +118,7 @@ than in general.
 
 | I want to… | Do this |
 | --- | --- |
-| Publish a commission-free booking site | [Your direct booking site](/setup/booking-site/) |
+| Publish a direct booking site | [Your direct booking site](/setup/booking-site/) |
 | Take card payments myself | [Connect Stripe](/setup/booking-site/#5-connect-stripe) — money goes to your own account |
 | Approve a guest before their booking is confirmed | [Booking requests](/setup/booking-site-requests/#booking-requests) |
 | See who used the contact form | [Enquiries](/setup/booking-site-requests/#enquiries) |

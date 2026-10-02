@@ -47,7 +47,7 @@ việc, hãy báo [hỗ trợ](/vi/help/support/).
 ## Tiền
 
 **Santara AI có lấy hoa hồng không?**
-Không — ở bất kỳ kênh nào, kể cả website đặt phòng của bạn.
+Có: 3% trên booking và upsell, ở bất kỳ kênh nào kể cả website đặt phòng của bạn. Phần còn lại là gói thuê bao.
 
 **"Doanh thu" trên các màn hình này nghĩa là gì?**
 Tiền thực nhận: số kênh thực trả cho bạn. Tổng thu và doanh thu phòng được lưu riêng và ghi nhãn rõ.

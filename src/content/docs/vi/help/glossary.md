@@ -20,7 +20,7 @@ nhắn WhatsApp theo cụm trong bản tin hằng ngày.
 **Bản tin hằng ngày** — cả ngày được viết ra: rủi ro, lượt đến, dọn phòng, doanh thu. Tạo cho
 workspace bằng ngôn ngữ của workspace.
 
-**Đặt phòng trực tiếp** — lượt đặt qua website của chính bạn. Không hoa hồng.
+**Đặt phòng trực tiếp** — lượt đặt qua website của chính bạn.
 
 **Go live** — hành động có chủ ý trao quyền kiểm soát lịch của một listing cho Santara AI. Xem
 [Go live](/vi/channels/going-live/).

@@ -20,7 +20,7 @@ papan dan pesan WhatsApp per klaster di ringkasan harian.
 **Ringkasan harian** — hari itu ditulis: risiko, kedatangan, kebersihan, pendapatan. Dibuat untuk
 workspace dalam bahasa workspace.
 
-**Booking langsung** — booking lewat situs Anda sendiri. Tanpa komisi.
+**Booking langsung** — booking lewat situs Anda sendiri.
 
 **Go live** — tindakan sengaja yang menyerahkan kendali kalender sebuah listing ke Santara AI. Lihat
 [Go live](/id/channels/going-live/).

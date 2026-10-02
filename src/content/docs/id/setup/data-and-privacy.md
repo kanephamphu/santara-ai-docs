@@ -93,10 +93,9 @@ Tidak ada yang lain. Tidak ada jaringan iklan dan tidak ada pialang data dalam d
 ## Uang di situs booking Anda
 
 Pembayaran dari [situs booking langsung](/id/setup/booking-site/) masuk **ke akun Stripe Anda
-sendiri**, bukan ke akun kami. Santara AI tidak pernah memegang uang tamu dan tidak pernah mengambil
-komisi atas booking, di channel mana pun.
+sendiri**, bukan ke akun kami. Santara AI tidak pernah memegang uang tamu.
 
-Booking langsung juga **0% komisi**.
+Santara AI mengambil **3% komisi** atas booking langsung.
 
 ## Mengeluarkan data Anda
 

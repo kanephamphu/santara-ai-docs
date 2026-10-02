@@ -86,4 +86,4 @@ minutes and refresh before assuming something is wrong.
 
 1. [Set up pricing rules](/money/pricing/) so your rates move by season and lead time.
 2. [Invite your team](/setup/team/) — cleaners see only their jobs.
-3. [Publish a direct booking site](/setup/booking-site/) and stop paying commission on repeat guests.
+3. [Publish a direct booking site](/setup/booking-site/) and pay less commission on repeat guests.

@@ -1,6 +1,6 @@
 ---
 title: Plans and billing
-description: A 7-day trial with a three-listing limit, two tiers, pricing per listing that falls as you grow, and no commission on any booking.
+description: A 7-day trial with a three-listing limit, two tiers, pricing per listing that falls as you grow, and 3% commission on bookings and upsells.
 sidebar:
   order: 7
 ---
@@ -102,13 +102,10 @@ Change it from **Settings → Billing**, and only the **workspace owner** can:
 The asymmetry is deliberate: gaining features should not wait, and losing them should not happen
 mid-month by accident.
 
-## No commission, ever
+## Commission
 
-**No commission on any booking, on any channel** — Airbnb, Booking.com, or your own
-[direct booking site](/setup/booking-site/). Nothing is deducted from your payout at any plan level
-or portfolio size.
-
-**0% commission on bookings and upsells**, on every channel and on direct bookings.
+Santara AI takes **3% commission on bookings and upsells**, on every channel and on your own
+[direct booking site](/setup/booking-site/). The rest is the subscription described above.
 
 ## Adding a listing mid-month
 

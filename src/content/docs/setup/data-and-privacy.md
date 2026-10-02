@@ -88,10 +88,9 @@ Nothing else. There is no advertising network and no data broker in this list.
 ## Money on your booking site
 
 Payments from your [direct booking site](/setup/booking-site/) go **into your own Stripe account**,
-not ours. Santara AI never holds guest money and never takes a commission on a booking, on any
-channel.
+not ours. Santara AI never holds guest money.
 
-Direct bookings carry **0% commission** too.
+Santara AI takes **3% commission** on direct bookings.
 
 ## Getting your data out
 

@@ -48,7 +48,7 @@ tahu [dukungan](/id/help/support/).
 ## Uang
 
 **Apakah Santara AI mengambil komisi?**
-Tidak — di channel mana pun, termasuk situs booking Anda sendiri.
+Ya: 3% atas booking dan upsell, di channel mana pun termasuk situs booking Anda sendiri. Selebihnya adalah langganan.
 
 **Apa arti "pendapatan" di layar ini?**
 Payout bersih: yang benar-benar dibayarkan channel. Gross dan pendapatan kamar disimpan terpisah dan

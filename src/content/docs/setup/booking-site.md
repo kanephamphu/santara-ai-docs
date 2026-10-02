@@ -1,12 +1,11 @@
 ---
 title: Your direct booking site
-description: A commission-free booking website on your own subdomain or domain, paid into your own Stripe account.
+description: A booking website on your own subdomain or domain, paid into your own Stripe account.
 sidebar:
   order: 2
 ---
 
-Every workspace can publish a direct booking site. Santara AI takes **no commission** on what it
-sells, and the money goes to your Stripe account, not ours.
+Every workspace can publish a direct booking site. The money goes to your Stripe account, not ours.
 
 **Booking Site** in the sidebar. The left side is the setup; the right is a live preview.
 
@@ -50,7 +49,7 @@ Pick the properties on the site and how guests can book each one — instantly, 
 **Payments** connects your own Stripe account. You sign in to (or create) Stripe on Stripe's own
 site. Santara AI never touches the money and never sees a card number.
 
-Santara AI takes **0% commission** on direct bookings. Payments go to your own Stripe account.
+Santara AI takes **3% commission** on direct bookings. Payments go to your own Stripe account.
 
 ## 6. Publish
 

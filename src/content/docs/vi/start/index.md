@@ -9,7 +9,7 @@ Santara AI là phần mềm vận hành cho thuê ngắn hạn. Bạn kết nố
 Booking.com, website đặt phòng của chính bạn — và từ đó chỉ còn một cuốn lịch, một hộp thư, một lịch
 dọn phòng và một bộ sổ sách, thay vì trình duyệt mở sáu tab.
 
-Đây không phải trang niêm yết. Santara AI không bao giờ lấy hoa hồng trên một lượt đặt, và khách không
+Đây không phải trang niêm yết. Khách không
 đặt "qua Santara AI" trừ khi bạn xuất bản [website đặt phòng trực tiếp](/vi/setup/booking-site/) của
 riêng mình, với tiền vào tài khoản Stripe của bạn.
 
