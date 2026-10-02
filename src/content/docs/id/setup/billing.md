@@ -1,6 +1,6 @@
 ---
 title: Paket dan penagihan
-description: Uji coba 7 hari dengan batas tiga listing, dua tingkat, harga per listing yang turun seiring pertumbuhan, dan komisi 3% atas booking dan upsell.
+description: Uji coba 7 hari dengan batas tiga listing, dua tingkat, harga per listing yang turun seiring pertumbuhan, dan komisi 0% atas booking kanal dan upsell.
 sidebar:
   order: 7
 ---
@@ -106,8 +106,9 @@ boleh terjadi di tengah bulan secara tidak sengaja.
 
 ## Komisi
 
-Santara AI mengambil **3% komisi atas booking dan upsell**, di semua kanal dan di
-[situs booking langsung](/id/setup/booking-site/) Anda sendiri. Selebihnya adalah langganan seperti dijelaskan di atas.
+Santara AI **tidak mengambil komisi atas booking dari kanal** (Airbnb, Booking.com, dan lainnya) **maupun atas upsell**.
+Santara AI hanya mengambil **3% komisi atas booking langsung** yang dibuat lewat
+[situs booking langsung](/id/setup/booking-site/) Anda. Selebihnya adalah langganan seperti dijelaskan di atas.
 
 ## Menambah listing di tengah bulan
 

@@ -1,6 +1,6 @@
 ---
 title: Plans and billing
-description: A 7-day trial with a three-listing limit, two tiers, pricing per listing that falls as you grow, and 3% commission on bookings and upsells.
+description: A 7-day trial with a three-listing limit, two tiers, pricing per listing that falls as you grow, and 0% commission on channel bookings and upsells.
 sidebar:
   order: 7
 ---
@@ -104,8 +104,9 @@ mid-month by accident.
 
 ## Commission
 
-Santara AI takes **3% commission on bookings and upsells**, on every channel and on your own
-[direct booking site](/setup/booking-site/). The rest is the subscription described above.
+Santara AI takes **no commission on channel bookings** (Airbnb, Booking.com and the rest) **or on
+upsells**. It takes **3% commission only on direct bookings** made through your
+[direct booking site](/setup/booking-site/). Everything else is the subscription described above.
 
 ## Adding a listing mid-month
 

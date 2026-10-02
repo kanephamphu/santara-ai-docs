@@ -1,6 +1,6 @@
 ---
 title: Gói và thanh toán
-description: Bản dùng thử 7 ngày với giới hạn ba listing, hai bậc, giá theo listing giảm dần khi bạn lớn lên, và 3% hoa hồng trên booking và upsell.
+description: Bản dùng thử 7 ngày với giới hạn ba listing, hai bậc, giá theo listing giảm dần khi bạn lớn lên, và 0% hoa hồng trên booking từ kênh và upsell.
 sidebar:
   order: 7
 ---
@@ -105,8 +105,9 @@ không nên xảy ra giữa tháng vì sơ ý.
 
 ## Hoa hồng
 
-Santara AI lấy **3% hoa hồng trên booking và upsell**, trên mọi kênh và cả
-[website đặt phòng trực tiếp](/vi/setup/booking-site/) của chính bạn. Phần còn lại là gói thuê bao như mô tả ở trên.
+Santara AI **không lấy hoa hồng trên booking từ kênh** (Airbnb, Booking.com và các kênh khác) **hay trên upsell**.
+Santara AI chỉ lấy **3% hoa hồng trên đặt phòng trực tiếp** được tạo qua
+[website đặt phòng trực tiếp](/vi/setup/booking-site/) của bạn. Phần còn lại là gói thuê bao như mô tả ở trên.
 
 ## Thêm listing giữa tháng
 
