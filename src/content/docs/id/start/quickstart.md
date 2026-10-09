@@ -85,5 +85,5 @@ lima menit dan segarkan sebelum menyimpulkan ada masalah.
 
 1. [Siapkan aturan pricing](/id/money/pricing/) agar tarif bergerak per musim dan lead time.
 2. [Undang tim Anda](/id/setup/team/) — petugas kebersihan hanya melihat pekerjaannya.
-3. [Terbitkan situs booking langsung](/id/setup/booking-site/) dan berhenti membayar komisi untuk
+3. [Terbitkan situs booking langsung](/id/setup/booking-site/) dan bayar lebih sedikit komisi untuk
    tamu berulang.

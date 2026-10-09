@@ -2,7 +2,7 @@
 title: FAQ
 description: Pertanyaan yang benar-benar ditanyakan pengguna baru pada minggu pertama.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Persiapan
@@ -48,7 +48,7 @@ tahu [dukungan](/id/help/support/).
 ## Uang
 
 **Apakah Santara AI mengambil komisi?**
-Tidak — di channel mana pun, termasuk situs booking Anda sendiri.
+Tidak atas booking dari channel maupun upsell. Santara AI hanya mengambil 3% atas booking langsung yang dibuat lewat situs booking Anda. Selebihnya adalah langganan.
 
 **Apa arti "pendapatan" di layar ini?**
 Payout bersih: yang benar-benar dibayarkan channel. Gross dan pendapatan kamar disimpan terpisah dan

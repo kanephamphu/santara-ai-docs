@@ -2,7 +2,7 @@
 title: Glossary
 description: Every term Santara AI uses on screen, in one place.
 sidebar:
-  order: 9
+  order: 10
 ---
 
 **ADR** — average daily rate. Revenue divided by the nights that sold.
@@ -21,7 +21,7 @@ same channel.
 **Daily brief** — the day written out: risks, arrivals, cleaning, revenue. Generated for the
 workspace in the workspace's language.
 
-**Direct booking** — a booking through your own site. No commission.
+**Direct booking** — a booking through your own site.
 
 **Go live** — the deliberate action that hands a listing's calendar control to Santara AI. See
 [Going live](/channels/going-live/).

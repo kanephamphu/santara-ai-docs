@@ -2,7 +2,7 @@
 title: FAQ
 description: The questions new users actually ask in the first week.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Setup
@@ -48,7 +48,7 @@ evening, tell [support](/help/support/).
 ## Money
 
 **Does Santara AI take a commission?**
-No — on any channel, including your own booking site.
+Not on channel bookings or on upsells. It takes 3% only on direct bookings made through your booking site. The rest is a subscription.
 
 **What does "revenue" mean on these screens?**
 Net payout: what the channel actually pays you. Gross and room revenue are stored separately and

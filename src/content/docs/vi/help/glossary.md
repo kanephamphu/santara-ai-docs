@@ -2,7 +2,7 @@
 title: Thuật ngữ
 description: Mọi thuật ngữ Santara AI dùng trên màn hình, trong một trang.
 sidebar:
-  order: 9
+  order: 10
 ---
 
 **ADR** — giá trung bình mỗi đêm. Doanh thu chia số đêm đã bán.
@@ -20,7 +20,7 @@ nhắn WhatsApp theo cụm trong bản tin hằng ngày.
 **Bản tin hằng ngày** — cả ngày được viết ra: rủi ro, lượt đến, dọn phòng, doanh thu. Tạo cho
 workspace bằng ngôn ngữ của workspace.
 
-**Đặt phòng trực tiếp** — lượt đặt qua website của chính bạn. Không hoa hồng.
+**Đặt phòng trực tiếp** — lượt đặt qua website của chính bạn.
 
 **Go live** — hành động có chủ ý trao quyền kiểm soát lịch của một listing cho Santara AI. Xem
 [Go live](/vi/channels/going-live/).

@@ -239,14 +239,28 @@ const SHOTS = [
     note: "The Booking.com connect dialog",
   },
   {
+    /*
+     * Full page (/dashboard/assistant) rather than the header drawer, because the drawer reopens
+     * the LATEST thread and the shot would show whatever was asked last time. New chat clears it.
+     */
     id: "assistant",
-    path: "/dashboard",
-    // data-tour anchors are set by the product tour and are language-independent — a far better
-    // handle than an accessible name that changes with the interface language.
-    steps: [{ click: { css: "[data-tour='assistant-launcher']" }, settle: 1600 }],
+    path: "/dashboard/assistant",
+    steps: [
+      { click: { role: "button", find: /New chat|Obrolan baru|Trò chuyện mới/ }, settle: 1200 },
+    ],
     settle: "main",
-    height: 820,
-    note: "Ask Santara AI, open on any screen",
+    height: 900,
+    note: "Ask Santi, full page, on a fresh chat",
+  },
+  {
+    id: "agents",
+    path: "/dashboard/agents",
+    // Each crewmate checks its own data after first paint; the roster's pulsing dots turn into
+    // counts and "All clear" a few seconds later.
+    steps: [{ waitText: /All clear|Semua beres|Ổn cả|to do|tugas|việc/, settle: 4000 }],
+    settle: "main",
+    height: 860,
+    note: "The AI Agents page — the crew roster and what needs you",
   },
   {
     id: "search",
@@ -410,6 +424,9 @@ page.setDefaultTimeout(30_000);
 // ── sign in ────────────────────────────────────────────────────────────────────────────────────
 if (needsLogin) {
   await page.goto(`${BASE}/login`, { waitUntil: "domcontentloaded" });
+  // Wait for hydration: against a cold `next dev` the form is still plain HTML, and Enter submits
+  // it as a GET — email and password land in the URL and nothing signs in.
+  await page.waitForLoadState("networkidle", { timeout: 90_000 }).catch(() => {});
   await page.fill('input[type="email"]', EMAIL);
   await page.fill('input[type="password"]', PASSWORD);
   // Enter, not a click on button[type="submit"] — the login button carries no type attribute
@@ -478,7 +495,18 @@ for (const locale of LOCALES) {
           await context.clearCookies({ name: /^santara_guide_[0-9A-Z]{10}$/ });
           await page.reload({ waitUntil: "domcontentloaded" });
         } else if (step.fill) {
-          await page.locator(step.fill.css).first().fill(step.fill.value, { timeout: 10_000 });
+          const value = typeof step.fill.value === "string" ? step.fill.value : step.fill.value[locale];
+          await page.locator(step.fill.css).first().fill(value, { timeout: 10_000 });
+        } else if (step.waitText) {
+          await page.getByText(step.waitText).first().waitFor({ timeout: 60_000 });
+        } else if (step.waitAnswer) {
+          // The send button is disabled while Santi works and the input is empty after sending —
+          // so "busy spinner gone" is the language-independent sign the answer has landed.
+          await page.waitForFunction(
+            () => !document.querySelector("form button[type='submit'] .animate-spin"),
+            null,
+            { timeout: 150_000 },
+          );
         } else if (step.reload) {
           await page.reload({ waitUntil: "domcontentloaded" });
         } else if (step.press) {

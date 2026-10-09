@@ -2,7 +2,7 @@
 title: Thông báo đó nghĩa là gì
 description: Đúng những dòng chữ Santara AI hiện lên, ý nghĩa thật của từng dòng, và cách xử lý. Hãy tìm trong trang này câu bạn đang nhìn thấy.
 sidebar:
-  order: 7
+  order: 8
 ---
 
 Các thông báo ở đây được trích đúng như sản phẩm viết ra, để bạn tìm được câu đang hiện trước mắt.

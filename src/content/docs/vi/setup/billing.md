@@ -1,6 +1,6 @@
 ---
 title: Gói và thanh toán
-description: Bản dùng thử 7 ngày với giới hạn ba listing, hai bậc, giá theo listing giảm dần khi bạn lớn lên, và không hoa hồng trên bất kỳ lượt đặt nào.
+description: Dùng thử miễn phí 3 tháng (90 ngày) với giới hạn ba listing, hai bậc, giá theo listing giảm dần khi bạn lớn lên, và 0% hoa hồng trên booking từ kênh và upsell.
 sidebar:
   order: 7
 ---
@@ -12,16 +12,16 @@ trang này giải thích hình dạng của chúng.
 
 ## Dùng thử
 
-Bảy ngày miễn phí, và **bắt buộc có thẻ**. Không có khoản nào bị tính vào ngày bạn thêm thẻ, và hủy
-trước ngày thứ 8 thì không mất gì.
+Ba tháng miễn phí — **90 ngày** — và **bắt buộc có thẻ**. Không có khoản nào bị tính vào ngày bạn
+thêm thẻ, và hủy trước ngày thứ 91 thì không mất gì.
 
 :::caution[Bản dùng thử có hai giới hạn, không phải một]
-Nó kết thúc ở **7 ngày hoặc 3 listing, cái nào tới trước.** Kết nối listing thứ tư sẽ chấm dứt bản
+Nó kết thúc ở **90 ngày hoặc 3 listing, cái nào tới trước.** Kết nối listing thứ tư sẽ chấm dứt bản
 dùng thử ngay lúc đó và tính tiền thẻ của bạn theo gói ứng với số listing bạn có.
 
 Nhập dữ liệu thường là việc đầu tiên ai cũng làm, nên một chủ nhà có tám listing sẽ bị tính tiền
-ngay trong lúc onboarding chứ không phải vào ngày thứ 8. Đó là chủ đích — nhưng nó khiến những ai
-chỉ đọc con số bảy ngày phải bất ngờ. Màn hình hiện rõ số tiền và hỏi trước khi tính.
+ngay trong lúc onboarding chứ không phải vào ngày thứ 91. Đó là chủ đích — nhưng nó khiến những ai
+chỉ đọc con số ba tháng phải bất ngờ. Màn hình hiện rõ số tiền và hỏi trước khi tính.
 :::
 
 ## Bạn bị tính tiền cho cái gì
@@ -103,13 +103,11 @@ nếu bạn đang ở sai bảng giá.
 Sự bất đối xứng này là chủ đích: có thêm tính năng thì không nên phải chờ, còn mất tính năng thì
 không nên xảy ra giữa tháng vì sơ ý.
 
-## Không hoa hồng, mãi mãi
+## Hoa hồng
 
-**Không hoa hồng trên bất kỳ lượt đặt nào, ở bất kỳ kênh nào** — Airbnb, Booking.com, hay
-[website đặt phòng trực tiếp](/vi/setup/booking-site/) của chính bạn. Không có gì bị trừ khỏi payout
-của bạn ở bất kỳ bậc gói nào và quy mô danh mục nào.
-
-**0% hoa hồng trên booking và upsell**, trên mọi kênh và cả đặt phòng trực tiếp.
+Santara AI **không lấy hoa hồng trên booking từ kênh** (Airbnb, Booking.com và các kênh khác) **hay trên upsell**.
+Santara AI chỉ lấy **3% hoa hồng trên đặt phòng trực tiếp** được tạo qua
+[website đặt phòng trực tiếp](/vi/setup/booking-site/) của bạn. Phần còn lại là gói thuê bao như mô tả ở trên.
 
 ## Thêm listing giữa tháng
 

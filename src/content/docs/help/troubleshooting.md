@@ -2,7 +2,7 @@
 title: When something looks wrong
 description: A short diagnostic order for the whole product, and the specific fixes for the things that actually break.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 ## Try these first, in this order

@@ -2,7 +2,7 @@
 title: How do I…?
 description: One line per job, with the screen that does it. The page to open when you know what you want and not where it lives.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 The rest of this manual is organised by **screen**. This page is organised by **job** — what you
@@ -118,7 +118,7 @@ than in general.
 
 | I want to… | Do this |
 | --- | --- |
-| Publish a commission-free booking site | [Your direct booking site](/setup/booking-site/) |
+| Publish a direct booking site | [Your direct booking site](/setup/booking-site/) |
 | Take card payments myself | [Connect Stripe](/setup/booking-site/#5-connect-stripe) — money goes to your own account |
 | Approve a guest before their booking is confirmed | [Booking requests](/setup/booking-site-requests/#booking-requests) |
 | See who used the contact form | [Enquiries](/setup/booking-site-requests/#enquiries) |

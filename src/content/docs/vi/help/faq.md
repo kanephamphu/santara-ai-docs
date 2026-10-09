@@ -2,7 +2,7 @@
 title: Câu hỏi thường gặp
 description: Những câu hỏi mà người dùng mới thực sự hỏi trong tuần đầu.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Thiết lập
@@ -47,7 +47,7 @@ việc, hãy báo [hỗ trợ](/vi/help/support/).
 ## Tiền
 
 **Santara AI có lấy hoa hồng không?**
-Không — ở bất kỳ kênh nào, kể cả website đặt phòng của bạn.
+Không lấy trên booking từ kênh hay trên upsell. Santara AI chỉ lấy 3% trên đặt phòng trực tiếp được tạo qua website đặt phòng của bạn. Phần còn lại là gói thuê bao.
 
 **"Doanh thu" trên các màn hình này nghĩa là gì?**
 Tiền thực nhận: số kênh thực trả cho bạn. Tổng thu và doanh thu phòng được lưu riêng và ghi nhãn rõ.

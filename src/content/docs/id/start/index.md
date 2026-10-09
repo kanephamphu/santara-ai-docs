@@ -10,7 +10,7 @@ sudah berjualan — Airbnb, Booking.com, situs booking Anda sendiri — dan seja
 kalender, satu kotak masuk, satu jadwal kebersihan, dan satu set pembukuan, bukan browser dengan
 enam tab terbuka.
 
-Ini bukan situs listing. Santara AI tidak pernah mengambil komisi atas booking, dan tamu tidak pernah
+Ini bukan situs listing. Tamu tidak pernah
 memesan "lewat Santara AI" kecuali Anda menerbitkan [situs booking langsung](/id/setup/booking-site/)
 milik Anda sendiri, yang dibayarkan ke akun Stripe Anda.
 

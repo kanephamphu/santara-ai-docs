@@ -2,7 +2,7 @@
 title: Có gì mới
 description: Những thay đổi sản phẩm đáng biết, mới nhất ở trên, mỗi mục trỏ tới trang giải thích nó.
 sidebar:
-  order: 10
+  order: 11
 ---
 
 Những thay đổi bạn thực sự nhận ra, nhóm theo tháng chúng xuất hiện. Công việc nội bộ, hiệu năng và
@@ -11,6 +11,22 @@ sửa lỗi không được liệt kê trừ khi chúng đổi thứ bạn nhìn
 Trang này bắt đầu từ tháng 7 năm 2026, khi bộ tài liệu này lần đầu được xuất bản. Mỗi trang cũng có
 ngày **Cập nhật lần cuối** ở chân trang, đó là câu trả lời chi tiết hơn cho câu hỏi "cái này có đổi
 không?".
+
+## Tháng 10 năm 2026
+
+### Gặp Santi và đội AI Agents
+
+Trợ lý giờ tên là **Santi**, đứng cạnh chuông thông báo trên mọi màn hình. Santi dẫn dắt sáu agent —
+Sunny, Lulu, Penny, Loop, Kiko và Bubbles — mỗi agent trông một mảng công việc, cùng trang **AI
+Agents** riêng liệt kê những gì cần bạn. Santi còn có thể tạo ticket, gửi trả lời trên Airbnb và
+Booking.com, và (với chủ workspace) thêm, sửa hoặc hủy đặt phòng trực tiếp — mỗi việc chỉ sau khi bấm
+**Xác nhận**. Xem [Hỏi Santi](/vi/help/assistant/).
+
+### Ứng dụng Santi
+
+Santi có ứng dụng riêng cho điện thoại tại santi.santara.ai: nói hoặc gõ, nó nhớ những gì bạn dặn, và
+mọi thay đổi cần **Có**, rồi **Xác nhận**. Hiện chỉ dành cho người được mời. Xem
+[Ứng dụng Santi](/vi/help/santi-app/).
 
 ## Tháng 9 năm 2026
 

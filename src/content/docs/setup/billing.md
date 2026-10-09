@@ -1,6 +1,6 @@
 ---
 title: Plans and billing
-description: A 7-day trial with a three-listing limit, two tiers, pricing per listing that falls as you grow, and no commission on any booking.
+description: A 3-month (90-day) free trial with a three-listing limit, two tiers, pricing per listing that falls as you grow, and 0% commission on channel bookings and upsells.
 sidebar:
   order: 7
 ---
@@ -12,16 +12,16 @@ explains the shape of them.
 
 ## The trial
 
-Seven days free, and **a card is required**. Nothing is charged on the day you add it, and
-cancelling before day 8 costs nothing.
+Three months free — **90 days** — and **a card is required**. Nothing is charged on the day you
+add it, and cancelling before day 91 costs nothing.
 
 :::caution[The trial has two limits, not one]
-It ends at **7 days or 3 listings, whichever comes first.** Connecting a fourth listing ends the
+It ends at **90 days or 3 listings, whichever comes first.** Connecting a fourth listing ends the
 trial there and then and charges your card for the plan your listing count falls into.
 
 Importing is usually the first thing anyone does, so a host with eight listings is billed during
-onboarding rather than on day 8. That is intended — but it surprises people who read only the
-seven days. The screen tells you the amount and asks before it charges.
+onboarding rather than on day 91. That is intended — but it surprises people who read only the
+three months. The screen tells you the amount and asks before it charges.
 :::
 
 ## What you are billed for
@@ -102,13 +102,11 @@ Change it from **Settings → Billing**, and only the **workspace owner** can:
 The asymmetry is deliberate: gaining features should not wait, and losing them should not happen
 mid-month by accident.
 
-## No commission, ever
+## Commission
 
-**No commission on any booking, on any channel** — Airbnb, Booking.com, or your own
-[direct booking site](/setup/booking-site/). Nothing is deducted from your payout at any plan level
-or portfolio size.
-
-**0% commission on bookings and upsells**, on every channel and on direct bookings.
+Santara AI takes **no commission on channel bookings** (Airbnb, Booking.com and the rest) **or on
+upsells**. It takes **3% commission only on direct bookings** made through your
+[direct booking site](/setup/booking-site/). Everything else is the subscription described above.
 
 ## Adding a listing mid-month
 

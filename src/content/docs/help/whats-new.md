@@ -2,7 +2,7 @@
 title: What's new
 description: Product changes worth knowing about, newest first, each pointing at the page that explains it.
 sidebar:
-  order: 10
+  order: 11
 ---
 
 Changes you would actually notice, grouped by the month they landed. Internal work, performance and
@@ -10,6 +10,22 @@ bug fixes are left out unless they change what you see.
 
 This page starts in July 2026, when this manual was first published. Every page also carries its
 own **Last updated** date at the foot, which is the finer-grained answer to "has this changed?".
+
+## October 2026
+
+### Meet Santi and the AI Agents crew
+
+The assistant is now **Santi**, beside the bell on every screen. It leads six agents — Sunny,
+Lulu, Penny, Loop, Kiko and Bubbles — each watching one part of the business, with their own
+**AI Agents** page listing what needs you. Santi can also create tickets, send replies on Airbnb and
+Booking.com, and (for owners) add, change or cancel direct bookings — each only after **Confirm**.
+See [Ask Santi](/help/assistant/).
+
+### The Santi app
+
+Santi has its own app for your phone at santi.santara.ai: talk or type, it remembers what you tell
+it, and every change needs **Yes**, then **Confirm**. Invite-only for now. See
+[The Santi app](/help/santi-app/).
 
 ## September 2026
 

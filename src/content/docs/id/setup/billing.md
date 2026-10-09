@@ -1,6 +1,6 @@
 ---
 title: Paket dan penagihan
-description: Uji coba 7 hari dengan batas tiga listing, dua tingkat, harga per listing yang turun seiring pertumbuhan, dan tanpa komisi atas booking mana pun.
+description: Uji coba gratis 3 bulan (90 hari) dengan batas tiga listing, dua tingkat, harga per listing yang turun seiring pertumbuhan, dan komisi 0% atas booking kanal dan upsell.
 sidebar:
   order: 7
 ---
@@ -12,17 +12,17 @@ menjelaskan bentuknya.
 
 ## Uji coba
 
-Tujuh hari gratis, dan **kartu wajib ada**. Tidak ada tagihan pada hari Anda menambahkannya, dan
-membatalkan sebelum hari ke-8 tidak berbiaya.
+Tiga bulan gratis — **90 hari** — dan **kartu wajib ada**. Tidak ada tagihan pada hari Anda
+menambahkannya, dan membatalkan sebelum hari ke-91 tidak berbiaya.
 
 :::caution[Uji coba punya dua batas, bukan satu]
-Uji coba berakhir pada **7 hari atau 3 listing, mana yang lebih dulu.** Menghubungkan listing
+Uji coba berakhir pada **90 hari atau 3 listing, mana yang lebih dulu.** Menghubungkan listing
 keempat mengakhiri uji coba saat itu juga dan menagih kartu Anda untuk paket sesuai jumlah listing
 Anda.
 
 Mengimpor biasanya adalah hal pertama yang dilakukan siapa pun, jadi host dengan delapan listing
-ditagih saat onboarding, bukan pada hari ke-8. Itu memang disengaja — tetapi mengejutkan orang yang
-hanya membaca angka tujuh harinya. Layar menampilkan jumlahnya dan bertanya sebelum menagih.
+ditagih saat onboarding, bukan pada hari ke-91. Itu memang disengaja — tetapi mengejutkan orang yang
+hanya membaca angka tiga bulannya. Layar menampilkan jumlahnya dan bertanya sebelum menagih.
 :::
 
 ## Apa yang ditagih
@@ -104,13 +104,11 @@ Ubah dari **Pengaturan → Tagihan**, dan hanya **pemilik workspace** yang bisa:
 Ketidaksimetrisan ini disengaja: mendapatkan fitur tidak perlu menunggu, dan kehilangan fitur tidak
 boleh terjadi di tengah bulan secara tidak sengaja.
 
-## Tanpa komisi, selamanya
+## Komisi
 
-**Tanpa komisi atas booking mana pun, di channel mana pun** — Airbnb, Booking.com, atau
-[situs booking langsung](/id/setup/booking-site/) Anda sendiri. Tidak ada yang dipotong dari payout
-Anda pada tingkat paket mana pun dan ukuran portofolio berapa pun.
-
-**0% komisi atas booking dan upsell**, di semua kanal dan pada booking langsung.
+Santara AI **tidak mengambil komisi atas booking dari kanal** (Airbnb, Booking.com, dan lainnya) **maupun atas upsell**.
+Santara AI hanya mengambil **3% komisi atas booking langsung** yang dibuat lewat
+[situs booking langsung](/id/setup/booking-site/) Anda. Selebihnya adalah langganan seperti dijelaskan di atas.
 
 ## Menambah listing di tengah bulan
 

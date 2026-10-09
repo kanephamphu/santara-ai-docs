@@ -38,7 +38,7 @@ yang tamunya ingin Anda saring, dan pilihan salah untuk apa pun yang bersaing pa
 
 ### Uang
 
-Santara AI tidak mengambil komisi atas booking tersebut.
+Santara AI mengambil komisi 3% atas booking tersebut.
 
 :::caution[Mengembalikan dana bukan membatalkan]
 **Pengembalian dana hanya mengembalikan uang. Masa menginap tetap ada di kalender Anda sampai Anda
@@ -49,6 +49,6 @@ yang orang lakukan. Jika tamunya tidak jadi datang, lakukan keduanya.
 
 ## Bedanya dengan booking dari channel
 
-Booking langsung adalah milik Anda: tanpa komisi, dan alamat email tamu yang sebenarnya, bukan alias
+Booking langsung adalah milik Anda: alamat email tamu yang sebenarnya, bukan alias
 penerusan. Yang Anda lepaskan adalah proses sengketa milik channel — itulah sebabnya mode permintaan
 ada, dan sebabnya [detail kontak](/id/setup/booking-site/) di situs Anda layak diisi dengan benar.
