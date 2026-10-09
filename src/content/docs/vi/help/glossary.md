@@ -2,7 +2,7 @@
 title: Thuật ngữ
 description: Mọi thuật ngữ Santara AI dùng trên màn hình, trong một trang.
 sidebar:
-  order: 9
+  order: 10
 ---
 
 **ADR** — giá trung bình mỗi đêm. Doanh thu chia số đêm đã bán.

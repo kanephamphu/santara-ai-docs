@@ -2,7 +2,7 @@
 title: Bagaimana caranya…?
 description: Satu baris per pekerjaan, lengkap dengan layar yang mengerjakannya. Halaman yang dibuka saat Anda tahu mau apa, tapi tidak tahu di mana.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Sisa manual ini disusun berdasarkan **layar**. Halaman ini disusun berdasarkan **pekerjaan** — apa

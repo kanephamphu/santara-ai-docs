@@ -2,7 +2,7 @@
 title: What that message means
 description: The exact words Santara AI puts on screen, what each one is actually telling you, and the fix. Search this page for the sentence you are looking at.
 sidebar:
-  order: 7
+  order: 8
 ---
 
 Messages here are quoted as the product writes them, so you can search this page for the sentence

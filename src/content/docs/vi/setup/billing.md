@@ -1,6 +1,6 @@
 ---
 title: Gói và thanh toán
-description: Bản dùng thử 7 ngày với giới hạn ba listing, hai bậc, giá theo listing giảm dần khi bạn lớn lên, và 0% hoa hồng trên booking từ kênh và upsell.
+description: Dùng thử miễn phí 3 tháng (90 ngày) với giới hạn ba listing, hai bậc, giá theo listing giảm dần khi bạn lớn lên, và 0% hoa hồng trên booking từ kênh và upsell.
 sidebar:
   order: 7
 ---
@@ -12,16 +12,16 @@ trang này giải thích hình dạng của chúng.
 
 ## Dùng thử
 
-Bảy ngày miễn phí, và **bắt buộc có thẻ**. Không có khoản nào bị tính vào ngày bạn thêm thẻ, và hủy
-trước ngày thứ 8 thì không mất gì.
+Ba tháng miễn phí — **90 ngày** — và **bắt buộc có thẻ**. Không có khoản nào bị tính vào ngày bạn
+thêm thẻ, và hủy trước ngày thứ 91 thì không mất gì.
 
 :::caution[Bản dùng thử có hai giới hạn, không phải một]
-Nó kết thúc ở **7 ngày hoặc 3 listing, cái nào tới trước.** Kết nối listing thứ tư sẽ chấm dứt bản
+Nó kết thúc ở **90 ngày hoặc 3 listing, cái nào tới trước.** Kết nối listing thứ tư sẽ chấm dứt bản
 dùng thử ngay lúc đó và tính tiền thẻ của bạn theo gói ứng với số listing bạn có.
 
 Nhập dữ liệu thường là việc đầu tiên ai cũng làm, nên một chủ nhà có tám listing sẽ bị tính tiền
-ngay trong lúc onboarding chứ không phải vào ngày thứ 8. Đó là chủ đích — nhưng nó khiến những ai
-chỉ đọc con số bảy ngày phải bất ngờ. Màn hình hiện rõ số tiền và hỏi trước khi tính.
+ngay trong lúc onboarding chứ không phải vào ngày thứ 91. Đó là chủ đích — nhưng nó khiến những ai
+chỉ đọc con số ba tháng phải bất ngờ. Màn hình hiện rõ số tiền và hỏi trước khi tính.
 :::
 
 ## Bạn bị tính tiền cho cái gì

@@ -2,7 +2,7 @@
 title: FAQ
 description: Pertanyaan yang benar-benar ditanyakan pengguna baru pada minggu pertama.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Persiapan

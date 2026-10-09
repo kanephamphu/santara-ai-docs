@@ -2,7 +2,7 @@
 title: FAQ
 description: The questions new users actually ask in the first week.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 ## Setup

@@ -2,7 +2,7 @@
 title: How do I…?
 description: One line per job, with the screen that does it. The page to open when you know what you want and not where it lives.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 The rest of this manual is organised by **screen**. This page is organised by **job** — what you

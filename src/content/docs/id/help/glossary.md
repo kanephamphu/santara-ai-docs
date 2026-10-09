@@ -2,7 +2,7 @@
 title: Glosarium
 description: Setiap istilah yang dipakai Santara AI di layar, dalam satu tempat.
 sidebar:
-  order: 9
+  order: 10
 ---
 
 **ADR** — tarif harian rata-rata. Pendapatan dibagi malam yang terjual.

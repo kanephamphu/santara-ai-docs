@@ -2,7 +2,7 @@
 title: Apa yang baru
 description: Perubahan produk yang layak diketahui, terbaru di atas, masing-masing menunjuk halaman yang menjelaskannya.
 sidebar:
-  order: 10
+  order: 11
 ---
 
 Perubahan yang benar-benar terasa, dikelompokkan per bulan saat perubahannya masuk. Pekerjaan
@@ -11,6 +11,23 @@ internal, performa, dan perbaikan bug tidak dicantumkan kecuali mengubah apa yan
 Halaman ini dimulai Juli 2026, saat manual ini pertama diterbitkan. Setiap halaman juga memuat
 tanggal **Terakhir diperbarui** di bagian bawah, yang merupakan jawaban lebih rinci untuk
 "apakah ini berubah?".
+
+## Oktober 2026
+
+### Kenalan dengan Santi dan kru AI Agents
+
+Asisten kini bernama **Santi**, di samping lonceng di setiap layar. Ia memimpin enam agen — Sunny,
+Lulu, Penny, Loop, Kiko, dan Bubbles — masing-masing mengawasi satu bagian bisnis, dengan halaman
+**AI Agents** sendiri yang mendaftar apa yang perlu Anda tangani. Santi juga bisa membuat tiket,
+mengirim balasan di Airbnb dan Booking.com, dan (untuk pemilik) menambah, mengubah, atau
+membatalkan pemesanan langsung — masing-masing hanya setelah **Konfirmasi**. Lihat
+[Tanya Santi](/id/help/assistant/).
+
+### Aplikasi Santi
+
+Santi punya aplikasi sendiri untuk ponsel Anda di santi.santara.ai: bicara atau ketik, ia mengingat
+apa yang Anda katakan, dan setiap perubahan butuh **Ya**, lalu **Konfirmasi**. Untuk saat ini hanya
+dengan undangan. Lihat [Aplikasi Santi](/id/help/santi-app/).
 
 ## September 2026
 

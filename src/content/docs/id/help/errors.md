@@ -2,7 +2,7 @@
 title: Arti pesan itu
 description: Kata-kata persis yang ditampilkan Santara AI, apa maksudnya, dan apa perbaikannya. Cari kalimat yang sedang Anda lihat di halaman ini.
 sidebar:
-  order: 7
+  order: 8
 ---
 
 Pesan di sini dikutip sebagaimana produk menuliskannya, jadi Anda bisa mencari kalimat yang ada di

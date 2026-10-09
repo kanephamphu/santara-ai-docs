@@ -1,6 +1,6 @@
 ---
 title: Plans and billing
-description: A 7-day trial with a three-listing limit, two tiers, pricing per listing that falls as you grow, and 0% commission on channel bookings and upsells.
+description: A 3-month (90-day) free trial with a three-listing limit, two tiers, pricing per listing that falls as you grow, and 0% commission on channel bookings and upsells.
 sidebar:
   order: 7
 ---
@@ -12,16 +12,16 @@ explains the shape of them.
 
 ## The trial
 
-Seven days free, and **a card is required**. Nothing is charged on the day you add it, and
-cancelling before day 8 costs nothing.
+Three months free — **90 days** — and **a card is required**. Nothing is charged on the day you
+add it, and cancelling before day 91 costs nothing.
 
 :::caution[The trial has two limits, not one]
-It ends at **7 days or 3 listings, whichever comes first.** Connecting a fourth listing ends the
+It ends at **90 days or 3 listings, whichever comes first.** Connecting a fourth listing ends the
 trial there and then and charges your card for the plan your listing count falls into.
 
 Importing is usually the first thing anyone does, so a host with eight listings is billed during
-onboarding rather than on day 8. That is intended — but it surprises people who read only the
-seven days. The screen tells you the amount and asks before it charges.
+onboarding rather than on day 91. That is intended — but it surprises people who read only the
+three months. The screen tells you the amount and asks before it charges.
 :::
 
 ## What you are billed for

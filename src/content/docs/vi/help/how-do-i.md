@@ -2,7 +2,7 @@
 title: Làm thế nào để…?
 description: Mỗi việc một dòng, kèm màn hình xử lý nó. Trang để mở khi bạn biết mình muốn gì nhưng không biết nó nằm ở đâu.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 Phần còn lại của tài liệu này được sắp theo **màn hình**. Trang này được sắp theo **việc cần làm** —

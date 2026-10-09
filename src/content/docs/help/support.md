@@ -2,12 +2,12 @@
 title: Getting help
 description: The assistant, human support, and what to include so the first reply is the useful one.
 sidebar:
-  order: 8
+  order: 9
 ---
 
 ## Three places, in order
 
-1. **[Ask Santara AI](/help/assistant/)** — in-product, can read your workspace. Fastest for "what is
+1. **[Ask Santi](/help/assistant/)** — in-product, can read your workspace. Fastest for "what is
    the status of…" and "why is this listing not live".
 2. **These docs** — every page is also [markdown](/help/for-ai-tools/) if you would rather read it
    in a tool.

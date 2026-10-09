@@ -2,7 +2,7 @@
 title: Menemukan sesuatu
 description: Palet pencarian, dan panduan keliling yang menunjukkan letak segala sesuatu.
 sidebar:
-  order: 3
+  order: 4
 ---
 
 ![Palet perintah: reservasi, tamu, properti, dan kamar, dalam satu kotak.](/screens/search.id.png)

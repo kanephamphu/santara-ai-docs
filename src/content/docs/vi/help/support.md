@@ -2,12 +2,12 @@
 title: Nhận trợ giúp
 description: Trợ lý, hỗ trợ từ người thật, và cần đưa gì vào để câu trả lời đầu tiên đã hữu ích.
 sidebar:
-  order: 8
+  order: 9
 ---
 
 ## Ba nơi, theo thứ tự
 
-1. **[Hỏi Santara AI](/vi/help/assistant/)** — trong sản phẩm, đọc được workspace của bạn. Nhanh nhất cho
+1. **[Hỏi Santi](/vi/help/assistant/)** — trong sản phẩm, đọc được workspace của bạn. Nhanh nhất cho
    "trạng thái của… là gì" và "vì sao listing này chưa chạy".
 2. **Tài liệu này** — mỗi trang cũng có bản [markdown](/vi/help/for-ai-tools/).
 3. **Hỗ trợ từ người thật** — từ chính bảng của trợ lý, chuyển tiếp tới đội ngũ Santara AI. Nếu bạn đã trò

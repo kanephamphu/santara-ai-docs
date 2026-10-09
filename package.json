@@ -15,7 +15,8 @@
     "predev": "npm run build:diagrams && npm run build:screens",
     "prebuild": "npm run build:diagrams && npm run build:screens",
     "build:screens": "node scripts/build-screens.mjs",
-    "capture:screens": "node scripts/capture-screens.mjs"
+    "capture:screens": "node scripts/capture-screens.mjs",
+    "capture:santi": "node scripts/capture-santi.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.36.0",
