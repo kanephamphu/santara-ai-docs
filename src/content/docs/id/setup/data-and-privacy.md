@@ -14,7 +14,7 @@ cara kerjanya dalam praktik.
 
 ## Siapa yang mengendalikannya
 
-Santara AI adalah produk **AirCierge AI LLC**, terdaftar di Wyoming, Amerika Serikat, dengan tim
+Santara AI adalah produk **Aircierge AI LLC**, terdaftar di Wyoming, Amerika Serikat, dengan tim
 operasional di Da Nang, Vietnam. Pertanyaan dan permintaan data ditujukan ke **hello@santara.ai**,
 atau lewat [dukungan](/id/help/support/) dari dalam produk, yang datang lengkap dengan konteks
 workspace Anda.

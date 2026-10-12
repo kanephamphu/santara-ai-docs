@@ -13,7 +13,7 @@ là cách nó vận hành trên thực tế.
 
 ## Ai kiểm soát dữ liệu
 
-Santara AI là sản phẩm của **AirCierge AI LLC**, đăng ký tại Wyoming, Hoa Kỳ, với đội vận hành tại
+Santara AI là sản phẩm của **Aircierge AI LLC**, đăng ký tại Wyoming, Hoa Kỳ, với đội vận hành tại
 Đà Nẵng, Việt Nam. Câu hỏi và yêu cầu về dữ liệu gửi tới **hello@santara.ai**, hoặc qua
 [hỗ trợ](/vi/help/support/) từ trong sản phẩm, nơi tin nhắn đi kèm sẵn workspace của bạn.
 

@@ -13,7 +13,7 @@ works in practice.
 
 ## Who controls it
 
-Santara AI is a product of **AirCierge AI LLC**, registered in Wyoming, USA, with its operations
+Santara AI is a product of **Aircierge AI LLC**, registered in Wyoming, USA, with its operations
 team in Da Nang, Vietnam. Data questions and requests go to **hello@santara.ai**, or through
 [support](/help/support/) from inside the product, which arrives with your workspace attached.
 
