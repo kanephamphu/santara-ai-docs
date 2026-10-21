@@ -2,16 +2,16 @@
 title: Pengaturan workspace
 description: Bahasa, zona waktu, mata uang, notifikasi, template pesan — hal-hal yang diatur sekali.
 sidebar:
-  order: 5
+  order: 8
 ---
 
-**Pengaturan** adalah satu halaman dengan tab. Dua di antaranya tentang **Anda** dan mengikuti Anda
-antar workspace; sisanya milik workspace yang dipakai bersama.
+**Pengaturan** adalah satu halaman dengan tab, dan setiap tab di sana milik **workspace** yang
+dipakai bersama. Akun Anda sendiri sengaja bukan salah satunya — akun ada di balik menu akun di
+bagian bawah bilah samping, karena di situlah orang mencari kata sandinya sendiri. Lihat
+[Akun dan keamanan Anda](/id/setup/account/).
 
 | Tab | Cakupan |
 | --- | --- |
-| **Personal** | Anda — nama, bahasa, zona waktu |
-| **Keamanan** | Anda — kata sandi dan perlindungan akun |
 | **Workspace** | Bersama — nama, bahasa, zona waktu, mata uang |
 | **Situs Booking** | Bersama — [situs booking langsung Anda](/id/setup/booking-site/) |
 | **Channel** | Bersama — [koneksi channel](/id/channels/) |
@@ -19,9 +19,11 @@ antar workspace; sisanya milik workspace yang dipakai bersama.
 | **Tim** | Bersama — [orang dan peran](/id/setup/team/) |
 | **Penagihan** | Bersama — [paket dan faktur](/id/setup/billing/) |
 
+![Pengaturan workspace: waktu dan bahasa ringkasan, zona waktu, mata uang, dan selebihnya.](/screens/workspace-settings.id.png)
+
 ## Bahasa
 
-Antarmuka Santara tersedia dalam **English, Bahasa Indonesia, dan Tiếng Việt**.
+Antarmuka Santara AI tersedia dalam **English, Bahasa Indonesia, dan Tiếng Việt**.
 
 - Pengaturan bahasa **Anda** mengubah antarmuka untuk Anda.
 - Bahasa **workspace** menentukan bahasa penulisan [ringkasan harian](/id/daily/), dan bahasa bawaan
@@ -53,7 +55,25 @@ Tab workspace memuat pengaturan yang mengubah perilaku produk bagi semua orang d
 | **Nada pesan bawaan** | Nada awal draf balasan untuk tamu |
 | **Nilai upsell minimum** | Peluang di bawah nilai ini tidak ditampilkan, agar pipeline tetap layak dibaca |
 | **Buka Ringkasan Harian dulu** | Mulai aplikasi dari ringkasan, bukan dari dasbor |
+| **Peringatan kedatangan hari ini** | Kirim email ke tim saat ada pemesanan untuk tamu yang check-in hari ini — aktif secara bawaan |
 | **Channel notifikasi** | Dasbor untuk saat ini; email dan SMS belum tersambung |
+
+### Peringatan kedatangan hari ini
+
+Booking untuk **hari ini** adalah yang paling mungkin bermasalah: kamarnya bisa belum sempat
+dibersihkan. Saat booking dibuat — atau dibatalkan — untuk tamu yang check-in hari ini (menurut zona
+waktu workspace), email langsung terkirim, baik booking itu datang dari channel, situs booking Anda,
+atau dimasukkan manual.
+
+- **Manajer dan co-host** menerima email kedatangan (atau pembatalan) hari ini berisi detail
+  menginap, kontak tamu, nilai uangnya, dan jendela pembersihan. Jika pembersihan akan selesai
+  terlambat, email menyebutkannya dan meminta keputusan.
+- **Petugas kebersihan kamar itu** menerima email pembersihan hari ini (atau pembatalannya) beserta
+  perintah kerjanya.
+- Orang yang memasukkan booking tidak menerima email tentang booking-nya sendiri.
+
+Perubahan tanggal tidak mengirim email; itu muncul di [lonceng](#notifikasi). Hanya pemilik workspace
+atau admin yang bisa mematikan peringatan ini.
 
 Ada juga **nama dan avatar** workspace — logo yang tampil di sidebar dan pemilih workspace, yang
 mencegah dua workspace terlihat identik sekilas.
@@ -64,8 +84,11 @@ Lonceng di header. Notifikasi dialamatkan berdasarkan **siapa yang bisa menindak
 berdasarkan nama — karena itulah manajer yang ditambahkan bulan depan langsung menerima yang memang
 ditujukan bagi perannya.
 
-Ada delapan jenis: booking **dibuat**, **berubah**, atau **dibatalkan**; pembersihan **ditugaskan**
-kepada Anda atau **selesai**; tiket **dibuka**, **ditugaskan** kepada Anda, atau **selesai**. Hal
+Ada sepuluh jenis: booking **dibuat**, **berubah**, atau **dibatalkan**; pembersihan **ditugaskan**
+kepada Anda atau **selesai**; tiket **dibuka**, **ditugaskan** kepada Anda, atau **selesai**;
+**channel terhubung**, yang menyebut channel, properti, dan berapa kamar yang dipetakan; dan
+**permintaan tamu** dari [buku panduan tamu](/id/setup/guidebook/#saat-tamu-meminta-layanan-tambahan),
+yang menyebut tamu, layanan, harga, dan kamarnya. Hal
 lain yang diketahui produk tinggal di layarnya masing-masing, dan itu disengaja — daftar notifikasi
 yang melaporkan hal yang tidak bisa Anda tindaklanjuti akan berhenti dibaca.
 
@@ -76,12 +99,12 @@ dan Anda tidak dinotifikasi soal itu — hanya soal yang terjadi setelah Anda te
 
 ## Template pesan
 
-Balasan tersimpan dengan placeholder yang terisi sendiri dari data menginap: nama tamu, jam check-in,
-kata sandi wifi, kode pintu, jumlah tagihan. Tulis sekali per bahasa yang Anda gunakan, lalu pakai
-dari utas mana pun di [Pesan](/id/daily/messages/).
+Balasan tersimpan dengan placeholder yang terisi sendiri dari data menginap — nama tamu, jam
+check-in, kata sandi wifi, kode pintu, jumlah tagihan. Dipakai bersama oleh workspace, jadi jawaban
+yang disepakati tim adalah jawaban yang dikirim semua orang.
 
-Template dipakai bersama oleh workspace, jadi jawaban yang disepakati tim adalah jawaban yang dikirim
-semua orang.
+Cara menulisnya, pratinjau terhadap reservasi nyata, dan lima template bawaannya:
+**[Template pesan](/id/setup/message-templates/)**.
 
 ## Berpindah workspace
 

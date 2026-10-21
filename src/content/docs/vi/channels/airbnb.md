@@ -16,10 +16,10 @@ sidebar:
 
 **Cài đặt → Kênh → Kết nối Airbnb**.
 
-Bạn được hỏi (tùy chọn) listing của tài khoản này thuộc về bất động sản Santara nào. Nếu chưa có bất
+Bạn được hỏi (tùy chọn) listing của tài khoản này thuộc về bất động sản Santara AI nào. Nếu chưa có bất
 động sản nào, hãy bỏ qua — chúng sẽ được tạo từ listing.
 
-Bấm **Tiếp tục sang Airbnb**. Đăng nhập trên trang Airbnb và phê duyệt kết nối tại đó. Tab Santara
+Bấm **Tiếp tục sang Airbnb**. Đăng nhập trên trang Airbnb và phê duyệt kết nối tại đó. Tab Santara AI
 hiển thị *Đang chờ bạn hoàn tất cấp phép trên Airbnb*.
 
 Nếu bạn đóng cửa sổ trước khi phê duyệt, bạn sẽ thấy *Cấp phép chưa hoàn tất*. Không có gì được kết
@@ -36,7 +36,7 @@ Khi Airbnb chia sẻ listing của tài khoản, bạn nhận được một b�
     khi nhiều listing Airbnb là các phòng ngủ của cùng một villa.
 - Listing đã kết nối ở nơi khác được đánh dấu *đã kết nối* và không chọn lại được.
 
-Bấm **Thiết lập listing**. Santara sẽ:
+Bấm **Thiết lập listing**. Santara AI sẽ:
 
 1. tạo bất động sản và phòng,
 2. ánh xạ từng listing tới phòng của nó,
@@ -54,7 +54,7 @@ Màn hình rà soát liệt kê những gì đọc được từ Airbnb cho từ
 - **Giá mỗi đêm**, giá cuối tuần, số khách bao gồm, giá khách phụ trội, phí dọn dẹp.
 - **Giữ trên Airbnb** — các thiết lập không có tương đương chính xác ở đây. Chúng vẫn áp dụng trên
   Airbnb; hiển thị để bạn biết chúng tồn tại.
-- **Nên kiểm tra trên Airbnb** — những giá trị trông bất thường. Santara đánh dấu chứ không đoán.
+- **Nên kiểm tra trên Airbnb** — những giá trị trông bất thường. Santara AI đánh dấu chứ không đoán.
 - **Chúng tôi không đọc được giá của listing này một cách an toàn** — phòng giữ giá của chính nó và
   không có gì bị bịa ra. Hãy đặt giá trước khi go live.
 
@@ -66,7 +66,7 @@ có giá thật — và liên kết tự phục hồi khi có.
 
 ## 4. Go live
 
-**Go live trên Airbnb** trao quyền kiểm soát lịch cho Santara. Tình trạng trống bắt đầu đồng bộ.
+**Go live trên Airbnb** trao quyền kiểm soát lịch cho Santara AI. Tình trạng trống bắt đầu đồng bộ.
 **Giá vẫn như trên Airbnb** cho tới khi bạn đổi ở đây hoặc quy tắc định giá xuất bản.
 
 Nếu một listing không lên sóng được, lý do hiển thị đúng như Airbnb báo:
@@ -87,7 +87,7 @@ khoản đã kết nối sẽ bị từ chối — hãy ngắt cái cũ trước
 
 ## Gỡ bỏ
 
-- **Xóa khỏi Santara** trên một listing — xóa các đặt phòng, tin nhắn, khách và đánh giá của phòng đó
+- **Xóa khỏi Santara AI** trên một listing — xóa các đặt phòng, tin nhắn, khách và đánh giá của phòng đó
   tại đây. Listing Airbnb của bạn không bị ảnh hưởng và có thể nhập lại.
 - **Ngắt kết nối** tài khoản — tương tự, cho toàn bộ listing của tài khoản, và đồng bộ dừng lại.
 

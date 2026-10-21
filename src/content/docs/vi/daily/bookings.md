@@ -2,10 +2,12 @@
 title: Đặt phòng
 description: Dòng đặt phòng khi chúng đến, và mọi thứ phía sau một lượt lưu trú — khách, tiền, lịch sử.
 sidebar:
-  order: 5
+  order: 6
 ---
 
 **Đặt phòng** là dòng chảy: mọi lượt đặt từ mọi kênh, mới nhất trước, kèm phòng, ngày, kênh và giá trị.
+
+![Dòng đặt phòng — mọi lượt lưu trú từ mọi kênh, mới nhất trước.](/screens/bookings.vi.png)
 
 ## Mở một lượt lưu trú
 
@@ -44,6 +46,7 @@ giá, và điểm tóm tắt trải nghiệm đón họ. Khách quay lại đư�
 dữ liệu để đối chiếu.
 
 Hãy dùng nó trước khi trả lời lời phàn nàn của một người đang ở lần thứ tư — câu trả lời thường khác.
+Xem **[Khách](/vi/daily/guests/)** để biết điểm số, thứ tự ưu tiên và các xu hướng.
 
 ## Định nghĩa về tiền
 
@@ -51,6 +54,6 @@ Hãy dùng nó trước khi trả lời lời phàn nàn của một người đ
 | --- | --- |
 | **Tổng thu** | Khách trả bao nhiêu, gồm cả hoa hồng kênh |
 | **Doanh thu phòng** | Phần lưu trú, không gồm các khoản phí |
-| **Tiền thực nhận** | Số kênh trả cho bạn. Đây là ý nghĩa của **doanh thu** trong Santara |
+| **Tiền thực nhận** | Số kênh trả cho bạn. Đây là ý nghĩa của **doanh thu** trong Santara AI |
 
 Mọi con số trên màn hình đều ghi rõ nó là loại nào. Xem [Báo cáo](/vi/money/reports/).

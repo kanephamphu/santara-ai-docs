@@ -1,0 +1,22 @@
+{
+  "width": 1440,
+  "height": 760,
+  "boxes": [
+    {
+      "x": 303,
+      "y": 223,
+      "width": 454.125,
+      "height": 66.5,
+      "label": "Turnover hari ini",
+      "side": "right"
+    },
+    {
+      "x": 930.046875,
+      "y": 433,
+      "width": 296,
+      "height": 48,
+      "label": "Tugaskan petugas, lalu tandai selesai",
+      "side": "left"
+    }
+  ]
+}

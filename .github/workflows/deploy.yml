@@ -73,6 +73,31 @@ jobs:
       # via GitHub's OIDC provider — no long-lived keys in the repo, and the preferred option.
       # Leave it unset and it falls back to access keys, matching the other Santara repos so
       # this workflow runs on day one without an IAM bootstrap.
+      - name: Check the credentials are configured
+        # configure-aws-credentials fails with "'aws-secret-access-key' must be provided if
+        # 'aws-access-key-id' is provided" when half a key pair is set — which reads like a bug in
+        # the workflow rather than a missing secret. Say what is actually wrong, and where.
+        env:
+          ROLE: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
+          KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          SECRET: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -n "$ROLE" ]; then
+            echo "Auth: OIDC role ($ROLE)"
+            exit 0
+          fi
+          missing=""
+          [ -z "$KEY_ID" ] && missing="$missing AWS_ACCESS_KEY_ID"
+          [ -z "$SECRET" ] && missing="$missing AWS_SECRET_ACCESS_KEY"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing secret(s):$missing — add them under" \
+                 "Settings -> Environments -> production -> Secrets, or set the" \
+                 "AWS_DEPLOY_ROLE_ARN variable to use OIDC instead."
+            exit 1
+          fi
+          echo "Auth: access keys"
+
       - name: Configure AWS credentials (OIDC)
         if: vars.AWS_DEPLOY_ROLE_ARN != ''
         uses: aws-actions/configure-aws-credentials@v4

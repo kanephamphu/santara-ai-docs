@@ -2,10 +2,12 @@
 title: Upsells
 description: Late checkouts, early arrivals and extra nights found in the calendar and offered before the guest thinks to ask.
 sidebar:
-  order: 2
+  order: 3
 ---
 
-An upsell is a night or an hour you already have, sold to a guest who is already staying. Santara
+![The upsell pipeline: each opportunity with the stay behind it, what it is worth, and the draft message that offers it.](/screens/upsells.en.png)
+
+An upsell is a night or an hour you already have, sold to a guest who is already staying. Santara AI
 finds them by reading the calendar, not by guessing at what a guest might want.
 
 ## What it looks for
@@ -39,7 +41,7 @@ You extend or adjust the stay in [Bookings](/daily/bookings/) or the
 [calendar](/daily/calendar/). The nights close on every channel as usual, and the extra revenue
 appears in [Reports](/money/reports/) under the stay it belongs to.
 
-Santara does not silently modify a reservation on your behalf.
+Santara AI does not silently modify a reservation on your behalf.
 
 ## Where else offers surface
 
@@ -47,6 +49,14 @@ Santara does not silently modify a reservation on your behalf.
 - In [Messages](/daily/messages/) — as a prompt in the thread where it is relevant.
 - In [Reports](/money/reports/) — an upsell report ranking open, missed and accepted offers, and
   which offer types earn most per property.
+
+## When the guest asks first
+
+A guest who has confirmed their booking in the [guest guidebook](/setup/guidebook/) can request an
+early check-in, a late checkout or one more night themselves, from the QR sticker in their room. The
+request lands here already **Accepted**, at the price the guidebook showed them, and the team is
+notified. It passed the same calendar check as a detected offer, but nothing on the booking changes
+until you adjust the stay.
 
 ## Nothing is sent automatically
 

@@ -2,7 +2,7 @@
 title: Pemecahan masalah channel
 description: Selusin hal yang benar-benar sering salah pada koneksi, dan apa yang memperbaikinya.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 Mulai dari dua langkah yang menyelesaikan sebagian besar masalah: periksa status dan sinkron terakhir
@@ -26,7 +26,7 @@ menampilkan apa pun.
 
 **Kamar Booking.com tidak ditemukan.**
 Hampir selalu langkah connectivity provider. Di extranet: **Account → Connectivity provider**, cari
-**Channex**, pilih, setujui perjanjiannya. Lalu segarkan di sini. Jika masih kosong, periksa ulang
+provider yang disebutkan di dialog koneksi, pilih, setujui perjanjiannya. Lalu segarkan di sini. Jika masih kosong, periksa ulang
 Hotel ID.
 
 ## Setelah impor
@@ -48,7 +48,7 @@ namanya, atau tautkan ke kamar yang sudah ada.
 
 ## Setelah live
 
-**Channel dan Santara berbeda soal sebuah tanggal.**
+**Channel dan Santara AI berbeda soal sebuah tanggal.**
 Tekan **Segarkan** pada koneksi. Jika tetap berbeda, catat tanggal dan kamarnya lalu
 [hubungi dukungan](/id/help/support/) — jangan memperbaiki di kedua sisi sekaligus.
 

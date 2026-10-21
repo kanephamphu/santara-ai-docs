@@ -84,6 +84,19 @@ jobs:
       - name: Install cfn-lint
         run: pip install --disable-pip-version-check cfn-lint
 
+      - name: Reject YAML anchors
+        # CloudFormation refuses templates containing anchors/aliases outright, and NOTHING ELSE
+        # CATCHES IT: cfn-lint, and any YAML parser, resolve the anchor before they look at the
+        # document, so the template lints clean and then fails at CreateChangeSet — after the
+        # certificate stack has already deployed. Cost us one broken deploy; hence this grep.
+        run: |
+          set -euo pipefail
+          if grep -nE ': &[A-Za-z_]|: \*[A-Za-z_]| \*[A-Za-z_]+\s*$' infrastructure/*.yaml; then
+            echo "::error::YAML anchors/aliases are not allowed in CloudFormation templates — write the block out in full."
+            exit 1
+          fi
+          echo "no anchors"
+
       - name: Lint
         # Catches the errors that otherwise surface as a half-created stack in ROLLBACK_COMPLETE,
         # which on a first deploy has to be deleted by hand before you can try again.

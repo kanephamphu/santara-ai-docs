@@ -1,0 +1,14 @@
+{
+  "width": 1440,
+  "height": 900,
+  "boxes": [
+    {
+      "x": 195,
+      "y": 632.5,
+      "width": 294.15625,
+      "height": 156,
+      "label": "Masked until the guest taps Show",
+      "side": "right"
+    }
+  ]
+}

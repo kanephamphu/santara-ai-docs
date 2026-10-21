@@ -240,10 +240,14 @@ Resources:
     Condition: ManageDns
     Properties:
       HostedZoneId: !Ref HostedZoneId
+      # The two records are spelled out rather than sharing a YAML anchor: CloudFormation rejects
+      # aliases outright ("YAML aliases are not allowed in CloudFormation templates"), and neither
+      # cfn-lint nor a YAML parse catches it — both resolve the anchor before they ever look.
+      # A is IPv4, AAAA is IPv6; the distribution answers on both, so both are needed.
       RecordSets:
         - Name: !Ref DomainName
           Type: A
-          AliasTarget: &cloudfrontAlias
+          AliasTarget:
             # Z2FDTNDATAQYW2 is CloudFront's own fixed hosted-zone id, the same in every account
             # and region. It is not a typo and it is not this zone.
             HostedZoneId: Z2FDTNDATAQYW2
@@ -251,7 +255,10 @@ Resources:
             EvaluateTargetHealth: false
         - Name: !Ref DomainName
           Type: AAAA
-          AliasTarget: *cloudfrontAlias
+          AliasTarget:
+            HostedZoneId: Z2FDTNDATAQYW2
+            DNSName: !GetAtt Distribution.DomainName
+            EvaluateTargetHealth: false
 
 Outputs:
   BucketName:

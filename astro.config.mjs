@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
-import { rehypeDiagrams } from "./src/lib/rehype-diagrams";
+import { rehypeFigures } from "./src/lib/rehype-figures";
 
 /*
  * docs.santara.ai — the product manual, as static files.
@@ -43,9 +43,9 @@ export default defineConfig({
   trailingSlash: "ignore",
   build: { format: "directory" },
   markdown: {
-    // Diagrams are inlined into the page so they follow the reader's theme. The markdown keeps a
-    // plain image reference to a real file — see src/lib/rehype-diagrams.ts.
-    rehypePlugins: [rehypeDiagrams],
+    // Diagrams are inlined so they follow the reader's theme; screenshots are wrapped in a
+    // captioned figure. Both stay plain markdown image references — see src/lib/rehype-figures.ts.
+    rehypePlugins: [rehypeFigures],
   },
   integrations: [
     starlight({
@@ -71,6 +71,8 @@ export default defineConfig({
         Head: "./src/components/Head.astro",
         Footer: "./src/components/Footer.astro",
       },
+      // Adds the trailing slash to the header logo link (see the file for why).
+      routeMiddleware: "./src/routeData.ts",
       defaultLocale: "root",
       locales: {
         root: { label: "English", lang: "en" },
@@ -110,6 +112,11 @@ export default defineConfig({
           label: "Set up once",
           translations: { id: "Atur sekali", vi: "Thiết lập một lần" },
           autogenerate: { directory: "setup" },
+        },
+        {
+          label: "Mobile App Guide",
+          translations: { id: "Panduan Aplikasi Mobile", vi: "Hướng dẫn dùng App" },
+          autogenerate: { directory: "mobile" },
         },
         {
           label: "Help",

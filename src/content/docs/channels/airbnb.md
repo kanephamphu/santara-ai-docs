@@ -16,11 +16,11 @@ sidebar:
 
 **Settings → Channels → Connect Airbnb**.
 
-You are asked, optionally, which existing Santara properties this account's listings belong to.
+You are asked, optionally, which existing Santara AI properties this account's listings belong to.
 If you have no properties yet, skip it — they get created from the listings.
 
 Press **Continue to Airbnb**. Sign in on Airbnb's own page and approve the connection there. The
-Santara tab shows *Waiting for you to finish authorizing on Airbnb* until you do.
+Santara AI tab shows *Waiting for you to finish authorizing on Airbnb* until you do.
 
 If you close the window before approving, you will see *Authorization wasn't completed*. Nothing
 was connected; press **Try again**.
@@ -29,14 +29,14 @@ was connected; press **Try again**.
 
 Once Airbnb shares the account's listings you get a table. For each listing:
 
-- **Untick** anything you do not want in Santara.
+- **Untick** anything you do not want in Santara AI.
 - Choose where it goes under **Import into**:
   - **New property — created from this listing** — the usual choice for a whole-home listing.
   - **An existing property** — then pick **which room**, if that property has more than one. Use
     this when several Airbnb listings are bedrooms of the same villa.
 - A listing already connected elsewhere is marked *already connected* and cannot be picked twice.
 
-Press **Set up listings**. Santara then:
+Press **Set up listings**. Santara AI then:
 
 1. creates the properties and rooms,
 2. maps each listing to its room,
@@ -52,9 +52,9 @@ The screen now says **Set up — not live yet**. Airbnb still controls these cal
 The review screen lists what was read from Airbnb per listing:
 
 - **Nightly price**, weekend price, guests included, extra-guest price, cleaning fee.
-- **Kept on Airbnb** — settings Santara has no exact equivalent for. They still apply on Airbnb;
+- **Kept on Airbnb** — settings Santara AI has no exact equivalent for. They still apply on Airbnb;
   they are shown so you know they exist.
-- **Worth checking on Airbnb** — values that looked unusual. Santara flags rather than guesses.
+- **Worth checking on Airbnb** — values that looked unusual. Santara AI flags rather than guesses.
 - **We could not read this listing's price safely** — the room keeps its own price and nothing was
   invented. Set a price on the room before going live.
 
@@ -66,7 +66,7 @@ until a real price exists — the link restores itself once one does.
 
 ## 4. Go live
 
-**Go live on Airbnb** hands calendar control to Santara. Availability starts syncing. **Prices stay
+**Go live on Airbnb** hands calendar control to Santara AI. Availability starts syncing. **Prices stay
 as they are on Airbnb** until you change one here or a pricing rule publishes.
 
 If a listing does not go live, the reason is shown as Airbnb gave it:
@@ -88,7 +88,7 @@ one first.
 
 ## Removing things
 
-- **Remove from Santara** on one listing — removes that room's imported reservations, messages,
+- **Remove from Santara AI** on one listing — removes that room's imported reservations, messages,
   guests and reviews. Your Airbnb listing is untouched. You can import it again later.
 - **Disconnect** the account — the same, for every listing on it, and syncing stops.
 

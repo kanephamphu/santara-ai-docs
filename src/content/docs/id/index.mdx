@@ -28,7 +28,7 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
     description="Hubungkan channel, impor listing, periksa detail, lalu go live. Setengah jam, sebagian besar hanya menunggu."
   />
   <LinkCard
-    title="Bagaimana Santara disusun"
+    title="Bagaimana Santara AI disusun"
     href="/id/start/concepts/"
     description="Workspace, properti, kamar, rate plan, listing, koneksi — enam kata yang menjelaskan semua layar."
   />
@@ -44,12 +44,42 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
   />
 </CardGrid>
 
+## Cuma mencari satu hal?
+
+<CardGrid>
+  <LinkCard
+    title="Bagaimana caranya…?"
+    href="/id/help/how-do-i/"
+    description="Satu baris per pekerjaan — menutup tanggal, memperpanjang menginap, mengundang petugas kebersihan, ekspor untuk akuntan — lengkap dengan layarnya."
+  />
+  <LinkCard
+    title="Arti pesan itu"
+    href="/id/help/errors/"
+    description="Cari kata-kata persis di layar Anda dan temukan artinya beserta perbaikannya."
+  />
+</CardGrid>
+
+## Ada yang mengundang Anda ke workspace-nya?
+
+<CardGrid>
+  <LinkCard
+    title="Diundang sebagai petugas kebersihan"
+    href="/id/start/invited-cleaner/"
+    description="Empat layar dan satu tombol. Apa yang Anda lihat, cara menandai tugas selesai, dan apa yang dilakukan kalau lebih suka WhatsApp."
+  />
+  <LinkCard
+    title="Diundang sebagai co-host atau manajer"
+    href="/id/start/invited-manager/"
+    description="Apa yang bisa Anda ubah, apa yang tetap di tangan pemilik, dan lima hal yang layak dikerjakan di minggu pertama."
+  />
+</CardGrid>
+
 ## Berdasarkan tujuan Anda
 
 <CardGrid>
-  <Card title="Jual di Airbnb dan Booking.com" icon="puzzle">
-    Hubungkan [akun Airbnb](/id/channels/airbnb/) atau [properti Booking.com](/id/channels/booking-com/),
-    impor listing Anda, dan kelola satu kalender alih-alih tiga.
+  <Card title="Jual di 54 channel" icon="puzzle">
+    Hubungkan [akun Airbnb](/id/channels/airbnb/), [properti Booking.com](/id/channels/booking-com/), atau
+    [Agoda, Expedia, Vrbo, dan lainnya](/id/channels/other-channels/) — dengan satu kalender untuk semuanya.
   </Card>
   <Card title="Jalankan hari kerja" icon="rocket">
     [Hari ini dan ringkasan harian](/id/daily/), [pesan tamu](/id/daily/messages/),
@@ -60,8 +90,11 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
     [upsell](/id/money/upsells/) yang terdeteksi dari kalender sebelum tamu bertanya.
   </Card>
   <Card title="Terima booking langsung" icon="laptop">
-    [Situs booking tanpa komisi](/id/setup/booking-site/) di subdomain Anda sendiri, dibayarkan ke
+    [Situs booking langsung](/id/setup/booking-site/) di subdomain Anda sendiri, dibayarkan ke
     akun Stripe Anda sendiri.
+  </Card>
+  <Card title="Gunakan di Ponsel" icon="rocket">
+    [Siapkan dan jalankan hari kerja di Aplikasi Mobile Santara AI](/id/mobile/getting-started/) untuk mengelola semuanya saat bepergian.
   </Card>
 </CardGrid>
 

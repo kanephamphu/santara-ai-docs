@@ -2,7 +2,7 @@
 title: FAQ
 description: Pertanyaan yang benar-benar ditanyakan pengguna baru pada minggu pertama.
 sidebar:
-  order: 3
+  order: 6
 ---
 
 ## Persiapan
@@ -27,7 +27,7 @@ apa. Lihat [Tim dan peran](/id/setup/team/).
 
 ## Sehari-hari
 
-**Apakah Santara akan mengirim pesan ke tamu secara otomatis?**
+**Apakah Santara AI akan mengirim pesan ke tamu secara otomatis?**
 Tidak. Ia membuat draf; Anda yang mengirim. Tidak ada mode balas-otomatis.
 
 **Apakah ia akan mengubah harga saya otomatis?**
@@ -47,15 +47,15 @@ tahu [dukungan](/id/help/support/).
 
 ## Uang
 
-**Apakah Santara mengambil komisi?**
-Tidak — di channel mana pun, termasuk situs booking Anda sendiri.
+**Apakah Santara AI mengambil komisi?**
+Tidak atas booking dari channel maupun upsell. Santara AI hanya mengambil 3% atas booking langsung yang dibuat lewat situs booking Anda. Selebihnya adalah langganan.
 
 **Apa arti "pendapatan" di layar ini?**
 Payout bersih: yang benar-benar dibayarkan channel. Gross dan pendapatan kamar disimpan terpisah dan
 diberi label. Lihat [Laporan](/id/money/reports/).
 
 **Ke mana uang dari situs booking saya?**
-Langsung ke akun Stripe Anda sendiri. Santara tidak pernah memegangnya.
+Langsung ke akun Stripe Anda sendiri. Santara AI tidak pernah memegangnya.
 
 **Apa yang terjadi jika saya menghapus properti di tengah bulan?**
 Ia berhenti ditagih ke depan. Tagihan yang sudah dibayar untuk bulan berjalan tidak dikembalikan.
@@ -82,5 +82,7 @@ English, Bahasa Indonesia, dan Tiếng Việt — untuk antarmuka, ringkasan har
 Belum — sedang dibangun untuk iOS dan Android sekaligus. Lihat [Di ponsel Anda](/id/setup/mobile/).
 
 **Channel apa saja yang didukung?**
-Airbnb dan Booking.com saat ini, ditambah situs booking Anda sendiri. Lainnya ada dalam roadmap —
-lihat [Channel](/id/channels/).
+54 channel penjualan, ditambah situs booking Anda sendiri. Airbnb dan Booking.com punya alur
+koneksi sendiri; Agoda, Expedia, Trip.com, Vrbo, dan lainnya terhubung dari daftar channel di
+**Pengaturan → Channel**. Balasan ke tamu dikirim di Airbnb, Booking.com, dan Expedia. Lihat
+[Channel](/id/channels/).

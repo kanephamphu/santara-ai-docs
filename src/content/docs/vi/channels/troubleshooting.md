@@ -2,7 +2,7 @@
 title: Khắc phục sự cố kênh
 description: Hơn chục thứ thực sự hay hỏng với một kết nối, và cách xử lý từng cái.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 Bắt đầu bằng hai thao tác xử lý được phần lớn vấn đề: kiểm tra trạng thái và lần đồng bộ cuối của kết
@@ -25,7 +25,7 @@ bạn đã cấp phép bằng tài khoản sở hữu listing — tài khoản c
 
 **Không tìm thấy phòng Booking.com.**
 Hầu như luôn là bước nhà cung cấp kết nối. Trong extranet: **Account → Connectivity provider**, tìm
-**Channex**, chọn, chấp nhận thỏa thuận. Rồi làm mới tại đây. Nếu vẫn trống, kiểm tra lại Hotel ID.
+nhà cung cấp được nêu trong hộp thoại kết nối, chọn, chấp nhận thỏa thuận. Rồi làm mới tại đây. Nếu vẫn trống, kiểm tra lại Hotel ID.
 
 ## Sau khi nhập
 
@@ -46,7 +46,7 @@ liên kết chúng với phòng bạn đã có.
 
 ## Sau khi chạy
 
-**Kênh và Santara khác nhau về một ngày.**
+**Kênh và Santara AI khác nhau về một ngày.**
 Bấm **Làm mới** trên kết nối. Nếu vẫn khác, ghi lại chính xác ngày và phòng rồi
 [liên hệ hỗ trợ](/vi/help/support/) — đừng sửa cả hai phía cùng lúc.
 

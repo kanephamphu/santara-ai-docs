@@ -2,10 +2,12 @@
 title: Accounting and owner statements
 description: Costs against each property, management agreements, and a statement an owner can be sent without a spreadsheet.
 sidebar:
-  order: 4
+  order: 5
 ---
 
 Accounting is the cost side. If you manage villas for other people, it is also how they get paid.
+
+![Accounting, before anything is logged. Costs and Owners are its two halves; the period and property filters sit above both.](/screens/accounting.en.png)
 
 ## The ledger
 
@@ -54,5 +56,5 @@ inbox, not your other properties, not your pricing.
 
 ## Fitting it to your accountant
 
-Everything here exports as CSV from [Reports](/money/reports/). Santara is not a bookkeeping
+Everything here exports as CSV from [Reports](/money/reports/). Santara AI is not a bookkeeping
 system, and it does not try to be your general ledger — it is the operational record that feeds one.

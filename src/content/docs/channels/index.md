@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-Santara connects to the channels you sell on through a certified channel manager. Once a listing
+Santara AI is your channel manager: it connects the channels you sell on. Once a listing
 is live, four things flow:
 
 | Direction | What moves |
@@ -15,20 +15,33 @@ is live, four things flow:
 | **In, once, at import** | Listing details — title, photos, amenities, capacity, existing rates |
 | **Out, on demand** | Your reply to a guest message; your reply to a review |
 
-Anything else stays where it is. Santara does not edit your listing's description, and it never
+Anything else stays where it is. Santara AI does not edit your listing's description, and it never
 changes a price on a channel that you did not either type or ask a pricing rule to work out.
 
 ![Availability and rates go out to the channel; bookings, guests, messages and reviews come back. Listing details arrive once, at import.](/diagrams/sync-directions.en.svg)
 
 ## Supported channels
 
-| Channel | How it connects | Status |
-| --- | --- | --- |
-| **Airbnb** | You authorise Santara on Airbnb, then pick listings | Available |
-| **Booking.com** | You add a connectivity provider in the extranet, then enter your Hotel ID | Available |
-| **Your booking site** | Built into Santara, no connection needed | Available |
-| **VRBO** | Via the same channel manager | On the roadmap — it appears in Settings → Channels as a greyed card until it ships |
-| **PriceLabs** | Read-only detection: if you run PriceLabs, Santara's own pricing engine stands aside | Available |
+Santara AI connects to **54 sales channels**, plus your own booking site. Airbnb and Booking.com have a
+guided connect flow; every other channel connects from the channel list in Settings.
+
+| Channel | How it connects |
+| --- | --- |
+| **Airbnb** | You authorise Santara AI on Airbnb, then pick listings — [Connect Airbnb](/channels/airbnb/) |
+| **Booking.com** | You add a connectivity provider in the extranet, then enter your Hotel ID — [Connect Booking.com](/channels/booking-com/) |
+| **Every other channel** — Agoda, Expedia, Trip.com, Vrbo, Traveloka, Tiket.com, Hostelworld and more | **Settings → Channels → Add a channel**, pick it from the list, then connect and map it in a three-step setup — [Connect another channel](/channels/other-channels/) |
+| **Your booking site** | Built into Santara AI, no connection needed — [Your direct booking site](/setup/booking-site/) |
+| **PriceLabs** | Read-only detection: if you run PriceLabs, Santara AI's own pricing engine stands aside |
+
+Every channel gets the same calendar, rates and restrictions, and brings bookings, cancellations
+and guests in. Two things differ by channel:
+
+- **Guest messages.** Replies go out on **Airbnb, Booking.com and Expedia** only — those are the
+  channels that pass guest messaging through a connection. On any other channel, answer the
+  guest in that channel's own inbox. Vrbo guest messages are not supported.
+- **Reviews** arrive, and can be answered, where the channel passes them on.
+
+![Settings → Channels before anything is connected. Each channel is linked on its own and carries its own status and last-sync time.](/screens/channels.en.png)
 
 ## Connections and accounts
 
@@ -36,10 +49,12 @@ A **connection** is one channel account. You can connect:
 
 - several **Airbnb accounts** to one workspace — a common case for managers who hold listings
   under different host logins;
-- several **Booking.com properties**, one per Hotel ID.
+- several **Booking.com properties**, one per Hotel ID;
+- any other channel from the list, **one property at a time** — connect the same channel again
+  for another property.
 
 Each connection has its own page under **Settings → Channels** showing its listings, when it last
-synced, and every action available for it. Nothing in Santara assumes there is only one of
+synced, and every action available for it. Nothing in Santara AI assumes there is only one of
 anything.
 
 ## The four states of a listing
@@ -49,7 +64,7 @@ This vocabulary is used identically on every screen:
 ![The four states a listing passes through, with Go live as the gate before the last one.](/diagrams/listing-states.en.svg)
 
 1. **Not connected** — no channel account is linked.
-2. **Linked — not mapped yet** — Santara can see the listing on the channel, but it does not point
+2. **Linked — not mapped yet** — Santara AI can see the listing on the channel, but it does not point
    at any room here. Nothing syncs.
 3. **Mapped — awaiting activation** — it points at a room. Still nothing syncs; the channel has not
    handed over.
@@ -74,7 +89,7 @@ Disconnecting a connection stops syncing and removes the reservations, guests, m
 that came from it. **Nothing on the channel is affected** — your listing, its calendar and its
 bookings are untouched there. You can reconnect the same account later and import again.
 
-Removing a single listing (**Remove from Santara**) does the same for that one room.
+Removing a single listing (**Remove from Santara AI**) does the same for that one room.
 
 :::caution
 Disconnecting is not the way to pause. If you want the channel to stop taking bookings for a

@@ -1,14 +1,15 @@
 ---
 title: Website đặt phòng trực tiếp của bạn
-description: Website đặt phòng không hoa hồng trên tên miền phụ của bạn, tiền vào thẳng tài khoản Stripe của bạn.
+description: Website đặt phòng trên tên miền phụ hoặc tên miền riêng của bạn, tiền vào thẳng tài khoản Stripe của bạn.
 sidebar:
   order: 2
 ---
 
-Mỗi workspace đều có thể xuất bản một website đặt phòng trực tiếp. Santara **không lấy hoa hồng** trên
-những gì bán qua đó, và tiền vào tài khoản Stripe của bạn, không phải của chúng tôi.
+Mỗi workspace đều có thể xuất bản một website đặt phòng trực tiếp. Tiền vào tài khoản Stripe của bạn, không phải của chúng tôi.
 
-**Cài đặt → Website đặt phòng**. Bên trái là phần thiết lập; bên phải là bản xem trước trực tiếp.
+**Website đặt phòng** ở thanh bên. Bên trái là phần thiết lập; bên phải là bản xem trước trực tiếp.
+
+![Trình dựng website đặt phòng: thiết lập bên trái, xem trước trực tiếp bên phải.](/screens/booking-site.vi.png)
 
 ## 1. Chọn tên miền phụ
 
@@ -47,18 +48,30 @@ cầu.
 ## 5. Kết nối Stripe
 
 **Thanh toán** kết nối tài khoản Stripe của chính bạn. Bạn đăng nhập (hoặc tạo tài khoản) trên trang
-của Stripe. Santara không bao giờ chạm vào tiền và không bao giờ thấy số thẻ.
+của Stripe. Santara AI không bao giờ chạm vào tiền và không bao giờ thấy số thẻ.
 
-Bạn có thể thêm **phí dịch vụ** cho đặt phòng trực tiếp, do khách trả thêm ngoài tiền phòng:
-
-- Số tiền bạn nhận không đổi.
-- Phí hiển thị thành dòng riêng trước khi ai đó tới biểu mẫu thẻ.
-- Chỉ áp dụng cho **đặt phòng mới** — các lượt đã đặt giữ nguyên mức phí đã báo.
+Santara AI lấy **3% hoa hồng** trên đặt phòng trực tiếp. Tiền thanh toán về tài khoản Stripe của chính bạn.
 
 ## 6. Xuất bản
 
 Trước khi bạn xuất bản, site hoàn toàn bị chặn với trình thu thập — không gì rò rỉ trước khi bạn sẵn
 sàng. Xuất bản sẽ tạo sitemap và quy tắc robots, và giữ chúng đồng bộ về sau.
+
+## Tên miền của riêng bạn
+
+Website luôn chạy ở tên miền phụ của nó. Để phục vụ thêm từ một tên miền bạn sở hữu — ví dụ
+`stay.villacuaban.com` — hãy dùng thẻ **Tên miền riêng** trên trang website đặt phòng:
+
+1. Nhập tên miền rồi bấm **Kết nối tên miền**.
+2. Thêm hai bản ghi DNS được hiển thị (một TXT và một CNAME) tại nhà cung cấp DNS, rồi bấm
+   **Xác minh**. Thay đổi DNS có thể mất tới một giờ để lan truyền.
+3. Khi trạng thái là **Đang hoạt động**, liên kết, sitemap và ảnh xem trước mạng xã hội sẽ dùng tên
+   miền mới. Tên miền phụ vẫn chạy song song.
+
+Đa số nhà cung cấp không đặt được CNAME cho tên miền gốc (`villacuaban.com` không có tiền tố) — hãy
+dùng bản ghi ALIAS hoặc ANAME, hoặc kết nối một tên miền phụ như `stay.`. HTTPS cho tên miền riêng
+được đội Santara AI bật sau khi bạn xác minh; nếu sau một ngày vẫn chưa thấy biểu tượng ổ khóa, hãy
+[liên hệ hỗ trợ](/vi/help/support/).
 
 ## Trang và bài blog
 
@@ -70,10 +83,14 @@ không công cụ tìm kiếm sẽ lấy bất cứ gì nó nhặt được.
 
 ## Thông tin liên hệ
 
-Hiển thị ở mục liên hệ và chân trang. Địa chỉ dẫn tới Maps; Santara không bao giờ nhúng iframe bản đồ do
+Hiển thị ở mục liên hệ và chân trang. Địa chỉ dẫn tới Maps; Santara AI không bao giờ nhúng iframe bản đồ do
 bạn cung cấp. Chọn ngôn ngữ khách thấy đầu tiên — họ vẫn đổi được.
 
 ## Khách nhận được gì
 
 Một website liệt kê phòng của bạn với tình trạng trống và giá trực tiếp từ chính cuốn lịch mà các kênh
 đang dùng. Một lượt đặt trực tiếp sẽ đóng những đêm đó ở mọi nơi, y như đặt phòng qua kênh.
+
+Những gì khách gửi lại cho bạn — câu hỏi từ biểu mẫu liên hệ, và yêu cầu đặt phòng trên các bất động
+sản ở chế độ yêu cầu — nằm ở
+**[Câu hỏi và yêu cầu đặt phòng](/vi/setup/booking-site-requests/)**.

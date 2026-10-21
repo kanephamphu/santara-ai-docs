@@ -2,10 +2,12 @@
 title: Upsell
 description: Late check-out, kedatangan awal, dan malam tambahan yang ditemukan dari kalender dan ditawarkan sebelum tamu memikirkannya.
 sidebar:
-  order: 2
+  order: 3
 ---
 
-Upsell adalah malam atau jam yang sudah Anda miliki, dijual kepada tamu yang sudah menginap. Santara
+![Pipeline upsell: setiap peluang dengan reservasi di baliknya, nilainya, dan draf pesan yang menawarkannya.](/screens/upsells.id.png)
+
+Upsell adalah malam atau jam yang sudah Anda miliki, dijual kepada tamu yang sudah menginap. Santara AI
 menemukannya dengan membaca kalender, bukan dengan menebak keinginan tamu.
 
 ## Yang dicarinya
@@ -39,7 +41,7 @@ Anda memperpanjang atau menyesuaikan masa menginap di [Booking](/id/daily/bookin
 [kalender](/id/daily/calendar/). Malamnya tertutup di semua channel seperti biasa, dan pendapatan
 tambahannya muncul di [Laporan](/id/money/reports/).
 
-Santara tidak mengubah reservasi diam-diam atas nama Anda.
+Santara AI tidak mengubah reservasi diam-diam atas nama Anda.
 
 ## Di mana lagi tawaran muncul
 
@@ -47,6 +49,14 @@ Santara tidak mengubah reservasi diam-diam atas nama Anda.
 - Di [Pesan](/id/daily/messages/) — sebagai prompt pada utas yang relevan.
 - Di [Laporan](/id/money/reports/) — laporan upsell yang memeringkat tawaran terbuka, terlewat, dan
   diterima.
+
+## Saat tamu meminta lebih dulu
+
+Tamu yang sudah mengonfirmasi pemesanannya di [buku panduan tamu](/id/setup/guidebook/) bisa meminta
+check-in lebih awal, check-out lebih lambat, atau tambah satu malam sendiri, dari stiker QR di
+kamarnya. Permintaan masuk ke sini dengan status **Diterima**, pada harga yang ditampilkan buku panduan,
+dan tim mendapat notifikasi. Permintaan itu sudah lolos pemeriksaan kalender yang sama dengan tawaran
+yang terdeteksi, tetapi pemesanan tidak berubah sampai Anda menyesuaikan masa inapnya.
 
 ## Tidak ada yang dikirim otomatis
 

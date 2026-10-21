@@ -1,8 +1,8 @@
 ---
 title: Glosarium
-description: Setiap istilah yang dipakai Santara di layar, dalam satu tempat.
+description: Setiap istilah yang dipakai Santara AI di layar, dalam satu tempat.
 sidebar:
-  order: 6
+  order: 10
 ---
 
 **ADR** — tarif harian rata-rata. Pendapatan dibagi malam yang terjual.
@@ -10,7 +10,7 @@ sidebar:
 **Kapabilitas** — izin bernama seperti `stay.read` atau `pricing.write`. Peran adalah kumpulan
 kapabilitas; layar dan rute API meminta yang sama. Lihat [Tim dan peran](/id/setup/team/).
 
-**Channel** — tempat Anda berjualan: Airbnb, Booking.com, situs booking Anda sendiri.
+**Channel** — tempat Anda berjualan: Airbnb, Booking.com, Agoda, Expedia, dan channel lain di katalog, situs booking Anda sendiri.
 
 **Klaster kebersihan** — kelompok properti yang ditangani satu petugas. Menentukan pengelompokan
 papan dan pesan WhatsApp per klaster di ringkasan harian.
@@ -20,24 +20,28 @@ papan dan pesan WhatsApp per klaster di ringkasan harian.
 **Ringkasan harian** — hari itu ditulis: risiko, kedatangan, kebersihan, pendapatan. Dibuat untuk
 workspace dalam bahasa workspace.
 
-**Booking langsung** — booking lewat situs Anda sendiri. Tanpa komisi.
+**Booking langsung** — booking lewat situs Anda sendiri.
 
-**Go live** — tindakan sengaja yang menyerahkan kendali kalender sebuah listing ke Santara. Lihat
+**Go live** — tindakan sengaja yang menyerahkan kendali kalender sebuah listing ke Santara AI. Lihat
 [Go live](/id/channels/going-live/).
+
+**Buku panduan** — halaman yang dibuka tamu dari stiker QR di kamarnya: info properti, tempat sekitar,
+dan layanan tambahan untuk siapa saja; kode pintu hanya untuk tamu yang sudah mengonfirmasi pemesanan.
+Lihat [Buku panduan tamu dan stiker QR](/id/setup/guidebook/).
 
 **Gross** — yang dibayar tamu, termasuk komisi channel.
 
-**Listing** — satu objek di channel, dipetakan satu-ke-satu ke kamar Santara.
+**Listing** — satu objek di channel, dipetakan satu-ke-satu ke kamar Santara AI.
 
 **Harga manual** — tarif per malam yang Anda ketik. Dilindungi dari mesin pricing kecuali Anda
 mengizinkan penimpaan.
 
-**Pemetaan** — tautan antara listing channel dan kamar Santara.
+**Pemetaan** — tautan antara listing channel dan kamar Santara AI.
 
 **Okupansi** — malam terjual dibagi malam tersedia.
 
 **Payout / bersih** — yang benar-benar dibayarkan channel kepada Anda. Inilah arti **pendapatan** di
-Santara.
+Santara AI.
 
 **Properti** — bangunan atau alamat. Memuat kamar.
 

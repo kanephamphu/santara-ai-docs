@@ -1,0 +1,14 @@
+{
+  "width": 1440,
+  "height": 900,
+  "boxes": [
+    {
+      "x": 195,
+      "y": 640.5,
+      "width": 588.328125,
+      "height": 58.390625,
+      "label": "Hanya kode pemesanan — tidak ada yang lain",
+      "side": "left"
+    }
+  ]
+}

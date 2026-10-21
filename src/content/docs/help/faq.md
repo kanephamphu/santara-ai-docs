@@ -2,7 +2,7 @@
 title: FAQ
 description: The questions new users actually ask in the first week.
 sidebar:
-  order: 3
+  order: 6
 ---
 
 ## Setup
@@ -27,7 +27,7 @@ what. See [Team and roles](/setup/team/).
 
 ## Day to day
 
-**Will Santara message my guests automatically?**
+**Will Santara AI message my guests automatically?**
 No. It drafts; you send. There is no auto-reply mode.
 
 **Will it change my prices automatically?**
@@ -47,15 +47,15 @@ evening, tell [support](/help/support/).
 
 ## Money
 
-**Does Santara take a commission?**
-No — on any channel, including your own booking site.
+**Does Santara AI take a commission?**
+Not on channel bookings or on upsells. It takes 3% only on direct bookings made through your booking site. The rest is a subscription.
 
 **What does "revenue" mean on these screens?**
 Net payout: what the channel actually pays you. Gross and room revenue are stored separately and
 labelled where shown. See [Reports](/money/reports/).
 
 **Where does money from my booking site go?**
-Straight to your own Stripe account. Santara never holds it.
+Straight to your own Stripe account. Santara AI never holds it.
 
 **What happens if I delete a property mid-month?**
 It stops being billed going forward. The charge already paid for the current month is not refunded.
@@ -84,5 +84,7 @@ documentation.
 Not yet — it is in build for iOS and Android together. See [On your phone](/setup/mobile/).
 
 **Which channels are supported?**
-Airbnb and Booking.com today, plus your own booking site. Others are on the roadmap — see
+54 sales channels, plus your own booking site. Airbnb and Booking.com have their own connect
+flows; Agoda, Expedia, Trip.com, Vrbo and the rest connect from the channel list in
+**Settings → Channels**. Guest replies go out on Airbnb, Booking.com and Expedia. See
 [Channels](/channels/).

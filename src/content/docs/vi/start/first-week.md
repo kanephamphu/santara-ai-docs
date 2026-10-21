@@ -9,12 +9,16 @@ Khi đã lên sóng, sản phẩm đi vào một nhịp. Đây là nhịp đó.
 
 ## Mỗi sáng — năm phút
 
-Mở **Hôm nay**. Bản tóm tắt được viết cho workspace vào giờ bạn đặt, và trình bày theo thứ tự:
+Mở **Hôm nay** (cùng bản tin đó có trong email của bạn — lúc 06:00 nếu bạn không chọn giờ khác).
+Nội dung theo thứ tự:
 
-1. **Việc cần quyết định** — khách đang hỏi, lượt đến chưa xác nhận, ca dọn chưa có người.
-2. **Khách đến, đang ở và khách đi** hôm nay.
-3. **Dọn phòng** ba ngày tới, nhóm theo cụm, kèm tin nhắn dán thẳng vào WhatsApp.
-4. **Doanh thu tới nay** trong tháng so với tháng trước.
+1. **Tổng quan hôm nay** — khách đến, khách đi và lượt dọn giữa hai lượt khách hôm nay.
+2. **Thẻ điểm** — doanh thu hôm nay, công suất và giá trung bình mỗi đêm, so với tháng tính đến nay.
+3. **Việc cần quyết định** — khách đang hỏi, lượt dọn có rủi ro, ca dọn chưa có người, phiếu còn mở.
+4. **Cơ hội bán thêm** — trả phòng muộn, nhận phòng sớm và đêm ở thêm mà lịch còn chỗ.
+5. **Dọn phòng** ba ngày tới, nhóm theo cụm, kèm kế hoạch từng cụm sẵn sàng chia sẻ qua Zalo hoặc
+   WhatsApp chỉ với một chạm.
+6. **Ngày mai** — một dòng về khách đến, khách đi và lượt dọn ngày mai.
 
 Nếu một thẻ nói có việc cần bạn, hãy chạm vào — nó mở đúng màn hình. Nếu không có gì, buổi sáng của
 bạn xong.

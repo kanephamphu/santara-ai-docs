@@ -7,8 +7,10 @@ sidebar:
 
 **Bất động sản** là một tòa nhà hoặc địa chỉ. **Phòng** là đơn vị có thể đặt bên trong nó. Phòng là
 thứ khách đặt, thứ kênh ánh xạ tới, và thứ được tính phí. Xem
-[Santara được cấu trúc thế nào](/vi/start/concepts/#bất-động-sản-rồi-phòng) nếu cách chia này còn mới
+[Santara AI được cấu trúc thế nào](/vi/start/concepts/#bất-động-sản-rồi-phòng) nếu cách chia này còn mới
 với bạn.
+
+![Bất động sản: các tòa nhà của bạn, và những phòng bên trong mà khách thực sự đặt.](/screens/properties.vi.png)
 
 ## Tạo thủ công
 
@@ -47,9 +49,9 @@ thắng. Để trống giá trị của phòng để thừa hưởng.
 
 | Trường | Được dùng ở |
 | --- | --- |
-| Tên và mật khẩu wifi | Tin nhắn nhận phòng, website đặt phòng, trả lời khách |
-| Mã cửa / hộp khóa | Chỉ tin nhắn nhận phòng |
-| Ghi chú lối vào | Tin nhắn nhận phòng |
+| Tên và mật khẩu wifi | Tin nhắn nhận phòng, website đặt phòng, trả lời khách, [sổ tay hướng dẫn](/vi/setup/guidebook/) (mật khẩu chỉ cho khách đã xác minh) |
+| Mã cửa / hộp khóa | Tin nhắn nhận phòng; sổ tay hướng dẫn, chỉ cho khách đã xác nhận đặt phòng |
+| Ghi chú lối vào | Tin nhắn nhận phòng; sổ tay hướng dẫn, chỉ cho khách đã xác minh |
 | Giờ nhận và trả phòng | Mọi nơi, kể cả canh giờ dọn phòng |
 
 :::caution[Mã cửa được kiểm soát truy cập]

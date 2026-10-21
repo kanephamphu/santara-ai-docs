@@ -23,8 +23,9 @@
  */
 
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 
-const OUT = new URL("../public/diagrams/", import.meta.url).pathname;
+const OUT = fileURLToPath(new URL("../public/diagrams/", import.meta.url));
 const LOCALES = ["en", "id", "vi"];
 
 // ── tokens ──────────────────────────────────────────────────────────────────────────────────
@@ -260,8 +261,162 @@ function pricingPipeline(t) {
   return svg(W, H, t.title, parts.join("\n  "));
 }
 
+// ── 6. connecting an AI assistant (Claude, ChatGPT, Grok…) ──────────────────────────────────
+function aiConnect(t) {
+  const W = 700;
+  const x = 24;
+  const boxW = 440;
+  const boxH = 50;
+  const gap = 26;
+  const top = 16;
+  const parts = [];
+  t.steps.forEach((step, index) => {
+    const y = top + index * (boxH + gap);
+    const last = index === t.steps.length - 1;
+    parts.push(box(x, y, boxW, boxH, { fill: last ? ACCENT_WASH : CARD, stroke: last ? ACCENT : LINE }));
+    parts.push(`<circle cx="${x + 26}" cy="${y + boxH / 2}" r="12" fill="${ACCENT}"/>`);
+    parts.push(text(x + 26, y + boxH / 2 + 4.5, [String(index + 1)], { size: 12, weight: 700, fill: CARD, anchor: "middle" }));
+    parts.push(text(x + 50, y + 21, [step.title], { size: 13, weight: 600, fill: last ? ACCENT : INK }));
+    parts.push(text(x + 50, y + 38, [step.note], { size: 11, fill: MUTED }));
+    if (!last) parts.push(arrowDown(x + boxW / 2, y + boxH + 3, y + boxH + gap - 3));
+  });
+  // Where each step happens: in the AI app, or in Santara AI.
+  const laneX = x + boxW + 28;
+  const span = (from, to, label, stroke) => {
+    const y1 = top + from * (boxH + gap) + 6;
+    const y2 = top + to * (boxH + gap) + boxH - 6;
+    parts.push(`<path d="M${laneX} ${y1} L${laneX} ${y2}" stroke="${stroke}" stroke-width="3" stroke-linecap="round"/>`);
+    parts.push(text(laneX + 12, (y1 + y2) / 2 + 4, [label], { size: 12, weight: 600, fill: stroke }));
+  };
+  span(0, 0, t.inApp, MUTED);
+  span(1, 2, t.inSantara, ACCENT);
+  span(3, 3, t.inApp, MUTED);
+  const H = top + t.steps.length * (boxH + gap) - gap + 16;
+  return svg(W, H, t.title, parts.join("\n  "));
+}
+
 // ── labels ──────────────────────────────────────────────────────────────────────────────────
+// ── 5. a guest message, translated for the reader ───────────────────────────────────────────
+function messageTranslation(t) {
+  const W = 680;
+  const H = 214;
+  const colW = 200;
+  const cardH = 150;
+  const top = 16;
+  const leftX = 16;
+  const rightX = W - colW - 16;
+  const x1 = leftX + colW + 14;
+  const x2 = rightX - 14;
+  const mid = (x1 + x2) / 2;
+  const parts = [
+    // The guest's side: what actually arrived from the channel.
+    box(leftX, top, colW, cardH, { fill: SURFACE, stroke: LINE }),
+    text(leftX + 16, top + 24, [t.guest], { size: 11, weight: 650, fill: MUTED }),
+    box(leftX + 16, top + 38, colW - 32, 62, { fill: CARD, stroke: LINE, r: 12 }),
+    text(leftX + 28, top + 63, t.original, { size: 13, weight: 500 }),
+    text(leftX + 16, top + 128, [t.guestNote], { size: 11, fill: MUTED }),
+    // The reader's side: the same message, in their language, with the way back to the original.
+    box(rightX, top, colW, cardH, { fill: ACCENT_WASH, stroke: ACCENT }),
+    text(rightX + 16, top + 24, [t.you], { size: 11, weight: 650, fill: ACCENT }),
+    box(rightX + 16, top + 38, colW - 32, 62, { fill: CARD, stroke: ACCENT, r: 12 }),
+    text(rightX + 28, top + 63, t.translated, { size: 13, weight: 500 }),
+    text(rightX + 16, top + 120, t.toggle, { size: 11, fill: MUTED, leading: 15 }),
+    // In: translated once, as it scrolls into view.
+    arrowRight(x1, x2, top + 54, { stroke: ACCENT }),
+    text(mid, top + 42, [t.forward], { size: 12, weight: 600, anchor: "middle", fill: ACCENT }),
+    text(mid, top + 74, [t.forwardNote], { size: 11, fill: MUTED, anchor: "middle" }),
+    // Out: the reply is never translated.
+    arrowLeft(x1, x2, top + 118, { stroke: MUTED, dash: "5 4" }),
+    text(mid, top + 106, [t.reply], { size: 12, weight: 600, anchor: "middle" }),
+    text(mid, top + 138, [t.replyNote], { size: 11, fill: MUTED, anchor: "middle" }),
+    text(W / 2, H - 14, [t.footer], { size: 11, fill: MUTED, anchor: "middle" }),
+  ];
+  return svg(W, H, t.title, parts.join("\n  "));
+}
+
 const LABELS = {
+  "ai-connect": {
+    render: aiConnect,
+    en: {
+      title: "Connecting an AI assistant to Santara AI",
+      inApp: "In your AI app",
+      inSantara: "In Santara AI",
+      steps: [
+        { title: "Add the Santara AI server URL", note: "Claude: Connectors · ChatGPT: Plugins · Grok: Connectors" },
+        { title: "Sign in to Santara AI", note: "your password never goes to the AI app" },
+        { title: "Pick the workspace and click Allow", note: "you see exactly what it may do — and never do" },
+        { title: "Ask in plain words", note: "“Who arrives today?” · “Block Garden Room this weekend”" },
+      ],
+    },
+    id: {
+      title: "Menghubungkan asisten AI ke Santara AI",
+      inApp: "Di aplikasi AI",
+      inSantara: "Di Santara AI",
+      steps: [
+        { title: "Tambahkan URL server Santara AI", note: "Claude: Connectors · ChatGPT: Plugins · Grok: Connectors" },
+        { title: "Masuk ke Santara AI", note: "kata sandi Anda tidak pernah dikirim ke aplikasi AI" },
+        { title: "Pilih workspace lalu klik Izinkan", note: "Anda melihat persis apa yang boleh dan tidak boleh" },
+        { title: "Tanyakan dengan bahasa biasa", note: "“Siapa yang tiba hari ini?” · “Blokir kamar akhir pekan ini”" },
+      ],
+    },
+    vi: {
+      title: "Kết nối trợ lý AI với Santara AI",
+      inApp: "Trong ứng dụng AI",
+      inSantara: "Trong Santara AI",
+      steps: [
+        { title: "Thêm URL máy chủ Santara AI", note: "Claude: Connectors · ChatGPT: Plugins · Grok: Connectors" },
+        { title: "Đăng nhập Santara AI", note: "mật khẩu không bao giờ được gửi cho ứng dụng AI" },
+        { title: "Chọn không gian làm việc, bấm Cho phép", note: "bạn thấy rõ trợ lý được và không được làm gì" },
+        { title: "Hỏi bằng lời thường", note: "“Hôm nay ai đến?” · “Chặn phòng Garden cuối tuần này”" },
+      ],
+    },
+  },
+  "message-translation": {
+    render: messageTranslation,
+    en: {
+      title: "How a guest message is translated",
+      guest: "THE GUEST WRITES",
+      original: ["Können wir früher", "einchecken?"],
+      guestNote: "in German, on Airbnb",
+      you: "YOU READ",
+      translated: ["Can we check in", "early?"],
+      toggle: ["Translated from German", "· Show original"],
+      forward: "Into your language",
+      forwardNote: "once, as it scrolls into view",
+      reply: "Your reply",
+      replyNote: "goes out exactly as you wrote it",
+      footer: "Each teammate reads in their own language: English, Indonesian or Vietnamese.",
+    },
+    id: {
+      title: "Bagaimana pesan tamu diterjemahkan",
+      guest: "TAMU MENULIS",
+      original: ["Können wir früher", "einchecken?"],
+      guestNote: "dalam bahasa Jerman, di Airbnb",
+      you: "ANDA MEMBACA",
+      translated: ["Bisakah kami check-in", "lebih awal?"],
+      toggle: ["Diterjemahkan dari Jerman", "· Lihat pesan asli"],
+      forward: "Ke bahasa Anda",
+      forwardNote: "sekali, saat mulai terlihat",
+      reply: "Balasan Anda",
+      replyNote: "terkirim persis seperti ditulis",
+      footer: "Tiap anggota tim membaca dalam bahasanya sendiri: Inggris, Indonesia, atau Vietnam.",
+    },
+    vi: {
+      title: "Tin nhắn của khách được dịch ra sao",
+      guest: "KHÁCH VIẾT",
+      original: ["Können wir früher", "einchecken?"],
+      guestNote: "bằng tiếng Đức, trên Airbnb",
+      you: "BẠN ĐỌC",
+      translated: ["Chúng tôi nhận phòng", "sớm được không?"],
+      toggle: ["Đã dịch từ tiếng Đức", "· Xem bản gốc"],
+      forward: "Sang ngôn ngữ của bạn",
+      forwardNote: "một lần, khi cuộn tới",
+      reply: "Trả lời của bạn",
+      replyNote: "gửi đi đúng như bạn viết",
+      footer: "Mỗi thành viên đọc bằng ngôn ngữ của mình: tiếng Anh, Indonesia hoặc Việt.",
+    },
+  },
+
   "listing-states": {
     render: listingStates,
     en: {
@@ -305,8 +460,8 @@ const LABELS = {
   "sync-directions": {
     render: syncDirections,
     en: {
-      title: "What moves between Santara and a channel",
-      left: "Santara",
+      title: "What moves between Santara AI and a channel",
+      left: "Santara AI",
       right: "The channel",
       rightNote: "Airbnb, Booking.com",
       footer: "Nothing else moves. Your listing description is never edited from here.",
@@ -318,8 +473,8 @@ const LABELS = {
       ],
     },
     id: {
-      title: "Apa yang berpindah antara Santara dan channel",
-      left: "Santara",
+      title: "Apa yang berpindah antara Santara AI dan channel",
+      left: "Santara AI",
       right: "Channel",
       rightNote: "Airbnb, Booking.com",
       footer: "Tidak ada yang lain. Deskripsi listing Anda tidak pernah diubah dari sini.",
@@ -331,8 +486,8 @@ const LABELS = {
       ],
     },
     vi: {
-      title: "Cái gì di chuyển giữa Santara và một kênh",
-      left: "Santara",
+      title: "Cái gì di chuyển giữa Santara AI và một kênh",
+      left: "Santara AI",
       right: "Kênh bán",
       rightNote: "Airbnb, Booking.com",
       footer: "Không gì khác. Mô tả listing của bạn không bao giờ bị sửa từ đây.",

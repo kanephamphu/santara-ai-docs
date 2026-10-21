@@ -12,13 +12,19 @@
     "check": "astro check",
     "verify:docs": "node scripts/verify-docs.mjs",
     "build:diagrams": "node scripts/build-diagrams.mjs",
-    "predev": "npm run build:diagrams",
-    "prebuild": "npm run build:diagrams"
+    "predev": "npm run build:diagrams && npm run build:screens",
+    "prebuild": "npm run build:diagrams && npm run build:screens",
+    "build:screens": "node scripts/build-screens.mjs",
+    "capture:screens": "node scripts/capture-screens.mjs",
+    "capture:santi": "node scripts/capture-santi.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.36.0",
     "astro": "^5.16.0",
     "sharp": "^0.34.2",
     "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
   }
 }

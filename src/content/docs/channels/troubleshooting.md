@@ -2,7 +2,7 @@
 title: Channel troubleshooting
 description: The dozen things that actually go wrong with a connection, and what fixes each one.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 Start with the two moves that fix most of it: check **Settings → Channels** for the connection's
@@ -26,7 +26,7 @@ none.
 
 **No Booking.com rooms are found.**
 Almost always the connectivity provider step. In the extranet, **Account → Connectivity provider**,
-search **Channex**, select it, accept the agreement. Then refresh here. If it still finds nothing,
+search for the provider named in the connect dialog, select it, accept the agreement. Then refresh here. If it still finds nothing,
 re-check the Hotel ID against the number at the top of the extranet.
 
 ## After import
@@ -49,7 +49,7 @@ or link them to rooms you already have.
 
 ## Once live
 
-**The channel and Santara disagree about a date.**
+**The channel and Santara AI disagree about a date.**
 Press **Refresh** on the connection. If it persists, note the exact date and room and
 [contact support](/help/support/) — do not fix it by editing both sides, which can loop.
 

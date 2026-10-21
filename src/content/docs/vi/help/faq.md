@@ -2,7 +2,7 @@
 title: Câu hỏi thường gặp
 description: Những câu hỏi mà người dùng mới thực sự hỏi trong tuần đầu.
 sidebar:
-  order: 3
+  order: 6
 ---
 
 ## Thiết lập
@@ -27,7 +27,7 @@ Một bất động sản, bốn phòng. Ánh xạ từng listing Airbnb tới p
 
 ## Hằng ngày
 
-**Santara có tự nhắn tin cho khách không?**
+**Santara AI có tự nhắn tin cho khách không?**
 Không. Nó soạn nháp; bạn gửi. Không có chế độ trả lời tự động.
 
 **Nó có tự đổi giá của tôi không?**
@@ -46,15 +46,15 @@ việc, hãy báo [hỗ trợ](/vi/help/support/).
 
 ## Tiền
 
-**Santara có lấy hoa hồng không?**
-Không — ở bất kỳ kênh nào, kể cả website đặt phòng của bạn.
+**Santara AI có lấy hoa hồng không?**
+Không lấy trên booking từ kênh hay trên upsell. Santara AI chỉ lấy 3% trên đặt phòng trực tiếp được tạo qua website đặt phòng của bạn. Phần còn lại là gói thuê bao.
 
 **"Doanh thu" trên các màn hình này nghĩa là gì?**
 Tiền thực nhận: số kênh thực trả cho bạn. Tổng thu và doanh thu phòng được lưu riêng và ghi nhãn rõ.
 Xem [Báo cáo](/vi/money/reports/).
 
 **Tiền từ website đặt phòng của tôi đi đâu?**
-Thẳng vào tài khoản Stripe của chính bạn. Santara không bao giờ giữ nó.
+Thẳng vào tài khoản Stripe của chính bạn. Santara AI không bao giờ giữ nó.
 
 **Nếu tôi xóa một bất động sản giữa tháng thì sao?**
 Nó ngừng được tính phí từ đó về sau. Khoản đã trả cho tháng hiện tại không được hoàn.
@@ -68,18 +68,19 @@ Không. Vai trò được dựng từ các năng lực có tên, và con số t�
 Có — quyền xem mã cửa tách khỏi quyền truy cập bất động sản. Xem
 [Đội ngũ và vai trò](/vi/setup/team/).
 
-**Ai xem được bản tóm tắt hằng ngày?**
+**Ai xem được bản tin hằng ngày?**
 Bất kỳ ai trong workspace có quyền vào các màn hình liên quan. **Liên kết chia sẻ** cần tài khoản;
 **tin nhắn cụm** thì không, và nó chỉ chứa công việc của cụm đó.
 
 ## Sản phẩm
 
 **Những ngôn ngữ nào?**
-English, Bahasa Indonesia và Tiếng Việt — cho giao diện, bản tóm tắt hằng ngày và tài liệu này.
+English, Bahasa Indonesia và Tiếng Việt — cho giao diện, bản tin hằng ngày và tài liệu này.
 
 **Có ứng dụng di động không?**
 Chưa — đang được xây dựng cho iOS và Android cùng lúc. Xem [Trên điện thoại](/vi/setup/mobile/).
 
 **Hỗ trợ những kênh nào?**
-Airbnb và Booking.com hiện tại, cùng website đặt phòng của bạn. Các kênh khác trong lộ trình — xem
-[Kênh](/vi/channels/).
+54 kênh bán phòng, cùng website đặt phòng của bạn. Airbnb và Booking.com có luồng kết nối riêng;
+Agoda, Expedia, Trip.com, Vrbo và các kênh còn lại kết nối từ danh sách kênh trong **Cài đặt → Kênh**.
+Trả lời khách được gửi trên Airbnb, Booking.com và Expedia. Xem [Kênh](/vi/channels/).
