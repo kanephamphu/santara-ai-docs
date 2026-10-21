@@ -438,7 +438,11 @@ header.header {
 .sl-markdown-content .screenshot:has(img[src^="/screens/en/"]),
 .sl-markdown-content .screenshot:has(img[src^="/screens/id/"]),
 .sl-markdown-content .screenshot:has(img[src^="/screens/vi/"]) {
-  width: min(100%, 13rem);
+  /*
+   * One width for every phone shot, annotated or not, so a page never mixes sizes. 16rem keeps
+   * callout labels readable (they are drawn in the shot's 428px-wide coordinates: ~12px here).
+   */
+  width: min(100%, 16rem);
   margin-inline: auto;
 }
 

@@ -1,0 +1,14 @@
+{
+  "width": 428,
+  "height": 926,
+  "boxes": [
+    {
+      "x": 290.7,
+      "y": 114,
+      "width": 83,
+      "height": 38,
+      "label": "Turn on Voice",
+      "side": "left"
+    }
+  ]
+}
