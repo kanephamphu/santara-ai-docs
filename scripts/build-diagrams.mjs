@@ -261,6 +261,40 @@ function pricingPipeline(t) {
   return svg(W, H, t.title, parts.join("\n  "));
 }
 
+// ── 6. connecting an AI assistant (Claude, ChatGPT, Grok…) ──────────────────────────────────
+function aiConnect(t) {
+  const W = 700;
+  const x = 24;
+  const boxW = 440;
+  const boxH = 50;
+  const gap = 26;
+  const top = 16;
+  const parts = [];
+  t.steps.forEach((step, index) => {
+    const y = top + index * (boxH + gap);
+    const last = index === t.steps.length - 1;
+    parts.push(box(x, y, boxW, boxH, { fill: last ? ACCENT_WASH : CARD, stroke: last ? ACCENT : LINE }));
+    parts.push(`<circle cx="${x + 26}" cy="${y + boxH / 2}" r="12" fill="${ACCENT}"/>`);
+    parts.push(text(x + 26, y + boxH / 2 + 4.5, [String(index + 1)], { size: 12, weight: 700, fill: CARD, anchor: "middle" }));
+    parts.push(text(x + 50, y + 21, [step.title], { size: 13, weight: 600, fill: last ? ACCENT : INK }));
+    parts.push(text(x + 50, y + 38, [step.note], { size: 11, fill: MUTED }));
+    if (!last) parts.push(arrowDown(x + boxW / 2, y + boxH + 3, y + boxH + gap - 3));
+  });
+  // Where each step happens: in the AI app, or in Santara AI.
+  const laneX = x + boxW + 28;
+  const span = (from, to, label, stroke) => {
+    const y1 = top + from * (boxH + gap) + 6;
+    const y2 = top + to * (boxH + gap) + boxH - 6;
+    parts.push(`<path d="M${laneX} ${y1} L${laneX} ${y2}" stroke="${stroke}" stroke-width="3" stroke-linecap="round"/>`);
+    parts.push(text(laneX + 12, (y1 + y2) / 2 + 4, [label], { size: 12, weight: 600, fill: stroke }));
+  };
+  span(0, 0, t.inApp, MUTED);
+  span(1, 2, t.inSantara, ACCENT);
+  span(3, 3, t.inApp, MUTED);
+  const H = top + t.steps.length * (boxH + gap) - gap + 16;
+  return svg(W, H, t.title, parts.join("\n  "));
+}
+
 // ── labels ──────────────────────────────────────────────────────────────────────────────────
 // ── 5. a guest message, translated for the reader ───────────────────────────────────────────
 function messageTranslation(t) {
@@ -301,6 +335,42 @@ function messageTranslation(t) {
 }
 
 const LABELS = {
+  "ai-connect": {
+    render: aiConnect,
+    en: {
+      title: "Connecting an AI assistant to Santara AI",
+      inApp: "In your AI app",
+      inSantara: "In Santara AI",
+      steps: [
+        { title: "Add the Santara AI server URL", note: "Claude: Connectors · ChatGPT: Plugins · Grok: Connectors" },
+        { title: "Sign in to Santara AI", note: "your password never goes to the AI app" },
+        { title: "Pick the workspace and click Allow", note: "you see exactly what it may do — and never do" },
+        { title: "Ask in plain words", note: "“Who arrives today?” · “Block Garden Room this weekend”" },
+      ],
+    },
+    id: {
+      title: "Menghubungkan asisten AI ke Santara AI",
+      inApp: "Di aplikasi AI",
+      inSantara: "Di Santara AI",
+      steps: [
+        { title: "Tambahkan URL server Santara AI", note: "Claude: Connectors · ChatGPT: Plugins · Grok: Connectors" },
+        { title: "Masuk ke Santara AI", note: "kata sandi Anda tidak pernah dikirim ke aplikasi AI" },
+        { title: "Pilih workspace lalu klik Izinkan", note: "Anda melihat persis apa yang boleh dan tidak boleh" },
+        { title: "Tanyakan dengan bahasa biasa", note: "“Siapa yang tiba hari ini?” · “Blokir kamar akhir pekan ini”" },
+      ],
+    },
+    vi: {
+      title: "Kết nối trợ lý AI với Santara AI",
+      inApp: "Trong ứng dụng AI",
+      inSantara: "Trong Santara AI",
+      steps: [
+        { title: "Thêm URL máy chủ Santara AI", note: "Claude: Connectors · ChatGPT: Plugins · Grok: Connectors" },
+        { title: "Đăng nhập Santara AI", note: "mật khẩu không bao giờ được gửi cho ứng dụng AI" },
+        { title: "Chọn không gian làm việc, bấm Cho phép", note: "bạn thấy rõ trợ lý được và không được làm gì" },
+        { title: "Hỏi bằng lời thường", note: "“Hôm nay ai đến?” · “Chặn phòng Garden cuối tuần này”" },
+      ],
+    },
+  },
   "message-translation": {
     render: messageTranslation,
     en: {

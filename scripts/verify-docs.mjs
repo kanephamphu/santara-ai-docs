@@ -281,8 +281,12 @@ for (const file of files) {
     // "name.vi.png". Keeping the canonical locale immediately before the extension makes
     // mixed-language captures and legacy names fail loudly.
     const screenshotLocale = /\.(en|id|vi)\.png$/i.exec(basename(src))?.[1].toLowerCase() ?? null;
+    // EXCEPTION: /screens/ai/ holds screenshots of OTHER companies' apps (Claude, ChatGPT, Grok)
+    // for the "Connect an AI assistant" guide. We don't translate their UI — every reader sees the
+    // same English screens — so one capture serves all three locales.
+    const thirdParty = src.startsWith("/screens/ai/");
 
-    if (screenshotLocale !== file.locale) {
+    if (!thirdParty && screenshotLocale !== file.locale) {
       problems.push(`${file.rel}: screenshot ${src} is not the ${file.locale} capture`);
     }
     if (!existsSync(join(SCREENS, src.replace("/screens/", "")))) {
