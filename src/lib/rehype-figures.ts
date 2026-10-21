@@ -1,4 +1,5 @@
 import { existsSync, readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { visit } from "unist-util-visit";
 
 /*
@@ -22,7 +23,9 @@ import { visit } from "unist-util-visit";
  * read twice by a screen reader.
  */
 
-const PUBLIC = new URL("../../public", import.meta.url).pathname;
+// fileURLToPath, not URL.pathname: on Windows the pathname is "/D:/…", which fs cannot open, so
+// local builds there silently lost every callout, WebP swap and inlined diagram.
+const PUBLIC = fileURLToPath(new URL("../../public", import.meta.url));
 
 type Node = {
   type: string;
@@ -39,7 +42,7 @@ type Callout = {
   width: number;
   height: number;
   label: string;
-  side: "left" | "right";
+  side: "left" | "right" | "above" | "below";
 };
 
 /**
@@ -75,7 +78,33 @@ function calloutOverlay(meta: { width: number; height: number; boxes: Callout[] 
      * A box spanning most of the frame has no outside left to point from, so the pill goes INSIDE
      * its top-left corner and the box is its own pointer. Without this the label on a full-width
      * card is pushed past the edge of the image and clipped.
+     *
+     * "above" and "below" are for phone shots, where most targets are full-width: there the pill
+     * sits over the box or under it, on a short vertical leader, so it covers neither the target
+     * nor the text inside it.
      */
+    if (box.side === "above" || box.side === "below") {
+      const gap = 18;
+      const anchorX = box.x + box.width / 2;
+      const anchorY = box.side === "above" ? box.y : box.y + box.height;
+      const pillX = Math.min(Math.max(anchorX - pillW / 2, 8), meta.width - pillW - 8);
+      const pillY = box.side === "above" ? box.y - gap - pillH : box.y + box.height + gap;
+      const leaderEnd = box.side === "above" ? pillY + pillH : pillY;
+      children.push({
+        type: "raw",
+        value:
+          `<line x1="${anchorX}" y1="${anchorY}" x2="${anchorX}" y2="${leaderEnd}" stroke="${RED}" ` +
+          `stroke-width="3"/>` +
+          `<circle cx="${anchorX}" cy="${anchorY}" r="5" fill="${RED}"/>` +
+          `<rect x="${pillX}" y="${pillY}" width="${pillW}" height="${pillH}" rx="20" ` +
+          `fill="${RED}"/>` +
+          `<text x="${pillX + pillW / 2}" y="${pillY + pillH / 2 + 7}" text-anchor="middle" ` +
+          `fill="#ffffff" font-family="Inter, ui-sans-serif, system-ui, sans-serif" ` +
+          `font-size="20" font-weight="600">${escapeXml(text)}</text>`,
+      });
+      continue;
+    }
+
     const wide = box.width > meta.width * 0.55;
 
     if (wide) {
@@ -136,6 +165,24 @@ function webpFor(src: string) {
   return existsSync(`${PUBLIC}${webp}`) ? webp : src;
 }
 
+/**
+ * The screenshot's pixel size, read from the PNG's IHDR chunk (bytes 16–23).
+ *
+ * Written onto the <img> as width/height so the browser reserves the figure's height before the
+ * lazy image arrives — without it the prose below jumps down as each shot loads (layout shift).
+ * The CSS still sizes the image (width: 100%; height: auto); the attributes only give it the ratio.
+ */
+function pngSize(src: string): { width: number; height: number } | null {
+  if (!src.endsWith(".png")) return null;
+  try {
+    const head = readFileSync(`${PUBLIC}${src}`).subarray(0, 24);
+    if (head.toString("ascii", 12, 16) !== "IHDR") return null;
+    return { width: head.readUInt32BE(16), height: head.readUInt32BE(20) };
+  } catch {
+    return null;
+  }
+}
+
 function escapeXml(value: string) {
   return value
     .replace(/&/g, "&amp;")
@@ -155,8 +202,9 @@ export function rehypeFigures() {
       /*
        * SCREENSHOTS are the other kind of figure, and they are handled differently on purpose:
        * they are raster, so there is nothing to inline and nothing that could follow the theme.
-       * The <img> is kept as-is — lazy, async, with its intrinsic size left to the browser — and
-       * only wrapped so it gets the same framed, captioned treatment as a diagram.
+       * The <img> is kept as-is — lazy, async, with its pixel size declared so the page does not
+       * shift as it loads — and only wrapped so it gets the same framed, captioned treatment as a
+       * diagram.
        */
       if (src.startsWith("/screens/")) {
         /*
@@ -211,6 +259,7 @@ export function rehypeFigures() {
                   properties: {
                     ...node.properties,
                     src: webpFor(src),
+                    ...pngSize(src),
                     loading: "lazy",
                     decoding: "async",
                   },
