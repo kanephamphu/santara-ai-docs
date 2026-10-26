@@ -1,0 +1,14 @@
+{
+  "width": 428,
+  "height": 926,
+  "boxes": [
+    {
+      "x": 241.3,
+      "y": 183,
+      "width": 113.3,
+      "height": 40,
+      "label": "About this booking",
+      "side": "below"
+    }
+  ]
+}

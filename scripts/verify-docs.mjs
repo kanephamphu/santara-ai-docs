@@ -43,7 +43,7 @@ function slug(text) {
     // Strip link syntax down to its label, so "## [Go live](/x/)" slugs as "go-live".
     .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
     .replace(/[^\p{L}\p{N}\s-]/gu, "")
-    .replace(/\s+/g, "-");
+    .replace(/\s/g, "-");
 }
 
 /** Generate the unique IDs Starlight gives repeated headings: "example", "example-1", etc. */

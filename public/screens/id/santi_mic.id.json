@@ -1,0 +1,14 @@
+{
+  "width": 428,
+  "height": 926,
+  "boxes": [
+    {
+      "x": 323,
+      "y": 843,
+      "width": 46,
+      "height": 46,
+      "label": "Ketuk untuk bicara",
+      "side": "left"
+    }
+  ]
+}

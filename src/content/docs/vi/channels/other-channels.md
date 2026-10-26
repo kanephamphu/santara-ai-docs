@@ -9,6 +9,10 @@ Airbnb và Booking.com có luồng riêng ([Airbnb](/vi/channels/airbnb/),
 [Booking.com](/vi/channels/booking-com/)). Mọi kênh khác kết nối theo cùng một cách,
 qua ba bước ngay trong Santara AI.
 
+Phần lớn kênh cần một bước **trong extranet của chính họ trước** — bật kết nối và cấp cho bạn một
+mã ID. [Hướng dẫn kết nối từng kênh](/vi/channel-guides/) liệt kê những gì mỗi kênh
+yêu cầu.
+
 ## Bạn cần gì
 
 - Một **chỗ nghỉ có ít nhất một phòng** trong Santara AI. Chỗ nghỉ không có phòng thì không có gì để
