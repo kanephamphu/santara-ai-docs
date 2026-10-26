@@ -9,6 +9,10 @@ Airbnb and Booking.com have their own flows ([Airbnb](/channels/airbnb/),
 [Booking.com](/channels/booking-com/)). Every other channel connects the same way,
 in a three-step setup inside Santara AI.
 
+Most channels need a step **in their own extranet first** — switching the connection on and giving
+you an ID. The [channel-by-channel connection guide](/channel-guides/) lists what each
+one asks for.
+
 ## What you need
 
 - A **property with at least one room** in Santara AI. A property with no rooms has nothing to map
