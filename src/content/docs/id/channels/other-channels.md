@@ -9,6 +9,10 @@ Airbnb dan Booking.com punya alur sendiri ([Airbnb](/id/channels/airbnb/),
 [Booking.com](/id/channels/booking-com/)). Setiap channel lain terhubung dengan cara yang
 sama, lewat tiga langkah di dalam Santara AI.
 
+Sebagian besar channel membutuhkan satu langkah **di extranet mereka sendiri terlebih dahulu** —
+mengaktifkan koneksi dan memberi Anda sebuah ID. [Panduan koneksi per
+channel](/id/channel-guides/) mencantumkan apa yang diminta masing-masing.
+
 ## Yang Anda perlukan
 
 - Sebuah **properti dengan minimal satu kamar** di Santara AI. Properti tanpa kamar tidak punya apa

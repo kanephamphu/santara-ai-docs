@@ -99,6 +99,12 @@ export default defineConfig({
           autogenerate: { directory: "channels" },
         },
         {
+          label: "Channel guides",
+          translations: { id: "Panduan per channel", vi: "Hướng dẫn từng kênh" },
+          collapsed: true,
+          autogenerate: { directory: "channel-guides" },
+        },
+        {
           label: "Every day",
           translations: { id: "Setiap hari", vi: "Hằng ngày" },
           autogenerate: { directory: "daily" },
