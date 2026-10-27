@@ -12,15 +12,46 @@ permission in your own extranet, then tell Santara AI which property to attach t
 
 ## 1. Enable the connection in your extranet
 
-In the **Booking.com extranet**:
+Booking.com has to let the connection in first. Santara AI connects through **Channex**, its
+connectivity partner — that is the name you look for in Booking.com. This is best done by the
+property owner: Booking.com sends a two-step sign-in code to the owner's phone.
 
-1. Open **Account → Connectivity provider**.
-2. Search for the connectivity provider named in Santara AI's Booking.com connect dialog.
-3. Select it and **accept the connection agreement**.
+1. Sign in at **account.booking.com**. Note the **property ID** at the top, beside the property's
+   name — that is the Hotel ID you enter in step 2. Then open **Account → Connectivity provider**.
+
+   ![Booking.com extranet: the property ID beside the name, and Account → Connectivity provider.](/channel-guides/extranet/booking-com-account-menu.webp)
+
+2. Press **Search**.
+
+   ![The Connectivity provider page — press Search.](/channel-guides/extranet/booking-com-connectivity-provider.webp)
+
+3. Type the whole word **Channex** — a shorter search finds nothing — and choose **Channex.io**.
+
+   ![Search for a provider: type Channex and pick Channex.io.](/channel-guides/extranet/booking-com-search-channex.webp)
+
+4. Leave **Reservations, Rates & Availability** ticked and press **Next**.
+
+   ![Channex.io selected, with Reservations, Rates & Availability ticked — press Next.](/channel-guides/extranet/booking-com-next.webp)
+
+5. Tick the box to agree to the XML Service Agreement and press **Yes, I accept**. Nothing else on
+   the form needs filling in.
+
+   ![The XML Service Agreement: tick the box, then Yes, I accept.](/channel-guides/extranet/booking-com-agreement.webp)
+
+6. The request now waits for confirmation — that is expected. Leave **Connect me to the provider
+   automatically** selected. You can carry on in Santara AI straight away; the channel goes live
+   once the connection is confirmed.
+
+   ![Waiting for provider confirmation — carry on in Santara AI.](/channel-guides/extranet/booking-com-waiting.webp)
 
 Nothing happens in Santara AI until this is done. The connect dialog has a checkbox confirming you
 have done it, and it is there because skipping this step is the single most common reason a
 Booking.com connection fails.
+
+:::caution[Check your derived rates after connecting]
+When a channel manager is connected, Booking.com can change settings on **derived rates** — the
+minimum stay, for example. Check each derived rate in the extranet once you are connected.
+:::
 
 ## 2. Enter your Hotel ID
 
@@ -57,6 +88,14 @@ and enter them by hand from the extranet's **Property → Rooms & rates** page:
 Then press **Map, activate & sync**. Santara AI maps the rooms, activates the channel, and syncs
 bookings, reviews and messages, showing each stage as it goes.
 
+:::note[Telling rooms apart]
+Booking.com shows its **default** room names, not names you customised in the extranet, so two
+apartments can look identical. Match them by **Room ID** instead. Map **every** room and rate:
+an unmapped rate — including an old **derived rate** that appears as mappable — makes its bookings
+fail. If you don't need it, delete it in the extranet (a derived rate recreated there won't need
+mapping).
+:::
+
 ## What can hold a room back
 
 | On screen | Meaning |
@@ -68,6 +107,13 @@ bookings, reviews and messages, showing each stage as it goes.
 
 Santara AI will not guess an occupancy price on a live listing. That refusal is deliberate: a guessed
 price on Booking.com sells real nights at the wrong rate.
+
+## Stays imported when you connect
+
+Stays Booking.com already had are brought across when the channel goes live, but Booking.com sends
+them with **less detail** than a new booking: no taxes or fees, no guest email, address or phone, no
+commission and no card details. Check the extranet for those. Bookings made after you connect arrive
+in full.
 
 ## Rates on Booking.com
 

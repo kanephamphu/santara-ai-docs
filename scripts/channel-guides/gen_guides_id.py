@@ -342,6 +342,15 @@ ch("Nuitee", "nuitee", "Khusus hotel: tanda tangani perjanjian dengan Nuitee, hu
    mapping=["Petakan **tarif terbaik yang tersedia** (best available rate) Anda. Kebijakan pembatalan ditetapkan dalam kontrak Nuitee Anda, bukan oleh Santara AI."])
 
 
+ch('Google Hotels dan Vacation Rentals', "google", 'Listing gratis di Google: lengkapi data properti, hubungkan Google, pilih tujuan pemesanan, lalu tunggu 1–4 minggu sampai Google menampilkan properti.',
+   before=['Google **tidak punya extranet**: Google hanya menampilkan apa yang dikirim properti Anda. Sebelum menghubungkan, isi **alamat, telepon, lokasi peta, zona waktu, aturan rumah, kebijakan pembatalan, minimal satu fasilitas, foto, dan deskripsi** properti.', '**Vacation rental butuh lebih banyak**: alamat situs yang diawali `https://`, **minimal 8 foto**, serta jumlah tempat tidur, kamar tidur, dan kamar mandi (diminta di formulir di bawah).', 'Google mencocokkan properti lewat **nama, alamat, dan nomor telepon** — pastikan sama dengan yang tampil di Google Maps.'], extranet=None, fields=[('Partner Account', 'Biarkan apa adanya kecuali kami memberi tahu lain.'), ('Use built-in IBE', 'Dicentang: tamu yang mengklik di Google masuk ke halaman pemesanan siap pakai. Tidak dicentang: isi **Booking Link**.'), ('Booking Link', 'Halaman pemesanan Anda sendiri, dengan placeholder yang diisi Google — misalnya `https://example.com/book?checkin=(CHECKIN_DATE)&nights=(LENGTH)`. Lainnya: `(CHECKOUT_DATE)`, `(ADULTS)`, `(CURRENCY)`.'), ('Beds count / Bedrooms count / Bathrooms count', 'Wajib untuk vacation rental.'), ('Send Property Notification', 'Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru.')],
+   mapping=['Centang kamar dan tarif yang ditampilkan Google. Bisa diubah kapan saja.', '**Vacation rental: satu tipe kamar per koneksi.** Beberapa apartemen dalam satu gedung masing-masing perlu koneksi Google sendiri, dan properti di alamat berbeda harus menjadi properti terpisah di Santara AI.'], after=['Google memeriksa properti baru setiap minggu: tunggu **sekitar 1 minggu** untuk hotel dan **hingga 4 minggu** untuk vacation rental sebelum properti muncul.', 'Ini adalah **tautan pemesanan gratis** Google; vacation rental tampil sebagai pin di peta saat orang mencari di area itu.'])
+
+ch('Hopper Homes', "hopper-homes", 'Daftar Hopper Hosting dengan Channex sebagai PMS, hubungkan dengan email yang sama, buat listing, lalu petakan. Harga dan pemesanan dalam USD.',
+   before=['Harga dan pemesanan di Hopper Homes dalam **USD** — harga Anda dikonversi otomatis.', 'Gunakan **alamat email yang sama** untuk Hopper dan koneksi ini.'], extranet=['Daftar akun Hopper Hosting di **hosts.hopper.com/signup/channex**.', 'Buka email dari Hopper Homes dan tekan **Join Hopper Hosting** untuk membuat kata sandi.', 'Saat ditanya apakah memakai PMS, pilih **Yes** lalu pilih **Channex**.'], fields=[('Verified Host Email', 'Email yang Anda pakai mendaftar di Hopper.'), ('Display Host Name', 'Nama host yang dilihat tamu.'), ('Min Stay Type', '**Arrival** atau **Through**. Biasanya Arrival.'), ('Send Property Notification', 'Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru.')],
+   mapping=['Listing Hopper Homes **dibuat dari layar penyiapan**: buat listing untuk setiap kamar, pilih properti dan kamarnya, isi detailnya, lalu simpan.', '**Aktifkan** listing, lalu petakan ke kamar dan tarif Anda di layar pemetaan.'], notes=[('caution', 'Jangan hapus koneksinya', 'Hopper Homes tidak mengizinkan akun terhubung ulang. Jika koneksi ini dihapus, Anda perlu akun Hopper baru dengan alamat email lain.')])
+
+
 # The step-2 form's REAL labels, read from the adapter schema the form renders
 # (GET /api/connected-accounts/channels/adapter?code=…). Field names stay English in every
 # locale because the form shows them that way.
@@ -421,7 +430,7 @@ def img(src, alt):
     return f"![{alt}](/channel-guides/extranet/{src}.webp)\n"
 
 
-CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "vrbo": "VRBO"}
+CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "vrbo": "VRBO", "google": "Google Hotel ARI"}
 
 def page(c, order):
     n = c["name"]
@@ -482,7 +491,7 @@ def page(c, order):
     for a in c.get("notes", []):
         out.append(aside(*a) + "\n")
     after = list(c.get("after", []))
-    if not any("pesan tamu" in x.lower() for x in after):
+    if c["slug"] != "google" and not any("pesan tamu" in x.lower() for x in after):
         after.append(f"Balas tamu {n} di kotak masuk {n} sendiri — pesan tamu dari {n} tidak masuk ke Santara AI.")
     out.append(f"## Perlu diketahui\n\n" + bullets(after) + "\n")
     if c.get("errors"):

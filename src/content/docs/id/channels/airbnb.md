@@ -11,6 +11,15 @@ sidebar:
   mengotorisasi koneksi.
 - Popup diizinkan di browser — otorisasi terbuka di jendela baru. Jika diblokir Anda melihat
   *"Browser Anda memblokir popup"*; izinkan lalu tekan *Hubungkan Airbnb* lagi.
+- **Tidak ada channel manager atau PMS lain yang terhubung** ke akun Airbnb itu — Airbnb menolak yang
+  kedua dan koneksi tidak selesai. Putuskan yang lama di Airbnb dulu (**Account → Privacy**, di bagian
+  layanan yang terhubung).
+- **Data host lengkap** — verifikasi email yang belum selesai atau sejenisnya memblokir otorisasi;
+  Airbnb menyebutkan apa yang kurang di layarnya.
+- **Masuk ke akun Airbnb yang benar** di browser ini sebelum mulai. Mengganti kata sandi Airbnb setelahnya
+  tidak memutus koneksi.
+- **Ketersediaan kalender listing tidak diset "Unavailable by default"** — pilih semua tanggal atau
+  sejumlah hari ke depan, kalau tidak ketersediaan dari Santara AI tidak bisa membuka kalender.
 
 ## 1. Mulai koneksi
 

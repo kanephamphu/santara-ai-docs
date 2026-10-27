@@ -78,6 +78,9 @@ Lalu pilih properti untuk channel itu. Langkah 2 menampilkan kolom penyiapan mil
 | [Getaroom](/id/channel-guides/getaroom/) | Hotel ID | Kamar dan tarif |
 | [Hopper](/id/channel-guides/hopper/) (khusus hotel) | — | Tarif terbaik yang tersedia |
 | [Nuitee](/id/channel-guides/nuitee/) (khusus hotel) | — | Tarif terbaik yang tersedia |
+| [Google Hotels dan Vacation Rentals](/id/channel-guides/google/) | Booking link atau halaman pemesanan bawaan | Rate plan yang ditampilkan |
+| [Hopper Homes](/id/channel-guides/hopper-homes/) | Daftar mitra + email host | Per listing |
+| [Channel lainnya](/id/channel-guides/more-channels/) — 35 channel katalog lainnya | Hotel Code (umumnya) | — |
 
 ## Pesan tamu
 

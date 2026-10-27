@@ -11,6 +11,15 @@ sidebar:
   authorise the connection.
 - Popups allowed in your browser — the authorisation opens in a window. If it is blocked you will
   see *"Your browser blocked the popup"*; allow it and press *Connect Airbnb* again.
+- **No other channel manager or PMS connected** to that Airbnb account — Airbnb refuses a second
+  one and the connection does not complete. Disconnect the old one in Airbnb first (**Account →
+  Privacy**, under connected services).
+- **Host details complete** — a missing email verification or similar blocks the authorisation;
+  Airbnb names what is missing on its own screen.
+- **Signed in to the right Airbnb account** in this browser before you start. Changing the Airbnb
+  password afterwards does not break the connection.
+- **Calendar availability not set to "Unavailable by default"** on the listings — choose all dates or
+  a number of days ahead, or availability Santara AI sends cannot open the calendar.
 
 ## 1. Start the connection
 

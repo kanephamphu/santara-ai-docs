@@ -78,6 +78,9 @@ Then pick the property the channel is for. Step 2 shows that channel's own setup
 | [Getaroom](/channel-guides/getaroom/) | Hotel ID | Room and rate |
 | [Hopper](/channel-guides/hopper/) (hotels only) | — | Best available rate |
 | [Nuitee](/channel-guides/nuitee/) (hotels only) | — | Best available rate |
+| [Google Hotels and Vacation Rentals](/channel-guides/google/) | Booking link or built-in booking page | Rate plans to show |
+| [Hopper Homes](/channel-guides/hopper-homes/) | Partner sign-up + host email | Listing by listing |
+| [More channels](/channel-guides/more-channels/) — 35 more catalogue channels | Hotel Code (mostly) | — |
 
 ## Guest messages
 

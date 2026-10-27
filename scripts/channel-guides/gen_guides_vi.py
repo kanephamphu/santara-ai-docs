@@ -341,6 +341,15 @@ ch("Nuitee", "nuitee", "Chỉ cho khách sạn: ký thỏa thuận với Nuitee,
    mapping=["Ánh xạ **mức giá tốt nhất hiện có** (best available rate) của bạn. Chính sách hủy được quy định trong hợp đồng Nuitee, không do Santara AI đặt."])
 
 
+ch('Google Hotels và Vacation Rentals', "google", 'Hiển thị miễn phí trên Google: điền đủ thông tin chỗ nghỉ, kết nối Google, chọn nơi nhận đặt phòng, rồi chờ 1–4 tuần để Google hiển thị.',
+   before=['Google **không có extranet**: Google chỉ hiển thị những gì chỗ nghỉ của bạn gửi sang. Trước khi kết nối, hãy điền **địa chỉ, số điện thoại, vị trí bản đồ, múi giờ, nội quy, chính sách huỷ, ít nhất một tiện nghi, ảnh và mô tả** của chỗ nghỉ.', '**Nhà cho thuê (vacation rental) cần thêm**: địa chỉ website bắt đầu bằng `https://`, **ít nhất 8 ảnh**, và số giường, phòng ngủ, phòng tắm (hỏi trong biểu mẫu bên dưới).', 'Google nhận diện chỗ nghỉ qua **tên, địa chỉ và số điện thoại** — hãy đảm bảo khớp với Google Maps.'], extranet=None, fields=[('Partner Account', 'Giữ nguyên trừ khi chúng tôi hướng dẫn khác.'), ('Use built-in IBE', 'Có tích: khách bấm trên Google sẽ vào trang đặt phòng có sẵn. Không tích: điền **Booking Link**.'), ('Booking Link', 'Trang đặt phòng của riêng bạn, với các biến Google tự điền — ví dụ `https://example.com/book?checkin=(CHECKIN_DATE)&nights=(LENGTH)`. Biến khác: `(CHECKOUT_DATE)`, `(ADULTS)`, `(CURRENCY)`.'), ('Beds count / Bedrooms count / Bathrooms count', 'Bắt buộc với nhà cho thuê.'), ('Send Property Notification', 'Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới.')],
+   mapping=['Tích các phòng và mức giá Google sẽ hiển thị. Có thể đổi bất cứ lúc nào.', '**Nhà cho thuê: mỗi kết nối một loại phòng.** Nhiều căn hộ trong cùng toà nhà cần mỗi căn một kết nối Google, và chỗ nghỉ ở địa chỉ khác nhau phải là các chỗ nghỉ riêng trong Santara AI.'], after=['Google quét chỗ nghỉ mới hằng tuần: chờ **khoảng 1 tuần** với khách sạn và **tới 4 tuần** với nhà cho thuê trước khi chỗ nghỉ xuất hiện.', 'Đây là **liên kết đặt phòng miễn phí** của Google; nhà cho thuê hiện thành ghim trên bản đồ khi người dùng tìm trong khu vực.'])
+
+ch('Hopper Homes', "hopper-homes", 'Đăng ký Hopper Hosting với Channex làm PMS, kết nối bằng cùng email, tạo listing rồi ánh xạ. Giá và đặt phòng tính bằng USD.',
+   before=['Giá và đặt phòng trên Hopper Homes tính bằng **USD** — giá của bạn được quy đổi tự động.', 'Dùng **cùng một địa chỉ email** cho Hopper và cho kết nối này.'], extranet=['Đăng ký tài khoản Hopper Hosting tại **hosts.hopper.com/signup/channex**.', 'Mở email từ Hopper Homes và bấm **Join Hopper Hosting** để đặt mật khẩu.', 'Khi được hỏi có dùng PMS không, chọn **Yes** rồi chọn **Channex**.'], fields=[('Verified Host Email', 'Email bạn đã dùng để đăng ký Hopper.'), ('Display Host Name', 'Tên host khách sẽ thấy.'), ('Min Stay Type', '**Arrival** hoặc **Through**. Thường là Arrival.'), ('Send Property Notification', 'Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới.')],
+   mapping=['Listing Hopper Homes **được tạo từ màn hình thiết lập**: tạo một listing cho mỗi phòng, chọn chỗ nghỉ và phòng, điền chi tiết rồi lưu.', '**Kích hoạt** listing, rồi ánh xạ nó với phòng và mức giá của bạn trên màn hình ánh xạ.'], notes=[('caution', 'Đừng xoá kết nối', 'Hopper Homes không cho tài khoản kết nối lại. Nếu xoá kết nối này, bạn cần tài khoản Hopper mới với email khác.')])
+
+
 # The step-2 form's REAL labels, read from the adapter schema the form renders
 # (GET /api/connected-accounts/channels/adapter?code=…). Field names stay English in every
 # locale because the form shows them that way.
@@ -420,7 +429,7 @@ def img(src, alt):
     return f"![{alt}](/channel-guides/extranet/{src}.webp)\n"
 
 
-CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "vrbo": "VRBO"}
+CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "vrbo": "VRBO", "google": "Google Hotel ARI"}
 
 def page(c, order):
     n = c["name"]
@@ -481,7 +490,7 @@ def page(c, order):
     for a in c.get("notes", []):
         out.append(aside(*a) + "\n")
     after = list(c.get("after", []))
-    if not any("tin nhắn" in x.lower() for x in after):
+    if c["slug"] != "google" and not any("tin nhắn" in x.lower() for x in after):
         after.append(f"Trả lời khách {n} trong hộp thư của chính {n} — tin nhắn khách từ {n} không về Santara AI.")
     out.append(f"## Nên biết\n\n" + bullets(after) + "\n")
     if c.get("errors"):
