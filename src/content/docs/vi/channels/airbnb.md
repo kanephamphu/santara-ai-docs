@@ -11,6 +11,15 @@ sidebar:
   phép kết nối được.
 - Cho phép popup trong trình duyệt — phần cấp phép mở ở cửa sổ mới. Nếu bị chặn bạn sẽ thấy *"Trình
   duyệt của bạn đã chặn popup"*; hãy cho phép rồi bấm *Kết nối Airbnb* lần nữa.
+- **Không có channel manager hay PMS nào khác đang kết nối** với tài khoản Airbnb đó — Airbnb từ chối
+  kết nối thứ hai và việc kết nối không hoàn tất. Hãy ngắt kết nối cũ trong Airbnb trước (**Account →
+  Privacy**, ở mục dịch vụ đã kết nối).
+- **Thông tin host đầy đủ** — thiếu xác minh email hoặc tương tự sẽ chặn việc cấp phép; Airbnb ghi rõ
+  thiếu gì trên màn hình của họ.
+- **Đăng nhập đúng tài khoản Airbnb** trên trình duyệt này trước khi bắt đầu. Đổi mật khẩu Airbnb sau đó
+  không làm mất kết nối.
+- **Lịch của listing không đặt "Unavailable by default"** — hãy chọn mọi ngày hoặc một số ngày tới,
+  nếu không lịch trống Santara AI gửi đi sẽ không mở được lịch.
 
 ## 1. Bắt đầu kết nối
 

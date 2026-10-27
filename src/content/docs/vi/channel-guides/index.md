@@ -78,6 +78,9 @@ Sau đó chọn chỗ nghỉ cho kênh. Bước 2 hiện các trường thiết 
 | [Getaroom](/vi/channel-guides/getaroom/) | Hotel ID | Phòng và mức giá |
 | [Hopper](/vi/channel-guides/hopper/) (chỉ khách sạn) | — | Mức giá tốt nhất hiện có |
 | [Nuitee](/vi/channel-guides/nuitee/) (chỉ khách sạn) | — | Mức giá tốt nhất hiện có |
+| [Google Hotels và Vacation Rentals](/vi/channel-guides/google/) | Booking link hoặc trang đặt phòng có sẵn | Các gói giá hiển thị |
+| [Hopper Homes](/vi/channel-guides/hopper-homes/) | Đăng ký đối tác + email host | Theo từng listing |
+| [Các kênh khác](/vi/channel-guides/more-channels/) — 35 kênh khác trong danh mục | Hotel Code (phần lớn) | — |
 
 ## Tin nhắn khách
 

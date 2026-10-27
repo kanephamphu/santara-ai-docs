@@ -12,14 +12,43 @@ mình, rồi cho Santara AI biết nó gắn với bất động sản nào.
 
 ## 1. Bật kết nối trong extranet
 
-Trong **extranet Booking.com**:
+Booking.com phải cho phép kết nối trước. Santara AI kết nối qua **Channex**, đối tác kết nối của chúng
+tôi — đó là cái tên bạn tìm trong Booking.com. Nên để chủ chỗ nghỉ làm bước này: Booking.com gửi mã
+đăng nhập hai bước tới điện thoại của chủ tài khoản.
 
-1. Mở **Account → Connectivity provider**.
-2. Tìm nhà cung cấp kết nối được nêu trong hộp thoại kết nối Booking.com của Santara AI.
-3. Chọn và **chấp nhận thỏa thuận kết nối**.
+1. Đăng nhập tại **account.booking.com**. Ghi lại **mã chỗ nghỉ** ở đầu trang, cạnh tên chỗ nghỉ —
+   đó là Hotel ID bạn nhập ở bước 2. Rồi mở **Account → Connectivity provider**.
+
+   ![Extranet Booking.com: mã chỗ nghỉ cạnh tên, và Account → Connectivity provider.](/channel-guides/extranet/booking-com-account-menu.webp)
+
+2. Nhấn **Search**.
+
+   ![Trang Connectivity provider — nhấn Search.](/channel-guides/extranet/booking-com-connectivity-provider.webp)
+
+3. Gõ đủ chữ **Channex** — gõ thiếu sẽ không tìm thấy — rồi chọn **Channex.io**.
+
+   ![Search for a provider: gõ Channex và chọn Channex.io.](/channel-guides/extranet/booking-com-search-channex.webp)
+
+4. Giữ dấu tích ở **Reservations, Rates & Availability** và nhấn **Next**.
+
+   ![Đã chọn Channex.io, tích Reservations, Rates & Availability — nhấn Next.](/channel-guides/extranet/booking-com-next.webp)
+
+5. Tích ô đồng ý XML Service Agreement và nhấn **Yes, I accept**. Không cần điền gì khác trên biểu mẫu.
+
+   ![XML Service Agreement: tích ô, rồi Yes, I accept.](/channel-guides/extranet/booking-com-agreement.webp)
+
+6. Yêu cầu giờ chờ xác nhận — điều này là bình thường. Giữ lựa chọn **Connect me to the provider
+   automatically**. Bạn có thể tiếp tục ngay trong Santara AI; kênh hoạt động khi kết nối được xác nhận.
+
+   ![Đang chờ nhà cung cấp xác nhận — tiếp tục trong Santara AI.](/channel-guides/extranet/booking-com-waiting.webp)
 
 Không gì xảy ra trong Santara AI trước khi việc này hoàn tất. Hộp thoại kết nối có ô xác nhận, vì bỏ qua
 bước này là nguyên nhân thất bại phổ biến nhất.
+
+:::caution[Kiểm tra giá phái sinh sau khi kết nối]
+Khi kết nối channel manager, Booking.com có thể đổi cài đặt của **giá phái sinh** (derived rates) — ví
+dụ số đêm tối thiểu. Hãy kiểm tra từng giá phái sinh trong extranet sau khi kết nối.
+:::
 
 ## 2. Nhập Hotel ID
 
@@ -54,6 +83,13 @@ sản** và nhập thủ công từ trang **Property → Rooms & rates** của e
 Rồi bấm **Ánh xạ, kích hoạt & đồng bộ**. Santara AI ánh xạ phòng, kích hoạt kênh, và đồng bộ đặt phòng,
 đánh giá và tin nhắn, hiển thị từng giai đoạn.
 
+:::note[Phân biệt các phòng]
+Booking.com hiển thị tên phòng **mặc định**, không phải tên bạn đã đổi trong extranet, nên hai căn hộ
+có thể trông giống hệt nhau. Hãy đối chiếu theo **Room ID**. Ánh xạ **mọi** phòng và mức giá: mức giá
+chưa ánh xạ — kể cả **giá phái sinh** cũ hiện ra như có thể ánh xạ — khiến đặt phòng của nó bị lỗi.
+Nếu không cần, hãy xoá trong extranet (giá phái sinh tạo lại ở đó sẽ không cần ánh xạ).
+:::
+
 ## Điều gì có thể giữ một phòng lại
 
 | Trên màn hình | Nghĩa là |
@@ -65,6 +101,13 @@ Rồi bấm **Ánh xạ, kích hoạt & đồng bộ**. Santara AI ánh xạ ph�
 
 Santara AI sẽ không đoán giá theo sức chứa trên một listing đang bán. Việc từ chối đó là cố ý: một mức
 giá đoán trên Booking.com sẽ bán những đêm thật với giá sai.
+
+## Lượt lưu trú được nhập khi kết nối
+
+Các lượt lưu trú Booking.com đã có sẽ được đưa sang khi kênh hoạt động, nhưng Booking.com gửi chúng
+**ít chi tiết hơn** so với đặt phòng mới: không có thuế hay phí, không có email, địa chỉ hay số điện thoại
+của khách, không có hoa hồng và không có thông tin thẻ. Hãy xem extranet cho những thông tin đó. Đặt phòng
+tạo sau khi kết nối sẽ về đầy đủ.
 
 ## Giá trên Booking.com
 

@@ -341,6 +341,15 @@ ch("Nuitee", "nuitee", "Hotels only: sign an agreement with Nuitee, connect it, 
    mapping=["Map your **best available rate**. Cancellation policy is set in your Nuitee contract, not by Santara AI."])
 
 
+ch('Google Hotels and Vacation Rentals', "google", 'Free listings on Google: complete your property details, connect Google, choose where bookings go, and wait 1–4 weeks for Google to show the property.',
+   before=["Google has **no extranet**: it shows only what your property sends it. Before connecting, fill in the property's **address, phone, map location, time zone, house rules, a cancellation policy, at least one facility, photos and a description**.", '**Vacation rentals need more**: a website address starting with `https://`, **at least 8 photos**, and the beds, bedrooms and bathrooms counts (asked in the form below).', 'Google matches your property by **name, address and phone number** — make sure they match what Google Maps shows.'], extranet=None, fields=[('Partner Account', 'Leave it as it is unless we have told you otherwise.'), ('Use built-in IBE', 'Ticked: guests who click on Google land on a ready-made booking page. Unticked: fill in **Booking Link**.'), ('Booking Link', 'Your own booking page, with placeholders Google fills in — for example `https://example.com/book?checkin=(CHECKIN_DATE)&nights=(LENGTH)`. Others: `(CHECKOUT_DATE)`, `(ADULTS)`, `(CURRENCY)`.'), ('Beds count / Bedrooms count / Bathrooms count', 'Required for vacation rentals.'), ('Send Property Notification', 'Optional. Tick it and a **Property Email** field appears — that address gets an email for every new booking.')],
+   mapping=['Tick the rooms and rates Google should show. You can change this any time.', '**Vacation rentals: one room type per connection.** Several apartments in one building each need their own Google connection, and properties at different addresses must be separate properties in Santara AI.'], after=['Google checks for new properties weekly: allow **about 1 week** for hotels and **up to 4 weeks** for vacation rentals before the property appears.', "These are Google's **free booking links**; vacation rentals show as a pin on the map when people search the area."])
+
+ch('Hopper Homes', "hopper-homes", 'Sign up for Hopper Hosting with Channex as your PMS, connect with the same email, create a listing, and map it. Prices and bookings in USD.',
+   before=['Prices and bookings on Hopper Homes are in **USD** — your prices are converted automatically.', 'Use the **same email address** for Hopper and for this connection.'], extranet=['Sign up for a Hopper Hosting account at **hosts.hopper.com/signup/channex**.', 'Open the email from Hopper Homes and press **Join Hopper Hosting** to set a password.', 'When asked whether you use a PMS, choose **Yes** and pick **Channex**.'], fields=[('Verified Host Email', 'The email you signed up to Hopper with.'), ('Display Host Name', 'The host name guests see.'), ('Min Stay Type', '**Arrival** or **Through**. Usually Arrival.'), ('Send Property Notification', 'Optional. Tick it and a **Property Email** field appears — that address gets an email for every new booking.')],
+   mapping=['Hopper Homes listings are **created from the setup screen**: create a listing for each room, pick its property and room, fill in its details and save.', '**Activate** the listing, then map it to your room and rate on the mapping screen.'], notes=[('caution', "Don't delete the connection", 'Hopper Homes does not let an account reconnect. If you delete this connection you need a new Hopper account with a different email address.')])
+
+
 # The step-2 form's REAL labels, read from the adapter schema the form renders
 # (GET /api/connected-accounts/channels/adapter?code=…). Field names stay English in every
 # locale because the form shows them that way.
@@ -420,7 +429,7 @@ def img(src, alt):
     return f"![{alt}](/channel-guides/extranet/{src}.webp)\n"
 
 
-CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "vrbo": "VRBO"}
+CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "vrbo": "VRBO", "google": "Google Hotel ARI"}
 
 def page(c, order):
     n = c["name"]
@@ -481,7 +490,7 @@ def page(c, order):
     for a in c.get("notes", []):
         out.append(aside(*a) + "\n")
     after = list(c.get("after", []))
-    if not any("message" in x.lower() for x in after):
+    if c["slug"] != "google" and not any("message" in x.lower() for x in after):
         after.append(f"Answer {n} guests in {n}'s own inbox — guest messages from {n} do not come into Santara AI.")
     out.append(f"## Good to know\n\n" + bullets(after) + "\n")
     if c.get("errors"):
