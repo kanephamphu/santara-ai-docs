@@ -9,7 +9,9 @@ Bạn có thể trò chuyện với không gian làm việc Santara AI ngay tron
 *“Hôm nay ai đến?”* hoặc *“Chặn phòng Garden cuối tuần này”* trong ChatGPT, Claude hay Grok — trợ lý
 trả lời từ và làm việc trên lịch, đặt phòng, khách và bảng dọn phòng thật của bạn.
 
-Mọi trợ lý đều kết nối qua cùng một địa chỉ:
+Người dùng Claude: kết nối từ trang của Santara AI trong
+**[thư mục connector của Claude](https://claude.ai/directory/santara-ai)** — không cần địa chỉ. Mọi trợ lý khác đều kết nối qua cùng một
+địa chỉ:
 
 ```
 https://mcp.santara.ai/mcp
@@ -25,27 +27,20 @@ lúc nào.
 
 ## Claude
 
-Dùng được trên claude.ai, Claude Desktop và ứng dụng Claude trên điện thoại.
+Santara AI đã có mặt trong thư mục connector chính thức của Claude:
+**[claude.ai/directory/santara-ai](https://claude.ai/directory/santara-ai)**. Dùng được trên claude.ai, Claude Desktop và ứng dụng
+Claude trên điện thoại.
 
-1. Mở **Settings → Connectors**, bấm **Add** rồi chọn **Add custom connector**.
-
-   ![Trang Connectors của Claude với menu Add đang mở ở “Add custom connector”.](/screens/ai/claude-1-add.webp)
-
-2. Đặt tên **Santara AI**, dán `https://mcp.santara.ai/mcp` rồi bấm **Continue**.
-
-   ![Biểu mẫu “Add custom connector” của Claude đã điền tên Santara AI và URL máy chủ.](/screens/ai/claude-2-url.webp)
-
-3. Claude tự nhận diện mọi thứ. Giữ **Sign in now** và **Use Claude's published identity**, để trống
-   client ID và secret, rồi bấm **Add**.
-
-   ![Claude đánh dấu “Sign in now” và “Use Claude's published identity” là Detected.](/screens/ai/claude-3-oauth.webp)
-
-4. Bấm **Connect**. Santara AI mở ra: đăng nhập, chọn không gian làm việc rồi bấm **Cho phép**.
-5. Trong cuộc trò chuyện, bật nó ở **+ → Connectors** và bắt đầu hỏi.
+1. Mở **[Santara AI trong thư mục Claude](https://claude.ai/directory/santara-ai)** — hoặc trong Claude vào
+   **Settings → Connectors → Browse connectors** và tìm **Santara AI**.
+2. Bấm **Connect**. Santara AI mở ra: đăng nhập, chọn không gian làm việc rồi bấm **Cho phép**.
+3. Trong cuộc trò chuyện, bật nó ở **+ → Connectors** và bắt đầu hỏi.
 
 :::note
-Gói Claude miễn phí chỉ có một custom connector. Với gói Team và Enterprise, chủ sở hữu có thể cần
-thêm connector trước.
+Hãy dùng connector chính thức, không dùng custom connector — không cần dán địa chỉ hay cài đặt gì.
+Nếu trước đây bạn đã thêm Santara AI dưới dạng **custom connector**, hãy xoá nó trong
+**Settings → Connectors** rồi kết nối lại từ thư mục. Với gói Team và Enterprise, chủ sở hữu có thể
+cần bật connector trước.
 :::
 
 ## ChatGPT
