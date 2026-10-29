@@ -10,7 +10,9 @@ Anda bisa berbicara dengan workspace Santara AI dari asisten AI yang sudah Anda 
 Grok, dan ia menjawab dari — serta bekerja di — kalender, pemesanan, tamu, dan papan kebersihan Anda
 yang sebenarnya.
 
-Semua asisten terhubung lewat alamat yang sama:
+Pengguna Claude: hubungkan dari halaman Santara AI di
+**[direktori connector Claude](https://claude.ai/directory/santara-ai)** — tanpa alamat. Semua asisten lain terhubung lewat alamat yang
+sama:
 
 ```
 https://mcp.santara.ai/mcp
@@ -26,27 +28,30 @@ cabut kapan saja.
 
 ## Claude
 
-Berfungsi di claude.ai, Claude Desktop, dan aplikasi Claude di ponsel.
+Santara AI sudah terdaftar di direktori connector resmi Claude:
+**[claude.ai/directory/santara-ai](https://claude.ai/directory/santara-ai)**. Berfungsi di claude.ai, Claude Desktop, dan aplikasi
+Claude di ponsel.
 
-1. Buka **Settings → Connectors**, klik **Add**, lalu pilih **Add custom connector**.
+1. Buka **[Santara AI di direktori Claude](https://claude.ai/directory/santara-ai)**.
 
-   ![Halaman Connectors di Claude dengan menu Add terbuka pada “Add custom connector”.](/screens/ai/claude-1-add.webp)
+   ![Halaman Santara AI di direktori connector Claude, dengan tombol Connect di kanan atas.](/screens/ai/claude-dir-1-listing.webp)
 
-2. Beri nama **Santara AI**, tempel `https://mcp.santara.ai/mcp`, lalu klik **Continue**.
+   Atau cari langsung di Claude: buka **Customize** di sidebar, pilih **Connectors → Discover**, lalu
+   cari **Santara**.
 
-   ![Formulir “Add custom connector” di Claude dengan nama Santara AI dan URL server terisi.](/screens/ai/claude-2-url.webp)
+   ![Halaman Customize Claude di Connectors, dengan Santara AI ditemukan lewat pencarian “Santara”.](/screens/ai/claude-dir-2-search.webp)
 
-3. Claude mendeteksi semuanya sendiri. Biarkan **Sign in now** dan **Use Claude's published identity**,
-   kosongkan client ID dan secret, lalu klik **Add**.
+2. Klik **Connect**. Santara AI terbuka: masuk, pilih workspace, lalu klik **Izinkan**. Tombolnya
+   lalu berubah menjadi **Connected**.
+3. Di chat, buka **+ → Connectors**, pastikan **Santara AI** aktif, lalu mulai bertanya.
 
-   ![Claude menandai “Sign in now” dan “Use Claude's published identity” sebagai Detected.](/screens/ai/claude-3-oauth.webp)
-
-4. Klik **Connect**. Santara AI terbuka: masuk, pilih workspace, lalu klik **Izinkan**.
-5. Di chat, aktifkan lewat **+ → Connectors** dan mulai bertanya.
+   ![Menu + Claude terbuka di Connectors, dengan Santara AI aktif.](/screens/ai/claude-dir-3-toggle.webp)
 
 :::note
-Paket Claude gratis hanya boleh punya satu custom connector. Pada paket Team dan Enterprise, pemilik
-mungkin perlu menambahkan connector-nya lebih dulu.
+Gunakan connector resmi, bukan custom connector — tidak ada alamat untuk ditempel dan tidak ada yang
+perlu diatur. Jika sebelumnya Anda menambahkan Santara AI sebagai **custom connector**, hapus di
+**Customize → Connectors** lalu hubungkan lagi dari direktori. Pada paket Team dan Enterprise, pemilik
+mungkin perlu mengaktifkan connector-nya lebih dulu.
 :::
 
 ## ChatGPT

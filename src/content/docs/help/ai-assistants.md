@@ -9,7 +9,9 @@ You can talk to your Santara AI workspace from the AI assistant you already use.
 today?”* or *“Block Garden Room this weekend”* in ChatGPT, Claude or Grok, and it answers from — and
 works in — your real calendar, bookings, guests and cleaning board.
 
-Every assistant connects with the same address:
+Claude users: connect from Santara AI's listing in the
+**[Claude connector directory](https://claude.ai/directory/santara-ai)** — no address needed. Every
+other assistant connects with the same address:
 
 ```
 https://mcp.santara.ai/mcp
@@ -24,27 +26,29 @@ only works for the workspace you pick — and that you can take back at any time
 
 ## Claude
 
-Works in claude.ai, Claude Desktop and the Claude mobile app.
+Santara AI is listed in Claude's official connector directory:
+**[claude.ai/directory/santara-ai](https://claude.ai/directory/santara-ai)**. Works in claude.ai, Claude Desktop and the Claude mobile app.
 
-1. Open **Settings → Connectors**, click **Add** and choose **Add custom connector**.
+1. Open **[Santara AI in the Claude directory](https://claude.ai/directory/santara-ai)**.
 
-   ![Claude's Connectors page with the Add menu open on “Add custom connector”.](/screens/ai/claude-1-add.webp)
+   ![Santara AI's page in the Claude connector directory, with the Connect button at the top right.](/screens/ai/claude-dir-1-listing.webp)
 
-2. Name it **Santara AI**, paste `https://mcp.santara.ai/mcp` and click **Continue**.
+   Or find it inside Claude: open **Customize** in the sidebar, choose **Connectors → Discover** and
+   search for **Santara**.
 
-   ![Claude's “Add custom connector” form with the name Santara AI and the server URL filled in.](/screens/ai/claude-2-url.webp)
+   ![Claude's Customize page on Connectors, with Santara AI found by searching “Santara”.](/screens/ai/claude-dir-2-search.webp)
 
-3. Claude detects everything by itself. Keep **Sign in now** and **Use Claude's published identity**,
-   leave the client ID and secret empty, and click **Add**.
+2. Click **Connect**. Santara AI opens: sign in, pick the workspace and click **Allow**. The button
+   then reads **Connected**.
+3. In a chat, open **+ → Connectors**, make sure **Santara AI** is switched on, and ask away.
 
-   ![Claude marks “Sign in now” and “Use Claude's published identity” as Detected.](/screens/ai/claude-3-oauth.webp)
-
-4. Click **Connect**. Santara AI opens: sign in, pick the workspace and click **Allow**.
-5. In a chat, switch it on under **+ → Connectors** and ask away.
+   ![Claude's + menu open on Connectors, with Santara AI switched on.](/screens/ai/claude-dir-3-toggle.webp)
 
 :::note
-Free Claude plans allow one custom connector. On Team and Enterprise plans an owner may need to add
-the connector first.
+Use the listed connector, not a custom one — there is no address to paste and nothing to set up. If
+you added Santara AI earlier as a **custom connector**, remove it under **Customize → Connectors**
+and connect from the directory instead. On Team and Enterprise plans an owner may need to enable the
+connector first.
 :::
 
 ## ChatGPT
