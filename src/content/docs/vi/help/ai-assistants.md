@@ -31,15 +31,25 @@ Santara AI đã có mặt trong thư mục connector chính thức của Claude:
 **[claude.ai/directory/santara-ai](https://claude.ai/directory/santara-ai)**. Dùng được trên claude.ai, Claude Desktop và ứng dụng
 Claude trên điện thoại.
 
-1. Mở **[Santara AI trong thư mục Claude](https://claude.ai/directory/santara-ai)** — hoặc trong Claude vào
-   **Settings → Connectors → Browse connectors** và tìm **Santara AI**.
-2. Bấm **Connect**. Santara AI mở ra: đăng nhập, chọn không gian làm việc rồi bấm **Cho phép**.
-3. Trong cuộc trò chuyện, bật nó ở **+ → Connectors** và bắt đầu hỏi.
+1. Mở **[Santara AI trong thư mục Claude](https://claude.ai/directory/santara-ai)**.
+
+   ![Trang Santara AI trong thư mục connector của Claude, nút Connect ở góc trên bên phải.](/screens/ai/claude-dir-1-listing.webp)
+
+   Hoặc tìm ngay trong Claude: mở **Customize** ở thanh bên, chọn **Connectors → Discover** và tìm
+   **Santara**.
+
+   ![Trang Customize của Claude ở mục Connectors, tìm thấy Santara AI khi gõ “Santara”.](/screens/ai/claude-dir-2-search.webp)
+
+2. Bấm **Connect**. Santara AI mở ra: đăng nhập, chọn không gian làm việc rồi bấm **Cho phép**. Nút
+   sẽ chuyển thành **Connected**.
+3. Trong cuộc trò chuyện, mở **+ → Connectors**, đảm bảo **Santara AI** đang bật, rồi bắt đầu hỏi.
+
+   ![Menu + của Claude mở ở Connectors, Santara AI đang bật.](/screens/ai/claude-dir-3-toggle.webp)
 
 :::note
 Hãy dùng connector chính thức, không dùng custom connector — không cần dán địa chỉ hay cài đặt gì.
 Nếu trước đây bạn đã thêm Santara AI dưới dạng **custom connector**, hãy xoá nó trong
-**Settings → Connectors** rồi kết nối lại từ thư mục. Với gói Team và Enterprise, chủ sở hữu có thể
+**Customize → Connectors** rồi kết nối lại từ thư mục. Với gói Team và Enterprise, chủ sở hữu có thể
 cần bật connector trước.
 :::
 

@@ -27,18 +27,27 @@ only works for the workspace you pick — and that you can take back at any time
 ## Claude
 
 Santara AI is listed in Claude's official connector directory:
-**[claude.ai/directory/santara-ai](https://claude.ai/directory/santara-ai)**. Works in claude.ai,
-Claude Desktop and the Claude mobile app.
+**[claude.ai/directory/santara-ai](https://claude.ai/directory/santara-ai)**. Works in claude.ai, Claude Desktop and the Claude mobile app.
 
-1. Open **[Santara AI in the Claude directory](https://claude.ai/directory/santara-ai)** — or in
-   Claude go to **Settings → Connectors → Browse connectors** and search for **Santara AI**.
-2. Click **Connect**. Santara AI opens: sign in, pick the workspace and click **Allow**.
-3. In a chat, switch it on under **+ → Connectors** and ask away.
+1. Open **[Santara AI in the Claude directory](https://claude.ai/directory/santara-ai)**.
+
+   ![Santara AI's page in the Claude connector directory, with the Connect button at the top right.](/screens/ai/claude-dir-1-listing.webp)
+
+   Or find it inside Claude: open **Customize** in the sidebar, choose **Connectors → Discover** and
+   search for **Santara**.
+
+   ![Claude's Customize page on Connectors, with Santara AI found by searching “Santara”.](/screens/ai/claude-dir-2-search.webp)
+
+2. Click **Connect**. Santara AI opens: sign in, pick the workspace and click **Allow**. The button
+   then reads **Connected**.
+3. In a chat, open **+ → Connectors**, make sure **Santara AI** is switched on, and ask away.
+
+   ![Claude's + menu open on Connectors, with Santara AI switched on.](/screens/ai/claude-dir-3-toggle.webp)
 
 :::note
 Use the listed connector, not a custom one — there is no address to paste and nothing to set up. If
-you added Santara AI earlier as a **custom connector**, remove it under **Settings → Connectors** and
-connect from the directory instead. On Team and Enterprise plans an owner may need to enable the
+you added Santara AI earlier as a **custom connector**, remove it under **Customize → Connectors**
+and connect from the directory instead. On Team and Enterprise plans an owner may need to enable the
 connector first.
 :::
 

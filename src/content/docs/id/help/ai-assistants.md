@@ -32,15 +32,25 @@ Santara AI sudah terdaftar di direktori connector resmi Claude:
 **[claude.ai/directory/santara-ai](https://claude.ai/directory/santara-ai)**. Berfungsi di claude.ai, Claude Desktop, dan aplikasi
 Claude di ponsel.
 
-1. Buka **[Santara AI di direktori Claude](https://claude.ai/directory/santara-ai)** — atau di Claude buka
-   **Settings → Connectors → Browse connectors** dan cari **Santara AI**.
-2. Klik **Connect**. Santara AI terbuka: masuk, pilih workspace, lalu klik **Izinkan**.
-3. Di chat, aktifkan lewat **+ → Connectors** dan mulai bertanya.
+1. Buka **[Santara AI di direktori Claude](https://claude.ai/directory/santara-ai)**.
+
+   ![Halaman Santara AI di direktori connector Claude, dengan tombol Connect di kanan atas.](/screens/ai/claude-dir-1-listing.webp)
+
+   Atau cari langsung di Claude: buka **Customize** di sidebar, pilih **Connectors → Discover**, lalu
+   cari **Santara**.
+
+   ![Halaman Customize Claude di Connectors, dengan Santara AI ditemukan lewat pencarian “Santara”.](/screens/ai/claude-dir-2-search.webp)
+
+2. Klik **Connect**. Santara AI terbuka: masuk, pilih workspace, lalu klik **Izinkan**. Tombolnya
+   lalu berubah menjadi **Connected**.
+3. Di chat, buka **+ → Connectors**, pastikan **Santara AI** aktif, lalu mulai bertanya.
+
+   ![Menu + Claude terbuka di Connectors, dengan Santara AI aktif.](/screens/ai/claude-dir-3-toggle.webp)
 
 :::note
 Gunakan connector resmi, bukan custom connector — tidak ada alamat untuk ditempel dan tidak ada yang
 perlu diatur. Jika sebelumnya Anda menambahkan Santara AI sebagai **custom connector**, hapus di
-**Settings → Connectors** lalu hubungkan lagi dari direktori. Pada paket Team dan Enterprise, pemilik
+**Customize → Connectors** lalu hubungkan lagi dari direktori. Pada paket Team dan Enterprise, pemilik
 mungkin perlu mengaktifkan connector-nya lebih dulu.
 :::
 
