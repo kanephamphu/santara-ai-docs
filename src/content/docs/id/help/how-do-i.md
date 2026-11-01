@@ -27,9 +27,9 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 
 | Saya ingin… | Lakukan ini |
 | --- | --- |
-| Menutup tanggal untuk perbaikan atau dipakai sendiri | Tutup tanggalnya — [Menutup tanggal adalah cara menjeda](/id/daily/calendar/#menutup-tanggal-adalah-cara-menjeda) |
+| Menutup tanggal untuk perbaikan atau dipakai sendiri | Klik atau seret malamnya, lalu Hentikan penjualan → Ditutup — [Memblokir atau membuka tanggal](/id/daily/calendar/#memblokir-atau-membuka-tanggal) |
 | Berhenti menjual sebuah kamar untuk satu musim | Tutup rentangnya di kalender. **Jangan putuskan koneksi channel** |
-| Membuka lagi tanggal yang tertutup karena salah | Layar yang sama — [Mengedit rentang](/id/daily/calendar/#mengedit-rentang) |
+| Membuka lagi tanggal yang tertutup karena salah | Pilih lagi, Hentikan penjualan → Buka — [Memblokir atau membuka tanggal](/id/daily/calendar/#memblokir-atau-membuka-tanggal) |
 | Tahu kenapa satu malam tampak tidak tersedia | [Blok yang berasal dari channel](/id/daily/calendar/#blok-yang-berasal-dari-channel) |
 | Menjual dua apartemen identik sebagai satu listing | Atur jumlah unit kamar — [Ketersediaan dan jumlah unit](/id/daily/calendar/#ketersediaan-dan-jumlah-unit) |
 | Menetapkan menginap minimum | Ada di rate plan — [Rate plan](/id/money/rates/#rate-plan) |
