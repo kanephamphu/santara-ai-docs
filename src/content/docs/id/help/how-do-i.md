@@ -46,7 +46,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Menetapkan batas bawah agar tidak terlalu murah | [Angka milik listing](/id/money/pricing/#angka-milik-listing) |
 | Melihat efek rule set sebelum terbit | [Melihat sebelum menerbitkan](/id/money/pricing/#melihat-sebelum-menerbitkan) |
 | Tahu apakah pricing benar-benar bekerja | [Apakah berhasil?](/id/money/pricing/#apakah-berhasil) |
-| Tetap memakai PriceLabs | [Jika Anda sudah memakai PriceLabs](/id/money/pricing/#jika-anda-sudah-memakai-pricelabs) |
+| Tetap memakai PriceLabs | Koneksi yang ada tetap berjalan; koneksi baru dijeda — [Jika Anda sudah memakai PriceLabs](/id/money/pricing/#jika-anda-sudah-memakai-pricelabs) |
 | Menagih lebih untuk tamu tambahan | Ada di rate plan — [Rate plan](/id/money/rates/#rate-plan) |
 
 ## Booking dan tamu
@@ -68,6 +68,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Membalas tamu | [Membalas](/id/daily/messages/#membalas) — AI membuat draf, Anda yang mengirim |
 | Berhenti mengetik jawaban yang sama | [Template pesan](/id/setup/message-templates/) |
 | Mengirim wifi dan kode pintu otomatis | Pakai variabel template — [Variabel](/id/setup/message-templates/#variabel) |
+| Membiarkan AI menjawab tamu sendiri | Aktifkan **Balas otomatis** — [Pesan](/id/daily/messages/) |
 | Mengubah keluhan menjadi sesuatu yang terlacak | [Keluhan menjadi tiket](/id/daily/messages/#keluhan-menjadi-tiket) |
 | Membalas sebuah ulasan | [Membalas](/id/daily/reviews/#membalas) |
 | Mengulas tamu di Airbnb | [Mengulas tamu (Airbnb)](/id/daily/reviews/#mengulas-tamu-airbnb) — tidak bisa dibatalkan |
@@ -128,12 +129,13 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 
 | Saya ingin… | Lakukan ini |
 | --- | --- |
-| Melihat posisi bulan ini | [Snapshot](/id/money/reports/#snapshot) |
-| Mengekspor angka untuk akuntan | [Pustaka laporan](/id/money/reports/#pustaka-laporan) — CSV dari data langsung |
-| Mencatat biaya kebersihan, utilitas, perbaikan | [Buku besar](/id/money/accounting/#buku-besar) |
-| Mengirim laporan ke pemilik | [Periode dan laporan](/id/money/accounting/#periode-dan-laporan) |
-| Memahami RevPAN, ADR, dan okupansi | [Okupansi, ADR, RevPAN](/id/money/reports/#okupansi-adr-revpan) |
-| Merekonsiliasi Santara AI dengan extranet | [Arti pendapatan di sini](/id/money/reports/#arti-pendapatan-di-sini) — di sini artinya payout bersih |
+| Melihat posisi bulan ini | [Laporan pemilik](/id/money/reports/#laporan-pemilik) |
+| Mengekspor angka untuk akuntan | [Unduh CSV](/id/money/reports/#unduh-csv) — persis yang ada di layar |
+| Mencatat biaya kebersihan, utilitas, perbaikan | [Menambah biaya](/id/money/reports/#menambah-biaya) |
+| Membagi satu tagihan listrik untuk satu bangunan | [Tagihan bersama](/id/money/reports/#tagihan-bersama) |
+| Mengirim laporan ke pemilik | [Laporan pemilik](/id/money/reports/#laporan-pemilik), lalu [Unduh CSV](/id/money/reports/#unduh-csv) |
+| Memahami RevPAR, ADR, dan okupansi | Ada di [Upsell](/id/money/upsells/) |
+| Merekonsiliasi Santara AI dengan extranet | [Bruto, biaya channel, dan payout](/id/money/reports/#bruto-biaya-channel-dan-payout) — rekening bank cocok dengan payout |
 
 ## Orang dan akses
 
@@ -156,6 +158,8 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Mengubah bahasa ringkasan harian | Itu pengaturan workspace — [Bahasa](/id/setup/workspace/#bahasa) |
 | Memperbaiki tanggal dan "hari ini" yang salah | [Zona waktu](/id/setup/workspace/#zona-waktu) |
 | Mematikan notifikasi yang tidak saya perlukan | [Notifikasi](/id/setup/workspace/#notifikasi) |
+| Menghubungkan ChatGPT atau Claude ke workspace saya | [Hubungkan ChatGPT, Claude, atau Grok](/id/help/ai-assistants/) |
+| Menghapus akun saya | [Data dan privasi Anda](/id/setup/data-and-privacy/) |
 | Menjalankan dua portofolio yang tidak boleh tercampur | Dua workspace — [Berpindah workspace](/id/setup/workspace/#berpindah-workspace) |
 
 ## Penagihan

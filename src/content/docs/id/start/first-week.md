@@ -47,8 +47,8 @@ pembersihan yang ditugaskan atau selesai, tiket yang dibuka atau selesai.
 
 ## Sebulan sekali
 
-- **[Akuntansi](/id/money/accounting/)** — catat biaya kebersihan, perawatan, dan utilitas per
-  properti, lalu tutup periode dan terbitkan laporan pemilik.
+- **[Laporan](/id/money/reports/)** — tambahkan biaya kebersihan, perawatan, dan utilitas bulan itu,
+  lalu baca laporan pemilik dan unduh CSV-nya.
 - **[Pricing](/id/money/pricing/)** — lihat panel performa. RevPAN naik dan mesin makin tenang
   (perubahan makin sedikit dan kecil) adalah tanda baik.
 

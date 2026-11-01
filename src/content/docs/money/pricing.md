@@ -108,6 +108,7 @@ suggestions: nothing is published until you choose.
 
 ## If you already use PriceLabs
 
-Connect it under [Settings → Channels](/channels/listings/#pricelabs) and Santara AI's own engine
-stands aside for the listings PriceLabs manages, rather than the two fighting over the same
-calendar.
+New PriceLabs connections are **paused** for now — PriceLabs is not offered under Settings →
+Channels at the moment. A PriceLabs connection you already made **keeps working**: Santara AI's own
+engine stands aside for the listings PriceLabs manages, rather than the two fighting over the same
+calendar, and you can still disconnect it. See [PriceLabs](/channels/listings/#pricelabs).

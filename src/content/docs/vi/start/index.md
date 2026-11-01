@@ -19,10 +19,10 @@ riêng mình, với tiền vào tài khoản Stripe của bạn.
 | --- | --- |
 | Kiểm tra ba extranet mỗi sáng | **[Hôm nay](/vi/daily/)** — khách đến, khách đi, và việc cần quyết định |
 | Chép ngày qua lại giữa các lịch | **[Một cuốn lịch](/vi/daily/calendar/)** — mọi đêm, mọi phòng, đẩy sang mọi kênh |
-| Hai hộp thư tin nhắn | **[Tin nhắn](/vi/daily/messages/)** — mỗi khách một luồng, trả lời quay lại đúng kênh khách đã đặt |
+| Hai hộp thư tin nhắn | **[Tin nhắn](/vi/daily/messages/)** — mỗi khách một luồng; trên Airbnb, Booking.com và Expedia, trả lời quay lại đúng kênh khách đã đặt |
 | Một nhóm WhatsApp để dọn phòng | **[Công việc](/vi/daily/tasks/)** — turnover tự tạo vào đêm trước ngày trả phòng |
 | Sửa giá thủ công mỗi Chủ nhật | **[Smart pricing](/vi/money/pricing/)** — quy tắc dịch chuyển giá theo mùa, thời gian đặt trước và mức lấp đầy |
-| Một bảng tính cho mỗi chủ nhà | **[Báo cáo và kế toán](/vi/money/reports/)** — tiền vào, chi phí ra, bảng kê cho chủ sở hữu |
+| Một bảng tính cho mỗi chủ nhà | **[Báo cáo](/vi/money/reports/)** — tiền vào, chi phí ra, bảng kê cho chủ sở hữu |
 
 ## Điều gì thực sự tự động
 
@@ -42,8 +42,10 @@ Và điều gì thì không:
   đổi trên kênh. Quyền kiểm soát chỉ chuyển khi bạn bấm **Go live**. Xem
   [Go live](/vi/channels/going-live/).
 - **Giá bạn nhập tay được giữ nguyên**, trừ khi bạn cho phép rõ ràng để bộ máy định giá ghi đè.
-- **Không gì được gửi cho khách nếu không có bạn.** Trợ lý và các công cụ tin nhắn chỉ soạn nháp; bạn
-  là người gửi.
+- **Không gì được gửi cho khách nếu không có bạn** — trừ khi bạn bật
+  [Tự động trả lời](/vi/daily/messages/#tự-động-trả-lời), vốn chỉ trả lời các chủ đề bạn cho phép và
+  luôn để tiền, ngày ở, phàn nàn và khẩn cấp cho bạn. Ngoài ra, trợ lý và các công cụ tin nhắn chỉ
+  soạn nháp; bạn là người gửi.
 
 ## Dành cho ai
 

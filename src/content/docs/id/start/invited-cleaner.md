@@ -11,12 +11,20 @@ kecil yang memang disengaja, bukan versi terpotong dari produk pemilik.
 
 ## Cara masuk
 
-1. Anda menerima **email berisi tautan undangan**. Buka di ponsel atau laptop yang benar-benar akan
-   Anda pakai.
-2. Kalau belum pernah memakai Santara AI, **buat akun dulu** — nama, email, dan kata sandi minimal 12
-   karakter — lalu terima undangannya.
-3. Kalau sudah punya akun (misalnya Anda bekerja untuk dua pemilik), tinggal masuk. Login yang sama
-   berlaku; menu akun memungkinkan Anda berpindah antar workspace.
+Pemilik mengirimkan tautan undangan — lewat email, atau langsung lewat WhatsApp atau Zalo. Buka di
+ponsel atau laptop yang benar-benar akan Anda pakai. Tautan itu membuka satu halaman berjudul
+**Bergabung dengan** nama workspace pemilik, dan semuanya selesai di sana:
+
+1. **Tautan datang lewat email.** Buat kata sandi minimal 12 karakter lalu tekan **Bergabung
+   dengan …**. Anda langsung masuk — tanpa pendaftaran terpisah dan tanpa kode.
+2. **Tautan datang lewat pesan.** Ketik email Anda dan buat kata sandi. Kami mengirim **Kode 6
+   digit** ke email Anda; masukkan di halaman yang sama untuk menyelesaikan.
+3. **Anda sudah punya akun Santara AI** (misalnya Anda bekerja untuk dua pemilik). Masukkan kata
+   sandi Anda dan Anda bergabung. Login yang sama berlaku di mana saja; menu akun memungkinkan Anda
+   berpindah antar workspace.
+
+Tautan hanya bisa dipakai sekali dan berlaku seminggu. Kalau halaman mengatakan undangan sudah
+kedaluwarsa, minta tautan baru kepada pemilik.
 
 Login itu milik Anda, bukan milik pemilik properti. Kalau Anda berhenti bekerja untuk mereka,
 mereka mencabut akses Anda ke *workspace mereka*, dan akun Anda tetap ada.
@@ -76,9 +84,14 @@ tentang bisnis mereka. Banyak tim kebersihan bekerja sepenuhnya dengan cara ini.
 
 ## Di ponsel
 
-Aplikasinya belum ada — sedang dibangun untuk iOS dan Android. Sementara ini situsnya berjalan di
-browser ponsel, dan **Hari ini** serta **Tugas** adalah dua layar yang paling nyaman di layar
-kecil. Lihat [Di ponsel Anda](/id/setup/mobile/).
+**Aplikasi Santara AI untuk Android** ada di
+[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) — masuk dengan email
+dan kata sandi yang sama. Anda akan melihat tiga tab: **Hari ini**, **Tugas**, dan **Lainnya**. Di
+**Tugas** Anda menekan **Tandai selesai** dan bisa menambahkan hingga 10 foto per pekerjaan. Lihat
+[Tugas & Pemeliharaan](/id/mobile/tasks/).
+
+Aplikasi iPhone belum dirilis. Di iPhone, pakai situsnya di browser ponsel: **Hari ini** dan
+**Tugas** nyaman dipakai di layar kecil. Lihat [Di ponsel Anda](/id/setup/mobile/).
 
 ## Kalau ada yang salah
 

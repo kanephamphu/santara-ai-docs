@@ -11,12 +11,20 @@ có chủ đích của sản phẩm, không phải một bản rút gọn của 
 
 ## Cách vào
 
-1. Bạn nhận **email kèm liên kết lời mời**. Hãy mở nó trên chiếc điện thoại hoặc laptop bạn thực sự
-   sẽ dùng.
-2. Nếu chưa từng dùng Santara AI, hãy **tạo tài khoản trước** — tên, email, mật khẩu ít nhất 12 ký tự
-   — rồi chấp nhận lời mời.
-3. Nếu đã có tài khoản (có thể bạn dọn phòng cho hai chủ nhà), chỉ cần đăng nhập. Cùng một tài
-   khoản dùng được; menu tài khoản cho phép bạn chuyển giữa các workspace.
+Chủ nhà gửi cho bạn một liên kết mời — qua email, hoặc gửi thẳng qua Zalo hay WhatsApp. Hãy mở nó
+trên chiếc điện thoại hoặc laptop bạn thực sự sẽ dùng. Liên kết mở ra một trang duy nhất có tiêu đề
+**Tham gia** kèm tên workspace của chủ nhà, và mọi việc diễn ra ngay ở đó:
+
+1. **Liên kết đến qua email.** Tạo mật khẩu ít nhất 12 ký tự rồi bấm **Tham gia …**. Bạn vào được
+   ngay — không cần đăng ký riêng, không cần mã.
+2. **Liên kết đến qua tin nhắn.** Gõ email và tạo mật khẩu. Chúng tôi gửi **Mã 6 chữ số** tới email
+   của bạn; nhập mã ngay trên trang đó để hoàn tất.
+3. **Bạn đã có tài khoản Santara AI** (có thể bạn dọn phòng cho hai chủ nhà). Nhập mật khẩu hiện tại
+   là tham gia được. Cùng một tài khoản dùng được ở mọi nơi; menu tài khoản cho phép bạn chuyển giữa
+   các workspace.
+
+Mỗi liên kết chỉ dùng được một lần và có hiệu lực một tuần. Nếu trang báo lời mời đã hết hạn, hãy
+nhờ chủ nhà gửi liên kết mới.
 
 Tài khoản đăng nhập là của bạn, không phải của chủ nhà. Nếu bạn ngừng làm việc cho họ, họ gỡ quyền
 truy cập của bạn vào *workspace của họ*, còn tài khoản của bạn vẫn còn.
@@ -51,7 +59,7 @@ Mở **Công việc**. Mỗi thẻ là một lượt dọn và cho bạn biết:
 - **Ghi chú lối vào** của tòa nhà đó — cách vào, chỗ để đồ.
 - **Hạn hoàn thành**, được quyết định bởi giờ khách kế tiếp nhận phòng.
 
-Khi phòng xong, bấm **Đánh dấu hoàn thành**. Bạn có thể đính kèm **ảnh** — hãy đính kèm. Nó giải
+Khi phòng xong, bấm **Đánh dấu xong**. Bạn có thể đính kèm **ảnh** — hãy đính kèm. Nó giải
 quyết mọi thắc mắc về sau mà không ai phải tin vào lời nói của ai.
 
 Nếu có gì hỏng, đừng chỉ nói qua loa: hãy **mở một ticket** từ công việc đó. Như vậy vấn đề nằm ở
@@ -75,9 +83,14 @@ về việc kinh doanh của họ. Nhiều đội dọn phòng làm việc hoàn
 
 ## Trên điện thoại
 
-Chưa có ứng dụng — nó đang được xây cho iOS và Android. Trong lúc chờ, website chạy được trên trình
-duyệt điện thoại, và **Hôm nay** cùng **Công việc** là hai màn hình dùng tốt trên màn hình nhỏ. Xem
-[Trên điện thoại](/vi/setup/mobile/).
+**Ứng dụng Santara AI cho Android** đã có trên
+[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) — đăng nhập bằng
+chính email và mật khẩu đó. Bạn sẽ thấy ba tab: **Hôm nay**, **Công việc** và **Thêm**. Trong
+**Công việc**, bạn bấm **Đánh dấu xong** và đính kèm tối đa 10 ảnh cho mỗi việc. Xem
+[Công việc & Bảo trì](/vi/mobile/tasks/).
+
+Ứng dụng iPhone chưa phát hành. Trên iPhone, hãy dùng website trong trình duyệt điện thoại: **Hôm
+nay** và **Công việc** dùng tốt trên màn hình nhỏ. Xem [Trên điện thoại](/vi/setup/mobile/).
 
 ## Khi có gì đó sai
 

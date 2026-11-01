@@ -13,7 +13,7 @@ It is the same Santi as [the Santi app](/help/santi-app/) at santi.santara.ai, w
 
 Santi has its own place in the app. Tap **Santi** in the **Santara | Santi** switch at the top of any screen to open it, and tap **Santara** to go back to your usual tabs. The app remembers which one you used last.
 
-Santi also opens when you tap **Ask Santi** on a record (see below) or a notification from Santi. The round button that floats at the bottom of the main screens is a different assistant: it always opens [Ask Santara Assistant](/mobile/ai-assistant/).
+Santi also opens when you tap **Ask Santi** on a record (see below) or a notification from Santi. The round button that floats at the bottom of the main screens opens Santi too once you are signed in to Santi; otherwise it opens [Ask Santara](/mobile/ai-assistant/).
 
 ![The Santara | Santi switch in the header](/screens/en/santi_switch.en.png)
 
@@ -112,7 +112,7 @@ When you open Santi after some time away, it starts with what changed, today's b
 Santi is invite-only. Until you connect it, **Ask Santi** buttons are hidden. Tap **Santi** in the header to connect.
 
 **I tapped the round floating button and got a different chat.**
-That button always opens [Ask Santara Assistant](/mobile/ai-assistant/), Santara AI's own assistant. To reach Santi, use the **Santara | Santi** switch at the top.
+That button opens Santi when you are signed in to Santi, and [Ask Santara](/mobile/ai-assistant/) otherwise. You can also use the **Santara | Santi** switch at the top.
 
 **"Voice isn't available on this device."**
 Voice needs the full Santara AI app with microphone and speech access. If you refused it, allow **microphone and speech recognition** in your phone's Settings.

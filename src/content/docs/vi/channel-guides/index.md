@@ -51,7 +51,6 @@ Sau đó chọn chỗ nghỉ cho kênh. Bước 2 hiện các trường thiết 
 | [Tiket.com](/vi/channel-guides/tiket-com/) | Hotel ID | Phòng và mức giá |
 | [Klook](/vi/channel-guides/klook/) | Hotel ID | Phòng và mức giá |
 | [MakeMyTrip and Goibibo](/vi/channel-guides/makemytrip/) | Hotel ID + access token | Thường theo số khách |
-| [Vrbo](/vi/channel-guides/vrbo/) | Username + password Vrbo | Từng listing |
 | [Hostelworld](/vi/channel-guides/hostelworld/) | Hotel ID | Số khách tối đa |
 | [Hotelbeds](/vi/channel-guides/hotelbeds/) | Username + password, rồi chọn hợp đồng | Phòng và mức giá |
 | [Despegar](/vi/channel-guides/despegar/) | Hotel ID + username + API password | Phòng và mức giá |

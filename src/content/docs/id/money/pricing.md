@@ -109,5 +109,7 @@ ada yang diterbitkan sampai Anda memilih.
 
 ## Jika Anda sudah memakai PriceLabs
 
-Hubungkan di [Pengaturan → Channel](/id/channels/listings/#pricelabs) dan mesin Santara AI akan mengalah
-untuk listing yang dikelola PriceLabs, alih-alih keduanya berebut kalender yang sama.
+Koneksi PriceLabs baru **dijeda** untuk sementara — PriceLabs saat ini tidak ditawarkan di
+Pengaturan → Channel. Koneksi PriceLabs yang sudah Anda buat **tetap berjalan**: mesin Santara AI
+mengalah untuk listing yang dikelola PriceLabs, alih-alih keduanya berebut kalender yang sama, dan
+Anda tetap bisa memutuskannya. Lihat [PriceLabs](/id/channels/listings/#pricelabs).

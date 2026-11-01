@@ -1,6 +1,6 @@
 ---
 title: Panduan cepat
-description: Dari workspace kosong hingga live di channel Anda. Empat langkah, sekitar setengah jam, sebagian besar menunggu jawaban channel.
+description: Dari pendaftaran hingga tayang di channel Anda. Empat langkah, sekitar setengah jam, sebagian besar menunggu jawaban channel.
 sidebar:
   order: 2
 ---
@@ -18,42 +18,59 @@ Ini jalur singkatnya. Setiap langkah punya halaman sendiri bila Anda butuh detai
 
 ## 1. Buat workspace
 
-Daftar, konfirmasi email, dan Anda mendarat di **Hari ini** dengan checklist **Persiapan** di atas.
-Checklist itu adalah tiga langkah di bawah dan mencatat kemajuan Anda — boleh ditinggal dan
-dilanjutkan nanti.
+Daftar, lalu masukkan **kode 6 digit** yang kami kirim lewat email. Setelah itu ada survei singkat —
+beberapa pertanyaan tentang cara Anda mengelola properti — lalu tur produk keliling layar utama. Tur
+berakhir di **Pengaturan → Channel**, tempat langkah 2 dimulai. Anda bisa mengulang tur kapan saja
+dari checklist **Persiapan** di **Hari ini**; checklist itu mencatat kemajuan Anda, jadi boleh
+ditinggal dan dilanjutkan nanti.
 
-Atur bahasa dan zona waktu sekarang di **Pengaturan → Personal**. Zona waktu menentukan arti "hari
-ini" untuk kedatangan, kebersihan, dan ringkasan harian.
+Workspace Anda dimulai dengan **uji coba gratis 90 hari**. Apa yang termasuk dan kapan berakhir:
+[Tagihan](/id/setup/billing/).
+
+Dua jam yang perlu diatur sekarang:
+
+- **Pengaturan → Personal** — bahasa dan zona waktu Anda sendiri. Pengaturan ini ikut ke mana pun
+  Anda pindah workspace.
+- **Pengaturan → Workspace** — **Zona waktu ruang kerja**, dipakai bersama seluruh workspace.
+  Letaknya di sebelah **Waktu ringkasan harian** dan menentukan kapan ringkasan harian tiba.
+  Kedatangan, check-out, dan kebersihan memakai zona waktu masing-masing properti, yang diatur di
+  properti itu.
 
 ## 2. Hubungkan channel
 
-**Pengaturan → Channel**.
+**Pengaturan → Channel → Tambah channel**. Setiap channel adalah satu kotak; tekan **Hubungkan** dan
+penyiapan tiga langkah terbuka.
 
-- **Airbnb** — tekan *Hubungkan Airbnb*, otorisasi di halaman Airbnb, lalu kembali. Santara AI membaca
-  listing yang dibagikan akun tersebut. Panduan lengkap:
+- **Airbnb** — tidak butuh persiapan apa pun. Anda mengotorisasi Santara AI di halaman Airbnb, dan
+  Santara AI membuat properti dan kamar dari listing. Panduan lengkap:
   [Hubungkan Airbnb](/id/channels/airbnb/).
-- **Booking.com** — Anda menambahkan connectivity provider kami di extranet dulu, lalu memasukkan
-  Hotel ID di sini. Panduan lengkap: [Hubungkan Booking.com](/id/channels/booking-com/).
+- **Booking.com** — butuh **properti dengan kamar** di Santara AI terlebih dahulu; sebelum ada,
+  kotaknya menampilkan **Tambah properti dulu**. Anda menambahkan connectivity provider kami di
+  extranet, lalu memasukkan Hotel ID. Panduan lengkap: [Hubungkan Booking.com](/id/channels/booking-com/).
+- **Channel lain** bekerja seperti Booking.com — [Hubungkan channel lain](/id/channels/other-channels/).
 
-Tidak di keduanya? Anda bisa [membuat properti manual](/id/setup/properties/) dan tetap memakai
-kalender, pesan, kebersihan, serta situs booking Anda.
+Tidak di channel mana pun? Anda bisa [membuat properti manual](/id/setup/properties/) dan tetap
+memakai kalender, pesan, kebersihan, serta situs booking Anda.
 
 ## 3. Impor listing
 
-Setelah otorisasi, Anda mendapat daftar listing pada akun itu. Hapus centang yang tidak diinginkan.
-Untuk masing-masing, tentukan apakah menjadi **properti baru** atau **kamar di properti yang sudah
-ada** — vila tiga kamar yang dijual terpisah adalah satu properti dengan tiga kamar.
+Di Airbnb, setelah otorisasi, Anda mendapat daftar listing pada akun itu. Hapus centang yang tidak
+diinginkan. Untuk masing-masing, tentukan apakah menjadi **properti baru** atau **kamar di properti
+yang sudah ada** — vila tiga kamar yang dijual terpisah adalah satu properti dengan tiga kamar.
 
-Tekan *Siapkan listing*. Santara AI membuat properti dan kamar, memetakan tiap listing, dan membaca
-tarif dari channel.
+Tekan **Impor N listing**. Listing diimpor satu per satu: Santara AI membuat properti dan kamar,
+memetakan listing, membaca harganya dari Airbnb, lalu menayangkannya. **Berhenti setelah yang ini**
+menjeda prosesnya; penyiapan melanjutkan dari tempat Anda berhenti.
 
-:::caution[Ini belum live]
-Di akhir impor Anda akan melihat **Sudah disiapkan — belum live**. Listing sudah dipetakan dan tarif
-sudah dibaca, dan channel masih menjalankan kalendernya sendiri. Tidak ada yang dikirim keluar
-sampai langkah 4.
+Di Booking.com dan channel lain, Anda memetakan tiap kamar channel ke salah satu kamar Anda.
+
+:::caution[Baca Go live sebelum langkah ini]
+Di Airbnb, impor menayangkan tiap listing. Di Booking.com dan channel lain, memetakan kamar langsung
+menayangkannya. Sejak itu Santara AI mengemudikan kalender. [Go live](/id/channels/going-live/)
+hanya satu halaman, dan menjelaskan persis apa yang berubah dan apa yang perlu diperiksa dulu.
 :::
 
-## 4. Periksa detail, lalu go live
+## 4. Periksa detail, dan tuntaskan penayangan
 
 Buka **Properti** dan lihat tiap kamar hasil impor:
 
@@ -62,9 +79,10 @@ Buka **Properti** dan lihat tiap kamar hasil impor:
   tambahan dan situs booking.
 - **Foto, wifi, kode pintu, alamat** — dipakai oleh pesan tamu dan situs booking Anda.
 
-Lalu kembali ke **Pengaturan → Channel** dan tekan **Go live**. Itulah saat Santara AI mengambil alih
-kalender. Baca [Go live](/id/channels/going-live/) dulu — satu halaman, dan menjelaskan persis apa
-yang berubah.
+Jika sebuah listing Airbnb belum tayang saat impor, ia bertuliskan **Sudah disiapkan — belum aktif**.
+Tekan **Aktifkan di Airbnb** di langkah impor, atau **Tayangkan** di sebelah listing di halaman
+koneksinya di **Pengaturan → Channel → Terhubung**. Jika Santara AI meminta Anda **Konfirmasi
+kapasitas**, lakukan itu dulu — lihat [Go live](/id/channels/going-live/#periksa-hal-hal-ini-dulu).
 
 ## Apa yang terjadi berikutnya
 

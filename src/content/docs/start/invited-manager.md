@@ -13,8 +13,11 @@ There is no separate "property manager" role and you do not need one — a co-ho
 
 ## Your first hour
 
-1. **Accept the invitation** from the email, creating an account if you do not have one. Your
-   login is yours and works across every workspace you are invited to.
+1. **Open the invitation link** — from your email, or from WhatsApp or Zalo. It opens one page:
+   set a password and you are in, or enter your existing password if you already have an account.
+   A link that came by message also asks for a **6-digit code** we email you. Links last a week; see
+   [Getting in](/start/invited-cleaner/#getting-in). Your login is yours and works across every
+   workspace you are invited to.
 2. **Set your own language and timezone** — [Your account](/setup/account/#language-and-timezone).
    These follow you, and they are separate from the workspace's.
 3. **Read [How Santara AI is put together](/start/concepts/)**. Six words — workspace, property, room,
@@ -36,7 +39,7 @@ Effectively the whole operation:
 | **Maintenance** | Open, assign and schedule tickets |
 | **Access** | Read *and set* door codes, wifi and access notes |
 | **Upsells** | See opportunities and send offers |
-| **Money** | Read reports, payouts and the accounting ledger, and record costs |
+| **Money** | Read reports, payouts and the owner statement, and record costs |
 | **Owners** | See owner statements |
 | **Templates** | Write and edit the saved guest replies everyone uses |
 

@@ -18,10 +18,13 @@ in front of you. If yours is not here, work through
 | *Too many failed attempts. Please try again later.* | Ten failed sign-ins locked the account for **15 minutes** | Wait it out, or reset your password — a reset clears the lock at once. See [If you are locked out](/setup/account/#if-you-are-locked-out) |
 | *Please verify your email before logging in.* | The account exists but the six-digit code was never entered | Check your inbox, including spam. Ask for a new code if it expired |
 | *An account with this email already exists.* | You registered before, perhaps for another workspace | Sign in instead — one login can belong to many workspaces |
-| *That code is not right.* | Wrong reset or verification code | Re-read it. Five wrong tries burn the code |
-| *This code has expired.* | Codes last **15 minutes** | Request a new one — you can do that once a minute |
-| *Too many incorrect codes.* | Five wrong attempts on one code | Request a new one |
-| *Your new password must be at least 12 characters.* | Length is the only rule | Use a longer one |
+| *That code is not right. Check it and try again.* | Wrong reset or verification code | Re-read it. Five wrong tries burn the code |
+| *This code has expired. Please request a new one.* | Codes last **15 minutes** | Request a new one — you can do that once a minute |
+| *Too many incorrect codes. Please request a new one.* | Five wrong attempts on one code | Request a new one |
+| *Your new password must be at least 12 characters.* | Too short — a new password needs 12 characters or more | Use a longer one; a short phrase of a few words is easiest |
+| *Your password can be at most 128 characters.* | Too long — 128 characters is the ceiling | Use a shorter one |
+| *That password is too easy to guess. Try a longer phrase.* | It is on the list of common passwords (*password1234* and the like), or one character repeated | Choose something nobody else would pick |
+| *Your password can't contain the name in your email address. Choose a different one.* | The part of your email before the @ appears in the password | Choose one without it |
 | *Please sign in again.* | Your session ended — usually a password change elsewhere, or a browser clearing cookies | Sign in. If it repeats, see [My session keeps expiring](/help/troubleshooting/#my-session-keeps-expiring) |
 
 :::note

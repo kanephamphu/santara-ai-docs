@@ -18,10 +18,13 @@ Nếu không có câu của bạn, hãy lần theo
 | *Too many failed attempts. Please try again later.* | Mười lần đăng nhập sai đã khóa tài khoản **15 phút** | Chờ, hoặc đặt lại mật khẩu — việc đặt lại xóa khóa ngay. Xem [Nếu bạn bị khóa](/vi/setup/account/#nếu-bạn-bị-khóa) |
 | *Vui lòng xác minh email trước khi đăng nhập.* | Tài khoản có tồn tại nhưng mã sáu chữ số chưa từng được nhập | Kiểm tra hộp thư, kể cả thư rác. Xin mã mới nếu mã cũ hết hạn |
 | *Đã có tài khoản dùng email này.* | Bạn từng đăng ký, có thể cho một workspace khác | Cứ đăng nhập — một tài khoản thuộc được nhiều workspace |
-| *Mã không đúng.* | Sai mã đặt lại hoặc mã xác minh | Đọc lại. Năm lần sai sẽ hủy mã |
-| *Mã này đã hết hạn.* | Mã có hiệu lực **15 phút** | Xin mã mới — mỗi phút một lần |
-| *Quá nhiều mã sai.* | Năm lần sai trên cùng một mã | Xin mã mới |
-| *Mật khẩu mới phải có ít nhất 12 ký tự.* | Độ dài là quy tắc duy nhất | Dùng mật khẩu dài hơn |
+| *Mã không đúng. Hãy kiểm tra lại và thử lần nữa.* | Sai mã đặt lại hoặc mã xác minh | Đọc lại. Năm lần sai sẽ hủy mã |
+| *Mã này đã hết hạn. Vui lòng yêu cầu mã mới.* | Mã có hiệu lực **15 phút** | Xin mã mới — mỗi phút một lần |
+| *Quá nhiều mã sai. Vui lòng yêu cầu mã mới.* | Năm lần sai trên cùng một mã | Xin mã mới |
+| *Mật khẩu mới phải có ít nhất 12 ký tự.* | Quá ngắn — mật khẩu mới cần từ 12 ký tự trở lên | Dùng mật khẩu dài hơn; một cụm vài từ là dễ nhất |
+| *Mật khẩu tối đa 128 ký tự.* | Quá dài — 128 ký tự là giới hạn | Dùng mật khẩu ngắn hơn |
+| *Mật khẩu này quá dễ đoán. Hãy thử một cụm từ dài hơn.* | Nằm trong danh sách mật khẩu phổ biến (*password1234* và tương tự), hoặc chỉ lặp lại một ký tự | Chọn mật khẩu không ai khác nghĩ tới |
+| *Mật khẩu không được chứa tên trong địa chỉ email của bạn. Hãy chọn mật khẩu khác.* | Phần email trước dấu @ xuất hiện trong mật khẩu | Chọn mật khẩu không chứa phần đó |
 | *Vui lòng đăng nhập lại.* | Phiên của bạn đã kết thúc — thường do đổi mật khẩu ở nơi khác, hoặc trình duyệt xóa cookie | Đăng nhập lại. Nếu lặp lại, xem [Phiên đăng nhập cứ hết hạn](/vi/help/troubleshooting/#phiên-đăng-nhập-cứ-hết-hạn) |
 
 :::note

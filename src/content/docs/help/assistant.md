@@ -24,8 +24,7 @@ Santara AI account. See [The Santi app](/help/santi-app/), open it at
 
 ## Where to find Santi
 
-- **Beside the bell**, at the top of every screen. Click Santi and **Ask Santi** opens on your most
-  recent conversation.
+- **Beside the bell**, at the top of every screen. Click Santi and **Ask Santi** opens.
 - **On phones**, Santi floats in the bottom-right corner instead. It opens the same panel.
 - **Full page** — the link at the top of the panel opens `/dashboard/assistant`, the same chat in a
   larger frame.
@@ -116,9 +115,23 @@ It acts with **your** permissions: if you cannot do something on screen, it cann
 
 ## Conversations
 
-Your conversations are saved per person, per workspace — a co-host does not see yours. The panel
-lists **Recent conversations**; **New chat** starts fresh, and **Delete conversation** (the trash
-icon) removes one for good.
+Santi in the dashboard keeps **no conversation history**. A chat lives only in the open tab:
+**Santi doesn't keep this chat — it clears when you reload or close the tab.** **New chat** clears
+it on purpose. There is no list of past conversations to reopen and nothing to delete — if an
+answer matters, copy it somewhere before you leave.
+
+The [mobile app's assistant](/mobile/ai-assistant/) is the exception: it keeps your saved
+conversations, per person and per workspace, so a co-host never sees yours.
+
+## Checking an answer
+
+Under an answer that used your data, Santi shows where it came from:
+
+- **Data as of 09:42** — when the data behind the answer was read.
+- **Source links** — the screens the figures came from, each with ↗. Click one to check a figure
+  where it lives.
+- **I couldn't match … to your data — check it before acting on it.** appears, in amber, only when
+  a figure in the answer did not match anything Santi read. Treat that figure as unverified.
 
 ## Getting good answers
 

@@ -1,56 +1,70 @@
 ---
 title: Go live
-description: Mengimpor listing tidak menyerahkan kalender Anda. Halaman ini menjelaskan apa yang berubah saat Anda menekan Go live, dan apa yang harus diperiksa dulu.
+description: Kapan sebuah listing tayang di tiap channel, apa yang berubah saat itu, dan apa yang harus diperiksa sebelum mengimpor atau memetakan apa pun.
 sidebar:
   order: 5
 ---
 
-Baca ini sebelum menekan tombolnya. Inilah satu-satunya halaman dalam dokumentasi ini yang
-menjelaskan tindakan yang tidak bisa dibatalkan diam-diam.
+Baca ini sebelum mengimpor listing atau memetakan kamar. Inilah satu-satunya halaman dalam
+dokumentasi ini yang menjelaskan tindakan yang tidak bisa dibatalkan diam-diam.
 
-## Janjinya
+## Kapan sebuah listing tayang
 
-**Mengimpor listing tidak pernah mengambil kendali kalendernya.** Setelah impor, listing Anda dibuat,
-dipetakan, dan diberi harga dari data channel sendiri, dan channel tetap berjalan persis seperti
-sebelumnya. Anda boleh memeriksa semuanya, memperbaiki yang salah, dan membiarkannya seminggu.
+Tayang adalah saat channel menyerahkan kendali kalender ke Santara AI. Kapan itu terjadi tergantung
+channel-nya:
 
-Kendali berpindah pada satu momen, lewat satu tindakan sengaja: **Go live**.
+- **Airbnb** — impor menayangkan tiap listing sebagai langkah terakhirnya, setelah listing punya
+  harga sungguhan dan kapasitasnya dikonfirmasi. Listing yang belum dikonfirmasi Airbnb tetap
+  **Sudah disiapkan — belum aktif**, dan tayang saat Anda menekan **Aktifkan di Airbnb** di langkah
+  impor, atau **Tayangkan** di halaman koneksi. Lihat [Hubungkan Airbnb](/id/channels/airbnb/#tayang).
+- **Booking.com dan setiap channel lain** — tidak ada langkah Go live terpisah. **Memetakan kamar
+  akan menyiapkannya dan membuatnya aktif** — ketersediaan langsung mulai disinkronkan.
 
-![Empat status yang dilewati sebuah listing, dengan Go live sebagai gerbang sebelum status terakhir.](/diagrams/listing-states.id.svg)
+Jadi pemeriksaan di bawah ini dilakukan **sebelum** Anda mengimpor di Airbnb, dan **sebelum** Anda
+memetakan kamar di channel lain.
 
-## Apa yang berubah saat Go live
+## Apa yang berubah saat tayang
 
-Sejak saat itu, untuk listing yang Anda live-kan:
+Sejak saat itu, untuk listing yang tayang:
 
 - **Channel menyerahkan kendali kalender ke Santara AI.** Ketersediaan kini dikemudikan dari sini.
   Booking di channel mana pun menutup malam itu di semua channel.
-- **Tarif dikirim dari sini.** Harga tetap persis seperti di channel sampai Anda mengubahnya di
-  Santara AI atau [aturan pricing](/id/money/pricing/) menerbitkannya.
+- **Tarif dikirim dari sini.** Di Airbnb, harga tetap persis seperti semula sampai Anda mengubahnya
+  di Santara AI atau [aturan pricing](/id/money/pricing/) menerbitkannya. Di Booking.com dan channel
+  lain, rate plan yang Anda petakan itulah yang diterima channel.
 - **Restriksi dikirim** — minimum menginap, closed-to-arrival, dan seterusnya.
-- Booking, tamu, pesan, dan ulasan sudah tersinkronisasi sejak impor; itu tidak berubah.
+- Booking, tamu, pesan, dan ulasan tersinkron masuk.
 
-## Periksa lima hal ini dulu
+## Periksa hal-hal ini dulu
 
-1. **Setiap kamar punya harga per malam.** Kamar tanpa harga tidak bisa terjual, dan go live dengan
-   harga nol adalah satu-satunya kesalahan yang biayanya langsung terasa hari itu juga.
+1. **Setiap kamar punya harga per malam.** Kamar tanpa harga tidak bisa terjual, dan tayang dengan
+   harga nol adalah satu-satunya kesalahan yang biayanya langsung terasa hari itu juga. Santara AI
+   memblokir tautan channel berharga nol karena alasan ini, tetapi tetap periksa.
 2. **Okupansi benar.** Kapasitas tamu menentukan harga tamu tambahan dan apa yang diterima
    Booking.com.
 3. **Kalender menyerupai kalender channel.** Buka [Kalender](/id/daily/calendar/) dan bandingkan satu
    bulan dengan channel. Booking yang ada seharusnya sudah tampak.
 4. **Kamar yang benar dipetakan ke listing yang benar.** Pemetaan yang tertukar mengirim ketersediaan
    salah ke listing salah — lebih buruk daripada tidak dipetakan.
-5. **Jumlah unit Anda.** Ketersediaan dibatasi jumlah unit kamar. Jika satu kamar adalah satu
-   apartemen tetapi jumlah unitnya tertulis 3, Anda baru saja menawarkan tiga.
+5. **Kapasitas dikonfirmasi.** Sebelum channel pertama kali menyentuh kalender sebuah properti,
+   Santara AI meminta Anda mengonfirmasinya — **Konfirmasi kapasitas sebelum kita tayang**, atau
+   *Konfirmasi kapasitas untuk melanjutkan* di sebelah listing. Tekan **Konfirmasi** dan isi **Berapa
+   unit identik?**, **Mata uang**, dan **Tarif per malam**. Ketersediaan dibatasi jumlah unit itu:
+   jika satu kamar adalah satu apartemen tetapi Anda mengisi 3, Anda baru saja menawarkan tiga.
+   Sebelum Anda mengonfirmasi, dialog menunjukkan berapa malam mendatang yang akan kosong dan berapa
+   yang ditutup sebagai penuh.
 
-## Go live satu per satu
+## Tayang satu per satu
 
-Anda tidak harus me-live-kan semuanya sekaligus. Live-kan satu listing, amati sehari, lalu sisanya.
-Listing yang belum live tetap siap dan mempertahankan pemetaannya.
+Anda tidak harus menayangkan semuanya sekaligus. Di Airbnb, impor satu listing, amati sehari, lalu
+impor sisanya. Di channel lain, petakan satu kamar dulu. Listing yang belum tayang tetap siap dan
+mempertahankan pemetaannya.
 
 ## Jika gagal
 
-Kegagalan ditampilkan sebagaimana dilaporkan channel. Yang umum beserta perbaikannya ada di
-[Hubungkan Airbnb](/id/channels/airbnb/#4-go-live). Hasil sebagian adalah normal.
+Kegagalan ditampilkan sebagaimana dilaporkan channel. Yang umum di Airbnb beserta perbaikannya ada di
+[Hubungkan Airbnb](/id/channels/airbnb/#tayang). Hasil sebagian adalah normal: listing yang berhasil
+tayang sudah tayang, sisanya tetap siap, dan Anda bisa mencoba lagi.
 
 ## Menjeda atau mundur
 
@@ -60,7 +74,7 @@ Kegagalan ditampilkan sebagaimana dilaporkan channel. Yang umum beserta perbaika
   kalender channel Anda tidak terpengaruh, tetapi reservasi, pesan, dan ulasan yang diimpor di sini
   ikut terhapus.
 
-:::caution[Booking yang masuk saat live itu nyata]
-Apa pun yang dipesan tamu selama periode live ada di channel dan harus dipenuhi, apa pun yang Anda
+:::caution[Booking yang masuk saat tayang itu nyata]
+Apa pun yang dipesan tamu selama periode tayang ada di channel dan harus dipenuhi, apa pun yang Anda
 lakukan di Santara AI setelahnya. Memutus koneksi menghapus catatan di sini, bukan kewajibannya.
 :::

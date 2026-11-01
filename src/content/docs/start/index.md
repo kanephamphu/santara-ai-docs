@@ -19,10 +19,10 @@ is yours and paid into your own Stripe account.
 | --- | --- |
 | Checking three extranets each morning | **[Today](/daily/)** — arrivals, departures, and what needs a decision, written out |
 | Copying dates between calendars | **[One calendar](/daily/calendar/)** — every night, every room, pushed to every channel |
-| Two message inboxes | **[Messages](/daily/messages/)** — one thread per guest, replies go back out on the channel they booked on |
+| Two message inboxes | **[Messages](/daily/messages/)** — one thread per guest; on Airbnb, Booking.com and Expedia your reply goes back out on the channel they booked on |
 | A WhatsApp group for cleaning | **[Tasks](/daily/tasks/)** — turnovers created automatically the night before a checkout |
 | Editing prices by hand every Sunday | **[Smart pricing](/money/pricing/)** — rules that move nightly rates by season, lead time and how full you are |
-| A spreadsheet per owner | **[Reports and accounting](/money/reports/)** — revenue in, costs out, owner statements |
+| A spreadsheet per owner | **[Reports](/money/reports/)** — revenue in, costs out, owner statements |
 
 ## What is actually automatic
 
@@ -43,7 +43,10 @@ And what is not:
   [Going live](/channels/going-live/).
 - **Prices you type by hand stay put** unless you explicitly allow the pricing engine to
   overwrite them.
-- **Nothing is sent to a guest without you.** The assistant and the message tools draft; you send.
+- **Nothing is sent to a guest without you** — unless you switch on
+  [Auto-reply](/daily/messages/#auto-reply), which only answers the topics you allow and always
+  leaves money, dates, complaints and emergencies to you. Otherwise the assistant and the message
+  tools draft; you send.
 
 ## Who it is for
 

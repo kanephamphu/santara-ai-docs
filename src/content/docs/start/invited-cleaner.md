@@ -11,12 +11,20 @@ small, deliberate part of the product, not a cut-down version of the owner's one
 
 ## Getting in
 
-1. You get an **email with an invitation link**. Open it on the phone or laptop you will actually
-   use.
-2. If you have never used Santara AI, you **create an account first** — your name, your email, a
-   password of at least 12 characters — then accept the invitation.
-3. If you already have an account (perhaps you clean for two different owners), just sign in. The
-   same login works; the account menu lets you switch between the workspaces you belong to.
+The owner sends you an invitation link — by email, or straight to you on WhatsApp or Zalo. Open it
+on the phone or laptop you will actually use. It opens a single page titled **Join** followed by
+the owner's workspace name, and everything happens there:
+
+1. **The link came by email.** Set a password of at least 12 characters and press **Join …**. You are
+   in — there is no separate sign-up and no code.
+2. **The link came by message.** Type your email and choose a password. We email you a **6-digit
+   code**; enter it on the same page to finish joining.
+3. **You already have a Santara AI account** (perhaps you clean for two different owners). Enter
+   your existing password and you join. The same login works everywhere; the account menu lets you
+   switch between the workspaces you belong to.
+
+A link works once and lasts a week. If the page says the invitation has expired, ask the owner for a
+new link.
 
 Your login belongs to you, not to the owner. If you stop working for them they remove your access
 to *their* workspace, and your account carries on.
@@ -50,7 +58,7 @@ Open **Tasks**. Each card is one clean and tells you:
 - **The access notes** for that building — how to get in, where things are kept.
 - **When it needs to be finished by**, driven by the next guest's arrival.
 
-When the room is done, press **Mark complete**. You can attach a **photo** — do it. It settles
+When the room is done, press **Mark done**. You can attach a **photo** — do it. It settles
 questions later without anybody having to take anybody's word.
 
 If something is broken, do not just mention it in passing: **raise a ticket** from the job. That
@@ -73,9 +81,14 @@ else about their business. Many cleaning teams work entirely this way. See
 
 ## On your phone
 
-There is no app yet — it is being built for iOS and Android. In the meantime the website works in
-a phone browser, and **Today** and **Tasks** are the two screens that hold up well on a small
-screen. See [On your phone](/setup/mobile/).
+The **Santara AI app for Android** is on
+[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) — sign in with the
+same email and password. You will see three tabs: **Today**, **Tasks** and **More**. In **Tasks**
+you press **Mark done** and add up to 10 photos per job. See
+[Tasks & Maintenance](/mobile/tasks/).
+
+The iPhone app is not released yet. On an iPhone, use the website in the phone browser: **Today**
+and **Tasks** hold up well on a small screen. See [On your phone](/setup/mobile/).
 
 ## When something is wrong
 

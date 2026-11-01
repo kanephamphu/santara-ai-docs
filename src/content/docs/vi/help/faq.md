@@ -28,7 +28,10 @@ Một bất động sản, bốn phòng. Ánh xạ từng listing Airbnb tới p
 ## Hằng ngày
 
 **Santara AI có tự nhắn tin cho khách không?**
-Không. Nó soạn nháp; bạn gửi. Không có chế độ trả lời tự động.
+Chỉ khi bạn bật. [Tự động trả lời](/vi/daily/messages/#tự-động-trả-lời) tắt cho tới khi chủ sở
+hữu hoặc quản trị viên bật lên, và có thể bắt đầu ở chế độ **Chạy thử**, khi Santi soạn trả lời
+nhưng không gửi gì. Khi chạy thật, nó chỉ trả lời các chủ đề bạn cho phép; tiền, ngày ở, phàn nàn và
+an toàn luôn chờ bạn. Ngoài ra, AI viết; bạn gửi.
 
 **Nó có tự đổi giá của tôi không?**
 Chỉ khi bạn gán một [rule set định giá](/vi/money/pricing/) cho listing và để *Tự xuất bản giá* bật.
@@ -78,9 +81,10 @@ Bất kỳ ai trong workspace có quyền vào các màn hình liên quan. **Li�
 English, Bahasa Indonesia và Tiếng Việt — cho giao diện, bản tin hằng ngày và tài liệu này.
 
 **Có ứng dụng di động không?**
-Chưa — đang được xây dựng cho iOS và Android cùng lúc. Xem [Trên điện thoại](/vi/setup/mobile/).
+Có, trên Android — đã có trên Google Play. iOS sắp ra mắt. Xem
+[Bắt đầu & đăng nhập](/vi/mobile/getting-started/).
 
 **Hỗ trợ những kênh nào?**
 54 kênh bán phòng, cùng website đặt phòng của bạn. Airbnb và Booking.com có luồng kết nối riêng;
-Agoda, Expedia, Trip.com, Vrbo và các kênh còn lại kết nối từ danh sách kênh trong **Cài đặt → Kênh**.
+Agoda, Expedia, Trip.com, Traveloka và các kênh còn lại kết nối từ danh sách kênh trong **Cài đặt → Kênh**.
 Trả lời khách được gửi trên Airbnb, Booking.com và Expedia. Xem [Kênh](/vi/channels/).

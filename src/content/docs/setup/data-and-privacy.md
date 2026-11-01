@@ -65,20 +65,40 @@ under real limits:
   have access, not given a number.
 - **The workspace comes from your session**, never from anything you or it can type. It cannot be
   argued into another workspace.
-- **It is read-only, with exactly one exception**: it can *draft* a reply to a guest. It cannot
-  send a message, change a price, alter a booking, take a listing live, or move money.
+- **Every change it makes is proposed first and waits for your approval.** It can read freely, but
+  anything that changes something — sending a guest reply, creating a ticket, assigning a clean or
+  a ticket, changing a ticket's status, or creating, updating or cancelling a reservation — appears
+  as a card you confirm. Nothing happens until you press **Confirm**. It cannot change a price,
+  take a listing live, or move money.
 
 Guest messages, briefs and drafts are processed by a **third-party AI model provider** under
 contract, as the [privacy policy](https://www.santara.ai/privacy/) describes. AI output can be
 wrong — briefs, drafts and pricing signals are all things you review before acting on. Nothing is
-sent to a guest without you pressing send.
+sent to a guest unless you press send or confirm it — or turn on auto-reply, which you choose to do.
+
+If you [connect ChatGPT or Claude](/help/ai-assistants/), that assistant reaches your workspace
+through `mcp.santara.ai` with your permissions, and what it reads is processed by that assistant's
+provider under your own account with them.
+
+## When Santara AI staff open your workspace
+
+To fix a problem you have reported, a member of Santara AI staff can open your workspace with
+**admin access**. That access:
+
+- **Lasts at most 2 hours**, then ends on its own. Staff can leave earlier.
+- **Is recorded every time** — who opened which workspace, when, and why — in an audit log.
+- **Is shown to them as a red banner** across the top of every screen for as long as it lasts,
+  saying that changes they make are real.
+
+Staff are never added to your team list, and they do not receive your notifications or briefs.
 
 ## What leaves your workspace
 
 | It goes to | What, and why |
 | --- | --- |
-| **Airbnb / Booking.com** | Availability, rates and restrictions out; bookings, guests, messages and reviews in — via our channel connectivity provider |
+| **Your booking channels** — Airbnb, Booking.com, Google Hotel and the others you connect | Availability, rates and restrictions out, plus property content: photos, description, house and cancellation policies, facilities. Bookings, guests, messages and reviews come in. All via our channel connectivity provider |
 | **AI model provider** | The text needed to write a brief, draft a reply or score an opportunity |
+| **AI assistants you connect** — ChatGPT, Claude | What you or your team ask them about, through `mcp.santara.ai` — see [Connect ChatGPT, Claude or Grok](/help/ai-assistants/) |
 | **Stripe** | Your card, for the subscription. Santara AI never sees the number |
 | **Stripe, your own account** | Direct booking payments — see below |
 | **Email** | Invitations, verification and reset codes, and anything you choose to send |
@@ -94,16 +114,14 @@ Santara AI takes **3% commission** on direct bookings.
 
 ## Getting your data out
 
-- **Reports** — every CSV on [the report library](/money/reports/#the-report-library) is generated
-  from live data at the moment you ask for it. Reservations, revenue, occupancy, upsells, costs and
-  owner statements.
-- **Accounting** — owner statements export per period and per property.
+- **Reports** — the owner statement and its expenses export as CSV with
+  [Download CSV](/money/reports/#download-csv), for any period and any set of listings.
 - **Invoices** — from Stripe's own portal, via [Managing payment](/setup/billing/#managing-payment).
 - **These docs** — every page is also markdown, if you want the manual itself
   ([Using these docs with AI tools](/help/for-ai-tools/)).
 
-For a full export beyond the reports — or a deletion request — email **hello@santara.ai**. Say
-which workspace.
+For a full export beyond the reports — or to delete a whole workspace — email
+**hello@santara.ai**. Say which workspace.
 
 ## What deleting actually deletes
 
@@ -113,7 +131,7 @@ Worth reading before you press anything, because the blast radius differs:
 | --- | --- | --- |
 | **Remove one listing** | That room's imported reservations, messages, guests and reviews | The listing on Airbnb or Booking.com |
 | **Disconnect an account** | The same, for every listing on that connection; syncing stops | Everything on the channel's side |
-| **Delete a property** | The property and its rooms | Nothing is refunded for the current month |
+| **Delete a property** | The property, its rooms, its reservations, calendar and messages, and its connected listings in Santara AI | Nothing is refunded for the current month |
 | **Remove a team member** | Their access, immediately, on every device | Work they did stays attributed to them |
 | **Cancel the subscription** | Nothing, until the paid period ends | Your channel listings keep running on the channel |
 
@@ -125,14 +143,45 @@ Two of these surprise people:
   sent stay in the record under their name. That is deliberate; an operational history that
   rewrites itself when somebody leaves is not a history.
 
-Deleting a property that still has a connected listing is **refused** — disconnect its listings
+Deleting a property that is still connected to a channel is **refused** — disconnect its channels
 first, so the channel side is cleaned up rather than left pointing at a room that no longer exists.
+
+## Deleting your account
+
+You can delete your own account yourself:
+
+- **In the app** — Settings → Personal settings → **Delete account**, then type your email to
+  confirm.
+- **On the web** — at [santara.ai/delete-account](https://www.santara.ai/delete-account/), after
+  signing in.
+
+What happens:
+
+1. You are **signed out on every device** straight away, and the account can no longer sign in.
+2. Our team reviews the request and **completes it within 30 days**.
+3. Your name, email, phone number, photo and password are removed. Bookings, invoices and other
+   records of the workspaces you worked in are **kept for accounting, anonymised** — without your
+   personal details.
+
+If you are the **only owner** of a workspace other people use, make someone else an owner first;
+the request is refused until you do. Cannot sign in? Email **support@santara.ai** from your
+account's address and the team will delete it for you.
 
 ## If billing lapses
 
-Your data does not vanish. An inactive subscription makes the workspace **read-only** — everything
-is still there, you simply cannot change it until billing is sorted. Syncing is what stops first.
-See [If a payment fails](/setup/billing/#if-a-payment-fails).
+Your data does not vanish, and nothing is deleted.
+
+- **A free trial that ends without a card** keeps full access for **7 more days**. After that the
+  workspace turns **read-only** — everything is still there, you simply cannot change it until you
+  choose a plan.
+- **A failed renewal** gets a short grace window to fix the card, then the workspace turns read-only
+  the same way.
+- **After 30 days read-only**, the background work is paused too: the daily brief, the nightly
+  pricing sync and new bookings and messages coming in from your channels. Your listings keep
+  running on the channels themselves.
+
+Pay, and everything resumes — including the bookings and messages that arrived while it was
+paused. See [If a payment fails](/setup/billing/#if-a-payment-fails).
 
 ## Guest data is your responsibility too
 

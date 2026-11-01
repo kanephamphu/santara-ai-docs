@@ -46,7 +46,7 @@ than in general.
 | Set a floor so I never sell too cheap | [The listing's numbers](/money/pricing/#the-listings-numbers) |
 | See what a rule set would do before it goes out | [Seeing before publishing](/money/pricing/#seeing-before-publishing) |
 | Find out whether pricing is actually working | [Did it work?](/money/pricing/#did-it-work) |
-| Keep using PriceLabs | [If you already use PriceLabs](/money/pricing/#if-you-already-use-pricelabs) |
+| Keep using PriceLabs | Existing connections keep working; new ones are paused — [If you already use PriceLabs](/money/pricing/#if-you-already-use-pricelabs) |
 | Charge more for extra guests | It is on the rate plan — [Rate plans](/money/rates/#rate-plans) |
 
 ## Bookings and guests
@@ -68,6 +68,7 @@ than in general.
 | Reply to a guest | [Replying](/daily/messages/#replying) — the AI drafts, you send |
 | Stop repeating the same answer | [Message templates](/setup/message-templates/) |
 | Send the wifi and door code automatically | Use the template variables — [Variables](/setup/message-templates/#variables) |
+| Let the AI answer guests on its own | Turn on **Auto-reply** — [Messages](/daily/messages/) |
 | Turn a complaint into something tracked | [Complaints become tickets](/daily/messages/#complaints-become-tickets) |
 | Reply to a review | [Replying](/daily/reviews/#replying) |
 | Review a guest on Airbnb | [Reviewing a guest (Airbnb)](/daily/reviews/#reviewing-a-guest-airbnb) — it cannot be undone |
@@ -128,12 +129,13 @@ than in general.
 
 | I want to… | Do this |
 | --- | --- |
-| See how the month is going | [The snapshot](/money/reports/#the-snapshot) |
-| Export figures for my accountant | [The report library](/money/reports/#the-report-library) — CSVs from live data |
-| Log cleaning, utilities and repair costs | [The ledger](/money/accounting/#the-ledger) |
-| Send an owner their statement | [Periods and statements](/money/accounting/#periods-and-statements) |
-| Understand RevPAN, ADR and occupancy | [Occupancy, ADR, RevPAN](/money/reports/#occupancy-adr-revpan) |
-| Reconcile Santara AI against an extranet | [What revenue means here](/money/reports/#what-revenue-means-here) — ours is net payout |
+| See how the month is going | [The owner statement](/money/reports/#the-owner-statement) |
+| Export figures for my accountant | [Download CSV](/money/reports/#download-csv) — exactly what is on screen |
+| Log cleaning, utilities and repair costs | [Adding an expense](/money/reports/#adding-an-expense) |
+| Split one electricity bill across a building | [Shared bills](/money/reports/#shared-bills) |
+| Send an owner their statement | [The owner statement](/money/reports/#the-owner-statement), then [Download CSV](/money/reports/#download-csv) |
+| Understand RevPAR, ADR and occupancy | They are on [Upsells](/money/upsells/) |
+| Reconcile Santara AI against an extranet | [Gross, fees and payout](/money/reports/#gross-fees-and-payout) — the bank matches the payout |
 
 ## People and access
 
@@ -156,6 +158,8 @@ than in general.
 | Change the language the daily brief is written in | That is a workspace setting — [Language](/setup/workspace/#language) |
 | Fix dates and "today" being wrong | [Timezone](/setup/workspace/#timezone) |
 | Turn off notifications I do not want | [Notifications](/setup/workspace/#notifications) |
+| Connect ChatGPT or Claude to my workspace | [Connect ChatGPT, Claude or Grok](/help/ai-assistants/) |
+| Delete my account | [Your data and privacy](/setup/data-and-privacy/) |
 | Run two portfolios that never mix | Two workspaces — [Switching workspaces](/setup/workspace/#switching-workspaces) |
 
 ## Billing

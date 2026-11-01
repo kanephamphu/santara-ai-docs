@@ -31,14 +31,23 @@ on the grid — click one night, or drag across several.
      then let go. The nights pulse while you drag. Drag past the right-hand edge and the calendar
      scrolls to follow you.
    - *Widen a range:* hold **Shift** and click a further night on the same row.
+
 2. A **Selected dates** panel opens under the range, showing how many nights you picked. Choose
    **Rates & availability**.
+
+   ![Three nights dragged on Garden Room: the nights are outlined and the Selected dates panel opens beside them.](/screens/calendar-block-select.en.png)
+
 3. Set **Stop sell** to **Closed** to block the nights, or to **Open** to unblock them. Leave the
    other fields empty to keep them as they are.
+
+   ![Stop sell set to Closed for the three nights, with Add 3 nights to pending below.](/screens/calendar-block-close.en.png)
+
 4. Click **Add 3 nights to pending** (the number is your selection). The nights turn amber with a dashed border — nothing
    has been sent yet, so you can keep selecting and stacking more changes.
 5. Click **Save all** at the top of the calendar. The change is pushed to every connected channel.
    **Discard all** throws the pending changes away instead.
+
+   ![The three nights now amber and dashed, waiting in pending; Save all sends them to every channel.](/screens/calendar-block-save.en.png)
 
 Closed nights then read **Closed** on the grid. To unblock them later, select the same nights again
 and set **Stop sell** to **Open**.
@@ -69,7 +78,7 @@ draws it here.
 | --- | --- |
 | **Price** | The nightly rate for those nights, on the selected rate plan |
 | **Minimum stay** | The shortest booking that may start on those nights |
-| **Closed** | Nobody can book those nights on any channel |
+| **Stop sell** | **Closed** blocks those nights on every channel; **Open** sells them again |
 
 Changes wait in **pending** until you click **Save all**; that one save pushes them to every connected channel. There is no other "publish" step.
 

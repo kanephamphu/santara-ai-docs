@@ -1,0 +1,22 @@
+{
+  "width": 1440,
+  "height": 900,
+  "boxes": [
+    {
+      "x": 478,
+      "y": 563.5,
+      "width": 161.328125,
+      "height": 56,
+      "label": "3. Stop sell → Closed",
+      "side": "left"
+    },
+    {
+      "x": 478,
+      "y": 640.5,
+      "width": 235.265625,
+      "height": 56,
+      "label": "4. Add to pending",
+      "side": "left"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "width": 1440,
+  "height": 900,
+  "boxes": [
+    {
+      "x": 478,
+      "y": 573.5,
+      "width": 161.328125,
+      "height": 56,
+      "label": "3. Ngừng bán → Đã đóng",
+      "side": "left"
+    },
+    {
+      "x": 478,
+      "y": 650.5,
+      "width": 285.359375,
+      "height": 56,
+      "label": "4. Thêm vào danh sách chờ",
+      "side": "left"
+    }
+  ]
+}

@@ -28,7 +28,10 @@ apa. Lihat [Tim dan peran](/id/setup/team/).
 ## Sehari-hari
 
 **Apakah Santara AI akan mengirim pesan ke tamu secara otomatis?**
-Tidak. Ia membuat draf; Anda yang mengirim. Tidak ada mode balas-otomatis.
+Hanya jika Anda menyalakannya. [Balas otomatis](/id/daily/messages/#balas-otomatis) nonaktif sampai
+pemilik atau admin menyalakannya, dan bisa dimulai dalam mode **Uji coba**, saat Santi menulis
+balasan tapi tidak mengirim apa pun. Saat aktif, ia hanya menjawab topik yang Anda izinkan; uang,
+tanggal, keluhan, dan keselamatan selalu menunggu Anda. Selain itu, AI menulis; Anda yang mengirim.
 
 **Apakah ia akan mengubah harga saya otomatis?**
 Hanya jika Anda menetapkan [rule set pricing](/id/money/pricing/) pada listing dan membiarkan
@@ -79,10 +82,11 @@ klaster** tidak, dan isinya hanya pekerjaan klaster itu.
 English, Bahasa Indonesia, dan Tiếng Việt — untuk antarmuka, ringkasan harian, dan dokumentasi ini.
 
 **Ada aplikasi mobile?**
-Belum — sedang dibangun untuk iOS dan Android sekaligus. Lihat [Di ponsel Anda](/id/setup/mobile/).
+Ada, untuk Android — sudah tersedia di Google Play. iOS segera menyusul. Lihat
+[Memulai & masuk](/id/mobile/getting-started/).
 
 **Channel apa saja yang didukung?**
 54 channel penjualan, ditambah situs booking Anda sendiri. Airbnb dan Booking.com punya alur
-koneksi sendiri; Agoda, Expedia, Trip.com, Vrbo, dan lainnya terhubung dari daftar channel di
+koneksi sendiri; Agoda, Expedia, Trip.com, Traveloka, dan lainnya terhubung dari daftar channel di
 **Pengaturan → Channel**. Balasan ke tamu dikirim di Airbnb, Booking.com, dan Expedia. Lihat
 [Channel](/id/channels/).

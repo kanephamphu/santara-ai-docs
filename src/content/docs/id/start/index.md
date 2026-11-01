@@ -20,10 +20,10 @@ milik Anda sendiri, yang dibayarkan ke akun Stripe Anda.
 | --- | --- |
 | Memeriksa tiga extranet setiap pagi | **[Hari ini](/id/daily/)** — kedatangan, keberangkatan, dan hal yang butuh keputusan |
 | Menyalin tanggal antar kalender | **[Satu kalender](/id/daily/calendar/)** — setiap malam, setiap kamar, dikirim ke semua channel |
-| Dua kotak masuk pesan | **[Pesan](/id/daily/messages/)** — satu utas per tamu, balasan kembali lewat channel tempat mereka memesan |
+| Dua kotak masuk pesan | **[Pesan](/id/daily/messages/)** — satu utas per tamu; di Airbnb, Booking.com, dan Expedia balasan Anda kembali lewat channel tempat mereka memesan |
 | Grup WhatsApp untuk kebersihan | **[Tugas](/id/daily/tasks/)** — turnover dibuat otomatis semalam sebelum check-out |
 | Mengubah harga manual tiap Minggu | **[Smart pricing](/id/money/pricing/)** — aturan yang menggeser tarif per musim, lead time, dan tingkat hunian |
-| Satu spreadsheet per pemilik | **[Laporan dan akuntansi](/id/money/reports/)** — pemasukan, pengeluaran, laporan pemilik |
+| Satu spreadsheet per pemilik | **[Laporan](/id/money/reports/)** — pemasukan, pengeluaran, laporan pemilik |
 
 ## Apa yang benar-benar otomatis
 
@@ -44,8 +44,10 @@ Dan yang tidak:
   [Go live](/id/channels/going-live/).
 - **Harga yang Anda ketik manual tetap** kecuali Anda secara eksplisit mengizinkan mesin pricing
   menimpanya.
-- **Tidak ada yang dikirim ke tamu tanpa Anda.** Asisten dan alat pesan membuat draf; Anda yang
-  mengirim.
+- **Tidak ada yang dikirim ke tamu tanpa Anda** — kecuali Anda menyalakan
+  [Balas otomatis](/id/daily/messages/#balas-otomatis), yang hanya menjawab topik yang Anda izinkan
+  dan selalu menyerahkan uang, tanggal, keluhan, dan keadaan darurat kepada Anda. Selain itu, asisten
+  dan alat pesan membuat draf; Anda yang mengirim.
 
 ## Untuk siapa
 

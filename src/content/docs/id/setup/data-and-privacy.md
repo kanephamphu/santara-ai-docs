@@ -69,21 +69,41 @@ batasan nyata:
   diberi tahu bahwa ia tidak punya akses, bukan diberi angka.
 - **Workspace-nya berasal dari sesi Anda**, tidak pernah dari apa pun yang Anda atau ia ketik. Ia
   tidak bisa dibujuk pindah ke workspace lain.
-- **Ia hanya-baca, dengan tepat satu pengecualian**: ia bisa *membuat draf* balasan untuk tamu. Ia
-  tidak bisa mengirim pesan, mengubah harga, mengubah booking, menayangkan listing, atau memindahkan
-  uang.
+- **Setiap perubahan yang ia buat diusulkan dulu dan menunggu persetujuan Anda.** Ia bebas membaca,
+  tetapi apa pun yang mengubah sesuatu — mengirim balasan ke tamu, membuat tiket, menugaskan
+  pembersihan atau tiket, mengubah status tiket, atau membuat, mengubah, atau membatalkan reservasi
+  — muncul sebagai kartu yang Anda konfirmasi. Tidak ada yang terjadi sampai Anda menekan
+  **Konfirmasi**. Ia tidak bisa mengubah harga, menayangkan listing, atau memindahkan uang.
 
 Pesan tamu, ringkasan, dan draf diproses oleh **penyedia model AI pihak ketiga** berdasarkan
 kontrak, seperti dijelaskan [kebijakan privasi](https://www.santara.ai/id/privasi/). Keluaran AI
 bisa salah — ringkasan, draf, dan sinyal harga semuanya hal yang Anda tinjau sebelum ditindaklanjuti.
-Tidak ada yang terkirim ke tamu tanpa Anda menekan kirim.
+Tidak ada yang terkirim ke tamu kecuali Anda menekan kirim atau mengonfirmasinya — atau Anda
+sendiri yang menyalakan balas otomatis.
+
+Jika Anda [menghubungkan ChatGPT atau Claude](/id/help/ai-assistants/), asisten itu menjangkau
+workspace Anda lewat `mcp.santara.ai` dengan izin Anda, dan apa yang dibacanya diproses oleh
+penyedia asisten itu di bawah akun Anda sendiri di sana.
+
+## Saat staf Santara AI membuka workspace Anda
+
+Untuk memperbaiki masalah yang Anda laporkan, staf Santara AI bisa membuka workspace Anda dengan
+**akses admin**. Akses itu:
+
+- **Berlaku paling lama 2 jam**, lalu berakhir sendiri. Staf bisa keluar lebih awal.
+- **Dicatat setiap kali** — siapa membuka workspace mana, kapan, dan mengapa — di log audit.
+- **Ditampilkan kepada mereka sebagai banner merah** di bagian atas setiap layar selama akses
+  berlangsung, yang mengingatkan bahwa perubahan yang mereka buat itu nyata.
+
+Staf tidak pernah ditambahkan ke daftar tim Anda, dan tidak menerima notifikasi atau ringkasan Anda.
 
 ## Apa yang keluar dari workspace Anda
 
 | Tujuan | Apa, dan kenapa |
 | --- | --- |
-| **Airbnb / Booking.com** | Ketersediaan, tarif, dan restriksi keluar; booking, tamu, pesan, ulasan masuk — lewat penyedia konektivitas channel kami |
+| **Channel booking Anda** — Airbnb, Booking.com, Google Hotel, dan channel lain yang Anda hubungkan | Ketersediaan, tarif, dan restriksi keluar, ditambah konten properti: foto, deskripsi, kebijakan rumah dan pembatalan, fasilitas. Booking, tamu, pesan, dan ulasan masuk. Semuanya lewat penyedia konektivitas channel kami |
 | **Penyedia model AI** | Teks yang dibutuhkan untuk menulis ringkasan, draf balasan, atau menilai peluang |
+| **Asisten AI yang Anda hubungkan** — ChatGPT, Claude | Apa yang Anda atau tim Anda tanyakan kepadanya, lewat `mcp.santara.ai` — lihat [Hubungkan ChatGPT, Claude, atau Grok](/id/help/ai-assistants/) |
 | **Stripe** | Kartu Anda, untuk langganan. Santara AI tidak pernah melihat nomornya |
 | **Stripe, akun Anda sendiri** | Pembayaran booking langsung — lihat di bawah |
 | **Email** | Undangan, kode verifikasi dan atur ulang, serta apa pun yang Anda kirim sendiri |
@@ -99,16 +119,14 @@ Santara AI mengambil **3% komisi** atas booking langsung.
 
 ## Mengeluarkan data Anda
 
-- **Laporan** — setiap CSV di [pustaka laporan](/id/money/reports/#pustaka-laporan) dihasilkan dari
-  data langsung saat Anda memintanya. Reservasi, pendapatan, okupansi, upsell, biaya, laporan
-  pemilik.
-- **Akuntansi** — laporan pemilik diekspor per periode dan per properti.
+- **Laporan** — laporan pemilik beserta biayanya diekspor sebagai CSV lewat
+  [Unduh CSV](/id/money/reports/#unduh-csv), untuk periode dan kumpulan listing apa pun.
 - **Tagihan** — dari portal Stripe sendiri, lewat
   [Mengelola pembayaran](/id/setup/billing/#mengelola-pembayaran).
 - **Dokumentasi ini** — setiap halaman juga tersedia sebagai markdown, kalau Anda mau manualnya
   sendiri ([Menggunakan dokumentasi ini dengan alat AI](/id/help/for-ai-tools/)).
 
-Untuk ekspor penuh di luar laporan — atau permintaan penghapusan — kirim email ke
+Untuk ekspor penuh di luar laporan — atau untuk menghapus seluruh workspace — kirim email ke
 **hello@santara.ai**. Sebutkan workspace-nya.
 
 ## Apa yang sebenarnya terhapus
@@ -119,7 +137,7 @@ Layak dibaca sebelum menekan apa pun, karena dampaknya berbeda-beda:
 | --- | --- | --- |
 | **Hapus satu listing** | Reservasi, pesan, tamu, dan ulasan hasil impor untuk kamar itu | Listing di Airbnb atau Booking.com |
 | **Putuskan sebuah akun** | Hal yang sama, untuk setiap listing di koneksi itu; sinkronisasi berhenti | Semua yang ada di sisi channel |
-| **Hapus sebuah properti** | Properti dan kamarnya | Tidak ada pengembalian dana untuk bulan berjalan |
+| **Hapus sebuah properti** | Properti, kamarnya, reservasi, kalender, dan pesannya, serta listing terhubungnya di Santara AI | Tidak ada pengembalian dana untuk bulan berjalan |
 | **Keluarkan anggota tim** | Aksesnya, seketika, di setiap perangkat | Pekerjaannya tetap tercatat atas namanya |
 | **Batalkan langganan** | Tidak ada, sampai periode berbayar berakhir | Listing channel Anda tetap jalan di channel |
 
@@ -131,14 +149,45 @@ Dua di antaranya sering mengejutkan:
   pesan yang ia kirim tetap tercatat atas namanya. Itu disengaja; riwayat operasional yang menulis
   ulang dirinya saat seseorang pergi bukanlah riwayat.
 
-Menghapus properti yang masih punya listing terhubung akan **ditolak** — putuskan listing-nya dulu,
+Menghapus properti yang masih terhubung ke channel akan **ditolak** — putuskan channel-nya dulu,
 supaya sisi channel ikut dibereskan alih-alih ditinggal menunjuk kamar yang sudah tidak ada.
+
+## Menghapus akun Anda
+
+Anda bisa menghapus akun Anda sendiri:
+
+- **Di aplikasi** — Pengaturan → Pengaturan pribadi → **Hapus akun**, lalu ketik email Anda untuk
+  konfirmasi.
+- **Di web** — di [santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=id),
+  setelah masuk.
+
+Yang terjadi:
+
+1. Anda **langsung keluar dari semua perangkat**, dan akun tidak dapat masuk lagi.
+2. Tim kami meninjau permintaan dan **menyelesaikannya dalam 30 hari**.
+3. Nama, email, nomor telepon, foto, dan kata sandi Anda dihapus. Booking, faktur, dan catatan lain
+   dari workspace tempat Anda bekerja **disimpan untuk akuntansi, dianonimkan** — tanpa data pribadi
+   Anda.
+
+Jika Anda **satu-satunya pemilik** workspace yang dipakai orang lain, jadikan orang lain pemilik
+terlebih dahulu; permintaan ditolak sampai Anda melakukannya. Tidak bisa masuk? Kirim email ke
+**support@santara.ai** dari alamat akun Anda dan tim kami akan menghapusnya.
 
 ## Kalau penagihan tertunggak
 
-Data Anda tidak hilang. Langganan yang tidak aktif membuat workspace menjadi **hanya-baca** —
-semuanya masih ada, Anda hanya tidak bisa mengubahnya sampai penagihan beres. Sinkronisasilah yang
-berhenti lebih dulu. Lihat [Jika pembayaran gagal](/id/setup/billing/#jika-pembayaran-gagal).
+Data Anda tidak hilang, dan tidak ada yang dihapus.
+
+- **Masa uji coba gratis yang berakhir tanpa kartu** tetap mendapat akses penuh selama **7 hari
+  lagi**. Setelah itu workspace menjadi **hanya-baca** — semuanya masih ada, Anda hanya tidak bisa
+  mengubahnya sampai memilih paket.
+- **Perpanjangan yang gagal** mendapat masa tenggang singkat untuk memperbaiki kartu, lalu workspace
+  menjadi hanya-baca dengan cara yang sama.
+- **Setelah 30 hari hanya-baca**, pekerjaan latar belakang juga dijeda: ringkasan harian,
+  sinkronisasi harga malam hari, serta booking dan pesan baru yang masuk dari channel Anda. Listing
+  Anda tetap berjalan di channel itu sendiri.
+
+Bayar, dan semuanya berjalan lagi — termasuk booking dan pesan yang masuk selama jeda. Lihat
+[Jika pembayaran gagal](/id/setup/billing/#jika-pembayaran-gagal).
 
 ## Data tamu juga tanggung jawab Anda
 

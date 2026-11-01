@@ -5,8 +5,34 @@ sidebar:
   order: 6
 ---
 
-**Cài đặt → Đội ngũ**. Lời mời được gửi qua email dưới dạng liên kết. Nếu người nhận chưa có tài khoản,
-họ đăng ký trước, rồi chấp nhận lời mời để tham gia workspace này.
+**Cài đặt → Đội ngũ**. Tab này chỉ hiện với **host admin**, vì chỉ họ mới mời người hoặc đổi vai
+trò được.
+
+## Mời một người
+
+Bấm **Mời đồng đội**. Điền **Tên** (bắt buộc), **Vai trò** và **Quyền truy cập** của họ. Ô **Email
+(không bắt buộc)** quyết định lời mời đi bằng đường nào:
+
+- **Có email**, lời mời được gửi vào hộp thư của họ. *Họ mở liên kết, tạo mật khẩu là vào được
+  ngay. Không cần đăng ký riêng.*
+- **Không có email** — *Không có email? Để trống và tự gửi liên kết qua Zalo hoặc WhatsApp.* Lời
+  mời hiện là **Chỉ liên kết**. Người được mời gõ email và mật khẩu trên trang mà liên kết mở ra, rồi
+  nhận **Mã 6 chữ số** qua email để xác minh địa chỉ trước khi tài khoản được tạo.
+
+Sau khi bấm **Gửi lời mời**, liên kết hiện ra cùng các nút **Chia sẻ**, **Sao chép liên kết** và
+**WhatsApp**. Dù theo cách nào, liên kết cũng mở một trang duy nhất tại `santara.ai/join/…`. Ai **đã
+có tài khoản Santara AI** chỉ cần nhập mật khẩu hiện tại ở đó là tham gia — cùng một tài khoản dùng
+được ở mọi workspace họ thuộc về.
+
+Lời mời chưa dùng nằm trong mục **Lời mời**, mỗi lời mời ghi **Hết hạn {date}** — liên kết có hiệu
+lực một tuần. Mỗi lời mời có ba nút:
+
+- **Sao chép liên kết** — sao chép lại để gửi.
+- **Tạo liên kết mới** — tạo liên kết mới. **Liên kết cũ không còn dùng được**, nên hãy dùng khi lỡ
+  gửi liên kết nhầm nhóm chat.
+- **Hủy lời mời** — liên kết ngừng hoạt động.
+
+Liên kết đã hết hạn sẽ nhắc người nhận xin bạn liên kết mới.
 
 Một người có thể giữ vai trò khác nhau ở các workspace khác nhau. Tài khoản đăng nhập là của họ; quyền
 truy cập là theo từng workspace.
@@ -60,7 +86,9 @@ lập, và vì thế đây là vai trò bạn trao đi cẩn thận nhất.
 ## Trải nghiệm của nhân viên dọn phòng
 
 Họ đăng nhập và thấy các ca dọn được giao, đúng ngày diễn ra, kèm địa chỉ và ghi chú lối vào cho những
-tòa đó. Họ đánh dấu hoàn tất, kèm ảnh nếu cần. Với họ, sản phẩm chỉ có vậy, và đó là chủ ý.
+tòa đó. Họ đánh dấu hoàn tất, kèm ảnh nếu cần. Với họ, sản phẩm chỉ có vậy, và đó là chủ ý. Trên
+[ứng dụng Android](/vi/mobile/getting-started/) họ chỉ thấy các tab **Hôm nay**, **Công việc** và
+**Thêm**.
 
 Nếu bạn không muốn cấp tài khoản, hãy chia sẻ
 [tin nhắn cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng) từ bản tin hằng ngày — nó chứa công việc

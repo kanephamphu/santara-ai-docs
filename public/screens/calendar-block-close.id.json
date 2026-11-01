@@ -1,0 +1,22 @@
+{
+  "width": 1440,
+  "height": 900,
+  "boxes": [
+    {
+      "x": 478,
+      "y": 573.5,
+      "width": 161.328125,
+      "height": 56,
+      "label": "3. Hentikan penjualan → Ditutup",
+      "side": "left"
+    },
+    {
+      "x": 478,
+      "y": 650.5,
+      "width": 294.890625,
+      "height": 56,
+      "label": "4. Tambahkan ke tertunda",
+      "side": "left"
+    }
+  ]
+}

@@ -58,16 +58,21 @@ A **listing** is one thing on that channel that maps to one Santara AI room. Map
 this Airbnb listing is that room. When a listing is mapped and the channel is active, that room's
 availability and prices flow out, and its bookings and messages flow in.
 
-A listing goes through these states, and the wording on screen matches:
+On a connection's page, each listing carries one of these labels:
 
-| State | Meaning |
+| Label | Meaning |
 | --- | --- |
-| **Not connected** | The channel account is not linked yet |
-| **Linked — not mapped yet** | We can see the listing; it points at no room |
-| **Mapped — awaiting activation** | It points at a room, but the channel is not handing over yet |
+| **Not linked** | We can see the listing; it points at no room |
+| **Linked — rates not mapped** | It points at a room, but its rates have nowhere to go yet |
+| **Action required** | Something needs you, such as *Confirm capacity to continue* |
+| **Ready — not live** | Set up, but the channel is not handing over yet |
+| **Publishing…** | Going live right now |
 | **Live** | Availability and rates sync out, bookings and messages sync in |
+| **Error** | The channel refused something; the reason is shown beside it |
 
-Nothing moves from *mapped* to *live* on its own. See [Going live](/channels/going-live/).
+On Airbnb, importing a listing takes it live as its last step; a listing Airbnb has not confirmed
+waits as *Ready — not live* until you press **Go live**. On Booking.com and every other channel,
+mapping a room takes it live straight away. See [Going live](/channels/going-live/).
 
 ## Reservation, guest, thread
 

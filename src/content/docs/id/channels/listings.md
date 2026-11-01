@@ -13,7 +13,8 @@ sebuah koneksi untuk melihat daftar lengkap listing-nya, yang dikelola satu per 
 Tiap akun terhubung punya halaman sendiri yang menampilkan:
 
 - **Status** dan waktu **sinkron terakhir**.
-- **Listing pada koneksi ini**, masing-masing dengan statusnya — *tertaut*, *dipetakan*, *live* — dan
+- **Listing pada koneksi ini**, masing-masing dengan statusnya — *Belum tertaut*, *Siap — belum
+  tayang*, *Tayang*, dan yang lain di [Cara kerja koneksi channel](/id/channels/#status-listing) — dan
   kamar Santara AI yang ditunjuknya.
 - **Segarkan**, yang membaca ulang semuanya dari channel sekarang juga.
 
@@ -24,12 +25,14 @@ sebagian besar laporan "channel dan Santara AI tidak cocok".
 
 Buka koneksinya, tekan **Cari listing di akun ini**, dan listing yang belum diimpor akan muncul.
 Pilih tujuan masing-masing seperti saat impor pertama. Listing baru yang Anda buat di channel juga
-muncul di sini.
+muncul di sini. Di Airbnb, mengimpor listing dari sini juga menayangkannya; di channel lain,
+memetakan kamar yang menayangkannya.
 
 ## Tambah akun lain
 
-**Hubungkan akun lain** pada channel yang sama. Umum bagi manajer yang memegang listing di beberapa
-login Airbnb. Tiap koneksi berdiri sendiri.
+Buka **Pengaturan → Channel → Tambah channel** dan tekan **Tambah akun lain** pada kotak channel itu.
+Umum bagi manajer yang memegang listing di beberapa login Airbnb. Tiap koneksi berdiri sendiri —
+listing, status, dan sinkronnya masing-masing.
 
 ## Pindahkan listing ke kamar lain
 
@@ -60,14 +63,7 @@ channel akan tetap memetakan ke kamar yang sudah tidak ada di sini.
 
 ## PriceLabs
 
-Jika Anda sudah memakai PriceLabs, hubungkan di **Pengaturan → Channel → Hubungkan PriceLabs** dan
-mesin pricing Santara AI akan mengalah untuk listing yang dikelola PriceLabs.
-
-Anda memberikan **email akun** PriceLabs dan **API key** (PriceLabs → account settings → API). Key
-diverifikasi ke PriceLabs, disimpan terenkripsi, dan hanya dipakai untuk memastikan akun — Santara AI
-tidak membaca harga dari PriceLabs.
-
-:::caution
-Jangan pernah menempelkan kata sandi PriceLabs di mana pun dalam Santara AI. Masuklah di situs resmi
-PriceLabs, lalu berikan hanya API key yang memang untuk integrasi.
-:::
+Koneksi PriceLabs baru sedang **dijeda**: PriceLabs tidak punya kotak di **Tambah channel**, dan
+koneksi baru tidak bisa dibuat. Koneksi PriceLabs yang sudah ada tetap berjalan — mesin pricing
+Santara AI tetap mengalah untuk listing yang dikelola PriceLabs — dan masih bisa diputus dari
+**Pengaturan → Channel → Terhubung**.

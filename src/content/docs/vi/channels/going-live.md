@@ -1,59 +1,73 @@
 ---
 title: Go live
-description: Nhập listing không đồng nghĩa với giao lịch. Trang này nói điều gì thay đổi khi bạn bấm Go live, và cần kiểm tra gì trước.
+description: Khi nào một listing lên chạy trên từng kênh, điều gì thay đổi lúc đó, và cần kiểm tra gì trước khi nhập hay ánh xạ bất cứ thứ gì.
 sidebar:
   order: 5
 ---
 
-Hãy đọc trước khi bấm nút. Đây là trang duy nhất trong tài liệu này mô tả một hành động không thể âm
-thầm hoàn tác.
+Hãy đọc trước khi nhập một listing hoặc ánh xạ một phòng. Đây là trang duy nhất trong tài liệu này mô
+tả một hành động không thể âm thầm hoàn tác.
 
-## Lời cam kết
+## Khi nào một listing lên chạy
 
-**Nhập một listing không bao giờ chiếm quyền kiểm soát lịch của nó.** Sau khi nhập, listing của bạn
-được tạo, ánh xạ và định giá từ chính dữ liệu của kênh, và kênh vẫn chạy y như trước. Bạn có thể xem
-lại mọi thứ, sửa chỗ sai, và để yên đó cả tuần.
+Lên chạy là lúc kênh giao quyền kiểm soát lịch cho Santara AI. Thời điểm đó tùy theo kênh:
 
-Quyền kiểm soát chuyển ở đúng một thời điểm, bằng đúng một hành động có chủ ý: **Go live**.
+- **Airbnb** — bước nhập đưa từng listing lên chạy ở khâu cuối, khi listing đã có giá thật và sức
+  chứa đã được xác nhận. Listing nào Airbnb chưa xác nhận sẽ ở trạng thái **Đã thiết lập — chưa
+  chạy**, và lên chạy khi bạn bấm **Cho chạy trên Airbnb** ở bước nhập, hoặc **Đăng trực tuyến** trên
+  trang kết nối. Xem [Kết nối Airbnb](/vi/channels/airbnb/#đưa-lên-chạy).
+- **Booking.com và mọi kênh khác** — không có bước Go live riêng. **Ánh xạ một phòng sẽ thiết lập và
+  đưa phòng đó lên kênh** — tình trạng phòng trống bắt đầu đồng bộ ngay.
 
-![Bốn trạng thái mà một listing đi qua, với Go live là cánh cổng trước trạng thái cuối.](/diagrams/listing-states.vi.svg)
+Vì vậy các bước kiểm tra dưới đây cần làm **trước** khi bạn nhập trên Airbnb, và **trước** khi bạn
+ánh xạ phòng ở các kênh khác.
 
-## Go live thay đổi điều gì
+## Lên chạy thay đổi điều gì
 
-Từ lúc đó, với các listing bạn đã đưa lên:
+Từ lúc đó, với các listing đang chạy:
 
 - **Kênh trao quyền kiểm soát lịch cho Santara AI.** Tình trạng trống nay được điều khiển từ đây. Một
   lượt đặt ở bất kỳ kênh nào sẽ đóng đêm đó ở mọi kênh.
-- **Giá được đẩy từ đây.** Giá vẫn y như trên kênh cho tới khi bạn đổi trong Santara AI hoặc
-  [quy tắc định giá](/vi/money/pricing/) xuất bản.
+- **Giá được đẩy từ đây.** Trên Airbnb, giá vẫn y như cũ cho tới khi bạn đổi trong Santara AI hoặc
+  [quy tắc định giá](/vi/money/pricing/) xuất bản. Trên Booking.com và các kênh khác, gói giá bạn đã
+  ánh xạ chính là thứ kênh nhận được.
 - **Các ràng buộc được đẩy đi** — số đêm tối thiểu, đóng nhận phòng, v.v.
-- Đặt phòng, khách, tin nhắn và đánh giá đã đồng bộ từ lúc nhập; điều đó không đổi.
+- Đặt phòng, khách, tin nhắn và đánh giá được đồng bộ vào.
 
-## Kiểm tra năm điều này trước
+## Kiểm tra những điều này trước
 
-1. **Mỗi phòng đều có giá mỗi đêm.** Phòng không giá thì không bán được, và go live với giá bằng
-   không là sai lầm duy nhất phải trả giá ngay trong ngày.
+1. **Mỗi phòng đều có giá mỗi đêm.** Phòng không giá thì không bán được, và lên chạy với giá bằng
+   không là sai lầm duy nhất phải trả giá ngay trong ngày. Santara AI chặn liên kết kênh có giá bằng
+   không vì lý do này, nhưng bạn vẫn nên kiểm tra.
 2. **Sức chứa đúng.** Số khách quyết định giá khách phụ trội và những gì Booking.com chấp nhận.
-3. **Lịch giống lịch của kênh.** Mở [Lịch](/vi/daily/calendar/) và so một tháng với kênh.
+3. **Lịch giống lịch của kênh.** Mở [Lịch](/vi/daily/calendar/) và so một tháng với kênh. Các đặt
+   phòng hiện có lẽ ra đã nằm ở đó.
 4. **Đúng phòng ánh xạ đúng listing.** Ánh xạ chéo sẽ gửi tình trạng trống sai tới listing sai — tệ
    hơn cả không ánh xạ.
-5. **Số lượng đơn vị của bạn.** Tình trạng trống bị chặn ở số đơn vị của phòng. Nếu một phòng là một
-   căn hộ nhưng số đơn vị ghi 3, bạn vừa chào bán ba căn.
+5. **Sức chứa đã được xác nhận.** Trước khi một kênh chạm vào lịch của chỗ nghỉ lần đầu, Santara AI
+   yêu cầu bạn xác nhận — **Xác nhận sức chứa trước khi chạy thật**, hoặc *Xác nhận sức chứa để tiếp
+   tục* bên cạnh một listing. Bấm **Xác nhận** và trả lời **Có bao nhiêu đơn vị giống nhau?**, **Tiền
+   tệ** và **Giá mỗi đêm**. Tình trạng trống bị chặn ở số đơn vị đó: nếu một phòng là một căn hộ mà
+   bạn nhập 3, bạn vừa chào bán ba căn. Trước khi bạn xác nhận, hộp thoại cho biết bao nhiêu đêm sắp
+   tới sẽ còn trống và bao nhiêu bị đóng vì kín chỗ.
 
-## Go live từng listing một
+## Lên chạy từng listing một
 
-Bạn không phải đưa mọi thứ lên cùng lúc. Cho một listing chạy, theo dõi một ngày, rồi làm phần còn
-lại. Listing chưa chạy vẫn giữ nguyên thiết lập và ánh xạ.
+Bạn không phải đưa mọi thứ lên cùng lúc. Trên Airbnb, nhập một listing, theo dõi một ngày, rồi nhập
+phần còn lại. Ở các kênh khác, ánh xạ một phòng trước. Listing chưa chạy vẫn giữ nguyên thiết lập và
+ánh xạ.
 
 ## Nếu không thành công
 
-Lỗi được hiển thị đúng như kênh báo. Các lỗi thường gặp và cách xử lý có trong
-[Kết nối Airbnb](/vi/channels/airbnb/#4-go-live).
+Lỗi được hiển thị đúng như kênh báo. Các lỗi Airbnb thường gặp và cách xử lý có trong
+[Kết nối Airbnb](/vi/channels/airbnb/#đưa-lên-chạy). Kết quả một phần là bình thường: listing đã lên
+chạy thì đang chạy, phần còn lại vẫn giữ thiết lập, và bạn có thể thử lại.
 
 ## Tạm dừng hoặc rút lui
 
 - **Để ngừng bán đêm**, hãy đóng ngày trong [lịch](/vi/daily/calendar/). Đây là cách đúng để tạm dừng.
-- **Để trả lại quyền kiểm soát**, xóa listing khỏi Santara AI hoặc ngắt kết nối. Listing và lịch trên
+  Dữ liệu và lịch sử của bạn được giữ lại.
+- **Để trả lại quyền kiểm soát**, gỡ listing khỏi Santara AI hoặc ngắt kết nối. Listing và lịch trên
   kênh không bị ảnh hưởng, nhưng các đặt phòng, tin nhắn và đánh giá đã nhập ở đây sẽ bị xóa theo.
 
 :::caution[Đặt phòng phát sinh khi đang chạy là thật]

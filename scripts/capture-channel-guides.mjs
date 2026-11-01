@@ -43,7 +43,7 @@ const CHANNELS = {
   "trip-com": "CTrip",
   "tiket-com": "TiketCom",
   makemytrip: "Goibibo",
-  vrbo: "VRBO",
+  
   hostelworld: "Hostelworld",
   crewdogs: "Crewdogs",
   "emerging-travel": "Ostrovok",
