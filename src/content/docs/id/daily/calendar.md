@@ -19,6 +19,38 @@ tanggal berikutnya; malam kosong menampilkan harganya.
   atau tamu pemilik.
 - **Klik satu hari** untuk daftar harian: semua yang bergerak pada tanggal itu.
 
+## Memblokir atau membuka tanggal
+
+Memblokir malam sama dengan menutupnya: tidak ada yang bisa memesannya di channel mana pun. Anda
+melakukannya langsung di grid — klik satu malam, atau seret melintasi beberapa malam.
+
+1. **Pilih malamnya.**
+   - *Satu malam:* klik malam kosong pada baris kamar tersebut.
+   - *Beberapa malam:* tekan malam pertama lalu **seret** di baris yang sama sampai malam terakhir,
+     lalu lepaskan. Malam-malam itu berdenyut selama Anda menyeret. Seret melewati tepi kanan dan
+     kalender ikut bergulir.
+   - *Memperlebar rentang:* tahan **Shift** dan klik malam yang lebih jauh di baris yang sama.
+2. Panel **Tanggal dipilih** terbuka di bawah rentang, menampilkan jumlah malam yang dipilih. Pilih
+   **Tarif & ketersediaan**.
+3. Atur **Hentikan penjualan** ke **Ditutup** untuk memblokir, atau ke **Buka** untuk membuka
+   kembali. Biarkan kolom lain kosong agar tidak berubah.
+4. Klik **Tambahkan 3 malam ke tertunda** (angkanya sesuai pilihan Anda). Malam-malam itu menjadi kuning dengan garis putus —
+   belum ada yang dikirim, jadi Anda bisa terus memilih dan menumpuk perubahan lain.
+5. Klik **Simpan semua** di bagian atas kalender. Perubahan dikirim ke semua channel terhubung.
+   **Buang semua** membatalkan perubahan yang tertunda.
+
+Malam yang ditutup lalu bertuliskan **Ditutup** di grid. Untuk membukanya lagi, pilih malam yang
+sama dan atur **Hentikan penjualan** ke **Buka**.
+
+:::note
+- Satu rentang hanya di **satu baris kamar** — untuk memblokir dua kamar, kerjakan tiap baris
+  bergantian (keduanya bisa menunggu di tertunda dan disimpan bersama).
+- **Tanggal lampau** hanya bisa dibaca dan tidak bisa dipilih.
+- **Di ponsel atau tablet** menyeret akan menggulir kalender, jadi ketuk satu malam lalu perlebar
+  rentangnya dengan tanggal di panel.
+- Tekan **Esc** atau **×** pada panel untuk membatalkan pilihan.
+:::
+
 ## Mengedit rentang
 
 Pilih rentang malam pada satu kamar dan Anda mendapat tiga tindakan:
@@ -38,7 +70,7 @@ menggambarnya di sini.
 | **Minimum menginap** | Booking terpendek yang boleh dimulai pada malam itu |
 | **Ditutup** | Tidak ada yang bisa memesan malam itu di channel mana pun |
 
-Semua yang Anda simpan di sini dikirim ke channel terhubung. Tidak ada langkah "terbitkan" terpisah.
+Perubahan menunggu di **tertunda** sampai Anda mengklik **Simpan semua**; satu simpan itu mengirimnya ke semua channel terhubung. Tidak ada langkah "terbitkan" lain.
 
 ## Harga dan mesin pricing
 

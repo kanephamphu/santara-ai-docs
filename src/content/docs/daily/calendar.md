@@ -20,6 +20,38 @@ free nights show their price.
 - **Click a day** for the day list: everything moving on that date, arrivals and departures
   together.
 
+## Block or unblock dates
+
+Blocking a night is the same as closing it: nobody can book it on any channel. You do it straight
+on the grid — click one night, or drag across several.
+
+1. **Pick the nights.**
+   - *One night:* click the free night on the room's row.
+   - *Several nights:* press on the first night and **drag** along the same row to the last one,
+     then let go. The nights pulse while you drag. Drag past the right-hand edge and the calendar
+     scrolls to follow you.
+   - *Widen a range:* hold **Shift** and click a further night on the same row.
+2. A **Selected dates** panel opens under the range, showing how many nights you picked. Choose
+   **Rates & availability**.
+3. Set **Stop sell** to **Closed** to block the nights, or to **Open** to unblock them. Leave the
+   other fields empty to keep them as they are.
+4. Click **Add 3 nights to pending** (the number is your selection). The nights turn amber with a dashed border — nothing
+   has been sent yet, so you can keep selecting and stacking more changes.
+5. Click **Save all** at the top of the calendar. The change is pushed to every connected channel.
+   **Discard all** throws the pending changes away instead.
+
+Closed nights then read **Closed** on the grid. To unblock them later, select the same nights again
+and set **Stop sell** to **Open**.
+
+:::note
+- A range stays on **one room row** — to block two rooms, do each row in turn (both can sit in
+  pending and save together).
+- **Past dates** are read-only and cannot be selected.
+- **On a phone or tablet** dragging scrolls the calendar, so tap one night instead and widen the
+  range with the dates in the panel.
+- Press **Esc** or the **×** on the panel to cancel a selection.
+:::
+
 ## Editing a range
 
 Select a range of nights on a room and you get three actions:
@@ -39,7 +71,7 @@ draws it here.
 | **Minimum stay** | The shortest booking that may start on those nights |
 | **Closed** | Nobody can book those nights on any channel |
 
-Everything you save here is pushed to the connected channels. There is no separate "publish" step.
+Changes wait in **pending** until you click **Save all**; that one save pushes them to every connected channel. There is no other "publish" step.
 
 ## Prices and the pricing engine
 

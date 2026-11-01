@@ -27,9 +27,9 @@ than in general.
 
 | I want to… | Do this |
 | --- | --- |
-| Block dates for maintenance or my own stay | Close the dates — [Closing dates is how you pause](/daily/calendar/#closing-dates-is-how-you-pause) |
+| Block dates for maintenance or my own stay | Click or drag across the nights, then Stop sell → Closed — [Block or unblock dates](/daily/calendar/#block-or-unblock-dates) |
 | Stop selling a room for a season | Close the range in the calendar. **Do not disconnect the channel** |
-| Open dates I closed by mistake | Same screen, reopen the range — [Editing a range](/daily/calendar/#editing-a-range) |
+| Open dates I closed by mistake | Select them again, Stop sell → Open — [Block or unblock dates](/daily/calendar/#block-or-unblock-dates) |
 | Understand why a night shows as unavailable | [Blocks that came from the channel](/daily/calendar/#blocks-that-came-from-the-channel) |
 | Sell two identical apartments as one listing | Set the room's unit count — [Availability and unit count](/daily/calendar/#availability-and-unit-count) |
 | Set a minimum stay | It lives on the rate plan — [Rate plans](/money/rates/#rate-plans) |

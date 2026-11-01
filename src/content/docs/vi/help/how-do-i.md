@@ -27,9 +27,9 @@ không phải câu trả lời chung chung.
 
 | Tôi muốn… | Làm thế này |
 | --- | --- |
-| Khóa ngày để sửa chữa hoặc tự ở | Đóng ngày lại — [Đóng ngày là cách để tạm dừng](/vi/daily/calendar/#đóng-ngày-là-cách-để-tạm-dừng) |
+| Khóa ngày để sửa chữa hoặc tự ở | Bấm hoặc kéo qua các đêm, rồi Ngừng bán → Đã đóng — [Khóa hoặc mở lại ngày](/vi/daily/calendar/#khóa-hoặc-mở-lại-ngày) |
 | Ngừng bán một phòng trong cả mùa | Đóng khoảng ngày trên lịch. **Đừng ngắt kết nối kênh** |
-| Mở lại những ngày lỡ đóng nhầm | Cùng màn hình đó — [Chỉnh sửa một khoảng](/vi/daily/calendar/#chỉnh-sửa-một-khoảng) |
+| Mở lại những ngày lỡ đóng nhầm | Chọn lại, Ngừng bán → Mở bán — [Khóa hoặc mở lại ngày](/vi/daily/calendar/#khóa-hoặc-mở-lại-ngày) |
 | Hiểu vì sao một đêm hiện là không còn trống | [Các khóa lịch đến từ kênh](/vi/daily/calendar/#các-khóa-lịch-đến-từ-kênh) |
 | Bán hai căn hộ giống hệt nhau như một listing | Đặt số đơn vị của phòng — [Tình trạng trống và số đơn vị](/vi/daily/calendar/#tình-trạng-trống-và-số-đơn-vị) |
 | Đặt số đêm tối thiểu | Nằm ở rate plan — [Rate plan](/vi/money/rates/#rate-plan) |
