@@ -27,14 +27,23 @@ một đêm, hoặc kéo qua nhiều đêm.
    - *Nhiều đêm:* nhấn vào đêm đầu tiên rồi **kéo** dọc cùng hàng tới đêm cuối, rồi thả ra. Các đêm
      nhấp nháy trong lúc kéo. Kéo quá mép phải thì lịch tự cuộn theo.
    - *Nới rộng khoảng:* giữ **Shift** và bấm một đêm xa hơn trên cùng hàng.
+
 2. Bảng **Ngày đã chọn** mở ra dưới khoảng đó, cho biết số đêm đã chọn. Chọn **Giá & tình trạng
    phòng**.
+
+   ![Kéo ba đêm trên Garden Room: các đêm được viền và bảng Ngày đã chọn mở ra bên cạnh.](/screens/calendar-block-select.vi.png)
+
 3. Đặt **Ngừng bán** thành **Đã đóng** để khóa, hoặc **Mở bán** để mở lại. Để trống các trường
    khác thì chúng giữ nguyên.
+
+   ![Ngừng bán đặt thành Đã đóng cho ba đêm, bên dưới là Thêm 3 đêm vào danh sách chờ.](/screens/calendar-block-close.vi.png)
+
 4. Bấm **Thêm 3 đêm vào danh sách chờ** (con số theo số đêm bạn chọn). Các đêm chuyển màu vàng với viền nét đứt — chưa có gì
    được gửi đi, nên bạn có thể tiếp tục chọn và cộng dồn thay đổi khác.
 5. Bấm **Lưu tất cả** ở đầu lịch. Thay đổi được đẩy sang mọi kênh đã kết nối. **Hủy tất cả** bỏ các
    thay đổi đang chờ.
+
+   ![Ba đêm giờ màu vàng viền nét đứt, nằm trong danh sách chờ; Lưu tất cả đẩy chúng sang mọi kênh.](/screens/calendar-block-save.vi.png)
 
 Đêm đã đóng sẽ hiện **Đã đóng** trên lưới. Muốn mở lại, chọn lại đúng các đêm đó và đặt **Ngừng
 bán** thành **Mở bán**.
@@ -65,7 +74,7 @@ nó ở đây.
 | --- | --- |
 | **Giá** | Giá mỗi đêm cho những đêm đó, trên rate plan đã chọn |
 | **Số đêm tối thiểu** | Lượt đặt ngắn nhất được phép bắt đầu vào những đêm đó |
-| **Đã đóng** | Không ai đặt được những đêm đó ở bất kỳ kênh nào |
+| **Ngừng bán** | **Đã đóng** khóa những đêm đó ở mọi kênh; **Mở bán** bán lại |
 
 Thay đổi nằm trong **danh sách chờ** cho tới khi bạn bấm **Lưu tất cả**; một lần lưu đó đẩy chúng sang mọi kênh đã kết nối. Không có bước "xuất bản" nào khác.
 

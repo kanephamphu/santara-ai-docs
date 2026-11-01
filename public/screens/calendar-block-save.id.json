@@ -1,0 +1,14 @@
+{
+  "width": 1440,
+  "height": 640,
+  "boxes": [
+    {
+      "x": 1243.5,
+      "y": 265,
+      "width": 120.5,
+      "height": 48,
+      "label": "5. Simpan semua — dikirim ke semua channel",
+      "side": "left"
+    }
+  ]
+}

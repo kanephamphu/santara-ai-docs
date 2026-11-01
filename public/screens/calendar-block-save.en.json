@@ -1,0 +1,14 @@
+{
+  "width": 1440,
+  "height": 640,
+  "boxes": [
+    {
+      "x": 1282.875,
+      "y": 265,
+      "width": 81.125,
+      "height": 48,
+      "label": "5. Save all — sends it to every channel",
+      "side": "left"
+    }
+  ]
+}

@@ -67,6 +67,75 @@ const SHOTS = [
     height: 620,
     note: "The calendar timeline, prices on free nights",
   },
+  /*
+   * Blocking dates, in three frames: sweep the nights, set Stop sell to Closed, then Save all.
+   * Customers could not find how to block a date, so the page walks it step by step. The third
+   * frame stops at PENDING — the shot never presses Save all, so the demo calendar is unchanged.
+   * Row 0 nights 2–4 from today: the seed keeps Garden Room free there.
+   */
+  {
+    id: "calendar-block-select",
+    path: "/dashboard/calendar",
+    steps: [{ drag: { row: 0, from: 1, nights: 3 }, settle: 1200 }],
+    settle: "main",
+    height: 640,
+    note: "Dragging three nights opens the Selected dates panel",
+    callouts: [
+      {
+        role: "button",
+        find: /Rates & availability|Tarif & ketersediaan|Giá & tình trạng phòng/,
+        label: { en: "2. Choose Rates & availability", id: "2. Pilih Tarif & ketersediaan", vi: "2. Chọn Giá & tình trạng phòng" },
+        side: "left",
+      },
+    ],
+  },
+  {
+    id: "calendar-block-close",
+    path: "/dashboard/calendar",
+    steps: [
+      { drag: { row: 0, from: 1, nights: 3 }, settle: 1200 },
+      { click: { role: "button", find: /Rates & availability|Tarif & ketersediaan|Giá & tình trạng phòng/ }, settle: 1200 },
+      { select: { label: /^(Stop sell|Hentikan penjualan|Ngừng bán)/, value: "true" }, settle: 600 },
+    ],
+    settle: "main",
+    height: 900,
+    note: "The rate editor with Stop sell set to Closed",
+    callouts: [
+      {
+        role: "combobox",
+        find: /^(Stop sell|Hentikan penjualan|Ngừng bán)/,
+        label: { en: "3. Stop sell → Closed", id: "3. Hentikan penjualan → Ditutup", vi: "3. Ngừng bán → Đã đóng" },
+        side: "left",
+      },
+      {
+        role: "button",
+        find: /Add \d+ nights to pending|Tambahkan \d+ malam ke tertunda|Thêm \d+ đêm vào danh sách chờ/,
+        label: { en: "4. Add to pending", id: "4. Tambahkan ke tertunda", vi: "4. Thêm vào danh sách chờ" },
+        side: "left",
+      },
+    ],
+  },
+  {
+    id: "calendar-block-save",
+    path: "/dashboard/calendar",
+    steps: [
+      { drag: { row: 0, from: 1, nights: 3 }, settle: 1200 },
+      { click: { role: "button", find: /Rates & availability|Tarif & ketersediaan|Giá & tình trạng phòng/ }, settle: 1200 },
+      { select: { label: /^(Stop sell|Hentikan penjualan|Ngừng bán)/, value: "true" }, settle: 600 },
+      { click: { role: "button", find: /Add \d+ nights to pending|Tambahkan \d+ malam ke tertunda|Thêm \d+ đêm vào danh sách chờ/ }, settle: 1500 },
+    ],
+    settle: "main",
+    height: 640,
+    note: "Pending nights in amber, waiting for Save all",
+    callouts: [
+      {
+        role: "button",
+        find: /^(Save all|Simpan semua|Lưu tất cả)$/,
+        label: { en: "5. Save all — sends it to every channel", id: "5. Simpan semua — dikirim ke semua channel", vi: "5. Lưu tất cả — đẩy sang mọi kênh" },
+        side: "left",
+      },
+    ],
+  },
   {
     id: "tasks",
     path: "/dashboard/tasks",
@@ -507,6 +576,34 @@ for (const locale of LOCALES) {
             null,
             { timeout: 150_000 },
           );
+        } else if (step.drag) {
+          /*
+           * A mouse sweep across the calendar grid: press on one night, move across the row,
+           * release. The grid only starts a sweep on a real MOUSE pointerdown (touch scrolls), so
+           * this has to be page.mouse, not a click. Rows are picked by position because room ids
+           * differ per workspace; `from` counts bookable nights from today, so a past date is
+           * never the anchor.
+           */
+          await page.locator("[data-sweep-cell]:not([disabled])").first().waitFor({ timeout: 60_000 });
+          const cells = await page.locator("[data-sweep-cell]:not([disabled])").evaluateAll((els, row) => {
+            const rows = [];
+            for (const el of els) {
+              const [room, index] = el.dataset.sweepCell.split(":");
+              let r = rows.find((x) => x.room === room);
+              if (!r) rows.push((r = { room, cells: [] }));
+              const b = el.getBoundingClientRect();
+              r.cells.push({ index: Number(index), x: b.x + b.width / 2, y: b.y + b.height / 2 });
+            }
+            return rows[row].cells.sort((a, b) => a.index - b.index);
+          }, step.drag.row ?? 0);
+          const first = cells[step.drag.from ?? 0];
+          const last = cells[(step.drag.from ?? 0) + step.drag.nights - 1];
+          await page.mouse.move(first.x, first.y);
+          await page.mouse.down();
+          await page.mouse.move(last.x, last.y, { steps: 12 });
+          await page.mouse.up();
+        } else if (step.select) {
+          await page.getByLabel(step.select.label).first().selectOption(step.select.value, { timeout: 10_000 });
         } else if (step.reload) {
           await page.reload({ waitUntil: "domcontentloaded" });
         } else if (step.press) {

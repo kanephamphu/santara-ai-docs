@@ -1,0 +1,14 @@
+{
+  "width": 1440,
+  "height": 640,
+  "boxes": [
+    {
+      "x": 1269.75,
+      "y": 265,
+      "width": 94.25,
+      "height": 48,
+      "label": "5. Lưu tất cả — đẩy sang mọi kênh",
+      "side": "left"
+    }
+  ]
+}

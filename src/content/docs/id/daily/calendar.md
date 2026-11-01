@@ -30,14 +30,23 @@ melakukannya langsung di grid — klik satu malam, atau seret melintasi beberapa
      lalu lepaskan. Malam-malam itu berdenyut selama Anda menyeret. Seret melewati tepi kanan dan
      kalender ikut bergulir.
    - *Memperlebar rentang:* tahan **Shift** dan klik malam yang lebih jauh di baris yang sama.
+
 2. Panel **Tanggal dipilih** terbuka di bawah rentang, menampilkan jumlah malam yang dipilih. Pilih
    **Tarif & ketersediaan**.
+
+   ![Tiga malam diseret pada Garden Room: malamnya ditandai dan panel Tanggal dipilih terbuka di sampingnya.](/screens/calendar-block-select.id.png)
+
 3. Atur **Hentikan penjualan** ke **Ditutup** untuk memblokir, atau ke **Buka** untuk membuka
    kembali. Biarkan kolom lain kosong agar tidak berubah.
+
+   ![Hentikan penjualan diatur ke Ditutup untuk tiga malam, dengan Tambahkan 3 malam ke tertunda di bawahnya.](/screens/calendar-block-close.id.png)
+
 4. Klik **Tambahkan 3 malam ke tertunda** (angkanya sesuai pilihan Anda). Malam-malam itu menjadi kuning dengan garis putus —
    belum ada yang dikirim, jadi Anda bisa terus memilih dan menumpuk perubahan lain.
 5. Klik **Simpan semua** di bagian atas kalender. Perubahan dikirim ke semua channel terhubung.
    **Buang semua** membatalkan perubahan yang tertunda.
+
+   ![Tiga malam kini kuning bergaris putus, menunggu di tertunda; Simpan semua mengirimnya ke semua channel.](/screens/calendar-block-save.id.png)
 
 Malam yang ditutup lalu bertuliskan **Ditutup** di grid. Untuk membukanya lagi, pilih malam yang
 sama dan atur **Hentikan penjualan** ke **Buka**.
@@ -68,7 +77,7 @@ menggambarnya di sini.
 | --- | --- |
 | **Harga** | Tarif per malam untuk malam-malam itu, pada rate plan terpilih |
 | **Minimum menginap** | Booking terpendek yang boleh dimulai pada malam itu |
-| **Ditutup** | Tidak ada yang bisa memesan malam itu di channel mana pun |
+| **Hentikan penjualan** | **Ditutup** memblokir malam itu di semua channel; **Buka** menjualnya lagi |
 
 Perubahan menunggu di **tertunda** sampai Anda mengklik **Simpan semua**; satu simpan itu mengirimnya ke semua channel terhubung. Tidak ada langkah "terbitkan" lain.
 
