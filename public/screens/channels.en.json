@@ -1,12 +1,12 @@
 {
   "width": 1440,
-  "height": 760,
+  "height": 960,
   "boxes": [
     {
-      "x": 1141,
-      "y": 625,
-      "width": 252,
-      "height": 56,
+      "x": 282,
+      "y": 804,
+      "width": 377.328125,
+      "height": 122,
       "label": "Start here — the account that owns your listings",
       "side": "left"
     }

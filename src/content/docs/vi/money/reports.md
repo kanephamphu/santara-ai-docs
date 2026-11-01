@@ -1,68 +1,121 @@
 ---
 title: Báo cáo
-description: Doanh thu, công suất, hiệu quả upsell và độ tin cậy vận hành — dưới dạng bản tóm tắt gửi được cho chủ sở hữu và dưới dạng CSV.
+description: Mỗi tháng một bảng kê cho chủ nhà — doanh thu từ khách, phần mỗi kênh giữ lại, chi phí và phần còn lại của chủ nhà.
 sidebar:
   order: 4
 ---
 
-Báo cáo trả lời câu "chúng ta làm ăn thế nào", cho bạn và cho những người bạn phải báo cáo.
+Báo cáo là một màn hình duy nhất: **Bảng kê cho chủ nhà**. Nó trả lời một câu hỏi cho một tháng —
+các lượt nghỉ mang về bao nhiêu, các kênh giữ lại bao nhiêu, chi phí hết bao nhiêu, và chủ nhà còn
+lại bao nhiêu.
 
-![Báo cáo: bản chụp nhanh gửi được cho chủ sở hữu, và các tệp CSV dựng từ dữ liệu hiện tại.](/screens/reports.vi.png)
+Màn hình này thay cho thư viện báo cáo cũ và mục Kế toán riêng. Hai màn hình trả lời cùng một câu
+hỏi là cách bạn có hai con số thực nhận của chủ nhà mà không biết số nào đúng, nên giờ chỉ còn một,
+và mọi con số trên đó khớp với nhau.
 
-## Doanh thu ở đây nghĩa là gì
+## Bảng kê cho chủ nhà
 
-**Doanh thu là tiền thực nhận** — số kênh thực trả cho bạn sau hoa hồng. Điều này được ghi nhãn ở mọi
-nơi trên màn hình.
+Đọc từ trên xuống:
 
-Ba con số được lưu riêng cho mỗi lượt lưu trú, vì chúng thực sự khác nhau:
-
-- **Tổng thu** — khách trả bao nhiêu.
-- **Doanh thu phòng** — phần lưu trú, không gồm phí.
-- **Tiền thực nhận** — số về tới bạn.
-
-Mỗi báo cáo nói rõ nó dùng con số nào. Nếu bạn đối chiếu với sao kê ngân hàng, tiền thực nhận là con
-số khớp.
-
-## Bản chụp nhanh
-
-Một bản đọc gọn về những gì đã thay đổi trong kỳ, những gì còn cứu được, và chỗ nào vận hành cần chú
-ý. Nó được viết để chuyển tiếp cho chủ sở hữu mà không cần sửa.
-
-## Thư viện báo cáo
-
-Các tệp CSV được tạo từ dữ liệu mới nhất:
-
-| Báo cáo | Trả lời điều gì |
+| Dòng | Nghĩa là gì |
 | --- | --- |
-| **Tóm lược danh mục** | Cả tuần trong một lượt đọc, cho chủ sở hữu và đơn vị vận hành |
-| **Hiệu quả upsell** | Cơ hội mở, bị bỏ lỡ và đã chốt; loại lời chào mạnh nhất theo bất động sản |
-| **Độ tin cậy vận hành** | Rủi ro turnover, khoảng trống xác nhận, việc cần theo dõi, điểm nghẽn |
-| **Trải nghiệm khách** | Cảnh báo, luồng ưu tiên, tín hiệu phàn nàn, việc nên theo dõi |
+| **Doanh thu đặt phòng gộp** | Số tiền khách trả cho các lượt nghỉ trong kỳ, kèm số lượt nghỉ |
+| **Phí kênh — {channel}** | Mỗi kênh một dòng: phần Airbnb, Booking.com và các kênh khác giữ lại |
+| **Chi phí** | Mọi khoản chi được ghi trong kỳ, kèm số khoản |
+| **Chủ nhà thực nhận** | Doanh thu gộp − phí kênh − chi phí |
 
-CSV được tạo từ dữ liệu đặt phòng, dọn phòng, khách và upsell mới nhất tại thời điểm bạn tải — không
-phải từ bản chụp qua đêm.
+Hai quy tắc quyết định thứ gì được tính vào tháng, và cả hai được in ngay dưới tiêu đề:
 
-## Báo cáo theo lịch
+- **Kỳ nghỉ được tính vào tháng trả phòng.** Lượt nghỉ từ 28/3 đến 3/4 thuộc về tháng 4. Lượt đã
+  hủy không được tính.
+- **Mỗi loại tiền được trình bày riêng và không bao giờ quy đổi.** Một căn villa định giá bằng IDR
+  nhận một đặt phòng bằng USD sẽ có hai bảng kê, không phải một con số trộn lẫn.
 
-Các báo cáo định kỳ có thể được chuẩn bị sẵn cho chủ sở hữu, nhân viên dọn phòng và buổi rà soát doanh
-thu, để email hằng tuần không phải dựng lại mỗi thứ Hai.
+Nếu không có lượt nào trả phòng trong tháng, bạn sẽ thấy *Không có lượt nghỉ nào trả phòng trong
+tháng này.*
 
-## Phân tách
+## Doanh thu gộp, phí kênh và khoản chi trả
 
-Trong bất kỳ khoảng nào, bạn có thể tách doanh thu, giá trị upsell và rủi ro **theo từng phòng**, và so
-công suất của một phòng với mức thu mỗi đêm của nó — đó là cách phòng bị định giá thấp và phòng bị bỏ
-trống tự tách khỏi nhau.
+Mỗi lượt nghỉ có thể mang ba con số khác nhau — doanh thu gộp (khách trả), doanh thu phòng (phần
+lưu trú) và khoản chi trả (phần về tới bạn). Bảng kê bắt đầu từ **doanh thu gộp** và tách phần mỗi
+kênh giữ lại thành một dòng riêng, để chủ nhà thấy tiền đã đi đâu.
 
-## Công suất, ADR, RevPAN
+Không phải kênh nào cũng báo phí, và bảng kê không bao giờ đoán. Dưới một dòng phí kênh bạn có thể
+thấy:
 
-- **Công suất** — số đêm bán chia số đêm khả dụng.
-- **ADR** — doanh thu chia số đêm đã bán.
-- **RevPAN** — doanh thu chia toàn bộ số đêm phải bán.
+- **"… tính từ khoản chi trả"** — kênh không báo phí, nên phí được tính bằng doanh thu gộp − khoản
+  chi trả.
+- **"… kênh không báo phí"** — không có phí và không có cách tính ra. Các lượt đó vẫn được đếm, chứ
+  không lặng lẽ coi như miễn phí: giả định kênh không lấy gì sẽ làm số tiền của chủ nhà cao hơn
+  thực tế.
+- **"… chưa có số gộp"**, dưới dòng doanh thu gộp — lượt nghỉ chỉ từng ghi nhận khoản chi trả.
+  Khoản chi trả được dùng thay, khiến dòng đầu thấp hơn một cách thấy rõ thay vì giả vờ.
 
-Hãy chấm điểm [định giá](/vi/money/pricing/) bằng RevPAN. Đây là con số duy nhất trong ba con số không
-thể cải thiện bằng cách làm xấu con số kia.
+Nếu bạn đối chiếu với sao kê ngân hàng, khoản chi trả là con số khớp.
 
-## Nửa còn lại của sổ sách
+## Chi phí
 
-Báo cáo là những gì **đi vào**. Những gì **đi ra** — dọn phòng, bảo trì, tiện ích, bảng kê chủ sở hữu —
-nằm ở [Kế toán](/vi/money/accounting/).
+Bên dưới bảng kê là danh sách **Chi phí** — chính những dòng đã trừ ở trên, để bạn kiểm tra từng
+khoản. Chuyển sang **Chỉ chi phí** để chỉ xem các khoản chi.
+
+### Thêm chi phí
+
+Bấm **Thêm chi phí**. Biểu mẫu có năm trường:
+
+- **Ngày** — ngày phát sinh khoản chi, không phải ngày bạn nhập.
+- **Chỗ nghỉ** — khoản chi thuộc chỗ nghỉ nào.
+- **Hạng mục** — **Điện**, **Nước**, **Dọn dẹp** hoặc **Khác**.
+- **Số tiền** — theo loại tiền của chỗ nghỉ.
+- **Ghi chú** — khoản chi dùng cho việc gì.
+
+Các khoản cũ có thể mang hạng mục khác (Đồ vải, Bảo trì, Sửa chữa, Tiện ích…). Chúng vẫn hiện trên
+bảng kê và vẫn lọc được; chỉ là biểu mẫu không đưa ra các hạng mục đó.
+
+### Chủ nhà chịu và đơn vị quản lý chịu
+
+Mỗi khoản chi hoặc là **Chủ nhà chịu**, hoặc là **Đơn vị quản lý chịu**. Khoản bạn thêm bằng
+**Thêm chi phí** là chủ nhà chịu. Bảng kê trừ cả hai; dùng bộ lọc để chỉ xem một bên.
+
+### Hóa đơn dùng chung
+
+Một đồng hồ điện cho cả tòa nhà là một hóa đơn cho nhiều listing. Đánh dấu các listing còn lại ở
+**Bao gồm thêm** — số tiền chỉ ghi một lần và không bao giờ bị chia nhỏ.
+
+Hóa đơn dùng chung chỉ được trừ khi bảng kê bao gồm **tất cả** listing mà hóa đơn ghi tên. Nếu bạn
+thu hẹp phạm vi xem xuống một phần trong số đó, hóa đơn chuyển sang danh sách riêng, **Chi phí dùng
+chung — chưa phân bổ**, và không bị trừ — nếu không, bảng kê của từng listing sẽ gánh cả hóa đơn.
+
+## Bộ lọc và kỳ báo cáo
+
+Mở **Bộ lọc** để chọn:
+
+- **Kỳ báo cáo** — **Tháng này**, **Tháng trước**, **3 tháng gần nhất**, **Năm nay** hoặc
+  **Khoảng tuỳ chọn**. Kỳ được dùng in trên bảng kê và ghi vào CSV, nên một khoảng thời gian không
+  bao giờ bị nhầm thành một tháng.
+- **Danh sách chỗ nghỉ** — một chỗ nghỉ, vài chỗ, hoặc tất cả.
+- **Hạng mục** và **Chủ nhà chịu** / **Đơn vị quản lý chịu** — để xem một phần chi phí.
+
+Lọc chi phí sẽ đổi tên dòng cuối từ **Chủ nhà thực nhận** thành **Còn lại sau các chi phí hiển
+thị**, kèm ghi chú bộ lọc nào đang bật. Một số khoản bị loại ra, nên con số không còn là số thực
+nhận của chủ nhà — và màn hình nói rõ điều đó thay vì để nó trông như vậy.
+
+### Bộ lọc đã lưu
+
+Trong **Đã lưu**, bấm **Lưu hiện tại** và đặt tên — ví dụ "Villa Anyar, tiện ích năm nay". Lần sau
+chỉ cần một cú bấm để mở lại, và có thể xóa ngay trong danh sách đó.
+
+## Tải CSV
+
+**Tải CSV**, cạnh tiêu đề trang, xuất đúng những gì đang hiện: cùng kỳ, cùng bộ lọc, cùng các
+dòng. Gửi cho chủ nhà hoặc kế toán của bạn. Santara AI không phải hệ thống sổ sách — nó là dữ liệu
+vận hành để đưa vào hệ thống đó.
+
+## Gói nào có tính năng này
+
+Báo cáo nằm trong gói **Operator** và mọi gói cao hơn. Với **Host**, trang mở ra một bảng khóa giải
+thích bản nâng cấp mang lại gì. Xem [Gói và thanh toán](/vi/setup/billing/).
+
+## Công suất, ADR và RevPAR
+
+Các con số đó — công suất, giá trung bình mỗi đêm của đặt phòng, RevPAR và phần so sánh từng phòng
+— nay nằm ở [Upsell](/vi/money/upsells/).

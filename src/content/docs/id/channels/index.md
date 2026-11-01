@@ -1,6 +1,6 @@
 ---
 title: Cara kerja koneksi channel
-description: Apa itu koneksi, apa yang tersinkronisasi di tiap arah, dan empat status yang dilewati sebuah listing.
+description: Apa itu koneksi, apa yang tersinkronisasi di tiap arah, tempat setiap channel dihubungkan, dan status yang dilewati sebuah listing.
 sidebar:
   order: 1
 ---
@@ -15,34 +15,59 @@ sebuah listing live, empat hal mengalir:
 | **Masuk sekali, saat impor** | Detail listing — judul, foto, fasilitas, kapasitas, tarif yang ada |
 | **Keluar bila diminta** | Balasan Anda ke pesan tamu; balasan Anda atas ulasan |
 
-Selain itu tidak ada. Santara AI tidak mengubah deskripsi listing Anda, dan tidak pernah mengubah harga
-di channel yang tidak Anda ketik atau tidak dihitung oleh aturan pricing Anda.
+Santara AI tidak pernah menulis ke konten listing **Airbnb** Anda — judul, deskripsi, dan fotonya
+tetap seperti di Airbnb. Santara AI juga tidak pernah mengubah harga di channel yang tidak Anda
+ketik atau tidak dihitung oleh aturan pricing Anda.
+
+Di **Booking.com dan channel lain**, konten properti Anda ikut dikirim. Saat Anda menyimpan properti
+atau kamar, Santara AI mengirim fotonya (hingga 30), deskripsi, kebijakan rumah, kebijakan pembatalan,
+dan fasilitasnya ke channel manager, yang meneruskannya ke channel yang menerimanya.
 
 ![Ketersediaan dan tarif keluar ke channel; booking, tamu, pesan, dan ulasan masuk kembali. Detail listing datang sekali, saat impor.](/diagrams/sync-directions.id.svg)
 
 ## Channel yang didukung
 
-Santara AI terhubung ke **54 channel penjualan**, ditambah situs booking Anda sendiri. Airbnb dan
-Booking.com punya alur koneksi terpandu; setiap channel lain terhubung dari daftar channel di
-Pengaturan.
+Santara AI terhubung ke **54 channel penjualan**, ditambah situs booking Anda sendiri. Setiap
+channel, termasuk Airbnb dan Booking.com, adalah satu kotak di **Pengaturan → Channel → Tambah
+channel**. Tekan **Hubungkan** pada sebuah kotak dan penyiapan tiga langkah terbuka.
 
 | Channel | Cara menghubungkan |
 | --- | --- |
-| **Airbnb** | Anda mengotorisasi Santara AI di Airbnb, lalu memilih listing — [Hubungkan Airbnb](/id/channels/airbnb/) |
-| **Booking.com** | Anda menambahkan connectivity provider di extranet, lalu memasukkan Hotel ID — [Hubungkan Booking.com](/id/channels/booking-com/) |
-| **Setiap channel lain** — Agoda, Expedia, Trip.com, Vrbo, Traveloka, Tiket.com, Hostelworld, dan lainnya | **Pengaturan → Channel → Tambah channel**, pilih dari daftar, lalu hubungkan dan petakan dalam tiga langkah — [Hubungkan channel lain](/id/channels/other-channels/) |
+| **Airbnb** | Hubungkan, pilih listing, impor. Santara AI membuat properti dan kamar dari listing Anda — [Hubungkan Airbnb](/id/channels/airbnb/) |
+| **Booking.com** | Pilih properti, hubungkan dan petakan (Hotel ID Anda), impor — [Hubungkan Booking.com](/id/channels/booking-com/) |
+| **Setiap channel lain** — Agoda, Expedia, Trip.com, Traveloka, Tiket.com, Hostelworld, dan lainnya | Pilih properti, hubungkan dan petakan, impor — [Hubungkan channel lain](/id/channels/other-channels/) |
 | **Situs booking Anda** | Bawaan Santara AI, tanpa koneksi — [Situs booking langsung Anda](/id/setup/booking-site/) |
-| **PriceLabs** | Deteksi baca-saja: jika Anda memakai PriceLabs, mesin pricing Santara AI mengalah |
+
+**Setiap channel selain Airbnb membutuhkan properti dengan kamar terlebih dahulu.** Sebelum ada,
+kotaknya menampilkan **Tambah properti dulu** — menghubungkan channel memetakan kamar yang sudah Anda
+punya, bukan membuatnya. Tambahkan di [Properti](/id/setup/properties/), atau hubungkan Airbnb dulu
+dan biarkan ia membuatnya.
+
+:::note[PriceLabs sedang dijeda]
+Koneksi PriceLabs baru sedang dijeda, jadi PriceLabs tidak punya kotak. Koneksi PriceLabs yang sudah
+ada tetap berjalan dan masih bisa diputus.
+:::
 
 Setiap channel mendapat kalender, tarif, dan restriksi yang sama, serta membawa masuk booking,
 pembatalan, dan tamu. Dua hal berbeda per channel:
 
 - **Pesan tamu.** Balasan hanya bisa dikirim di **Airbnb, Booking.com, dan Expedia** — channel yang
   meneruskan pesan tamu lewat koneksinya. Di channel lain, balas tamu di kotak masuk channel itu
-  sendiri. Pesan tamu Vrbo tidak didukung.
+  sendiri.
 - **Ulasan** masuk, dan bisa dibalas, bila channel meneruskannya.
 
 ![Pengaturan → Channel sebelum ada yang terhubung. Tiap channel ditautkan sendiri-sendiri dengan status dan waktu sinkron terakhirnya.](/screens/channels.id.png)
+
+## Tiga tab
+
+**Pengaturan → Channel** punya tiga tab:
+
+- **Tambah channel** — katalognya. Cari berdasarkan nama, atau saring menurut jenis, lalu tekan
+  **Hubungkan**. Channel yang sudah Anda pakai menampilkan **Tambah akun lain**.
+- **Terhubung** — semua koneksi Anda. Buka salah satunya untuk melihat listing, status sinkron, dan
+  status tayangnya.
+- **Aplikasi** — aplikasi yang Anda izinkan masuk ke akun Anda, seperti Santi, ChatGPT, atau Claude.
+  Lihat [Hubungkan asisten AI](/id/help/ai-assistants/).
 
 ## Koneksi dan akun
 
@@ -58,20 +83,22 @@ Setiap koneksi punya halaman sendiri di **Pengaturan → Channel** yang menampil
 sinkron terakhir, dan seluruh tindakan yang tersedia. Tidak ada bagian Santara AI yang mengasumsikan
 hanya ada satu dari apa pun.
 
-## Empat status listing
+## Status listing
 
-Kosakata ini dipakai identik di setiap layar:
+Setiap listing di halaman koneksi membawa salah satu label ini:
 
-![Empat status yang dilewati sebuah listing, dengan Go live sebagai gerbang sebelum status terakhir.](/diagrams/listing-states.id.svg)
+| Label | Artinya |
+| --- | --- |
+| **Belum tertaut** | Santara AI melihat listing di channel; belum menunjuk kamar di sini. Tidak ada yang tersinkronisasi |
+| **Tertaut — tarif belum dipetakan** | Sudah menunjuk kamar, tetapi tarifnya belum punya tujuan |
+| **Perlu tindakan** | Ada yang perlu Anda lakukan — alasannya tampil di sebelahnya, misalnya *Konfirmasi kapasitas untuk melanjutkan* |
+| **Siap — belum tayang** | Sudah disiapkan dan dipetakan, tetapi channel belum menyerahkan kendali |
+| **Menerbitkan…** | Sedang ditayangkan |
+| **Tayang** | Ketersediaan dan tarif keluar, booking dan pesan masuk |
+| **Gangguan** | Channel menolak sesuatu; alasannya tampil di sebelahnya |
 
-1. **Belum terhubung** — tidak ada akun channel yang tertaut.
-2. **Tertaut — belum dipetakan** — Santara AI melihat listing di channel, tetapi belum menunjuk kamar
-   di sini. Tidak ada yang tersinkronisasi.
-3. **Dipetakan — menunggu aktivasi** — sudah menunjuk kamar. Tetap belum ada yang tersinkronisasi.
-4. **Live** — ketersediaan dan tarif keluar, booking dan pesan masuk.
-
-Jarak antara 3 dan 4 disengaja dan Andalah yang menutupnya. Lihat
-[Go live](/id/channels/going-live/).
+Di Airbnb, mengimpor listing menayangkannya sebagai langkah terakhir. Di Booking.com dan setiap
+channel lain, memetakan kamar langsung menayangkannya. Lihat [Go live](/id/channels/going-live/).
 
 ## Waktu sinkronisasi
 

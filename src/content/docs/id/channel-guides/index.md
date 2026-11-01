@@ -51,7 +51,6 @@ Lalu pilih properti untuk channel itu. Langkah 2 menampilkan kolom penyiapan mil
 | [Tiket.com](/id/channel-guides/tiket-com/) | Hotel ID | Kamar dan tarif |
 | [Klook](/id/channel-guides/klook/) | Hotel ID | Kamar dan tarif |
 | [MakeMyTrip and Goibibo](/id/channel-guides/makemytrip/) | Hotel ID + access token | Biasanya multi-okupansi |
-| [Vrbo](/id/channel-guides/vrbo/) | Username + password Vrbo | Listing demi listing |
 | [Hostelworld](/id/channel-guides/hostelworld/) | Hotel ID | Okupansi maksimum |
 | [Hotelbeds](/id/channel-guides/hotelbeds/) | Username + password, lalu kontrak | Kamar dan tarif |
 | [Despegar](/id/channel-guides/despegar/) | Hotel ID + username + API password | Kamar dan tarif |

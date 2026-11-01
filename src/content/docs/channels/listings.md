@@ -13,7 +13,8 @@ connection to get the full list of its listings, each managed on its own.
 Each connected account has its own page showing:
 
 - **Status** and **last sync** time.
-- **Listings on this connection**, each with its state — *linked*, *mapped*, *live* — and the
+- **Listings on this connection**, each with its state — *Not linked*, *Ready — not live*, *Live*
+  and the others listed in [How channel connections work](/channels/#listing-states) — and the
   Santara AI room it points at.
 - **Refresh**, which re-reads everything from the channel now rather than waiting for the schedule.
 
@@ -24,12 +25,14 @@ most "the channel and Santara AI disagree" reports on its own.
 
 Open the connection, press **Find listings on this account**, and the listings not yet imported are
 listed. Pick where each goes, exactly as at first import. New listings you create on the channel
-later show up here too.
+later show up here too. On Airbnb, importing a listing from here also takes it live; on other
+channels, mapping a room does.
 
 ## Add another account
 
-**Connect another account** on the same channel. Common for managers holding listings under several
-Airbnb logins. Each connection is independent — its own listings, its own status, its own sync.
+Open **Settings → Channels → Add a channel** and press **Add another account** on the channel's
+tile. Common for managers holding listings under several Airbnb logins. Each connection is
+independent — its own listings, its own status, its own sync.
 
 ## Move a listing to a different room
 
@@ -62,14 +65,7 @@ otherwise the channel keeps a mapping to a room that no longer exists here.
 
 ## PriceLabs
 
-If you already run PriceLabs, connect it under **Settings → Channels → Connect PriceLabs** and
-Santara AI's own pricing engine stands aside for the listings PriceLabs manages.
-
-You provide your PriceLabs **account email** and an **API key** (PriceLabs → account settings →
-API). The key is verified with PriceLabs, stored encrypted, and used only to confirm the account —
-Santara AI does not read prices from PriceLabs.
-
-:::caution
-Never paste a PriceLabs password anywhere in Santara AI. Sign in on PriceLabs' own site and provide
-an API key intended for integrations.
-:::
+New PriceLabs connections are **paused**: PriceLabs has no tile in **Add a channel**, and a new
+connection cannot be made. A PriceLabs connection you already have keeps working — Santara AI's own
+pricing engine still stands aside for the listings PriceLabs manages — and it can still be
+disconnected from **Settings → Channels → Connected**.

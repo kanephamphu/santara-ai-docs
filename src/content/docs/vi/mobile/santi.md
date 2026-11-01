@@ -13,7 +13,7 @@ sidebar:
 
 Santi có chỗ riêng trong app. Chạm **Santi** trên công tắc **Santara | Santi** ở đầu màn hình để mở, và chạm **Santara** để quay lại các tab quen thuộc. App nhớ lần cuối bạn dùng bên nào.
 
-Santi cũng mở khi bạn chạm **Hỏi Santi** trên một mục (xem bên dưới) hoặc chạm thông báo của Santi. Nút tròn nổi ở góc dưới các màn hình chính là một trợ lý khác: nút này luôn mở [Trợ lý Ask Santara](/vi/mobile/ai-assistant/).
+Santi cũng mở khi bạn chạm **Hỏi Santi** trên một mục (xem bên dưới) hoặc chạm thông báo của Santi. Nút tròn nổi ở góc dưới các màn hình chính cũng mở Santi khi bạn đã đăng nhập Santi; nếu chưa, nút này mở [Hỏi Santara](/vi/mobile/ai-assistant/).
 
 ![Công tắc Santara | Santi trên header](/screens/vi/santi_switch.vi.png)
 
@@ -112,7 +112,7 @@ Khi bạn mở Santi sau một thời gian vắng, Santi bắt đầu bằng nh�
 Santi chỉ dành cho người được mời. Khi chưa kết nối, nút **Hỏi Santi** bị ẩn. Chạm **Santi** trên header để kết nối.
 
 **Tôi chạm nút tròn nổi nhưng lại ra một khung chat khác.**
-Nút đó luôn mở [Trợ lý Ask Santara](/vi/mobile/ai-assistant/), trợ lý riêng của Santara AI. Để vào Santi, dùng công tắc **Santara | Santi** ở đầu màn hình.
+Nút đó mở Santi khi bạn đã đăng nhập Santi, và mở [Hỏi Santara](/vi/mobile/ai-assistant/) nếu chưa. Bạn cũng có thể dùng công tắc **Santara | Santi** ở đầu màn hình.
 
 **"Thiết bị này không hỗ trợ giọng nói."**
 Giọng nói cần bản app Santara AI đầy đủ và quyền micro, nhận dạng giọng nói. Nếu bạn đã từ chối, hãy cho phép **micro và nhận dạng giọng nói** trong Cài đặt của điện thoại.

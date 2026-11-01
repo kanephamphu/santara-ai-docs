@@ -66,20 +66,42 @@ nhưng dưới những giới hạn thật:
   trả lời là họ không có quyền, chứ không nhận được con số.
 - **Workspace đến từ phiên đăng nhập của bạn**, không bao giờ từ thứ bạn hay nó gõ ra. Không thể
   thuyết phục nó chuyển sang workspace khác.
-- **Nó chỉ đọc, với đúng một ngoại lệ**: nó có thể *soạn nháp* câu trả lời cho khách. Nó không gửi
-  được tin nhắn, đổi giá, sửa lượt đặt, đưa listing lên chạy, hay chuyển tiền.
+- **Mọi thay đổi nó làm đều được đề xuất trước và chờ bạn duyệt.** Nó đọc thoải mái, nhưng bất cứ
+  việc gì làm thay đổi dữ liệu — gửi trả lời cho khách, tạo ticket, giao việc dọn phòng hoặc
+  ticket, đổi trạng thái ticket, hay tạo, sửa hoặc hủy đặt phòng — đều hiện thành một thẻ để bạn
+  xác nhận. Không có gì xảy ra cho tới khi bạn bấm **Xác nhận**. Nó không đổi được giá, không đưa
+  listing lên chạy và không chuyển tiền.
 
 Tin nhắn khách, bản tóm tắt và bản nháp được xử lý bởi **nhà cung cấp mô hình AI bên thứ ba** theo
 hợp đồng, như [chính sách quyền riêng tư](https://www.santara.ai/vi/quyen-rieng-tu/) mô tả. Kết quả
 AI có thể sai — bản tóm tắt, bản nháp và tín hiệu giá đều là những thứ bạn xem lại trước khi hành
-động. Không gì được gửi tới khách nếu bạn không bấm gửi.
+động. Không gì được gửi tới khách trừ khi bạn bấm gửi hoặc xác nhận — hoặc chính bạn bật tự động trả
+lời.
+
+Nếu bạn [kết nối ChatGPT hoặc Claude](/vi/help/ai-assistants/), trợ lý đó truy cập workspace của bạn
+qua `mcp.santara.ai` bằng quyền của bạn, và những gì nó đọc được xử lý bởi nhà cung cấp trợ lý đó,
+theo tài khoản riêng của bạn với họ.
+
+## Khi nhân viên Santara AI mở workspace của bạn
+
+Để xử lý sự cố bạn báo, nhân viên Santara AI có thể mở workspace của bạn với **quyền quản trị**.
+Quyền đó:
+
+- **Kéo dài tối đa 2 giờ**, rồi tự hết hạn. Nhân viên có thể thoát sớm hơn.
+- **Được ghi lại mỗi lần** — ai mở workspace nào, lúc nào và vì sao — trong nhật ký kiểm tra.
+- **Hiện với họ thành một dải băng đỏ** ở đầu mọi màn hình trong suốt thời gian truy cập, nhắc rằng
+  mọi thay đổi họ làm là thật.
+
+Nhân viên không bao giờ được thêm vào danh sách đội của bạn, và không nhận thông báo hay bản tin
+của bạn.
 
 ## Cái gì rời khỏi workspace của bạn
 
 | Đi tới | Cái gì, và vì sao |
 | --- | --- |
-| **Airbnb / Booking.com** | Tình trạng trống, giá và ràng buộc đi ra; đặt phòng, khách, tin nhắn và đánh giá đi vào — qua nhà cung cấp kết nối kênh của chúng tôi |
+| **Các kênh đặt phòng của bạn** — Airbnb, Booking.com, Google Hotel và các kênh khác bạn kết nối | Tình trạng trống, giá và ràng buộc đi ra, cùng nội dung chỗ nghỉ: ảnh, mô tả, nội quy và chính sách hủy, tiện nghi. Đặt phòng, khách, tin nhắn và đánh giá đi vào. Tất cả qua nhà cung cấp kết nối kênh của chúng tôi |
 | **Nhà cung cấp mô hình AI** | Phần văn bản cần để viết bản tóm tắt, soạn nháp trả lời hoặc chấm điểm cơ hội |
+| **Trợ lý AI bạn kết nối** — ChatGPT, Claude | Những gì bạn hoặc đội của bạn hỏi chúng, qua `mcp.santara.ai` — xem [Kết nối ChatGPT, Claude hoặc Grok](/vi/help/ai-assistants/) |
 | **Stripe** | Thẻ của bạn, cho gói thuê bao. Santara AI không bao giờ thấy số thẻ |
 | **Stripe, tài khoản của chính bạn** | Thanh toán đặt phòng trực tiếp — xem bên dưới |
 | **Email** | Lời mời, mã xác minh và mã đặt lại, cùng những gì bạn chủ động gửi |
@@ -95,16 +117,14 @@ Santara AI lấy **3% hoa hồng** trên đặt phòng trực tiếp.
 
 ## Lấy dữ liệu ra
 
-- **Báo cáo** — mọi tệp CSV trong [thư viện báo cáo](/vi/money/reports/#thư-viện-báo-cáo) được tạo
-  từ dữ liệu trực tiếp ngay lúc bạn yêu cầu. Đặt phòng, doanh thu, công suất, upsell, chi phí và
-  bảng kê chủ sở hữu.
-- **Kế toán** — bảng kê chủ sở hữu xuất theo kỳ và theo bất động sản.
+- **Báo cáo** — bảng kê cho chủ nhà cùng các khoản chi xuất ra CSV bằng
+  [Tải CSV](/vi/money/reports/#tải-csv), cho bất kỳ kỳ nào và bất kỳ nhóm listing nào.
 - **Hóa đơn** — từ chính cổng của Stripe, qua
   [Quản lý thanh toán](/vi/setup/billing/#quản-lý-thanh-toán).
 - **Tài liệu này** — mỗi trang cũng có bản markdown, nếu bạn muốn chính bộ tài liệu
   ([Dùng tài liệu này với công cụ AI](/vi/help/for-ai-tools/)).
 
-Để xuất đầy đủ ngoài phạm vi báo cáo — hoặc yêu cầu xóa dữ liệu — hãy gửi email tới
+Để xuất đầy đủ ngoài phạm vi báo cáo — hoặc để xóa cả một workspace — hãy gửi email tới
 **hello@santara.ai**. Nhớ nêu rõ workspace nào.
 
 ## Xóa thì thực sự xóa những gì
@@ -115,7 +135,7 @@ Santara AI lấy **3% hoa hồng** trên đặt phòng trực tiếp.
 | --- | --- | --- |
 | **Xóa một listing** | Đặt phòng, tin nhắn, khách và đánh giá đã nhập của phòng đó | Listing trên Airbnb hoặc Booking.com |
 | **Ngắt một tài khoản** | Y như trên, cho mọi listing của kết nối đó; việc đồng bộ dừng lại | Mọi thứ ở phía kênh |
-| **Xóa một bất động sản** | Bất động sản đó và các phòng của nó | Không hoàn tiền cho tháng đang chạy |
+| **Xóa một bất động sản** | Bất động sản đó, các phòng, đặt phòng, lịch, tin nhắn và các tin đăng đã kết nối của nó trong Santara AI | Không hoàn tiền cho tháng đang chạy |
 | **Gỡ một thành viên** | Quyền truy cập của họ, ngay lập tức, trên mọi thiết bị | Công việc họ đã làm vẫn ghi tên họ |
 | **Hủy gói thuê bao** | Không mất gì, cho tới khi hết kỳ đã trả tiền | Listing trên kênh vẫn chạy bình thường |
 
@@ -127,14 +147,43 @@ Hai điều trong số đó hay khiến người ta bất ngờ:
   nhắn họ đã gửi vẫn nằm trong hồ sơ dưới tên họ. Đó là chủ đích; một lịch sử vận hành tự viết lại
   mỗi khi có người rời đi thì không còn là lịch sử.
 
-Xóa một bất động sản vẫn còn listing đang kết nối sẽ **bị từ chối** — hãy ngắt listing của nó trước,
-để phía kênh cũng được dọn dẹp thay vì bị bỏ lại trỏ tới một phòng không còn tồn tại.
+Xóa một bất động sản vẫn đang kết nối với kênh sẽ **bị từ chối** — hãy ngắt kết nối kênh trước, để
+phía kênh cũng được dọn dẹp thay vì bị bỏ lại trỏ tới một phòng không còn tồn tại.
+
+## Xóa tài khoản của bạn
+
+Bạn có thể tự xóa tài khoản của mình:
+
+- **Trong ứng dụng** — Cài đặt → Cài đặt cá nhân → **Xoá tài khoản**, rồi gõ email của bạn để xác
+  nhận.
+- **Trên web** — tại [santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=vi),
+  sau khi đăng nhập.
+
+Điều gì xảy ra:
+
+1. Bạn **bị đăng xuất khỏi mọi thiết bị ngay lập tức**, và tài khoản không thể đăng nhập nữa.
+2. Đội ngũ của chúng tôi xem xét yêu cầu và **hoàn tất trong vòng 30 ngày**.
+3. Tên, email, số điện thoại, ảnh và mật khẩu của bạn bị xóa. Đặt phòng, hóa đơn và các dữ liệu khác
+   của workspace bạn từng làm việc **được giữ lại cho kế toán, ở dạng ẩn danh** — không còn thông tin
+   cá nhân của bạn.
+
+Nếu bạn là **chủ duy nhất** của một workspace có người khác dùng, hãy chuyển quyền chủ cho người khác
+trước; yêu cầu sẽ bị từ chối cho tới khi bạn làm vậy. Không đăng nhập được? Gửi email tới
+**support@santara.ai** từ địa chỉ email của tài khoản, đội ngũ sẽ xóa giúp bạn.
 
 ## Nếu việc thanh toán bị gián đoạn
 
-Dữ liệu của bạn không biến mất. Một gói thuê bao không hoạt động khiến workspace thành **chỉ đọc** —
-mọi thứ vẫn còn đó, bạn chỉ không thay đổi được cho tới khi việc thanh toán được giải quyết. Việc
-đồng bộ là thứ dừng trước tiên. Xem
+Dữ liệu của bạn không biến mất, và không có gì bị xóa.
+
+- **Thời gian dùng thử miễn phí kết thúc mà chưa có thẻ** vẫn được dùng đầy đủ thêm **7 ngày**. Sau
+  đó workspace thành **chỉ đọc** — mọi thứ vẫn còn đó, bạn chỉ không thay đổi được cho tới khi chọn
+  gói.
+- **Gia hạn thất bại** được một khoảng ân hạn ngắn để sửa thẻ, sau đó workspace cũng thành chỉ đọc.
+- **Sau 30 ngày chỉ đọc**, các việc chạy nền cũng tạm dừng: bản tin hằng ngày, đồng bộ giá ban đêm,
+  và đặt phòng cùng tin nhắn mới từ các kênh. Listing của bạn vẫn chạy bình thường trên chính các
+  kênh đó.
+
+Thanh toán xong là mọi thứ chạy lại — kể cả đặt phòng và tin nhắn đến trong lúc tạm dừng. Xem
 [Nếu thanh toán thất bại](/vi/setup/billing/#nếu-thanh-toán-thất-bại).
 
 ## Dữ liệu khách cũng là trách nhiệm của bạn

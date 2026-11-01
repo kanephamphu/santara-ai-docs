@@ -1,6 +1,6 @@
 ---
 title: Quickstart
-description: From an empty workspace to live on your channels. Four steps, about half an hour, most of it waiting for a channel to answer.
+description: From sign-up to live on your channels. Four steps, about half an hour, most of it waiting for a channel to answer.
 sidebar:
   order: 2
 ---
@@ -19,42 +19,58 @@ This is the short path. Every step has a page of its own if you want the detail.
 
 ## 1. Create your workspace
 
-Sign up, confirm your email, and you land on **Today** with a **Get set up** checklist at the top.
-The checklist is the same three steps below and it tracks your progress — you can leave and come
-back.
+Sign up, then enter the **6-digit code** we email you. A short signup survey follows — a few
+questions about how you host — and then a product tour of the main screens. The tour ends on
+**Settings → Channels**, which is where step 2 starts. You can replay it any time from the
+**Get set up** checklist on **Today**; the checklist tracks your progress, so you can leave and
+come back.
 
-Set your language and timezone now, under **Settings → Personal**. The timezone decides what
-"today" means for arrivals, cleaning and the daily brief, so getting it right first saves
-confusion later.
+Your workspace starts on a **90-day free trial**. What it includes and when it ends:
+[Billing](/setup/billing/).
+
+Two clocks are worth setting now:
+
+- **Settings → Personal** — your own language and timezone. It follows you across workspaces.
+- **Settings → Workspace** — the **Workspace timezone**, shared by everyone in the workspace. It
+  sits beside **Daily brief time** and decides when the daily brief arrives. Arrivals, check-outs and cleaning use each property's own timezone,
+  set on the property.
 
 ## 2. Connect a channel
 
-**Settings → Channels**.
+**Settings → Channels → Add a channel**. Every channel is a tile; press **Connect** on one and a
+three-step setup opens.
 
-- **Airbnb** — press *Connect Airbnb*, authorise on Airbnb's own page, and come back. Santara AI
-  reads the listings the account shares with it. Full walkthrough:
+- **Airbnb** — needs nothing set up first. You authorise Santara AI on Airbnb's own page, and
+  Santara AI creates your properties and rooms from the listings. Full walkthrough:
   [Connect Airbnb](/channels/airbnb/).
-- **Booking.com** — you first add our connectivity provider in your extranet, then enter your
-  Hotel ID here. Full walkthrough: [Connect Booking.com](/channels/booking-com/).
+- **Booking.com** — needs a **property with a room** in Santara AI first; until you have one, the
+  tile shows **Add a property first**. You add our connectivity provider in your extranet, then
+  enter your Hotel ID. Full walkthrough: [Connect Booking.com](/channels/booking-com/).
+- **Any other channel** works like Booking.com — [Connect another channel](/channels/other-channels/).
 
-Not on either? You can [create properties by hand](/setup/properties/) and still use the calendar,
-messages, cleaning and your booking site.
+Not on any channel? You can [create properties by hand](/setup/properties/) and still use the
+calendar, messages, cleaning and your booking site.
 
 ## 3. Import your listings
 
-After authorising, you get a list of the listings on the account. Untick anything you do not want.
-For each one, choose whether it becomes a **new property** or a **room inside a property you
-already have** — a villa with three bedrooms sold separately is one property with three rooms.
+On Airbnb, after authorising, you get a list of the listings on the account. Untick anything you
+do not want. For each one, choose whether it becomes a **new property** or a **room inside a
+property you already have** — a villa with three bedrooms sold separately is one property with
+three rooms.
 
-Press *Set up listings*. Santara AI creates the properties and rooms, maps each listing, and reads
-the rates from the channel.
+Press **Import N listings**. Listings are imported one at a time: Santara AI creates the property
+and room, maps the listing, reads its price from Airbnb, and takes it live. **Stop after this one**
+pauses the run; the setup picks up where you left off.
 
-:::caution[This does not go live]
-At the end of the import you will see **Set up — not live yet**. Your listings are mapped and
-your rates are read, and the channel still runs its own calendar. Nothing syncs out until step 4.
+On Booking.com and other channels, you map each channel room to one of your rooms instead.
+
+:::caution[Read Going live before this step]
+On Airbnb, the import takes each listing live. On Booking.com and other channels, mapping a room
+takes it live. From then on Santara AI drives the calendar. [Going live](/channels/going-live/)
+is one page, and it explains exactly what changes and what to check first.
 :::
 
-## 4. Check the details, then go live
+## 4. Check the details, and finish going live
 
 Open **Properties** and look at each imported room:
 
@@ -63,9 +79,10 @@ Open **Properties** and look at each imported room:
   pricing and the booking site.
 - **Photos, wifi, door code, address** — used by guest messages and your booking site.
 
-Then go back to **Settings → Channels** and press **Go live**. That is the moment Santara AI takes
-over the calendar. Read [Going live](/channels/going-live/) first — it is one page and it explains
-exactly what changes.
+If an Airbnb listing did not go live during the import, it shows **Set up — not live yet**. Press
+**Go live on Airbnb** in the import step, or **Go live** beside the listing on its connection page
+under **Settings → Channels → Connected**. If Santara AI asks you to **Confirm capacity**, do that
+first — see [Going live](/channels/going-live/#check-these-things-first).
 
 ## What happens next
 

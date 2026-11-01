@@ -1,14 +1,24 @@
 ---
 title: Hubungkan Booking.com
-description: Tambahkan connectivity provider di extranet, masukkan Hotel ID, petakan kamar, dan Santara AI mengaktifkan channel untuk Anda.
+description: Tambahkan connectivity provider di extranet, pilih properti, masukkan Hotel ID, dan petakan kamar — memetakan kamar langsung menayangkannya.
 sidebar:
   order: 3
 ---
 
 Booking.com bekerja berbeda dari Airbnb: tidak ada popup login. Anda memberi izin di extranet Anda
-sendiri, lalu memberi tahu Santara AI properti mana yang dituju.
+sendiri, lalu menghubungkannya ke properti yang sudah ada di Santara AI.
 
-![Dialog koneksi Booking.com — langkah extranet, Hotel ID, dan properti yang ditautkan.](/screens/connect-booking-com.id.png)
+## Yang Anda butuhkan
+
+- **Properti dengan minimal satu kamar** di Santara AI. Menghubungkan Booking.com memetakan kamar
+  yang sudah Anda punya — tidak membuat properti. Sebelum ada, kotak Booking.com menampilkan
+  **Tambah properti dulu**. Tambahkan di [Properti](/id/setup/properties/).
+- Akses ke **extranet Booking.com** sebagai pemilik properti.
+- **Hotel ID** Anda — angka di bagian atas extranet, di sebelah nama properti.
+
+Penyiapannya tiga langkah: **Pilih properti**, **Hubungkan dan petakan**, **Impor**.
+
+![Langkah koneksi Booking.com — kotak centang extranet dan Hotel ID.](/screens/connect-booking-com.id.png)
 
 ## 1. Aktifkan koneksi di extranet
 
@@ -17,7 +27,7 @@ konektivitasnya — itulah nama yang Anda cari di Booking.com. Sebaiknya langkah
 properti: Booking.com mengirim kode masuk dua langkah ke ponsel pemilik.
 
 1. Masuk di **account.booking.com**. Catat **ID properti** di bagian atas, di sebelah nama properti —
-   itulah Hotel ID yang Anda masukkan di langkah 2. Lalu buka **Account → Connectivity provider**.
+   itulah Hotel ID yang Anda masukkan di langkah 3. Lalu buka **Account → Connectivity provider**.
 
    ![Extranet Booking.com: ID properti di sebelah nama, dan Account → Connectivity provider.](/channel-guides/extranet/booking-com-account-menu.webp)
 
@@ -45,7 +55,7 @@ properti: Booking.com mengirim kode masuk dua langkah ke ponsel pemilik.
 
    ![Menunggu konfirmasi provider — lanjutkan di Santara AI.](/channel-guides/extranet/booking-com-waiting.webp)
 
-Tidak ada yang terjadi di Santara AI sebelum ini selesai. Dialog koneksi punya kotak centang konfirmasi
+Tidak ada yang terjadi di Santara AI sebelum ini selesai. Langkah koneksi punya kotak centang konfirmasi
 karena melewatkan langkah ini adalah penyebab kegagalan paling umum.
 
 :::caution[Periksa tarif turunan setelah terhubung]
@@ -53,39 +63,41 @@ Saat channel manager terhubung, Booking.com bisa mengubah pengaturan **tarif tur
 rates) — misalnya minimum menginap. Periksa setiap tarif turunan di extranet setelah terhubung.
 :::
 
-## 2. Masukkan Hotel ID
+## 2. Pilih properti
 
-**Pengaturan → Channel → Hubungkan Booking.com**.
+**Pengaturan → Channel → Tambah channel**, lalu tekan **Hubungkan** pada kotak **Booking.com**.
+Langkah pertama menanyakan **Hotel ini properti yang mana?** Pilih properti Santara AI-nya, lalu
+tekan **Lanjut**. Kamar Booking.com Anda dipetakan ke kamar properti itu — tidak ada properti baru
+yang dibuat. Jika properti itu sudah ada di Airbnb, itu wajar; satu properti dijual di dua tempat.
 
-**Hotel ID** adalah angka yang tampil di bagian atas extranet, di sebelah nama properti — misalnya
-`1234567`. Beri nama tampilan bila perlu.
+## 3. Hubungkan dan petakan
 
-## 3. Tautkan ke properti
+**Hubungkan.** Centang kotak yang menyatakan Anda sudah menambahkan connectivity provider dan
+menyetujui perjanjian di extranet. Masukkan **Hotel ID** Anda (misalnya `1234567`) dan, bila perlu,
+**Nama tampilan (opsional)**. Tekan **Uji koneksi** untuk memeriksanya dulu:
 
-Pilih properti Santara AI yang menjadi milik hotel ini. Hotel terhubung **langsung ke properti
-tersebut** — tidak ada properti baru dibuat — dan kamar lain yang ditemukan di extranet ditambahkan
-ke sana saat terdeteksi.
+- *Booking.com menerima Hotel ID ini.* — lanjutkan.
+- *Booking.com tidak menerima Hotel ID ini.* — periksa angkanya, dan pastikan permintaan provider di
+  langkah 1 sudah diterima.
 
-Belum punya properti? Pilih **Properti baru — dibuat dari hotel ini**. Jika properti itu sudah ada
-di Airbnb, ia ditandai *sudah ada di Airbnb* — itu wajar; satu properti dijual di dua tempat.
+Lalu tekan **Hubungkan Booking.com**. Berbeda dari Airbnb, ini langsung terjadi tanpa jendela tunggu.
 
-Tekan **Hubungkan properti**. Berbeda dari Airbnb, ini langsung terjadi tanpa jendela tunggu.
+**Petakan.** Santara AI menanyakan kamar hotel itu ke Booking.com dan menampilkannya di **Kamar
+Anda**. Untuk tiap kamar Booking.com:
 
-## 4. Petakan kamar
+- pilih kamar Santara AI yang sesuai (**Pilih kamar…**);
+- arahkan tiap tarif Booking.com ke salah satu rate plan Anda, lalu **Simpan pemetaan tarif**. Di
+  **Paket tarif di kamar ini** Anda bisa menambah paket langsung (**+ Tambah paket tarif**) atau
+  mengganti paket utama (**Jadikan utama**).
 
-Santara AI menanyakan kamar hotel itu ke Booking.com dan menampilkannya di **Kamar Anda**. Untuk tiap
-kamar, pilih kamar Santara AI yang sesuai.
+Tiap kamar dipetakan dari barisnya sendiri; bila ada beberapa kamar, **Petakan, aktifkan &
+sinkronkan N kamar** memetakan semuanya sekaligus. Setelah selesai, tekan **Lanjut**.
 
-Jika tidak ada yang muncul, tekan **Cari kamar saya** lagi, atau gunakan **Hubungkan kamar ke
-properti sendiri** dan masukkan manual dari halaman **Property → Rooms & rates** di extranet:
-
-- **Nama kamar** — misalnya *Standard Double Room*
-- **Room ID** — misalnya `437213702`
-- **Rate ID** — misalnya `25014098, 25014104`
-- **Tamu** — kapasitas kamar
-
-Lalu tekan **Petakan, aktifkan & sinkronkan**. Santara AI memetakan kamar, mengaktifkan channel, dan
-menyinkronkan booking, ulasan, dan pesan, sambil menampilkan tiap tahap.
+:::caution[Memetakan kamar langsung menayangkannya]
+Tidak ada langkah Go live terpisah di Booking.com. Memetakan kamar akan menyiapkannya dan membuatnya
+aktif — ketersediaan langsung mulai disinkronkan. Baca [Go live](/id/channels/going-live/) sebelum
+memetakan.
+:::
 
 :::note[Membedakan kamar]
 Booking.com menampilkan nama kamar **bawaan**, bukan nama yang Anda ubah di extranet, sehingga dua
@@ -95,12 +107,19 @@ gagal. Jika tidak diperlukan, hapus di extranet (tarif turunan yang dibuat ulang
 dipetakan).
 :::
 
+## 4. Impor
+
+Santara AI membawa masuk menginap, pesan, dan ulasan yang sudah dimiliki hotel itu (*Memindahkan
+pemesanan Anda*). Anda boleh meninggalkan halaman — prosesnya tetap berjalan. Saat muncul *Sudah
+terhubung*, **Buka channel ini** membuka halaman koneksinya.
+
 ## Yang bisa menahan sebuah kamar
 
 | Di layar | Artinya |
 | --- | --- |
-| *Tertaut — belum dipetakan* | Booking.com mengenal kamarnya; belum menunjuk kamar Santara AI |
+| *Terhubung — belum dipetakan* | Booking.com mengenal kamarnya; belum menunjuk kamar Santara AI |
 | *Dipetakan — menunggu aktivasi* | Sudah dipetakan, channel belum aktif. Booking tersinkron setelah aktivasi berhasil |
+| *Konfirmasi kapasitas untuk melanjutkan* | Konfirmasi berapa unit identik yang dimiliki properti, dan tarif per malamnya — lihat [Go live](/id/channels/going-live/#periksa-hal-hal-ini-dulu) |
 | *tetap tertaut tetapi tidak dipetakan — rate plan-nya tidak memberi harga untuk jumlah tamu yang diterima Booking.com* | Buka rate plan kamar itu, beri harga untuk okupansi tersebut, lalu petakan lagi |
 | *Belum ada kamar ditemukan* | Periksa Hotel ID dan connectivity provider, lalu segarkan |
 
@@ -126,7 +145,7 @@ perlakukan Santara AI sebagai sumber kebenaran.
 - **Ganti properti** — reservasi dan pesan mendatang mendarat di properti yang Anda pilih. Yang sudah
   diimpor tetap di tempatnya dan pemetaan kamar dipertahankan.
 - **Hapus dari Santara AI** pada satu kamar — menghapus data impornya di sini saja.
-- **Putuskan** — menghentikan sinkronisasi dan menghapus data impor properti ini. Extranet Anda tidak
+- **Putuskan koneksi** — menghentikan sinkronisasi dan menghapus data impor properti ini. Extranet Anda tidak
   tersentuh. Hotel ID yang sama bisa dihubungkan lagi nanti.
 
 :::caution[Jika channel menghilang]

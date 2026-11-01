@@ -185,7 +185,9 @@ const SHOTS = [
   },
   {
     id: "bookings",
-    path: "/dashboard/bookings",
+    // The tab is "Reservations" again (October 2026); /dashboard/bookings only redirects here.
+    // The shot id stays "bookings" so the markdown that embeds bookings.<locale>.png still works.
+    path: "/dashboard/reservations",
     settle: "main",
     height: 760,
     note: "The reservation feed",
@@ -225,12 +227,18 @@ const SHOTS = [
     id: "channels",
     path: "/dashboard/settings/channels",
     settle: "main",
-    height: 760,
+    // Since October 2026 the "Get set up" checklist sits above the channel catalogue, which puts
+    // the Airbnb tile at ~810px — a taller viewport keeps it in frame without collapsing the
+    // checklist (its Hide toggle is a stored preference, and shots never change settings).
+    viewportHeight: 1000,
+    height: 960,
     note: "Settings → Channels, before anything is connected",
     callouts: [
       {
-        find: /Connect Airbnb|Hubungkan Airbnb|Kết nối Airbnb/i,
-        role: "button",
+        // The catalogue tile is a LINK (to /settings/channels/airbnb/connect) whose accessible
+        // name starts with the brand — the same in every language, so no translation regex.
+        find: /^Airbnb/,
+        role: "link",
         label: {
           en: "Start here — the account that owns your listings",
           id: "Mulai di sini — akun pemilik listing Anda",
@@ -249,27 +257,22 @@ const SHOTS = [
   },
 
   // ── added after an audit found 31 of 39 pages had no picture ──────────────────────────────
-  { id: "tickets", path: "/dashboard/tickets", settle: "main", height: 700, note: "The ticket list" },
+  // Tickets became the Issues tab of Tasks (October 2026); /dashboard/tickets only redirects here.
+  { id: "tickets", path: "/dashboard/tasks?tab=issues", settle: "main", height: 700, note: "The ticket list" },
   { id: "guests", path: "/dashboard/guests", settle: "main", height: 820, note: "The guest directory" },
   { id: "reviews", path: "/dashboard/reviews", settle: "main", height: 700, note: "Reviews from every channel" },
   {
     id: "upsells",
     path: "/dashboard/upsells",
-    // Detection is rule-based and runs on a schedule, so a freshly seeded workspace shows
-    // "No active revenue signal" — a true screen, and a useless picture for a page about finding
-    // opportunities. The button runs the same detection on demand.
-    // Click, WAIT FOR IT, then reload. Detection is asynchronous — the first attempt captured a
-    // button reading "AI is working…" over a screen that still said "No active revenue signal".
-    steps: [
-      { click: { role: "button", find: /Find upsell opportunities|Temukan peluang|Tìm cơ hội/i }, settle: 25_000 },
-      { reload: true, settle: 3000 },
-    ],
+    // The "Find upsell opportunities" button (and its click-wait-reload steps) is gone since
+    // October 2026: the page opens on the Opportunities tab with per-room revenue already loaded.
     settle: "main",
     height: 800,
     note: "The upsell pipeline",
   },
   { id: "reports", path: "/dashboard/reports", settle: "main", height: 820, note: "Reports and the CSV library" },
-  { id: "accounting", path: "/dashboard/accounting", settle: "main", height: 700, note: "Costs against each property" },
+  // No "accounting" shot: /dashboard/accounting was removed from the app in October 2026. The old
+  // accounting.<locale>.png files stay only while src/content/docs/**/money/accounting.md embeds them.
   {
     id: "rates",
     // The rates grid hangs off a property id, so the shot finds the first property rather than
@@ -296,16 +299,17 @@ const SHOTS = [
   },
   { id: "booking-site", path: "/dashboard/booking-site", settle: "main", height: 820, note: "The booking site builder" },
   { id: "message-templates", path: "/dashboard/settings/message-templates", settle: "main", height: 760, note: "Message templates" },
-  { id: "team", path: "/dashboard/settings/team", settle: "main", height: 700, note: "Team and access" },
+  { id: "team", path: "/dashboard/settings/team", steps: [{ hideForeignMembers: true, settle: 300 }], settle: "main", height: 700, note: "Team and access" },
   { id: "billing", path: "/dashboard/settings/billing", settle: "main", height: 760, note: "Plan and billing" },
   { id: "workspace-settings", path: "/dashboard/settings/workspace", settle: "main", height: 780, note: "Workspace preferences" },
   {
     id: "connect-booking-com",
-    path: "/dashboard/settings/channels",
-    steps: [{ click: { role: "button", find: /Connect Booking\.com|Hubungkan Booking\.com|Kết nối Booking\.com/i }, settle: 1400 }],
+    // Was a dialog opened from a "Connect Booking.com" button; since October 2026 the catalogue
+    // tile links to a three-step wizard page instead. Opening it only reads (link targets, status).
+    path: "/dashboard/settings/channels/booking-com/connect",
     settle: "main",
     height: 820,
-    note: "The Booking.com connect dialog",
+    note: "The Booking.com connect wizard",
   },
   {
     /*
@@ -314,6 +318,7 @@ const SHOTS = [
      */
     id: "assistant",
     path: "/dashboard/assistant",
+    // Only there once a thread exists; on a fresh chat the step finds nothing and warns, harmlessly.
     steps: [
       { click: { role: "button", find: /New chat|Obrolan baru|Trò chuyện mới/ }, settle: 1200 },
     ],
@@ -602,6 +607,34 @@ for (const locale of LOCALES) {
           await page.mouse.down();
           await page.mouse.move(last.x, last.y, { steps: 12 });
           await page.mouse.up();
+        } else if (step.hideForeignMembers) {
+          /*
+           * The demo workspace can pick up members who are not demo personas (a staff test
+           * account was found on the roster). Anyone whose email is not on the demo domain is
+           * removed from the page before the shutter, and the member count follows — a real
+           * person's address must never reach the published docs.
+           */
+          await page.evaluate(() => {
+            const email = /[\w.+-]+@[\w-]+(\.[\w-]+)+/;
+            const leaves = [...document.querySelectorAll("main *")].filter(
+              (el) => el.children.length === 0 && email.test(el.textContent ?? ""),
+            );
+            let removed = 0;
+            for (const leaf of leaves) {
+              if ((leaf.textContent ?? "").includes("@docs-demo.invalid")) continue;
+              // Up to the row: the ancestor whose parent holds another member's email too.
+              let row = leaf;
+              while (row.parentElement && !leaves.some((o) => o !== leaf && row.parentElement.contains(o))) row = row.parentElement;
+              row.remove();
+              removed += 1;
+            }
+            if (!removed) return;
+            for (const el of document.querySelectorAll("main *")) {
+              if (el.children.length === 0 && /^\d+$/.test(el.textContent?.trim() ?? "") && el.parentElement?.textContent?.match(/Members|Anggota|Thành viên/)) {
+                el.textContent = String(Number(el.textContent) - removed);
+              }
+            }
+          });
         } else if (step.select) {
           await page.getByLabel(step.select.label).first().selectOption(step.select.value, { timeout: 10_000 });
         } else if (step.reload) {

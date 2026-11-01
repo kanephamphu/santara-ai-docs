@@ -42,8 +42,8 @@ giao hoặc hoàn tất, ticket được mở hoặc đã xong.
 
 ## Mỗi tháng
 
-- **[Kế toán](/vi/money/accounting/)** — ghi chi phí dọn phòng, bảo trì và tiện ích cho từng bất động
-  sản, rồi chốt kỳ và phát hành bảng kê cho chủ sở hữu.
+- **[Báo cáo](/vi/money/reports/)** — thêm chi phí dọn phòng, bảo trì và tiện ích của tháng, rồi đọc
+  bảng kê cho chủ sở hữu và tải CSV.
 - **[Định giá](/vi/money/pricing/)** — xem bảng hiệu quả. RevPAN tăng và bộ máy dần ổn định (ít thay
   đổi hơn, biên độ nhỏ hơn) là dấu hiệu tốt.
 

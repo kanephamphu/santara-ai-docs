@@ -24,8 +24,7 @@ khoản Santara AI. Xem [Ứng dụng Santi](/vi/help/santi-app/), mở tại
 
 ## Tìm Santi ở đâu
 
-- **Bên cạnh chuông thông báo**, ở đầu mọi màn hình. Bấm vào Santi và **Hỏi Santi** mở ra ở cuộc trò
-  chuyện gần nhất của bạn.
+- **Bên cạnh chuông thông báo**, ở đầu mọi màn hình. Bấm vào Santi và **Hỏi Santi** mở ra.
 - **Trên điện thoại**, Santi nổi ở góc dưới bên phải. Nó mở cùng một bảng.
 - **Toàn trang** — liên kết ở đầu bảng mở `/dashboard/assistant`, cùng cuộc trò chuyện trong khung
   lớn hơn.
@@ -116,9 +115,24 @@ Nó hành động bằng quyền **của bạn**: nếu bạn không làm đư�
 
 ## Các cuộc trò chuyện
 
-Cuộc trò chuyện được lưu theo từng người, từng workspace — co-host không thấy của bạn. Bảng hiện
-**Cuộc trò chuyện gần đây**; **Trò chuyện mới** bắt đầu lại từ đầu, và **Xóa cuộc trò chuyện** (biểu
-tượng thùng rác) xóa vĩnh viễn.
+Santi trên dashboard **không lưu lịch sử trò chuyện**. Cuộc trò chuyện chỉ tồn tại trong tab đang
+mở: **Santi không lưu cuộc trò chuyện này — nó sẽ mất khi bạn tải lại hoặc đóng tab.** **Trò chuyện
+mới** xoá nó có chủ đích. Không có danh sách cuộc trò chuyện cũ để mở lại và không có gì để xoá — nếu
+một câu trả lời quan trọng, hãy chép lại trước khi rời đi.
+
+[Trợ lý trong ứng dụng di động](/vi/mobile/ai-assistant/) là ngoại lệ: nó lưu các cuộc trò chuyện của
+bạn, theo từng người và từng workspace, nên co-host không bao giờ thấy của bạn.
+
+## Kiểm tra một câu trả lời
+
+Bên dưới câu trả lời có dùng dữ liệu của bạn, Santi cho biết nó lấy từ đâu:
+
+- **Dữ liệu lúc 09:42** — thời điểm dữ liệu phía sau câu trả lời được đọc.
+- **Liên kết nguồn** — các màn hình chứa con số, mỗi liên kết có ↗. Bấm vào để kiểm tra con số ngay
+  tại chỗ.
+- **Mình chưa đối chiếu được … với dữ liệu — hãy kiểm tra trước khi dùng.** chỉ hiện, màu vàng cam,
+  khi một con số trong câu trả lời không khớp với bất cứ gì Santi đã đọc. Hãy coi con số đó là chưa
+  được kiểm chứng.
 
 ## Để có câu trả lời tốt
 

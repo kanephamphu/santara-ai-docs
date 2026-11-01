@@ -53,8 +53,8 @@ or just say *"switch to Hanoi Lofts"*. Each workspace keeps its own conversation
 
 ### Disconnecting
 
-In Santara AI: **Settings → Connected apps** (or the Santi card in **Settings → Channels**) →
-**Disconnect**. Santi loses access to that workspace immediately. Your chats with Santi are kept in
+In Santara AI: **Settings → Channels**, the **Apps** tab → the Santi card → **Disconnect**.
+Santi loses access to that workspace immediately. Your chats with Santi are kept in
 Santi.
 
 ## Talking to Santi
@@ -153,7 +153,8 @@ two hours, and a summary at 7:00 each morning. On iPhone, add Santi to your home
 ## Limits
 
 Santi has a daily limit per person — roughly 150 questions. When you reach it, Santi says so; it
-resets the next day. Chats are kept for a year unless you clear them.
+resets the next day. Chat messages are kept for 7 days, then removed. Memories you confirmed stay
+until you tell Santi to forget them.
 
 :::note
 Santi on WhatsApp and Zalo is not available yet — for now the app is the way in.

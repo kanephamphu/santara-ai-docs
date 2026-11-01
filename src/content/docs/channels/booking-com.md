@@ -1,14 +1,24 @@
 ---
 title: Connect Booking.com
-description: Add the connectivity provider in your extranet, enter your Hotel ID, map your rooms, and Santara AI activates the channel for you.
+description: Add the connectivity provider in your extranet, choose the property, enter your Hotel ID and map your rooms — mapping a room takes it live.
 sidebar:
   order: 3
 ---
 
 Booking.com works differently from Airbnb: there is no login popup. You give Booking.com
-permission in your own extranet, then tell Santara AI which property to attach to.
+permission in your own extranet, then connect it to a property you already have in Santara AI.
 
-![The Booking.com connect dialog — the extranet step, the Hotel ID, and the property to link it to.](/screens/connect-booking-com.en.png)
+## What you need
+
+- **A property with at least one room** in Santara AI. Connecting Booking.com maps the rooms you
+  already have — it does not create a property. Until you have one, the Booking.com tile shows
+  **Add a property first**. Add it under [Properties](/setup/properties/).
+- Access to the **Booking.com extranet** as the property owner.
+- Your **Hotel ID** — the number at the top of the extranet, beside the property name.
+
+The setup has three steps: **Choose property**, **Connect and map**, **Import**.
+
+![The Booking.com connect step — the extranet checkbox and the Hotel ID.](/screens/connect-booking-com.en.png)
 
 ## 1. Enable the connection in your extranet
 
@@ -17,7 +27,7 @@ connectivity partner — that is the name you look for in Booking.com. This is b
 property owner: Booking.com sends a two-step sign-in code to the owner's phone.
 
 1. Sign in at **account.booking.com**. Note the **property ID** at the top, beside the property's
-   name — that is the Hotel ID you enter in step 2. Then open **Account → Connectivity provider**.
+   name — that is the Hotel ID you enter in step 3. Then open **Account → Connectivity provider**.
 
    ![Booking.com extranet: the property ID beside the name, and Account → Connectivity provider.](/channel-guides/extranet/booking-com-account-menu.webp)
 
@@ -44,7 +54,7 @@ property owner: Booking.com sends a two-step sign-in code to the owner's phone.
 
    ![Waiting for provider confirmation — carry on in Santara AI.](/channel-guides/extranet/booking-com-waiting.webp)
 
-Nothing happens in Santara AI until this is done. The connect dialog has a checkbox confirming you
+Nothing happens in Santara AI until this is done. The connect step has a checkbox confirming you
 have done it, and it is there because skipping this step is the single most common reason a
 Booking.com connection fails.
 
@@ -53,40 +63,42 @@ When a channel manager is connected, Booking.com can change settings on **derive
 minimum stay, for example. Check each derived rate in the extranet once you are connected.
 :::
 
-## 2. Enter your Hotel ID
+## 2. Choose property
 
-**Settings → Channels → Connect Booking.com**.
+**Settings → Channels → Add a channel**, then press **Connect** on the **Booking.com** tile. The
+first step asks **Which property is this hotel?** Pick the Santara AI property, then press
+**Continue**. Your Booking.com rooms are mapped into that property's rooms — no new property is
+created. If the property is already on Airbnb, that is fine and expected; one property sells on
+both.
 
-Your **Hotel ID** is the number shown at the top of the extranet, beside the property name — for
-example `1234567`. Optionally give the connection a display name.
+## 3. Connect and map
 
-## 3. Link it to a property
+**Connect.** Tick the box confirming you added the connectivity provider and accepted the
+agreement in the extranet. Enter your **Hotel ID** (for example `1234567`) and, optionally, a
+**Display name (optional)**. Press **Test connection** to check it first:
 
-Choose the Santara AI property this hotel belongs to. The hotel connects **directly to that
-property** — no new one is created — and any other rooms found in your extranet are added to it as
-they are discovered.
+- *Booking.com accepted this Hotel ID.* — carry on.
+- *Booking.com didn't accept this Hotel ID.* — check the number, and that the provider request in
+  step 1 was accepted.
 
-No properties yet? Choose **New property — created from this hotel**, and it is created for you.
-If the property is already on Airbnb, it is marked *already on Airbnb* — that is fine and expected;
-one property sells on both.
+Then press **Connect Booking.com**. Unlike Airbnb, this happens immediately — there is no window
+to wait on.
 
-Press **Connect property**. Unlike Airbnb, this happens immediately — there is no window to wait on.
+**Map.** Santara AI asks Booking.com for the hotel's rooms and lists them under **Your rooms**. For
+each Booking.com room:
 
-## 4. Map your rooms
+- choose the Santara AI room it is (**Choose a room…**);
+- point each Booking.com rate at one of your rate plans, then **Save rate mapping**. Under **Rate
+  plans on this room** you can add a plan on the spot (**+ Add rate plan**) or change which one is
+  primary (**Make primary**).
 
-Santara AI asks Booking.com for the rooms on that hotel and shows them under **Your rooms**. For each
-one, pick the Santara AI room it is.
+Each room is mapped from its own row; with several rooms, **Map, activate & sync N rooms** maps
+them all at once. When you are done, press **Continue**.
 
-If nothing appears, press **Find my rooms** again, or use **Connect a room to a property yourself**
-and enter them by hand from the extranet's **Property → Rooms & rates** page:
-
-- **Room name** — for example *Standard Double Room*
-- **Room ID** — for example `437213702`
-- **Rate ID(s)** — for example `25014098, 25014104`
-- **Guests** — how many the room sleeps
-
-Then press **Map, activate & sync**. Santara AI maps the rooms, activates the channel, and syncs
-bookings, reviews and messages, showing each stage as it goes.
+:::caution[Mapping a room takes it live]
+There is no separate Go live step on Booking.com. Mapping a room sets it up and takes it live —
+availability starts syncing right away. Read [Going live](/channels/going-live/) before you map.
+:::
 
 :::note[Telling rooms apart]
 Booking.com shows its **default** room names, not names you customised in the extranet, so two
@@ -96,12 +108,19 @@ fail. If you don't need it, delete it in the extranet (a derived rate recreated 
 mapping).
 :::
 
+## 4. Import
+
+Santara AI brings across the stays, messages and reviews the hotel already has (*Bringing your
+bookings across*). You can leave the page — it keeps running. When it says *That's connected*,
+**Open this channel** goes to the connection page.
+
 ## What can hold a room back
 
 | On screen | Meaning |
 | --- | --- |
 | *Linked — not mapped yet* | Booking.com knows the room; it points at no Santara AI room |
-| *Mapped — awaiting activation* | Mapped, but the channel has not activated. Bookings sync after activation succeeds |
+| *Mapped — awaiting activation* | Mapped, but the channel has not activated yet. Bookings sync after activation succeeds |
+| *Confirm capacity to continue* | Confirm how many identical units the property has, and its nightly rate — see [Going live](/channels/going-live/#check-these-things-first) |
 | *stayed linked but not mapped — its rate plan doesn't price a guest count Booking.com accepts* | The room's rate plan has no price for an occupancy Booking.com requires. Open the room's rate plan, price the occupancy, and map it again |
 | *No rooms found yet* | Check the Hotel ID and that the connectivity provider was accepted, then refresh |
 

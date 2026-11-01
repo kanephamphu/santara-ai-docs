@@ -51,7 +51,6 @@ Then pick the property the channel is for. Step 2 shows that channel's own setup
 | [Tiket.com](/channel-guides/tiket-com/) | Hotel ID | Room and rate |
 | [Klook](/channel-guides/klook/) | Hotel ID | Room and rate |
 | [MakeMyTrip and Goibibo](/channel-guides/makemytrip/) | Hotel ID + access token | Usually multi-occupancy |
-| [Vrbo](/channel-guides/vrbo/) | Vrbo username + password | Listing by listing |
 | [Hostelworld](/channel-guides/hostelworld/) | Hotel ID | Maximum occupancy |
 | [Hotelbeds](/channel-guides/hotelbeds/) | Username + password, then a contract | Room and rate |
 | [Despegar](/channel-guides/despegar/) | Hotel ID + username + API password | Room and rate |

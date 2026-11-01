@@ -14,8 +14,11 @@ property manager.
 
 ## Satu jam pertama Anda
 
-1. **Terima undangan** dari email, buat akun kalau belum punya. Login Anda milik Anda dan berlaku
-   di setiap workspace yang mengundang Anda.
+1. **Buka tautan undangan** — dari email, atau dari WhatsApp atau Zalo. Tautan membuka satu
+   halaman: buat kata sandi dan Anda langsung masuk, atau masukkan kata sandi Anda kalau sudah punya
+   akun. Tautan yang datang lewat pesan juga meminta **Kode 6 digit** yang kami kirim ke email Anda.
+   Tautan berlaku seminggu; lihat [Cara masuk](/id/start/invited-cleaner/#cara-masuk). Login Anda
+   milik Anda dan berlaku di setiap workspace yang mengundang Anda.
 2. **Atur bahasa dan zona waktu Anda sendiri** —
    [Akun Anda](/id/setup/account/#bahasa-dan-zona-waktu). Keduanya mengikuti Anda dan terpisah dari
    milik workspace.
@@ -38,7 +41,7 @@ Praktis seluruh operasional:
 | **Perawatan** | Membuka, menugaskan, dan menjadwalkan tiket |
 | **Akses** | Membaca *dan mengatur* kode pintu, wifi, catatan akses |
 | **Upsell** | Melihat peluang dan mengirim penawaran |
-| **Uang** | Membaca laporan, payout, buku besar akuntansi, dan mencatat biaya |
+| **Uang** | Membaca laporan, payout, laporan pemilik, dan mencatat biaya |
 | **Pemilik** | Melihat laporan pemilik |
 | **Template** | Menulis dan mengedit balasan tersimpan yang dipakai semua orang |
 

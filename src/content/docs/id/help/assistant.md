@@ -24,8 +24,7 @@ sama, akun Santara AI yang sama. Lihat [Aplikasi Santi](/id/help/santi-app/), bu
 
 ## Di mana menemukan Santi
 
-- **Di samping lonceng**, di bagian atas setiap layar. Klik Santi dan **Tanya Santi** terbuka pada
-  percakapan terakhir Anda.
+- **Di samping lonceng**, di bagian atas setiap layar. Klik Santi dan **Tanya Santi** terbuka.
 - **Di ponsel**, Santi melayang di pojok kanan bawah. Ia membuka panel yang sama.
 - **Halaman penuh** — tautan di bagian atas panel membuka `/dashboard/assistant`, obrolan yang sama
   dalam bingkai lebih besar.
@@ -127,9 +126,24 @@ bisa.
 
 ## Percakapan
 
-Percakapan Anda disimpan per orang, per workspace — co-host tidak melihat milik Anda. Panel
-menampilkan **Percakapan terakhir**; **Obrolan baru** memulai dari awal, dan **Hapus percakapan**
-(ikon tempat sampah) menghapusnya untuk selamanya.
+Santi di dashboard **tidak menyimpan riwayat percakapan**. Obrolan hanya hidup di tab yang terbuka:
+**Santi tidak menyimpan obrolan ini — obrolan hilang saat Anda memuat ulang atau menutup tab.**
+**Obrolan baru** menghapusnya dengan sengaja. Tidak ada daftar percakapan lama untuk dibuka kembali
+dan tidak ada yang perlu dihapus — bila sebuah jawaban penting, salin dulu sebelum pergi.
+
+[Asisten di aplikasi mobile](/id/mobile/ai-assistant/) adalah pengecualian: ia menyimpan percakapan
+Anda, per orang dan per workspace, jadi co-host tidak pernah melihat milik Anda.
+
+## Memeriksa jawaban
+
+Di bawah jawaban yang memakai data Anda, Santi menunjukkan asalnya:
+
+- **Data per 09:42** — kapan data di balik jawaban itu dibaca.
+- **Tautan sumber** — layar asal angka-angkanya, masing-masing dengan ↗. Klik salah satu untuk
+  mengecek angka di tempat asalnya.
+- **Saya belum bisa mencocokkan … dengan data Anda — cek dulu sebelum menindaklanjuti.** muncul,
+  berwarna kuning tua, hanya bila ada angka di jawaban yang tidak cocok dengan apa pun yang dibaca
+  Santi. Anggap angka itu belum terverifikasi.
 
 ## Mendapatkan jawaban yang baik
 

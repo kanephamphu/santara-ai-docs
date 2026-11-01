@@ -57,8 +57,8 @@ ingatannya sendiri.
 
 ### Memutuskan koneksi
 
-Di Santara AI: **Pengaturan → Aplikasi terhubung** (atau kartu Santi di **Pengaturan → Channel**) →
-**Putuskan**. Santi langsung kehilangan akses ke workspace itu. Obrolan Anda dengan Santi tetap
+Di Santara AI: **Pengaturan → Kanal**, tab **Aplikasi** → kartu Santi → **Putuskan**.
+Santi langsung kehilangan akses ke workspace itu. Obrolan Anda dengan Santi tetap
 tersimpan di Santi.
 
 ## Berbicara dengan Santi
@@ -161,8 +161,8 @@ utama terlebih dahulu.
 ## Batasan
 
 Santi punya batas harian per orang — sekitar 150 pertanyaan. Saat batas tercapai, Santi memberi
-tahu Anda; batasnya diatur ulang keesokan harinya. Obrolan disimpan selama satu tahun kecuali Anda
-menghapusnya.
+tahu Anda; batasnya diatur ulang keesokan harinya. Pesan obrolan disimpan selama 7 hari, lalu
+dihapus. Ingatan yang sudah Anda konfirmasi tetap ada sampai Anda meminta Santi melupakannya.
 
 :::note
 Santi di WhatsApp dan Zalo belum tersedia — untuk saat ini, aplikasi inilah pintu masuknya.

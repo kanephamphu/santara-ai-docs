@@ -4,7 +4,7 @@
   "boxes": [
     {
       "x": 303,
-      "y": 223,
+      "y": 220,
       "width": 385.984375,
       "height": 66.5,
       "label": "Turnovers due today",
@@ -12,7 +12,7 @@
     },
     {
       "x": 962.453125,
-      "y": 422,
+      "y": 389.5,
       "width": 296,
       "height": 48,
       "label": "Assign a cleaner, then mark it done",

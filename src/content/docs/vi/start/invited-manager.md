@@ -13,8 +13,11 @@ Không có vai trò "property manager" riêng, và bạn cũng không cần — 
 
 ## Giờ đầu tiên của bạn
 
-1. **Chấp nhận lời mời** từ email, tạo tài khoản nếu chưa có. Tài khoản là của bạn và dùng được ở
-   mọi workspace mời bạn.
+1. **Mở liên kết mời** — từ email, hoặc từ Zalo hay WhatsApp. Liên kết mở ra một trang duy nhất:
+   tạo mật khẩu là vào được ngay, hoặc nhập mật khẩu hiện tại nếu bạn đã có tài khoản. Liên kết gửi
+   qua tin nhắn sẽ hỏi thêm **Mã 6 chữ số** mà chúng tôi gửi tới email của bạn. Liên kết có hiệu lực
+   một tuần; xem [Cách vào](/vi/start/invited-cleaner/#cách-vào). Tài khoản là của bạn và dùng được
+   ở mọi workspace mời bạn.
 2. **Đặt ngôn ngữ và múi giờ của riêng bạn** —
    [Tài khoản của bạn](/vi/setup/account/#ngôn-ngữ-và-múi-giờ). Chúng đi theo bạn và tách khỏi cài
    đặt của workspace.
@@ -37,7 +40,7 @@ Gần như toàn bộ khâu vận hành:
 | **Bảo trì** | Mở, giao và lên lịch ticket |
 | **Lối vào** | Đọc *và đặt* mã cửa, wifi, ghi chú lối vào |
 | **Upsell** | Xem cơ hội và gửi lời chào |
-| **Tiền** | Đọc báo cáo, payout, sổ cái kế toán, và ghi chi phí |
+| **Tiền** | Đọc báo cáo, payout, bảng kê cho chủ sở hữu, và ghi chi phí |
 | **Chủ sở hữu** | Xem bảng kê chủ sở hữu |
 | **Mẫu** | Viết và sửa các mẫu trả lời mà cả đội dùng chung |
 

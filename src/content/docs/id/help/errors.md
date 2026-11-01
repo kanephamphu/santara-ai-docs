@@ -18,10 +18,13 @@ depan Anda. Kalau tidak ketemu, telusuri
 | *Too many failed attempts. Please try again later.* | Sepuluh percobaan gagal mengunci akun selama **15 menit** | Tunggu, atau atur ulang kata sandi — pengaturan ulang langsung menghapus kuncinya. Lihat [Kalau Anda terkunci](/id/setup/account/#kalau-anda-terkunci) |
 | *Silakan verifikasi email sebelum masuk.* | Akunnya ada, tapi kode enam digit belum pernah dimasukkan | Periksa kotak masuk, termasuk spam. Minta kode baru kalau sudah kedaluwarsa |
 | *Akun dengan email ini sudah ada.* | Anda pernah mendaftar, mungkin untuk workspace lain | Masuk saja — satu login bisa tergabung di banyak workspace |
-| *Kode tidak sesuai.* | Kode atur ulang atau verifikasi salah | Baca ulang. Lima percobaan salah menghanguskan kodenya |
-| *Kode ini sudah kedaluwarsa.* | Kode berlaku **15 menit** | Minta yang baru — bisa sekali semenit |
-| *Terlalu banyak kode yang salah.* | Lima percobaan salah pada satu kode | Minta kode baru |
-| *Kata sandi baru minimal 12 karakter.* | Panjang adalah satu-satunya aturan | Pakai yang lebih panjang |
+| *Kode tidak sesuai. Periksa kembali lalu coba lagi.* | Kode atur ulang atau verifikasi salah | Baca ulang. Lima percobaan salah menghanguskan kodenya |
+| *Kode ini sudah kedaluwarsa. Silakan minta kode baru.* | Kode berlaku **15 menit** | Minta yang baru — bisa sekali semenit |
+| *Terlalu banyak kode yang salah. Silakan minta kode baru.* | Lima percobaan salah pada satu kode | Minta kode baru |
+| *Kata sandi baru minimal 12 karakter.* | Terlalu pendek — kata sandi baru perlu 12 karakter atau lebih | Pakai yang lebih panjang; frasa pendek beberapa kata paling mudah |
+| *Kata sandi maksimal 128 karakter.* | Terlalu panjang — 128 karakter adalah batasnya | Pakai yang lebih pendek |
+| *Kata sandi itu terlalu mudah ditebak. Coba frasa yang lebih panjang.* | Ada di daftar kata sandi umum (*password1234* dan sejenisnya), atau satu karakter yang diulang | Pilih yang tidak akan dipilih orang lain |
+| *Kata sandi tidak boleh memuat nama di alamat email Anda. Pilih kata sandi lain.* | Bagian email Anda sebelum @ muncul di kata sandi | Pilih kata sandi tanpa bagian itu |
 | *Silakan masuk lagi.* | Sesi Anda berakhir — biasanya perubahan kata sandi di tempat lain, atau browser membersihkan cookie | Masuk lagi. Kalau berulang, lihat [Sesi saya terus berakhir](/id/help/troubleshooting/#sesi-saya-terus-berakhir) |
 
 :::note

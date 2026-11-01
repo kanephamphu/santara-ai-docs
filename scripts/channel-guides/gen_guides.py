@@ -97,28 +97,6 @@ ch("MakeMyTrip and Goibibo", "makemytrip", "Ask MakeMyTrip to connect Channex, e
            ("Access token", "The token MakeMyTrip gave you when Channex was connected.")],
    mapping=[MULTI_USUALLY])
 
-ch("Vrbo", "vrbo", "Connect Vrbo with your Vrbo login (and SMS code), after removing any old channel manager and iCal links, then map listing by listing.",
-   before=["**The Vrbo account must not be API-connected to other software.** If a previous PMS or "
-           "channel manager was connected, ask Vrbo support: *\"Please disconnect my account from my "
-           "current channel manager, I will control the extranet manually.\"* Connect only after "
-           "they confirm.",
-           "**Remove every iCal link** on your Vrbo listings (from Airbnb or another system). iCal "
-           "keeps overwriting what Santara AI sends.",
-           "Have the **account owner's phone** nearby — Vrbo may send an SMS code."],
-   extranet=None,
-   fields=[("Username", "Your Vrbo username."),
-           ("Password", "Your Vrbo password.")],
-   connect_steps=["Enter your Vrbo **username** and **password**.",
-                  "Press **Authenticate** — not Test connection.",
-                  "If Vrbo sends an **SMS code** to the account owner, enter it.",
-                  "Press **Test connection**. Your Vrbo listings appear on the mapping screen."],
-   mapping=["Vrbo maps **listing by listing**: pick a room and rate for each listing you want connected."],
-   after=["Rates, availability, restrictions and bookings (new, changed, cancelled) sync.",
-          "Currencies: **USD, CAD, EUR, AUD, NZD, JPY, SGD, BRL, MXN, GBP**.",
-          "**Guest messages and reviews are not supported** on Vrbo."],
-   notes=[("caution", "Changing your Vrbo password disconnects it",
-           "If the Vrbo account's password changes, the connection drops. Reconnect with the new password.")])
-
 ch("Hostelworld", "hostelworld", "Email Hostelworld to connect Channex, enter the property ID, and map each room at its maximum occupancy.",
    extranet=["Email Hostelworld support to connect **Channex**.",
              "They reply when it is enabled, with your **property ID**."],
@@ -422,14 +400,14 @@ LOCALE = 'en'
 CONNECT_ALT = 'Step 2 in Santara AI: the {n} setup fields, then Test connection.'
 CONNECT_SHOTS = set(['agoda', 'expedia', 'trip-com', 'tiket-com', 'makemytrip', 'hostelworld', 'crewdogs', 'emerging-travel', 'glamping-hub', 'hipcamp', 'hotel-trader', 'webbeds', 'hopper'])
 EXTRANET_IMAGES = {'agoda': [('agoda-ycs', 'Agoda YCS: Settings → Property Settings → Optional settings, with Enable channel manager mode ticked and the provider chosen.')], 'expedia': [('expedia-menu', 'Expedia Partner Central: Rooms and rates → Connectivity settings.'), ('expedia-verify', 'Expedia asks for an extra verification before it shows Connectivity settings.')], 'tiket-com': [('tiket-com-connectivity', 'Tiket.com extranet: Connectivity shows the connected channel manager and your Hotel ID.')], 'despegar': [('despegar-menu', 'Despegar extranet: General Settings → Channel Manager Connection.'), ('despegar-connections', "Despegar's channel manager connections — switch off or remove the old ones."), ('despegar-add', 'Choosing the channel manager in Despegar and accepting its terms.')], 'inntopia': [('inntopia-products', 'Inntopia Products tab, with the settings button on each product.'), ('inntopia-cross-reference', 'Inntopia cross-reference code: Remote System Channex, code = the product ID in brackets.')]}
-BEFORE_IMAGES = {'vrbo': [('vrbo-api-connected', 'A Vrbo account still connected to other software — ask Vrbo to convert it before you connect.')]}
+BEFORE_IMAGES = {}
 
 
 def img(src, alt):
     return f"![{alt}](/channel-guides/extranet/{src}.webp)\n"
 
 
-CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "vrbo": "VRBO", "google": "Google Hotel ARI"}
+CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "google": "Google Hotel ARI"}
 
 def page(c, order):
     n = c["name"]

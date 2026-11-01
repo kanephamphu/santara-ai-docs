@@ -13,8 +13,9 @@ thấy danh sách đầy đủ listing của nó, mỗi cái quản lý riêng.
 Mỗi tài khoản đã kết nối có trang riêng hiển thị:
 
 - **Trạng thái** và thời điểm **đồng bộ lần cuối**.
-- **Listing trên kết nối này**, mỗi cái kèm trạng thái — *đã liên kết*, *đã ánh xạ*, *đang chạy* — và
-  phòng Santara AI mà nó trỏ tới.
+- **Listing trên kết nối này**, mỗi cái kèm trạng thái — *Chưa liên kết*, *Sẵn sàng — chưa trực
+  tuyến*, *Trực tuyến* và các nhãn khác trong [Kết nối kênh hoạt động ra sao](/vi/channels/#trạng-thái-của-listing)
+  — và phòng Santara AI mà nó trỏ tới.
 - **Làm mới**, đọc lại mọi thứ từ kênh ngay lập tức.
 
 Hãy dùng **Làm mới** trước tiên mỗi khi có gì đó trông cũ. Nó an toàn, lặp lại được, và xử lý phần lớn
@@ -23,16 +24,18 @@ các báo cáo "kênh và Santara AI không khớp".
 ## Nhập listing bạn đã bỏ qua
 
 Mở kết nối, bấm **Tìm listing trên tài khoản này**, và những listing chưa nhập sẽ hiện ra. Chọn nơi
-đến cho từng cái như lần nhập đầu. Listing mới bạn tạo trên kênh sau này cũng xuất hiện ở đây.
+đến cho từng cái như lần nhập đầu. Listing mới bạn tạo trên kênh sau này cũng xuất hiện ở đây. Trên
+Airbnb, nhập một listing từ đây cũng đưa nó lên chạy; ở các kênh khác, việc ánh xạ phòng làm điều đó.
 
 ## Thêm tài khoản khác
 
-**Kết nối tài khoản khác** trên cùng một kênh. Thường gặp với đơn vị quản lý giữ listing dưới nhiều
-tài khoản Airbnb. Mỗi kết nối độc lập với nhau.
+Mở **Cài đặt → Kênh → Thêm kênh** và bấm **Thêm tài khoản khác** trên ô của kênh đó. Thường gặp với
+đơn vị quản lý giữ listing dưới nhiều tài khoản Airbnb. Mỗi kết nối độc lập — listing, trạng thái và
+đồng bộ riêng.
 
 ## Chuyển một listing sang phòng khác
 
-Xóa listing khỏi Santara AI, rồi nhập lại vào phòng bạn muốn. Không có cách trỏ lại tại chỗ, và điều đó
+Gỡ listing khỏi Santara AI, rồi nhập lại vào phòng bạn muốn. Không có cách trỏ lại tại chỗ, và điều đó
 là cố ý: các đặt phòng và tin nhắn đã đến thuộc về phòng chúng đã đến, và âm thầm chuyển chúng là viết
 lại lịch sử.
 
@@ -41,7 +44,7 @@ sản**. Đặt phòng và tin nhắn trong tương lai về bất động sản
 
 ## Xóa một listing
 
-**Xóa khỏi Santara AI** xóa các đặt phòng, tin nhắn, khách và đánh giá của phòng đó. Listing của bạn trên
+**Gỡ khỏi Santara AI** xóa các đặt phòng, tin nhắn, khách và đánh giá của phòng đó. Listing của bạn trên
 kênh không bị ảnh hưởng. Bạn có thể nhập lại sau; lịch sử quay lại cùng nó.
 
 ## Ngắt một tài khoản
@@ -59,14 +62,7 @@ vẫn ánh xạ tới một phòng không còn tồn tại ở đây.
 
 ## PriceLabs
 
-Nếu bạn đã dùng PriceLabs, hãy kết nối tại **Cài đặt → Kênh → Kết nối PriceLabs** và bộ máy định giá
-của Santara AI sẽ nhường bước cho các listing do PriceLabs quản lý.
-
-Bạn cung cấp **email tài khoản** PriceLabs và một **API key** (PriceLabs → account settings → API).
-Key được xác minh với PriceLabs, lưu ở dạng mã hóa, và chỉ dùng để xác nhận tài khoản — Santara AI không
-đọc giá từ PriceLabs.
-
-:::caution
-Đừng bao giờ dán mật khẩu PriceLabs vào bất kỳ đâu trong Santara AI. Hãy đăng nhập trên trang chính thức
-của PriceLabs, rồi chỉ cung cấp API key dành cho tích hợp.
-:::
+Kết nối PriceLabs mới đang **tạm dừng**: PriceLabs không có ô nào trong **Thêm kênh**, và không thể
+tạo kết nối mới. Kết nối PriceLabs bạn đã có vẫn hoạt động — bộ máy định giá của Santara AI vẫn nhường
+bước cho các listing do PriceLabs quản lý — và vẫn có thể ngắt kết nối tại **Cài đặt → Kênh → Đã kết
+nối**.

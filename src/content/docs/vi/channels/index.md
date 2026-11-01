@@ -1,6 +1,6 @@
 ---
 title: Kết nối kênh hoạt động ra sao
-description: Kết nối là gì, dữ liệu nào đồng bộ theo mỗi chiều, và bốn trạng thái mà một listing đi qua.
+description: Kết nối là gì, dữ liệu nào đồng bộ theo mỗi chiều, mỗi kênh được kết nối ở đâu, và các trạng thái mà một listing đi qua.
 sidebar:
   order: 1
 ---
@@ -15,33 +15,57 @@ Santara AI chính là channel manager của bạn: nó kết nối các kênh b�
 | **Vào một lần, khi nhập** | Chi tiết listing — tiêu đề, ảnh, tiện nghi, sức chứa, giá hiện có |
 | **Ra khi bạn yêu cầu** | Trả lời của bạn cho tin nhắn khách; phản hồi của bạn cho đánh giá |
 
-Ngoài ra không có gì khác. Santara AI không sửa mô tả listing của bạn, và không bao giờ thay đổi một mức
-giá trên kênh mà bạn không nhập hoặc không do quy tắc định giá của bạn tính ra.
+Santara AI không bao giờ ghi vào nội dung tin đăng **Airbnb** của bạn — tiêu đề, mô tả và ảnh vẫn
+giữ nguyên như trên Airbnb. Santara AI cũng không bao giờ thay đổi một mức giá trên kênh mà bạn không
+nhập hoặc không do quy tắc định giá của bạn tính ra.
+
+Trên **Booking.com và các kênh khác**, nội dung chỗ nghỉ của bạn cũng được gửi đi. Khi bạn lưu một
+chỗ nghỉ hoặc một phòng, Santara AI đẩy ảnh (tối đa 30), mô tả, nội quy, chính sách hủy và tiện nghi
+sang channel manager, nơi chuyển chúng tới các kênh chấp nhận.
 
 ![Tình trạng trống và giá đi ra kênh; đặt phòng, khách, tin nhắn và đánh giá đi vào. Chi tiết listing đến một lần, khi nhập.](/diagrams/sync-directions.vi.svg)
 
 ## Các kênh được hỗ trợ
 
-Santara AI kết nối với **54 kênh bán phòng**, cùng website đặt phòng của bạn. Airbnb và Booking.com có
-luồng kết nối có hướng dẫn; mọi kênh khác kết nối từ danh sách kênh trong phần Cài đặt.
+Santara AI kết nối với **54 kênh bán phòng**, cùng website đặt phòng của bạn. Mọi kênh, kể cả Airbnb
+và Booking.com, là một ô trong **Cài đặt → Kênh → Thêm kênh**. Bấm **Kết nối** trên một ô và quy
+trình ba bước sẽ mở ra.
 
 | Kênh | Cách kết nối |
 | --- | --- |
-| **Airbnb** | Bạn cấp phép cho Santara AI trên Airbnb, rồi chọn listing — [Kết nối Airbnb](/vi/channels/airbnb/) |
-| **Booking.com** | Bạn thêm nhà cung cấp kết nối trong extranet, rồi nhập Hotel ID — [Kết nối Booking.com](/vi/channels/booking-com/) |
-| **Mọi kênh khác** — Agoda, Expedia, Trip.com, Vrbo, Traveloka, Tiket.com, Hostelworld và nhiều kênh khác | **Cài đặt → Kênh → Thêm kênh**, chọn từ danh sách, rồi kết nối và ánh xạ qua ba bước — [Kết nối kênh khác](/vi/channels/other-channels/) |
+| **Airbnb** | Kết nối, chọn tin đăng, nhập. Santara AI tạo chỗ nghỉ và phòng từ tin đăng của bạn — [Kết nối Airbnb](/vi/channels/airbnb/) |
+| **Booking.com** | Chọn chỗ nghỉ, kết nối và ánh xạ (Hotel ID của bạn), nhập dữ liệu — [Kết nối Booking.com](/vi/channels/booking-com/) |
+| **Mọi kênh khác** — Agoda, Expedia, Trip.com, Traveloka, Tiket.com, Hostelworld và nhiều kênh khác | Chọn chỗ nghỉ, kết nối và ánh xạ, nhập dữ liệu — [Kết nối kênh khác](/vi/channels/other-channels/) |
 | **Website đặt phòng của bạn** | Có sẵn trong Santara AI, không cần kết nối — [Website đặt phòng trực tiếp của bạn](/vi/setup/booking-site/) |
-| **PriceLabs** | Phát hiện chỉ-đọc: nếu bạn dùng PriceLabs, bộ máy định giá của Santara AI nhường bước |
+
+**Mọi kênh trừ Airbnb đều cần một chỗ nghỉ có phòng trước.** Khi chưa có, ô của kênh hiện **Cần tạo
+chỗ nghỉ trước** — kết nối kênh chỉ ánh xạ những phòng bạn đã có, chứ không tạo mới. Hãy thêm ở
+[Chỗ nghỉ](/vi/setup/properties/), hoặc kết nối Airbnb trước để nó tạo giúp bạn.
+
+:::note[PriceLabs đang tạm dừng]
+Kết nối PriceLabs mới đang tạm dừng, nên PriceLabs không có ô nào. Kết nối PriceLabs bạn đã có vẫn
+hoạt động và vẫn có thể ngắt kết nối.
+:::
 
 Mọi kênh đều dùng chung lịch, giá và ràng buộc, và đều đưa về đặt phòng, lượt hủy và khách. Có hai
 điểm khác nhau theo kênh:
 
 - **Tin nhắn khách.** Chỉ trả lời được trên **Airbnb, Booking.com và Expedia** — những kênh chuyển
-  tin nhắn khách qua kết nối. Với kênh khác, hãy trả lời khách trong hộp thư của
-  chính kênh đó. Tin nhắn khách Vrbo chưa được hỗ trợ.
+  tin nhắn khách qua kết nối. Với kênh khác, hãy trả lời khách trong hộp thư của chính kênh đó.
 - **Đánh giá** được đưa về, và trả lời được, ở những kênh có chuyển đánh giá.
 
 ![Cài đặt → Kênh trước khi kết nối bất cứ thứ gì. Mỗi kênh được liên kết riêng, với trạng thái và thời điểm đồng bộ cuối của nó.](/screens/channels.vi.png)
+
+## Ba thẻ
+
+**Cài đặt → Kênh** có ba thẻ:
+
+- **Thêm kênh** — danh mục kênh. Tìm theo tên, hoặc lọc theo loại, rồi bấm **Kết nối**. Kênh bạn
+  đang dùng sẽ hiện **Thêm tài khoản khác**.
+- **Đã kết nối** — mọi kết nối của bạn. Mở một kết nối để xem tin đăng, trạng thái đồng bộ và trạng
+  thái chạy.
+- **Ứng dụng** — các ứng dụng bạn đã cho phép vào tài khoản, như Santi, ChatGPT hoặc Claude. Xem
+  [Kết nối trợ lý AI](/vi/help/ai-assistants/).
 
 ## Kết nối và tài khoản
 
@@ -56,19 +80,22 @@ Mọi kênh đều dùng chung lịch, giá và ràng buộc, và đều đưa v
 Mỗi kết nối có trang riêng tại **Cài đặt → Kênh**, hiển thị listing của nó, lần đồng bộ gần nhất, và
 mọi thao tác khả dụng. Không phần nào của Santara AI giả định chỉ có một cái duy nhất.
 
-## Bốn trạng thái của một listing
+## Trạng thái của listing
 
-Bộ từ vựng này được dùng giống hệt trên mọi màn hình:
+Mỗi listing trên trang kết nối mang một trong các nhãn sau:
 
-![Bốn trạng thái mà một listing đi qua, với Go live là cánh cổng trước trạng thái cuối.](/diagrams/listing-states.vi.svg)
+| Nhãn | Ý nghĩa |
+| --- | --- |
+| **Chưa liên kết** | Santara AI thấy listing trên kênh; nó chưa trỏ tới phòng nào ở đây. Không gì đồng bộ |
+| **Đã liên kết — chưa ánh xạ giá** | Đã trỏ tới một phòng, nhưng giá chưa có nơi để đi |
+| **Cần thao tác** | Có việc cần bạn — lý do hiện bên cạnh, ví dụ *Xác nhận sức chứa để tiếp tục* |
+| **Sẵn sàng — chưa trực tuyến** | Đã thiết lập và ánh xạ, nhưng kênh chưa giao quyền |
+| **Đang đăng…** | Đang được đưa lên chạy |
+| **Trực tuyến** | Tình trạng trống và giá đi ra, đặt phòng và tin nhắn đi vào |
+| **Lỗi** | Kênh từ chối điều gì đó; lý do hiện bên cạnh |
 
-1. **Chưa kết nối** — chưa liên kết tài khoản kênh nào.
-2. **Đã liên kết — chưa ánh xạ** — Santara AI thấy listing trên kênh, nhưng nó chưa trỏ tới phòng nào ở
-   đây. Không gì đồng bộ.
-3. **Đã ánh xạ — chờ kích hoạt** — đã trỏ tới một phòng. Vẫn chưa có gì đồng bộ.
-4. **Đang chạy** — tình trạng trống và giá đi ra, đặt phòng và tin nhắn đi vào.
-
-Khoảng cách giữa 3 và 4 là cố ý và do bạn khép lại. Xem [Go live](/vi/channels/going-live/).
+Trên Airbnb, nhập một tin đăng sẽ đưa nó lên chạy ở bước cuối. Trên Booking.com và mọi kênh khác, ánh
+xạ một phòng sẽ đưa phòng đó lên chạy ngay. Xem [Go live](/vi/channels/going-live/).
 
 ## Thời gian đồng bộ
 
@@ -84,7 +111,7 @@ Ngắt kết nối sẽ dừng đồng bộ và xóa các đặt phòng, khách,
 trên kênh bị ảnh hưởng** — listing, lịch và các lượt đặt ở đó vẫn nguyên. Bạn có thể kết nối lại tài
 khoản đó sau.
 
-Xóa một listing (**Xóa khỏi Santara AI**) làm điều tương tự cho riêng phòng đó.
+Gỡ một listing (**Gỡ khỏi Santara AI**) làm điều tương tự cho riêng phòng đó.
 
 :::caution
 Ngắt kết nối không phải cách để tạm dừng. Nếu muốn kênh ngừng nhận đặt phòng một thời gian, hãy đóng

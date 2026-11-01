@@ -1,6 +1,6 @@
 ---
 title: Pesan
-description: Semua percakapan tamu dari semua channel, diurutkan berdasarkan yang benar-benar butuh Anda, lengkap dengan draf balasan bila diinginkan.
+description: Semua percakapan tamu dari semua channel, diurutkan berdasarkan yang benar-benar butuh Anda, dengan balasan tulisan AI bila diinginkan dan balas otomatis yang bisa Anda nyalakan.
 sidebar:
   order: 2
 ---
@@ -48,11 +48,21 @@ Di dalamnya, utas terbagi menjadi tiga kelompok:
 - **Disematkan** — semua yang Anda sematkan dengan **Sematkan ke atas**. Sematan tampil di setiap
   filter dan disimpan di akun Anda, jadi ikut ke perangkat lain. Sematan tiap orang milik sendiri.
 - **Perlu Anda sekarang** — belum dijawab, dan tamunya datang atau pergi hari ini. Label di baris
-  menyebutkan yang mana: check-in hari ini, check-out hari ini, atau tamu yang sedang menginap.
+  menyebutkan yang mana: **Check-in hari ini**, **Check-out hari ini**, atau **Sedang menginap**.
 - **Lainnya**, yang terbaru di atas.
 
-Bila daftar kosong, tertulis **Tidak ada yang perlu Anda tangani sekarang.** — itu tujuannya, bukan
-kesalahan.
+Bila daftar kosong, tertulis **Tidak ada yang perlu Anda tangani sekarang. Damai.** — itu
+tujuannya, bukan kesalahan.
+
+### Membersihkan daftar sekaligus
+
+Dua tombol di atas daftar bekerja untuk semua utas sekaligus, dan masing-masing meminta konfirmasi
+dulu:
+
+- **Tandai semua sudah dibaca** menghapus titik belum dibaca. Dibaca bukan berarti selesai — pesan
+  yang menunggu balasan Anda tetap ada di **Perlu Anda**.
+- **Tandai semua selesai** menandai setiap utas di **Perlu Anda** selesai dan sudah dibaca. Jika tamu
+  menulis lagi, utasnya kembali muncul.
 
 ### Belum dibaca, judul tab, dan suara
 
@@ -62,9 +72,11 @@ titiknya hilang untuk semua orang. Membaca utas tidak menandainya selesai — it
 
 Tab browser menaruh jumlah yang menunggu Anda di depan judul halaman — **(3)** — supaya terlihat
 dari tab lain. Angkanya sama dengan lencana di sidebar: pesan tamu yang belum dijawab ditambah
-obrolan tim yang belum dibaca. Nada singkat berbunyi saat pesan tamu masuk. Matikan di menu ruang
-kerja, di samping Bantuan dan pengalih tema — **Suara pesan aktif** menjadi **Suara pesan mati**.
-Pilihan ini disimpan per browser, jadi membisukan laptop tidak memengaruhi ponsel Anda.
+obrolan tim yang belum dibaca.
+
+Nada singkat berbunyi saat pesan tamu masuk. Matikan di **Pengaturan → Personal → Notifikasi di
+perangkat ini** — sakelar **Suara pesan**. Pilihan ini disimpan per browser, jadi membisukan laptop
+tidak memengaruhi ponsel Anda.
 
 ## Membaca tamu dalam bahasa Anda
 
@@ -98,24 +110,85 @@ terjemahan yang salah lebih buruk daripada tanpa terjemahan. Ia dicoba lagi nant
 
 ## Membalas
 
-Tulis dan kirim. Tiga hal tersedia di samping kotak:
+Ketik di kotak kirim lalu kirim, atau tekan **Tulis balasan** dan biarkan AI menulis balasannya
+**langsung ke kotak kirim**. Tidak ada yang sampai ke tamu sebelum Anda menekan **Kirim**.
 
-- **Saran balasan** — draf yang ditulis dari utas dan reservasi. Baca, sunting, kirim. Tidak ada yang
-  terkirim tanpa Anda menekan kirim.
-- **[Template pesan](/id/setup/workspace/#template-pesan)** — balasan tersimpan milik Anda dengan
+Selama bekerja, empat langkah bernomor menunjukkan sejauh mana prosesnya:
+
+1. **Baca percakapan**
+2. **Cek detail dan susun balasan**
+3. **Tulis balasan**
+4. **Periksa ulang dan simpan**
+
+Balasan muncul di kotak sambil ditulis. Tekan **Berhenti**, tekan **Esc**, atau langsung mengetik
+untuk mengambil alih — apa yang sudah ada tetap bisa Anda sunting.
+
+Setelah selesai:
+
+- **Lebih singkat**, **Lebih hangat**, dan **Urungkan** menyesuaikan balasan tanpa mulai dari awal.
+- **Perlu keputusan Anda sebelum dikirim** mendaftar keputusan yang hanya bisa Anda ambil — late
+  checkout, diskon. Pilih jawaban Anda lalu tekan **Tulis ulang dengan jawaban saya**.
+- **Periksa ini sebelum mengirim** mendaftar hal di balasan yang tidak ditemukan AI di data yang
+  dibacanya — jam, harga, kode. Periksa sebelum mengirim.
+- **Sumber yang dibaca** menunjukkan dasar balasan: utas, booking, listing.
+
+Tombol **Sesuaikan** di samping **Tulis balasan** membuka dua kontrol lagi: **Bahasa balasan**
+(awalnya **Bahasa tamu**) dan kotak **Beri tahu AI harus menjawab apa — mis. tawarkan late
+checkout**. Tekan Enter di sana untuk menulis ulang balasan dengan arahan itu.
+
+Di samping kotak juga tersedia:
+
+- **[Templat](/id/setup/workspace/#template-pesan)** — balasan tersimpan milik Anda dengan
   placeholder (nama tamu, jam check-in, kode pintu) yang terisi dari data menginap.
-- **Prompt upsell** — bila kalender memungkinkan late check-out atau malam tambahan, tawarannya
-  muncul di sini sebagai draf. Lihat [Upsell](/id/money/upsells/).
+- **Lampirkan file** — foto atau dokumen, maksimal 5 MB.
 
-## Apa yang dilakukan AI dan tidak
+Bila sebuah pesan gagal terkirim, pesan itu tetap di utas dengan tanda **Tidak terkirim** dan tombol
+**Coba lagi**. Tidak ada yang hilang.
 
-Ia **membaca** utas, reservasi, dan fakta properti, lalu **membuat draf**. Ia tidak mengirim, dan
-tidak bisa mengirim. Tidak ada mode balas-otomatis, dan itu disengaja: jawaban otomatis yang salah
-kepada tamu berujung ulasan buruk.
+Kualitas balasan bergantung pada apa yang diketahui properti. Properti tanpa kata sandi wifi, jam
+check-in, dan alamat menghasilkan balasan yang kabur. Isi di [Properti](/id/setup/properties/) dan
+balasannya menjadi spesifik.
 
-Kualitas draf bergantung pada apa yang diketahui properti. Properti tanpa kata sandi wifi, jam
-check-in, dan alamat menghasilkan draf yang kabur. Isi di [Properti](/id/setup/properties/) dan
-drafnya menjadi spesifik.
+## Balas otomatis
+
+**Balas otomatis** adalah tab ketiga di Pesan, di samping **Pesan tamu** dan **Tim**. Fitur ini
+membiarkan Santi menjawab pertanyaan tamu yang sederhana saat Anda tidak sempat — jam check-in,
+Wi-Fi, petunjuk arah, aturan rumah. Fitur ini **nonaktif** sampai pemilik atau admin
+menyalakannya, dan punya dua mode:
+
+| Mode | Yang terjadi |
+| --- | --- |
+| **Nonaktif** | Tidak ada yang terkirim sendiri. Anda membalas seperti di atas. |
+| **Uji coba** | Santi menulis balasan tapi tidak mengirim apa pun. Balasannya dicatat agar Anda bisa melihat apa yang akan dikatakannya. |
+| **Aktif** | Balasan dikirim ke tamu untuk topik yang Anda izinkan, setelah jeda yang Anda atur. |
+
+Mulailah dengan Uji coba: setelah beberapa waktu, tab ini menunjukkan berapa banyak balasannya yang
+akan Anda loloskan tanpa diubah, dan **Mulai kirim** memindahkan Anda ke mode Aktif. **Kembali ke
+uji coba** melakukan sebaliknya.
+
+**Aturan Anda** menentukan apa yang boleh dilakukannya, berupa kalimat yang bisa Anda sunting:
+
+- **Topik** — hal yang boleh dijawab Santi (jam check-in & check-out, Wi-Fi, petunjuk arah &
+  parkir, aturan rumah, fasilitas, dan lainnya).
+- **Jam** — pada jam tertentu, selalu, atau hanya saat tidak ada anggota tim yang online.
+- **Jeda** — berapa lama ia menunggu sebelum mengirim, agar Anda sempat menghentikan atau
+  mengeditnya. Mengetik di percakapan akan menjedanya.
+- **Bahasa**, dan apa yang terjadi pada hal lainnya — balasan singkat sementara, peringatan ke tim,
+  atau tidak ada balasan.
+
+Hanya pemilik atau admin yang bisa mengubahnya; yang lain hanya bisa melihat. **Jeda sampai pagi**
+menghentikannya untuk malam itu, dan **Lanjutkan** menyalakannya lagi.
+
+**Selalu diserahkan ke Anda: uang, perubahan tanggal, keluhan, keadaan darurat, tamu yang tidak bisa
+masuk.** Santi juga menahan jawaban apa pun yang tidak bisa didukung detail properti Anda. Semua itu
+bukan pengaturan.
+
+Di dalam utas tamu, sebuah baris menunjukkan apakah balas otomatis mencakupnya — misalnya **Santi
+menjawab percakapan ini sampai 07:00, setelah 5 mnt** — dengan **Ubah** untuk membuka tabnya. Balasan
+yang menunggu menampilkan hitung mundur dengan **Kirim sekarang**, **Edit**, dan **Batal**. **Coba**
+di tab itu menjalankan contoh pesan tamu melalui aturan Anda tanpa mengirim apa pun.
+
+Balas otomatis hanya bekerja di channel yang menerima balasan — Airbnb, Booking.com, dan Expedia.
 
 ## Keluhan menjadi tiket
 
@@ -126,10 +199,19 @@ yang akan tergulung. Tiket menyimpan tautan kembali ke utas.
 ## Riwayat
 
 Utas membawa percakapan sebagaimana ada di channel, termasuk pesan yang dikirim sebelum Anda
-menghubungkan Santara AI.
+menghubungkan Santara AI. Bila channel menutup utas setelah check-out, riwayatnya tetap ada di sini.
+
+## Obrolan tim
+
+Tab **Tim** di Pesan adalah obrolan untuk orang-orang yang mengurus properti — co-host, manajer,
+petugas kebersihan — percakapan yang biasanya terjadi di grup WhatsApp yang tak bisa dicari
+belakangan. Buat grup atau kirim pesan langsung ke satu rekan; file bisa dilampirkan. Obrolan ini
+terpisah dari pesan tamu, dan tamu tidak bisa melihatnya. Obrolan tim yang belum dibaca ikut
+dihitung di lencana sidebar.
 
 ## Yang tidak pernah dilihat tamu
 
 - Catatan internal Anda.
 - Judul, penugasan, dan rencana penyelesaian tiket.
-- Semua isi [obrolan tim](/id/daily/tasks/#obrolan-tim), yang merupakan percakapan terpisah antar staf.
+- Semua isi [obrolan tim](#obrolan-tim), yang merupakan percakapan terpisah antar staf.
+- Balasan otomatis yang ditulis dalam mode **Uji coba**.

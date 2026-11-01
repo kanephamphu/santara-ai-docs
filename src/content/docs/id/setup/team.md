@@ -5,8 +5,34 @@ sidebar:
   order: 6
 ---
 
-**Pengaturan → Tim**. Undangan dikirim lewat email berupa tautan. Jika orangnya belum punya akun, ia
-mendaftar dulu, lalu menerima undangan untuk bergabung ke workspace ini.
+**Pengaturan → Tim**. Tab ini hanya tampil untuk **host admin**, karena hanya mereka yang bisa
+mengundang orang atau mengubah peran.
+
+## Mengundang seseorang
+
+Tekan **Undang anggota tim**. Isi **Nama** (wajib), **Peran**, dan **Akses**-nya. Kolom **Email
+(opsional)** menentukan cara undangan sampai:
+
+- **Dengan email**, undangan masuk ke kotak suratnya. *Mereka membuka tautan, membuat kata sandi,
+  dan langsung masuk. Tanpa pendaftaran terpisah.*
+- **Tanpa email** — *Tidak ada email? Kosongkan dan kirim tautan lewat WhatsApp sendiri.* Undangannya
+  tampil sebagai **Hanya tautan**. Orang itu mengetik email dan kata sandinya di halaman yang dibuka
+  tautan, lalu menerima **Kode 6 digit** untuk membuktikan alamatnya sebelum akun dibuat.
+
+Setelah **Kirim undangan**, tautannya ditampilkan dengan tombol **Bagikan**, **Salin link**, dan
+**WhatsApp**. Bagaimanapun caranya, tautan membuka satu halaman di `santara.ai/join/…`. Orang yang
+**sudah punya akun Santara AI** cukup memasukkan kata sandinya di sana lalu bergabung — login yang
+sama berlaku di setiap workspace yang ia ikuti.
+
+Undangan yang belum dipakai tetap ada di bawah **Undangan**, masing-masing dengan **Berakhir
+{date}** — tautan berlaku seminggu. Setiap undangan punya tiga tombol:
+
+- **Salin link** — salin lagi untuk dikirim.
+- **Tautan baru** — membuat tautan baru. **Tautan lama tidak berlaku lagi**, jadi pakai ini kalau
+  tautan terkirim ke obrolan yang salah.
+- **Batalkan undangan** — tautannya berhenti berfungsi.
+
+Tautan yang kedaluwarsa meminta orang itu meminta tautan baru kepada Anda.
 
 Satu orang bisa memegang peran berbeda di workspace berbeda. Login-nya miliknya; aksesnya per
 workspace.
@@ -63,7 +89,8 @@ pengaturan, dan karena itulah peran ini yang paling hati-hati Anda berikan.
 
 Mereka masuk dan melihat pembersihan yang ditugaskan kepadanya, pada hari pelaksanaannya, lengkap
 dengan alamat dan catatan akses untuk bangunan itu. Mereka menandai selesai, dengan foto bila perlu.
-Itulah seluruh produknya bagi mereka, dan itu disengaja.
+Itulah seluruh produknya bagi mereka, dan itu disengaja. Di [aplikasi Android](/id/mobile/getting-started/)
+mereka hanya mendapat tab **Hari ini**, **Tugas**, dan **Lainnya**.
 
 Jika Anda tidak ingin memberi akun sama sekali, bagikan
 [pesan klaster kebersihan](/id/daily/tasks/#klaster-kebersihan) dari ringkasan harian — isinya

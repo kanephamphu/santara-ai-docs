@@ -1,14 +1,24 @@
 ---
 title: Kết nối Booking.com
-description: Thêm nhà cung cấp kết nối trong extranet, nhập Hotel ID, ánh xạ phòng, và Santara AI kích hoạt kênh giúp bạn.
+description: Thêm nhà cung cấp kết nối trong extranet, chọn chỗ nghỉ, nhập Hotel ID và ánh xạ phòng — ánh xạ một phòng là đưa phòng đó lên chạy.
 sidebar:
   order: 3
 ---
 
 Booking.com hoạt động khác Airbnb: không có popup đăng nhập. Bạn cấp quyền trong extranet của chính
-mình, rồi cho Santara AI biết nó gắn với bất động sản nào.
+mình, rồi kết nối nó với một chỗ nghỉ bạn đã có trong Santara AI.
 
-![Hộp thoại kết nối Booking.com — bước extranet, Hotel ID, và bất động sản để liên kết.](/screens/connect-booking-com.vi.png)
+## Bạn cần gì
+
+- **Một chỗ nghỉ có ít nhất một phòng** trong Santara AI. Kết nối Booking.com chỉ ánh xạ những phòng
+  bạn đã có — không tạo chỗ nghỉ mới. Khi chưa có, ô Booking.com hiện **Cần tạo chỗ nghỉ trước**. Hãy
+  thêm ở [Chỗ nghỉ](/vi/setup/properties/).
+- Quyền truy cập **extranet Booking.com** với tư cách chủ chỗ nghỉ.
+- **Hotel ID** của bạn — con số ở đầu extranet, cạnh tên chỗ nghỉ.
+
+Quy trình gồm ba bước: **Chọn chỗ nghỉ**, **Kết nối và ánh xạ**, **Nhập dữ liệu**.
+
+![Bước kết nối Booking.com — ô xác nhận extranet và Hotel ID.](/screens/connect-booking-com.vi.png)
 
 ## 1. Bật kết nối trong extranet
 
@@ -17,7 +27,7 @@ tôi — đó là cái tên bạn tìm trong Booking.com. Nên để chủ chỗ
 đăng nhập hai bước tới điện thoại của chủ tài khoản.
 
 1. Đăng nhập tại **account.booking.com**. Ghi lại **mã chỗ nghỉ** ở đầu trang, cạnh tên chỗ nghỉ —
-   đó là Hotel ID bạn nhập ở bước 2. Rồi mở **Account → Connectivity provider**.
+   đó là Hotel ID bạn nhập ở bước 3. Rồi mở **Account → Connectivity provider**.
 
    ![Extranet Booking.com: mã chỗ nghỉ cạnh tên, và Account → Connectivity provider.](/channel-guides/extranet/booking-com-account-menu.webp)
 
@@ -42,7 +52,7 @@ tôi — đó là cái tên bạn tìm trong Booking.com. Nên để chủ chỗ
 
    ![Đang chờ nhà cung cấp xác nhận — tiếp tục trong Santara AI.](/channel-guides/extranet/booking-com-waiting.webp)
 
-Không gì xảy ra trong Santara AI trước khi việc này hoàn tất. Hộp thoại kết nối có ô xác nhận, vì bỏ qua
+Không gì xảy ra trong Santara AI trước khi việc này hoàn tất. Bước kết nối có ô xác nhận, vì bỏ qua
 bước này là nguyên nhân thất bại phổ biến nhất.
 
 :::caution[Kiểm tra giá phái sinh sau khi kết nối]
@@ -50,38 +60,41 @@ Khi kết nối channel manager, Booking.com có thể đổi cài đặt của 
 dụ số đêm tối thiểu. Hãy kiểm tra từng giá phái sinh trong extranet sau khi kết nối.
 :::
 
-## 2. Nhập Hotel ID
+## 2. Chọn chỗ nghỉ
 
-**Cài đặt → Kênh → Kết nối Booking.com**.
+**Cài đặt → Kênh → Thêm kênh**, rồi bấm **Kết nối** trên ô **Booking.com**. Bước đầu tiên hỏi
+**Khách sạn này là chỗ nghỉ nào?** Chọn chỗ nghỉ trong Santara AI, rồi bấm **Tiếp tục**. Các phòng
+Booking.com của bạn được ánh xạ vào phòng của chỗ nghỉ đó — không tạo chỗ nghỉ mới. Nếu chỗ nghỉ đã
+có trên Airbnb, điều đó bình thường; một chỗ nghỉ bán ở cả hai nơi.
 
-**Hotel ID** là con số hiển thị ở đầu extranet, cạnh tên chỗ nghỉ — ví dụ `1234567`. Có thể đặt tên
-hiển thị cho kết nối.
+## 3. Kết nối và ánh xạ
 
-## 3. Liên kết tới một bất động sản
+**Kết nối.** Đánh dấu ô xác nhận bạn đã thêm nhà cung cấp kết nối và chấp nhận thỏa thuận trong
+extranet. Nhập **Hotel ID** (ví dụ `1234567`) và, nếu muốn, **Tên hiển thị (tùy chọn)**. Bấm
+**Kiểm tra kết nối** để kiểm tra trước:
 
-Chọn bất động sản Santara AI mà khách sạn này thuộc về. Khách sạn kết nối **trực tiếp tới bất động sản
-đó** — không tạo cái mới — và mọi phòng khác tìm thấy trong extranet sẽ được thêm vào đó khi phát hiện.
+- *Booking.com đã chấp nhận Hotel ID này.* — tiếp tục.
+- *Booking.com không chấp nhận Hotel ID này.* — kiểm tra lại con số, và yêu cầu nhà cung cấp ở bước
+  1 đã được chấp nhận chưa.
 
-Chưa có bất động sản? Chọn **Bất động sản mới — tạo từ khách sạn này**. Nếu bất động sản đã có trên
-Airbnb, nó được đánh dấu *đã có trên Airbnb* — điều đó bình thường; một chỗ nghỉ bán ở cả hai nơi.
+Rồi bấm **Kết nối Booking.com**. Khác Airbnb, việc này diễn ra ngay, không có cửa sổ nào phải chờ.
 
-Bấm **Kết nối chỗ nghỉ**. Khác Airbnb, việc này diễn ra ngay, không có cửa sổ nào phải chờ.
+**Ánh xạ.** Santara AI hỏi Booking.com về các phòng của khách sạn và liệt kê trong **Các phòng của
+bạn**. Với mỗi phòng Booking.com:
 
-## 4. Ánh xạ phòng
+- chọn phòng Santara AI tương ứng (**Chọn một phòng…**);
+- trỏ từng mức giá Booking.com tới một gói giá của bạn, rồi **Lưu ánh xạ giá**. Trong **Gói giá của
+  phòng này** bạn có thể thêm gói ngay tại chỗ (**+ Thêm gói giá**) hoặc đổi gói chính (**Đặt làm
+  chính**).
 
-Santara AI hỏi Booking.com về các phòng của khách sạn đó và hiển thị trong **Phòng của bạn**. Với mỗi
-phòng, chọn phòng Santara AI tương ứng.
+Mỗi phòng được ánh xạ từ dòng riêng của nó; khi có nhiều phòng, **Map, kích hoạt & đồng bộ N phòng**
+ánh xạ tất cả cùng lúc. Xong thì bấm **Tiếp tục**.
 
-Nếu không có gì hiện ra, bấm **Tìm phòng của tôi** lần nữa, hoặc dùng **Tự liên kết phòng với bất động
-sản** và nhập thủ công từ trang **Property → Rooms & rates** của extranet:
-
-- **Tên phòng** — ví dụ *Standard Double Room*
-- **Room ID** — ví dụ `437213702`
-- **Rate ID** — ví dụ `25014098, 25014104`
-- **Khách** — sức chứa của phòng
-
-Rồi bấm **Ánh xạ, kích hoạt & đồng bộ**. Santara AI ánh xạ phòng, kích hoạt kênh, và đồng bộ đặt phòng,
-đánh giá và tin nhắn, hiển thị từng giai đoạn.
+:::caution[Ánh xạ một phòng là đưa phòng đó lên chạy]
+Booking.com không có bước Go live riêng. Ánh xạ một phòng sẽ thiết lập và đưa phòng đó lên
+Booking.com — tình trạng phòng trống bắt đầu đồng bộ ngay. Hãy đọc [Go live](/vi/channels/going-live/)
+trước khi ánh xạ.
+:::
 
 :::note[Phân biệt các phòng]
 Booking.com hiển thị tên phòng **mặc định**, không phải tên bạn đã đổi trong extranet, nên hai căn hộ
@@ -90,12 +103,19 @@ chưa ánh xạ — kể cả **giá phái sinh** cũ hiện ra như có thể �
 Nếu không cần, hãy xoá trong extranet (giá phái sinh tạo lại ở đó sẽ không cần ánh xạ).
 :::
 
+## 4. Nhập dữ liệu
+
+Santara AI đưa về các lượt lưu trú, tin nhắn và đánh giá mà khách sạn đã có (*Đang chuyển các đặt
+phòng của bạn sang*). Bạn có thể rời trang — việc này vẫn chạy tiếp. Khi hiện *Đã kết nối xong*,
+**Mở kênh này** đưa bạn tới trang kết nối.
+
 ## Điều gì có thể giữ một phòng lại
 
 | Trên màn hình | Nghĩa là |
 | --- | --- |
-| *Đã liên kết — chưa ánh xạ* | Booking.com biết phòng đó; nó chưa trỏ tới phòng Santara AI nào |
-| *Đã ánh xạ — chờ kích hoạt* | Đã ánh xạ, nhưng kênh chưa kích hoạt. Đặt phòng đồng bộ sau khi kích hoạt thành công |
+| *Đã liên kết — chưa map* | Booking.com biết phòng đó; nó chưa trỏ tới phòng Santara AI nào |
+| *Đã map — chờ kích hoạt* | Đã ánh xạ, nhưng kênh chưa kích hoạt. Đặt phòng đồng bộ sau khi kích hoạt thành công |
+| *Xác nhận sức chứa để tiếp tục* | Xác nhận chỗ nghỉ có bao nhiêu đơn vị giống nhau, và giá mỗi đêm — xem [Go live](/vi/channels/going-live/#kiểm-tra-những-điều-này-trước) |
 | *vẫn liên kết nhưng chưa ánh xạ — rate plan không có giá cho số khách mà Booking.com chấp nhận* | Mở rate plan của phòng, đặt giá cho mức sức chứa đó, rồi ánh xạ lại |
 | *Chưa tìm thấy phòng nào* | Kiểm tra Hotel ID và nhà cung cấp kết nối, rồi làm mới |
 
@@ -119,7 +139,7 @@ bằng [quy tắc định giá](/vi/money/pricing/)) và xem Santara AI là ngu�
 
 - **Đổi bất động sản** — đặt phòng và tin nhắn trong tương lai sẽ về bất động sản bạn chọn. Những gì
   đã nhập vẫn ở nguyên chỗ và ánh xạ phòng được giữ.
-- **Xóa khỏi Santara AI** trên một phòng — chỉ xóa dữ liệu đã nhập tại đây.
+- **Gỡ khỏi Santara AI** trên một phòng — chỉ xóa dữ liệu đã nhập tại đây.
 - **Ngắt kết nối** — dừng đồng bộ và xóa dữ liệu Booking.com đã nhập của chỗ nghỉ này. Extranet của
   bạn không bị ảnh hưởng.
 

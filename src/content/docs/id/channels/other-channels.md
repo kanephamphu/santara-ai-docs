@@ -1,6 +1,6 @@
 ---
 title: Hubungkan channel lain
-description: Agoda, Expedia, Trip.com, Vrbo, dan setiap channel lain — pilih properti, hubungkan channel, petakan kamarnya, lalu biarkan booking masuk.
+description: Agoda, Expedia, Trip.com, Traveloka, dan setiap channel lain — pilih properti, hubungkan channel, petakan kamarnya, lalu biarkan booking masuk.
 sidebar:
   order: 4
 ---
@@ -16,7 +16,8 @@ channel](/id/channel-guides/) mencantumkan apa yang diminta masing-masing.
 ## Yang Anda perlukan
 
 - Sebuah **properti dengan minimal satu kamar** di Santara AI. Properti tanpa kamar tidak punya apa
-  pun untuk dipetakan dan tidak bisa dipilih.
+  pun untuk dipetakan dan tidak bisa dipilih. Sebelum ada, setiap kotak channel menampilkan **Tambah
+  properti dulu** — menghubungkan channel memetakan kamar yang sudah Anda punya, bukan membuatnya.
 - **Login atau detail koneksi channel** Anda, persis seperti yang tertera di extranet channel itu.
   Beberapa channel juga meminta Anda menyetujui koneksi di sisi mereka terlebih dahulu.
 - Sekitar **15 menit**. Sesi penyiapan berakhir setelah itu; **Buka kembali** melanjutkan dari titik
@@ -36,10 +37,21 @@ lain di channel yang sama, hubungkan lagi dan pilih properti itu.
   menyediakannya, **Uji koneksi** memeriksa detailnya sebelum apa pun dibuat. Lalu tekan
   **Hubungkan dan lanjut**.
 - **Petakan setiap kamar** ke kamar atau listing yang cocok di channel, dan pilih rate plan Anda
-  mana yang mengisi setiap tarif channel. Beberapa channel membaca rate plan Anda langsung — di sana
-  Anda memilih rate plan yang harus diterima channel.
+  mana yang mengisi setiap tarif channel.
 - Di beberapa channel langkah ini menampilkan **layar pemetaan tersendiri**. Tampilannya berbeda
   dari bagian lain Santara AI, dan hanya properti yang Anda pilih yang terlihat di sana. Setelah selesai, tekan **Saya sudah selesai**.
+
+Di beberapa channel — antara lain Google Hotel Search dan Hopper — tidak ada kamar channel untuk
+dipetakan: channel membaca rate plan Anda apa adanya. Di sana Anda mencentang rate plan yang harus
+diterima channel, tekan **Simpan**, lalu tombol **Aktifkan** dengan nama channel-nya — misalnya
+**Aktifkan Hopper**. Jika channel belum bisa aktif, Santara AI mencantumkan apa yang masih kurang —
+foto, deskripsi, alamat — dan di mana mengisinya.
+
+:::caution[Memetakan kamar langsung menayangkannya]
+Tidak ada langkah Go live terpisah di channel ini. Memetakan kamar akan menyiapkannya dan membuatnya
+aktif di channel — ketersediaan langsung mulai disinkronkan. Baca [Go live](/id/channels/going-live/)
+sebelum memetakan.
+:::
 
 Kamar yang rate plan-nya tidak menetapkan harga untuk jumlah tamu yang diterima channel tetap
 **tertaut tetapi belum dipetakan**, dengan catatan kamar mana. Santara AI tidak menebak pada listing
@@ -47,7 +59,7 @@ yang live — sesuaikan jumlah tamu di rate plan, lalu petakan lagi.
 
 ## 3. Impor
 
-Santara AI memeriksa apa yang sudah dipetakan, mengaktifkan channel, lalu membawa masuk menginap dan
+Santara AI memeriksa apa yang sudah dipetakan, lalu membawa masuk menginap dan
 ulasan yang sudah ada di channel (serta pesan tamu, di channel yang membawanya). Anda boleh
 meninggalkan halaman — prosesnya tetap berjalan. Setelah selesai, **Buka channel ini** membuka
 halaman koneksinya.
@@ -61,12 +73,15 @@ Channel muncul di **Pengaturan → Channel → Terhubung**, dengan kamar dan tar
 dipetakan. Dari sana Anda bisa membuka lagi penyiapannya, dan channel yang terhubung tetapi belum
 live menampilkan catatan tentang itu.
 
+Foto (hingga 30), deskripsi, kebijakan rumah, kebijakan pembatalan, dan fasilitas properti Anda
+dikirim ke channel setiap kali Anda menyimpan properti atau kamar.
+
 Tarif, ketersediaan, dan restriksi lalu tersinkron persis seperti Airbnb dan Booking.com. Lihat
 [Cara kerja koneksi channel](/id/channels/) untuk apa yang berpindah di tiap arah.
 
 :::note[Pesan tamu di channel ini]
 Membalas dari Santara AI berfungsi di **Expedia**, selain Airbnb dan Booking.com. Di channel lain
-dalam katalog, balas tamu di kotak masuk channel itu sendiri. Pesan tamu Vrbo tidak didukung.
+dalam katalog, balas tamu di kotak masuk channel itu sendiri.
 :::
 
 ## Memutus koneksi

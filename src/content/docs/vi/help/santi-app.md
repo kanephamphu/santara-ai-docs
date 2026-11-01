@@ -56,8 +56,8 @@ hoặc chỉ cần nói *"chuyển sang Hanoi Lofts"*. Mỗi workspace giữ cu�
 
 ### Ngắt kết nối
 
-Trong Santara AI: **Cài đặt → Ứng dụng đã kết nối** (hoặc thẻ Santi trong **Cài đặt → Kênh**) →
-**Ngắt kết nối**. Santi mất quyền vào workspace đó ngay lập tức. Các cuộc trò chuyện của bạn với Santi
+Trong Santara AI: **Cài đặt → Kênh**, tab **Ứng dụng** → thẻ Santi → **Ngắt kết nối**.
+Santi mất quyền vào workspace đó ngay lập tức. Các cuộc trò chuyện của bạn với Santi
 vẫn được giữ trong Santi.
 
 ## Nói chuyện với Santi
@@ -153,7 +153,8 @@ lúc 7:00 mỗi sáng. Trên iPhone, hãy thêm Santi vào màn hình chính tr�
 ## Giới hạn
 
 Santi có giới hạn mỗi ngày cho mỗi người — khoảng 150 câu hỏi. Khi chạm giới hạn, Santi sẽ báo; giới
-hạn đặt lại vào ngày hôm sau. Cuộc trò chuyện được giữ một năm, trừ khi bạn xóa.
+hạn đặt lại vào ngày hôm sau. Tin nhắn trò chuyện được giữ 7 ngày rồi bị xoá. Những ghi nhớ bạn đã
+xác nhận vẫn ở lại cho tới khi bạn bảo Santi quên.
 
 :::note
 Santi trên WhatsApp và Zalo chưa có — hiện tại ứng dụng là cách để dùng Santi.

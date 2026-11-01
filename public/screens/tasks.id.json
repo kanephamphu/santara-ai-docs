@@ -4,15 +4,15 @@
   "boxes": [
     {
       "x": 303,
-      "y": 223,
+      "y": 220,
       "width": 454.125,
       "height": 66.5,
       "label": "Turnover hari ini",
       "side": "right"
     },
     {
-      "x": 930.046875,
-      "y": 433,
+      "x": 972.046875,
+      "y": 389.5,
       "width": 296,
       "height": 48,
       "label": "Tugaskan petugas, lalu tandai selesai",

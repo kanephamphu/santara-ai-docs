@@ -45,8 +45,8 @@ cancellation, a clean assigned or finished, a ticket opened or done.
 
 ## Once a month
 
-- **[Accounting](/money/accounting/)** — log the cleaning, maintenance and utility costs against
-  each property, then close the period and issue owner statements.
+- **[Reports](/money/reports/)** — add the month's cleaning, maintenance and utility costs, then
+  read the owner statement and download the CSV.
 - **[Pricing](/money/pricing/)** — look at the performance panel. RevPAN up and the engine settling
   down (fewer, smaller moves) is what good looks like.
 

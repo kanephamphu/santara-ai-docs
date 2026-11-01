@@ -5,8 +5,34 @@ sidebar:
   order: 6
 ---
 
-**Settings → Team**. Invitations are sent by email as a link. If the person has no account they
-register first, then accept the invitation to join this workspace.
+**Settings → Team**. The tab is shown only to **host admins**, because only they can invite people
+or change roles.
+
+## Inviting someone
+
+Press **Invite teammate**. Fill in a **Name** (required), the **Role** and their **Access**. The
+**Email (optional)** field decides how the invitation travels:
+
+- **With an email**, the invitation goes to their inbox. *They open the link, set a password and
+  they're in. No separate sign-up.*
+- **Without one** — *No email? Leave it blank and send the link on Zalo or WhatsApp yourself.* The
+  invitation shows as **Link only**. The person types their email and a password on the page the
+  link opens, and is sent a **6-digit code** to prove the address before the account is created.
+
+After **Send invite** the link is shown with **Share**, **Copy link** and **WhatsApp** buttons.
+Either way the link opens a single page at `santara.ai/join/…`. Somebody who **already has a
+Santara AI account** just enters their existing password there and joins — the same login works in
+every workspace they belong to.
+
+Open invitations stay under **Invitations** until they are used, each showing **Expires {date}** —
+a link lasts a week. Each one has three buttons:
+
+- **Copy link** — copy it again to send.
+- **New link** — makes a fresh link. **The old one stops working**, so use this when a link went to
+  the wrong chat.
+- **Cancel invite** — the link stops working.
+
+An expired link tells the person to ask you for a new one.
 
 One person can hold different roles in different workspaces. Their login is theirs; the access is
 per workspace.
@@ -62,7 +88,8 @@ setting, and it is why the role is the one you hand out most carefully.
 
 They sign in and see the cleans assigned to them, on the days they happen, with the address and the
 access notes for those buildings. They mark work done, optionally with a photo. That is the whole
-product for them, on purpose.
+product for them, on purpose. In the [Android app](/mobile/getting-started/) they get only the
+**Today**, **Tasks** and **More** tabs.
 
 If you would rather not give a cleaner an account at all, share the
 [cleaning cluster message](/daily/tasks/#cleaning-clusters) from the daily brief instead — it

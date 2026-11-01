@@ -98,28 +98,6 @@ ch("MakeMyTrip and Goibibo", "makemytrip", "Minta MakeMyTrip menghubungkan Chann
            ("Access token", "Token yang diberikan MakeMyTrip saat Channex dihubungkan.")],
    mapping=[MULTI_USUALLY])
 
-ch("Vrbo", "vrbo", "Hubungkan Vrbo dengan login Vrbo Anda (dan kode SMS), setelah melepas channel manager lama dan link iCal, lalu petakan listing demi listing.",
-   before=["**Akun Vrbo tidak boleh terhubung lewat API ke software lain.** Jika sebelumnya ada PMS "
-           "atau channel manager yang terhubung, minta ke tim support Vrbo: *\"Please disconnect my "
-           "account from my current channel manager, I will control the extranet manually.\"* "
-           "Hubungkan hanya setelah mereka mengonfirmasi.",
-           "**Hapus setiap link iCal** di listing Vrbo Anda (dari Airbnb atau sistem lain). iCal "
-           "terus menimpa apa yang dikirim Santara AI.",
-           "Siapkan **ponsel pemilik akun** — Vrbo mungkin mengirim kode SMS."],
-   extranet=None,
-   fields=[("Username", "Username Vrbo Anda."),
-           ("Password", "Password Vrbo Anda.")],
-   connect_steps=["Masukkan **username** dan **password** Vrbo Anda.",
-                  "Tekan **Authenticate** — bukan Uji koneksi.",
-                  "Jika Vrbo mengirim **kode SMS** ke pemilik akun, masukkan kodenya.",
-                  "Tekan **Uji koneksi**. Listing Vrbo Anda muncul di layar pemetaan."],
-   mapping=["Vrbo memetakan **listing demi listing**: pilih kamar dan tarif untuk setiap listing yang ingin Anda hubungkan."],
-   after=["Tarif, ketersediaan, restriksi, dan booking (baru, berubah, dibatalkan) tersinkron.",
-          "Mata uang: **USD, CAD, EUR, AUD, NZD, JPY, SGD, BRL, MXN, GBP**.",
-          "**Pesan tamu dan ulasan tidak didukung** di Vrbo."],
-   notes=[("caution", "Mengganti password Vrbo memutus koneksi",
-           "Jika password akun Vrbo berubah, koneksinya terputus. Hubungkan lagi dengan password baru.")])
-
 ch("Hostelworld", "hostelworld", "Kirim email ke Hostelworld untuk menghubungkan Channex, masukkan property ID, dan petakan setiap kamar pada okupansi maksimumnya.",
    extranet=["Kirim email ke tim support Hostelworld untuk menghubungkan **Channex**.",
              "Mereka membalas saat koneksi sudah aktif, beserta **property ID** Anda."],
@@ -423,14 +401,14 @@ LOCALE = 'id'
 CONNECT_ALT = 'Langkah 2 di Santara AI: kolom penyiapan {n}, lalu Uji koneksi.'
 CONNECT_SHOTS = set(['agoda', 'expedia', 'trip-com', 'tiket-com', 'makemytrip', 'hostelworld', 'crewdogs', 'emerging-travel', 'glamping-hub', 'hipcamp', 'hotel-trader', 'webbeds', 'hopper'])
 EXTRANET_IMAGES = {'agoda': [('agoda-ycs', 'Agoda YCS: Settings → Property Settings → Optional settings, dengan Enable channel manager mode dicentang dan penyedia dipilih.')], 'expedia': [('expedia-menu', 'Expedia Partner Central: Rooms and rates → Connectivity settings.'), ('expedia-verify', 'Expedia meminta verifikasi tambahan sebelum menampilkan Connectivity settings.')], 'tiket-com': [('tiket-com-connectivity', 'Extranet Tiket.com: Connectivity menampilkan channel manager yang terhubung dan Hotel ID Anda.')], 'despegar': [('despegar-menu', 'Extranet Despegar: General Settings → Channel Manager Connection.'), ('despegar-connections', 'Koneksi channel manager di Despegar — nonaktifkan atau hapus yang lama.'), ('despegar-add', 'Memilih channel manager di Despegar dan menyetujui syaratnya.')], 'inntopia': [('inntopia-products', 'Tab Products di Inntopia, dengan tombol pengaturan di setiap produk.'), ('inntopia-cross-reference', 'Cross-reference code Inntopia: Remote System Channex, kode = ID produk di dalam kurung.')]}
-BEFORE_IMAGES = {'vrbo': [('vrbo-api-connected', 'Akun Vrbo yang masih terhubung ke software lain — minta Vrbo mengubahnya sebelum Anda menghubungkan.')]}
+BEFORE_IMAGES = {}
 
 
 def img(src, alt):
     return f"![{alt}](/channel-guides/extranet/{src}.webp)\n"
 
 
-CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "vrbo": "VRBO", "google": "Google Hotel ARI"}
+CATALOGUE_NAMES = {"makemytrip": "Make My Trip", "glamping-hub": "GlampingHub", "hotel-trader": "HotelTrader", "google": "Google Hotel ARI"}
 
 def page(c, order):
     n = c["name"]

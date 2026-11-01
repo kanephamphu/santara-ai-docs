@@ -106,5 +106,7 @@ xuất bản cho tới khi bạn chọn.
 
 ## Nếu bạn đã dùng PriceLabs
 
-Kết nối tại [Cài đặt → Kênh](/vi/channels/listings/#pricelabs) và bộ máy của Santara AI sẽ nhường bước cho
-các listing do PriceLabs quản lý, thay vì hai bên giành nhau cùng một cuốn lịch.
+Kết nối PriceLabs mới đang **tạm dừng** — hiện PriceLabs không có trong Cài đặt → Kênh. Kết nối
+PriceLabs bạn đã tạo trước đó **vẫn hoạt động**: bộ máy của Santara AI nhường bước cho các listing do
+PriceLabs quản lý, thay vì hai bên giành nhau cùng một cuốn lịch, và bạn vẫn có thể ngắt kết nối.
+Xem [PriceLabs](/vi/channels/listings/#pricelabs).

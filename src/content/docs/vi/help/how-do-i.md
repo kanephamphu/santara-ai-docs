@@ -46,7 +46,7 @@ không phải câu trả lời chung chung.
 | Đặt sàn để không bao giờ bán quá rẻ | [Các con số của listing](/vi/money/pricing/#các-con-số-của-listing) |
 | Xem rule set sẽ làm gì trước khi xuất bản | [Xem trước khi xuất bản](/vi/money/pricing/#xem-trước-khi-xuất-bản) |
 | Biết việc định giá có thực sự hiệu quả không | [Nó có hiệu quả không?](/vi/money/pricing/#nó-có-hiệu-quả-không) |
-| Vẫn dùng PriceLabs | [Nếu bạn đã dùng PriceLabs](/vi/money/pricing/#nếu-bạn-đã-dùng-pricelabs) |
+| Vẫn dùng PriceLabs | Kết nối đã có vẫn hoạt động; kết nối mới đang tạm dừng — [Nếu bạn đã dùng PriceLabs](/vi/money/pricing/#nếu-bạn-đã-dùng-pricelabs) |
 | Thu thêm tiền cho khách phụ trội | Nằm ở rate plan — [Rate plan](/vi/money/rates/#rate-plan) |
 
 ## Đặt phòng và khách
@@ -68,6 +68,7 @@ không phải câu trả lời chung chung.
 | Trả lời khách | [Trả lời](/vi/daily/messages/#trả-lời) — AI soạn nháp, bạn gửi |
 | Thôi gõ lại cùng một câu trả lời | [Mẫu tin nhắn](/vi/setup/message-templates/) |
 | Gửi wifi và mã cửa tự động | Dùng biến trong mẫu — [Biến](/vi/setup/message-templates/#biến) |
+| Để AI tự trả lời khách | Bật **Tự động trả lời** — [Tin nhắn](/vi/daily/messages/) |
 | Biến lời phàn nàn thành thứ theo dõi được | [Phàn nàn trở thành ticket](/vi/daily/messages/#phàn-nàn-trở-thành-ticket) |
 | Phản hồi một đánh giá | [Phản hồi](/vi/daily/reviews/#phản-hồi) |
 | Đánh giá khách trên Airbnb | [Đánh giá khách (Airbnb)](/vi/daily/reviews/#đánh-giá-khách-airbnb) — không thể hoàn tác |
@@ -128,12 +129,13 @@ không phải câu trả lời chung chung.
 
 | Tôi muốn… | Làm thế này |
 | --- | --- |
-| Xem tháng này đang ra sao | [Bản chụp nhanh](/vi/money/reports/#bản-chụp-nhanh) |
-| Xuất số liệu cho kế toán | [Thư viện báo cáo](/vi/money/reports/#thư-viện-báo-cáo) — CSV từ dữ liệu trực tiếp |
-| Ghi chi phí dọn phòng, điện nước, sửa chữa | [Sổ cái](/vi/money/accounting/#sổ-cái) |
-| Gửi bảng kê cho chủ sở hữu | [Kỳ và bảng kê](/vi/money/accounting/#kỳ-và-bảng-kê) |
-| Hiểu RevPAN, ADR và công suất | [Công suất, ADR, RevPAN](/vi/money/reports/#công-suất-adr-revpan) |
-| Đối chiếu Santara AI với extranet | [Doanh thu ở đây nghĩa là gì](/vi/money/reports/#doanh-thu-ở-đây-nghĩa-là-gì) — ở đây là payout ròng |
+| Xem tháng này đang ra sao | [Bảng kê cho chủ nhà](/vi/money/reports/#bảng-kê-cho-chủ-nhà) |
+| Xuất số liệu cho kế toán | [Tải CSV](/vi/money/reports/#tải-csv) — đúng những gì đang hiện |
+| Ghi chi phí dọn phòng, điện nước, sửa chữa | [Thêm chi phí](/vi/money/reports/#thêm-chi-phí) |
+| Chia một hóa đơn điện cho cả tòa nhà | [Hóa đơn dùng chung](/vi/money/reports/#hóa-đơn-dùng-chung) |
+| Gửi bảng kê cho chủ sở hữu | [Bảng kê cho chủ nhà](/vi/money/reports/#bảng-kê-cho-chủ-nhà), rồi [Tải CSV](/vi/money/reports/#tải-csv) |
+| Hiểu RevPAR, ADR và công suất | Nằm ở [Upsell](/vi/money/upsells/) |
+| Đối chiếu Santara AI với extranet | [Doanh thu gộp, phí kênh và khoản chi trả](/vi/money/reports/#doanh-thu-gộp-phí-kênh-và-khoản-chi-trả) — sao kê ngân hàng khớp với khoản chi trả |
 
 ## Con người và quyền truy cập
 
@@ -156,6 +158,8 @@ không phải câu trả lời chung chung.
 | Đổi ngôn ngữ của bản tin hằng ngày | Đó là cài đặt workspace — [Ngôn ngữ](/vi/setup/workspace/#ngôn-ngữ) |
 | Sửa ngày tháng và "hôm nay" bị sai | [Múi giờ](/vi/setup/workspace/#múi-giờ) |
 | Tắt những thông báo tôi không cần | [Thông báo](/vi/setup/workspace/#thông-báo) |
+| Kết nối ChatGPT hoặc Claude với workspace | [Kết nối ChatGPT, Claude hoặc Grok](/vi/help/ai-assistants/) |
+| Xóa tài khoản của tôi | [Dữ liệu và quyền riêng tư của bạn](/vi/setup/data-and-privacy/) |
 | Chạy hai danh mục không được lẫn nhau | Hai workspace — [Chuyển workspace](/vi/setup/workspace/#chuyển-workspace) |
 
 ## Thanh toán

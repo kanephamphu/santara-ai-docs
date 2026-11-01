@@ -1,43 +1,63 @@
 ---
 title: Getting Started & Login
-description: Your first touchpoint with Santara AI. How to log in, manage your account, and handle security errors.
+description: Install the Santara AI app for Android, sign in or join a team, see why some tabs are hidden for your role, and delete your account.
 sidebar:
   order: 1
 ---
 
-The **Santara AI Mobile** app brings the full operational management power of Santara AI to your phone. It focuses on handling day-to-day scenarios like check-ins, guest messaging, cleaning, and issue resolution.
+The **Santara AI Mobile** app brings the day-to-day side of Santara AI to your phone: check-ins, guest messaging, cleaning, and issue resolution.
 
-## 1. Logging into the System
+## 1. Getting the app
 
-This is your first touchpoint when opening the app. On the Login screen, you can perform the following tasks:
+- **Android:** the app is live on [Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile).
+- **iPhone:** not released yet. Until it is, use the web app in your phone browser — see [On your phone](/setup/mobile/).
 
-- **Log in:** Enter your Email and Password to access your workspace.
-- **Show/Hide password:** Tap the "Eye" icon in the password field to check the information you just entered.
+It is the same account, the same workspaces and the same permissions as the web app.
+
+## 2. Logging into the System
+
+On the sign-in screen:
+
+- **Sign in:** Enter your email and password to reach your workspace.
+- **Show/Hide password:** Tap the eye icon in the password field to check what you typed.
 
 ![Login Screen](/screens/en/login.en.png)
 
-## 2. Forgot Password (Recovery)
+## 3. Forgot Password (Recovery)
 
-If you cannot remember your password, tap the **"Forgot Password"** link right below the login button.
-The system will take you to the Password Recovery screen. Simply enter your email, and an OTP or link will be sent to your inbox to set a new password.
+If you cannot remember your password, tap **Forgot password?** below the password field. Enter your email and tap **Send reset code**: a six-digit code arrives by email and works for 15 minutes. Enter it with your new password.
 
-## 3. Registering a New Account
+## 4. Registering or Joining a Team
 
-If you don't have an account or have been invited to a new system:
-- Tap **"Create Account"** on the login screen to go to the registration flow.
-- If you were invited via email, tap the link in the email. The system will guide you through an email OTP verification flow to ensure maximum security.
+- **Starting your own workspace:** tap **Create account** on the sign-in screen. You confirm your email with a code before you can sign in.
+- **Invited to someone's team:** open the invitation link they sent you (by email, WhatsApp or Zalo). It opens a join page in your browser: set a password — or enter your existing one — and you are in. A link that came by message also asks for a 6-digit code sent to your email. Then sign in to the app with that same email and password. See [Getting in](/start/invited-cleaner/#getting-in).
 
 ![Account Verification](/screens/en/register.en.png)
 
-## 4. Handling Security States
+## 5. Handling Security States
 
-The system is designed to protect your business data. If a login attempt fails, the app will display specific errors so you know how to proceed:
+If a sign-in fails, the app tells you why:
 
-- **Incorrect information:** Warning when the email or password does not match.
-- **Email not verified:** Prompts you to check your inbox and tap the verification link before you are allowed to log in.
-- **Account Locked:** If you enter the wrong password too many times, the system will temporarily lock your account for protection. You'll need to wait or follow recovery instructions.
+- **Invalid email or password.** The email or password does not match.
+- **Please verify your email before signing in.** Check your inbox for the verification code first.
+- **Account locked due to too many failed attempts. Try again in 15 minutes.** Wait, or reset your password.
+- **This account has been deleted or is waiting to be deleted.** See [Deleting your account](#8-deleting-your-account).
 
-## 5. Feature Overview (Onboarding)
+## 6. Why You See Fewer Tabs
+
+The tab bar has up to five tabs — **Today**, **Tasks**, **Calendar**, **Messages** and **More** — and each one appears only if your role is allowed to use it:
+
+| Tab | Shown when your role can… |
+| --- | --- |
+| **Today** | Always shown |
+| **Tasks** | See assigned cleans |
+| **Calendar** | Read the calendar |
+| **Messages** | Read guest messages |
+| **More** | Always shown — opens the menu |
+
+So a **cleaner** sees only **Today**, **Tasks** and **More**: no calendar, no guest inbox. That is the role working as intended, not a missing feature. Inside **Tasks**, the **Default cleaners** tab and **Skip cleaning task** are also for managers only. Roles are set by the workspace owner — see [Team and roles](/setup/team/).
+
+## 7. Feature Overview (Onboarding)
 
 When you successfully log in for the first time, you will be guided through the core features of Santara AI:
 
@@ -58,3 +78,14 @@ When you successfully log in for the first time, you will be guided through the 
 
 ![Multi-Workspace](/screens/en/ob_06.en.png)
 *Easily switch and manage everything comprehensively.*
+
+## 8. Deleting Your Account
+
+Open **More** → **Personal account** → **Personal settings**, and scroll to **Delete account**. Type your email to confirm, then tap **Delete my account**.
+
+- You are signed out on every device straight away. Your name, email, phone, photo and password are deleted within 30 days.
+- Bookings and invoices stay with the workspace, without your details.
+- If you are the only owner of a workspace other people use, make someone else an owner first.
+- Changed your mind? Email support@santara.ai before the date shown.
+
+You can also ask for deletion on the web at [santara.ai/delete-account/](https://www.santara.ai/delete-account/).

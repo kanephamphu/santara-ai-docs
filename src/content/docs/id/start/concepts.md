@@ -57,16 +57,21 @@ Booking.com. Anda bisa punya beberapa, termasuk beberapa akun Airbnb.
 satu-ke-satu. Ketika listing terpetakan dan channel aktif, ketersediaan dan harga kamar itu mengalir
 keluar, sementara booking dan pesannya mengalir masuk.
 
-Sebuah listing melewati status berikut, dan teks di layar sama persis:
+Di halaman koneksi, setiap listing membawa salah satu label ini:
 
-| Status | Artinya |
+| Label | Artinya |
 | --- | --- |
-| **Belum terhubung** | Akun channel belum ditautkan |
-| **Tertaut — belum dipetakan** | Listing terlihat; belum menunjuk kamar mana pun |
-| **Dipetakan — menunggu aktivasi** | Sudah menunjuk kamar, tetapi channel belum menyerahkan kendali |
-| **Live** | Ketersediaan dan tarif keluar, booking dan pesan masuk |
+| **Belum tertaut** | Listing terlihat; belum menunjuk kamar mana pun |
+| **Tertaut — tarif belum dipetakan** | Sudah menunjuk kamar, tetapi tarifnya belum punya tujuan |
+| **Perlu tindakan** | Ada yang perlu Anda lakukan, misalnya *Konfirmasi kapasitas untuk melanjutkan* |
+| **Siap — belum tayang** | Sudah disiapkan, tetapi channel belum menyerahkan kendali |
+| **Menerbitkan…** | Sedang ditayangkan |
+| **Tayang** | Ketersediaan dan tarif keluar, booking dan pesan masuk |
+| **Gangguan** | Channel menolak sesuatu; alasannya tampil di sebelahnya |
 
-Tidak ada yang berpindah dari *dipetakan* ke *live* dengan sendirinya. Lihat
+Di Airbnb, mengimpor listing menayangkannya sebagai langkah terakhir; listing yang belum
+dikonfirmasi Airbnb menunggu sebagai *Siap — belum tayang* sampai Anda menekan **Tayangkan**. Di
+Booking.com dan setiap channel lain, memetakan kamar langsung menayangkannya. Lihat
 [Go live](/id/channels/going-live/).
 
 ## Reservasi, tamu, utas

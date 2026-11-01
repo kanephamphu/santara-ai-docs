@@ -1,6 +1,6 @@
 ---
 title: Hướng dẫn nhanh
-description: Từ workspace trống đến lên sóng trên các kênh. Bốn bước, khoảng nửa tiếng, phần lớn là chờ kênh phản hồi.
+description: Từ lúc đăng ký đến khi lên chạy trên các kênh. Bốn bước, khoảng nửa tiếng, phần lớn là chờ kênh phản hồi.
 sidebar:
   order: 2
 ---
@@ -18,39 +18,55 @@ sidebar:
 
 ## 1. Tạo workspace
 
-Đăng ký, xác nhận email, và bạn vào **Hôm nay** với danh sách **Thiết lập** ở phía trên. Danh sách đó
-chính là ba bước dưới đây và có ghi nhận tiến độ — bạn có thể rời đi rồi quay lại.
+Đăng ký, rồi nhập **mã 6 chữ số** chúng tôi gửi qua email. Tiếp theo là một khảo sát ngắn — vài câu
+hỏi về cách bạn cho thuê — rồi một tour giới thiệu các màn hình chính. Tour kết thúc ở **Cài đặt →
+Kênh**, nơi bước 2 bắt đầu. Bạn có thể xem lại tour bất cứ lúc nào từ danh sách **Thiết lập** trên
+**Hôm nay**; danh sách đó ghi nhận tiến độ, nên bạn có thể rời đi rồi quay lại.
 
-Đặt ngôn ngữ và múi giờ ngay tại **Cài đặt → Cá nhân**. Múi giờ quyết định "hôm nay" nghĩa là gì với
-khách đến, dọn phòng và bản tin hằng ngày.
+Workspace của bạn bắt đầu với **90 ngày dùng thử miễn phí**. Gồm những gì và khi nào kết thúc:
+[Thanh toán](/vi/setup/billing/).
+
+Có hai múi giờ nên đặt ngay:
+
+- **Cài đặt → Cá nhân** — ngôn ngữ và múi giờ của riêng bạn. Nó đi theo bạn qua mọi workspace.
+- **Cài đặt → Workspace** — **Múi giờ không gian làm việc**, dùng chung cho cả workspace. Nó nằm cạnh
+  **Giờ báo cáo hằng ngày** và quyết định khi nào bản tin hằng ngày đến. Khách đến, trả phòng và dọn
+  phòng dùng múi giờ riêng của từng chỗ nghỉ, đặt trên chỗ nghỉ đó.
 
 ## 2. Kết nối một kênh
 
-**Cài đặt → Kênh**.
+**Cài đặt → Kênh → Thêm kênh**. Mỗi kênh là một ô; bấm **Kết nối** và quy trình ba bước sẽ mở ra.
 
-- **Airbnb** — bấm *Kết nối Airbnb*, cấp phép trên trang của Airbnb, rồi quay lại. Santara AI đọc các
-  listing mà tài khoản đó chia sẻ. Hướng dẫn đầy đủ:
+- **Airbnb** — không cần chuẩn bị gì trước. Bạn cấp phép cho Santara AI trên trang của Airbnb, và
+  Santara AI tạo chỗ nghỉ và phòng từ tin đăng. Hướng dẫn đầy đủ:
   [Kết nối Airbnb](/vi/channels/airbnb/).
-- **Booking.com** — bạn thêm nhà cung cấp kết nối của chúng tôi trong extranet trước, rồi nhập Hotel
-  ID tại đây. Hướng dẫn đầy đủ: [Kết nối Booking.com](/vi/channels/booking-com/).
+- **Booking.com** — cần có **chỗ nghỉ có phòng** trong Santara AI trước; khi chưa có, ô của nó hiện
+  **Cần tạo chỗ nghỉ trước**. Bạn thêm nhà cung cấp kết nối của chúng tôi trong extranet, rồi nhập
+  Hotel ID. Hướng dẫn đầy đủ: [Kết nối Booking.com](/vi/channels/booking-com/).
+- **Các kênh khác** hoạt động giống Booking.com — [Kết nối kênh khác](/vi/channels/other-channels/).
 
-Không ở cả hai? Bạn có thể [tạo bất động sản thủ công](/vi/setup/properties/) và vẫn dùng lịch, tin
-nhắn, dọn phòng và website đặt phòng.
+Chưa bán trên kênh nào? Bạn có thể [tạo bất động sản thủ công](/vi/setup/properties/) và vẫn dùng
+lịch, tin nhắn, dọn phòng và website đặt phòng.
 
 ## 3. Nhập listing
 
-Sau khi cấp phép, bạn nhận được danh sách listing của tài khoản. Bỏ chọn những gì không muốn. Với
-mỗi listing, chọn nó trở thành **bất động sản mới** hay **một phòng trong bất động sản sẵn có** —
-một villa ba phòng ngủ bán riêng lẻ là một bất động sản với ba phòng.
+Trên Airbnb, sau khi cấp phép, bạn nhận được danh sách tin đăng của tài khoản. Bỏ chọn những gì không
+muốn. Với mỗi tin, chọn nó trở thành **chỗ nghỉ mới** hay **một phòng trong chỗ nghỉ sẵn có** — một
+villa ba phòng ngủ bán riêng lẻ là một chỗ nghỉ với ba phòng.
 
-Bấm *Thiết lập listing*. Santara AI tạo bất động sản và phòng, ánh xạ từng listing, và đọc giá từ kênh.
+Bấm **Nhập N tin đăng**. Các tin được nhập từng tin một: Santara AI tạo chỗ nghỉ và phòng, ánh xạ tin
+đăng, đọc giá từ Airbnb, rồi đưa nó lên chạy. **Dừng sau mục này** tạm dừng quá trình; phần thiết
+lập sẽ tiếp tục từ chỗ đang dở.
 
-:::caution[Chưa lên sóng]
-Cuối quá trình nhập, bạn sẽ thấy **Đã thiết lập — chưa lên sóng**. Listing đã được ánh xạ, giá đã
-được đọc, và kênh vẫn tự chạy lịch của nó. Không gì được gửi ra cho tới bước 4.
+Trên Booking.com và các kênh khác, bạn ánh xạ từng phòng của kênh với một phòng của bạn.
+
+:::caution[Đọc Go live trước bước này]
+Trên Airbnb, bước nhập đưa từng tin đăng lên chạy. Trên Booking.com và các kênh khác, ánh xạ một phòng
+là đưa phòng đó lên chạy. Từ đó Santara AI điều khiển lịch. [Go live](/vi/channels/going-live/) chỉ
+một trang, và nói chính xác điều gì thay đổi và cần kiểm tra gì trước.
 :::
 
-## 4. Kiểm tra chi tiết, rồi go live
+## 4. Kiểm tra chi tiết, và hoàn tất việc lên chạy
 
 Mở **Bất động sản** và xem từng phòng vừa nhập:
 
@@ -59,8 +75,10 @@ Mở **Bất động sản** và xem từng phòng vừa nhập:
   website đặt phòng.
 - **Ảnh, wifi, mã cửa, địa chỉ** — được dùng cho tin nhắn khách và website đặt phòng.
 
-Rồi quay lại **Cài đặt → Kênh** và bấm **Go live**. Đó là khoảnh khắc Santara AI tiếp quản lịch. Hãy đọc
-[Go live](/vi/channels/going-live/) trước — chỉ một trang, và nó nói chính xác điều gì thay đổi.
+Nếu một tin đăng Airbnb chưa lên chạy trong lúc nhập, nó hiện **Đã thiết lập — chưa chạy**. Bấm
+**Cho chạy trên Airbnb** ở bước nhập, hoặc **Đăng trực tuyến** bên cạnh tin đăng trên trang kết nối
+của nó tại **Cài đặt → Kênh → Đã kết nối**. Nếu Santara AI yêu cầu **Xác nhận sức chứa**, hãy làm
+việc đó trước — xem [Go live](/vi/channels/going-live/#kiểm-tra-những-điều-này-trước).
 
 ## Sau đó điều gì xảy ra
 

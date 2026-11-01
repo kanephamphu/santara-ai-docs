@@ -13,7 +13,7 @@ Ini Santi yang sama dengan [aplikasi Santi](/id/help/santi-app/) di santi.santar
 
 Santi punya tempat sendiri di aplikasi. Ketuk **Santi** pada sakelar **Santara | Santi** di bagian atas layar untuk membukanya, dan ketuk **Santara** untuk kembali ke tab biasa. Aplikasi mengingat mana yang terakhir Anda pakai.
 
-Santi juga terbuka saat Anda mengetuk **Tanya Santi** pada sebuah item (lihat di bawah) atau notifikasi dari Santi. Tombol bulat yang melayang di bawah layar utama adalah asisten lain: tombol itu selalu membuka [Asisten Ask Santara](/id/mobile/ai-assistant/).
+Santi juga terbuka saat Anda mengetuk **Tanya Santi** pada sebuah item (lihat di bawah) atau notifikasi dari Santi. Tombol bulat yang melayang di bawah layar utama juga membuka Santi setelah Anda masuk ke Santi; jika belum, tombol itu membuka [Tanya Santara](/id/mobile/ai-assistant/).
 
 ![Sakelar Santara | Santi di header](/screens/id/santi_switch.id.png)
 
@@ -112,7 +112,7 @@ Saat Anda membuka Santi setelah lama tidak dipakai, Santi mulai dengan apa yang 
 Santi hanya untuk undangan. Selama belum terhubung, tombol **Tanya Santi** disembunyikan. Ketuk **Santi** di header untuk menghubungkan.
 
 **Saya mengetuk tombol bulat yang melayang tetapi muncul obrolan lain.**
-Tombol itu selalu membuka [Asisten Ask Santara](/id/mobile/ai-assistant/), asisten milik Santara AI. Untuk membuka Santi, gunakan sakelar **Santara | Santi** di bagian atas.
+Tombol itu membuka Santi bila Anda sudah masuk ke Santi, dan [Tanya Santara](/id/mobile/ai-assistant/) bila belum. Anda juga bisa memakai sakelar **Santara | Santi** di bagian atas.
 
 **"Suara tidak tersedia di perangkat ini."**
 Suara memerlukan aplikasi Santara AI lengkap dengan akses mikrofon dan pengenalan suara. Jika Anda menolaknya, izinkan **mikrofon dan pengenalan suara** di Pengaturan ponsel.

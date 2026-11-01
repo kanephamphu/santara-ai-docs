@@ -28,7 +28,10 @@ what. See [Team and roles](/setup/team/).
 ## Day to day
 
 **Will Santara AI message my guests automatically?**
-No. It drafts; you send. There is no auto-reply mode.
+Only if you switch it on. [Auto-reply](/daily/messages/#auto-reply) is off until an owner or admin
+turns it on, and it can start in **Practice**, where Santi writes replies but sends nothing. When
+it is live it answers only the topics you allow; money, dates, complaints and safety always wait
+for you. Otherwise the AI writes; you send.
 
 **Will it change my prices automatically?**
 Only if you assign a [pricing rule set](/money/pricing/) to a listing and leave *Publish prices
@@ -81,10 +84,11 @@ English, Bahasa Indonesia and Tiếng Việt — for the interface, the daily br
 documentation.
 
 **Is there a mobile app?**
-Not yet — it is in build for iOS and Android together. See [On your phone](/setup/mobile/).
+Yes, on Android — it is live on Google Play. iOS is coming. See
+[Getting started & login](/mobile/getting-started/).
 
 **Which channels are supported?**
 54 sales channels, plus your own booking site. Airbnb and Booking.com have their own connect
-flows; Agoda, Expedia, Trip.com, Vrbo and the rest connect from the channel list in
+flows; Agoda, Expedia, Trip.com, Traveloka and the rest connect from the channel list in
 **Settings → Channels**. Guest replies go out on Airbnb, Booking.com and Expedia. See
 [Channels](/channels/).

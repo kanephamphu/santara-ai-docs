@@ -57,16 +57,21 @@ Booking.com. Bạn có thể có nhiều, kể cả nhiều tài khoản Airbnb.
 được ánh xạ và kênh đang hoạt động, tình trạng trống và giá của phòng đó chảy ra, còn đặt phòng và
 tin nhắn chảy vào.
 
-Một listing đi qua các trạng thái sau, và chữ trên màn hình cũng đúng như vậy:
+Trên trang kết nối, mỗi listing mang một trong các nhãn sau:
 
-| Trạng thái | Nghĩa là |
+| Nhãn | Nghĩa là |
 | --- | --- |
-| **Chưa kết nối** | Chưa liên kết tài khoản kênh |
-| **Đã liên kết — chưa ánh xạ** | Thấy được listing; chưa trỏ tới phòng nào |
-| **Đã ánh xạ — chờ kích hoạt** | Đã trỏ tới một phòng, nhưng kênh chưa bàn giao |
-| **Đang chạy** | Tình trạng trống và giá đi ra, đặt phòng và tin nhắn đi vào |
+| **Chưa liên kết** | Thấy được listing; chưa trỏ tới phòng nào |
+| **Đã liên kết — chưa ánh xạ giá** | Đã trỏ tới một phòng, nhưng giá chưa có nơi để đi |
+| **Cần thao tác** | Có việc cần bạn, ví dụ *Xác nhận sức chứa để tiếp tục* |
+| **Sẵn sàng — chưa trực tuyến** | Đã thiết lập, nhưng kênh chưa bàn giao |
+| **Đang đăng…** | Đang được đưa lên chạy |
+| **Trực tuyến** | Tình trạng trống và giá đi ra, đặt phòng và tin nhắn đi vào |
+| **Lỗi** | Kênh từ chối điều gì đó; lý do hiện bên cạnh |
 
-Không gì tự chuyển từ *đã ánh xạ* sang *đang chạy*. Xem [Go live](/vi/channels/going-live/).
+Trên Airbnb, nhập một listing sẽ đưa nó lên chạy ở bước cuối; listing nào Airbnb chưa xác nhận sẽ chờ
+ở trạng thái *Sẵn sàng — chưa trực tuyến* cho tới khi bạn bấm **Đăng trực tuyến**. Trên Booking.com
+và mọi kênh khác, ánh xạ một phòng sẽ đưa phòng đó lên chạy ngay. Xem [Go live](/vi/channels/going-live/).
 
 ## Đặt phòng, khách, luồng hội thoại
 
