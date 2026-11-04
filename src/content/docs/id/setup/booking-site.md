@@ -59,19 +59,10 @@ siap. Menerbitkan menghasilkan sitemap dan aturan robots, dan menjaganya tetap s
 
 ## Domain Anda sendiri
 
-Situs selalu tersedia di subdomainnya. Untuk menayangkannya juga dari domain milik Anda — misalnya
-`stay.villaanda.com` — gunakan kartu **Domain kustom** di halaman situs booking:
-
-1. Masukkan domain lalu tekan **Hubungkan domain**.
-2. Tambahkan dua record DNS yang ditampilkan (TXT dan CNAME) di penyedia DNS Anda, lalu tekan
-   **Verifikasi**. Perubahan DNS bisa memakan waktu hingga satu jam.
-3. Setelah statusnya **Aktif**, tautan, sitemap, dan pratinjau media sosial memakai domain baru.
-   Subdomain tetap berfungsi di sampingnya.
-
-Sebagian besar penyedia tidak bisa memasang CNAME di domain utama (`villaanda.com` tanpa awalan) —
-gunakan record ALIAS atau ANAME, atau hubungkan subdomain seperti `stay.`. HTTPS untuk domain
-kustom diaktifkan oleh tim Santara AI setelah Anda memverifikasi; jika ikon gembok belum muncul
-dalam sehari, [hubungi dukungan](/id/help/support/).
+Situs selalu tersedia di subdomainnya. Untuk memasangnya di domain milik Anda — misalnya
+`www.villaanda.com` — tambahkan dua catatan DNS dari kartu **Domain kustom** lalu tekan
+**Verifikasi**; HTTPS disiapkan untuk Anda secara otomatis. Langkah demi langkah:
+[Hubungkan domain Anda sendiri](/id/setup/custom-domain/).
 
 ## Halaman dan tulisan blog
 
