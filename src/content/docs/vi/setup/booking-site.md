@@ -59,19 +59,9 @@ sàng. Xuất bản sẽ tạo sitemap và quy tắc robots, và giữ chúng đ
 
 ## Tên miền của riêng bạn
 
-Website luôn chạy ở tên miền phụ của nó. Để phục vụ thêm từ một tên miền bạn sở hữu — ví dụ
-`stay.villacuaban.com` — hãy dùng thẻ **Tên miền riêng** trên trang website đặt phòng:
-
-1. Nhập tên miền rồi bấm **Kết nối tên miền**.
-2. Thêm hai bản ghi DNS được hiển thị (một TXT và một CNAME) tại nhà cung cấp DNS, rồi bấm
-   **Xác minh**. Thay đổi DNS có thể mất tới một giờ để lan truyền.
-3. Khi trạng thái là **Đang hoạt động**, liên kết, sitemap và ảnh xem trước mạng xã hội sẽ dùng tên
-   miền mới. Tên miền phụ vẫn chạy song song.
-
-Đa số nhà cung cấp không đặt được CNAME cho tên miền gốc (`villacuaban.com` không có tiền tố) — hãy
-dùng bản ghi ALIAS hoặc ANAME, hoặc kết nối một tên miền phụ như `stay.`. HTTPS cho tên miền riêng
-được đội Santara AI bật sau khi bạn xác minh; nếu sau một ngày vẫn chưa thấy biểu tượng ổ khóa, hãy
-[liên hệ hỗ trợ](/vi/help/support/).
+Website luôn chạy ở tên miền phụ của nó. Để đưa website lên tên miền bạn sở hữu — ví dụ
+`www.villacuaban.com` — hãy thêm hai bản ghi DNS từ thẻ **Tên miền riêng** rồi bấm **Xác minh**;
+HTTPS được thiết lập tự động cho bạn. Hướng dẫn từng bước: [Kết nối tên miền riêng](/vi/setup/custom-domain/).
 
 ## Trang và bài blog
 

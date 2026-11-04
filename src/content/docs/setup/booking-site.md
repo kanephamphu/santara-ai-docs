@@ -59,19 +59,9 @@ afterwards.
 
 ## Your own domain
 
-The site always lives at its subdomain. To serve it from a domain you own as well — say
-`stay.yourvilla.com` — use the **Custom domain** card on the booking site page:
-
-1. Enter the domain and press **Connect domain**.
-2. Add the two DNS records it shows (a TXT and a CNAME) at your DNS provider, then press
-   **Verify**. DNS changes can take up to an hour to spread.
-3. Once it shows **Active**, links, the sitemap and social previews use the new domain. The
-   subdomain keeps working alongside it.
-
-Most providers cannot put a CNAME on a root domain (`yourvilla.com` with no prefix) — use an ALIAS
-or ANAME record, or connect a subdomain such as `stay.` instead. HTTPS for a custom domain is
-switched on by the Santara AI team after you verify; if the padlock has not appeared within a day,
-[contact support](/help/support/).
+The site always lives at its subdomain. To put it on a domain you own — say `www.yourvilla.com` —
+add two DNS records from the **Custom domain** card and press **Verify**; HTTPS is set up for you
+automatically. Step-by-step: [Connect your own domain](/setup/custom-domain/).
 
 ## Pages and blog posts
 
