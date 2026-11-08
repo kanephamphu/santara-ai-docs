@@ -143,7 +143,9 @@ prices here (or with [pricing rules](/money/pricing/)) and treat Santara AI as t
 ## Changing or removing
 
 - **Change property** — future reservations and messages land on the property you pick. Everything
-  already imported stays where it is and your room mappings are kept.
+  already imported stays where it is and your room mappings are kept. The button only appears when
+  the hotel is not tied to one of your properties' own rooms; otherwise disconnect and connect the
+  Hotel ID again on the other property.
 - **Remove from Santara AI** on one room — removes its imported data here only.
 - **Disconnect** — stops syncing and removes this property's imported Booking.com data. Your
   extranet is untouched. You can reconnect the same Hotel ID later.

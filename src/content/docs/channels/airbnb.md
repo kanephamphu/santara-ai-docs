@@ -136,6 +136,12 @@ example — syncing stops. The connection shows **Needs reconnect** and a banner
 access was removed from your Airbnb account*. Press **Reconnect** and sign in with the **same**
 Airbnb account. Your listings and history are kept.
 
+You can also press **Reconnect** on an account that is working — to renew access, for example.
+Your listings **stay live** while you approve in the Airbnb window; the page shows *Waiting for you
+to approve in the Airbnb window*, then *Reconnected* once Airbnb confirms. If you sign in with a
+**different** Airbnb account, nothing changes and the page tells you so — to add that account, use
+**Add another account** instead.
+
 ## Removing things
 
 - **Remove from Santara AI** on one listing — removes that room's imported reservations, messages,
