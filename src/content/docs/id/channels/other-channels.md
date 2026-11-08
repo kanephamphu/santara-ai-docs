@@ -90,3 +90,10 @@ Memutus koneksi menghapus channel beserta reservasi, pesan, dan ulasan yang diba
 kamar, dan tarif Anda di Santara AI tetap seperti semula. Hubungkan lagi kapan saja: menginap yang
 masih ada di channel kembali, begitu juga yang akan datang. Menginap yang dimulai dan selesai
 selama koneksi terputus tidak bisa dipulihkan.
+
+:::note[Masa inap yang akan datang tetap disimpan]
+Menghapus atau memutus koneksi hanya menghentikan sinkronisasi — tidak membatalkan apa pun di
+channel. Masa inap yang belum selesai tetap ada di Santara AI, jadi malam-malamnya tetap terblokir
+di channel lain dan tidak terjadi pemesanan ganda. Masa inap lampau beserta pesan dan ulasannya
+dihapus.
+:::

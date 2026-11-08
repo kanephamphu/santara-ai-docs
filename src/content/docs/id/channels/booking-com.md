@@ -150,6 +150,13 @@ perlakukan Santara AI sebagai sumber kebenaran.
 - **Putuskan koneksi** — menghentikan sinkronisasi dan menghapus data impor properti ini. Extranet Anda tidak
   tersentuh. Hotel ID yang sama bisa dihubungkan lagi nanti.
 
+:::note[Masa inap yang akan datang tetap disimpan]
+Menghapus atau memutus koneksi hanya menghentikan sinkronisasi — tidak membatalkan apa pun di
+channel. Masa inap yang belum selesai tetap ada di Santara AI, jadi malam-malamnya tetap terblokir
+di channel lain dan tidak terjadi pemesanan ganda. Masa inap lampau beserta pesan dan ulasannya
+dihapus.
+:::
+
 :::caution[Jika channel menghilang]
 *"Channel ini dihapus dari sisi channel manager"* berarti koneksi dibatalkan di hulu — biasanya
 connectivity provider dihapus di extranet. Sinkronisasi berhenti. Setujui ulang provider di

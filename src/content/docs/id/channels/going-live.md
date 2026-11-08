@@ -74,6 +74,13 @@ tayang sudah tayang, sisanya tetap siap, dan Anda bisa mencoba lagi.
   kalender channel Anda tidak terpengaruh, tetapi reservasi, pesan, dan ulasan yang diimpor di sini
   ikut terhapus.
 
+:::note[Masa inap yang akan datang tetap disimpan]
+Menghapus atau memutus koneksi hanya menghentikan sinkronisasi — tidak membatalkan apa pun di
+channel. Masa inap yang belum selesai tetap ada di Santara AI, jadi malam-malamnya tetap terblokir
+di channel lain dan tidak terjadi pemesanan ganda. Masa inap lampau beserta pesan dan ulasannya
+dihapus.
+:::
+
 :::caution[Booking yang masuk saat tayang itu nyata]
 Apa pun yang dipesan tamu selama periode tayang ada di channel dan harus dipenuhi, apa pun yang Anda
 lakukan di Santara AI setelahnya. Memutus koneksi menghapus catatan di sini, bukan kewajibannya.

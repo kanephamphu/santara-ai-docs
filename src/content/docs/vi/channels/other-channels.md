@@ -88,3 +88,9 @@ Ngắt kết nối sẽ gỡ kênh cùng các đặt phòng, tin nhắn và đá
 của bạn trong Santara AI giữ nguyên. Kết nối lại bất cứ lúc nào: các lượt lưu trú kênh vẫn còn sẽ
 trở về, cùng mọi lượt sắp tới. Lượt lưu trú bắt đầu và kết thúc trong lúc ngắt kết nối thì không khôi
 phục được.
+
+:::note[Các kỳ nghỉ sắp tới được giữ lại]
+Gỡ hoặc ngắt kết nối chỉ dừng đồng bộ — không hủy gì trên kênh. Các kỳ nghỉ chưa kết thúc vẫn ở lại
+Santara AI, nên những đêm đó vẫn bị chặn trên các kênh khác và không bị đặt trùng. Các kỳ nghỉ đã
+qua cùng tin nhắn và đánh giá của chúng sẽ bị xóa.
+:::

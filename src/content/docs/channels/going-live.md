@@ -73,6 +73,12 @@ live are live, the rest stay set up, and you can retry.
   channel listing and its calendar are unaffected, but the reservations, messages and reviews
   imported here are removed with it.
 
+:::note[Upcoming stays are kept]
+Removing or disconnecting stops syncing — it does not cancel anything on the channel. Stays that
+have not ended yet stay in Santara AI, so their nights remain blocked on your other channels and
+nothing gets double-booked. Past stays, their messages and reviews are removed.
+:::
+
 :::caution[Bookings taken while live are real]
 Anything a guest books during the live period exists on the channel and must be honoured, whatever
 you do in Santara AI afterwards. Disconnecting removes the record from here, not the obligation.

@@ -70,6 +70,12 @@ chạy thì đang chạy, phần còn lại vẫn giữ thiết lập, và bạn
 - **Để trả lại quyền kiểm soát**, gỡ listing khỏi Santara AI hoặc ngắt kết nối. Listing và lịch trên
   kênh không bị ảnh hưởng, nhưng các đặt phòng, tin nhắn và đánh giá đã nhập ở đây sẽ bị xóa theo.
 
+:::note[Các kỳ nghỉ sắp tới được giữ lại]
+Gỡ hoặc ngắt kết nối chỉ dừng đồng bộ — không hủy gì trên kênh. Các kỳ nghỉ chưa kết thúc vẫn ở lại
+Santara AI, nên những đêm đó vẫn bị chặn trên các kênh khác và không bị đặt trùng. Các kỳ nghỉ đã
+qua cùng tin nhắn và đánh giá của chúng sẽ bị xóa.
+:::
+
 :::caution[Đặt phòng phát sinh khi đang chạy là thật]
 Bất cứ điều gì khách đặt trong thời gian chạy đều tồn tại trên kênh và phải được thực hiện, dù sau đó
 bạn làm gì trong Santara AI. Ngắt kết nối xóa bản ghi ở đây, không xóa nghĩa vụ.

@@ -154,6 +154,13 @@ halaman memberi tahu Anda — untuk menambahkan akun itu, gunakan **Tambah akun 
   di sini. Listing Airbnb Anda tidak tersentuh dan bisa diimpor kembali.
 - **Putuskan** akun — sama, untuk seluruh listing di akun itu, dan sinkronisasi berhenti.
 
+:::note[Masa inap yang akan datang tetap disimpan]
+Menghapus atau memutus koneksi hanya menghentikan sinkronisasi — tidak membatalkan apa pun di
+channel. Masa inap yang belum selesai tetap ada di Santara AI, jadi malam-malamnya tetap terblokir
+di channel lain dan tidak terjadi pemesanan ganda. Masa inap lampau beserta pesan dan ulasannya
+dihapus.
+:::
+
 ## Pesan tamu dan ulasan
 
 Setelah tayang, percakapan Airbnb muncul di [Pesan](/id/daily/messages/) dan balasan Anda kembali ke

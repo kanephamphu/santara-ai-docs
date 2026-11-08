@@ -148,6 +148,12 @@ cho bạn — để thêm tài khoản đó, hãy dùng **Thêm tài khoản kh�
   tại đây. Listing Airbnb của bạn không bị ảnh hưởng và có thể nhập lại.
 - **Ngắt kết nối** tài khoản — tương tự, cho toàn bộ listing của tài khoản, và đồng bộ dừng lại.
 
+:::note[Các kỳ nghỉ sắp tới được giữ lại]
+Gỡ hoặc ngắt kết nối chỉ dừng đồng bộ — không hủy gì trên kênh. Các kỳ nghỉ chưa kết thúc vẫn ở lại
+Santara AI, nên những đêm đó vẫn bị chặn trên các kênh khác và không bị đặt trùng. Các kỳ nghỉ đã
+qua cùng tin nhắn và đánh giá của chúng sẽ bị xóa.
+:::
+
 ## Tin nhắn khách và đánh giá
 
 Sau khi lên chạy, hội thoại Airbnb xuất hiện trong [Tin nhắn](/vi/daily/messages/) và trả lời của bạn

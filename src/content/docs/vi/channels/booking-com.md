@@ -144,6 +144,12 @@ bằng [quy tắc định giá](/vi/money/pricing/)) và xem Santara AI là ngu�
 - **Ngắt kết nối** — dừng đồng bộ và xóa dữ liệu Booking.com đã nhập của chỗ nghỉ này. Extranet của
   bạn không bị ảnh hưởng.
 
+:::note[Các kỳ nghỉ sắp tới được giữ lại]
+Gỡ hoặc ngắt kết nối chỉ dừng đồng bộ — không hủy gì trên kênh. Các kỳ nghỉ chưa kết thúc vẫn ở lại
+Santara AI, nên những đêm đó vẫn bị chặn trên các kênh khác và không bị đặt trùng. Các kỳ nghỉ đã
+qua cùng tin nhắn và đánh giá của chúng sẽ bị xóa.
+:::
+
 :::caution[Nếu kênh biến mất]
 *"Kênh này đã bị gỡ ở phía channel manager"* nghĩa là kết nối bị hủy ở đầu trên — thường do nhà cung
 cấp kết nối bị gỡ trong extranet. Đồng bộ đã dừng. Hãy chấp nhận lại nhà cung cấp trên Booking.com,

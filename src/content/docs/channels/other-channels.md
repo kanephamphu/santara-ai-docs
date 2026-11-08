@@ -88,3 +88,9 @@ channels in the catalogue, answer guests in the channel's own inbox.
 Disconnecting removes the channel and the reservations, messages and reviews it brought in. Your
 property, rooms and rates in Santara AI stay exactly as they are. Reconnect any time: the stays the channel still has come back, plus anything upcoming. A stay that
 starts and finishes while you are disconnected cannot be recovered.
+
+:::note[Upcoming stays are kept]
+Removing or disconnecting stops syncing — it does not cancel anything on the channel. Stays that
+have not ended yet stay in Santara AI, so their nights remain blocked on your other channels and
+nothing gets double-booked. Past stays, their messages and reviews are removed.
+:::

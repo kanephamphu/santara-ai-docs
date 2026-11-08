@@ -148,6 +148,12 @@ to approve in the Airbnb window*, then *Reconnected* once Airbnb confirms. If yo
   guests and reviews. Your Airbnb listing is untouched. You can import it again later.
 - **Disconnect** the account — the same, for every listing on it, and syncing stops.
 
+:::note[Upcoming stays are kept]
+Removing or disconnecting stops syncing — it does not cancel anything on the channel. Stays that
+have not ended yet stay in Santara AI, so their nights remain blocked on your other channels and
+nothing gets double-booked. Past stays, their messages and reviews are removed.
+:::
+
 ## Guest messages and reviews
 
 Once live, Airbnb conversations appear in [Messages](/daily/messages/) and replies you send there
