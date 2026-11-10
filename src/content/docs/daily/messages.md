@@ -22,6 +22,14 @@ Threads are ordered by what needs attention, not by time. Each carries:
 
 Threads with nothing outstanding fall down the list on their own.
 
+In the thread header, **Ask Santi** opens Santi with the conversation already described, so you can
+ask what to tell the guest without retyping anything. Santi's answer lists its **Sources**, says
+when it read your data (**Data as of** a time), and flags any figure it could not find in your
+workspace — *I couldn't match … to your data — check it before acting on it.*
+
+On wide screens, the panel beside the thread ends with **View guests**, which opens the
+[Guests](/daily/guests/) page.
+
 ### One status per thread
 
 Every thread carries exactly one of three statuses:
@@ -52,6 +60,28 @@ Inside it, threads fall into three groups:
 
 When the list is empty it says **Nothing needs you right now. Peace.** — that is the goal, not a
 fault.
+
+### How long a guest has been waiting
+
+A thread waiting for your reply shows how long the guest has waited — **Waiting 12 min** — and
+turns into **Late · 40 min** once it has passed the reply target for that moment of the stay. Hover
+the label to see when the guest started waiting and which target applies. The clock starts at the
+guest's first message after your last reply.
+
+| Moment | Reply target |
+| --- | --- |
+| Urgent — the thread is flagged urgent | 15 min |
+| Check-in day | 10 min |
+| In house, including checkout day | 30 min |
+| Enquiry — no stay booked yet | 60 min |
+| Before arrival | Same day — by the end of the property's day, and never less than 2 hours |
+| After checkout | 24 h |
+
+### Filtering by channel
+
+When your threads come from more than one channel, a **Channel** list sits under the filters:
+**All channels**, then each channel with its number of threads. Threads with no known channel are
+under **Other**. With many channels the list has its own search box.
 
 ### Clearing the list in one go
 

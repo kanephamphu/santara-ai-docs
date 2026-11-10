@@ -12,12 +12,21 @@ bagian bawah bilah samping, karena di situlah orang mencari kata sandinya sendir
 
 | Tab | Cakupan |
 | --- | --- |
-| **Workspace** | Bersama — nama, bahasa, zona waktu, mata uang |
-| **Situs Booking** | Bersama — [situs booking langsung Anda](/id/setup/booking-site/) |
-| **Channel** | Bersama — [koneksi channel](/id/channels/) |
+| **Ruang kerja** | Bersama — nama, bahasa, zona waktu, mata uang |
+| **Saluran** | Bersama — [koneksi channel](/id/channels/), ditambah tab **Aplikasi** (di bawah) |
 | **Template Pesan** | Bersama — balasan tamu tersimpan |
 | **Tim** | Bersama — [orang dan peran](/id/setup/team/) |
-| **Penagihan** | Bersama — [paket dan faktur](/id/setup/billing/) |
+| **Tagihan** | Bersama — [paket dan faktur](/id/setup/billing/) |
+
+[Situs booking langsung](/id/setup/booking-site/) Anda bukan tab Pengaturan: ia punya menu sendiri,
+**Situs Pemesanan**, di bilah samping, karena lead dan permintaan booking-nya dikerjakan tiap minggu.
+
+### Aplikasi terhubung
+
+**Pengaturan → Saluran → Aplikasi** menampilkan aplikasi yang Anda izinkan memakai akun Santara AI
+Anda — misalnya [Santi](/id/help/santi-app/) — beserta apa yang bisa dilakukannya dan tombol
+**Putuskan**. Menu **Aplikasi terhubung** di menu akun membuka tab yang sama. Daftar ini pribadi:
+hanya Anda yang melihatnya, dan rekan tim mengelola aplikasi mereka sendiri.
 
 ![Pengaturan workspace: waktu dan bahasa ringkasan, zona waktu, mata uang, dan selebihnya.](/screens/workspace-settings.id.png)
 
@@ -84,13 +93,29 @@ Lonceng di header. Notifikasi dialamatkan berdasarkan **siapa yang bisa menindak
 berdasarkan nama — karena itulah manajer yang ditambahkan bulan depan langsung menerima yang memang
 ditujukan bagi perannya.
 
-Ada sepuluh jenis: booking **dibuat**, **berubah**, atau **dibatalkan**; pembersihan **ditugaskan**
-kepada Anda atau **selesai**; tiket **dibuka**, **ditugaskan** kepada Anda, atau **selesai**;
-**channel terhubung**, yang menyebut channel, properti, dan berapa kamar yang dipetakan; dan
-**permintaan tamu** dari [buku panduan tamu](/id/setup/guidebook/#saat-tamu-meminta-layanan-tambahan),
-yang menyebut tamu, layanan, harga, dan kamarnya. Hal
+Ada enam belas jenis:
+
+- **Booking** — booking **dibuat**, **berubah**, atau **dibatalkan**, dan **Kelebihan pesanan**:
+  kamar terjual melebihi unit yang tersedia pada malam mendatang, sehingga satu menginap harus
+  dipindah.
+- **Kebersihan** — pembersihan **ditugaskan** kepada Anda, atau **selesai**.
+- **Tiket** — tiket **dibuka**, **ditugaskan** kepada Anda, **sedang dikerjakan**, atau **selesai**.
+  Dua yang terakhir dikirim ke orang yang menugaskannya.
+- **Saluran** — **saluran terhubung**, yang menyebut channel, properti, dan berapa kamar yang
+  dipetakan; saluran yang **menolak pembaruan**, sehingga harga atau ketersediaan di sana mungkin
+  sudah usang; dan **peringatan sinkronisasi**, ketika pembaruan masuk tetapi perlu dicek.
+- **Permintaan tamu** — layanan tambahan yang diminta dari
+  [buku panduan tamu](/id/setup/guidebook/#saat-tamu-meminta-layanan-tambahan), menyebut tamu,
+  layanan, harga, dan kamarnya.
+- **Asisten AI** — asisten luar seperti ChatGPT atau Claude yang **perlu persetujuan Anda**, atau
+  yang **membuat perubahan**. Hanya pemilik koneksi yang dipakainya yang diberi tahu.
+
+Hal
 lain yang diketahui produk tinggal di layarnya masing-masing, dan itu disengaja — daftar notifikasi
 yang melaporkan hal yang tidak bisa Anda tindaklanjuti akan berhenti dibaca.
+
+**Bunyi pesan baru diatur per perangkat**, bukan di sini: menu akun → **Pengaturan personal** →
+**Notifikasi di perangkat ini** → **Suara pesan**. Pengaturannya hanya tersimpan di browser itu.
 
 :::note[Sinkronisasi pertama sengaja senyap]
 Menghubungkan channel mengimpor riwayat booking Anda, kadang setahun penuh. Itu bukan booking baru
@@ -103,7 +128,7 @@ Balasan tersimpan dengan placeholder yang terisi sendiri dari data menginap — 
 check-in, kata sandi wifi, kode pintu, jumlah tagihan. Dipakai bersama oleh workspace, jadi jawaban
 yang disepakati tim adalah jawaban yang dikirim semua orang.
 
-Cara menulisnya, pratinjau terhadap reservasi nyata, dan lima template bawaannya:
+Cara menulisnya, pratinjau terhadap reservasi nyata, dan lima template bawaan yang bisa Anda impor:
 **[Template pesan](/id/setup/message-templates/)**.
 
 ## Berpindah workspace

@@ -25,6 +25,32 @@ ditagih saat onboarding, bukan pada hari ke-91. Itu memang disengaja — tetapi 
 hanya membaca angka tiga bulannya. Layar menampilkan jumlahnya dan bertanya sebelum menagih.
 :::
 
+### Berapa hari yang tersisa
+
+**Pengaturan personal** (menu akun di bagian bawah sidebar) dibuka dengan kartu **Paket Anda**:
+paket yang Anda pakai dan, selama uji coba, lingkaran yang menghitung mundur harinya — *Uji coba
+gratis: sisa N dari 90 hari*. Warnanya berubah kuning di dua hari terakhir. Kartu ini hanya tampil
+bagi orang yang boleh melihat penagihan, jadi petugas kebersihan tidak pernah melihatnya.
+
+### Saat uji coba berakhir tanpa kartu
+
+Tidak ada yang dikunci pada hari itu. Anda tetap mendapat **akses penuh selama 7 hari lagi**, dan
+spanduk di setiap halaman menyebutkan sampai kapan — *"Masa uji coba gratis Anda telah berakhir.
+Anda masih dapat menggunakan Santara AI hingga [tanggal]…"* — dengan tombol **Pilih paket**.
+
+Kalau sampai saat itu belum ada paket yang dipilih, workspace menjadi **hanya-baca**. Tidak ada
+dinding yang menutupi produk: Anda tetap bisa membuka setiap layar dan membaca semuanya, dan
+spanduknya tetap di atas. Anda hanya tidak bisa mengubah apa pun sampai memilih paket. Tidak ada
+yang dihapus. Lihat [Jika pembayaran gagal](#jika-pembayaran-gagal) untuk apa yang tetap berjalan
+selama hanya-baca.
+
+### Satu uji coba gratis per pemilik
+
+Uji coba gratis hanya diberikan sekali. Kalau Anda sudah pernah memiliki workspace yang berlangganan
+lalu membuat workspace lain, yang baru dimulai **tanpa hari gratis**: layar Tagihan menampilkan
+**Lanjutkan langganan Anda**, dan kartu ditagih pada hari Anda menambahkannya. Hal yang sama berlaku
+kalau Anda kembali setelah membatalkan.
+
 ## Apa yang ditagih
 
 **Sebuah listing — satu kamar yang bisa dijual.** Bukan properti, dan bukan koneksi channel.
@@ -106,9 +132,15 @@ boleh terjadi di tengah bulan secara tidak sengaja.
 
 ## Komisi
 
-Santara AI **tidak mengambil komisi atas booking dari kanal** (Airbnb, Booking.com, dan lainnya) **maupun atas upsell**.
-Santara AI hanya mengambil **3% komisi atas booking langsung** yang dibuat lewat
-[situs booking langsung](/id/setup/booking-site/) Anda. Selebihnya adalah langganan seperti dijelaskan di atas.
+Santara AI **tidak mengambil komisi atas booking dari kanal** (Airbnb, Booking.com, dan lainnya)
+**maupun atas upsell**. Semuanya adalah langganan seperti dijelaskan di atas.
+
+Satu-satunya pengecualian adalah [situs booking langsung](/id/setup/booking-site/) Anda, dan hanya
+kalau Anda menyalakannya: **Biaya pemesanan tamu** menambahkan 3% pada booking langsung, **dibayar
+oleh tamu** di atas harga menginap dan ditampilkan kepada mereka sebagai baris tersendiri. Pembayaran
+yang Anda terima tidak berubah. Biaya ini **mati secara default**, dan hanya berlaku untuk booking
+yang dibayar online saat checkout — tidak pernah untuk permintaan booking. Lihat
+[Hubungkan Stripe](/id/setup/booking-site/#5-hubungkan-stripe).
 
 ## Menambah listing di tengah bulan
 
@@ -139,14 +171,24 @@ dikembalikan** — itu dinyatakan pada konfirmasi penghapusan.
 mengunduh tagihan. Formulir kartunya milik Stripe sepenuhnya; Santara AI tidak pernah melihat
 nomornya. Tagihan Stripe adalah dokumen yang diinginkan akuntan Anda.
 
+Anda tidak perlu membuka portal hanya untuk mengambil faktur. Daftar **Faktur** di layar Tagihan
+menampilkan setiap faktur dengan statusnya — Lunas, Belum dibayar, Dibatalkan atau Tidak tertagih —
+serta **Lihat** atau **Unduh PDF**. **Muat lebih banyak** membuka yang lebih lama.
+
 ## Jika pembayaran gagal
 
 Anda mendapat spanduk dan notifikasi. Stripe mencoba lagi sesuai jadwalnya sendiri, dan Anda punya
 **masa tenggang tiga hari kerja** untuk memperbaiki kartu.
 
 Kalau tidak diperbaiki, workspace menjadi **hanya-baca**, bukan hilang: semuanya masih ada,
-sinkronisasi berhenti, dan Anda tidak bisa mengubah apa pun sampai penagihan beres. Perbaiki
-kartunya dan semuanya pulih.
+spanduknya tetap tampil di setiap halaman, dan Anda tidak bisa mengubah apa pun sampai penagihan
+beres. Perbaiki kartunya dan semuanya pulih.
+
+**Setelah 30 hari hanya-baca, pekerjaan di latar belakang juga dijeda** — ringkasan harian, penetapan
+harga malam hari, serta booking dan pesan baru yang masuk dari kanal Anda. Koneksi kanal tidak
+diputus dan listing Anda tetap terjual di kanal itu sendiri. Bayar, dan semuanya berjalan lagi,
+termasuk menyusul apa yang masuk selama jeda. Lihat
+[Data dan privasi](/id/setup/data-and-privacy/#kalau-penagihan-tertunggak).
 
 ## Paket lama dan harga kesepakatan
 
@@ -165,3 +207,18 @@ Batalkan dari layar Tagihan. Akses berlanjut sampai akhir periode berbayar, tanp
 Listing channel Anda tidak terpengaruh — membatalkan Santara AI tidak menyentuh akun Airbnb atau
 Booking.com Anda. Tetapi pembatalan mengakhiri sinkronisasi yang menjaga kalender mereka tetap
 selaras, jadi **tutup atau rekonsiliasi kalender Anda sebelum pergi**.
+
+## Ajak & dapatkan
+
+**Ajak & dapatkan** ada di menu akun di bagian bawah sidebar. Di sana Anda mendapat **tautan** dan
+**kode** pribadi untuk dibagikan ke host lain.
+
+- Saat sebuah workspace mendaftar lewat tautan atau kode Anda lalu membayar, Anda mendapat bagian
+  dari yang dibayarnya. **Halaman itu menyebutkan persentase yang berlaku dan cakupannya** — misalnya
+  pembayaran pertama mereka. Lihat di sana; itulah angka yang berlaku.
+- Workspace yang Anda ajak juga mendapat diskon saat mulai.
+- Setiap komisi **ditahan** sampai masa pengembalian dana berakhir, lalu tampil sebagai **hak Anda**,
+  lalu **sudah dibayar**. Halaman itu menampilkan siapa saja yang mendaftar dan siapa yang sudah
+  membayar.
+- Komisi dibayar lewat **transfer bank, Wise atau PayPal**. Isi tujuan pembayarannya di **Ke mana
+  komisi dikirim**.

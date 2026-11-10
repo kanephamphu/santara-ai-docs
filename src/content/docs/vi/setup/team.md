@@ -87,7 +87,7 @@ lập, và vì thế đây là vai trò bạn trao đi cẩn thận nhất.
 
 Họ đăng nhập và thấy các ca dọn được giao, đúng ngày diễn ra, kèm địa chỉ và ghi chú lối vào cho những
 tòa đó. Họ đánh dấu hoàn tất, kèm ảnh nếu cần. Với họ, sản phẩm chỉ có vậy, và đó là chủ ý. Trên
-[ứng dụng Android](/vi/mobile/getting-started/) họ chỉ thấy các tab **Hôm nay**, **Công việc** và
+[ứng dụng di động](/vi/mobile/getting-started/) họ chỉ thấy các tab **Hôm nay**, **Công việc** và
 **Thêm**.
 
 Nếu bạn không muốn cấp tài khoản, hãy chia sẻ

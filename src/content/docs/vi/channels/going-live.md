@@ -50,6 +50,9 @@ Từ lúc đó, với các listing đang chạy:
    tệ** và **Giá mỗi đêm**. Tình trạng trống bị chặn ở số đơn vị đó: nếu một phòng là một căn hộ mà
    bạn nhập 3, bạn vừa chào bán ba căn. Trước khi bạn xác nhận, hộp thoại cho biết bao nhiêu đêm sắp
    tới sẽ còn trống và bao nhiêu bị đóng vì kín chỗ.
+6. **Trên Google Hotel Search, nội dung tin đăng đã đầy đủ** — ảnh, mô tả, địa chỉ, tiện nghi và
+   chính sách. Kênh sẽ không hoạt động nếu thiếu; xem
+   [danh sách kiểm tra](/vi/channels/other-channels/#google-hotel-search).
 
 ## Lên chạy từng listing một
 

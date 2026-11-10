@@ -33,6 +33,28 @@ everything, so check these two after any import:
 The address, the description, house rules, photos of the building, the **cleaning cluster**, and
 the connected listings.
 
+## Property settings
+
+**Settings** on a property opens its **Property settings**: the rules your channels apply to the
+whole property. Press **Save settings**; the page then shows whether the change reached your
+channels — *Synced to channels*, or that sync is pending or failed.
+
+| Card | What it controls |
+| --- | --- |
+| **Basic information**, **Contacts**, **Location** | Title, default currency, property type, contact details, address and coordinates shared with your channels. Changing the currency does not change existing rooms' rate plans |
+| **Price setting** | The minimum and maximum price for the property |
+| **Automatic availability update settings** | Whether availability changes on its own when a booking is modified or cancelled. A new booking always reduces availability — that cannot be switched off |
+| **Inventory days** | How many days ahead the calendar runs, from 100 to 730 |
+| **Minimum stay settings** | Use one kind of minimum stay only: **Arrival**, **Through**, or **Both** |
+| **Cut off time** | When same-day sales stop, in the property's timezone. At that time, availability for the day drops to 0 |
+| **Max days advance** | Closes dates further ahead than the number of **Opened days** |
+
+:::caution[Two of these are one-way]
+- Changing the **minimum stay type** removes every value of the type you stop using. Run a full sync
+  afterwards and check the result.
+- **Max days advance** does not reopen dates by itself when you change it later.
+:::
+
 ## What lives on the room
 
 - **Price and rate plans** — see [Smart pricing](/money/pricing/).
@@ -70,9 +92,10 @@ if filled in, make everything else sharper.
 
 ## Syncing from the channel
 
-**Sync data** on a property pulls the latest reservations, calendar, messages and listing details.
-Where the channel holds a value, **it replaces the property's**. Use it after editing a listing on
-the channel; do not use it right after editing something here that the channel also knows.
+**Import channel data** on a property pulls the latest reservations, calendar, messages and listing
+details — confirm with **Import now**. Where the channel holds a value, **it replaces the
+property's**; fields the channel does not provide stay as they are. Use it after editing a listing
+on the channel; do not use it right after editing something here that the channel also knows.
 
 ## Moving, duplicating and deleting
 
@@ -81,5 +104,7 @@ the channel; do not use it right after editing something here that the channel a
   *"(copy)"*. The copy is linked to no channel until you map it.
 - **Delete a room** — its rate plans, availability and photos go. Past reservations and reviews are
   kept but detached.
-- **Delete a property** — refused while channel listings are still connected. Disconnect them
-  first, so they are cleaned up on the channel side too.
+- **Delete a property** — only the workspace owner can, and it is refused while channel listings
+  are still connected. Disconnect them first, so they are cleaned up on the channel side too.
+  Deleting it removes **its reservations, calendar and messages** along with its connected listings
+  in Santara AI, not just the property. A charge already paid for this month is not refunded.

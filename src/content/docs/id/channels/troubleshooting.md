@@ -8,6 +8,33 @@ sidebar:
 Mulai dari dua langkah yang menyelesaikan sebagian besar masalah: periksa status dan sinkron terakhir
 koneksi di **Pengaturan → Channel**, lalu tekan **Segarkan**.
 
+## Di mana masalah terlihat
+
+Anda tidak perlu mencarinya sendiri. Dua hal memberi tahu Anda saat sebuah channel berhenti bekerja.
+
+**Strip kesehatan.** Bila ada yang salah, sebuah strip muncul di bagian atas setiap halaman, di
+bawah banner penagihan bila ada. Satu masalah tampil sebagai satu baris; beberapa masalah diringkas
+menjadi **3 hal perlu dicek**, dengan **Lihat** untuk membuka daftarnya. Setiap baris punya
+**Perbaiki**, yang membuka halaman tempat masalah itu diperbaiki. Tombol **×** (*Sembunyikan sampai
+ada perubahan*) menyembunyikan masalah tersebut — masalah baru akan tampil lagi. Bila semuanya
+berjalan, strip ini tidak muncul sama sekali.
+
+| Isi strip | Artinya |
+| --- | --- |
+| *… tidak terhubung. Hubungkan lagi agar booking dan harga tetap tersinkron.* | Koneksi berhenti — akses dicabut, kedaluwarsa, dihapus di sisi channel manager, atau aktivasi gagal. Hubungkan ulang |
+| *… menunggu satu langkah dari Anda.* | Ada yang belum selesai: listing menunggu go live, kapasitas yang perlu dikonfirmasi, atau belum ada kamar yang dipetakan |
+| *Login … berakhir pada …. Hubungkan lagi sebelum tanggal itu.* | Login channel habis dalam 7 hari. Hubungkan ulang sebelum tanggalnya |
+| *…: sinkronisasi terakhir gagal.* | Sinkron terakhir gagal dan belum ada yang berhasil sesudahnya. Tekan **Segarkan** pada koneksi |
+| *3 pembaruan harga atau ketersediaan terus gagal terkirim ke saluran Anda.* | Pembaruan sudah gagal tiga kali atau lebih. Periksa koneksi, lalu [hubungi dukungan](/id/help/support/) bila tetap muncul |
+| *3 listing ditolak oleh channel manager.* | Sebuah kamar atau rate plan ditolak. **Perbaiki** membuka kamarnya, tempat alasannya tampil di samping pengaturan penyebabnya |
+
+**Peringatan di lonceng.** Bila sebuah channel menolak pembaruan harga atau ketersediaan, lonceng
+menampilkan **… menolak pembaruan** — *harga atau ketersediaan di sana mungkin belum terbaru*.
+**Peringatan sinkronisasi dari …** yang lebih ringan berarti pembaruan tetap masuk, tetapi channel
+punya keberatan yang sebaiknya dicek. Paling banyak satu peringatan per hari untuk channel, properti,
+dan masalah yang sama. Peringatan dikirim ke pemilik, admin, dan co-host, dan membuka **Pengaturan →
+Channel**.
+
 ## Saat menghubungkan
 
 **Popup Airbnb tidak pernah terbuka.**
@@ -55,12 +82,18 @@ Tekan **Segarkan** pada koneksi. Jika tetap berbeda, catat tanggal dan kamarnya 
 **Ketersediaan lebih sedikit dari yang saya kira.**
 Ketersediaan dibatasi jumlah unit kamar. Satu apartemen adalah satu unit.
 
+**"Akses Santara AI telah dicabut dari akun Airbnb Anda, sehingga sinkronisasi berhenti."**
+Seseorang menghapus Santara AI dari aplikasi terhubung di akun Airbnb, atau Airbnb mencabut aksesnya.
+Koneksi menampilkan **Perlu dihubungkan ulang**. Tekan **Hubungkan ulang** dan masuk dengan akun
+Airbnb yang **sama** — listing dan riwayat Anda tetap tersimpan. Lihat
+[Hubungkan ulang](/id/channels/airbnb/#hubungkan-ulang).
+
 **"Channel ini dihapus dari sisi channel manager."**
 Koneksi dibatalkan di hulu — biasanya connectivity provider dihapus di extranet. Setujui ulang di
 channel, lalu putuskan dan hubungkan kembali di sini.
 
 **Harga yang saya ketik manual tertimpa.**
-Periksa pengaturan pricing listing: *Ganti harga yang saya ketik manual* mati secara bawaan, dan bila
+Periksa pengaturan pricing listing: *Ganti harga yang saya ketik sendiri* mati secara bawaan, dan bila
 menyala ia menimpa tanpa bisa dibatalkan. Lihat
 [Smart pricing](/id/money/pricing/#melindungi-harga-manual).
 

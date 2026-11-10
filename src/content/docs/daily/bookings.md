@@ -51,11 +51,12 @@ and the change arrives here.
 
 When overlapping stays add up to more than a room's units, Santara AI flags it everywhere at once:
 
-- a **red banner** at the top of Reservations, naming each room, the nights affected, and how many
-  stays sit against how many units;
+- a **red banner** at the top of Reservations — *2 rooms are sold past their capacity* — naming
+  each room, the nights affected, and how many stays sit against how many units;
 - an **Overbooked** badge on each stay involved;
 - a **red bar** on the [calendar](/daily/calendar/);
-- a notification in the bell, **Overbooked ·** followed by the room's name.
+- a notification in the bell, **Overbooked ·** followed by the room's name, saying how many
+  bookings there are against how many units.
 
 Move or cancel one of the stays on its channel before the guests arrive.
 

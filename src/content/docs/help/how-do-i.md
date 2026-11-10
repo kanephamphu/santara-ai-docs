@@ -34,6 +34,7 @@ than in general.
 | Sell two identical apartments as one listing | Set the room's unit count — [Availability and unit count](/daily/calendar/#availability-and-unit-count) |
 | Set a minimum stay | It lives on the rate plan — [Rate plans](/money/rates/#rate-plans) |
 | Push everything to a channel again from scratch | [Full sync](/money/rates/#full-sync) |
+| Stop same-day sales after a set hour, or limit how far ahead guests can book | **Cut off time** and **Max days advance** in [Property settings](/setup/properties/#property-settings) |
 
 ## Prices
 
@@ -45,6 +46,7 @@ than in general.
 | Stop the engine overwriting a price I typed | [Protecting manual prices](/money/pricing/#protecting-manual-prices) |
 | Set a floor so I never sell too cheap | [The listing's numbers](/money/pricing/#the-listings-numbers) |
 | See what a rule set would do before it goes out | [Seeing before publishing](/money/pricing/#seeing-before-publishing) |
+| Preview what smart pricing will change tonight | **Sync now** on the listing's **Prices** tab, then **Apply these prices** — [Sync now](/money/pricing/#sync-now) |
 | Find out whether pricing is actually working | [Did it work?](/money/pricing/#did-it-work) |
 | Keep using PriceLabs | Existing connections keep working; new ones are paused — [If you already use PriceLabs](/money/pricing/#if-you-already-use-pricelabs) |
 | Charge more for extra guests | It is on the rate plan — [Rate plans](/money/rates/#rate-plans) |
@@ -57,7 +59,9 @@ than in general.
 | Extend a stay because a guest asked | [Cancellations and changes](/daily/bookings/#cancellations-and-changes) |
 | Cancel a booking | Same place — and cancel on the channel too if it came from one |
 | Find one stay fast when a guest phones | Press <kbd>⌘K</kbd> and paste the confirmation code — [Finding things](/help/finding-things/) |
+| Ask Santi about a booking | Hover over the stay on the calendar and press **Ask Santi** — [Reading it](/daily/calendar/#reading-it) |
 | See everything about a repeat guest | [What a guest record holds](/daily/guests/#what-a-guest-record-holds) |
+| Find the Guests page | Messages → **View guests** at the foot of the panel beside a thread — [Guests](/daily/guests/) |
 | Know whether a guest needs careful handling | [The guest score](/daily/guests/#the-guest-score) |
 | Understand which revenue number I am looking at | [Money definitions](/daily/bookings/#money-definitions) |
 
@@ -66,23 +70,31 @@ than in general.
 | I want to… | Do this |
 | --- | --- |
 | Reply to a guest | [Replying](/daily/messages/#replying) — the AI drafts, you send |
+| Ask Santi about a guest thread | **Ask Santi** in the thread header — [The inbox](/daily/messages/#the-inbox) |
+| Clear the inbox in one go | **Mark all handled** above the list — [Clearing the list in one go](/daily/messages/#clearing-the-list-in-one-go) |
+| Turn off the new-message sound | Account menu → **Personal settings** → **Notifications on this device** → **Message sound** — [The sound](/daily/messages/#unread-the-tab-title-and-the-sound) |
 | Stop repeating the same answer | [Message templates](/setup/message-templates/) |
+| Start with ready-made templates | **Import defaults** adds five — [Five defaults to import](/setup/message-templates/#five-defaults-to-import) |
 | Send the wifi and door code automatically | Use the template variables — [Variables](/setup/message-templates/#variables) |
-| Let the AI answer guests on its own | Turn on **Auto-reply** — [Messages](/daily/messages/) |
+| Let the AI answer guests on its own | Open the **Auto-reply** tab of Messages, start in **Practice**, then **Start sending** — [Auto-reply](/daily/messages/#auto-reply) |
 | Turn a complaint into something tracked | [Complaints become tickets](/daily/messages/#complaints-become-tickets) |
 | Reply to a review | [Replying](/daily/reviews/#replying) |
 | Review a guest on Airbnb | [Reviewing a guest (Airbnb)](/daily/reviews/#reviewing-a-guest-airbnb) — it cannot be undone |
 | Sell a late checkout or an extra night | [Upsells](/money/upsells/) |
+| Send all ready upsell offers at once | **Send all** on Upsells — [Sending several at once](/money/upsells/#sending-several-at-once) |
+| Change upsell prices, times or the message | The **Settings** tab of Upsells — [Settings](/money/upsells/#settings) |
 
 ## Cleaning and maintenance
 
 | I want to… | Do this |
 | --- | --- |
 | See what needs cleaning today | [The cleaning board](/daily/tasks/#the-cleaning-board) |
-| Give a cleaner their jobs without an account | Share the [cleaning cluster message](/daily/tasks/#cleaning-clusters) on WhatsApp |
+| Give a cleaner their jobs without an account | Share the [cleaning cluster message](/daily/tasks/#cleaning-clusters) on Zalo or WhatsApp |
+| Share the day's cleaning plan on Zalo or WhatsApp | **Share** on the cluster in the daily brief — [Cleaning clusters](/daily/tasks/#cleaning-clusters) |
+| Take a clean off the schedule | **Take off schedule** on the clean (managers only) — [The cleaning board](/daily/tasks/#the-cleaning-board) |
 | Always assign the same person to a room | [Default cleaner per room](/daily/tasks/#default-cleaner-per-room) |
 | Group properties one cleaner covers | [Cleaning clusters](/daily/tasks/#cleaning-clusters) |
-| Log a broken air-conditioner | Open a [ticket](/daily/tickets/) |
+| Report a broken air-conditioner or other maintenance issue | **Tasks → Issues → New ticket** — [Issues (tickets)](/daily/tickets/#they-open-themselves) |
 | Block the room while a repair happens | [Scheduling puts it on the calendar](/daily/tickets/#scheduling-puts-it-on-the-calendar) |
 | Check a clean was actually done | The cleaner marks it done, optionally with a photo — [What a cleaner sees](/daily/tasks/#what-a-cleaner-sees) |
 
@@ -93,6 +105,8 @@ than in general.
 | Connect Airbnb | [Connect Airbnb](/channels/airbnb/) |
 | Connect Booking.com | [Connect Booking.com](/channels/booking-com/) |
 | Connect a second Airbnb account | [Add another account](/channels/listings/#add-another-account) |
+| Reconnect Airbnb after Santara AI's access was removed | **Reconnect** on the connection, with the same Airbnb account — [Reconnect](/channels/airbnb/#reconnect) |
+| List on Google Hotel Search | Connect it as another channel and fill in what its checklist asks for — [Google Hotel Search](/channels/other-channels/#google-hotel-search) |
 | Import a listing I skipped the first time | [Import a listing you skipped](/channels/listings/#import-a-listing-you-skipped) |
 | Move a listing onto a different room | [Move a listing to a different room](/channels/listings/#move-a-listing-to-a-different-room) |
 | Force a channel to re-read everything now | **Refresh** on [the connection page](/channels/listings/#the-connection-page) |
@@ -123,6 +137,7 @@ than in general.
 | Take card payments myself | [Connect Stripe](/setup/booking-site/#5-connect-stripe) — money goes to your own account |
 | Approve a guest before their booking is confirmed | [Booking requests](/setup/booking-site-requests/#booking-requests) |
 | See who used the contact form | [Enquiries](/setup/booking-site-requests/#enquiries) |
+| Refund a direct booking | **Refund per policy** or **Refund in full** on the booking — [Money](/setup/booking-site-requests/#money) |
 | Write a page or a blog post for the site | [Pages and blog posts](/setup/booking-site/#pages-and-blog-posts) |
 
 ## Money and reporting
@@ -134,7 +149,7 @@ than in general.
 | Log cleaning, utilities and repair costs | [Adding an expense](/money/reports/#adding-an-expense) |
 | Split one electricity bill across a building | [Shared bills](/money/reports/#shared-bills) |
 | Send an owner their statement | [The owner statement](/money/reports/#the-owner-statement), then [Download CSV](/money/reports/#download-csv) |
-| Understand RevPAR, ADR and occupancy | They are on [Upsells](/money/upsells/) |
+| Understand RevPAR, ADR and occupancy | [Occupancy, ADR and RevPAR](/money/reports/#occupancy-adr-and-revpar) |
 | Reconcile Santara AI against an extranet | [Gross, fees and payout](/money/reports/#gross-fees-and-payout) — the bank matches the payout |
 
 ## People and access
@@ -159,7 +174,8 @@ than in general.
 | Fix dates and "today" being wrong | [Timezone](/setup/workspace/#timezone) |
 | Turn off notifications I do not want | [Notifications](/setup/workspace/#notifications) |
 | Connect ChatGPT or Claude to my workspace | [Connect ChatGPT, Claude or Grok](/help/ai-assistants/) |
-| Delete my account | [Your data and privacy](/setup/data-and-privacy/) |
+| Delete my account | Sign in at [santara.ai/delete-account](https://www.santara.ai/delete-account/) — [Deleting your account](/setup/account/#deleting-your-account) |
+| Get the mobile app | App Store for iPhone and iPad, Google Play for Android — [The app](/setup/mobile/#the-app) |
 | Run two portfolios that never mix | Two workspaces — [Switching workspaces](/setup/workspace/#switching-workspaces) |
 
 ## Billing
@@ -170,7 +186,9 @@ than in general.
 | Understand what a "listing" costs | [What you are billed for](/setup/billing/#what-you-are-billed-for) |
 | Add a listing beyond what my plan covers | [Adding a listing mid-month](/setup/billing/#adding-a-listing-mid-month) |
 | Change plan | [Choosing between Host and Operator](/setup/billing/#choosing-between-host-and-operator) |
-| Update my card or download an invoice | [Managing payment](/setup/billing/#managing-payment) |
+| Update my card | **Manage payment method** — [Managing payment](/setup/billing/#managing-payment) |
+| See or download invoices | The **Invoices** list on the Billing screen — [Managing payment](/setup/billing/#managing-payment) |
+| Refer another host | **Refer & earn** in the account menu — [Refer & earn](/setup/billing/#refer--earn) |
 | Cancel | [Cancelling](/setup/billing/#cancelling) |
 
 ## When something is wrong

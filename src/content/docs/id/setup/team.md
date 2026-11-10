@@ -89,7 +89,7 @@ pengaturan, dan karena itulah peran ini yang paling hati-hati Anda berikan.
 
 Mereka masuk dan melihat pembersihan yang ditugaskan kepadanya, pada hari pelaksanaannya, lengkap
 dengan alamat dan catatan akses untuk bangunan itu. Mereka menandai selesai, dengan foto bila perlu.
-Itulah seluruh produknya bagi mereka, dan itu disengaja. Di [aplikasi Android](/id/mobile/getting-started/)
+Itulah seluruh produknya bagi mereka, dan itu disengaja. Di [aplikasi mobile](/id/mobile/getting-started/)
 mereka hanya mendapat tab **Hari ini**, **Tugas**, dan **Lainnya**.
 
 Jika Anda tidak ingin memberi akun sama sekali, bagikan

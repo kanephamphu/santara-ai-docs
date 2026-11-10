@@ -84,7 +84,7 @@ English, Bahasa Indonesia and Tiếng Việt — for the interface, the daily br
 documentation.
 
 **Is there a mobile app?**
-Yes, on Android — it is live on Google Play. iOS is coming. See
+Yes — on the App Store for iPhone and iPad, and on Google Play for Android. See
 [Getting started & login](/mobile/getting-started/).
 
 **Which channels are supported?**

@@ -51,11 +51,12 @@ phòng**. Lượt lưu trú đến từ kênh là bản ghi của kênh — hãy
 
 Khi các lượt lưu trú chồng lấn vượt quá số đơn vị của một phòng, Santara AI báo ở mọi nơi cùng lúc:
 
-- một **dải báo đỏ** ở đầu trang Đặt phòng, nêu từng phòng, số đêm bị ảnh hưởng, và bao nhiêu lượt
+- một **dải báo đỏ** ở đầu trang Đặt phòng — *2 phòng đã bán vượt sức chứa* — nêu từng phòng, số đêm bị ảnh hưởng, và bao nhiêu lượt
   lưu trú trên bao nhiêu đơn vị;
 - nhãn **Trùng đặt phòng** trên mỗi lượt lưu trú liên quan;
 - một **thanh màu đỏ** trên [lịch](/vi/daily/calendar/);
-- một thông báo ở chuông, **Trùng phòng ·** kèm tên phòng.
+- một thông báo ở chuông, **Trùng phòng ·** kèm tên phòng, cho biết có bao nhiêu đặt phòng trên
+  bao nhiêu phòng.
 
 Hãy chuyển hoặc hủy một trong các lượt lưu trú trên kênh của nó trước khi khách đến.
 

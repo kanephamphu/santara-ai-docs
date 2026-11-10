@@ -46,7 +46,8 @@ pengaturan workspace, menghubungkan atau memutuskan channel, atau menghapus prop
 
 ### Menghubungkan dari Santara AI
 
-Di dasbor, **Pengaturan → Channel** punya kartu **Santi** dengan tombol **Hubungkan Santi**. Tombol
+Di dasbor, **Pengaturan → Saluran**, tab **Aplikasi** (atau **Aplikasi terhubung** di menu akun)
+punya kartu **Santi** dengan tombol **Hubungkan Santi**. Tombol
 itu menjalankan persetujuan yang sama dan membawa Anda kembali ke Santara AI.
 
 ### Lebih dari satu workspace
@@ -57,7 +58,7 @@ ingatannya sendiri.
 
 ### Memutuskan koneksi
 
-Di Santara AI: **Pengaturan → Kanal**, tab **Aplikasi** → kartu Santi → **Putuskan**.
+Di Santara AI: **Pengaturan → Saluran**, tab **Aplikasi** → kartu Santi → **Putuskan**.
 Santi langsung kehilangan akses ke workspace itu. Obrolan Anda dengan Santi tetap
 tersimpan di Santi.
 

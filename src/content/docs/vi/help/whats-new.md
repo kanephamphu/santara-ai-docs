@@ -12,7 +12,99 @@ Trang này bắt đầu từ tháng 7 năm 2026, khi bộ tài liệu này lần
 ngày **Cập nhật lần cuối** ở chân trang, đó là câu trả lời chi tiết hơn cho câu hỏi "cái này có đổi
 không?".
 
-## Tháng 10 năm 2026
+## Tháng 10 và tháng 11 năm 2026
+
+### Sự cố, nhân viên mặc định và bằng chứng trong Công việc
+
+Ticket giờ nằm ở tab **Sự cố** của **Công việc** — thanh bên không còn mục Ticket riêng, và liên kết
+Ticket cũ sẽ mở tab này. Bên cạnh là **Nhân viên mặc định**, nơi đặt ai dọn từng phòng. Trên một ca
+dọn, **Bằng chứng & ghi chú** nhận ảnh và ghi chú, và quản lý có thể **Bỏ khỏi lịch** khi khách ở
+tiếp. Xem [Công việc](/vi/daily/tasks/) và [Sự cố (phiếu xử lý)](/vi/daily/tickets/).
+
+### Hôm nay có hai tab
+
+**Hôm nay** mở ở **Bản tin** — cả ngày được viết ra — còn **Tổng quan**, với công suất đêm nay, lượt
+đến và các luồng đang chờ trả lời, chỉ cách một cú bấm. Xem
+[Hôm nay và bản tin hằng ngày](/vi/daily/).
+
+### Trùng phòng được báo ở mọi nơi
+
+Khi một phòng có nhiều lượt lưu trú hơn số đơn vị, Đặt phòng hiện dải đỏ, mỗi lượt có nhãn **Trùng
+phòng**, lịch vẽ thanh đỏ, và chuông báo cho bạn. Xem
+[Lượt đặt bị trùng phòng](/vi/daily/bookings/#lượt-đặt-bị-trùng-phòng).
+
+### Dải tình trạng cho các kênh
+
+Khi một kết nối hoặc việc đồng bộ cần bạn, một dải hiện ở đầu mọi trang — mỗi sự cố một dòng, mỗi
+dòng có nút **Sửa**. Khi một kênh từ chối bản cập nhật giá hoặc phòng trống, chuông sẽ báo, mỗi ngày
+tối đa một lần cho cùng một kênh, chỗ nghỉ và lỗi. Nếu quyền truy cập của Santara AI bị gỡ khỏi một
+tài khoản Airbnb, kết nối hiện **Cần kết nối lại**; bấm **Kết nối lại** bằng đúng tài khoản đó thì tin
+đăng và lịch sử vẫn được giữ. Xem [Sự cố hiện ra ở đâu](/vi/channels/troubleshooting/#sự-cố-hiện-ra-ở-đâu)
+và [Kết nối lại](/vi/channels/airbnb/#kết-nối-lại).
+
+### Mục tiêu thời gian trả lời trong hộp thư
+
+Luồng đang chờ bạn hiện **Chờ 12 phút**, rồi **Trễ** khi đã quá mục tiêu của thời điểm đó trong kỳ
+lưu trú — 10 phút trong ngày nhận phòng, 30 phút khi khách đang ở. Danh sách **Kênh** lọc luồng theo
+kênh, và **Đánh dấu tất cả đã xử lý** dọn sạch **Cần bạn** một lần. Xem
+[Khách đã chờ bao lâu](/vi/daily/messages/#khách-đã-chờ-bao-lâu).
+
+### Kiểu xem và bộ lọc trên lịch
+
+Chuyển giữa **Dòng thời gian** và **Từng chỗ nghỉ** (một chỗ nghỉ, một tháng), chọn chỗ nghỉ nào được
+hiện, và lọc theo kênh hoặc theo lượt lưu trú có tín hiệu bán thêm. Lượt lưu trú không nằm ở phòng nào
+của chỗ nghỉ được gom vào hàng **Chưa gán phòng**. Xem
+[Kiểu xem và bộ lọc](/vi/daily/calendar/#kiểu-xem-và-bộ-lọc).
+
+### Nội dung tin đăng được gửi tới các kênh
+
+Ảnh, mô tả, chính sách nhà, chính sách hủy và tiện nghi được gửi tới channel manager mỗi khi bạn lưu,
+để các kênh như Google Hotel Search hiển thị đúng tin đăng bạn quản lý ở đây. Trước khi Google Hotel
+Search hoạt động, một danh sách kiểm tra nêu những gì còn thiếu. Xem
+[Nội dung tin đăng của bạn](/vi/channels/other-channels/#nội-dung-tin-đăng-của-bạn).
+
+### Đánh giá, sắp theo việc cần phản hồi
+
+Đánh giá có bốn tab — **Cần phản hồi**, **Dưới 4★**, **Đã phản hồi** và **Tất cả** — và **Đánh giá
+khách này** đăng đánh giá của bạn về một khách Airbnb, gồm điểm, đánh giá công khai và ghi chú riêng
+tùy chọn. Xem [Đánh giá](/vi/daily/reviews/).
+
+### Bán thêm: Gửi tất cả và Cài đặt
+
+**Gửi tất cả** mở ra với lời chào giá trị cao nhất đã sẵn sàng của mỗi khách được chọn sẵn và gửi lần
+lượt từng tin, còn tab **Cài đặt** đặt giá, giờ và tin nhắn của từng lời chào một lần cho cả
+workspace. Xem [Gửi nhiều lời chào một lúc](/vi/money/upsells/#gửi-nhiều-lời-chào-một-lúc) và
+[Cài đặt](/vi/money/upsells/#cài-đặt).
+
+### Website đặt phòng: Giá, SEO, Phân tích và hoàn tiền
+
+Website đặt phòng có các tab **Giá**, **SEO** và **Phân tích**, **trình chỉnh sửa trực quan** trong
+Thiết kế, và **Theo dõi của bên thứ ba** cho Mã đo lường Google Analytics và Meta Pixel ID. Lượt đặt
+trực tiếp đã thanh toán có thể hoàn tiền theo chính sách hoặc hoàn toàn bộ. Xem
+[Website đặt phòng trực tiếp của bạn](/vi/setup/booking-site/) và [Tiền](/vi/setup/booking-site-requests/#tiền).
+
+### Thanh toán: dùng thử, ngày gia hạn và hóa đơn
+
+Dùng thử miễn phí kéo dài 90 ngày. Khi hết mà chưa chọn gói, bạn vẫn dùng đầy đủ thêm 7 ngày kèm một
+dải thông báo, rồi workspace chuyển sang chỉ đọc — không có bức tường chặn, và không gì bị xóa. Hóa
+đơn được liệt kê trên màn hình Thanh toán để xem hoặc tải, và **Giới thiệu & nhận thưởng** cho bạn
+liên kết và mã để chia sẻ với các chủ nhà khác. Xem [Gói và thanh toán](/vi/setup/billing/).
+
+### Định giá động: xem trước khi xuất bản
+
+**Đồng bộ ngay** ở tab **Giá** của listing cho thấy mỗi đêm sẽ thành bao nhiêu và vì sao, còn **Áp
+dụng các mức giá này** xuất bản chúng. Xem [Đồng bộ ngay](/vi/money/pricing/#đồng-bộ-ngay).
+
+### Những thay đổi khác
+
+- **Nhập mẫu mặc định** thêm năm mẫu tin nhắn có sẵn —
+  [Năm mẫu mặc định để nhập](/vi/setup/message-templates/#năm-mẫu-mặc-định-để-nhập).
+- **Mười sáu loại thông báo**, gồm **Trùng phòng** và cảnh báo đồng bộ kênh —
+  [Thông báo](/vi/setup/workspace/#thông-báo).
+- **Tự xóa tài khoản** tại santara.ai/delete-account —
+  [Xóa tài khoản](/vi/setup/account/#xóa-tài-khoản).
+- **Ứng dụng đã có trên App Store** cho iPhone và iPad, bên cạnh Google Play —
+  [Trên điện thoại](/vi/setup/mobile/).
 
 ### Gặp Santi và đội AI Agents
 

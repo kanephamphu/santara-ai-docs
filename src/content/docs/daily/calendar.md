@@ -19,6 +19,40 @@ free nights show their price.
   stay.
 - **Click a day** for the day list: everything moving on that date, arrivals and departures
   together.
+- **A red bar with a warning sign** is an overbooked stay: the room holds more stays than units on
+  those nights. Its card says **Overbooked: this room has more bookings than units on these
+  nights**. See [Overbooked stays](/daily/bookings/#overbooked-stays).
+- **No room assigned** is a greyed row under a property, holding stays that sit on none of its
+  rooms. It only appears when there is such a stay. If a channel booking lands there, check the
+  listing's mapping — see [Channel troubleshooting](/channels/troubleshooting/#once-live).
+- **Hover over a bar** for the stay's card. **Ask Santi** on it opens Santi with that reservation
+  already described, so you can ask about it straight away.
+
+## Views and filters
+
+The switch at the top of the page picks the view:
+
+- **Timeline** — every listing down the side, dates across the top, as in the picture above. On a
+  phone this becomes **Day**: one day at a time, listing who is **In**, **Out**, **Staying** and
+  which rooms are **Free**.
+- **Listing** — one listing, one month. Pick the listing, page with **Previous month** and **Next
+  month**, and the month shows how many nights are booked (*12 of 30 nights booked*) and its
+  revenue. Click a free night to add a booking or change its rate.
+
+Both views read the same dates, so switching never loses your place, and the browser remembers
+which one you used.
+
+**Listings shown** (with a count such as *4/6*) turns listings on and off one by one, with **Show
+all** and **Hide all**. The choice sticks in this browser — handy when you only look after some of
+the buildings.
+
+**Filters** opens two more:
+
+- **Channel** — show stays from one channel only. It lists the channels of the stays on screen,
+  each with its count.
+- **Stay filter** — **All stays**, or only those **With upsell signal**.
+
+**Clear filters** puts both back.
 
 ## Block or unblock dates
 

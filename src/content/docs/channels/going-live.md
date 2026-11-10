@@ -52,6 +52,9 @@ From that moment, for the listings that are live:
    **Nightly rate**. Availability is capped at that unit count: if a room is one apartment and you
    enter 3, you have just offered three. The dialog shows how many upcoming nights will be open and
    how many closed as fully booked before you confirm.
+6. **On Google Hotel Search, the listing content is complete** — photos, description, address,
+   amenities and policies. The channel will not go live without them; see
+   [the checklist](/channels/other-channels/#google-hotel-search).
 
 ## Going live listing by listing
 

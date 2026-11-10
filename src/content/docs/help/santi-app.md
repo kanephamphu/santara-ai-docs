@@ -43,7 +43,8 @@ connect or disconnect channels, or delete properties or rooms.
 
 ### Connecting from Santara AI instead
 
-In the dashboard, **Settings → Channels** has a **Santi** card with **Connect Santi**. It runs the
+In the dashboard, **Settings → Channels**, the **Apps** tab (or **Connected apps** in the account
+menu) has a **Santi** card with **Connect Santi**. It runs the
 same consent and brings you back to Santara AI.
 
 ### More than one workspace

@@ -24,6 +24,31 @@ onboarding rather than on day 91. That is intended — but it surprises people w
 three months. The screen tells you the amount and asks before it charges.
 :::
 
+### How many days are left
+
+**Personal settings** (the account menu at the foot of the sidebar) opens with a **Your package**
+card: the plan you are on and, during the trial, a ring that counts down the days — *Free trial: N of 90
+days left*. It turns amber in the last two days. The card is shown only to people who can
+see billing, so a cleaner never sees it.
+
+### When the trial ends without a card
+
+Nothing is locked on the day. You keep **full access for 7 more days**, and a banner on every page
+says until when — *"Your free trial has ended. You can keep using Santara AI until [date]…"* — with
+**Choose a package**.
+
+If no plan is chosen by then, the workspace turns **read-only**. There is no wall in front of the
+product: you can still open every screen and read everything, and the banner stays at the top. You
+just cannot change anything until you choose a package. Nothing is deleted. See
+[If a payment fails](#if-a-payment-fails) for what keeps running while it is read-only.
+
+### One free trial per owner
+
+The free trial is given once. If you already owned a workspace that had a subscription and you
+create another, the new one starts **without free days**: the Billing screen says **Resume your
+subscription**, and the card is charged the day you add it. The same applies when you come back
+after cancelling.
+
 ## What you are billed for
 
 **A listing — one sellable room.** Not a property, and not a channel connection.
@@ -105,8 +130,13 @@ mid-month by accident.
 ## Commission
 
 Santara AI takes **no commission on channel bookings** (Airbnb, Booking.com and the rest) **or on
-upsells**. It takes **3% commission only on direct bookings** made through your
-[direct booking site](/setup/booking-site/). Everything else is the subscription described above.
+upsells**. Everything is the subscription described above.
+
+The one exception is your [direct booking site](/setup/booking-site/), and only if you switch it
+on: the **Guest booking fee** adds 3% to a direct booking, **paid by the guest** on top of the stay
+and shown to them as its own line. Your payout is unchanged. It is **off by default**, and it
+applies only to bookings paid online at checkout — never to a booking request. See
+[Connect Stripe](/setup/booking-site/#5-connect-stripe).
 
 ## Adding a listing mid-month
 
@@ -136,14 +166,24 @@ refunded** — that is stated on the delete confirmation.
 invoices. The card form is Stripe's throughout; Santara AI never sees the number. Stripe's invoices
 are the document your accountant wants.
 
+You do not need the portal just to fetch an invoice. The **Invoices** list on the Billing screen
+shows each one with its status — Paid, Unpaid, Void or Uncollectible — and **View** or
+**Download PDF**. **Load more** reaches older ones.
+
 ## If a payment fails
 
 You get a banner and a notification. Stripe retries on its own schedule, and you have a **grace
 period of three business days** to fix the card.
 
 If it is not fixed, the workspace becomes **read-only** rather than disappearing: everything is
-still there, sync stops, and you cannot make changes until billing is sorted. Fix the card and
-everything resumes.
+still there, the banner stays on every page, and you cannot make changes until billing is sorted.
+Fix the card and everything resumes.
+
+**After 30 days read-only, the background work pauses too** — the daily brief, the nightly pricing
+run, and new bookings and messages coming in from your channels. Your channel connections are not
+disconnected and your listings keep selling on the channels themselves. Pay, and it resumes,
+catching up on what arrived while it was paused. See
+[Data and privacy](/setup/data-and-privacy/#if-billing-lapses).
 
 ## Grandfathered and agreed pricing
 
@@ -162,3 +202,17 @@ charge.
 Your channel listings are unaffected — cancelling Santara AI does not touch your Airbnb or
 Booking.com account. But it does end the syncing that keeps their calendars aligned, so **close or
 reconcile your calendars before you go**.
+
+## Refer & earn
+
+**Refer & earn** is in the account menu at the foot of the sidebar. It gives you a personal **link**
+and **code** to share with other hosts.
+
+- When a workspace signs up with your link or code and pays, you earn a share of what it pays. **The
+  page states the current percentage and what it applies to** — for example their first payment.
+  Read it there; it is the figure that counts.
+- The workspace you referred also gets a discount when it starts.
+- Each commission is **on hold** until the refund period ends, then shows as **owed to you**, then
+  **paid out**. The page lists your sign-ups and which of them are paying.
+- Commission is paid by **bank transfer, Wise or PayPal**. Enter where to send it under **Where to
+  send your commission**.

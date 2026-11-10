@@ -73,8 +73,48 @@ Channel muncul di **Pengaturan → Channel → Terhubung**, dengan kamar dan tar
 dipetakan. Dari sana Anda bisa membuka lagi penyiapannya, dan channel yang terhubung tetapi belum
 live menampilkan catatan tentang itu.
 
-Foto (hingga 30), deskripsi, kebijakan rumah, kebijakan pembatalan, dan fasilitas properti Anda
-dikirim ke channel setiap kali Anda menyimpan properti atau kamar.
+### Konten listing Anda
+
+Santara AI mengirim konten properti Anda ke channel manager, sehingga channel yang membacanya —
+antara lain Google Hotel Search — menampilkan listing yang Anda kelola di sini:
+
+| Konten | Sumbernya |
+| --- | --- |
+| **Foto** | Foto properti dan kamar-kamarnya, hingga 30 |
+| **Deskripsi** | Halaman properti dan deskripsi kamar |
+| **Kebijakan properti** | Jam check-in dan check-out serta aturan rumah Anda |
+| **Kebijakan pembatalan** | Kebijakan pembatalan situs pemesanan Anda |
+| **Fasilitas** | Fasilitas yang dicentang di halaman tiap kamar |
+
+Konten dikirim ulang setiap kali Anda menyimpan properti atau kamar, dan saat Anda menambah atau
+menghapus foto. Tidak ada tombol yang perlu ditekan.
+
+### Google Hotel Search
+
+Sebelum Google Hotel Search aktif, channel memeriksa apakah properti sudah lengkap. Jika belum,
+menekan **Simpan** atau **Aktifkan** menampilkan *… belum bisa aktif. Yang masih kurang:* beserta daftar yang perlu
+ditambahkan:
+
+- *Minimal 8 foto.* — di halaman properti atau kamar.
+- *Deskripsi properti.* — di halaman properti.
+- *Alamat jalan.*, *Kode pos.*, *Provinsi.*, *Nomor telepon.* — di halaman **Pengaturan**
+  properti.
+- *Minimal satu fasilitas.* — centang fasilitas di halaman kamar.
+- *Kebijakan properti.* — dibuat dari jam check-in dan check-out Anda; simpan halaman properti untuk
+  mengirimnya.
+- *Kebijakan pembatalan.* — diambil dari kebijakan pembatalan situs pemesanan Anda; simpan halaman
+  properti untuk mengirimnya.
+- *Tarif yang ditampilkan.* — centang minimal satu rate plan lalu simpan.
+
+Lengkapi semuanya, simpan, lalu tekan **Aktifkan** lagi. Channel lain tanpa pemetaan kamar, seperti
+Hopper, memakai daftar periksa yang sama.
+
+Setelah Google menerbitkan properti Anda, halaman koneksinya menampilkan **Buka halaman Google
+Anda**. Sebelum itu, tertulis bahwa tautannya akan muncul di sana, biasanya dalam beberapa hari
+setelah terhubung. Di bawahnya, *Tombol Pesan di Google mengarah ke:* menunjukkan ke mana tamu
+diarahkan. Jika itu halaman umum channel manager, **Arahkan tamu Google ke situs pemesanan saya**
+mengarahkannya ke [situs pemesanan](/id/setup/booking-site/) Anda sendiri — situs pemesanan harus
+sudah terbit dan menampilkan properti ini.
 
 Tarif, ketersediaan, dan restriksi lalu tersinkron persis seperti Airbnb dan Booking.com. Lihat
 [Cara kerja koneksi channel](/id/channels/) untuk apa yang berpindah di tiap arah.

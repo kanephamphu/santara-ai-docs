@@ -11,7 +11,8 @@ not even the owner of the workspace you work in.
 
 ## Where it lives
 
-Open the **account menu at the foot of the sidebar**, then **Personal account**. It is deliberately
+Open the **account menu at the foot of the sidebar** (your name, with *Personal account* under it),
+then **Personal settings**. It is deliberately
 not one of the Settings tabs: the tabs along the top of Settings are the *workspace's* setup, and
 your password is not the workspace's business.
 
@@ -122,3 +123,14 @@ login. Switch between them from the account menu.
 Never share a login instead of inviting somebody properly. Every clean marked done, message sent
 and ticket closed is attributed to an account, and that attribution is what settles arguments
 later. See [Team and roles](/setup/team/).
+
+## Deleting your account
+
+You can delete your account yourself at
+[santara.ai/delete-account](https://www.santara.ai/delete-account/): sign in and type your
+account's email to confirm. It is not in Settings or in the mobile app.
+
+The request signs you out on every device at once, and Santara AI staff complete it within 30 days.
+Your personal details are removed; the workspaces' bookings and invoices are kept, anonymised. If
+you are the only owner of a workspace other people use, make someone else an owner first. The full
+detail is in [Data and privacy](/setup/data-and-privacy/#deleting-your-account).

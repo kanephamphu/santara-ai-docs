@@ -53,6 +53,9 @@ Sejak saat itu, untuk listing yang tayang:
    jika satu kamar adalah satu apartemen tetapi Anda mengisi 3, Anda baru saja menawarkan tiga.
    Sebelum Anda mengonfirmasi, dialog menunjukkan berapa malam mendatang yang akan kosong dan berapa
    yang ditutup sebagai penuh.
+6. **Di Google Hotel Search, konten listing sudah lengkap** — foto, deskripsi, alamat, fasilitas, dan
+   kebijakan. Channel ini tidak akan aktif tanpa itu; lihat
+   [daftar periksanya](/id/channels/other-channels/#google-hotel-search).
 
 ## Tayang satu per satu
 

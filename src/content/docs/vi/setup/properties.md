@@ -32,6 +32,28 @@ Bất động sản tạo từ [listing đã nhập](/vi/channels/airbnb/) sẽ 
 
 Địa chỉ, mô tả, nội quy, ảnh tòa nhà, **cụm dọn phòng**, và các listing đã kết nối.
 
+## Cài đặt chỗ nghỉ
+
+**Cài đặt** trên một bất động sản mở trang **Cài đặt chỗ nghỉ**: những quy tắc mà các kênh áp dụng
+cho cả bất động sản. Bấm **Lưu cài đặt**; trang sẽ cho biết thay đổi đã tới các kênh chưa — *Đã đồng bộ với
+kênh*, hay đang chờ hoặc bị lỗi.
+
+| Thẻ | Điều chỉnh gì |
+| --- | --- |
+| **Thông tin cơ bản**, **Liên hệ**, **Vị trí** | Tên, tiền tệ mặc định, loại chỗ nghỉ, thông tin liên hệ, địa chỉ và tọa độ chia sẻ với các kênh. Đổi tiền tệ không làm thay đổi rate plan của các phòng hiện có |
+| **Cài đặt giá** | Giá tối thiểu và tối đa của bất động sản |
+| **Cài đặt tự động cập nhật tình trạng phòng** | Phòng trống có tự thay đổi khi một lượt đặt bị sửa hoặc hủy hay không. Lượt đặt mới luôn làm giảm phòng trống — không tắt được |
+| **Số ngày tồn kho** | Lịch chạy trước bao nhiêu ngày, từ 100 đến 730 |
+| **Cài đặt số đêm tối thiểu** | Chỉ dùng một loại số đêm tối thiểu: **Theo ngày đến (arrival)**, **Suốt kỳ nghỉ (through)**, hoặc **Cả hai** |
+| **Giờ ngừng bán** | Thời điểm ngừng bán cho ngày hôm đó, theo múi giờ của bất động sản. Tới giờ đó, phòng trống của ngày hôm đó về 0 |
+| **Số ngày đặt trước tối đa** | Đóng các ngày xa hơn **Số ngày mở bán** |
+
+:::caution[Hai mục trong số này chỉ đi một chiều]
+- Đổi **loại số đêm tối thiểu** sẽ xóa mọi giá trị của loại bạn thôi dùng. Hãy chạy đồng bộ toàn bộ
+  sau đó và kiểm tra kết quả.
+- **Số ngày đặt trước tối đa** không tự mở lại các ngày khi bạn đổi nó về sau.
+:::
+
 ## Những gì thuộc về phòng
 
 - **Giá và rate plan** — xem [Smart pricing](/vi/money/pricing/).
@@ -68,9 +90,10 @@ phòng, wifi và địa chỉ sẽ cho ra bản nháp mơ hồ và thời điể
 
 ## Đồng bộ từ kênh
 
-**Đồng bộ dữ liệu** trên một bất động sản kéo về đặt phòng, lịch, tin nhắn và chi tiết listing mới
-nhất. Ở đâu kênh có giá trị thì **giá trị đó thay thế của bất động sản**. Hãy dùng sau khi sửa listing
-trên kênh; đừng dùng ngay sau khi sửa ở đây thứ mà kênh cũng biết.
+**Nhập dữ liệu từ kênh** trên một bất động sản kéo về đặt phòng, lịch, tin nhắn và chi tiết listing
+mới nhất — xác nhận bằng **Nhập ngay**. Ở đâu kênh có giá trị thì **giá trị đó thay thế của bất động
+sản**; những trường kênh không cung cấp vẫn giữ nguyên. Hãy dùng sau khi sửa listing trên kênh; đừng
+dùng ngay sau khi sửa ở đây thứ mà kênh cũng biết.
 
 ## Di chuyển, nhân bản, xóa
 
@@ -79,4 +102,7 @@ trên kênh; đừng dùng ngay sau khi sửa ở đây thứ mà kênh cũng bi
   *"(bản sao)"*. Bản sao chưa liên kết kênh nào cho tới khi bạn ánh xạ.
 - **Xóa một phòng** — rate plan, lịch trống và ảnh của nó biến mất. Đặt phòng và đánh giá cũ được giữ
   nhưng không còn gắn với phòng.
-- **Xóa một bất động sản** — bị từ chối khi listing kênh còn kết nối. Hãy ngắt chúng trước.
+- **Xóa một bất động sản** — chỉ chủ workspace mới làm được, và bị từ chối khi listing kênh còn kết
+  nối. Hãy ngắt chúng trước, để phía kênh cũng được dọn sạch. Việc xóa sẽ bỏ luôn **đặt phòng, lịch
+  và tin nhắn** của nó cùng các listing đã kết nối trong Santara AI, không chỉ riêng bất động sản.
+  Khoản đã trả cho tháng này không được hoàn lại.

@@ -44,17 +44,21 @@ that looks right and one you have actually seen produce a sentence.
 
 Nothing is ever sent automatically. A template fills the box; you press send.
 
-## The ones you start with
+## Five defaults to import
 
-New workspaces get five, covering what almost everyone writes anyway:
+A new workspace starts with **no templates**. Press **Import defaults** and five are added, covering
+what almost everyone writes anyway:
 
 | Template | When |
 | --- | --- |
-| **Welcome / arrival** | Before check-in: times, door code, how to get in |
-| **Checkout reminder** | The day before: time, keys, anything to leave |
+| **Check-in reminder** | Before check-in: times, door code, how to get in |
+| **Check-out reminder** | The day before: time, keys, anything to leave |
 | **Late checkout offer** | When the calendar allows it — see [Upsells](/money/upsells/) |
 | **Review request** | After a good stay |
-| **Apology** | When something has gone wrong and you need to buy time honestly |
+| **Issue apology** | When something has gone wrong and you need to buy time honestly |
+
+They are imported in the language your interface is set to at that moment. Any template whose name
+is already in your list is skipped, so pressing it twice does not create duplicates.
 
 Edit them freely — a change applies to that saved template only, and the defaults are a starting
 point rather than something the product keeps in step.

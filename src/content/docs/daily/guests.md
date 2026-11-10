@@ -5,6 +5,12 @@ sidebar:
   order: 7
 ---
 
+:::note[How to get here]
+**Guests** is not in the sidebar. Open it from [Messages](/daily/messages/): **View guests** sits
+at the foot of the guest panel on the right of the inbox. That panel only shows on a wide screen
+(1280 pixels and up) — on a smaller window or a phone, widen the window or use a bigger display.
+:::
+
 A **guest** is a person, not a reservation. The same person across three stays is one record with
 a history, matched across channels wherever the channel gives us enough to match on.
 

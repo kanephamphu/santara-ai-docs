@@ -5,6 +5,12 @@ sidebar:
   order: 7
 ---
 
+:::note[Cách mở trang này]
+**Khách** không có trên thanh bên. Mở từ [Tin nhắn](/vi/daily/messages/): nút **Xem khách** nằm ở
+cuối bảng thông tin khách bên phải hộp thư. Bảng này chỉ hiện trên màn hình rộng (từ 1280 pixel trở
+lên) — với cửa sổ nhỏ hơn hoặc trên điện thoại, hãy mở rộng cửa sổ hoặc dùng màn hình lớn hơn.
+:::
+
 **Khách** là một con người, không phải một lượt đặt. Cùng một người qua ba lượt lưu trú là một hồ sơ
 có lịch sử, được đối chiếu xuyên kênh ở những nơi kênh cung cấp đủ dữ liệu để đối chiếu.
 

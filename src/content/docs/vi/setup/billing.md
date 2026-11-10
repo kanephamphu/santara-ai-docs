@@ -24,6 +24,31 @@ ngay trong lúc onboarding chứ không phải vào ngày thứ 91. Đó là ch�
 chỉ đọc con số ba tháng phải bất ngờ. Màn hình hiện rõ số tiền và hỏi trước khi tính.
 :::
 
+### Còn bao nhiêu ngày
+
+**Cài đặt cá nhân** (menu tài khoản ở cuối thanh bên) mở đầu bằng thẻ **Gói của bạn**: gói bạn
+đang dùng và, trong thời gian dùng thử, một vòng tròn đếm ngược số ngày — *Dùng thử miễn phí: còn N
+trong 90 ngày*. Vòng chuyển sang màu hổ phách trong hai ngày cuối. Thẻ này chỉ hiện với người được
+xem thông tin thanh toán, nên nhân viên dọn phòng không bao giờ thấy nó.
+
+### Khi hết dùng thử mà chưa có thẻ
+
+Không có gì bị khóa ngay hôm đó. Bạn vẫn được **dùng đầy đủ thêm 7 ngày**, và một dải thông báo
+trên mọi trang cho biết đến ngày nào — *"Thời gian dùng thử miễn phí đã kết thúc. Bạn vẫn có thể
+dùng Santara AI đến [ngày]…"* — kèm nút **Chọn gói**.
+
+Nếu đến lúc đó vẫn chưa chọn gói, workspace chuyển sang **chỉ đọc**. Không có bức tường nào chặn
+trước sản phẩm: bạn vẫn mở được mọi màn hình và đọc mọi thứ, dải thông báo vẫn nằm ở trên cùng —
+chỉ là bạn không thay đổi được gì cho tới khi chọn gói. Không có gì bị xóa. Xem
+[Nếu thanh toán thất bại](#nếu-thanh-toán-thất-bại) để biết những gì vẫn chạy trong lúc chỉ đọc.
+
+### Mỗi chủ sở hữu chỉ dùng thử một lần
+
+Bản dùng thử miễn phí chỉ được tặng một lần. Nếu bạn đã từng sở hữu một workspace có gói đăng ký
+rồi tạo thêm workspace khác, workspace mới bắt đầu **không có ngày miễn phí**: màn hình Thanh toán
+hiện **Tiếp tục gói đăng ký của bạn**, và thẻ bị tính tiền ngay hôm bạn thêm. Điều tương tự áp dụng
+khi bạn quay lại sau khi đã hủy.
+
 ## Bạn bị tính tiền cho cái gì
 
 **Một listing — một phòng bán được.** Không phải một bất động sản, và cũng không phải một kết nối
@@ -105,9 +130,14 @@ không nên xảy ra giữa tháng vì sơ ý.
 
 ## Hoa hồng
 
-Santara AI **không lấy hoa hồng trên booking từ kênh** (Airbnb, Booking.com và các kênh khác) **hay trên upsell**.
-Santara AI chỉ lấy **3% hoa hồng trên đặt phòng trực tiếp** được tạo qua
-[website đặt phòng trực tiếp](/vi/setup/booking-site/) của bạn. Phần còn lại là gói thuê bao như mô tả ở trên.
+Santara AI **không lấy hoa hồng trên booking từ kênh** (Airbnb, Booking.com và các kênh khác) **hay
+trên upsell**. Tất cả chỉ là gói thuê bao như mô tả ở trên.
+
+Ngoại lệ duy nhất là [website đặt phòng trực tiếp](/vi/setup/booking-site/) của bạn, và chỉ khi bạn
+bật nó: **Phí đặt phòng của khách** cộng thêm 3% vào một lượt đặt trực tiếp, **do khách trả** thêm
+trên tiền phòng và hiện cho khách thành một dòng riêng. Số tiền bạn nhận không đổi. Phí này **mặc
+định tắt**, và chỉ áp dụng cho lượt đặt thanh toán trực tuyến khi checkout — không bao giờ cho một
+yêu cầu đặt phòng. Xem [Kết nối Stripe](/vi/setup/booking-site/#5-kết-nối-stripe).
 
 ## Thêm listing giữa tháng
 
@@ -136,14 +166,24 @@ Nó ngừng bị tính từ đó về sau. **Khoản đã trả cho tháng đang
 Biểu mẫu thẻ hoàn toàn là của Stripe; Santara AI không bao giờ thấy số thẻ. Hóa đơn của Stripe là chứng
 từ mà kế toán của bạn cần.
 
+Bạn không cần vào cổng Stripe chỉ để lấy một hóa đơn. Danh sách **Hóa đơn** trên màn hình Thanh toán
+hiện từng hóa đơn kèm trạng thái — Đã thanh toán, Chưa thanh toán, Đã hủy hoặc Không thu được — cùng
+nút **Xem** hoặc **Tải PDF**. **Xem thêm** để mở các hóa đơn cũ hơn.
+
 ## Nếu thanh toán thất bại
 
 Bạn nhận một dải thông báo và một thông báo trong ứng dụng. Stripe tự thử lại theo lịch của nó, và
 bạn có **thời gian ân hạn ba ngày làm việc** để sửa thẻ.
 
-Nếu không sửa, workspace chuyển sang **chỉ đọc** chứ không biến mất: mọi thứ vẫn còn đó, việc đồng bộ
-dừng lại, và bạn không thay đổi được gì cho tới khi việc thanh toán được giải quyết. Sửa thẻ là mọi
-thứ trở lại.
+Nếu không sửa, workspace chuyển sang **chỉ đọc** chứ không biến mất: mọi thứ vẫn còn đó, dải thông
+báo vẫn nằm trên mọi trang, và bạn không thay đổi được gì cho tới khi việc thanh toán được giải quyết.
+Sửa thẻ là mọi thứ trở lại.
+
+**Sau 30 ngày ở chế độ chỉ đọc, các việc chạy nền cũng tạm dừng** — bản tin hằng ngày, lượt định
+giá hằng đêm, và lượt đặt phòng cùng tin nhắn mới từ các kênh. Kết nối kênh không bị ngắt và listing
+của bạn vẫn bán bình thường trên chính các kênh. Thanh toán là mọi thứ chạy lại, kể cả bù những gì
+đã đến trong lúc tạm dừng. Xem
+[Dữ liệu và quyền riêng tư](/vi/setup/data-and-privacy/#nếu-việc-thanh-toán-bị-gián-đoạn).
 
 ## Gói cũ và giá thỏa thuận
 
@@ -161,3 +201,17 @@ Hủy từ màn hình Thanh toán. Quyền truy cập kéo dài tới hết kỳ
 Listing trên kênh của bạn không bị ảnh hưởng — hủy Santara AI không đụng tới tài khoản Airbnb hay
 Booking.com của bạn. Nhưng nó chấm dứt việc đồng bộ vốn giữ lịch của các kênh khớp nhau, nên hãy
 **đóng hoặc đối chiếu lịch của bạn trước khi rời đi**.
+
+## Giới thiệu & nhận thưởng
+
+**Giới thiệu & nhận thưởng** nằm trong menu tài khoản ở cuối thanh bên. Ở đó bạn có **liên kết** và
+**mã** riêng để chia sẻ với các chủ nhà khác.
+
+- Khi một workspace đăng ký bằng liên kết hoặc mã của bạn và trả tiền, bạn nhận một phần số tiền họ
+  trả. **Trang này ghi rõ tỷ lệ hiện hành và áp dụng cho khoản nào** — ví dụ lần thanh toán đầu
+  tiên của họ. Hãy xem ở đó; đó là con số có giá trị.
+- Workspace được bạn giới thiệu cũng được giảm giá khi bắt đầu.
+- Mỗi khoản hoa hồng **đang tạm giữ** cho tới khi hết thời hạn hoàn tiền, sau đó chuyển sang **chờ
+  chi trả**, rồi **đã chi trả**. Trang liệt kê những ai đã đăng ký và ai trong số đó đang trả tiền.
+- Hoa hồng được trả qua **chuyển khoản ngân hàng, Wise hoặc PayPal**. Nhập thông tin nhận tiền ở mục
+  **Nơi nhận hoa hồng**.

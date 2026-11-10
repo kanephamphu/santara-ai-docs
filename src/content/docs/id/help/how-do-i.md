@@ -34,6 +34,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Menjual dua apartemen identik sebagai satu listing | Atur jumlah unit kamar — [Ketersediaan dan jumlah unit](/id/daily/calendar/#ketersediaan-dan-jumlah-unit) |
 | Menetapkan menginap minimum | Ada di rate plan — [Rate plan](/id/money/rates/#rate-plan) |
 | Mendorong ulang semuanya ke channel dari awal | [Sinkronisasi penuh](/id/money/rates/#sinkronisasi-penuh) |
+| Menghentikan penjualan hari yang sama setelah jam tertentu, atau membatasi seberapa jauh tamu bisa memesan | **Batas waktu penjualan** dan **Maksimum hari ke depan** di [Pengaturan properti](/id/setup/properties/#pengaturan-properti) |
 
 ## Harga
 
@@ -45,6 +46,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Mencegah mesin menimpa harga yang saya ketik | [Melindungi harga manual](/id/money/pricing/#melindungi-harga-manual) |
 | Menetapkan batas bawah agar tidak terlalu murah | [Angka milik listing](/id/money/pricing/#angka-milik-listing) |
 | Melihat efek rule set sebelum terbit | [Melihat sebelum menerbitkan](/id/money/pricing/#melihat-sebelum-menerbitkan) |
+| Melihat dulu apa yang akan diubah harga dinamis malam ini | **Sinkronkan sekarang** di tab **Harga** listing, lalu **Terapkan harga ini** — [Sinkronkan sekarang](/id/money/pricing/#sinkronkan-sekarang) |
 | Tahu apakah pricing benar-benar bekerja | [Apakah berhasil?](/id/money/pricing/#apakah-berhasil) |
 | Tetap memakai PriceLabs | Koneksi yang ada tetap berjalan; koneksi baru dijeda — [Jika Anda sudah memakai PriceLabs](/id/money/pricing/#jika-anda-sudah-memakai-pricelabs) |
 | Menagih lebih untuk tamu tambahan | Ada di rate plan — [Rate plan](/id/money/rates/#rate-plan) |
@@ -57,7 +59,9 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Memperpanjang menginap karena tamu meminta | [Pembatalan dan perubahan](/id/daily/bookings/#pembatalan-dan-perubahan) |
 | Membatalkan sebuah booking | Tempat yang sama — batalkan juga di channel kalau asalnya dari sana |
 | Menemukan satu reservasi cepat saat tamu menelepon | Tekan <kbd>⌘K</kbd> lalu tempel kode konfirmasi — [Menemukan sesuatu](/id/help/finding-things/) |
+| Bertanya ke Santi tentang sebuah booking | Arahkan kursor ke masa menginap di kalender lalu tekan **Tanya Santi** — [Cara membacanya](/id/daily/calendar/#cara-membacanya) |
 | Melihat riwayat tamu yang kembali | [Isi sebuah catatan tamu](/id/daily/guests/#isi-sebuah-catatan-tamu) |
+| Menemukan halaman Tamu | Pesan → **Lihat tamu** di bagian bawah panel di samping utas — [Tamu](/id/daily/guests/) |
 | Tahu apakah tamu perlu penanganan hati-hati | [Skor tamu](/id/daily/guests/#skor-tamu) |
 | Memahami angka pendapatan mana yang saya lihat | [Definisi uang](/id/daily/bookings/#definisi-uang) |
 
@@ -66,23 +70,31 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Saya ingin… | Lakukan ini |
 | --- | --- |
 | Membalas tamu | [Membalas](/id/daily/messages/#membalas) — AI membuat draf, Anda yang mengirim |
+| Bertanya ke Santi tentang utas tamu | **Tanya Santi** di kepala utas — [Kotak masuk](/id/daily/messages/#kotak-masuk) |
+| Membersihkan kotak masuk sekaligus | **Tandai semua selesai** di atas daftar — [Membersihkan daftar sekaligus](/id/daily/messages/#membersihkan-daftar-sekaligus) |
+| Mematikan suara pesan baru | **Pengaturan → Personal → Notifikasi di perangkat ini** → **Suara pesan** — [Suara](/id/daily/messages/#belum-dibaca-judul-tab-dan-suara) |
 | Berhenti mengetik jawaban yang sama | [Template pesan](/id/setup/message-templates/) |
+| Mulai dengan template siap pakai | **Impor bawaan** menambahkan lima template — [Lima template bawaan untuk diimpor](/id/setup/message-templates/#lima-template-bawaan-untuk-diimpor) |
 | Mengirim wifi dan kode pintu otomatis | Pakai variabel template — [Variabel](/id/setup/message-templates/#variabel) |
-| Membiarkan AI menjawab tamu sendiri | Aktifkan **Balas otomatis** — [Pesan](/id/daily/messages/) |
+| Membiarkan AI menjawab tamu sendiri | Buka tab **Balas otomatis** di Pesan, mulai dengan **Uji coba**, lalu **Mulai kirim** — [Balas otomatis](/id/daily/messages/#balas-otomatis) |
 | Mengubah keluhan menjadi sesuatu yang terlacak | [Keluhan menjadi tiket](/id/daily/messages/#keluhan-menjadi-tiket) |
 | Membalas sebuah ulasan | [Membalas](/id/daily/reviews/#membalas) |
 | Mengulas tamu di Airbnb | [Mengulas tamu (Airbnb)](/id/daily/reviews/#mengulas-tamu-airbnb) — tidak bisa dibatalkan |
 | Menjual late checkout atau malam tambahan | [Upsell](/id/money/upsells/) |
+| Mengirim semua tawaran upsell yang siap sekaligus | **Kirim semua** di Upsell — [Mengirim beberapa sekaligus](/id/money/upsells/#mengirim-beberapa-sekaligus) |
+| Mengubah harga, waktu, atau pesan tawaran upsell | Tab **Pengaturan** di Upsell — [Pengaturan](/id/money/upsells/#pengaturan) |
 
 ## Kebersihan dan perawatan
 
 | Saya ingin… | Lakukan ini |
 | --- | --- |
 | Melihat apa yang harus dibersihkan hari ini | [Papan kebersihan](/id/daily/tasks/#papan-kebersihan) |
-| Memberi pekerjaan ke petugas tanpa akun | Bagikan [pesan klaster kebersihan](/id/daily/tasks/#klaster-kebersihan) lewat WhatsApp |
+| Memberi pekerjaan ke petugas tanpa akun | Bagikan [pesan klaster kebersihan](/id/daily/tasks/#klaster-kebersihan) lewat Zalo atau WhatsApp |
+| Membagikan rencana kebersihan hari itu lewat Zalo atau WhatsApp | **Bagikan** pada klaster di ringkasan harian — [Klaster kebersihan](/id/daily/tasks/#klaster-kebersihan) |
+| Mengeluarkan pembersihan dari jadwal | **Hapus dari jadwal** pada pembersihan itu (hanya manajer) — [Papan kebersihan](/id/daily/tasks/#papan-kebersihan) |
 | Selalu menugaskan orang yang sama ke satu kamar | [Petugas bawaan per kamar](/id/daily/tasks/#petugas-bawaan-per-kamar) |
 | Mengelompokkan properti yang dipegang satu petugas | [Klaster kebersihan](/id/daily/tasks/#klaster-kebersihan) |
-| Mencatat AC yang rusak | Buka sebuah [tiket](/id/daily/tickets/) |
+| Melaporkan AC rusak atau masalah perawatan lain | **Tugas → Masalah → Tiket baru** — [Masalah (tiket)](/id/daily/tickets/#tiket-membuka-dirinya-sendiri) |
 | Menutup kamar selama perbaikan | [Menjadwalkan berarti menaruhnya di kalender](/id/daily/tickets/#menjadwalkan-berarti-menaruhnya-di-kalender) |
 | Memastikan pembersihan benar-benar dikerjakan | Petugas menandai selesai, bisa dengan foto — [Apa yang dilihat petugas kebersihan](/id/daily/tasks/#apa-yang-dilihat-petugas-kebersihan) |
 
@@ -93,6 +105,8 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Menghubungkan Airbnb | [Hubungkan Airbnb](/id/channels/airbnb/) |
 | Menghubungkan Booking.com | [Hubungkan Booking.com](/id/channels/booking-com/) |
 | Menghubungkan akun Airbnb kedua | [Tambah akun lain](/id/channels/listings/#tambah-akun-lain) |
+| Menghubungkan ulang Airbnb setelah akses Santara AI dicabut | **Hubungkan ulang** pada koneksinya, dengan akun Airbnb yang sama — [Hubungkan ulang](/id/channels/airbnb/#hubungkan-ulang) |
+| Tampil di Google Hotel Search | Hubungkan sebagai channel lain dan lengkapi yang diminta daftar periksanya — [Google Hotel Search](/id/channels/other-channels/#google-hotel-search) |
 | Mengimpor listing yang tadi terlewat | [Impor listing yang terlewat](/id/channels/listings/#impor-listing-yang-terlewat) |
 | Memindahkan listing ke kamar lain | [Pindahkan listing ke kamar lain](/id/channels/listings/#pindahkan-listing-ke-kamar-lain) |
 | Memaksa channel membaca ulang sekarang | **Segarkan** di [halaman koneksi](/id/channels/listings/#halaman-koneksi) |
@@ -123,6 +137,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Menerima pembayaran kartu sendiri | [Hubungkan Stripe](/id/setup/booking-site/#5-hubungkan-stripe) — uang masuk ke akun Anda |
 | Menyetujui tamu sebelum booking dikonfirmasi | [Permintaan booking](/id/setup/booking-site-requests/#permintaan-booking) |
 | Melihat siapa yang mengisi formulir kontak | [Pertanyaan](/id/setup/booking-site-requests/#pertanyaan) |
+| Mengembalikan dana booking langsung | **Refund sesuai kebijakan** atau **Refund penuh** pada booking itu — [Uang](/id/setup/booking-site-requests/#uang) |
 | Menulis halaman atau tulisan blog untuk situs | [Halaman dan tulisan blog](/id/setup/booking-site/#halaman-dan-tulisan-blog) |
 
 ## Uang dan laporan
@@ -134,7 +149,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Mencatat biaya kebersihan, utilitas, perbaikan | [Menambah biaya](/id/money/reports/#menambah-biaya) |
 | Membagi satu tagihan listrik untuk satu bangunan | [Tagihan bersama](/id/money/reports/#tagihan-bersama) |
 | Mengirim laporan ke pemilik | [Laporan pemilik](/id/money/reports/#laporan-pemilik), lalu [Unduh CSV](/id/money/reports/#unduh-csv) |
-| Memahami RevPAR, ADR, dan okupansi | Ada di [Upsell](/id/money/upsells/) |
+| Memahami RevPAR, ADR, dan okupansi | [Okupansi, ADR, dan RevPAR](/id/money/reports/#okupansi-adr-dan-revpar) |
 | Merekonsiliasi Santara AI dengan extranet | [Bruto, biaya channel, dan payout](/id/money/reports/#bruto-biaya-channel-dan-payout) — rekening bank cocok dengan payout |
 
 ## Orang dan akses
@@ -159,7 +174,8 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Memperbaiki tanggal dan "hari ini" yang salah | [Zona waktu](/id/setup/workspace/#zona-waktu) |
 | Mematikan notifikasi yang tidak saya perlukan | [Notifikasi](/id/setup/workspace/#notifikasi) |
 | Menghubungkan ChatGPT atau Claude ke workspace saya | [Hubungkan ChatGPT, Claude, atau Grok](/id/help/ai-assistants/) |
-| Menghapus akun saya | [Data dan privasi Anda](/id/setup/data-and-privacy/) |
+| Menghapus akun saya | Masuk di [santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=id) — [Menghapus akun Anda](/id/setup/account/#menghapus-akun-anda) |
+| Mendapatkan aplikasi seluler | App Store untuk iPhone dan iPad, Google Play untuk Android — [Aplikasinya](/id/setup/mobile/#aplikasinya) |
 | Menjalankan dua portofolio yang tidak boleh tercampur | Dua workspace — [Berpindah workspace](/id/setup/workspace/#berpindah-workspace) |
 
 ## Penagihan
@@ -170,7 +186,9 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Memahami apa yang dihitung sebagai "listing" | [Apa yang ditagih](/id/setup/billing/#apa-yang-ditagih) |
 | Menambah listing melebihi cakupan paket | [Menambah listing di tengah bulan](/id/setup/billing/#menambah-listing-di-tengah-bulan) |
 | Mengganti paket | [Memilih antara Host dan Operator](/id/setup/billing/#memilih-antara-host-dan-operator) |
-| Memperbarui kartu atau mengunduh tagihan | [Mengelola pembayaran](/id/setup/billing/#mengelola-pembayaran) |
+| Memperbarui kartu | **Kelola metode pembayaran** — [Mengelola pembayaran](/id/setup/billing/#mengelola-pembayaran) |
+| Melihat atau mengunduh faktur | Daftar **Faktur** di layar Tagihan — [Mengelola pembayaran](/id/setup/billing/#mengelola-pembayaran) |
+| Mengajak host lain | **Ajak & dapatkan** di menu akun — [Ajak & dapatkan](/id/setup/billing/#ajak--dapatkan) |
 | Membatalkan | [Membatalkan](/id/setup/billing/#membatalkan) |
 
 ## Kalau ada yang salah

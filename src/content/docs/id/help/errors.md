@@ -45,6 +45,9 @@ Indonesia.
 | *Tidak dapat memulai koneksi Airbnb.* | Handshake gagal sebelum Airbnb terjangkau | Coba lagi; kalau menetap, [hubungi dukungan](/id/help/support/) |
 | *Tidak dapat memulai impor.* | Listing terbaca tapi pekerjaan impor tidak dimulai | Coba lagi. Tidak ada yang setengah jadi |
 | *Tidak dapat menghubungkan properti Booking.com.* | Hotel ID ditolak, atau langkah extranet belum lengkap | Periksa ulang Hotel ID dan bahwa penyedia kami aktif di extranet — [Hubungkan Booking.com](/id/channels/booking-com/) |
+| *Akses Santara AI telah dicabut dari akun Airbnb Anda, sehingga sinkronisasi berhenti.* | Santara AI dihapus dari aplikasi terhubung di akun Airbnb, atau Airbnb mencabut aksesnya. Koneksi menampilkan **Perlu dihubungkan ulang** | Tekan **Hubungkan ulang** dan masuk dengan akun Airbnb yang sama. Listing dan riwayat tetap tersimpan — [Hubungkan ulang](/id/channels/airbnb/#hubungkan-ulang) |
+| *Akses Airbnb telah dicabut dari akun Anda. Hubungkan ulang untuk melanjutkan.* | Hal yang sama, terlihat saat memuat listing | Tekan **Hubungkan ulang** |
+| *Otorisasi Airbnb Anda telah kedaluwarsa. Hubungkan ulang untuk melanjutkan.* / *Koneksi Airbnb telah kedaluwarsa. Hubungkan ulang lalu coba lagi.* | Login Airbnb untuk koneksi ini sudah habis | Tekan **Hubungkan ulang** dan masuk lagi |
 
 ## Impor dan pembacaan tarif
 
@@ -79,6 +82,24 @@ Indonesia.
 | *Kalender Anda ditulis ke listing aktif seketika…* | Bukan error — peringatan bahwa mengonfirmasi akan menutup malam-malam mendatang pada jumlah unit yang ditampilkan | Periksa jumlah unit sebelum mengonfirmasi. Satu apartemen adalah satu unit |
 | *Tidak dapat mengubah properti tertaut.* | Penautan ulang tidak selesai | Coba lagi. Data yang sudah terimpor tetap di tempatnya |
 
+## Kesehatan channel dan peringatan
+
+Pesan ini muncul di strip kesehatan di bagian atas setiap halaman, atau di lonceng. **Perbaiki** di
+baris strip membuka halaman untuk memperbaikinya. Selengkapnya di
+[Di mana masalah terlihat](/id/channels/troubleshooting/#di-mana-masalah-terlihat).
+
+| Pesan | Artinya | Yang dilakukan |
+| --- | --- | --- |
+| *… tidak terhubung. Hubungkan lagi agar booking dan harga tetap tersinkron.* | Koneksi berhenti: akses dicabut, kedaluwarsa, dihapus di hulu, atau aktivasi gagal | Tekan **Perbaiki**, lalu **Hubungkan ulang** |
+| *… menunggu satu langkah dari Anda.* | Listing menunggu go live, kapasitas perlu dikonfirmasi, atau belum ada kamar yang dipetakan | Tekan **Perbaiki** dan selesaikan langkahnya |
+| *Login … berakhir pada …. Hubungkan lagi sebelum tanggal itu.* | Login channel habis dalam 7 hari | Hubungkan ulang sebelum tanggal itu |
+| *…: sinkronisasi terakhir gagal.* | Sinkron terakhir gagal dan belum ada yang berhasil sesudahnya | Tekan **Segarkan** pada koneksi. Bila tetap, [hubungi dukungan](/id/help/support/) |
+| *… pembaruan harga atau ketersediaan terus gagal terkirim ke saluran Anda.* | Pembaruan sudah gagal tiga kali atau lebih | Pastikan koneksinya live; bila ya, hubungi dukungan |
+| *… listing ditolak oleh channel manager.* / *… ditolak oleh channel manager.* | Sebuah kamar atau rate plan ditolak | **Perbaiki** membuka kamarnya, dengan alasan di samping pengaturan penyebabnya |
+| **… menolak pembaruan** (lonceng) | Channel menolak pembaruan harga atau ketersediaan — *harga atau ketersediaan di sana mungkin belum terbaru* | Buka **Pengaturan → Channel** dan periksa koneksinya. Paling banyak satu peringatan per hari untuk channel, properti, dan masalah yang sama |
+| **Peringatan sinkronisasi dari …** (lonceng) | Pembaruan tetap masuk, dengan keberatan dari channel | Sebaiknya dicek, tidak mendesak |
+| **Kelebihan pesanan · …** (lonceng) | Sebuah kamar punya lebih banyak pemesanan daripada unit pada beberapa malam | Pindahkan atau batalkan satu masa menginap di channel-nya — [Kelebihan pesanan](/id/daily/bookings/#kelebihan-pesanan) |
+
 ## Kata status koneksi
 
 Ini status, bukan error. Kosakata yang sama dipakai di semua channel.
@@ -94,6 +115,7 @@ Ini status, bukan error. Kosakata yang sama dipakai di semua channel.
 | **Live** | Tarif dan ketersediaan keluar, booking dan pesan masuk |
 | **Gangguan** | Ada yang gagal — barisnya menyebutkan apa: *Impor tarif terblokir*, *Aktivasi gagal* |
 | **Belum pernah sinkron** | Terhubung, tapi belum ada sinkronisasi yang selesai |
+| **Perlu dihubungkan ulang** | Sinkronisasi berhenti — akses dicabut, atau channel dihapus di sisi channel manager. Tekan **Hubungkan ulang** |
 
 Tidak ada yang berpindah dari *Siap* ke *Live* dengan sendirinya. Lihat
 [Go live](/id/channels/going-live/).

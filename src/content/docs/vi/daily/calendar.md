@@ -16,6 +16,40 @@ Phòng ở bên trái, ngày chạy ngang phía trên, lượt lưu trú vẽ th
 - **Đêm trống** hiển thị giá mỗi đêm sẽ được tính.
 - **Khối kẻ sọc** là một ticket đã lên lịch cho những ngày đó — sửa chữa, tổng vệ sinh, chủ nhà ở.
 - **Bấm vào một ngày** để xem danh sách ngày: mọi thứ diễn ra trong ngày đó.
+- **Thanh màu đỏ có dấu cảnh báo** là một lượt lưu trú bị trùng phòng: phòng đó có nhiều lượt lưu
+  trú hơn số đơn vị trong những đêm ấy. Thẻ của nó ghi **Trùng phòng: phòng này có nhiều đặt phòng
+  hơn số phòng trống trong những đêm này**. Xem [Lượt đặt bị trùng phòng](/vi/daily/bookings/#lượt-đặt-bị-trùng-phòng).
+- **Chưa gán phòng** là một hàng màu xám dưới một chỗ nghỉ, chứa các lượt lưu trú không nằm ở phòng
+  nào của chỗ nghỉ đó. Hàng này chỉ hiện khi thật sự có lượt như vậy. Nếu một đặt phòng từ kênh rơi
+  vào đây, hãy kiểm tra phần ánh xạ của tin đăng — xem
+  [Xử lý sự cố kênh](/vi/channels/troubleshooting/#sau-khi-chạy).
+- **Rê chuột lên một thanh** để xem thẻ của lượt lưu trú. Nút **Hỏi Santi** trên thẻ mở Santi với
+  lượt đặt đó đã được mô tả sẵn, để bạn hỏi ngay.
+
+## Kiểu xem và bộ lọc
+
+Nút chuyển ở đầu trang chọn kiểu xem:
+
+- **Dòng thời gian** — mọi chỗ nghỉ xếp dọc bên trái, ngày chạy ngang phía trên, như hình ở trên.
+  Trên điện thoại, kiểu này đổi thành **Ngày**: từng ngày một, cho biết ai **Nhận phòng**, ai **Trả
+  phòng**, ai **Đang ở** và phòng nào **Trống**.
+- **Từng chỗ nghỉ** — một chỗ nghỉ, một tháng. Chọn chỗ nghỉ, chuyển tháng bằng **Tháng trước** và
+  **Tháng sau**; mỗi tháng cho biết đã đặt bao nhiêu đêm (*Đã đặt 12/30 đêm*) và doanh thu. Bấm vào
+  một đêm trống để thêm lượt đặt hoặc đổi giá đêm đó.
+
+Hai kiểu xem dùng chung một khoảng ngày nên đổi qua lại không làm bạn mất chỗ đang xem, và trình
+duyệt nhớ kiểu bạn dùng gần nhất.
+
+**Chỗ nghỉ đang hiện** (kèm số đếm như *4/6*) bật hoặc tắt từng chỗ nghỉ, có **Hiện tất cả** và
+**Ẩn tất cả**. Lựa chọn được giữ trên trình duyệt này — tiện khi bạn chỉ phụ trách một vài toà nhà.
+
+**Bộ lọc** mở thêm hai mục:
+
+- **Kênh** — chỉ hiện lượt lưu trú từ một kênh. Danh sách gồm các kênh của những lượt đang hiện
+  trên màn hình, mỗi kênh kèm số lượng.
+- **Bộ lọc lưu trú** — **Tất cả lưu trú**, hoặc chỉ những lượt **Có tín hiệu bán thêm**.
+
+**Xóa bộ lọc** đưa cả hai về mặc định.
 
 ## Khóa hoặc mở lại ngày
 
@@ -81,7 +115,7 @@ Thay đổi nằm trong **danh sách chờ** cho tới khi bạn bấm **Lưu t�
 ## Giá và bộ máy định giá
 
 Giá bạn nhập ở đây là **giá nhập tay**, và [bộ máy định giá](/vi/money/pricing/) không đụng vào — trừ
-khi bạn bật rõ ràng *Thay giá tôi nhập tay* cho listing đó, và khi ấy nó ghi đè không hoàn tác được.
+khi bạn bật rõ ràng *Ghi đè giá tôi tự nhập* cho listing đó, và khi ấy nó ghi đè không hoàn tác được.
 
 Đó là toàn bộ quan hệ giữa hai bên: quy tắc định hình cả năm, tay bạn thắng ở những đêm bạn chạm vào.
 

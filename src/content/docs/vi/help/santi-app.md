@@ -46,7 +46,8 @@ workspace, kết nối hay ngắt kết nối kênh, hoặc xóa cơ sở lưu t
 
 ### Kết nối từ phía Santara AI
 
-Trong bảng điều khiển, **Cài đặt → Kênh** có thẻ **Santi** với nút **Kết nối Santi**. Nút này chạy
+Trong bảng điều khiển, **Cài đặt → Kênh**, tab **Ứng dụng** (hoặc **Ứng dụng đã kết nối** trong menu
+tài khoản) có thẻ **Santi** với nút **Kết nối Santi**. Nút này chạy
 cùng bước đồng ý và đưa bạn trở lại Santara AI.
 
 ### Nhiều workspace

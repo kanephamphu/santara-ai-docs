@@ -1,6 +1,6 @@
 ---
 title: Di ponsel Anda
-description: Aplikasi Santara AI untuk Android, apa saja isinya, status iPhone, dan cara petugas kebersihan bekerja dari ponsel.
+description: Aplikasi Santara AI untuk iPhone, iPad dan Android, apa saja isinya, dan cara petugas kebersihan bekerja dari ponsel.
 sidebar:
   order: 11
 ---
@@ -8,15 +8,11 @@ sidebar:
 Menjadi host tidak terjadi di meja kerja. Itu terjadi di depan pintu saat tamu menunggu, di
 perjalanan antara dua vila, di kamar yang AC-nya baru saja mati.
 
-## Aplikasi Android
+## Aplikasinya
 
-Aplikasi **Santara AI** sudah tersedia di
-[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile). Masuk dengan email
+Aplikasi **Santara AI** tersedia di [App Store](https://apps.apple.com/app/id6829604736) untuk iPhone dan iPad, serta di
+[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) untuk Android. Masuk dengan email
 dan kata sandi yang sama dengan di web — workspace-nya sama dan izinnya sama.
-
-**Aplikasi iPhone belum dirilis.** Anda bisa minta diberi tahu pada hari peluncurannya lewat
-[halaman aplikasi mobile](https://www.santara.ai/id/aplikasi-mobile/) di situs utama. Sementara itu,
-pengguna iPhone bisa memakai aplikasi web di browser ponsel (lihat di bawah).
 
 Dua hal yang perlu diketahui:
 
@@ -46,9 +42,9 @@ layar:
 Tab yang Anda lihat bergantung pada peran Anda: petugas kebersihan hanya mendapat **Hari ini**,
 **Tugas**, dan **Lainnya**.
 
-## Di iPhone: aplikasi web
+## Di browser ponsel: aplikasi web
 
-Aplikasi web berjalan di browser ponsel, dan layar yang benar-benar Anda butuhkan di depan pintu
+Belum memasang aplikasi? Aplikasi web berjalan di browser ponsel, dan layar yang benar-benar Anda butuhkan di depan pintu
 memang bertahan baik: **Hari ini**, **Pesan**, **Tugas**, dan **Kalender**. Masuk seperti biasa.
 
 Yang benar-benar tidak nyaman di layar kecil — dan sebaiknya dikerjakan di laptop — adalah
@@ -58,7 +54,7 @@ menghubungkan channel, memetakan listing, dan editor aturan pricing.
 
 Dua cara, dan Anda tidak harus memilih satu untuk semua orang:
 
-- **Beri mereka akun.** Petugas masuk — di aplikasi Android atau di browser — dan melihat
+- **Beri mereka akun.** Petugas masuk — di aplikasi atau di browser — dan melihat
   pembersihan yang ditugaskan kepadanya, menandai selesai, dan melampirkan foto. Tidak ada yang
   lain. Lihat [Tim dan peran](/id/setup/team/) dan [Tugas & Pemeliharaan](/id/mobile/tasks/).
 - **Kirim pesan klaster.** [Ringkasan harian](/id/daily/) menulis satu pesan WhatsApp per

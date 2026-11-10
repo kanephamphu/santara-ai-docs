@@ -88,7 +88,7 @@ setting, and it is why the role is the one you hand out most carefully.
 
 They sign in and see the cleans assigned to them, on the days they happen, with the address and the
 access notes for those buildings. They mark work done, optionally with a photo. That is the whole
-product for them, on purpose. In the [Android app](/mobile/getting-started/) they get only the
+product for them, on purpose. In the [mobile app](/mobile/getting-started/) they get only the
 **Today**, **Tasks** and **More** tabs.
 
 If you would rather not give a cleaner an account at all, share the
