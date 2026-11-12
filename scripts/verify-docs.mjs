@@ -33,7 +33,7 @@ const LOCALES = ["id", "vi", "th"];
  * as strictly as any other locale. Empty this set the moment the translation is complete: the
  * rule that every locale is whole is the one that keeps a half-translated manual from shipping.
  */
-const PARTIAL_LOCALES = new Set(["th"]);
+const PARTIAL_LOCALES = new Set([]);
 const ALL_LOCALES = ["en", ...LOCALES];
 const TEXT_ROUTES = new Set([
   "/llms.txt",

@@ -17,8 +17,9 @@
  */
 import { existsSync, mkdirSync, readFileSync, rmSync } from "node:fs";
 import { chromium } from "playwright";
+import { fileURLToPath } from "node:url";
 
-const ENV_FILE = new URL("../.env.capture", import.meta.url).pathname;
+const ENV_FILE = fileURLToPath(new URL("../.env.capture", import.meta.url));
 if (existsSync(ENV_FILE)) {
   for (const line of readFileSync(ENV_FILE, "utf8").split("\n")) {
     const match = /^\s*([A-Z_]+)\s*=\s*(.*)\s*$/.exec(line);
@@ -30,10 +31,10 @@ const BASE = (process.env.SANTARA_DEMO_URL || "http://localhost:3210").replace(/
 const EMAIL = process.env.SANTARA_DEMO_EMAIL || "demo@docs-demo.invalid";
 const PASSWORD = process.env.SANTARA_DEMO_PASSWORD;
 if (!PASSWORD) throw new Error("SANTARA_DEMO_PASSWORD is required");
-const OUT = new URL("../public/screens/channel-guides/", import.meta.url).pathname;
+const OUT = fileURLToPath(new URL("../public/screens/channel-guides/", import.meta.url));
 mkdirSync(OUT, { recursive: true });
 
-const LOCALES = (process.env.LOCALES || "en,id,vi").split(",");
+const LOCALES = (process.env.LOCALES || "en,id,vi,th").split(",");
 
 // Guide slug → the channel's name in the catalogue's ?channel= link. Only channels the catalogue
 // offers can be photographed; the rest of the guides go without a step-2 shot.
@@ -56,7 +57,8 @@ const CHANNELS = {
 };
 const only = process.env.ONLY ? process.env.ONLY.split(",") : null;
 
-const browser = await chromium.launch();
+// CAPTURE_CHANNEL=msedge (or chrome) uses an installed browser instead of Playwright's own build.
+const browser = await chromium.launch({ channel: process.env.CAPTURE_CHANNEL || undefined });
 const context = await browser.newContext({
   viewport: { width: 1280, height: 900 },
   deviceScaleFactor: 2,
@@ -68,6 +70,19 @@ await context.addCookies([{ name: "aircierge_theme", value: "light", url: BASE }
 await context.route("**/api/connected-accounts/channels/**", (route) =>
   route.request().method() === "GET" ? route.continue() : route.abort(),
 );
+
+/*
+ * Santi's speech bubble under the header mascot ("4 guest messages are waiting") floats over the
+ * top of the page whenever the inbox has unread threads. It is about the demo inbox, not the
+ * screen being documented.
+ */
+await context.addInitScript(() => {
+  document.addEventListener("DOMContentLoaded", () => {
+    const style = document.createElement("style");
+    style.textContent = ".santi-says__bubble { display: none !important; }";
+    document.head.appendChild(style);
+  });
+});
 
 const page = await context.newPage();
 page.setDefaultNavigationTimeout(240_000);
@@ -81,7 +96,7 @@ await page.press('input[type="password"]', "Enter");
 await page.waitForURL(/\/dashboard/, { timeout: 90_000, waitUntil: "commit" });
 
 async function dismissTour(waitMs = 1000) {
-  const defer = page.getByRole("button", { name: /Don't show me this again|Jangan tampilkan lagi|Đừng hiện lại nữa/i });
+  const defer = page.getByRole("button", { name: /Don't show me this again|Jangan tampilkan lagi|Đừng hiện lại nữa|ไม่ต้องแสดงอีก/i });
   try {
     await defer.first().waitFor({ state: "visible", timeout: waitMs });
     await defer.first().click();
@@ -92,6 +107,12 @@ await dismissTour(8000);
 
 /** Screenshot the box spanning `top` to `bottom` (locators), inside the main column. */
 async function shoot(name, locale, top, bottom, pad = 16) {
+  // Any sideways scroll — the window's or a container's — slides the content under a clip that
+  // is measured from the column, cutting off its left edge (seen on the Thai catalogue). Undo it.
+  await page.evaluate(() => {
+    for (const el of document.querySelectorAll("*")) if (el.scrollLeft) el.scrollLeft = 0;
+    window.scrollTo(0, window.scrollY);
+  });
   const a = await top.boundingBox();
   const b = await bottom.boundingBox();
   const main = await page.locator("main").first().boundingBox();
@@ -131,14 +152,14 @@ for (const locale of LOCALES) {
     await heading().waitFor();
     const radios = page.getByRole("radio");
     await radios.first().waitFor();
-    const continueButton = page.getByRole("button", { name: /Continue|Lanjut|Tiếp tục/i }).last();
+    const continueButton = page.getByRole("button", { name: /Continue|Lanjut|Tiếp tục|ดำเนินการต่อ/i }).last();
 
     if (!only && slug === "agoda") await shoot("property", locale, heading(), continueButton);
 
     await continueButton.click();
     // Step 2: the native form ends in its Test connection button. A channel that has no native
     // form falls back to the embedded screens, whose session request is aborted above — skip it.
-    const test = page.getByRole("button", { name: /Test connection|Uji koneksi|Kiểm tra kết nối/i }).first();
+    const test = page.getByRole("button", { name: /Test connection|Uji koneksi|Kiểm tra kết nối|ทดสอบการเชื่อมต่อ/i }).first();
     try {
       await test.waitFor({ timeout: 60_000 });
     } catch {

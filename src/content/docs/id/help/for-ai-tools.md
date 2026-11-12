@@ -1,6 +1,6 @@
 ---
 title: Menggunakan dokumentasi ini dengan alat AI
-description: Setiap halaman sebagai markdown bersih, plus llms.txt dan llms-full.txt dalam tiga bahasa.
+description: Setiap halaman sebagai markdown bersih, plus llms.txt dan llms-full.txt dalam empat bahasa.
 sidebar:
   order: 5
 ---
@@ -39,6 +39,7 @@ menebak polanya.
 | [`/id/llms-full.txt`](/id/llms-full.txt) | Seluruh dokumentasi sebagai satu berkas markdown |
 | `/llms.txt`, `/llms-full.txt` | Sama, dalam bahasa Inggris |
 | `/vi/llms.txt`, `/vi/llms-full.txt` | Sama, dalam bahasa Vietnam |
+| `/th/llms.txt`, `/th/llms-full.txt` | Sama, dalam bahasa Thailand |
 
 Sebuah bahasa yang belum lengkap terjemahannya jatuh kembali ke bahasa Inggris untuk halaman yang
 belum ada, jadi `llms.txt` non-Inggris selalu merupakan peta produk yang utuh.

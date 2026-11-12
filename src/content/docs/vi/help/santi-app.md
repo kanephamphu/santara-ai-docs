@@ -142,7 +142,7 @@ phục. Trước đó Santi giữ lại những điều lâu dài bạn đã d�
 
 ## Ngôn ngữ
 
-English, Tiếng Việt và Bahasa Indonesia. Đổi trong **Menu → Ngôn ngữ**. Viết bằng ngôn ngữ khác thì
+English, Tiếng Việt, Bahasa Indonesia và ไทย. Đổi trong **Menu → Ngôn ngữ**. Viết bằng ngôn ngữ khác thì
 Santi trả lời bằng ngôn ngữ đó; bản nháp gửi khách luôn bằng ngôn ngữ của khách.
 
 ## Thông báo

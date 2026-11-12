@@ -39,13 +39,16 @@ truy cập là theo từng workspace.
 
 ![Màn hình đội ngũ: ai đang trong workspace, vai trò của họ, và họ chạm được tới đâu.](/screens/team.vi.png)
 
-## Ba vai trò
+## Sáu vai trò
 
 | Vai trò | Thấy gì | Dùng khi nào |
 | --- | --- | --- |
 | **Host admin** | Mọi thứ: toàn bộ danh mục và phần thanh toán | Bạn, và người bạn tin về chuyện tiền bạc |
 | **Co-host** | Quyền vận hành hằng ngày, có giới hạn phạm vi | Đối tác, quản lý, trưởng bộ phận bảo trì |
 | **Nhân viên dọn phòng** | Ca dọn được giao cho họ, và đủ thông tin để tìm ra tòa nhà | Nhân viên dọn phòng của bạn |
+| **Kỹ thuật viên** | Ticket được giao cho họ, và team chat | Nhân viên bảo trì của bạn |
+| **Kế toán** | Báo cáo, payout, chi phí và chủ nhà — chỉ phần tiền, không bao giờ thấy tên khách | Kế toán của bạn |
+| **Tài xế** | Các chuyến đón sân bay của họ, và team chat. Tên và số điện thoại của khách chỉ hiện quanh giờ đón | Tài xế của bạn |
 
 Không có vai trò "quản lý bất động sản" riêng, và bạn cũng không cần: một **co-host giới hạn ở hai
 tòa nhà** chính là quản lý bất động sản. Giới hạn phạm vi là nửa sau của mọi lời mời — xem bên dưới.

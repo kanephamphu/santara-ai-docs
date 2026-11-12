@@ -79,7 +79,7 @@ klaster** tidak, dan isinya hanya pekerjaan klaster itu.
 ## Produk
 
 **Bahasa apa saja?**
-English, Bahasa Indonesia, dan Tiếng Việt — untuk antarmuka, ringkasan harian, dan dokumentasi ini.
+English, Bahasa Indonesia, Tiếng Việt, dan ไทย — untuk antarmuka, ringkasan harian, dan dokumentasi ini.
 
 **Ada aplikasi mobile?**
 Ada, untuk Android — sudah tersedia di Google Play. iOS segera menyusul. Lihat

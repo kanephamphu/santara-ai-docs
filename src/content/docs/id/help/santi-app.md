@@ -149,7 +149,7 @@ memberi tahu Anda apa saja.
 
 ## Bahasa
 
-English, Tiếng Việt, dan Bahasa Indonesia. Ubah di **Menu → Bahasa**. Tulis dalam bahasa lain dan
+English, Tiếng Việt, Bahasa Indonesia, dan ไทย. Ubah di **Menu → Bahasa**. Tulis dalam bahasa lain dan
 Santi menjawab dalam bahasa itu; draf untuk tamu selalu dalam bahasa tamu.
 
 ## Notifikasi

@@ -39,7 +39,7 @@ tempat yang tidak semestinya, [ganti kodenya](#stiker-qr): stiker yang tercetak 
 berfungsi.
 :::
 
-Halaman terbuka dalam bahasa browser tamu — Inggris, Indonesia, atau Vietnam — dan ada pemilih bahasa di
+Halaman terbuka dalam bahasa browser tamu — Inggris, Indonesia, Vietnam, atau Thailand — dan ada pemilih bahasa di
 bagian atas. Halaman ini tidak muncul di mesin pencari.
 
 Semua isinya berasal dari yang sudah Anda isi: jam, Wi-Fi, dan kode dari
@@ -90,7 +90,7 @@ Setiap kotak stiker menampilkan kode QR, kodenya, jumlah pindaian dalam 30 hari 
 
 **Cetak stiker QR** menyusun semua stiker yang aktif di kertas A4, tiga per baris. Setiap stiker memuat
 nama properti dan kamar serta kalimat "Pindai untuk panduan menginap & Wi-Fi" dalam bahasa Inggris,
-Vietnam, dan Indonesia, jadi satu cetakan cocok untuk semua tamu. Cetak dengan **skala 100%**, potong
+Vietnam, dan Indonesia (atau Inggris dan Thailand untuk properti di Thailand), jadi satu cetakan cocok untuk semua tamu. Cetak dengan **skala 100%**, potong
 mengikuti garis putus-putus, dan tempel setiap stiker di kamarnya.
 
 Setiap stiker juga bisa diunduh sebagai **SVG** — format yang dibutuhkan percetakan untuk label atau
@@ -111,7 +111,7 @@ terdekat.
   menghapus terjemahan tersimpan tempat itu, agar tamu tidak membaca terjemahan dari kata-kata yang sudah
   Anda ganti.
 - **Terjemahkan untuk tamu** — pilih bahasa yang Anda pakai untuk menulis tempat, lalu tempat yang sudah
-  dipublikasikan diterjemahkan ke dua bahasa lainnya. Terjemahan yang sudah ada tetap dipertahankan.
+  dipublikasikan diterjemahkan ke tiga bahasa lainnya. Terjemahan yang sudah ada tetap dipertahankan.
 
 Satu gedung memuat hingga 60 tempat.
 
@@ -125,7 +125,7 @@ Panel **Yang dilihat tamu** di halaman yang sama, per gedung:
 
 - **Buku panduan aktif untuk gedung ini** — jika nonaktif, semua stiker di gedung menampilkan "tidak
   tersedia", tanpa mengganti kode apa pun.
-- **Pesan sambutan** — satu per bahasa (EN, ID, VI). Kosongkan satu bahasa untuk memakai sambutan standar.
+- **Pesan sambutan** — satu per bahasa (EN, ID, VI, TH). Kosongkan satu bahasa untuk memakai sambutan standar.
 - **Bagian** — nonaktifkan Fasilitas; Aturan rumah, parkir, dan hewan peliharaan; Peta dan petunjuk arah;
   Tempat sekitar; atau Layanan tambahan.
 - **Tampilkan kode pintu, kata sandi Wi-Fi, dan langkah check-in kepada tamu terverifikasi** — nonaktifkan

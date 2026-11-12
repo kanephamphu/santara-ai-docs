@@ -24,7 +24,7 @@ Both blocks sit on the same page:
 
 ## Language and timezone
 
-- **Language** changes the interface **for you**. English, Bahasa Indonesia and Tiếng Việt.
+- **Language** changes the interface **for you**. English, Bahasa Indonesia, Tiếng Việt and ไทย.
 - **Timezone** is your own display preference.
 
 Neither of these changes anything for anyone else — and neither of them is what drives the daily
@@ -89,7 +89,7 @@ Three things worth knowing:
 
 :::caution[This message may appear in English]
 The lockout message is currently shown in English even when the rest of the sign-in page is in
-Indonesian or Vietnamese. It means what it says above.
+Indonesian, Vietnamese or Thai. It means what it says above.
 :::
 
 ## Staying signed in

@@ -39,7 +39,7 @@ goes missing or ends up somewhere it should not be, [replace its code](#qr-stick
 one stops working at once.
 :::
 
-The page opens in the guest's browser language — English, Indonesian or Vietnamese — and has a
+The page opens in the guest's browser language — English, Indonesian, Vietnamese or Thai — and has a
 language picker at the top. It is not listed by search engines.
 
 Everything on it comes from what you have already filled in: times, Wi-Fi and codes from
@@ -92,7 +92,7 @@ and three actions:
 
 **Print QR stickers** lays every switched-on sticker out on A4, three to a row. Each one carries the
 property and room name and the line "Scan for your stay guide & Wi-Fi" in English, Vietnamese and
-Indonesian, so one print works for every guest. Print at **100% scale**, cut along the dashed
+Indonesian — or English and Thai for a property in Thailand — so one print works for every guest. Print at **100% scale**, cut along the dashed
 lines, and put each sticker in its own room.
 
 Every sticker also downloads as an **SVG**, which is what a print shop wants for labels or acrylic
@@ -112,7 +112,7 @@ station.
 - **Publish / Unpublish**, move up and down, edit, delete. Editing a name or tip removes that place's
   saved translations, so a guest never reads a translation of words you have since changed.
 - **Translate for guests** — pick the language your places are written in, and the published ones
-  are translated into the other two. Translations you already have are kept.
+  are translated into the other three. Translations you already have are kept.
 
 A building holds up to 60 places.
 
@@ -126,7 +126,7 @@ The **What guests see** panel on the same page, per building:
 
 - **Guidebook on for this building** — off makes every sticker in the building show "not
   available", without replacing any codes.
-- **Welcome message** — one per language (EN, ID, VI). Leave a language empty to use the standard
+- **Welcome message** — one per language (EN, ID, VI, TH). Leave a language empty to use the standard
   welcome.
 - **Sections** — switch off Amenities; House rules, parking and pets; Map and directions; Local
   places; or Offers.

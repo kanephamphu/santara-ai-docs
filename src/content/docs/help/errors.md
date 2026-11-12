@@ -29,7 +29,7 @@ in front of you. If yours is not here, work through
 
 :::note
 The lockout message is currently shown in English even when the rest of the sign-in page is in
-Indonesian or Vietnamese.
+Indonesian, Vietnamese or Thai.
 :::
 
 ## Connecting a channel

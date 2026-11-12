@@ -90,7 +90,7 @@ To answer a change card by voice, say *yes*, then *confirm*, or *cancel*. A risk
 
 ![Voice mode: Santi listens, hands-free](/screens/en/santi_voice.en.png)
 
-Santi answers in the language you write or speak in, English, Vietnamese or Indonesian.
+Santi answers in the language you write or speak in: English, Vietnamese, Indonesian or Thai.
 
 ## 7. The Santi menu
 

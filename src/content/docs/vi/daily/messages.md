@@ -85,7 +85,7 @@ bạn có thể kiểm tra một câu mà không mất phần còn lại.
 
 - **Ngôn ngữ của bạn** là mục Ngôn ngữ trong hồ sơ của chính bạn (**Tài khoản**). Nếu chưa đặt, sẽ dùng
   [ngôn ngữ bản tóm tắt](/vi/setup/workspace/#tùy-chọn-vận-hành) của workspace, rồi đến tiếng Anh.
-  Bản dịch có sẵn sang **tiếng Anh, tiếng Indonesia hoặc tiếng Việt**.
+  Bản dịch có sẵn sang **tiếng Anh, tiếng Indonesia, tiếng Việt hoặc tiếng Thái**.
 - **Mỗi thành viên đọc bằng ngôn ngữ của mình.** Một co-host người Việt và một chủ nhà nói tiếng Anh
   mở cùng một luồng, mỗi người đọc theo cách của mình; khách không thấy bản nào trong số đó.
 - **Dịch khi bạn cuộn.** Không có nút bấm: tin được dịch ngay trước khi hiện ra, rồi được lưu lại, nên

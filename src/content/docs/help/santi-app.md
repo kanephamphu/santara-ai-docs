@@ -142,7 +142,7 @@ Santi keeps the lasting facts you told it as memories first, and tells you which
 
 ## Languages
 
-English, Tiếng Việt and Bahasa Indonesia. Change it in **Menu → Language**. Write in another
+English, Tiếng Việt, Bahasa Indonesia and ไทย. Change it in **Menu → Language**. Write in another
 language and Santi answers in that one; drafts to guests are always in the guest's language.
 
 ## Notifications

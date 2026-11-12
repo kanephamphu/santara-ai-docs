@@ -90,7 +90,7 @@ kehilangan yang lain.
 
 - **Bahasa Anda** adalah Bahasa di profil Anda sendiri (**Akun**). Jika belum diatur, dipakai
   [bahasa ringkasan harian](/id/setup/workspace/#preferensi-operasional) workspace, lalu bahasa
-  Inggris. Terjemahan tersedia ke **bahasa Inggris, Indonesia, atau Vietnam**.
+  Inggris. Terjemahan tersedia ke **bahasa Inggris, Indonesia, Vietnam, atau Thailand**.
 - **Tiap anggota tim membaca dalam bahasanya sendiri.** Co-host berbahasa Vietnam dan pemilik
   berbahasa Inggris membuka utas yang sama dan masing-masing membacanya dengan caranya; tamu tidak
   melihat keduanya.

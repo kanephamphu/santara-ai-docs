@@ -39,13 +39,16 @@ workspace.
 
 ![Layar tim: siapa yang ada di workspace, perannya, dan apa yang bisa mereka akses.](/screens/team.id.png)
 
-## Tiga peran
+## Enam peran
 
 | Peran | Melihat | Contoh penggunaan |
 | --- | --- | --- |
 | **Host admin** | Semuanya: visibilitas portofolio penuh dan penagihan | Anda, dan orang yang Anda percayai soal uang |
 | **Co-host** | Akses alur kerja harian yang dibatasi cakupannya | Partner, manajer, kepala perawatan |
 | **Petugas kebersihan** | Pembersihan yang ditugaskan kepadanya, dan cukup info untuk menemukan bangunannya | Staf kebersihan Anda |
+| **Teknisi** | Tiket yang ditugaskan kepadanya, dan obrolan tim | Staf perawatan Anda |
+| **Akuntan** | Laporan, payout, pengeluaran, dan pemilik — hanya soal uang, tidak pernah nama tamu | Akuntan Anda |
+| **Sopir** | Penjemputan bandara miliknya, dan obrolan tim. Nama depan dan nomor telepon tamu hanya muncul sekitar waktu penjemputan | Sopir Anda |
 
 Tidak ada peran "manajer properti" terpisah, dan Anda memang tidak membutuhkannya: **co-host yang
 dibatasi ke dua bangunan** adalah manajer properti. Pembatasan cakupan adalah separuh kedua dari

@@ -80,7 +80,7 @@ account; the **cluster message** does not, and contains only that cluster's jobs
 ## The product
 
 **Which languages?**
-English, Bahasa Indonesia and Tiếng Việt — for the interface, the daily brief, and this
+English, Bahasa Indonesia, Tiếng Việt and ไทย — for the interface, the daily brief, and this
 documentation.
 
 **Is there a mobile app?**

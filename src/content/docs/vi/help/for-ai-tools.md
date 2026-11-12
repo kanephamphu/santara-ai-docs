@@ -1,6 +1,6 @@
 ---
 title: Dùng tài liệu này với công cụ AI
-description: Mỗi trang là markdown sạch, kèm llms.txt và llms-full.txt trong cả ba ngôn ngữ.
+description: Mỗi trang là markdown sạch, kèm llms.txt và llms-full.txt trong cả bốn ngôn ngữ.
 sidebar:
   order: 5
 ---
@@ -39,6 +39,7 @@ quy ước.
 | [`/vi/llms-full.txt`](/vi/llms-full.txt) | Toàn bộ tài liệu trong một tệp markdown |
 | `/llms.txt`, `/llms-full.txt` | Tương tự, bằng tiếng Anh |
 | `/id/llms.txt`, `/id/llms-full.txt` | Tương tự, bằng tiếng Indonesia |
+| `/th/llms.txt`, `/th/llms-full.txt` | Tương tự, bằng tiếng Thái |
 
 Một ngôn ngữ chưa dịch xong sẽ quay về bản tiếng Anh cho những trang còn thiếu, nên `llms.txt` ngoài
 tiếng Anh vẫn luôn là bản đồ đầy đủ của sản phẩm.

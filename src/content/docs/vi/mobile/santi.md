@@ -90,7 +90,7 @@ Trên iPhone, bạn có thể nói chen để sửa Santi: Santi dừng, đánh 
 
 ![Chế độ Giọng nói: Santi lắng nghe, rảnh tay](/screens/vi/santi_voice.vi.png)
 
-Santi trả lời bằng ngôn ngữ bạn gõ hoặc nói: tiếng Anh, tiếng Việt hoặc tiếng Indonesia.
+Santi trả lời bằng ngôn ngữ bạn gõ hoặc nói: tiếng Anh, tiếng Việt, tiếng Indonesia hoặc tiếng Thái.
 
 ## 7. Menu của Santi
 
