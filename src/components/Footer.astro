@@ -7,7 +7,7 @@
  */
 import Default from "@astrojs/starlight/components/Footer.astro";
 
-const locale = (Astro.currentLocale ?? "en") as "en" | "id" | "vi";
+const locale = (Astro.currentLocale ?? "en") as "en" | "id" | "vi" | "th";
 const path = Astro.url.pathname.replace(/\/$/, "");
 const markdown = `${path === "" ? "/index" : path}.md`;
 const llms = locale === "en" ? "/llms.txt" : `/${locale}/llms.txt`;
@@ -16,6 +16,7 @@ const t = {
   en: { lead: "For AI tools:", md: "this page as markdown", index: "llms.txt", full: "llms-full.txt" },
   id: { lead: "Untuk alat AI:", md: "halaman ini sebagai markdown", index: "llms.txt", full: "llms-full.txt" },
   vi: { lead: "Cho công cụ AI:", md: "trang này dạng markdown", index: "llms.txt", full: "llms-full.txt" },
+  th: { lead: "สำหรับเครื่องมือ AI:", md: "หน้านี้ในรูปแบบ markdown", index: "llms.txt", full: "llms-full.txt" },
 }[locale];
 ---
 

@@ -65,7 +65,7 @@ jobs:
 
           # One mirror per page, and the four llms files per locale plus robots.txt.
           [ "$mirrors" -gt 90 ] || { echo "::error::only $mirrors markdown mirrors — expected one per page"; exit 1; }
-          for f in llms.txt llms-full.txt id/llms.txt id/llms-full.txt vi/llms.txt vi/llms-full.txt robots.txt; do
+          for f in llms.txt llms-full.txt id/llms.txt id/llms-full.txt vi/llms.txt vi/llms-full.txt th/llms.txt th/llms-full.txt robots.txt; do
             [ -s "dist/$f" ] || { echo "::error::dist/$f is missing or empty"; exit 1; }
           done
 

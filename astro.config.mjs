@@ -18,7 +18,7 @@ import { rehypeFigures } from "./src/lib/rehype-figures";
  *    (src/pages/[...slug].md.ts) and every locale has an llms.txt / llms-full.txt. The site is
  *    the rendering; the markdown is the document. See src/lib/docs-source.ts.
  *
- * 3. THREE LOCALES, one tree. en at the root, /id/ and /vi/ beside it — the same shape the
+ * 3. FOUR LOCALES, one tree. en at the root, /id/, /vi/ and /th/ beside it — the same shape the
  *    marketing site uses, so a link translated between the two properties is a prefix swap.
  *    English is `root`, so its files live at src/content/docs/*.md with no `en/` folder.
  */
@@ -53,6 +53,7 @@ export default defineConfig({
         en: "Santara AI Docs",
         id: "Dokumentasi Santara AI",
         vi: "Tài liệu Santara AI",
+        th: "เอกสาร Santara AI",
       },
       description:
         "How to run your short-term rentals on Santara AI — connect your channels, work the day, price the year, and get paid.",
@@ -78,6 +79,7 @@ export default defineConfig({
         root: { label: "English", lang: "en" },
         id: { label: "Bahasa Indonesia", lang: "id" },
         vi: { label: "Tiếng Việt", lang: "vi" },
+        th: { label: "ไทย", lang: "th" },
       },
       social: [
         { icon: "external", label: "Santara AI", href: MARKETING_URL },
@@ -90,43 +92,43 @@ export default defineConfig({
       sidebar: [
         {
           label: "Start here",
-          translations: { id: "Mulai di sini", vi: "Bắt đầu" },
+          translations: { id: "Mulai di sini", vi: "Bắt đầu", th: "เริ่มต้นที่นี่" },
           autogenerate: { directory: "start" },
         },
         {
           label: "Connect your channels",
-          translations: { id: "Hubungkan channel", vi: "Kết nối kênh" },
+          translations: { id: "Hubungkan channel", vi: "Kết nối kênh", th: "เชื่อมต่อช่องทาง" },
           autogenerate: { directory: "channels" },
         },
         {
           label: "Channel guides",
-          translations: { id: "Panduan per channel", vi: "Hướng dẫn từng kênh" },
+          translations: { id: "Panduan per channel", vi: "Hướng dẫn từng kênh", th: "คู่มือแต่ละช่องทาง" },
           collapsed: true,
           autogenerate: { directory: "channel-guides" },
         },
         {
           label: "Every day",
-          translations: { id: "Setiap hari", vi: "Hằng ngày" },
+          translations: { id: "Setiap hari", vi: "Hằng ngày", th: "งานประจำวัน" },
           autogenerate: { directory: "daily" },
         },
         {
           label: "Money",
-          translations: { id: "Keuangan", vi: "Doanh thu" },
+          translations: { id: "Keuangan", vi: "Doanh thu", th: "การเงิน" },
           autogenerate: { directory: "money" },
         },
         {
           label: "Set up once",
-          translations: { id: "Atur sekali", vi: "Thiết lập một lần" },
+          translations: { id: "Atur sekali", vi: "Thiết lập một lần", th: "ตั้งค่าครั้งเดียว" },
           autogenerate: { directory: "setup" },
         },
         {
           label: "Mobile App Guide",
-          translations: { id: "Panduan Aplikasi Mobile", vi: "Hướng dẫn dùng App" },
+          translations: { id: "Panduan Aplikasi Mobile", vi: "Hướng dẫn dùng App", th: "คู่มือแอปมือถือ" },
           autogenerate: { directory: "mobile" },
         },
         {
           label: "Help",
-          translations: { id: "Bantuan", vi: "Trợ giúp" },
+          translations: { id: "Bantuan", vi: "Trợ giúp", th: "ช่วยเหลือ" },
           autogenerate: { directory: "help" },
         },
       ],

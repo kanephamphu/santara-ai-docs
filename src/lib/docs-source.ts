@@ -16,7 +16,7 @@ const RAW = import.meta.glob("/src/content/docs/**/*.{md,mdx}", {
   eager: true,
 }) as Record<string, string>;
 
-export const LOCALES = ["en", "id", "vi"] as const;
+export const LOCALES = ["en", "id", "vi", "th"] as const;
 export type Locale = (typeof LOCALES)[number];
 
 /** The sidebar's order, so llms.txt reads in the order a human is walked through the product. */
@@ -24,18 +24,19 @@ export const SECTIONS = ["start", "channels", "daily", "money", "setup", "help"]
 export type Section = (typeof SECTIONS)[number];
 
 export const SECTION_LABELS: Record<Section, Record<Locale, string>> = {
-  start: { en: "Start here", id: "Mulai di sini", vi: "Bắt đầu" },
-  channels: { en: "Connect your channels", id: "Hubungkan channel", vi: "Kết nối kênh" },
-  daily: { en: "Every day", id: "Setiap hari", vi: "Hằng ngày" },
-  money: { en: "Money", id: "Keuangan", vi: "Doanh thu" },
-  setup: { en: "Set up once", id: "Atur sekali", vi: "Thiết lập một lần" },
-  help: { en: "Help", id: "Bantuan", vi: "Trợ giúp" },
+  start: { en: "Start here", id: "Mulai di sini", vi: "Bắt đầu", th: "เริ่มต้นที่นี่" },
+  channels: { en: "Connect your channels", id: "Hubungkan channel", vi: "Kết nối kênh", th: "เชื่อมต่อช่องทาง" },
+  daily: { en: "Every day", id: "Setiap hari", vi: "Hằng ngày", th: "งานประจำวัน" },
+  money: { en: "Money", id: "Keuangan", vi: "Doanh thu", th: "การเงิน" },
+  setup: { en: "Set up once", id: "Atur sekali", vi: "Thiết lập một lần", th: "ตั้งค่าครั้งเดียว" },
+  help: { en: "Help", id: "Bantuan", vi: "Trợ giúp", th: "ช่วยเหลือ" },
 };
 
 export const SITE_TAGLINE: Record<Locale, string> = {
   en: "Santara AI is AI operations management software for short-term rentals: one workspace for your channels, your calendar, your guests, your team and your books.",
   id: "Santara AI adalah software manajemen operasional berbasis AI untuk sewa jangka pendek: satu ruang kerja untuk channel, kalender, tamu, tim, dan pembukuan Anda.",
   vi: "Santara AI là phần mềm quản lý vận hành bằng AI cho thuê ngắn hạn: một không gian làm việc cho kênh bán, lịch, khách, đội ngũ và sổ sách của bạn.",
+  th: "Santara AI คือซอฟต์แวร์บริหารงานปฏิบัติการด้วย AI สำหรับที่พักให้เช่าระยะสั้น: พื้นที่ทำงานเดียวสำหรับช่องทางขาย ปฏิทิน แขก ทีมงาน และบัญชีของคุณ",
 };
 
 export type DocPage = {

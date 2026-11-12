@@ -10,7 +10,7 @@
  * src/pages/[...slug].md.ts) — nothing here needs a server, which is the whole point.
  */
 
-const locale = (Astro.currentLocale ?? "en") as "en" | "id" | "vi";
+const locale = (Astro.currentLocale ?? "en") as "en" | "id" | "vi" | "th";
 
 const path = Astro.url.pathname.replace(/\/$/, "");
 const markdownPath = `${path === "" ? "/index" : path}.md`;
@@ -47,12 +47,23 @@ const t = {
     claude: "Mở trong Claude",
     hint: "Hỏi về trang này",
   },
+  th: {
+    copy: "คัดลอกหน้า",
+    copied: "คัดลอกแล้ว",
+    failed: "คัดลอกไม่สำเร็จ",
+    menu: "รูปแบบอื่น",
+    view: "ดูเป็น markdown",
+    chatgpt: "เปิดใน ChatGPT",
+    claude: "เปิดใน Claude",
+    hint: "ถามเกี่ยวกับหน้านี้",
+  },
 }[locale];
 
 const prompt = {
   en: `Read ${markdownUrl} so I can ask questions about it.`,
   id: `Baca ${markdownUrl} supaya saya bisa bertanya tentang isinya.`,
   vi: `Hãy đọc ${markdownUrl} để tôi có thể hỏi về nội dung này.`,
+  th: `อ่าน ${markdownUrl} เพื่อให้ฉันถามคำถามเกี่ยวกับหน้านี้ได้`,
 }[locale];
 
 const chatgpt = `https://chatgpt.com/?q=${encodeURIComponent(prompt)}`;
