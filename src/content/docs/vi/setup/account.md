@@ -24,7 +24,7 @@ Cả hai khối nằm trên cùng một trang:
 
 ## Ngôn ngữ và múi giờ
 
-- **Ngôn ngữ** đổi giao diện **cho bạn**. English, Bahasa Indonesia và Tiếng Việt.
+- **Ngôn ngữ** đổi giao diện **cho bạn**. English, Bahasa Indonesia, Tiếng Việt và ไทย.
 - **Múi giờ** là tùy chọn hiển thị của riêng bạn.
 
 Cả hai đều không đổi gì cho người khác — và cũng không phải thứ điều khiển bản tin hằng ngày.
@@ -87,7 +87,7 @@ Ba điều đáng biết:
 
 :::caution[Thông báo này có thể hiện bằng tiếng Anh]
 Thông báo khóa hiện đang hiển thị bằng tiếng Anh ngay cả khi phần còn lại của trang đăng nhập là
-tiếng Việt hoặc tiếng Indonesia. Nghĩa của nó đúng như mô tả ở trên.
+tiếng Việt, tiếng Indonesia hoặc tiếng Thái. Nghĩa của nó đúng như mô tả ở trên.
 :::
 
 ## Duy trì đăng nhập

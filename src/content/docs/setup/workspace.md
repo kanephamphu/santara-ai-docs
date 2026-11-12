@@ -23,7 +23,7 @@ foot of the sidebar, because that is where somebody looks for their own password
 
 ## Language
 
-Santara AI's interface is available in **English, Bahasa Indonesia and Tiếng Việt**.
+Santara AI's interface is available in **English, Bahasa Indonesia, Tiếng Việt and ไทย**.
 
 - **Your** language setting changes the interface for you.
 - **The workspace's** language decides what language the [daily brief](/daily/) is written in, and

@@ -273,6 +273,7 @@ jobs:
           check /                      text/html
           check /id/                   text/html
           check /vi/                   text/html
+          check /th/                   text/html
           check /channels/airbnb/      text/html
           check /channels/airbnb.md    text/markdown
           check /llms.txt              text/plain

@@ -37,7 +37,7 @@ thứ gì mở được cửa lại truy cập được chỉ bằng liên kết
 hãy [đổi mã](#mã-qr-dán-phòng): nhãn đã in ngừng hoạt động ngay.
 :::
 
-Trang mở theo ngôn ngữ trình duyệt của khách — tiếng Anh, tiếng Indonesia hoặc tiếng Việt — và có ô
+Trang mở theo ngôn ngữ trình duyệt của khách — tiếng Anh, tiếng Indonesia, tiếng Việt hoặc tiếng Thái — và có ô
 chọn ngôn ngữ ở trên cùng. Trang không hiện trên công cụ tìm kiếm.
 
 Mọi thứ trên trang lấy từ những gì bạn đã điền: giờ, Wi-Fi và mã từ
@@ -87,7 +87,7 @@ Mỗi ô nhãn hiện mã QR, mã, số lượt quét trong 30 ngày qua, và ba
 ### In nhãn
 
 **In mã QR** xếp mọi nhãn đang bật lên khổ A4, ba nhãn một hàng. Mỗi nhãn ghi tên bất động sản, tên
-phòng và dòng "Quét để xem hướng dẫn lưu trú & Wi-Fi" bằng tiếng Anh, tiếng Việt và tiếng Indonesia, nên
+phòng và dòng "Quét để xem hướng dẫn lưu trú & Wi-Fi" bằng tiếng Anh, tiếng Việt và tiếng Indonesia (hoặc tiếng Anh và tiếng Thái nếu chỗ nghỉ ở Thái Lan), nên
 một lần in dùng được cho mọi khách. In ở **tỉ lệ 100%**, cắt theo đường nét đứt và dán mỗi nhãn trong
 phòng tương ứng.
 
@@ -107,7 +107,7 @@ gần nhất.
 - **Xuất bản / Ẩn**, lên, xuống, sửa, xóa. Sửa tên hoặc gợi ý sẽ xóa bản dịch đã lưu của địa điểm đó, để
   khách không bao giờ đọc bản dịch của những chữ bạn đã đổi.
 - **Dịch cho khách** — chọn ngôn ngữ bạn dùng để viết địa điểm, các địa điểm đã xuất bản sẽ được dịch
-  sang hai ngôn ngữ còn lại. Bản dịch sẵn có được giữ nguyên.
+  sang ba ngôn ngữ còn lại. Bản dịch sẵn có được giữ nguyên.
 
 Mỗi tòa nhà chứa tối đa 60 địa điểm.
 
@@ -121,7 +121,7 @@ Bảng **Khách sẽ thấy gì** trên cùng trang, cho từng tòa nhà:
 
 - **Bật sổ tay hướng dẫn cho tòa nhà này** — tắt thì mọi nhãn trong tòa nhà hiện "không khả dụng", không
   cần đổi mã nào.
-- **Lời chào** — mỗi ngôn ngữ một lời chào (EN, ID, VI). Để trống một ngôn ngữ để dùng lời chào mặc định.
+- **Lời chào** — mỗi ngôn ngữ một lời chào (EN, ID, VI, TH). Để trống một ngôn ngữ để dùng lời chào mặc định.
 - **Các mục** — tắt Tiện nghi; Nội quy, chỗ đậu xe và thú cưng; Bản đồ và chỉ đường; Địa điểm gợi ý; hoặc
   Bán thêm.
 - **Hiển thị mã cửa, mật khẩu Wi-Fi và hướng dẫn nhận phòng cho khách đã xác minh** — tắt mục này thì

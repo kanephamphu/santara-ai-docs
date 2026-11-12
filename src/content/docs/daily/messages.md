@@ -87,7 +87,7 @@ switches again. It works per message, so you can check one line without losing t
 
 - **Your language** is the Language on your own profile (**Account**). If you have not set one, the
   workspace's [daily brief language](/setup/workspace/#operations-preferences) is used, then English.
-  Translation is into **English, Indonesian or Vietnamese**.
+  Translation is into **English, Indonesian, Vietnamese or Thai**.
 - **Each teammate reads in their own language.** A Vietnamese co-host and an English owner open
   the same thread and each reads it their way; the guest sees neither.
 - **It happens as you scroll.** There is no button: a message is translated just before it comes

@@ -233,7 +233,7 @@ export function rehypeFigures() {
         // makes each image several screens tall. Guest-facing web shots retain the explicit
         // "-phone" suffix used by the original capture pipeline.
         const isPhone =
-          /^\/screens\/(?:en|id|vi)\//i.test(src) || /-phone\.(?:en|id|vi)\.png$/i.test(src);
+          /^\/screens\/(?:en|id|vi|th)\//i.test(src) || /-phone\.(?:en|id|vi|th)\.png$/i.test(src);
 
         parent.children![index] = {
           type: "element",

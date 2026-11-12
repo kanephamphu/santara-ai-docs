@@ -78,7 +78,7 @@ Bất kỳ ai trong workspace có quyền vào các màn hình liên quan. **Li�
 ## Sản phẩm
 
 **Những ngôn ngữ nào?**
-English, Bahasa Indonesia và Tiếng Việt — cho giao diện, bản tin hằng ngày và tài liệu này.
+English, Bahasa Indonesia, Tiếng Việt và ไทย — cho giao diện, bản tin hằng ngày và tài liệu này.
 
 **Có ứng dụng di động không?**
 Có, trên Android — đã có trên Google Play. iOS sắp ra mắt. Xem

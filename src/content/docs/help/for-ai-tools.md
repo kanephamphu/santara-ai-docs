@@ -1,6 +1,6 @@
 ---
 title: Using these docs with AI tools
-description: Every page as clean markdown, plus llms.txt and llms-full.txt in all three languages.
+description: Every page as clean markdown, plus llms.txt and llms-full.txt in all four languages.
 sidebar:
   order: 5
 ---
@@ -39,6 +39,7 @@ guess the convention.
 | [`/llms-full.txt`](/llms-full.txt) | The entire documentation as a single markdown file |
 | `/id/llms.txt`, `/id/llms-full.txt` | The same, in Bahasa Indonesia |
 | `/vi/llms.txt`, `/vi/llms-full.txt` | The same, in Tiếng Việt |
+| `/th/llms.txt`, `/th/llms-full.txt` | The same, in ไทย |
 
 A locale falls back to English for pages it has not translated yet, so a non-English `llms.txt` is
 always a complete map of the product rather than a partial one.

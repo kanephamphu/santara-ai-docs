@@ -1,7 +1,7 @@
 # docs.santara.ai
 
 The Santara AI product manual. Astro + Starlight, built to **static files**, in **English,
-Bahasa Indonesia and Tiếng Việt**, with every page also published as raw markdown.
+Bahasa Indonesia, Tiếng Việt and ไทย**, with every page also published as raw markdown.
 
 ```bash
 npm install
@@ -17,8 +17,10 @@ npm run build:diagrams  # regenerate public/diagrams/ after editing the generato
 src/content/docs/            English pages (the root locale)
 src/content/docs/id/         Bahasa Indonesia — same file names
 src/content/docs/vi/         Tiếng Việt — same file names
+src/content/docs/th/         ไทย — same file names
+src/content/i18n/th.json     Starlight's own interface strings in Thai (it ships en/id/vi only)
 src/components/PageActions   the "Copy page / view as markdown / open in ChatGPT" row
-scripts/build-diagrams.mjs   the four figures — one geometry, three label sets
+scripts/build-diagrams.mjs   the figures — one geometry, four label sets
 public/diagrams/             generated SVG, committed, do not hand-edit
 src/lib/rehype-diagrams.ts   inlines those SVGs so they follow the reader's theme
 src/lib/docs-source.ts       the markdown, read as data (powers the .md twins and llms.txt)
@@ -51,7 +53,7 @@ Asides use Starlight's markdown directives (`:::note`, `:::tip`, `:::caution`), 
 the pages stay portable markdown so the `.md` twins are clean. The one exception is the home
 page, which is `.mdx` for its card grid.
 
-**A new English page must be translated into `id/` and `vi/` before it can ship** —
+**A new English page must be translated into `id/`, `vi/` and `th/` before it can ship** —
 `verify:docs` fails otherwise, and it runs in the build. That is on purpose: a half-translated
 locale silently serves English under a `/vi/` URL, and nobody notices until a customer does.
 Internal links inside a translated page must carry that locale's prefix (`/id/channels/airbnb/`).
@@ -60,7 +62,7 @@ Internal links inside a translated page must carry that locale's prefix (`/id/ch
 
 Four diagrams carry the ideas that prose is bad at — a state machine, two directions of sync, a
 containment hierarchy, a pipeline with clamps. They live in `scripts/build-diagrams.mjs` as **one
-geometry plus three label sets**, and that script writes `public/diagrams/<id>.<locale>.svg`:
+geometry plus four label sets**, and that script writes `public/diagrams/<id>.<locale>.svg`:
 
 ```bash
 npm run build:diagrams   # also runs automatically on npm run dev / npm run build
@@ -101,7 +103,7 @@ have seen, because nobody reviews the Indonesian screenshots.
 
 ### Screenshots
 
-Eight screens, in three languages, as `public/screens/<id>.<locale>.png`. **They are captured by a
+The product screens, in four languages, as `public/screens/<id>.<locale>.png`. **They are captured by a
 script, never by hand** — a screenshot goes stale the first time a button moves, and readers trust
 a stale picture over the prose beside it, so the only version worth having is one that regenerates
 in a single command:
@@ -114,7 +116,7 @@ npm run capture:screens -- calendar  # just one, while composing it
 `scripts/capture-screens.mjs` drives a headless Chromium: it signs in, defers the 19-step product
 tour (which otherwise puts a coach mark over whatever the caption is pointing at), forces light
 theme through the `aircierge_theme` cookie, and captures at 2x. Locale costs a page load, not a
-login — the whole dashboard follows the `aircierge_locale` cookie, so the three languages are one
+login — the whole dashboard follows the `aircierge_locale` cookie, so the four languages are one
 loop.
 
 **The workspace is seeded, never a customer's.** `scripts/seed-docs-demo.mts` in the `aircierge`
@@ -130,6 +132,20 @@ Credentials live in `.env.capture` (gitignored) or the environment, never in the
 ```bash
 echo 'SANTARA_DEMO_PASSWORD=…' >> .env.capture
 ```
+
+Options for a capture run (environment variables, or lines in `.env.capture`):
+
+| Option | What it does |
+| --- | --- |
+| `npm run capture:screens -- --login` | Opens a browser at `/login`; you sign in by hand and the session is saved to `.auth-capture.json` (gitignored). Later runs use it, so no password is ever written down. |
+| `CAPTURE_LOCALES=th` | Captures only the listed locales (comma-separated). The default is all four; use this to add one language without retaking the others. |
+| `CAPTURE_CHANNEL=msedge` | Uses an installed browser (`msedge` or `chrome`) instead of Playwright's own Chromium build — no download needed. |
+| `SANTARA_DEMO_URL=http://localhost:3000` | Captures a local `next dev` instead of the Amplify preview. |
+
+Before each shot the script hides the workspace health strip (a red "channel not connected" bar)
+with its own X, hides Santi's speech bubble, parks the mouse so no hover card opens, and waits
+until nothing on the page is still loading. `scripts/capture-channel-guides.mjs` reads the same
+`.env.capture`, takes `LOCALES=…` and `CAPTURE_CHANNEL`, and does the same. Both run on Windows.
 
 `verify:docs` fails on a screenshot that is missing, has no alt text, or — the one that matters —
 **carries another locale's suffix**. An English screenshot on a Vietnamese page renders perfectly
@@ -155,15 +171,15 @@ photographed and writes them to a sibling `<id>.<locale>.json`, and
 
 That indirection buys three things a drawn-on arrow cannot: **the annotation survives a
 recapture** — move the button, rerun, the box follows; **the label is translated** like any other
-string instead of being retyped inside an image editor three times; and **a box can never
+string instead of being retyped inside an image editor four times; and **a box can never
 silently drift onto the wrong element** — if the selector matches nothing the callout is skipped
 and the run says so, rather than pointing confidently at the wrong thing.
 
 Measuring per locale is not redundant. The Indonesian tile box comes out 536px wide against
 English's 468 because the caption is longer, and the Indonesian row box starts 32px further left.
-Reusing English coordinates would put every box slightly wrong in two languages out of three.
+Reusing English coordinates would put every box slightly wrong in three languages out of four.
 
-Locating targets, in order of preference: `find` (a regex covering all three languages, matched on
+Locating targets, in order of preference: `find` (a regex covering all four languages, matched on
 text or `role`), `css` for controls with no useful accessible name, `up: n` to measure an ancestor
 when the text you can find is a caption inside the card you want, and `expand` as the explicit
 escape hatch in pixels per edge — used where the DOM simply has no ancestor meaning "this card".
@@ -286,5 +302,5 @@ Note that a plain `sync` does **not** set the content types the workflow sets �
 
 ## Search
 
-Pagefind, built at `astro build` time and served as static files. It indexes all three languages
+Pagefind, built at `astro build` time and served as static files. It indexes all four languages
 separately. Nothing to operate.

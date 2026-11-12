@@ -15,11 +15,11 @@ const llms = locale === "en" ? "/llms.txt" : `/${locale}/llms.txt`;
 
 /*
  * x-default: Starlight writes one hreflang per locale but no x-default, which SEO audits flag on
- * every page. The English page is the default — every page exists in all three locales
+ * every page. The English page is the default — every page exists in every locale
  * (verify:docs enforces it), so the English twin is this path minus its locale prefix.
  */
 const site = Astro.site?.origin ?? "https://docs.santara.ai";
-const englishPath = Astro.url.pathname.replace(/^\/(?:id|vi)(?=\/|$)/, "") || "/";
+const englishPath = Astro.url.pathname.replace(/^\/(?:id|vi|th)(?=\/|$)/, "") || "/";
 const xDefault = new URL(englishPath, site).href;
 
 /*
@@ -28,7 +28,7 @@ const xDefault = new URL(englishPath, site).href;
  * branded card the rest of santara.ai uses, in this page's language (bundled Inter covers
  * Vietnamese). `v` mirrors SOCIAL_IMAGE_VERSION in aircierge/lib/seo.ts.
  */
-const EYEBROW: Record<string, string> = { en: "Santara AI Docs", id: "Dokumentasi Santara AI", vi: "Tài liệu Santara AI" };
+const EYEBROW: Record<string, string> = { en: "Santara AI Docs", id: "Dokumentasi Santara AI", vi: "Tài liệu Santara AI", th: "เอกสาร Santara AI" };
 const title = Astro.locals.starlightRoute.entry.data.title;
 const card = new URL("https://www.santara.ai/og");
 card.searchParams.set("title", title);

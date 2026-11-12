@@ -148,12 +148,9 @@ first, so the channel side is cleaned up rather than left pointing at a room tha
 
 ## Deleting your account
 
-You can delete your own account yourself:
-
-- **In the app** — Settings → Personal settings → **Delete account**, then type your email to
-  confirm.
-- **On the web** — at [santara.ai/delete-account](https://www.santara.ai/delete-account/), after
-  signing in.
+You can delete your own account yourself, on the web: sign in at
+[santara.ai/delete-account](https://www.santara.ai/delete-account/) and type your email to confirm.
+The mobile app does not delete accounts.
 
 What happens:
 

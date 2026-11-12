@@ -26,7 +26,7 @@ import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 const OUT = fileURLToPath(new URL("../public/diagrams/", import.meta.url));
-const LOCALES = ["en", "id", "vi"];
+const LOCALES = ["en", "id", "vi", "th"];
 
 // ── tokens ──────────────────────────────────────────────────────────────────────────────────
 const INK = "var(--sl-color-white, #0b1930)";
@@ -601,6 +601,96 @@ const LABELS = {
     },
   },
 };
+
+/*
+ * THAI, kept as one block so the three original label sets above stay readable. Thai sets no
+ * spaces between words, so every line here is broken by hand at a word boundary — the renderer
+ * never wraps. UI names match the product's Thai (aircierge content/th, messages/th.json).
+ */
+const TH = {
+  "ai-connect": {
+    title: "เชื่อมต่อผู้ช่วย AI กับ Santara AI",
+    inApp: "ในแอป AI ของคุณ",
+    inSantara: "ใน Santara AI",
+    steps: [
+      { title: "เพิ่ม URL เซิร์ฟเวอร์ Santara AI", note: "Claude: Connectors · ChatGPT: Plugins · Grok: Connectors" },
+      { title: "เข้าสู่ระบบ Santara AI", note: "รหัสผ่านของคุณไม่ถูกส่งไปที่แอป AI" },
+      { title: "เลือกพื้นที่ทำงาน แล้วกด อนุญาต", note: "คุณเห็นชัดว่าทำอะไรได้ — และทำอะไรไม่ได้" },
+      { title: "ถามด้วยภาษาธรรมดา", note: "“วันนี้ใครเข้าพัก?” · “ปิด Garden Room สุดสัปดาห์นี้”" },
+    ],
+  },
+  "message-translation": {
+    title: "ข้อความของแขกถูกแปลอย่างไร",
+    guest: "แขกเขียน",
+    original: ["Können wir früher", "einchecken?"],
+    guestNote: "เป็นภาษาเยอรมัน บน Airbnb",
+    you: "คุณอ่าน",
+    translated: ["เช็คอินก่อนเวลา", "ได้ไหม?"],
+    toggle: ["แปลจากภาษาเยอรมัน", "· ดูต้นฉบับ"],
+    forward: "เป็นภาษาของคุณ",
+    forwardNote: "ครั้งเดียว เมื่อเลื่อนมาถึง",
+    reply: "คำตอบของคุณ",
+    replyNote: "ส่งออกไปตรงตามที่คุณเขียน",
+    footer: "สมาชิกแต่ละคนอ่านในภาษาของตัวเอง: อังกฤษ อินโดนีเซีย เวียดนาม หรือไทย",
+  },
+  "listing-states": {
+    title: "สี่สถานะของรายการที่พัก",
+    auto: "อัตโนมัติ",
+    gate: "คุณกด เปิดใช้งาน",
+    gateNote: "ไม่มีอะไรข้ามเส้นนี้ไปเอง",
+    states: [
+      { title: "ยังไม่เชื่อมต่อ", body: "ยังไม่ได้ผูกบัญชีช่องทางใด" },
+      { title: "ผูกแล้ว — ยังไม่จับคู่", body: "เห็นรายการที่พักแล้ว ยังไม่มีอะไรซิงค์" },
+      { title: "จับคู่แล้ว — รอเปิดใช้งาน", body: "ชี้ไปที่ห้องแล้ว ยังไม่มีอะไรซิงค์" },
+      { title: "เปิดใช้งาน", body: "ห้องว่างและราคาส่งออก การจองและข้อความเข้ามา" },
+    ],
+  },
+  "sync-directions": {
+    title: "อะไรส่งไปมาระหว่าง Santara AI กับช่องทาง",
+    left: "Santara AI",
+    right: "ช่องทาง",
+    rightNote: "Airbnb, Booking.com",
+    footer: "ไม่มีอย่างอื่น คำอธิบายรายการที่พักของคุณไม่ถูกแก้จากที่นี่",
+    rows: [
+      { out: true, label: "ห้องว่างและราคา", note: "รวมจำนวนคืนขั้นต่ำและข้อจำกัด — ทันทีที่คุณบันทึก" },
+      { out: false, label: "การจองและการยกเลิก", note: "พร้อมแขก ข้อความ และรีวิว" },
+      { out: false, label: "รายละเอียดรายการที่พัก", note: "ครั้งเดียวตอนนำเข้า: ชื่อ รูป ความจุ ราคา", once: true },
+      { out: true, label: "คำตอบของคุณ", note: "ถึงข้อความแขกหรือรีวิว — เมื่อคุณส่ง", once: true },
+    ],
+  },
+  "object-model": {
+    title: "พื้นที่ทำงาน ที่พัก ห้องพัก",
+    workspace: "พื้นที่ทำงาน",
+    property: "Villa Melati",
+    propertyNote: "ที่อยู่ · Wi-Fi · กฎของที่พัก · กลุ่มงานทำความสะอาด",
+    rooms: [
+      { name: "Garden Room", rate: "แผนราคา · $120" },
+      { name: "Pool Room", rate: "แผนราคา · $150" },
+      { name: "Loft", rate: "แผนราคา · $95" },
+    ],
+    channels: "รายการที่พัก",
+    listings: ["รายการบน Airbnb", "ห้องบน Booking.com", "เว็บไซต์จองตรงของคุณ"],
+    mapping: "หนึ่งต่อหนึ่ง",
+  },
+  "pricing-pipeline": {
+    title: "ราคาต่อคืนคำนวณอย่างไร",
+    manual: {
+      title: "ราคาที่คุณพิมพ์เอง",
+      note: "ข้ามกฎทุกข้อด้านล่าง",
+      arrow: "เว้นแต่คุณอนุญาตให้เขียนทับ",
+    },
+    steps: [
+      { title: "ราคาพื้นฐาน", note: "ราคาของแผนราคา หรือราคาพื้นฐานของรายการที่พัก" },
+      { title: "× ตัวคูณฤดูกาล", note: "×1.85 หมายถึงสูงกว่าราคาพื้นฐาน 85%" },
+      { title: "× ส่วนเพิ่มตามวันในสัปดาห์", note: "ปรับตามความแรงของวันหยุดสุดสัปดาห์ในฤดูกาลนั้น" },
+      { title: "อีเวนต์แทนที่", note: "ใช้แทนฤดูกาล — ค่าที่สูงกว่าจะถูกใช้" },
+      { title: "จำกัด: ราคาต่ำสุดและสูงสุดของคุณ", note: "การตั้งราคาอัตโนมัติไม่เคยเกินขอบเขตนี้", clamp: true },
+      { title: "จำกัด: ช่วงที่ช่องทางรับได้", note: "แคบลงได้ ไม่เคยกว้างขึ้น", clamp: true },
+      { title: "ส่งไปยังช่องทางของคุณ", note: "ถ้าเปิดการเผยแพร่อัตโนมัติไว้" },
+    ],
+  },
+};
+for (const [id, labels] of Object.entries(TH)) LABELS[id].th = labels;
 
 mkdirSync(OUT, { recursive: true });
 

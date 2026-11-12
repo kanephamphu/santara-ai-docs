@@ -25,7 +25,15 @@ import { fileURLToPath } from "node:url";
 const ROOT = fileURLToPath(new URL("../src/content/docs/", import.meta.url));
 const DIAGRAMS = fileURLToPath(new URL("../public/diagrams/", import.meta.url));
 const SCREENS = fileURLToPath(new URL("../public/screens/", import.meta.url));
-const LOCALES = ["id", "vi"];
+const LOCALES = ["id", "vi", "th"];
+/*
+ * A locale still being translated. Its missing pages are allowed — Starlight serves the English
+ * page under its prefix, with a "not translated yet" notice — and a link to one of them resolves
+ * against the English page. Everything else (links, anchors, screenshots, frontmatter) is checked
+ * as strictly as any other locale. Empty this set the moment the translation is complete: the
+ * rule that every locale is whole is the one that keeps a half-translated manual from shipping.
+ */
+const PARTIAL_LOCALES = new Set([]);
 const ALL_LOCALES = ["en", ...LOCALES];
 const TEXT_ROUTES = new Set([
   "/llms.txt",
@@ -42,7 +50,8 @@ function slug(text) {
     .replace(/[`*_~]/g, "")
     // Strip link syntax down to its label, so "## [Go live](/x/)" slugs as "go-live".
     .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
-    .replace(/[^\p{L}\p{N}\s-]/gu, "")
+    // \p{M} keeps combining marks: Thai writes its vowels and tone marks as separate code points.
+    .replace(/[^\p{L}\p{M}\p{N}\s-]/gu, "")
     .replace(/\s/g, "-");
 }
 
@@ -141,7 +150,7 @@ for (const full of walkFiles(SCREENS)) {
   }
   if (!/\.png$/i.test(rel)) continue;
 
-  const locale = /\.(en|id|vi)\.png$/i.exec(basename(rel))?.[1].toLowerCase() ?? null;
+  const locale = /\.(en|id|vi|th)\.png$/i.exec(basename(rel))?.[1].toLowerCase() ?? null;
   if (!locale) problems.push(`screens/${rel}: PNG has no canonical locale suffix`);
 
   const directory = rel.includes("/") ? rel.split("/")[0].toLowerCase() : null;
@@ -156,6 +165,15 @@ for (const file of files) {
   const route = file.url.endsWith("/") ? file.url : `${file.url}/`;
   if (urls.has(route)) problems.push(`${file.rel}: duplicate route ${route}`);
   urls.set(route, headingIds(file.markdown));
+}
+
+// A partial locale's untranslated pages are served from English at the locale's own route.
+for (const locale of PARTIAL_LOCALES) {
+  for (const file of files) {
+    if (file.locale !== "en") continue;
+    const route = `/${locale}${file.url}/`.replace(/\/+/g, "/");
+    if (!urls.has(route)) urls.set(route, headingIds(file.markdown));
+  }
 }
 
 // 1 + 2. Links and their anchors
@@ -222,7 +240,7 @@ for (const locale of LOCALES) {
   const translated = files.filter((file) => file.locale === locale);
   const have = new Set(translated.map((file) => file.localeless));
   for (const page of english) {
-    if (!have.has(page.localeless)) problems.push(`${locale}: missing translation of ${page.localeless}`);
+    if (!have.has(page.localeless) && !PARTIAL_LOCALES.has(locale)) problems.push(`${locale}: missing translation of ${page.localeless}`);
   }
   for (const page of translated) {
     if (!englishPaths.has(page.localeless)) {
@@ -236,8 +254,8 @@ const filesByLocaleAndPath = new Map(files.map((file) => [`${file.locale}:${file
 const screenshotKeys = (file) =>
   [...file.scan.matchAll(/!\[[^\]]*\]\((\/screens\/[^)\s]+)\)/g)].map(([, src]) =>
     src
-      .replace(/^\/screens\/(?:en|id|vi)\//, "/screens/{locale}/")
-      .replace(/\.(?:en|id|vi)\.png$/i, ".{locale}.png"),
+      .replace(/^\/screens\/(?:en|id|vi|th)\//, "/screens/{locale}/")
+      .replace(/\.(?:en|id|vi|th)\.png$/i, ".{locale}.png"),
   );
 
 for (const page of english) {
@@ -280,7 +298,7 @@ for (const file of files) {
     // Every screenshot follows the same convention: "name.en.png", "name.id.png", or
     // "name.vi.png". Keeping the canonical locale immediately before the extension makes
     // mixed-language captures and legacy names fail loudly.
-    const screenshotLocale = /\.(en|id|vi)\.png$/i.exec(basename(src))?.[1].toLowerCase() ?? null;
+    const screenshotLocale = /\.(en|id|vi|th)\.png$/i.exec(basename(src))?.[1].toLowerCase() ?? null;
     // EXCEPTION: /screens/ai/ holds screenshots of OTHER companies' apps (Claude, ChatGPT, Grok)
     // for the "Connect an AI assistant" guide. We don't translate their UI — every reader sees the
     // same English screens — so one capture serves all three locales.
@@ -313,6 +331,11 @@ if (problems.length) {
 }
 
 const anchors = [...urls.values()].reduce((total, set) => total + set.size, 0);
+const unfinished = [...PARTIAL_LOCALES].map((locale) => {
+  const have = new Set(files.filter((file) => file.locale === locale).map((file) => file.localeless));
+  return `${locale} ${english.filter((page) => have.has(page.localeless)).length}/${english.length}`;
+});
 console.log(
-  `✓ ${files.length} pages, ${urls.size} routes, ${anchors} headings — no dead links or anchors, all locales complete`,
+  `✓ ${files.length} pages, ${urls.size} routes, ${anchors} headings — no dead links or anchors, ` +
+    (unfinished.length ? `still translating: ${unfinished.join(", ")}` : "all locales complete"),
 );

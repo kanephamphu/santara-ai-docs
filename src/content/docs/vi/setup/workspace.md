@@ -23,7 +23,7 @@ vì đó là nơi người ta tìm mật khẩu của chính mình. Xem
 
 ## Ngôn ngữ
 
-Giao diện Santara AI có sẵn bằng **English, Bahasa Indonesia và Tiếng Việt**.
+Giao diện Santara AI có sẵn bằng **English, Bahasa Indonesia, Tiếng Việt và ไทย**.
 
 - Cài đặt ngôn ngữ của **bạn** đổi giao diện cho bạn.
 - Ngôn ngữ của **workspace** quyết định [bản tin hằng ngày](/vi/daily/) được viết bằng ngôn ngữ

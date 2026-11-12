@@ -152,12 +152,9 @@ phía kênh cũng được dọn dẹp thay vì bị bỏ lại trỏ tới mộ
 
 ## Xóa tài khoản của bạn
 
-Bạn có thể tự xóa tài khoản của mình:
-
-- **Trong ứng dụng** — Cài đặt → Cài đặt cá nhân → **Xoá tài khoản**, rồi gõ email của bạn để xác
-  nhận.
-- **Trên web** — tại [santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=vi),
-  sau khi đăng nhập.
+Bạn có thể tự xóa tài khoản của mình trên web: đăng nhập tại
+[santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=vi) rồi gõ email để xác nhận.
+Ứng dụng di động không xoá tài khoản.
 
 Điều gì xảy ra:
 

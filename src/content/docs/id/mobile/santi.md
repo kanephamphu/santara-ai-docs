@@ -90,7 +90,7 @@ Untuk menjawab kartu perubahan lewat suara, ucapkan *ya*, lalu *konfirmasi*, ata
 
 ![Mode suara: Santi mendengarkan, tanpa tangan](/screens/id/santi_voice.id.png)
 
-Santi menjawab dalam bahasa yang Anda ketik atau ucapkan: Inggris, Vietnam, atau Indonesia.
+Santi menjawab dalam bahasa yang Anda ketik atau ucapkan: Inggris, Vietnam, Indonesia, atau Thailand.
 
 ## 7. Menu Santi
 

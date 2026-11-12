@@ -154,12 +154,9 @@ supaya sisi channel ikut dibereskan alih-alih ditinggal menunjuk kamar yang suda
 
 ## Menghapus akun Anda
 
-Anda bisa menghapus akun Anda sendiri:
-
-- **Di aplikasi** — Pengaturan → Pengaturan pribadi → **Hapus akun**, lalu ketik email Anda untuk
-  konfirmasi.
-- **Di web** — di [santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=id),
-  setelah masuk.
+Anda bisa menghapus akun Anda sendiri lewat web: masuk di
+[santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=id) lalu ketik email Anda untuk konfirmasi.
+Aplikasi seluler tidak menghapus akun.
 
 Yang terjadi:
 

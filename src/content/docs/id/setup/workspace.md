@@ -23,7 +23,7 @@ bagian bawah bilah samping, karena di situlah orang mencari kata sandinya sendir
 
 ## Bahasa
 
-Antarmuka Santara AI tersedia dalam **English, Bahasa Indonesia, dan Tiếng Việt**.
+Antarmuka Santara AI tersedia dalam **English, Bahasa Indonesia, Tiếng Việt, dan ไทย**.
 
 - Pengaturan bahasa **Anda** mengubah antarmuka untuk Anda.
 - Bahasa **workspace** menentukan bahasa penulisan [ringkasan harian](/id/daily/), dan bahasa bawaan

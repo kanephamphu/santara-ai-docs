@@ -14,11 +14,13 @@ export function llmsTxt(locale: Locale, site: string): string {
     en: "Santara AI Documentation",
     id: "Dokumentasi Santara AI",
     vi: "Tài liệu Santara AI",
+    th: "เอกสาร Santara AI",
   };
   const fullNote: Record<Locale, string> = {
     en: "Every page below is also available as raw markdown by adding `.md` to its URL. The whole manual in one file: ",
     id: "Setiap halaman di bawah juga tersedia sebagai markdown mentah dengan menambahkan `.md` pada URL-nya. Seluruh manual dalam satu berkas: ",
     vi: "Mỗi trang bên dưới cũng có bản markdown thô bằng cách thêm `.md` vào URL. Toàn bộ tài liệu trong một tệp: ",
+    th: "ทุกหน้าด้านล่างมีเวอร์ชัน markdown ดิบด้วย เพียงเติม `.md` ต่อท้าย URL คู่มือทั้งหมดในไฟล์เดียว: ",
   };
 
   const prefix = locale === "en" ? "" : `${locale}/`;
@@ -46,7 +48,7 @@ export function llmsTxt(locale: Locale, site: string): string {
 export function llmsFullTxt(locale: Locale, site: string): string {
   const parts: string[] = [
     `# ${
-      { en: "Santara AI Documentation", id: "Dokumentasi Santara AI", vi: "Tài liệu Santara AI" }[
+      { en: "Santara AI Documentation", id: "Dokumentasi Santara AI", vi: "Tài liệu Santara AI", th: "เอกสาร Santara AI" }[
         locale
       ]
     }`,

@@ -21,14 +21,20 @@
  *
  *   SANTARA_DEMO_URL       defaults to the main Amplify preview
  *   SANTARA_DEMO_EMAIL     defaults to demo@docs-demo.invalid
- *   SANTARA_DEMO_PASSWORD  required
+ *   SANTARA_DEMO_PASSWORD  required — unless you sign in by hand instead:
+ *
+ *   npm run capture:screens -- --login     opens a browser at /login; sign in, and the session
+ *                                          is kept in .auth-capture.json (gitignored), so no
+ *                                          password is ever written down
+ *   CAPTURE_LOCALES=th npm run capture:screens   one language only — the others stay untouched
  */
 
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { chromium } from "playwright";
+import { fileURLToPath } from "node:url";
 
 // A tiny .env.capture reader — one file, KEY=value, no dependency and no surprises.
-const ENV_FILE = new URL("../.env.capture", import.meta.url).pathname;
+const ENV_FILE = fileURLToPath(new URL("../.env.capture", import.meta.url));
 if (existsSync(ENV_FILE)) {
   for (const line of readFileSync(ENV_FILE, "utf8").split("\n")) {
     const match = /^\s*([A-Z_]+)\s*=\s*(.*)\s*$/.exec(line);
@@ -39,9 +45,14 @@ if (existsSync(ENV_FILE)) {
 const BASE = (process.env.SANTARA_DEMO_URL || "https://main.d22c9793921ez0.amplifyapp.com").replace(/\/$/, "");
 const EMAIL = process.env.SANTARA_DEMO_EMAIL || "demo@docs-demo.invalid";
 const PASSWORD = process.env.SANTARA_DEMO_PASSWORD;
-const OUT = new URL("../public/screens/", import.meta.url).pathname;
+const OUT = fileURLToPath(new URL("../public/screens/", import.meta.url));
 
-const LOCALES = ["en", "id", "vi"];
+const LOCALES = (process.env.CAPTURE_LOCALES || "en,id,vi,th").split(",").map((l) => l.trim()).filter(Boolean);
+/** A signed-in session saved by `--login` — used instead of the password when present. */
+const STATE_FILE = fileURLToPath(new URL("../.auth-capture.json", import.meta.url));
+const LOGIN_ONLY = process.argv.includes("--login");
+/** An installed browser instead of Playwright's own build, e.g. CAPTURE_CHANNEL=msedge or chrome. */
+const CHANNEL = process.env.CAPTURE_CHANNEL || undefined;
 
 
 /*
@@ -56,6 +67,9 @@ const SHOTS = [
   {
     id: "today",
     path: "/dashboard",
+    // The brief streams in after first paint; on a cold dev server it is still skeleton bars when
+    // the page "settles". Wait for the pulsing placeholders to go.
+    steps: [{ waitGone: "main .animate-pulse", settle: 1500 }],
     settle: "main",
     height: 900,
     note: "Today, with the daily brief",
@@ -83,8 +97,8 @@ const SHOTS = [
     callouts: [
       {
         role: "button",
-        find: /Rates & availability|Tarif & ketersediaan|Giá & tình trạng phòng/,
-        label: { en: "2. Choose Rates & availability", id: "2. Pilih Tarif & ketersediaan", vi: "2. Chọn Giá & tình trạng phòng" },
+        find: /Rates & availability|Tarif & ketersediaan|Giá & tình trạng phòng|ราคาและห้องว่าง/,
+        label: { en: "2. Choose Rates & availability", id: "2. Pilih Tarif & ketersediaan", vi: "2. Chọn Giá & tình trạng phòng", th: "2. เลือก ราคาและห้องว่าง" },
         side: "left",
       },
     ],
@@ -94,8 +108,8 @@ const SHOTS = [
     path: "/dashboard/calendar",
     steps: [
       { drag: { row: 0, from: 1, nights: 3 }, settle: 1200 },
-      { click: { role: "button", find: /Rates & availability|Tarif & ketersediaan|Giá & tình trạng phòng/ }, settle: 1200 },
-      { select: { label: /^(Stop sell|Hentikan penjualan|Ngừng bán)/, value: "true" }, settle: 600 },
+      { click: { role: "button", find: /Rates & availability|Tarif & ketersediaan|Giá & tình trạng phòng|ราคาและห้องว่าง/ }, settle: 1200 },
+      { select: { label: /^(Stop sell|Hentikan penjualan|Ngừng bán|หยุดขาย)/, value: "true" }, settle: 600 },
     ],
     settle: "main",
     height: 900,
@@ -103,14 +117,14 @@ const SHOTS = [
     callouts: [
       {
         role: "combobox",
-        find: /^(Stop sell|Hentikan penjualan|Ngừng bán)/,
-        label: { en: "3. Stop sell → Closed", id: "3. Hentikan penjualan → Ditutup", vi: "3. Ngừng bán → Đã đóng" },
+        find: /^(Stop sell|Hentikan penjualan|Ngừng bán|หยุดขาย)/,
+        label: { en: "3. Stop sell → Closed", id: "3. Hentikan penjualan → Ditutup", vi: "3. Ngừng bán → Đã đóng", th: "3. หยุดขาย → ปิด" },
         side: "left",
       },
       {
         role: "button",
-        find: /Add \d+ nights to pending|Tambahkan \d+ malam ke tertunda|Thêm \d+ đêm vào danh sách chờ/,
-        label: { en: "4. Add to pending", id: "4. Tambahkan ke tertunda", vi: "4. Thêm vào danh sách chờ" },
+        find: /Add \d+ nights to pending|Tambahkan \d+ malam ke tertunda|Thêm \d+ đêm vào danh sách chờ|เพิ่ม \d+ คืนในรายการรอ/,
+        label: { en: "4. Add to pending", id: "4. Tambahkan ke tertunda", vi: "4. Thêm vào danh sách chờ", th: "4. เพิ่มในรายการรอ" },
         side: "left",
       },
     ],
@@ -120,9 +134,9 @@ const SHOTS = [
     path: "/dashboard/calendar",
     steps: [
       { drag: { row: 0, from: 1, nights: 3 }, settle: 1200 },
-      { click: { role: "button", find: /Rates & availability|Tarif & ketersediaan|Giá & tình trạng phòng/ }, settle: 1200 },
-      { select: { label: /^(Stop sell|Hentikan penjualan|Ngừng bán)/, value: "true" }, settle: 600 },
-      { click: { role: "button", find: /Add \d+ nights to pending|Tambahkan \d+ malam ke tertunda|Thêm \d+ đêm vào danh sách chờ/ }, settle: 1500 },
+      { click: { role: "button", find: /Rates & availability|Tarif & ketersediaan|Giá & tình trạng phòng|ราคาและห้องว่าง/ }, settle: 1200 },
+      { select: { label: /^(Stop sell|Hentikan penjualan|Ngừng bán|หยุดขาย)/, value: "true" }, settle: 600 },
+      { click: { role: "button", find: /Add \d+ nights to pending|Tambahkan \d+ malam ke tertunda|Thêm \d+ đêm vào danh sách chờ|เพิ่ม \d+ คืนในรายการรอ/ }, settle: 1500 },
     ],
     settle: "main",
     height: 640,
@@ -130,8 +144,8 @@ const SHOTS = [
     callouts: [
       {
         role: "button",
-        find: /^(Save all|Simpan semua|Lưu tất cả)$/,
-        label: { en: "5. Save all — sends it to every channel", id: "5. Simpan semua — dikirim ke semua channel", vi: "5. Lưu tất cả — đẩy sang mọi kênh" },
+        find: /^(Save all|Simpan semua|Lưu tất cả|บันทึกทั้งหมด)$/,
+        label: { en: "5. Save all — sends it to every channel", id: "5. Simpan semua — dikirim ke semua channel", vi: "5. Lưu tất cả — đẩy sang mọi kênh", th: "5. บันทึกทั้งหมด — ส่งไปทุกช่องทาง" },
         side: "left",
       },
     ],
@@ -147,7 +161,7 @@ const SHOTS = [
         // Text locators, one regex per string across the three languages. A structural selector
         // would be shorter and would silently point at the wrong element the day the markup
         // changes; this one simply fails to find anything, and the box is skipped.
-        find: /To clean today|Perlu dibersihkan hari ini|Cần dọn hôm nay/i,
+        find: /To clean today|Perlu dibersihkan hari ini|Cần dọn hôm nay|ต้องทำความสะอาดวันนี้/i,
         up: 1,
         // Out to the edges of the tile the caption sits in. The caption is the tile's lower
         // line, so this reaches left and right to the card and down past it — no upward reach,
@@ -157,6 +171,7 @@ const SHOTS = [
           en: "Turnovers due today",
           id: "Turnover hari ini",
           vi: "Turnover cần làm hôm nay",
+          th: "งานเปลี่ยนแขกวันนี้",
         },
       },
       {
@@ -171,6 +186,7 @@ const SHOTS = [
           en: "Assign a cleaner, then mark it done",
           id: "Tugaskan petugas, lalu tandai selesai",
           vi: "Giao cho nhân viên, rồi đánh dấu xong",
+          th: "มอบหมาย แล้วกดเสร็จ",
         },
         side: "left",
       },
@@ -200,22 +216,24 @@ const SHOTS = [
     path: "/dashboard/pricing?tab=rules",
     callouts: [
       {
-        find: /Make these rules mine|Jadikan aturan ini milik saya|Biến quy tắc này thành của tôi/i,
+        find: /Make these rules mine|Jadikan aturan ini milik saya|Biến quy tắc này thành của tôi|สร้างกฎเหล่านี้เป็นของฉัน/i,
         role: "button",
         label: {
           en: "Copy before you can edit",
           id: "Salin dulu sebelum bisa diubah",
           vi: "Sao chép trước khi sửa được",
+          th: "คัดลอกก่อนจึงจะแก้ไขได้",
         },
         side: "left",
       },
       {
-        find: /^(Seasons|Musim|Mùa)$/,
+        find: /^(Seasons|Musim|Mùa|ฤดูกาล)$/,
         up: 2,
         label: {
           en: "×1.85 = 85% above your base price",
           id: "×1,85 = 85% di atas harga dasar",
           vi: "×1,85 = cao hơn giá cơ sở 85%",
+          th: "×1.85 = สูงกว่าราคาพื้นฐาน 85%",
         },
       },
     ],
@@ -243,6 +261,7 @@ const SHOTS = [
           en: "Start here — the account that owns your listings",
           id: "Mulai di sini — akun pemilik listing Anda",
           vi: "Bắt đầu ở đây — tài khoản sở hữu listing",
+          th: "เริ่มที่นี่ — บัญชีที่เป็นเจ้าของรายการที่พัก",
         },
         side: "left",
       },
@@ -320,7 +339,7 @@ const SHOTS = [
     path: "/dashboard/assistant",
     // Only there once a thread exists; on a fresh chat the step finds nothing and warns, harmlessly.
     steps: [
-      { click: { role: "button", find: /New chat|Obrolan baru|Trò chuyện mới/ }, settle: 1200 },
+      { click: { role: "button", find: /New chat|Obrolan baru|Trò chuyện mới|แชตใหม่/ }, settle: 1200 },
     ],
     settle: "main",
     height: 900,
@@ -331,7 +350,7 @@ const SHOTS = [
     path: "/dashboard/agents",
     // Each crewmate checks its own data after first paint; the roster's pulsing dots turn into
     // counts and "All clear" a few seconds later.
-    steps: [{ waitText: /All clear|Semua beres|Ổn cả|to do|tugas|việc/, settle: 4000 }],
+    steps: [{ waitText: /All clear|Semua beres|Ổn cả|เรียบร้อยทั้งหมด|to do|tugas|việc|งาน/, settle: 4000 }],
     settle: "main",
     height: 860,
     note: "The AI Agents page — the crew roster and what needs you",
@@ -369,8 +388,8 @@ const SHOTS = [
     note: "The guidebook screen: stickers, numbers and places",
     callouts: [
       {
-        find: /^(Print QR stickers|Cetak stiker QR|In mã QR)$/,
-        label: { en: "One A4 sheet, every sticker", id: "Satu lembar A4, semua stiker", vi: "Một tờ A4, đủ mọi nhãn" },
+        find: /^(Print QR stickers|Cetak stiker QR|In mã QR|พิมพ์สติกเกอร์ QR)$/,
+        label: { en: "One A4 sheet, every sticker", id: "Satu lembar A4, semua stiker", vi: "Một tờ A4, đủ mọi nhãn", th: "กระดาษ A4 แผ่นเดียว ครบทุกสติกเกอร์" },
         side: "left",
       },
     ],
@@ -390,6 +409,7 @@ const SHOTS = [
           en: "Only the booking code — nothing else",
           id: "Hanya kode pemesanan — tidak ada yang lain",
           vi: "Chỉ mã đặt phòng — không cần gì khác",
+          th: "แค่รหัสการจอง — ไม่ต้องใช้อย่างอื่น",
         },
         side: "left",
       },
@@ -403,16 +423,16 @@ const SHOTS = [
       { clearGuideSession: true, settle: 1500 },
       { fill: { css: "#access input", value: "DEMO-0002" }, settle: 200 },
       { click: { css: "#access button[type='submit']" }, settle: 4000 },
-      { click: { role: "button", find: /^(Show|Tampilkan|Hiện)$/ }, settle: 600 },
+      { click: { role: "button", find: /^(Show|Tampilkan|Hiện|แสดง)$/ }, settle: 600 },
     ],
     settle: "#access",
     height: 900,
     note: "The same page once the guest has entered their booking code",
     callouts: [
       {
-        find: /^(Door code|Kode pintu|Mã cửa)$/,
+        find: /^(Door code|Kode pintu|Mã cửa|รหัสประตู)$/,
         up: 1,
-        label: { en: "Masked until the guest taps Show", id: "Disamarkan sampai tamu mengetuk Tampilkan", vi: "Được che cho tới khi khách chạm Hiện" },
+        label: { en: "Masked until the guest taps Show", id: "Disamarkan sampai tamu mengetuk Tampilkan", vi: "Được che cho tới khi khách chạm Hiện", th: "ซ่อนไว้จนกว่าแขกจะแตะ แสดง" },
         side: "right",
       },
     ],
@@ -458,20 +478,39 @@ if (!shots.length) {
 }
 
 // Guest-guidebook shots are PUBLIC pages: a run of only those needs no sign-in, and no password.
-const needsLogin = shots.some((shot) => !shot.guest);
+const needsShots = shots.some((shot) => !shot.guest);
+const haveState = !LOGIN_ONLY && existsSync(STATE_FILE);
+const needsLogin = needsShots && !haveState && !LOGIN_ONLY;
 if (needsLogin && !PASSWORD) {
   console.error(
     "\n  SANTARA_DEMO_PASSWORD is not set.\n\n" +
       "  Put it in .env.capture (gitignored) or the environment:\n\n" +
-      "    echo 'SANTARA_DEMO_PASSWORD=…' >> .env.capture\n",
+      "    echo 'SANTARA_DEMO_PASSWORD=…' >> .env.capture\n\n" +
+      "  Or sign in by hand once:  npm run capture:screens -- --login\n",
   );
   process.exit(1);
 }
 
+if (LOGIN_ONLY) {
+  // A visible browser at the sign-in page. Whoever runs this signs in; the script never sees the
+  // password, only the session cookie it is handed afterwards, saved for the capture runs.
+  const headed = await chromium.launch({ headless: false, channel: CHANNEL });
+  const ctx = await headed.newContext({ viewport: { width: 1280, height: 860 } });
+  const p = await ctx.newPage();
+  await p.goto(`${BASE}/login`, { waitUntil: "domcontentloaded" });
+  console.log("  Sign in in the browser window — waiting up to 10 minutes…");
+  await p.waitForURL(/\/dashboard/, { timeout: 600_000 });
+  await ctx.storageState({ path: STATE_FILE });
+  console.log(`  signed in — session saved to .auth-capture.json`);
+  await headed.close();
+  process.exit(0);
+}
+
 mkdirSync(OUT, { recursive: true });
 
-const browser = await chromium.launch();
+const browser = await chromium.launch({ channel: CHANNEL });
 const context = await browser.newContext({
+  ...(haveState ? { storageState: STATE_FILE } : {}),
   viewport: { width: 1440, height: 900 },
   // 2x, so the images stay sharp on the retina screens most readers are on. It doubles the file
   // size, which is why the shots are clipped rather than full-page.
@@ -487,6 +526,22 @@ const context = await browser.newContext({
  * was added.
  */
 await context.addCookies([{ name: "aircierge_theme", value: "light", url: BASE }]);
+// A saved session carries its own localStorage, which outranks the cookie — so set it there too.
+await context.addInitScript(() => {
+  try {
+    localStorage.setItem("aircierge_theme", "light");
+  } catch {}
+});
+
+// Santi's speech bubble under the header mascot ("4 guest messages are waiting") floats over the
+// page whenever the demo inbox has unread threads — about the inbox, not the screen in the shot.
+await context.addInitScript(() => {
+  document.addEventListener("DOMContentLoaded", () => {
+    const style = document.createElement("style");
+    style.textContent = ".santi-says__bubble { display: none !important; }";
+    document.head.appendChild(style);
+  });
+});
 
 const page = await context.newPage();
 // The Amplify preview is a cold-start Next.js server: the first navigation and the first hit on
@@ -515,10 +570,10 @@ if (needsLogin) {
  * has a coach mark over the thing it is meant to show.
  */
 async function dismissTour(waitMs = 1000) {
-  // The three locales' wording for the defer control (content/<locale>/product/pages/tour.json).
+  // Each locale's wording for the defer control (content/<locale>/product/pages/tour.json).
   // Deferring once is recorded server-side, so in practice only the first call does anything.
   const defer = page.getByRole("button", {
-    name: /Don't show me this again|Jangan tampilkan lagi|Đừng hiện lại nữa/i,
+    name: /Don't show me this again|Jangan tampilkan lagi|Đừng hiện lại nữa|ไม่ต้องแสดงอีก/i,
   });
   try {
     await defer.first().waitFor({ state: "visible", timeout: waitMs });
@@ -529,10 +584,31 @@ async function dismissTour(waitMs = 1000) {
   }
 }
 
+/*
+ * The workspace health strip (components/health-strip.tsx) — a red "Booking.com is not
+ * connected" bar above every dashboard page when a channel needs attention. It is about the
+ * capture workspace, not the screen being documented, so hide it with its own X. That only writes
+ * localStorage in this browser; nothing changes on the server or the channel. Never "Fix".
+ */
+async function dismissHealth(waitMs = 1500) {
+  const hide = page.getByRole("button", {
+    name: /Hide until something changes|Sembunyikan sampai ada perubahan|Ẩn cho đến khi có thay đổi|ซ่อนจนกว่าจะมีการเปลี่ยนแปลง/i,
+  });
+  try {
+    // The strip mounts after the workspace health check answers — seconds after first paint on a
+    // cold dev server — so the first look waits for it; later looks only catch a late arrival.
+    await hide.first().waitFor({ state: "visible", timeout: waitMs });
+    await hide.first().click();
+    await hide.first().waitFor({ state: "hidden", timeout: 5_000 });
+  } catch {
+    // No strip: the workspace has nothing that needs attention.
+  }
+}
+
 // THE TOUR MOUNTS AFTER THE PAGE SETTLES, not with it. Dismissing immediately after login found
 // nothing and every screenshot came back with a coach mark over the metric tiles; this waits for
 // it to appear once, and the deferral then holds for the rest of the run.
-if (needsLogin) {
+if (needsShots) {
   await page.waitForTimeout(2500);
   await dismissTour(15_000);
 }
@@ -556,6 +632,9 @@ for (const locale of LOCALES) {
     const path = typeof shot.path === "function" ? await shot.path(page) : shot.path;
     await page.goto(`${BASE}${path}`, { waitUntil: "domcontentloaded" });
     await dismissTour();
+    // Before the steps: hiding the strip moves the page up, which would shift anything a step
+    // has already opened or dragged.
+    if (!shot.guest) await dismissHealth(6000);
 
     /*
      * `steps` opens whatever the shot is actually about: a dialog, the command palette, a tab.
@@ -571,6 +650,8 @@ for (const locale of LOCALES) {
         } else if (step.fill) {
           const value = typeof step.fill.value === "string" ? step.fill.value : step.fill.value[locale];
           await page.locator(step.fill.css).first().fill(value, { timeout: 10_000 });
+        } else if (step.waitGone) {
+          await page.waitForFunction((css) => !document.querySelector(css), step.waitGone, { timeout: 120_000 });
         } else if (step.waitText) {
           await page.getByText(step.waitText).first().waitFor({ timeout: 60_000 });
         } else if (step.waitAnswer) {
@@ -665,9 +746,28 @@ for (const locale of LOCALES) {
       console.warn(`  ! ${shot.id}.${locale}: still busy after 20s — capturing anyway`);
     }
     await dismissTour();
+    await dismissHealth();
     // Charts and the brief animate in; a fixed beat after the data lands beats racing a
     // transition.
     await page.waitForTimeout(1200);
+    await dismissHealth(300);
+
+    /*
+     * NEVER PHOTOGRAPH A SKELETON. "networkidle" is not "loaded": a cold `next dev` route, the
+     * brief and the charts still show pulsing placeholder bars after the network goes quiet.
+     * Wait until nothing on the page is pulsing, spinning or marked busy — then a beat for the
+     * content to fade in.
+     */
+    try {
+      await page.waitForFunction(
+        () => !document.querySelector("main .animate-pulse, main .animate-spin, main [aria-busy='true'], main [data-loading='true']"),
+        null,
+        { timeout: 60_000 },
+      );
+      await page.waitForTimeout(800);
+    } catch {
+      console.warn(`  ! ${shot.id}.${locale}: still showing loading placeholders after 60s — check this shot`);
+    }
 
     /*
      * BACK TO THE TOP BEFORE THE SHUTTER.
@@ -678,6 +778,10 @@ for (const locale of LOCALES) {
      * which is exactly how the Connect Airbnb box ended up sitting below its button.
      */
     await page.evaluate(() => window.scrollTo(0, 0));
+    // PARK THE POINTER. After a drag or a click the mouse still rests on the page, and a hover
+    // card (a booking's details on the calendar) opens under it — it was in the Thai "Save all"
+    // shot, covering the room column. A corner of the header hovers over nothing.
+    await page.mouse.move(1, 1);
     await page.waitForTimeout(300);
 
     /*
@@ -812,8 +916,8 @@ await browser.close();
  * scripts/build-diagrams.mjs carries the same line for the same reason.
  */
 for (const store of [
-  new URL("../.astro/data-store.json", import.meta.url).pathname,
-  new URL("../node_modules/.astro/data-store.json", import.meta.url).pathname,
+  fileURLToPath(new URL("../.astro/data-store.json", import.meta.url)),
+  fileURLToPath(new URL("../node_modules/.astro/data-store.json", import.meta.url)),
 ]) {
   rmSync(store, { force: true });
 }

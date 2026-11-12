@@ -24,7 +24,7 @@ Kedua blok berada di halaman yang sama:
 
 ## Bahasa dan zona waktu
 
-- **Bahasa** mengubah antarmuka **untuk Anda**. English, Bahasa Indonesia, dan Tiếng Việt.
+- **Bahasa** mengubah antarmuka **untuk Anda**. English, Bahasa Indonesia, Tiếng Việt, dan ไทย.
 - **Zona waktu** adalah preferensi tampilan Anda sendiri.
 
 Keduanya tidak mengubah apa pun bagi orang lain — dan keduanya bukan yang menggerakkan ringkasan
@@ -88,7 +88,7 @@ Tiga hal yang perlu diketahui:
 
 :::caution[Pesan ini mungkin muncul dalam bahasa Inggris]
 Pesan penguncian saat ini ditampilkan dalam bahasa Inggris meskipun sisa halaman masuk berbahasa
-Indonesia atau Vietnam. Artinya seperti yang dijelaskan di atas.
+Indonesia, Vietnam, atau Thailand. Artinya seperti yang dijelaskan di atas.
 :::
 
 ## Tetap masuk

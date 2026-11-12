@@ -39,13 +39,16 @@ per workspace.
 
 ![The team screen: who is in the workspace, their role, and what they can reach.](/screens/team.en.png)
 
-## The three roles
+## The six roles
 
 | Role | Sees | Typical use |
 | --- | --- | --- |
 | **Host admin** | Everything: full portfolio visibility and billing | You, and anyone you trust with the money |
 | **Co-host** | Scoped workflow access for daily operations | A partner, a manager, a maintenance lead |
 | **Cleaner** | Their own assigned cleans, and enough about the building to find it | Your cleaning staff |
+| **Technician** | Their own assigned tickets, and the team chat | Your maintenance staff |
+| **Bookkeeper** | Reports, payouts, expenses and owners — the money only, never a guest's name | Your accountant |
+| **Driver** | Their own airport transfers, and the team chat. The guest's first name and phone appear only around the pickup | Your driver |
 
 There is no separate "property manager" role, and you do not need one: a **co-host scoped to two
 buildings** is a property manager. Scope is the second half of every invitation — see below.
