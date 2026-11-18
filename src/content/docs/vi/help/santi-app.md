@@ -18,8 +18,8 @@ việc hơn cho bạn, luôn sau khi bạn duyệt.
 
 ## Vào ứng dụng
 
-Hiện Santi **chỉ dành cho người được mời**. Hãy xin lời mời từ đội ngũ Santara AI — liên kết gắn với
-email Santara AI của bạn và có hiệu lực 14 ngày. Mở liên kết, rồi:
+Ai có tài khoản Santara AI cũng dùng được Santi — chủ nhà, đồng chủ nhà và nhân viên dọn phòng. Mở
+[santi.santara.ai](https://santi.santara.ai), rồi:
 
 1. **Tiếp tục với Santara AI** — bạn đăng nhập trên Santara AI, nên Santi không bao giờ thấy mật khẩu
    của bạn.
@@ -158,5 +158,5 @@ hạn đặt lại vào ngày hôm sau. Tin nhắn trò chuyện được giữ 
 xác nhận vẫn ở lại cho tới khi bạn bảo Santi quên.
 
 :::note
-Santi trên WhatsApp và Zalo chưa có — hiện tại ứng dụng là cách để dùng Santi.
+Santi cũng có trong các ứng dụng chat đội của bạn đang dùng: [Santi trên Telegram](/vi/help/santi-telegram/) và [Santi trên Zalo](/vi/help/santi-zalo/). WhatsApp hiện chưa có.
 :::

@@ -334,6 +334,128 @@ function messageTranslation(t) {
   return svg(W, H, t.title, parts.join("\n  "));
 }
 
+// ── phone chat mock-ups (Santi on Telegram / Zalo tutorials) ────────────────────────────────
+// Not screenshots: an illustration of each step, drawn the same way in every language. One
+// figure = up to 3 phones side by side, each with a numbered step and a caption under it.
+// Text inside bubbles is wrapped by character count (no browser to measure with), so a long
+// Vietnamese line breaks instead of running out of its bubble.
+const PH_W = 200;
+const PH_GAP = 18;
+const FS = 10.5;
+const LEAD = 14;
+const ME_WASH = "var(--sl-color-accent-low, #dbe4ff)";
+const OK = "var(--santara-ok, #12805c)";
+
+function wrapChars(s, max) {
+  const out = [];
+  for (const para of String(s).split("\n")) {
+    let line = "";
+    for (const word of para.split(/\s+/)) {
+      if (!word) continue;
+      if ((line ? line.length + 1 : 0) + word.length > max && line) {
+        out.push(line);
+        line = word;
+      } else line = line ? `${line} ${word}` : word;
+    }
+    out.push(line);
+  }
+  return out;
+}
+
+/** Draws one phone's content at (x, y); returns { parts, height }. */
+function phoneBody(ph, x, y) {
+  const parts = [];
+  const inner = PH_W - 20;
+  let cy = y + 44; // below the header bar
+  // header: chat name
+  parts.push(`<rect x="${x}" y="${y}" width="${PH_W}" height="34" rx="16" fill="${SURFACE}"/>`);
+  parts.push(`<rect x="${x}" y="${y + 18}" width="${PH_W}" height="16" fill="${SURFACE}"/>`);
+  parts.push(`<circle cx="${x + 20}" cy="${y + 17}" r="9" fill="${ph.headerColor ?? ACCENT}"/>`);
+  parts.push(text(x + 35, y + 21, [ph.title], { size: 11, weight: 600 }));
+  for (const item of ph.items) {
+    if (item.kind === "me" || item.kind === "bot") {
+      const lines = wrapChars(item.text, 25);
+      const w = Math.min(150, Math.max(...lines.map((l) => l.length)) * FS * EM + 18);
+      const h = lines.length * LEAD + 10;
+      const bx = item.kind === "me" ? x + PH_W - 10 - w : x + 10;
+      parts.push(box(bx, cy, w, h, { fill: item.kind === "me" ? ME_WASH : CARD, stroke: item.kind === "me" ? ME_WASH : LINE, r: 9 }));
+      parts.push(text(bx + 9, cy + 15, lines, { size: FS, leading: LEAD }));
+      cy += h + 5;
+      for (const row of item.buttons ?? []) {
+        const bw = (150 - (row.length - 1) * 4) / row.length;
+        row.forEach((label, i) => {
+          const btx = x + 10 + i * (bw + 4);
+          parts.push(box(btx, cy, bw, 22, { fill: CARD, stroke: ACCENT, r: 6 }));
+          parts.push(text(btx + bw / 2, cy + 15, [label], { size: 9.5, weight: 600, fill: ACCENT, anchor: "middle" }));
+        });
+        cy += 26;
+      }
+      cy += 4;
+    } else if (item.kind === "photos") {
+      for (let i = 0; i < 3; i++) {
+        const px = x + PH_W - 10 - (3 - i) * 34;
+        parts.push(box(px, cy, 30, 30, { fill: ACCENT_WASH, stroke: ACCENT_WASH, r: 5 }));
+        parts.push(`<path d="M${px + 5} ${cy + 24} L${px + 12} ${cy + 15} L${px + 18} ${cy + 21} L${px + 22} ${cy + 17} L${px + 26} ${cy + 24} Z" fill="${ACCENT}" opacity="0.55"/>`);
+      }
+      cy += 36;
+      if (item.text) {
+        parts.push(text(x + PH_W - 10, cy + 6, [item.text], { size: 9.5, fill: MUTED, anchor: "end" }));
+        cy += 14;
+      }
+    } else if (item.kind === "page") {
+      // a web page (the link page / Zalo's invite page)
+      const lines = item.lines.flatMap((l) => wrapChars(l, 27));
+      const h = 30 + lines.length * LEAD + 34;
+      parts.push(box(x + 8, cy, PH_W - 16, h, { fill: CARD, stroke: LINE, r: 10 }));
+      parts.push(text(x + 18, cy + 20, [item.heading], { size: 12, weight: 700 }));
+      parts.push(text(x + 18, cy + 38, lines, { size: 10, fill: MUTED, leading: LEAD }));
+      const by = cy + 30 + lines.length * LEAD + 6;
+      parts.push(box(x + 18, by, PH_W - 36, 22, { fill: ACCENT, stroke: ACCENT, r: 11 }));
+      parts.push(text(x + PH_W / 2, by + 15, [item.button], { size: 10, weight: 700, fill: "#ffffff", anchor: "middle" }));
+      cy += h + 8;
+    } else if (item.kind === "pick") {
+      // a list to choose from (Zalo: which group)
+      parts.push(text(x + 12, cy + 10, [item.label], { size: 9.5, fill: MUTED }));
+      cy += 16;
+      for (const [i, row] of item.rows.entries()) {
+        const on = i === item.selected;
+        parts.push(box(x + 8, cy, PH_W - 16, 24, { fill: on ? ACCENT_WASH : CARD, stroke: on ? ACCENT : LINE, r: 7 }));
+        parts.push(text(x + 18, cy + 16, [`${on ? "✓ " : ""}${row}`], { size: 10, weight: on ? 600 : 400, fill: on ? ACCENT : INK }));
+        cy += 28;
+      }
+      cy += 4;
+    } else if (item.kind === "note") {
+      parts.push(text(x + PH_W / 2, cy + 10, [item.text], { size: 9.5, fill: MUTED, anchor: "middle" }));
+      cy += 18;
+    }
+  }
+  return { parts, height: cy - y + 6 };
+}
+
+function phones(t) {
+  const n = t.phones.length;
+  const W = n * PH_W + (n - 1) * PH_GAP + 24;
+  const top = 34;
+  const heights = t.phones.map((ph) => phoneBody(ph, 0, 0).height);
+  extents = []; // the dry run above recorded extents at x = 0; only the real draw counts
+  const phoneH = Math.max(...heights, 300);
+  const capLines = t.phones.map((ph) => wrapChars(ph.caption, 32));
+  const capH = Math.max(...capLines.map((l) => l.length)) * 15;
+  const H = top + phoneH + 16 + capH + 10;
+  const parts = [];
+  t.phones.forEach((ph, i) => {
+    const x = 12 + i * (PH_W + PH_GAP);
+    parts.push(`<circle cx="${x + 12}" cy="16" r="11" fill="${ACCENT}"/>`);
+    parts.push(text(x + 12, 20, [String(i + 1)], { size: 12, weight: 700, fill: "#ffffff", anchor: "middle" }));
+    parts.push(text(x + 30, 20, [ph.step], { size: 11.5, weight: 700 }));
+    parts.push(box(x, top, PH_W, phoneH, { fill: CARD, stroke: LINE, r: 18 }));
+    parts.push(...phoneBody(ph, x, top).parts);
+    parts.push(text(x + PH_W / 2, top + phoneH + 18, capLines[i], { size: 10.5, fill: MUTED, anchor: "middle", leading: 15 }));
+    if (i < n - 1) parts.push(arrowRight(x + PH_W + 3, x + PH_W + PH_GAP - 3, top + phoneH / 2, { stroke: ACCENT }));
+  });
+  return svg(W, H, t.title, parts.join("\n  "));
+}
+
 const LABELS = {
   "ai-connect": {
     render: aiConnect,
@@ -601,6 +723,128 @@ const LABELS = {
     },
   },
 };
+
+// ── Santi in chat apps: the words in each picture (same wording as the bot, aircierge-santi
+//    src/channels/lines.ts) ─────────────────────────────────────────────────────────────────
+const CHAT = {
+  en: {
+    hi: "What's on today?", linkMsg: "Hi Linh 👋 Sign in once with Santara so I know it's you.", signIn: "Sign in with Santara",
+    pageHead: "Link Telegram?", pageHeadZ: "Link Zalo?", page: ["Telegram account Linh will talk to Santi as linh@villa.co in Villa Co."], pageZ: ["Zalo account Linh will talk to Santi as linh@villa.co in Villa Co."],
+    linkBtn: "Link Telegram", linkBtnZ: "Link Zalo",
+    linked: "Linked ✅ You're in Villa Co.", answer: "Today: 2 arrivals, 3 cleans. Villa A is ready by 14:00.",
+    browser: "santi.santara.ai", zaloLink: "Sign in with Santara: santi.santara.ai/link/zalo?t=…",
+    s1: "Say hi", s2: "Check and link", s3: "Ask anything",
+    c1: "Send any message — Santi replies with a sign-in.", c2: "Sign in to Santara AI; check it names YOU, then link.", c3: "Santi answers your first question.",
+    group: "Villa team", addMembers: "Add members", addHost: "Add Santi to the group",
+    use: "/use", bound: "This group now works with Villa Co. Here I only handle cleaning, tickets and dates.",
+    jobs: "@AskSantiBot /jobs", jobsZ: "@Santi /jobs", today: "Today's cleaning:\n• Villa A · 11:00–15:00",
+    start: "▶ Start", done: "✅ Done", startZ: "[1] ▶ Start · Villa A", doneZ: "[2] ✅ Done · Villa A", two: "2",
+    finished: "✅ Linh finished Villa A.",
+    g1: "Add the bot", g2: "A host sends /use", g3: "Mention Santi",
+    gc1: "Add @AskSantiBot to the group as a member.", gc2: "A host, admin or co-host connects the group.", gc3: "Start with @AskSantiBot or a /command.",
+    zinvite: "Invite Bot SantiAI to a group", zinviteLines: ["Choose the group Bot SantiAI will join."], zpick: "Your groups", zgroups: ["Villa team", "Family"], zbtn: "Add to group",
+    zg1: "Open the invite link", zg2: "A host sends /use", zg3: "Mention Santi",
+    zgc1: "On your phone: pick the group, tap Add.", zgc2: "A host, admin or co-host connects the group.", zgc3: "Choices come numbered — reply 2 to tap Done.",
+    photoNote: "3 photos", which: "📷 Which job are these photos for?", job: "📷 Villa A · 11:00–15:00", cancel: "Cancel",
+    added: "📷 3 photos added to Villa A.", ph1: "Send photos", ph2: "Pick the job", ph3: "Attached",
+    pc1: "In a group, add @AskSantiBot to the caption.", pc2: "Santi asks once, even for an album.", pc3: "They're on the job in Santara AI; tap Done.",
+    tTg: "Connecting Santi on Telegram", tZa: "Connecting Santi on Zalo", tTgG: "Adding Santi to a Telegram group", tZaG: "Adding Santi to a Zalo group", tPh: "Sending cleaning photos to Santi",
+  },
+  vi: {
+    hi: "Hôm nay có gì?", linkMsg: "Chào Linh 👋 Đăng nhập Santara một lần để mình biết là bạn.", signIn: "Đăng nhập Santara",
+    pageHead: "Link Telegram?", pageHeadZ: "Link Zalo?", page: ["Tài khoản Telegram Linh sẽ dùng Santi với tên linh@villa.co ở Villa Co."], pageZ: ["Tài khoản Zalo Linh sẽ dùng Santi với tên linh@villa.co ở Villa Co."],
+    linkBtn: "Link Telegram", linkBtnZ: "Link Zalo",
+    linked: "Đã liên kết ✅ Bạn đang ở Villa Co.", answer: "Hôm nay: 2 khách đến, 3 việc dọn. Villa A xong trước 14:00.",
+    browser: "santi.santara.ai", zaloLink: "Đăng nhập Santara: santi.santara.ai/link/zalo?t=…",
+    s1: "Nhắn chào", s2: "Kiểm tra và liên kết", s3: "Hỏi bất cứ gì",
+    c1: "Nhắn bất kỳ — Santi gửi lời mời đăng nhập.", c2: "Đăng nhập Santara AI; kiểm tra đúng là BẠN rồi liên kết.", c3: "Santi trả lời câu hỏi đầu tiên.",
+    group: "Đội Villa", addMembers: "Thêm thành viên", addHost: "Thêm Santi vào nhóm",
+    use: "/use", bound: "Nhóm này giờ làm việc với Villa Co. Ở đây mình lo dọn phòng, sự cố và lịch.",
+    jobs: "@AskSantiBot /jobs", jobsZ: "@Santi /jobs", today: "Lịch dọn hôm nay:\n• Villa A · 11:00–15:00",
+    start: "▶ Bắt đầu", done: "✅ Xong", startZ: "[1] ▶ Bắt đầu · Villa A", doneZ: "[2] ✅ Xong · Villa A", two: "2",
+    finished: "✅ Linh đã dọn xong Villa A.",
+    g1: "Thêm bot", g2: "Chủ nhà gửi /use", g3: "Nhắc tên Santi",
+    gc1: "Thêm @AskSantiBot vào nhóm như một thành viên.", gc2: "Chủ nhà, admin hoặc đồng chủ nhà kết nối nhóm.", gc3: "Bắt đầu bằng @AskSantiBot hoặc /lệnh.",
+    zinvite: "Mời Bot SantiAI vào nhóm", zinviteLines: ["Chọn nhóm mà Bot SantiAI sẽ tham gia."], zpick: "Nhóm của bạn", zgroups: ["Đội Villa", "Gia đình"], zbtn: "Thêm vào nhóm",
+    zg1: "Mở link mời", zg2: "Chủ nhà gửi /use", zg3: "Nhắc tên Santi",
+    zgc1: "Trên điện thoại: chọn nhóm, bấm Thêm.", zgc2: "Chủ nhà, admin hoặc đồng chủ nhà kết nối nhóm.", zgc3: "Lựa chọn có số — trả lời 2 để báo Xong.",
+    photoNote: "3 ảnh", which: "📷 Ảnh này cho việc dọn nào?", job: "📷 Villa A · 11:00–15:00", cancel: "Hủy",
+    added: "📷 Đã gắn 3 ảnh vào Villa A.", ph1: "Gửi ảnh", ph2: "Chọn việc dọn", ph3: "Đã gắn",
+    pc1: "Trong nhóm, thêm @AskSantiBot vào chú thích.", pc2: "Santi hỏi một lần, kể cả album.", pc3: "Ảnh nằm trong việc dọn ở Santara AI; bấm Xong.",
+    tTg: "Kết nối Santi trên Telegram", tZa: "Kết nối Santi trên Zalo", tTgG: "Thêm Santi vào nhóm Telegram", tZaG: "Thêm Santi vào nhóm Zalo", tPh: "Gửi ảnh dọn phòng cho Santi",
+  },
+  id: {
+    hi: "Ada apa hari ini?", linkMsg: "Hai Linh 👋 Masuk sekali dengan Santara supaya saya tahu ini Anda.", signIn: "Masuk dengan Santara",
+    pageHead: "Link Telegram?", pageHeadZ: "Link Zalo?", page: ["Akun Telegram Linh akan memakai Santi sebagai linh@villa.co di Villa Co."], pageZ: ["Akun Zalo Linh akan memakai Santi sebagai linh@villa.co di Villa Co."],
+    linkBtn: "Link Telegram", linkBtnZ: "Link Zalo",
+    linked: "Tertaut ✅ Anda di Villa Co.", answer: "Hari ini: 2 tamu tiba, 3 tugas kebersihan. Villa A siap 14:00.",
+    browser: "santi.santara.ai", zaloLink: "Masuk dengan Santara: santi.santara.ai/link/zalo?t=…",
+    s1: "Sapa Santi", s2: "Periksa dan tautkan", s3: "Tanya apa saja",
+    c1: "Kirim pesan apa saja — Santi membalas dengan tautan masuk.", c2: "Masuk ke Santara AI; pastikan itu ANDA, lalu tautkan.", c3: "Santi menjawab pertanyaan pertama Anda.",
+    group: "Tim Villa", addMembers: "Tambah anggota", addHost: "Tambahkan Santi ke grup",
+    use: "/use", bound: "Grup ini sekarang terhubung ke Villa Co. Di sini saya menangani kebersihan, tiket, dan tanggal.",
+    jobs: "@AskSantiBot /jobs", jobsZ: "@Santi /jobs", today: "Kebersihan hari ini:\n• Villa A · 11:00–15:00",
+    start: "▶ Mulai", done: "✅ Selesai", startZ: "[1] ▶ Mulai · Villa A", doneZ: "[2] ✅ Selesai · Villa A", two: "2",
+    finished: "✅ Linh selesai Villa A.",
+    g1: "Tambahkan bot", g2: "Host mengirim /use", g3: "Sebut Santi",
+    gc1: "Tambahkan @AskSantiBot ke grup sebagai anggota.", gc2: "Host, admin, atau co-host menghubungkan grup.", gc3: "Mulai dengan @AskSantiBot atau /perintah.",
+    zinvite: "Undang Bot SantiAI ke grup", zinviteLines: ["Pilih grup yang akan diikuti Bot SantiAI."], zpick: "Grup Anda", zgroups: ["Tim Villa", "Keluarga"], zbtn: "Tambahkan ke grup",
+    zg1: "Buka tautan undangan", zg2: "Host mengirim /use", zg3: "Sebut Santi",
+    zgc1: "Di ponsel: pilih grup, ketuk Tambahkan.", zgc2: "Host, admin, atau co-host menghubungkan grup.", zgc3: "Pilihan bernomor — balas 2 untuk Selesai.",
+    photoNote: "3 foto", which: "📷 Foto ini untuk tugas yang mana?", job: "📷 Villa A · 11:00–15:00", cancel: "Batal",
+    added: "📷 3 foto ditambahkan ke Villa A.", ph1: "Kirim foto", ph2: "Pilih tugasnya", ph3: "Terlampir",
+    pc1: "Di grup, tambahkan @AskSantiBot di keterangan.", pc2: "Santi bertanya sekali, termasuk untuk album.", pc3: "Foto ada di tugas di Santara AI; ketuk Selesai.",
+    tTg: "Menghubungkan Santi di Telegram", tZa: "Menghubungkan Santi di Zalo", tTgG: "Menambahkan Santi ke grup Telegram", tZaG: "Menambahkan Santi ke grup Zalo", tPh: "Mengirim foto kebersihan ke Santi",
+  },
+};
+
+const TG = "#2aabee";
+const ZA = "#0068ff";
+const perLocale = (build) => Object.fromEntries(Object.entries(CHAT).map(([loc, w]) => [loc, build(w)]));
+
+const CHAT_FIGURES = {
+  "santi-telegram-connect": perLocale((w) => ({
+    title: w.tTg,
+    phones: [
+      { step: w.s1, caption: w.c1, title: "Santi", headerColor: TG, items: [{ kind: "me", text: w.hi }, { kind: "bot", text: w.linkMsg, buttons: [[w.signIn]] }] },
+      { step: w.s2, caption: w.c2, title: w.browser, headerColor: ACCENT, items: [{ kind: "page", heading: w.pageHead, lines: w.page, button: w.linkBtn }] },
+      { step: w.s3, caption: w.c3, title: "Santi", headerColor: TG, items: [{ kind: "bot", text: w.linked }, { kind: "bot", text: w.answer }] },
+    ],
+  })),
+  "santi-zalo-connect": perLocale((w) => ({
+    title: w.tZa,
+    phones: [
+      { step: w.s1, caption: w.c1, title: "Bot SantiAI", headerColor: ZA, items: [{ kind: "me", text: w.hi }, { kind: "bot", text: `${w.linkMsg}\n${w.zaloLink}` }] },
+      { step: w.s2, caption: w.c2, title: w.browser, headerColor: ACCENT, items: [{ kind: "page", heading: w.pageHeadZ, lines: w.pageZ, button: w.linkBtnZ }] },
+      { step: w.s3, caption: w.c3, title: "Bot SantiAI", headerColor: ZA, items: [{ kind: "bot", text: w.linked }, { kind: "bot", text: w.answer }] },
+    ],
+  })),
+  "santi-telegram-group": perLocale((w) => ({
+    title: w.tTgG,
+    phones: [
+      { step: w.g1, caption: w.gc1, title: w.group, headerColor: TG, items: [{ kind: "note", text: w.addMembers }, { kind: "pick", label: "@AskSantiBot", rows: ["Santi · @AskSantiBot"], selected: 0 }] },
+      { step: w.g2, caption: w.gc2, title: w.group, headerColor: TG, items: [{ kind: "me", text: w.use }, { kind: "bot", text: w.bound }] },
+      { step: w.g3, caption: w.gc3, title: w.group, headerColor: TG, items: [{ kind: "me", text: w.jobs }, { kind: "bot", text: w.today, buttons: [[w.start, w.done]] }, { kind: "bot", text: w.finished }] },
+    ],
+  })),
+  "santi-zalo-group": perLocale((w) => ({
+    title: w.tZaG,
+    phones: [
+      { step: w.zg1, caption: w.zgc1, title: "Zalo", headerColor: ZA, items: [{ kind: "page", heading: w.zinvite, lines: w.zinviteLines, button: w.zbtn }, { kind: "pick", label: w.zpick, rows: w.zgroups, selected: 0 }] },
+      { step: w.zg2, caption: w.zgc2, title: w.zgroups[0], headerColor: ZA, items: [{ kind: "me", text: w.use }, { kind: "bot", text: w.bound }] },
+      { step: w.zg3, caption: w.zgc3, title: w.zgroups[0], headerColor: ZA, items: [{ kind: "me", text: w.jobsZ }, { kind: "bot", text: `${w.today}\n\n${w.startZ}\n${w.doneZ}` }, { kind: "me", text: w.two }, { kind: "bot", text: w.finished }] },
+    ],
+  })),
+  "santi-photos": perLocale((w) => ({
+    title: w.tPh,
+    phones: [
+      { step: w.ph1, caption: w.pc1, title: "Santi", headerColor: TG, items: [{ kind: "photos", text: w.photoNote }] },
+      { step: w.ph2, caption: w.pc2, title: "Santi", headerColor: TG, items: [{ kind: "photos" }, { kind: "bot", text: w.which, buttons: [[w.job], [w.cancel]] }] },
+      { step: w.ph3, caption: w.pc3, title: "Santi", headerColor: TG, items: [{ kind: "bot", text: w.added, buttons: [[`${w.done} · Villa A`]] }] },
+    ],
+  })),
+};
+for (const [id, labels] of Object.entries(CHAT_FIGURES)) LABELS[id] = { render: phones, ...labels };
 
 mkdirSync(OUT, { recursive: true });
 

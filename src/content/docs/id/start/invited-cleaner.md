@@ -83,6 +83,18 @@ mereka, dan pemilik bisa mengirimkannya lewat Zalo, WhatsApp, Messenger, Telegra
 Banyak tim kebersihan bekerja sepenuhnya dengan cara ini. Lihat
 [Klaster kebersihan](/id/daily/tasks/#klaster-kebersihan).
 
+## Mulai, selesaikan, dan kirim foto dari Telegram atau Zalo
+
+Kalau tim Anda mengobrol di Telegram atau Zalo, Anda bisa mengerjakan tugas di sana bersama Santi:
+
+- Kirim **/jobs** untuk melihat tugas kebersihan hari ini, lalu tekan **▶ Mulai** dan **✅ Selesai**
+  untuk masing-masing (di Zalo, balas dengan angka yang ditampilkan).
+- Kirim **foto** dan pilih tugasnya — foto dilampirkan ke tugas itu di Santara AI, tempat pemilik
+  melihatnya.
+
+Anda menautkan Telegram atau Zalo sekali dengan akun Santara AI, dan Santi hanya menampilkan
+**tugas Anda**. Lihat [Santi di Telegram](/id/help/santi-telegram/) atau [Santi di Zalo](/id/help/santi-zalo/).
+
 ## Di ponsel
 
 **Aplikasi Santara AI** ada di [App Store](https://apps.apple.com/app/id6829604736) untuk iPhone dan di

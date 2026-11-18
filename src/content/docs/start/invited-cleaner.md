@@ -80,6 +80,18 @@ product writes one plan per group of rooms, listing that group's jobs and nothin
 business, and the owner can send it to you on Zalo, WhatsApp, Messenger, Telegram, SMS or email.
 Many cleaning teams work entirely this way. See [Cleaning clusters](/daily/tasks/#cleaning-clusters).
 
+## Start, finish and send photos from Telegram or Zalo
+
+If your team chats on Telegram or Zalo, you can do your jobs there with Santi:
+
+- Send **/jobs** to see today's cleans, then **▶ Start** and **✅ Done** each one (on Zalo you reply
+  with the number shown).
+- Send your **photos** and pick the job they belong to — they are attached to the job in Santara AI,
+  where the owner sees them.
+
+You link your Telegram or Zalo once with your Santara AI login, and Santi only shows **your** jobs.
+See [Santi on Telegram](/help/santi-telegram/) or [Santi on Zalo](/help/santi-zalo/).
+
 ## On your phone
 
 The **Santara AI app** is on the [App Store](https://apps.apple.com/app/id6829604736) for iPhone and on

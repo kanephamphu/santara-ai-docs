@@ -83,6 +83,18 @@ của họ, và chủ nhà có thể gửi cho bạn qua Zalo, WhatsApp, Messeng
 Nhiều đội dọn phòng làm việc hoàn toàn theo cách này. Xem
 [Cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng).
 
+## Bắt đầu, báo xong và gửi ảnh từ Telegram hoặc Zalo
+
+Nếu đội bạn nhắn tin trên Telegram hoặc Zalo, bạn có thể làm việc ngay ở đó với Santi:
+
+- Gửi **/jobs** để xem các việc dọn hôm nay, rồi bấm **▶ Bắt đầu** và **✅ Xong** cho từng việc (trên
+  Zalo, bạn trả lời bằng con số hiện ra).
+- Gửi **ảnh** và chọn việc dọn tương ứng — ảnh được gắn vào việc đó trong Santara AI, nơi chủ nhà
+  xem được.
+
+Bạn liên kết Telegram hoặc Zalo một lần bằng tài khoản Santara AI, và Santi chỉ hiện **việc của
+bạn**. Xem [Santi trên Telegram](/vi/help/santi-telegram/) hoặc [Santi trên Zalo](/vi/help/santi-zalo/).
+
 ## Trên điện thoại
 
 **Ứng dụng Santara AI** đã có trên [App Store](https://apps.apple.com/app/id6829604736) cho iPhone và trên

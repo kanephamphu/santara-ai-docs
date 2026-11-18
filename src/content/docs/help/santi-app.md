@@ -17,8 +17,8 @@ It runs in the browser. On a phone you can add it to your home screen and open i
 
 ## Getting in
 
-Santi is **invite-only** for now. Ask the Santara AI team for an invite — the link is tied to your
-Santara AI email and lasts 14 days. Open it, then:
+Anyone with a Santara AI account can use Santi — hosts, co-hosts and cleaners alike. Open
+[santi.santara.ai](https://santi.santara.ai), then:
 
 1. **Continue with Santara AI** — you sign in on Santara AI, so Santi never sees your password.
 2. **Pick your workspace** and press **Allow**.
@@ -158,5 +158,5 @@ resets the next day. Chat messages are kept for 7 days, then removed. Memories y
 until you tell Santi to forget them.
 
 :::note
-Santi on WhatsApp and Zalo is not available yet — for now the app is the way in.
+Santi also works in chat apps your team already uses: [Santi on Telegram](/help/santi-telegram/) and [Santi on Zalo](/help/santi-zalo/). WhatsApp is not available yet.
 :::
