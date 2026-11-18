@@ -21,6 +21,12 @@ yêu cầu mới xác nhận được thay đổi của mình).
 
 ## Kết nối
 
+:::note[Bắt đầu bằng chat riêng]
+Zalo không cho bot nhắn cho bạn trước. Vì vậy **lần đầu tiên**, hãy mở **chat riêng với Bot SantiAI**
+và nhắn ở đó — kể cả khi đội bạn dùng Santi trong nhóm. Sau khi đã liên kết, Santi trả lời bạn cả
+trong nhóm.
+:::
+
 ![Kết nối Santi trên Zalo: nhắn chào, mở liên kết đăng nhập và bấm Link Zalo, rồi hỏi bất cứ gì.](/diagrams/santi-zalo-connect.vi.svg)
 
 1. Mở **Bot SantiAI** trên Zalo — chủ nhà hoặc đội ngũ Santara AI sẽ gửi liên kết hoặc mã QR — và
@@ -66,8 +72,9 @@ bạn trả lời một danh sách cũ, hãy gửi **/jobs** để lấy danh s�
 
 4. Viết **@Santi** ở đầu tin nhắn, hoặc gửi **/lệnh** như **/jobs**.
 5. Khi Santi gửi lựa chọn có số, chỉ cần trả lời con số — **2** là bấm "Xong".
-6. Lần đầu, mỗi người tự liên kết Zalo của mình: Santi nhắn họ nhắn riêng và đăng nhập (xem
-   *Kết nối* ở trên).
+6. Mỗi người tự liên kết Zalo của mình một lần, **trong chat riêng với Bot SantiAI** (xem *Kết nối*
+   ở trên). Trước đó, Santi chỉ nhắc họ trong nhóm hãy nhắn riêng cho bot.
+7. Có thể nhắc tên bằng cách chạm: Zalo ghi **@Bot SantiAI** và Santi hiểu, giống như gõ **@Santi**.
 
 Giống trên Telegram, một nhóm đội bình thường chỉ nhận việc của đội — dọn phòng, sự cố và lịch. Hỏi
 về doanh thu, tiền chi trả hay tin nhắn khách trong chat riêng với Santi. Tính năng nhóm cho bot của
