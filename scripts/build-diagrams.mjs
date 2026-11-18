@@ -798,6 +798,39 @@ const CHAT = {
   },
 };
 
+// Discord: slash commands only (Santi has no message access), private replies "only you can see".
+const DCL = {
+  en: {
+    dAdd: "Add Santi", dAddLines: ["Add to My Apps · Add to Server"], dAuth: "Authorize",
+    dAsk: "/santi question: What's on today?", dOnly: "Only you can see this",
+    d1: "Add Santi", d2: "Ask with /santi", d3: "Linked",
+    dc1: "Open the add link and choose My Apps or a server.", dc2: "Santi sends you a private sign-in link.", dc3: "Link Discord, and Santi answers.",
+    dUse: "/use", dJobs: "/jobs", dg1: "Host sends /use", dg2: "Anyone sends /jobs", dg3: "Tap Done",
+    dgc1: "A host, admin or co-host connects the channel.", dgc2: "Today's cleans with Start / Done buttons.", dgc3: "The host sees it in Santara AI at once.",
+    tDc: "Connecting Santi on Discord", tDcG: "Santi in your team's Discord server",
+  },
+  vi: {
+    dAdd: "Thêm Santi", dAddLines: ["Thêm vào Ứng dụng của tôi · Thêm vào máy chủ"], dAuth: "Cho phép",
+    dAsk: "/santi question: Hôm nay có gì?", dOnly: "Chỉ bạn thấy tin này",
+    d1: "Thêm Santi", d2: "Hỏi bằng /santi", d3: "Đã liên kết",
+    dc1: "Mở link thêm, chọn Ứng dụng của tôi hoặc một máy chủ.", dc2: "Santi gửi riêng cho bạn liên kết đăng nhập.", dc3: "Bấm Link Discord, Santi trả lời.",
+    dUse: "/use", dJobs: "/jobs", dg1: "Chủ nhà gửi /use", dg2: "Ai cũng gửi /jobs", dg3: "Bấm Xong",
+    dgc1: "Chủ nhà, admin hoặc đồng chủ nhà kết nối kênh.", dgc2: "Lịch dọn hôm nay kèm nút Bắt đầu / Xong.", dgc3: "Chủ nhà thấy ngay trong Santara AI.",
+    tDc: "Kết nối Santi trên Discord", tDcG: "Santi trong máy chủ Discord của đội",
+  },
+  id: {
+    dAdd: "Tambahkan Santi", dAddLines: ["Tambahkan ke Aplikasi Saya · Tambahkan ke Server"], dAuth: "Otorisasi",
+    dAsk: "/santi question: Ada apa hari ini?", dOnly: "Hanya Anda yang dapat melihat ini",
+    d1: "Tambahkan Santi", d2: "Tanya dengan /santi", d3: "Tertaut",
+    dc1: "Buka tautan tambah, pilih Aplikasi Saya atau server.", dc2: "Santi mengirim tautan masuk secara pribadi.", dc3: "Link Discord, lalu Santi menjawab.",
+    dUse: "/use", dJobs: "/jobs", dg1: "Host mengirim /use", dg2: "Siapa pun mengirim /jobs", dg3: "Ketuk Selesai",
+    dgc1: "Host, admin, atau co-host menghubungkan kanal.", dgc2: "Kebersihan hari ini dengan tombol Mulai / Selesai.", dgc3: "Host langsung melihatnya di Santara AI.",
+    tDc: "Menghubungkan Santi di Discord", tDcG: "Santi di server Discord tim Anda",
+  },
+};
+const DC = "#5865f2";
+const perLocaleD = (build) => Object.fromEntries(Object.entries(CHAT).map(([loc, w]) => [loc, build({ ...w, ...DCL[loc] })]));
+
 const TG = "#2aabee";
 const ZA = "#0068ff";
 const perLocale = (build) => Object.fromEntries(Object.entries(CHAT).map(([loc, w]) => [loc, build(w)]));
@@ -833,6 +866,22 @@ const CHAT_FIGURES = {
       { step: w.zg1, caption: w.zgc1, title: "Zalo", headerColor: ZA, items: [{ kind: "page", heading: w.zinvite, lines: w.zinviteLines, button: w.zbtn }, { kind: "pick", label: w.zpick, rows: w.zgroups, selected: 0 }] },
       { step: w.zg2, caption: w.zgc2, title: w.zgroups[0], headerColor: ZA, items: [{ kind: "me", text: w.use }, { kind: "bot", text: w.bound }] },
       { step: w.zg3, caption: w.zgc3, title: w.zgroups[0], headerColor: ZA, items: [{ kind: "me", text: w.jobsZ }, { kind: "bot", text: `${w.today}\n\n${w.startZ}\n${w.doneZ}` }, { kind: "me", text: w.two }, { kind: "bot", text: w.finished }] },
+    ],
+  })),
+  "santi-discord-connect": perLocaleD((w) => ({
+    title: w.tDc,
+    phones: [
+      { step: w.d1, caption: w.dc1, title: "discord.com", headerColor: DC, items: [{ kind: "page", heading: w.dAdd, lines: w.dAddLines, button: w.dAuth }] },
+      { step: w.d2, caption: w.dc2, title: "Santi", headerColor: DC, items: [{ kind: "me", text: w.dAsk }, { kind: "bot", text: `${w.linkMsg}\n(${w.dOnly})`, buttons: [[w.signIn]] }] },
+      { step: w.d3, caption: w.dc3, title: "Santi", headerColor: DC, items: [{ kind: "bot", text: w.linked }, { kind: "bot", text: w.answer }] },
+    ],
+  })),
+  "santi-discord-server": perLocaleD((w) => ({
+    title: w.tDcG,
+    phones: [
+      { step: w.dg1, caption: w.dgc1, title: "# villa-team", headerColor: DC, items: [{ kind: "me", text: w.dUse }, { kind: "bot", text: w.bound }] },
+      { step: w.dg2, caption: w.dgc2, title: "# villa-team", headerColor: DC, items: [{ kind: "me", text: w.dJobs }, { kind: "bot", text: w.today, buttons: [[w.start, w.done]] }] },
+      { step: w.dg3, caption: w.dgc3, title: "# villa-team", headerColor: DC, items: [{ kind: "bot", text: w.finished }] },
     ],
   })),
   "santi-photos": perLocale((w) => ({
