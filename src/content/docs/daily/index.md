@@ -5,14 +5,14 @@ sidebar:
   order: 1
 ---
 
-**Today** is the default screen. It has two halves: the **daily brief**, which is the day written
-out in sentences, and the metric tiles underneath, which are the numbers.
+**Today** is the default screen. It has two tabs: **Brief**, which opens first and is the day
+written out in sentences, and **Overview**, which is the numbers and today's schedule.
 
-![Today. The brief at the top says what needs a decision; the tiles under it are the numbers behind that.](/screens/today.en.png)
+![Today, on the Brief tab: the day written out, with what needs a decision first.](/screens/today.en.png)
 
 ## The brief
 
-The brief is generated for your workspace each day and emailed to you — at **06:00** in the
+The **Brief** tab. The brief is generated for your workspace each day and emailed to you — at **06:00** in the
 workspace timezone by default, or whichever hour you pick — in the **language** you set under
 [workspace settings](/setup/workspace/#operations-preferences). The same brief is on this screen,
 and it is refreshed as the day moves. It is one dense sheet, in this order:
@@ -28,7 +28,7 @@ and it is refreshed as the day moves. It is one dense sheet, in this order:
    actually take, each with the price and the message to send.
 5. **Cleaning, three days out** — grouped by [cleaning cluster](/daily/tasks/#cleaning-clusters).
    Each cluster has a **Share** menu with that day's plan already written — send it to Zalo,
-   WhatsApp, Messenger or Telegram in one tap, or copy it. Cleaners with an email address also
+   WhatsApp, Messenger, Telegram, SMS or email, or copy it. Cleaners with an email address also
    receive their own Cleaner Brief email automatically, without revenue in it.
 6. **Tomorrow** — one line with tomorrow's arrivals, departures and turnovers.
 
@@ -58,25 +58,39 @@ the workspace timezone —
 which matters more than it sounds, because a brief generated in the wrong timezone reports
 yesterday's checkouts.
 
-## The tiles
-
-Under the brief: arrivals and departures counted, occupancy, revenue for the period, open tasks,
-unanswered messages. Each one is a link to the screen behind it.
-
 **Revenue means net payout** — what the channel actually pays you. It is labelled as such wherever
 it appears. See [Reports](/money/reports/) for the full picture.
+
+## Overview
+
+The **Overview** tab is what a manager acts on before lunch. Three tiles:
+
+| Tile | What it counts |
+| --- | --- |
+| **Occupied tonight** | The share of your units with a guest in them tonight |
+| **Arriving today** | Today's check-ins, with today's departures underneath |
+| **Waiting on a reply** | Guest threads nobody has answered |
+
+Under them: today's timeline of check-outs, cleans and check-ins, today's cleaning, and — when
+anyone is waiting — a line such as *"3 guests waiting on a reply"* that opens
+[Messages](/daily/messages/).
+
+There are no revenue tiles here. Money lives on [Reports](/money/reports/).
 
 ## Notifications
 
 Anything that needs you while you are not looking at this screen produces a notification in the
-bell menu. There are eight kinds, and they are the eight things that genuinely change your day:
+bell menu. There are sixteen kinds, and they are the things that genuinely change your day:
 
 | | |
 | --- | --- |
-| **Bookings** | A new booking, a changed booking, a cancellation |
-| **Cleaning** | A clean assigned to you, a clean marked finished |
-| **Tickets** | A ticket opened, assigned to you, or done |
+| **Bookings** | A new booking, a changed booking, a cancellation, and **Overbooked** — a room sold past its available units, so one stay has to move |
+| **Cleaning** | A clean assigned to you, a clean finished |
+| **Tickets** | A ticket opened, assigned to you, in progress, or done |
+| **Channels** | A channel connected; a channel that didn't accept an update; a channel sync warning |
+| **Guest requests** | A guest asking for an extra from the [guidebook](/setup/guidebook/) |
+| **AI assistants** | An outside assistant that needs your approval, or that made a change |
 
 Notifications are addressed by **who can act on them**, not by name, so a manager added next month
-sees the ones that were always meant for their role. Configure what you receive under
+sees the ones that were always meant for their role. More in
 [Workspace settings](/setup/workspace/#notifications).

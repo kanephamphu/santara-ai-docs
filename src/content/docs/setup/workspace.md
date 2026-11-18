@@ -13,11 +13,20 @@ foot of the sidebar, because that is where somebody looks for their own password
 | Tab | Scope |
 | --- | --- |
 | **Workspace** | Shared — name, language, timezone, currency |
-| **Booking Site** | Shared — [your direct booking site](/setup/booking-site/) |
-| **Channels** | Shared — [channel connections](/channels/) |
+| **Channels** | Shared — [channel connections](/channels/), plus an **Apps** tab (below) |
 | **Message Templates** | Shared — saved guest replies |
 | **Team** | Shared — [people and roles](/setup/team/) |
 | **Billing** | Shared — [plan and invoices](/setup/billing/) |
+
+Your [direct booking site](/setup/booking-site/) is not a Settings tab: it has its own **Booking
+Site** item in the sidebar, because its leads and booking requests are worked every week.
+
+### Connected apps
+
+**Settings → Channels → Apps** lists the apps you have allowed to use your Santara AI account —
+[Santi](/help/santi-app/), for example — with what each one can do and a **Disconnect** button.
+The account menu's **Connected apps** item opens the same tab. This list is personal: only you see
+it, and your teammates manage their own apps.
 
 ![Workspace settings: the brief's time and language, timezone, currency and the rest.](/screens/workspace-settings.en.png)
 
@@ -83,13 +92,28 @@ The bell in the header. Notifications are addressed by **who can act on them** r
 which is why a manager added next month immediately receives the ones that were always meant for
 their role — nothing has to be re-pointed at them.
 
-There are ten kinds: a booking **created**, **changed** or **cancelled**; a clean **assigned** to
-you or **finished**; a ticket **opened**, **assigned** to you or **done**; a **channel
-connected**, which names the channel, the property and how many rooms were mapped; and a **guest
-request** from the [guest guidebook](/setup/guidebook/#when-a-guest-asks-for-an-extra), which names
-the guest, the extra, its price and the room. Everything else the
+There are sixteen kinds:
+
+- **Bookings** — a booking **created**, **changed** or **cancelled**, and **Overbooked**: a room
+  sold past its available units on a future night, so one stay has to move.
+- **Cleaning** — a clean **assigned** to you, or **finished**.
+- **Tickets** — a ticket **opened**, **assigned** to you, **in progress** or **done**. The last two
+  go to whoever assigned it.
+- **Channels** — a **channel connected**, which names the channel, the property and how many rooms
+  were mapped; a channel that **didn't accept an update**, so prices or availability there may be
+  out of date; and a **sync warning**, where the update went through but is worth a look.
+- **Guest requests** — an extra asked for from the
+  [guest guidebook](/setup/guidebook/#when-a-guest-asks-for-an-extra), naming the guest, the extra,
+  its price and the room.
+- **AI assistants** — an outside assistant such as ChatGPT or Claude that **needs your approval**,
+  or that **made a change**. Only the person whose connection it used is told.
+
+Everything else the
 product knows lives on a screen rather than in the bell, on purpose — a notification list that
 reports things you cannot act on stops being read.
+
+**The new-message chime is set per device**, not here: account menu → **Personal settings** →
+**Notifications on this device** → **Message sound**. It is saved in that browser only.
 
 :::note[The first sync is quiet on purpose]
 Connecting a channel imports your booking history, sometimes a year of it. Those are not new
@@ -102,7 +126,7 @@ Saved replies with placeholders that fill themselves in from the stay — guest 
 wifi password, door code, the amount due. Shared by the workspace, so an answer your team agreed on
 is the answer everyone sends.
 
-Writing them, previewing against a real reservation, and the five you start with:
+Writing them, previewing against a real reservation, and the five defaults you can import:
 **[Message templates](/setup/message-templates/)**.
 
 ## Switching workspaces

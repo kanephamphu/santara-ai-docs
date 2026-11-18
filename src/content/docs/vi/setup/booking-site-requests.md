@@ -9,7 +9,7 @@ sidebar:
 
 ## Câu hỏi
 
-**Website đặt phòng → Khách tiềm năng** ở thanh bên. Tất cả những ai đã dùng biểu mẫu liên hệ trên
+Tab **Khách tiềm năng** trong **Website đặt phòng**. Tất cả những ai đã dùng biểu mẫu liên hệ trên
 website: tên, lời nhắn, và cách liên lạc với họ.
 
 Nếu nó trống trong khi bạn nghĩ đáng lẽ phải có, nguyên nhân thường là website không có biểu mẫu nào —
@@ -20,8 +20,11 @@ hỏi nào đến.
 
 ## Yêu cầu đặt phòng
 
-**Website đặt phòng → Yêu cầu** ở thanh bên. Những mục này chỉ tồn tại với các bất động sản bạn đặt ở
+Tab **Yêu cầu** trong **Website đặt phòng**. Yêu cầu chỉ tồn tại với các bất động sản bạn đặt ở
 **chế độ yêu cầu** thay vì đặt ngay — khách hỏi xin ngày, và không gì được giữ cho tới khi bạn đồng ý.
+
+Danh sách này cũng hiện các lượt lưu trú khách **đã đặt và thanh toán trực tuyến**, gắn nhãn **Đã
+thanh toán**, để mỗi khoản thanh toán trực tiếp luôn có một màn hình nơi bạn xem và hoàn tiền được.
 
 Màn hình cho biết bao nhiêu người đang chờ bạn, vì đó mới là con số quan trọng: một yêu cầu bị bỏ
 không trả lời là một vị khách đang quyết định đặt ở chỗ khác.
@@ -37,7 +40,21 @@ bằng sự tiện lợi.
 
 ### Tiền
 
-Santara AI lấy 3% hoa hồng trên lượt đặt đó.
+Yêu cầu đặt phòng **không được thanh toán trực tuyến** — không có khoản nào bị tính khi khách hỏi, và
+[Phí đặt phòng của khách](/vi/setup/booking-site/#5-kết-nối-stripe) (tùy chọn) không bao giờ áp dụng
+cho nó.
+
+Lượt lưu trú thanh toán trực tuyến khi checkout đi vào tài khoản Stripe của chính bạn. Nếu Phí đặt
+phòng của khách đang bật, dòng đó ghi rõ khoản phí đặt phòng đã bao gồm, phần còn lại là tiền bạn
+nhận. Để hoàn tiền:
+
+- **Hoàn tiền theo chính sách** trả lại số tiền mà
+  [chính sách hủy phòng](/vi/setup/booking-site/#giá-phụ-phí-và-chính-sách-hủy) của bạn cho phép vào
+  hôm nay — dòng đó hiện trước số tiền và tỷ lệ phần trăm.
+- **Hoàn tiền toàn bộ** trả lại mọi khoản chưa được hoàn.
+
+Các lần hoàn một phần được cộng dồn, và dòng đó cho biết đã hoàn bao nhiêu tới giờ. Hoàn tiền cũng
+trả lại phần phí đặt phòng tương ứng — Santara AI không giữ phí cho một lượt lưu trú không diễn ra.
 
 :::caution[Hoàn tiền không phải là hủy]
 **Hoàn tiền chỉ trả lại tiền. Lượt lưu trú vẫn nằm trên lịch của bạn cho tới khi bạn hủy nó** — và

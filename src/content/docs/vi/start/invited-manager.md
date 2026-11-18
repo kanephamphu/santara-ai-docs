@@ -71,7 +71,7 @@ tóm tắt như *"3 tòa nhà · 7 phòng"* trên màn hình đội ngũ là nh�
    nhận phòng. Tin nhắn cho khách và website đặt phòng đều đọc từ đó, và một nửa câu hỏi của khách
    được trả lời nhờ nó. Xem
    [Thông tin lưu trú](/vi/setup/properties/#thông-tin-lưu-trú-wifi-mã-cửa-lối-vào).
-2. **Dựng các cụm dọn phòng** để bản tóm tắt viết một tin nhắn WhatsApp cho mỗi nhân viên thay vì
+2. **Dựng các cụm dọn phòng** để bản tin viết một lịch dọn sẵn để chia sẻ cho mỗi nhân viên thay vì
    mỗi bất động sản — [Cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng).
 3. **Viết các mẫu tin nhắn** mà chủ nhà vẫn phải gõ đi gõ lại —
    [Mẫu tin nhắn](/vi/setup/message-templates/).

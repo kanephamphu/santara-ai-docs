@@ -9,8 +9,9 @@ sidebar:
 
 1. **Tải lại trang.** Santara AI cập nhật màn hình theo thời gian thực; một tab để qua đêm có thể giữ
    khung nhìn cũ.
-2. **Kiểm tra kênh.** **Cài đặt → Kênh** — kết nối có đang *Đã kết nối*, và đồng bộ lần cuối khi nào?
-   Bấm **Làm mới**.
+2. **Kiểm tra kênh.** Một dải báo ở đầu trang nghĩa là kênh của bạn có việc cần xem — bấm **Sửa**
+   trên đó. Nếu không có, mở **Cài đặt → Kênh**: kết nối có đang *Đã kết nối*, và đồng bộ lần cuối
+   khi nào? Bấm **Làm mới**.
 3. **Kiểm tra múi giờ.** **Cài đặt → Workspace** — múi giờ sai làm "hôm nay" sai ở mọi nơi.
 4. **Hỏi [trợ lý](/vi/help/assistant/).** Nó đọc được workspace của bạn và sẽ nói nó thấy gì.
 
@@ -37,10 +38,10 @@ Theo thứ tự:
 
 1. Listing đã được **gán rule set** chưa? Listing không có quy tắc thì không bao giờ được định giá tự
    động.
-2. **Định giá tự động cho listing này** có bật không?
-3. **Tự xuất bản giá** có bật không? Tắt nghĩa là giá được tính nhưng không gửi đi.
+2. **Tự động định giá chỗ nghỉ này** có bật không?
+3. **Tự động đăng giá** có bật không? Tắt nghĩa là giá được tính nhưng không gửi đi.
 4. Bạn có đang chạm **sàn hoặc trần**? Biểu đồ xu hướng cho thấy các giới hạn.
-5. Đêm đó có phải **giá nhập tay**? Giá nhập tay được bảo vệ trừ khi *Thay giá tôi nhập tay* đang bật.
+5. Đêm đó có phải **giá nhập tay**? Giá nhập tay được bảo vệ trừ khi *Ghi đè giá tôi tự nhập* đang bật.
 6. **Khoảng mà kênh chấp nhận** có đang thu hẹp nó không?
 
 Xem [Smart pricing](/vi/money/pricing/).
@@ -48,6 +49,13 @@ Xem [Smart pricing](/vi/money/pricing/).
 ## Tình trạng trống thấp hơn dự kiến
 
 Tình trạng trống bị chặn ở **số đơn vị** của phòng. Một căn hộ là một đơn vị.
+
+## Hai khách đặt trùng một phòng
+
+Các lượt lưu trú chồng lấn có thể vượt quá số đơn vị của một phòng — hai kênh cùng bán đêm cuối
+trước khi bản cập nhật tới được kênh thứ hai. Santara AI đánh dấu bằng dải báo đỏ ở trang Đặt phòng,
+nhãn **Trùng đặt phòng**, thanh màu đỏ trên lịch và cảnh báo ở chuông. Hãy chuyển hoặc hủy một trong
+các lượt lưu trú trên kênh của nó. Xem [Lượt đặt bị trùng phòng](/vi/daily/bookings/#lượt-đặt-bị-trùng-phòng).
 
 ## Thiếu một công việc dọn phòng
 

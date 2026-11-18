@@ -11,7 +11,97 @@ bug fixes are left out unless they change what you see.
 This page starts in July 2026, when this manual was first published. Every page also carries its
 own **Last updated** date at the foot, which is the finer-grained answer to "has this changed?".
 
-## October 2026
+## October and November 2026
+
+### Issues, default cleaners and proof on Tasks
+
+Tickets now live on the **Issues** tab of **Tasks** — there is no separate Tickets item in the
+sidebar, and old Tickets links open the tab. Beside it, **Default cleaners** sets who cleans each
+room. On a clean, **Proof & notes** takes photos and notes, and managers can **Take off schedule**
+when a guest stays on. See [Tasks](/daily/tasks/) and [Issues (tickets)](/daily/tickets/).
+
+### Today has two tabs
+
+**Today** opens on **Brief**, the day written out, with **Overview** — occupancy tonight, arrivals
+and threads waiting on a reply — one click away. See [Today and the daily brief](/daily/).
+
+### Overbooking is flagged everywhere
+
+When a room holds more stays than units, Reservations shows a red banner, each stay gets an
+**Overbooked** badge, the calendar draws a red bar, and the bell tells you. See
+[Overbooked stays](/daily/bookings/#overbooked-stays).
+
+### A health strip for your channels
+
+When a connection or sync needs you, a strip appears at the top of every page — one line per
+problem, each with **Fix**. When a channel refuses a price or availability update, the bell says so,
+at most once a day for the same channel, property and problem. If Santara AI's access is removed from
+an Airbnb account, the connection shows **Needs reconnect**; **Reconnect** with the same account
+keeps your listings and history. See
+[Where problems show up](/channels/troubleshooting/#where-problems-show-up) and
+[Reconnect](/channels/airbnb/#reconnect).
+
+### Reply-time targets in the inbox
+
+A thread waiting on you shows **Waiting 12 min**, then **Late** once it passes the target for that
+moment of the stay — 10 minutes on check-in day, 30 in house. A **Channel** list filters threads by
+channel, and **Mark all handled** clears **Needs you** in one go. See
+[How long a guest has been waiting](/daily/messages/#how-long-a-guest-has-been-waiting).
+
+### Calendar views and filters
+
+Switch between **Timeline** and **Listing** (one listing, one month), choose which listings are
+shown, and filter by channel or by stays with an upsell signal. Stays on none of a property's rooms
+gather on a **No room assigned** row. See [Views and filters](/daily/calendar/#views-and-filters).
+
+### Your listing content goes to the channels
+
+Photos, descriptions, house and cancellation policies and facilities are sent to the channel manager
+whenever you save, so channels such as Google Hotel Search show the listing you keep here. Before
+Google Hotel Search goes live, a checklist names anything still missing. See
+[Your listing content](/channels/other-channels/#your-listing-content).
+
+### Reviews, sorted by what needs a reply
+
+Reviews has four tabs — **Needs reply**, **Below 4★**, **Replied** and **All** — and **Review this
+guest** publishes your review of an Airbnb guest, with ratings, a public review and an optional
+private note. See [Reviews](/daily/reviews/).
+
+### Upsells: Send all and Settings
+
+**Send all** opens with each guest's highest-value ready offer picked and sends them one at a time,
+and the **Settings** tab sets each offer's price, time and message once for the whole workspace. See
+[Sending several at once](/money/upsells/#sending-several-at-once) and [Settings](/money/upsells/#settings).
+
+### Booking site: Pricing, SEO, Analytics and refunds
+
+The booking site has **Pricing**, **SEO** and **Analytics** tabs, a **visual editor** under Design,
+and **Third-party tracking** for a Google Analytics Measurement ID and a Meta Pixel ID. Paid direct
+bookings can be refunded per policy or in full. See [Your direct booking site](/setup/booking-site/)
+and [Money](/setup/booking-site-requests/#money).
+
+### Billing: trial, grace days and invoices
+
+The free trial is 90 days. When it ends without a plan, you keep full access for 7 more days with a
+banner, then the workspace turns read-only — there is no wall, and nothing is deleted. Invoices are
+listed on the Billing screen to view or download, and **Refer & earn** gives you a link and code to
+share with other hosts. See [Plans and billing](/setup/billing/).
+
+### Smart pricing: preview before publishing
+
+**Sync now** on a listing's **Prices** tab shows what every night would become and why, and
+**Apply these prices** publishes them. See [Sync now](/money/pricing/#sync-now).
+
+### Elsewhere
+
+- **Import defaults** adds five ready-made message templates —
+  [Five defaults to import](/setup/message-templates/#five-defaults-to-import).
+- **Sixteen notification kinds**, including **Overbooked** and channel sync warnings —
+  [Notifications](/setup/workspace/#notifications).
+- **Delete your account yourself** at santara.ai/delete-account —
+  [Deleting your account](/setup/account/#deleting-your-account).
+- **The app is on the App Store** for iPhone and iPad, as well as Google Play —
+  [On your phone](/setup/mobile/).
 
 ### Meet Santi and the AI Agents crew
 

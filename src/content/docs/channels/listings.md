@@ -50,6 +50,12 @@ stays where it is.
 Your listing on the channel is not affected. You can import it again later; the history comes back
 with it on the next sync.
 
+:::note[Upcoming stays are kept]
+Removing or disconnecting stops syncing — it does not cancel anything on the channel. Stays that
+have not ended yet stay in Santara AI, so their nights remain blocked on your other channels and
+nothing gets double-booked. Past stays, their messages and reviews are removed.
+:::
+
 ## Disconnect an account
 
 **Disconnect** stops syncing and removes everything imported from that account. The channel side is

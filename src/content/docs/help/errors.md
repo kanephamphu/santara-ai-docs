@@ -45,6 +45,9 @@ Indonesian or Vietnamese.
 | *Could not start the Airbnb connection.* | The handshake failed before Airbnb was reached | Try again; if it persists, [contact support](/help/support/) |
 | *Could not start the import.* | The listings were read but the import job did not begin | Try again. Nothing was half-created |
 | *Could not connect the Booking.com property.* | The Hotel ID was rejected, or the extranet step is incomplete | Re-check the Hotel ID and that our provider is enabled in your extranet — [Connect Booking.com](/channels/booking-com/) |
+| *Santara AI's access was removed from your Airbnb account, so syncing has stopped.* | Santara AI was removed from the Airbnb account's connected apps, or Airbnb withdrew access. The connection shows **Needs reconnect** | Press **Reconnect** and sign in with the same Airbnb account. Listings and history are kept — [Reconnect](/channels/airbnb/#reconnect) |
+| *Airbnb access was removed from your account. Reconnect to continue.* | The same thing, seen while loading listings | Press **Reconnect** |
+| *Your Airbnb authorization expired. Reconnect to continue.* / *The Airbnb connection has expired. Reconnect and try again.* | Airbnb's sign-in for this connection ran out | Press **Reconnect** and sign in again |
 
 ## Importing and reading rates
 
@@ -79,6 +82,23 @@ Indonesian or Vietnamese.
 | *Your calendar is written to the live listing immediately…* | Not an error — a warning that confirming closes upcoming nights at the unit count shown | Check the unit count before confirming. One apartment is one unit |
 | *Could not change the linked property.* | The re-link did not complete | Retry. Already-imported data stays where it is either way |
 
+## Channel health and alerts
+
+These appear in the health strip at the top of every page, or in the bell. **Fix** on a strip line
+opens the page that fixes it. More in [Where problems show up](/channels/troubleshooting/#where-problems-show-up).
+
+| Message | What it means | What to do |
+| --- | --- | --- |
+| *… is not connected. Reconnect it so bookings and prices keep flowing.* | The connection has stopped: access removed, expired, removed upstream, or activation failed | Press **Fix**, then **Reconnect** |
+| *… is waiting on one step from you.* | Listings waiting to go live, capacity to confirm, or no room mapped yet | Press **Fix** and finish the step |
+| *… sign-in expires on …. Reconnect before then.* | The channel sign-in runs out within 7 days | Reconnect before that date |
+| *…: the last sync failed.* | The latest sync failed and none has succeeded since | Press **Refresh** on the connection. If it stays, [contact support](/help/support/) |
+| *… price or availability updates keep failing to reach your channels.* | Updates have failed three times or more | Check the connection is live; if it is, contact support |
+| *… listings were rejected by the channel manager.* / *… was rejected by the channel manager.* | A room or rate plan was refused | **Fix** opens the room, with the reason beside the setting that caused it |
+| **… didn't accept an update** (bell) | The channel refused a price or availability update — *prices or availability may be out of date there* | Open **Settings → Channels** and check the connection. At most one such alert a day per channel, property and problem |
+| **… sent a sync warning** (bell) | The update went through, with a complaint from the channel | Worth a look, not urgent |
+| **Overbooked · …** (bell) | A room holds more bookings than units on some nights | Move or cancel one stay on its channel — [Overbooked stays](/daily/bookings/#overbooked-stays) |
+
 ## Connection status words
 
 These are states, not errors. The same vocabulary is used on every channel.
@@ -94,6 +114,7 @@ These are states, not errors. The same vocabulary is used on every channel.
 | **Live** | Rates and availability out, bookings and messages in |
 | **Error** | Something failed — the row says which: *The rate import was blocked*, *Activation failed* |
 | **Not synced yet** | Connected, but no sync has completed |
+| **Needs reconnect** | Syncing has stopped — access was removed, or the channel was removed on the channel manager side. Press **Reconnect** |
 
 Nothing moves from *Ready* to *Live* on its own. See [Going live](/channels/going-live/).
 

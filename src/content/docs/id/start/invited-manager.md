@@ -74,7 +74,7 @@ yang Anda pegang.
    akses, jam check-in. Pesan tamu dan situs booking sama-sama membacanya, dan separuh pertanyaan
    tamu terjawab olehnya. Lihat
    [Informasi menginap](/id/setup/properties/#informasi-menginap-wifi-kode-pintu-akses).
-2. **Susun klaster kebersihan** agar ringkasan harian menulis satu pesan WhatsApp per petugas, bukan
+2. **Susun klaster kebersihan** agar ringkasan harian menulis satu rencana siap bagikan per petugas, bukan
    satu per properti — [Klaster kebersihan](/id/daily/tasks/#klaster-kebersihan).
 3. **Tulis template pesan** yang selama ini diketik ulang terus oleh pemilik —
    [Template pesan](/id/setup/message-templates/).

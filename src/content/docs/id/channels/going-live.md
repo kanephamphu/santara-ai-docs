@@ -53,6 +53,9 @@ Sejak saat itu, untuk listing yang tayang:
    jika satu kamar adalah satu apartemen tetapi Anda mengisi 3, Anda baru saja menawarkan tiga.
    Sebelum Anda mengonfirmasi, dialog menunjukkan berapa malam mendatang yang akan kosong dan berapa
    yang ditutup sebagai penuh.
+6. **Di Google Hotel Search, konten listing sudah lengkap** — foto, deskripsi, alamat, fasilitas, dan
+   kebijakan. Channel ini tidak akan aktif tanpa itu; lihat
+   [daftar periksanya](/id/channels/other-channels/#google-hotel-search).
 
 ## Tayang satu per satu
 
@@ -73,6 +76,13 @@ tayang sudah tayang, sisanya tetap siap, dan Anda bisa mencoba lagi.
 - **Untuk mengembalikan kendali**, hapus listing dari Santara AI atau putuskan koneksinya. Listing dan
   kalender channel Anda tidak terpengaruh, tetapi reservasi, pesan, dan ulasan yang diimpor di sini
   ikut terhapus.
+
+:::note[Masa inap yang akan datang tetap disimpan]
+Menghapus atau memutus koneksi hanya menghentikan sinkronisasi — tidak membatalkan apa pun di
+channel. Masa inap yang belum selesai tetap ada di Santara AI, jadi malam-malamnya tetap terblokir
+di channel lain dan tidak terjadi pemesanan ganda. Masa inap lampau beserta pesan dan ulasannya
+dihapus.
+:::
 
 :::caution[Booking yang masuk saat tayang itu nyata]
 Apa pun yang dipesan tamu selama periode tayang ada di channel dan harus dipenuhi, apa pun yang Anda

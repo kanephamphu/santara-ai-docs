@@ -18,8 +18,8 @@ seperti aplikasi.
 
 ## Masuk
 
-Untuk saat ini Santi **hanya dengan undangan**. Mintalah undangan kepada tim Santara AI — tautannya
-terikat pada email Santara AI Anda dan berlaku 14 hari. Buka tautannya, lalu:
+Siapa pun yang punya akun Santara AI bisa memakai Santi — host, co-host, maupun petugas kebersihan.
+Buka [santi.santara.ai](https://santi.santara.ai), lalu:
 
 1. **Lanjut dengan Santara AI** — Anda masuk di Santara AI, jadi Santi tidak pernah melihat kata
    sandi Anda.
@@ -46,7 +46,8 @@ pengaturan workspace, menghubungkan atau memutuskan channel, atau menghapus prop
 
 ### Menghubungkan dari Santara AI
 
-Di dasbor, **Pengaturan → Channel** punya kartu **Santi** dengan tombol **Hubungkan Santi**. Tombol
+Di dasbor, **Pengaturan → Saluran**, tab **Aplikasi** (atau **Aplikasi terhubung** di menu akun)
+punya kartu **Santi** dengan tombol **Hubungkan Santi**. Tombol
 itu menjalankan persetujuan yang sama dan membawa Anda kembali ke Santara AI.
 
 ### Lebih dari satu workspace
@@ -57,7 +58,7 @@ ingatannya sendiri.
 
 ### Memutuskan koneksi
 
-Di Santara AI: **Pengaturan → Kanal**, tab **Aplikasi** → kartu Santi → **Putuskan**.
+Di Santara AI: **Pengaturan → Saluran**, tab **Aplikasi** → kartu Santi → **Putuskan**.
 Santi langsung kehilangan akses ke workspace itu. Obrolan Anda dengan Santi tetap
 tersimpan di Santi.
 
@@ -165,5 +166,5 @@ tahu Anda; batasnya diatur ulang keesokan harinya. Pesan obrolan disimpan selama
 dihapus. Ingatan yang sudah Anda konfirmasi tetap ada sampai Anda meminta Santi melupakannya.
 
 :::note
-Santi di WhatsApp dan Zalo belum tersedia — untuk saat ini, aplikasi inilah pintu masuknya.
+Santi juga ada di aplikasi chat yang sudah dipakai tim Anda: [Santi di Telegram](/id/help/santi-telegram/) dan [Santi di Zalo](/id/help/santi-zalo/). WhatsApp belum tersedia.
 :::

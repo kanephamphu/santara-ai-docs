@@ -72,8 +72,46 @@ The channel appears under **Settings → Channels → Connected**, with its mapp
 there you can reopen its setup, and a channel that is connected but not live yet shows a note
 saying so.
 
-Your property's photos (up to 30), description, house policy, cancellation policy and facilities
-are sent to the channel whenever you save the property or a room.
+### Your listing content
+
+Santara AI sends your property's content to the channel manager, so the channels that read it —
+Google Hotel Search among them — show the listing you keep here:
+
+| Content | Where it comes from |
+| --- | --- |
+| **Photos** | The property's and its rooms' photos, up to 30 |
+| **Description** | The property page and the room descriptions |
+| **House policy** | Your check-in and check-out times and house rules |
+| **Cancellation policy** | Your booking site's cancellation policy |
+| **Facilities** | The amenities ticked on each room page |
+
+It is sent again whenever you save the property or a room, and when you add or remove photos. There
+is nothing to press.
+
+### Google Hotel Search
+
+Before Google Hotel Search goes live, the channel checks that the property is complete. If it is
+not, pressing **Save** or **Turn on** says *… can't go live yet. Still missing:* and lists what to add:
+
+- *At least 8 photos.* — on the property or room page.
+- *A property description.* — on the property page.
+- *Street address.*, *Postal code.*, *State or province.*, *Phone number.* — on the property's
+  **Settings** page.
+- *At least one amenity.* — tick amenities on the room page.
+- *A house policy.* — built from your check-in and check-out times; save the property page to send
+  it.
+- *A cancellation policy.* — taken from your booking site's cancellation policy; save the property
+  page to send it.
+- *Rates to show.* — tick at least one rate plan and save.
+
+Fill them in, save, and press **Turn on** again. Other channels without room mapping, such as
+Hopper, use the same checklist.
+
+Once Google has published the property, its connection page has **Open your Google page**. Until
+then it says the link appears there, usually within a few days of connecting. Below it, *Google's
+Book button goes to:* shows where guests land. If that is the channel manager's generic page,
+**Send Google guests to my booking site** points it at your own [booking site](/setup/booking-site/)
+instead — the booking site has to be published with this property on it first.
 
 Rates, availability and restrictions then sync exactly as they do for Airbnb and Booking.com. See
 [How channel connections work](/channels/) for what moves in each direction.
@@ -88,3 +126,9 @@ channels in the catalogue, answer guests in the channel's own inbox.
 Disconnecting removes the channel and the reservations, messages and reviews it brought in. Your
 property, rooms and rates in Santara AI stay exactly as they are. Reconnect any time: the stays the channel still has come back, plus anything upcoming. A stay that
 starts and finishes while you are disconnected cannot be recovered.
+
+:::note[Upcoming stays are kept]
+Removing or disconnecting stops syncing — it does not cancel anything on the channel. Stays that
+have not ended yet stay in Santara AI, so their nights remain blocked on your other channels and
+nothing gets double-booked. Past stays, their messages and reviews are removed.
+:::

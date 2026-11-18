@@ -61,8 +61,9 @@ Open **Tasks**. Each card is one clean and tells you:
 When the room is done, press **Mark done**. You can attach a **photo** — do it. It settles
 questions later without anybody having to take anybody's word.
 
-If something is broken, do not just mention it in passing: **raise a ticket** from the job. That
-puts it somewhere the owner will actually see it and can schedule a repair.
+If something is broken, do not just mention it in passing: **raise a ticket** — **Tasks →
+Issues → New ticket**. That puts it somewhere the owner will actually see it and can schedule a
+repair.
 
 ## Door codes and addresses
 
@@ -75,20 +76,32 @@ Treat those details the way you would a key. They are the guest's security, not 
 ## If you would rather not use the app at all
 
 You do not have to. Ask the owner to send you the **cleaning cluster message** instead — the
-product writes one WhatsApp message per group of properties, listing that group's jobs and nothing
-else about their business. Many cleaning teams work entirely this way. See
-[Cleaning clusters](/daily/tasks/#cleaning-clusters).
+product writes one plan per group of rooms, listing that group's jobs and nothing else about their
+business, and the owner can send it to you on Zalo, WhatsApp, Messenger, Telegram, SMS or email.
+Many cleaning teams work entirely this way. See [Cleaning clusters](/daily/tasks/#cleaning-clusters).
+
+## Start, finish and send photos from Telegram or Zalo
+
+If your team chats on Telegram or Zalo, you can do your jobs there with Santi:
+
+- Send **/jobs** to see today's cleans, then **▶ Start** and **✅ Done** each one (on Zalo you reply
+  with the number shown).
+- Send your **photos** and pick the job they belong to — they are attached to the job in Santara AI,
+  where the owner sees them.
+
+You link your Telegram or Zalo once with your Santara AI login, and Santi only shows **your** jobs.
+See [Santi on Telegram](/help/santi-telegram/) or [Santi on Zalo](/help/santi-zalo/).
 
 ## On your phone
 
-The **Santara AI app for Android** is on
-[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) — sign in with the
+The **Santara AI app** is on the [App Store](https://apps.apple.com/app/id6829604736) for iPhone and on
+[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) for Android — sign in with the
 same email and password. You will see three tabs: **Today**, **Tasks** and **More**. In **Tasks**
 you press **Mark done** and add up to 10 photos per job. See
 [Tasks & Maintenance](/mobile/tasks/).
 
-The iPhone app is not released yet. On an iPhone, use the website in the phone browser: **Today**
-and **Tasks** hold up well on a small screen. See [On your phone](/setup/mobile/).
+Rather not install an app? Use the website in the phone browser: **Today** and **Tasks** hold up
+well on a small screen. See [On your phone](/setup/mobile/).
 
 ## When something is wrong
 

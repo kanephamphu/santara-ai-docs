@@ -71,8 +71,43 @@ Nếu chưa có gì được ánh xạ, trang sẽ báo: mở kênh, ánh xạ �
 Kênh xuất hiện ở **Cài đặt → Kênh → Đã kết nối**, cùng các phòng và mức giá đã ánh xạ. Từ đó bạn có
 thể mở lại phần thiết lập, và kênh đã kết nối nhưng chưa chạy sẽ có ghi chú cho biết.
 
-Ảnh (tối đa 30), mô tả, nội quy, chính sách hủy và tiện nghi của chỗ nghỉ được gửi tới kênh mỗi khi
-bạn lưu chỗ nghỉ hoặc một phòng.
+### Nội dung tin đăng của bạn
+
+Santara AI gửi nội dung chỗ nghỉ của bạn tới channel manager, để các kênh đọc nội dung đó — trong
+đó có Google Hotel Search — hiển thị đúng tin đăng bạn quản lý ở đây:
+
+| Nội dung | Lấy từ đâu |
+| --- | --- |
+| **Ảnh** | Ảnh của chỗ nghỉ và các phòng, tối đa 30 |
+| **Mô tả** | Trang chỗ nghỉ và mô tả của từng phòng |
+| **Chính sách chỗ nghỉ** | Giờ nhận, trả phòng và nội quy của bạn |
+| **Chính sách hủy** | Chính sách hủy của trang đặt phòng |
+| **Tiện nghi** | Các tiện nghi được đánh dấu ở trang từng phòng |
+
+Nội dung được gửi lại mỗi khi bạn lưu chỗ nghỉ hoặc một phòng, và khi bạn thêm hay xoá ảnh. Không
+cần bấm gì thêm.
+
+### Google Hotel Search
+
+Trước khi Google Hotel Search hoạt động, kênh kiểm tra xem chỗ nghỉ đã đầy đủ chưa. Nếu chưa, bấm
+**Lưu** hoặc **Bật** sẽ hiện *… chưa thể hoạt động. Còn thiếu:* kèm danh sách cần bổ sung:
+
+- *Ít nhất 8 ảnh.* — ở trang chỗ nghỉ hoặc trang phòng.
+- *Mô tả chỗ nghỉ.* — ở trang chỗ nghỉ.
+- *Địa chỉ.*, *Mã bưu chính.*, *Tỉnh/thành.*, *Số điện thoại.* — ở trang **Cài đặt** của chỗ nghỉ.
+- *Ít nhất một tiện nghi.* — đánh dấu tiện nghi ở trang phòng.
+- *Chính sách chỗ nghỉ.* — tạo từ giờ nhận và trả phòng của bạn; lưu trang chỗ nghỉ để gửi đi.
+- *Chính sách hủy.* — lấy từ chính sách hủy của trang đặt phòng; lưu trang chỗ nghỉ để gửi đi.
+- *Giá hiển thị.* — đánh dấu ít nhất một gói giá rồi lưu.
+
+Điền đủ, lưu lại, rồi bấm **Bật** lần nữa. Các kênh khác không cần ánh xạ phòng, như Hopper, dùng
+cùng danh sách kiểm tra này.
+
+Khi Google đã đăng chỗ nghỉ, trang kết nối có nút **Mở trang Google của bạn**. Trước đó, trang ghi
+rằng liên kết sẽ hiện ở đây, thường trong vài ngày sau khi kết nối. Bên dưới, *Nút Đặt trên Google
+dẫn tới:* cho biết khách sẽ đến đâu. Nếu đó là trang chung của trình quản lý kênh, nút **Đưa khách
+từ Google về trang đặt phòng của tôi** chuyển khách về [trang đặt phòng](/vi/setup/booking-site/)
+của riêng bạn — trang đặt phòng phải được đăng và có chỗ nghỉ này trước.
 
 Giá, tình trạng trống và các ràng buộc sau đó đồng bộ y như Airbnb và Booking.com. Xem
 [Kết nối kênh hoạt động ra sao](/vi/channels/) để biết dữ liệu nào đi theo mỗi chiều.
@@ -88,3 +123,9 @@ Ngắt kết nối sẽ gỡ kênh cùng các đặt phòng, tin nhắn và đá
 của bạn trong Santara AI giữ nguyên. Kết nối lại bất cứ lúc nào: các lượt lưu trú kênh vẫn còn sẽ
 trở về, cùng mọi lượt sắp tới. Lượt lưu trú bắt đầu và kết thúc trong lúc ngắt kết nối thì không khôi
 phục được.
+
+:::note[Các kỳ nghỉ sắp tới được giữ lại]
+Gỡ hoặc ngắt kết nối chỉ dừng đồng bộ — không hủy gì trên kênh. Các kỳ nghỉ chưa kết thúc vẫn ở lại
+Santara AI, nên những đêm đó vẫn bị chặn trên các kênh khác và không bị đặt trùng. Các kỳ nghỉ đã
+qua cùng tin nhắn và đánh giá của chúng sẽ bị xóa.
+:::

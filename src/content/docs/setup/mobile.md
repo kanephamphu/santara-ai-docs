@@ -1,6 +1,6 @@
 ---
 title: On your phone
-description: The Santara AI app for Android, what it covers, where iPhone stands, and how cleaners work from a phone.
+description: The Santara AI app for iPhone, iPad and Android, what it covers, and how cleaners work from a phone.
 sidebar:
   order: 11
 ---
@@ -8,15 +8,11 @@ sidebar:
 Hosting does not happen at a desk. It happens in a doorway with a guest waiting, between two
 villas, in a room where the air-conditioner has just failed.
 
-## The Android app
+## The app
 
-The **Santara AI** app is live on
-[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile). Sign in with the
+The **Santara AI** app is on the [App Store](https://apps.apple.com/app/id6829604736) for iPhone and iPad, and on
+[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) for Android. Sign in with the
 same email and password you use on the web — it is the same workspace and the same permissions.
-
-**The iPhone app is not released yet.** You can ask to be told the day it launches from the
-[mobile app page](https://www.santara.ai/mobile-app/) on the main site. Until then, iPhone users can
-use the web app in the phone browser (see below).
 
 Two things worth knowing:
 
@@ -44,9 +40,9 @@ The [Mobile App Guide](/mobile/getting-started/) section of this manual walks th
 
 The tabs you see depend on your role: a cleaner gets **Today**, **Tasks** and **More** only.
 
-## On an iPhone: the web app
+## In a phone browser: the web app
 
-The web app works in a phone browser, and the screens you actually need in a doorway are the ones
+No app installed? The web app works in a phone browser, and the screens you actually need in a doorway are the ones
 that hold up: **Today**, **Messages**, **Tasks** and the **Calendar**. Sign in as normal.
 
 What is genuinely uncomfortable on a small screen — and is worth doing on a laptop — is connecting
@@ -56,7 +52,7 @@ channels, mapping listings, and the pricing rule editor.
 
 Two ways, and you do not have to choose one for everybody:
 
-- **Give them an account.** A cleaner signs in — on the Android app or in a browser — and sees the
+- **Give them an account.** A cleaner signs in — in the app or in a browser — and sees the
   cleans assigned to them, marks work done, and attaches photos. Nothing else. See
   [Team and roles](/setup/team/) and [Tasks & Maintenance](/mobile/tasks/).
 - **Send them the cluster message.** The [daily brief](/daily/) writes one WhatsApp message per

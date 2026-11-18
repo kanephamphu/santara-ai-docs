@@ -138,10 +138,17 @@ bằng [quy tắc định giá](/vi/money/pricing/)) và xem Santara AI là ngu�
 ## Thay đổi hoặc gỡ bỏ
 
 - **Đổi bất động sản** — đặt phòng và tin nhắn trong tương lai sẽ về bất động sản bạn chọn. Những gì
-  đã nhập vẫn ở nguyên chỗ và ánh xạ phòng được giữ.
+  đã nhập vẫn ở nguyên chỗ và ánh xạ phòng được giữ. Nút này chỉ hiện khi khách sạn không gắn với
+  phòng riêng của một chỗ nghỉ; nếu không, hãy ngắt kết nối rồi kết nối lại Hotel ID trên chỗ nghỉ kia.
 - **Gỡ khỏi Santara AI** trên một phòng — chỉ xóa dữ liệu đã nhập tại đây.
 - **Ngắt kết nối** — dừng đồng bộ và xóa dữ liệu Booking.com đã nhập của chỗ nghỉ này. Extranet của
   bạn không bị ảnh hưởng.
+
+:::note[Các kỳ nghỉ sắp tới được giữ lại]
+Gỡ hoặc ngắt kết nối chỉ dừng đồng bộ — không hủy gì trên kênh. Các kỳ nghỉ chưa kết thúc vẫn ở lại
+Santara AI, nên những đêm đó vẫn bị chặn trên các kênh khác và không bị đặt trùng. Các kỳ nghỉ đã
+qua cùng tin nhắn và đánh giá của chúng sẽ bị xóa.
+:::
 
 :::caution[Nếu kênh biến mất]
 *"Kênh này đã bị gỡ ở phía channel manager"* nghĩa là kết nối bị hủy ở đầu trên — thường do nhà cung

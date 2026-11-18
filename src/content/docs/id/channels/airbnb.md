@@ -142,11 +142,24 @@ sinkronisasi berhenti. Koneksi menampilkan **Perlu dihubungkan ulang** dan sebua
 Santara AI telah dicabut dari akun Airbnb Anda*. Tekan **Hubungkan ulang** dan masuk dengan akun
 Airbnb yang **sama**. Listing dan riwayat Anda tetap tersimpan.
 
+Anda juga bisa menekan **Hubungkan ulang** pada akun yang berfungsi normal — misalnya untuk
+memperbarui akses. Listing Anda **tetap tayang** selama Anda menyetujui di jendela Airbnb; halaman
+menampilkan *Menunggu persetujuan Anda di jendela Airbnb*, lalu *Terhubung ulang* setelah Airbnb
+mengonfirmasi. Jika Anda masuk dengan akun Airbnb yang **berbeda**, tidak ada yang berubah dan
+halaman memberi tahu Anda — untuk menambahkan akun itu, gunakan **Tambah akun lain**.
+
 ## Menghapus
 
 - **Hapus dari Santara AI** pada satu listing — menghapus reservasi, pesan, tamu, dan ulasan kamar itu
   di sini. Listing Airbnb Anda tidak tersentuh dan bisa diimpor kembali.
 - **Putuskan** akun — sama, untuk seluruh listing di akun itu, dan sinkronisasi berhenti.
+
+:::note[Masa inap yang akan datang tetap disimpan]
+Menghapus atau memutus koneksi hanya menghentikan sinkronisasi — tidak membatalkan apa pun di
+channel. Masa inap yang belum selesai tetap ada di Santara AI, jadi malam-malamnya tetap terblokir
+di channel lain dan tidak terjadi pemesanan ganda. Masa inap lampau beserta pesan dan ulasannya
+dihapus.
+:::
 
 ## Pesan tamu dan ulasan
 

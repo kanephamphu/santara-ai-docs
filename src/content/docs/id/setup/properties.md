@@ -33,6 +33,29 @@ periksa dua hal ini setelah impor:
 
 Alamat, deskripsi, aturan rumah, foto bangunan, **klaster kebersihan**, dan listing yang terhubung.
 
+## Pengaturan properti
+
+**Pengaturan** pada sebuah properti membuka **Pengaturan properti**: aturan yang diterapkan channel
+Anda ke seluruh properti. Tekan **Simpan pengaturan**; halaman lalu menunjukkan apakah perubahan
+sampai ke channel — *Tersinkron ke saluran*, atau sinkronisasi tertunda atau gagal.
+
+| Kartu | Yang diaturnya |
+| --- | --- |
+| **Informasi dasar**, **Kontak**, **Lokasi** | Judul, mata uang default, jenis properti, kontak, alamat, dan koordinat yang dibagikan ke channel. Mengganti mata uang tidak mengubah rate plan kamar yang sudah ada |
+| **Pengaturan harga** | Harga minimum dan maksimum properti |
+| **Pengaturan pembaruan ketersediaan otomatis** | Apakah ketersediaan berubah sendiri saat booking diubah atau dibatalkan. Booking baru selalu mengurangi ketersediaan — itu tidak bisa dimatikan |
+| **Hari inventaris** | Berapa hari ke depan kalender berjalan, dari 100 sampai 730 |
+| **Pengaturan menginap minimum** | Pakai satu jenis menginap minimum saja: **Kedatangan (arrival)**, **Sepanjang menginap (through)**, atau **Keduanya** |
+| **Batas waktu penjualan** | Kapan penjualan untuk hari yang sama berhenti, menurut zona waktu properti. Pada jam itu, ketersediaan hari tersebut menjadi 0 |
+| **Maksimum hari ke depan** | Menutup tanggal yang lebih jauh dari jumlah **Hari yang dibuka** |
+
+:::caution[Dua di antaranya tidak bisa dibalik begitu saja]
+- Mengganti **jenis menginap minimum** menghapus semua nilai dari jenis yang tidak lagi dipakai.
+  Jalankan sinkronisasi penuh sesudahnya dan periksa hasilnya.
+- **Maksimum hari ke depan** tidak membuka kembali tanggal dengan sendirinya saat Anda mengubahnya
+  nanti.
+:::
+
 ## Yang tinggal di kamar
 
 - **Harga dan rate plan** — lihat [Smart pricing](/id/money/pricing/).
@@ -69,10 +92,11 @@ menandai **celah konteks** justru karena itu.
 
 ## Menyinkronkan dari channel
 
-**Sinkronkan data** pada sebuah properti menarik reservasi, kalender, pesan, dan detail listing
-terbaru. Di mana channel punya nilainya, **nilai itu menggantikan milik properti**. Gunakan setelah
-menyunting listing di channel; jangan gunakan tepat setelah menyunting sesuatu di sini yang juga
-diketahui channel.
+**Impor data saluran** pada sebuah properti menarik reservasi, kalender, pesan, dan detail listing
+terbaru — konfirmasikan dengan **Impor sekarang**. Di mana channel punya nilainya, **nilai itu
+menggantikan milik properti**; kolom yang tidak disediakan channel tetap seperti adanya. Gunakan
+setelah menyunting listing di channel; jangan gunakan tepat setelah menyunting sesuatu di sini yang
+juga diketahui channel.
 
 ## Memindahkan, menggandakan, menghapus
 
@@ -81,4 +105,7 @@ diketahui channel.
   *"(salinan)"*. Salinan tidak tertaut ke channel mana pun sampai Anda memetakannya.
 - **Menghapus kamar** — rate plan, kalender ketersediaan, dan fotonya hilang. Reservasi dan ulasan
   lama disimpan tetapi tidak lagi melekat pada kamar.
-- **Menghapus properti** — ditolak selama listing channel masih terhubung. Putuskan dulu.
+- **Menghapus properti** — hanya pemilik workspace yang bisa, dan ditolak selama listing channel
+  masih terhubung. Putuskan dulu, supaya sisi channel ikut dibersihkan. Penghapusan ini membuang
+  **reservasi, kalender, dan pesannya** beserta listing yang terhubung di Santara AI, bukan hanya
+  propertinya. Tagihan yang sudah dibayar untuk bulan ini tidak dikembalikan.

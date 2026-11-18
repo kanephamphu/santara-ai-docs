@@ -110,7 +110,9 @@ Nothing else. There is no advertising network and no data broker in this list.
 Payments from your [direct booking site](/setup/booking-site/) go **into your own Stripe account**,
 not ours. Santara AI never holds guest money.
 
-Santara AI takes **3% commission** on direct bookings.
+Santara AI takes nothing from a direct booking unless you switch on the optional **Guest booking
+fee** — 3%, paid by the guest on top of the stay, never taken out of your payout. It is off by
+default. See [Commission](/setup/billing/#commission).
 
 ## Getting your data out
 
@@ -148,16 +150,16 @@ first, so the channel side is cleaned up rather than left pointing at a room tha
 
 ## Deleting your account
 
-You can delete your own account yourself:
-
-- **In the app** — Settings → Personal settings → **Delete account**, then type your email to
-  confirm.
-- **On the web** — at [santara.ai/delete-account](https://www.santara.ai/delete-account/), after
-  signing in.
+You can delete your own account yourself, on the web: go to
+[santara.ai/delete-account](https://www.santara.ai/delete-account/), sign in, and type your
+account's email to confirm. The mobile app does not offer deletion — accounts are created and
+closed on the web.
 
 What happens:
 
 1. You are **signed out on every device** straight away, and the account can no longer sign in.
+   Push notifications to your phones stop, and any AI assistant you connected — ChatGPT, Claude —
+   loses its access.
 2. Our team reviews the request and **completes it within 30 days**.
 3. Your name, email, phone number, photo and password are removed. Bookings, invoices and other
    records of the workspaces you worked in are **kept for accounting, anonymised** — without your

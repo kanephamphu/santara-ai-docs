@@ -143,10 +143,19 @@ perlakukan Santara AI sebagai sumber kebenaran.
 ## Mengubah atau menghapus
 
 - **Ganti properti** — reservasi dan pesan mendatang mendarat di properti yang Anda pilih. Yang sudah
-  diimpor tetap di tempatnya dan pemetaan kamar dipertahankan.
+  diimpor tetap di tempatnya dan pemetaan kamar dipertahankan. Tombol ini hanya muncul jika hotel
+  tidak terikat ke kamar milik salah satu properti Anda; jika terikat, putuskan koneksi lalu hubungkan
+  Hotel ID lagi di properti lain.
 - **Hapus dari Santara AI** pada satu kamar — menghapus data impornya di sini saja.
 - **Putuskan koneksi** — menghentikan sinkronisasi dan menghapus data impor properti ini. Extranet Anda tidak
   tersentuh. Hotel ID yang sama bisa dihubungkan lagi nanti.
+
+:::note[Masa inap yang akan datang tetap disimpan]
+Menghapus atau memutus koneksi hanya menghentikan sinkronisasi — tidak membatalkan apa pun di
+channel. Masa inap yang belum selesai tetap ada di Santara AI, jadi malam-malamnya tetap terblokir
+di channel lain dan tidak terjadi pemesanan ganda. Masa inap lampau beserta pesan dan ulasannya
+dihapus.
+:::
 
 :::caution[Jika channel menghilang]
 *"Channel ini dihapus dari sisi channel manager"* berarti koneksi dibatalkan di hulu — biasanya

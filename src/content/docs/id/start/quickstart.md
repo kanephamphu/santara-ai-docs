@@ -90,7 +90,7 @@ Dalam beberapa menit:
 
 | Yang akan muncul | Di mana |
 | --- | --- |
-| Reservasi lama dan mendatang | [Booking](/id/daily/bookings/) dan [Kalender](/id/daily/calendar/) |
+| Reservasi lama dan mendatang | [Reservasi](/id/daily/bookings/) dan [Kalender](/id/daily/calendar/) |
 | Percakapan tamu sebelumnya | [Pesan](/id/daily/messages/) |
 | Ulasan yang tamu tinggalkan | [Ulasan](/id/daily/reviews/) |
 | Tugas turnover untuk check-out malam ini | [Tugas](/id/daily/tasks/) |

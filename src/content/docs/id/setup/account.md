@@ -11,7 +11,8 @@ mengubahnya — termasuk pemilik workspace tempat Anda bekerja.
 
 ## Di mana letaknya
 
-Buka **menu akun di bagian bawah bilah samping**, lalu **Akun personal**. Ini sengaja bukan salah
+Buka **menu akun di bagian bawah bilah samping** (nama Anda, dengan *Akun pribadi* di bawahnya), lalu
+**Pengaturan personal**. Ini sengaja bukan salah
 satu tab Pengaturan: tab di bagian atas Pengaturan adalah setup *workspace*, dan kata sandi Anda
 bukan urusan workspace.
 
@@ -122,3 +123,15 @@ Jangan pernah berbagi login sebagai pengganti mengundang orang dengan benar. Set
 yang ditandai selesai, pesan yang terkirim, dan tiket yang ditutup tercatat atas sebuah akun, dan
 catatan itulah yang menyelesaikan perdebatan di kemudian hari. Lihat
 [Tim dan peran](/id/setup/team/).
+
+## Menghapus akun Anda
+
+Anda bisa menghapus akun sendiri di
+[santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=id): masuk, lalu ketik email
+akun Anda untuk konfirmasi. Fitur ini tidak ada di Pengaturan maupun di aplikasi seluler.
+
+Permintaan itu langsung mengeluarkan Anda dari semua perangkat, dan staf Santara AI menyelesaikannya
+dalam 30 hari. Data pribadi Anda dihapus; booking dan faktur milik workspace tetap disimpan dalam
+bentuk anonim. Jika Anda satu-satunya pemilik workspace yang dipakai orang lain, jadikan orang lain
+pemilik terlebih dahulu. Rinciannya ada di
+[Data dan privasi](/id/setup/data-and-privacy/#menghapus-akun-anda).

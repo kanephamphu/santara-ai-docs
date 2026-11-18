@@ -54,11 +54,12 @@ channel — ubah atau batalkan di sana, dan perubahannya tiba di sini.
 Bila masa menginap yang tumpang tindih melebihi jumlah unit sebuah kamar, Santara AI menandainya di
 semua tempat sekaligus:
 
-- **banner merah** di bagian atas Reservasi, menyebut setiap kamar, malam yang terpengaruh, dan
+- **banner merah** di bagian atas Reservasi — *2 kamar terjual melebihi kapasitas* — menyebut setiap kamar, malam yang terpengaruh, dan
   berapa masa menginap berbanding berapa unit;
 - lencana **Kelebihan pesanan** di setiap masa menginap yang terlibat;
 - **bilah merah** di [kalender](/id/daily/calendar/);
-- notifikasi di lonceng, **Overbooking ·** diikuti nama kamarnya.
+- notifikasi di lonceng, **Kelebihan pesanan ·** diikuti nama kamarnya, berisi berapa pemesanan
+  berbanding berapa unit yang tersedia.
 
 Pindahkan atau batalkan salah satu masa menginap di channel-nya sebelum tamu datang.
 

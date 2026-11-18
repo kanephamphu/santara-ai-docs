@@ -115,7 +115,9 @@ Tidak ada yang lain. Tidak ada jaringan iklan dan tidak ada pialang data dalam d
 Pembayaran dari [situs booking langsung](/id/setup/booking-site/) masuk **ke akun Stripe Anda
 sendiri**, bukan ke akun kami. Santara AI tidak pernah memegang uang tamu.
 
-Santara AI mengambil **3% komisi** atas booking langsung.
+Santara AI tidak mengambil apa pun dari booking langsung, kecuali Anda menyalakan **Biaya
+pemesanan tamu** yang opsional — 3%, dibayar oleh tamu di atas harga menginap, tidak pernah dipotong
+dari pembayaran Anda. Biaya ini mati secara default. Lihat [Komisi](/id/setup/billing/#komisi).
 
 ## Mengeluarkan data Anda
 
@@ -154,16 +156,16 @@ supaya sisi channel ikut dibereskan alih-alih ditinggal menunjuk kamar yang suda
 
 ## Menghapus akun Anda
 
-Anda bisa menghapus akun Anda sendiri:
-
-- **Di aplikasi** — Pengaturan → Pengaturan pribadi → **Hapus akun**, lalu ketik email Anda untuk
-  konfirmasi.
-- **Di web** — di [santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=id),
-  setelah masuk.
+Anda bisa menghapus akun Anda sendiri, di web: buka
+[santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=id), masuk, lalu ketik email
+akun Anda untuk konfirmasi. Aplikasi seluler tidak menyediakan penghapusan — akun dibuat dan ditutup
+di web.
 
 Yang terjadi:
 
-1. Anda **langsung keluar dari semua perangkat**, dan akun tidak dapat masuk lagi.
+1. Anda **langsung keluar dari semua perangkat**, dan akun tidak dapat masuk lagi. Notifikasi push
+   ke ponsel Anda berhenti, dan asisten AI yang Anda hubungkan — ChatGPT, Claude — kehilangan
+   aksesnya.
 2. Tim kami meninjau permintaan dan **menyelesaikannya dalam 30 hari**.
 3. Nama, email, nomor telepon, foto, dan kata sandi Anda dihapus. Booking, faktur, dan catatan lain
    dari workspace tempat Anda bekerja **disimpan untuk akuntansi, dianonimkan** — tanpa data pribadi

@@ -45,6 +45,9 @@ tiếng Việt.
 | *Không thể bắt đầu kết nối Airbnb.* | Bắt tay thất bại trước khi tới được Airbnb | Thử lại; nếu vẫn vậy, [liên hệ hỗ trợ](/vi/help/support/) |
 | *Không thể bắt đầu nhập dữ liệu.* | Đã đọc được listing nhưng tiến trình nhập không khởi động | Thử lại. Không có gì bị tạo dở dang |
 | *Không thể kết nối chỗ nghỉ Booking.com.* | Hotel ID bị từ chối, hoặc bước extranet chưa xong | Kiểm tra lại Hotel ID và việc nhà cung cấp của chúng tôi đã bật trong extranet — [Kết nối Booking.com](/vi/channels/booking-com/) |
+| *Quyền truy cập của Santara AI đã bị gỡ khỏi tài khoản Airbnb của bạn nên việc đồng bộ đã dừng.* | Santara AI bị gỡ khỏi các ứng dụng đã kết nối của tài khoản Airbnb, hoặc Airbnb đã thu hồi quyền. Kết nối hiện **Cần kết nối lại** | Bấm **Kết nối lại** và đăng nhập bằng đúng tài khoản Airbnb đó. Tin đăng và lịch sử vẫn được giữ — [Kết nối lại](/vi/channels/airbnb/#kết-nối-lại) |
+| *Quyền truy cập Airbnb đã bị gỡ khỏi tài khoản của bạn. Hãy kết nối lại để tiếp tục.* | Cùng tình huống, thấy khi tải tin đăng | Bấm **Kết nối lại** |
+| *Quyền Airbnb của bạn đã hết hạn. Hãy kết nối lại để tiếp tục.* / *Kết nối Airbnb đã hết hạn. Hãy kết nối lại rồi thử lại.* | Phiên đăng nhập Airbnb của kết nối này đã hết hạn | Bấm **Kết nối lại** và đăng nhập lại |
 
 ## Nhập dữ liệu và đọc giá
 
@@ -79,6 +82,23 @@ tiếng Việt.
 | *Lịch của bạn được ghi lên listing đang chạy ngay lập tức…* | Không phải lỗi — đây là cảnh báo rằng việc xác nhận sẽ đóng những đêm sắp tới ở số đơn vị đang hiển thị | Kiểm tra số đơn vị trước khi xác nhận. Một căn hộ là một đơn vị |
 | *Không thể đổi chỗ nghỉ đã liên kết.* | Việc liên kết lại chưa hoàn tất | Thử lại. Dữ liệu đã nhập vẫn ở nguyên chỗ cũ |
 
+## Tình trạng kênh và cảnh báo
+
+Những thông báo này hiện ở dải tình trạng đầu mọi trang, hoặc ở chuông. Nút **Sửa** trên một dòng
+mở đúng trang để xử lý. Xem thêm [Sự cố hiện ra ở đâu](/vi/channels/troubleshooting/#sự-cố-hiện-ra-ở-đâu).
+
+| Thông báo | Nghĩa là gì | Làm gì |
+| --- | --- | --- |
+| *… chưa được kết nối. Kết nối lại để đặt phòng và giá tiếp tục đồng bộ.* | Kết nối đã dừng: bị gỡ quyền, hết hạn, bị gỡ ở phía trên, hoặc kích hoạt thất bại | Bấm **Sửa**, rồi **Kết nối lại** |
+| *… đang chờ bạn hoàn tất một bước.* | Tin đăng chờ go live, sức chứa cần xác nhận, hoặc chưa ánh xạ phòng nào | Bấm **Sửa** và làm nốt bước đó |
+| *Đăng nhập … hết hạn vào …. Hãy kết nối lại trước ngày đó.* | Phiên đăng nhập kênh hết hạn trong vòng 7 ngày | Kết nối lại trước ngày đó |
+| *…: lần đồng bộ gần nhất bị lỗi.* | Lần đồng bộ gần nhất lỗi và chưa có lần nào thành công sau đó | Bấm **Làm mới** trên kết nối. Nếu vẫn còn, [liên hệ hỗ trợ](/vi/help/support/) |
+| *… cập nhật giá hoặc phòng trống liên tục không gửi được tới kênh của bạn.* | Cập nhật đã lỗi từ ba lần trở lên | Kiểm tra kết nối có đang chạy; nếu có, liên hệ hỗ trợ |
+| *… tin đăng bị channel manager từ chối.* / *… bị channel manager từ chối.* | Một phòng hoặc rate plan bị từ chối | **Sửa** mở trang phòng, lý do hiện cạnh cài đặt gây ra nó |
+| **… không nhận bản cập nhật** (chuông) | Kênh từ chối bản cập nhật giá hoặc phòng trống — *giá hoặc phòng trống trên đó có thể chưa đúng* | Mở **Cài đặt → Kênh** và kiểm tra kết nối. Mỗi ngày tối đa một cảnh báo cho cùng kênh, chỗ nghỉ và lỗi |
+| **… gửi cảnh báo đồng bộ** (chuông) | Bản cập nhật vẫn được nhận, kèm góp ý từ kênh | Nên xem, không gấp |
+| **Trùng phòng · …** (chuông) | Một phòng có nhiều đặt phòng hơn số đơn vị trong vài đêm | Chuyển hoặc hủy một lượt lưu trú trên kênh của nó — [Lượt đặt bị trùng phòng](/vi/daily/bookings/#lượt-đặt-bị-trùng-phòng) |
+
 ## Các từ trạng thái kết nối
 
 Đây là trạng thái, không phải lỗi. Cùng bộ từ vựng được dùng ở mọi kênh.
@@ -94,6 +114,7 @@ tiếng Việt.
 | **Live** | Giá và tình trạng trống đi ra, đặt phòng và tin nhắn đi vào |
 | **Lỗi** | Có gì đó thất bại — dòng đó nói rõ: *Việc nhập giá bị chặn*, *Kích hoạt thất bại* |
 | **Chưa đồng bộ** | Đã kết nối, nhưng chưa có lần đồng bộ nào hoàn tất |
+| **Cần kết nối lại** | Đồng bộ đã dừng — quyền truy cập bị gỡ, hoặc kênh bị gỡ ở phía channel manager. Bấm **Kết nối lại** |
 
 Không có gì tự chuyển từ *Sẵn sàng* sang *Live*. Xem [Go live](/vi/channels/going-live/).
 

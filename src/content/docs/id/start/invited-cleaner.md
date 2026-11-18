@@ -62,8 +62,8 @@ Buka **Tugas**. Setiap kartu adalah satu pembersihan dan memberi tahu:
 Setelah kamar selesai, tekan **Tandai selesai**. Anda bisa melampirkan **foto** — lampirkan saja.
 Itu menyelesaikan pertanyaan di kemudian hari tanpa siapa pun harus saling percaya kata-kata.
 
-Kalau ada yang rusak, jangan hanya menyebutkannya sambil lalu: **buka tiket** dari tugas itu.
-Dengan begitu masalahnya masuk ke tempat yang pasti dilihat pemilik dan bisa dijadwalkan
+Kalau ada yang rusak, jangan hanya menyebutkannya sambil lalu: **buka tiket** — **Tugas → Masalah →
+Tiket baru**. Dengan begitu masalahnya masuk ke tempat yang pasti dilihat pemilik dan bisa dijadwalkan
 perbaikannya.
 
 ## Kode pintu dan alamat
@@ -78,19 +78,32 @@ Perlakukan detail itu seperti kunci. Itu keamanan tamu, bukan sekadar milik pemi
 ## Kalau Anda lebih suka tidak memakai aplikasi
 
 Tidak wajib. Minta pemilik mengirimkan **pesan klaster kebersihan** saja — produk ini menulis satu
-pesan WhatsApp per kelompok properti, berisi pekerjaan kelompok itu dan tidak ada informasi lain
-tentang bisnis mereka. Banyak tim kebersihan bekerja sepenuhnya dengan cara ini. Lihat
+rencana per kelompok kamar, berisi pekerjaan kelompok itu dan tidak ada informasi lain tentang bisnis
+mereka, dan pemilik bisa mengirimkannya lewat Zalo, WhatsApp, Messenger, Telegram, SMS, atau email.
+Banyak tim kebersihan bekerja sepenuhnya dengan cara ini. Lihat
 [Klaster kebersihan](/id/daily/tasks/#klaster-kebersihan).
+
+## Mulai, selesaikan, dan kirim foto dari Telegram atau Zalo
+
+Kalau tim Anda mengobrol di Telegram atau Zalo, Anda bisa mengerjakan tugas di sana bersama Santi:
+
+- Kirim **/jobs** untuk melihat tugas kebersihan hari ini, lalu tekan **▶ Mulai** dan **✅ Selesai**
+  untuk masing-masing (di Zalo, balas dengan angka yang ditampilkan).
+- Kirim **foto** dan pilih tugasnya — foto dilampirkan ke tugas itu di Santara AI, tempat pemilik
+  melihatnya.
+
+Anda menautkan Telegram atau Zalo sekali dengan akun Santara AI, dan Santi hanya menampilkan
+**tugas Anda**. Lihat [Santi di Telegram](/id/help/santi-telegram/) atau [Santi di Zalo](/id/help/santi-zalo/).
 
 ## Di ponsel
 
-**Aplikasi Santara AI untuk Android** ada di
-[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) — masuk dengan email
+**Aplikasi Santara AI** ada di [App Store](https://apps.apple.com/app/id6829604736) untuk iPhone dan di
+[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) untuk Android — masuk dengan email
 dan kata sandi yang sama. Anda akan melihat tiga tab: **Hari ini**, **Tugas**, dan **Lainnya**. Di
 **Tugas** Anda menekan **Tandai selesai** dan bisa menambahkan hingga 10 foto per pekerjaan. Lihat
 [Tugas & Pemeliharaan](/id/mobile/tasks/).
 
-Aplikasi iPhone belum dirilis. Di iPhone, pakai situsnya di browser ponsel: **Hari ini** dan
+Tidak mau memasang aplikasi? Pakai situsnya di browser ponsel: **Hari ini** dan
 **Tugas** nyaman dipakai di layar kecil. Lihat [Di ponsel Anda](/id/setup/mobile/).
 
 ## Kalau ada yang salah

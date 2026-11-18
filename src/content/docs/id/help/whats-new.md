@@ -12,7 +12,103 @@ Halaman ini dimulai Juli 2026, saat manual ini pertama diterbitkan. Setiap halam
 tanggal **Terakhir diperbarui** di bagian bawah, yang merupakan jawaban lebih rinci untuk
 "apakah ini berubah?".
 
-## Oktober 2026
+## Oktober dan November 2026
+
+### Masalah, petugas default, dan bukti di Tugas
+
+Tiket kini ada di tab **Masalah** pada **Tugas** — tidak ada lagi menu Tiket tersendiri di sidebar,
+dan tautan Tiket yang lama membuka tab ini. Di sebelahnya, **Petugas default** mengatur siapa yang
+membersihkan tiap kamar. Pada sebuah pembersihan, **Bukti & catatan** menerima foto dan catatan, dan
+manajer bisa **Hapus dari jadwal** saat tamu memperpanjang. Lihat [Tugas](/id/daily/tasks/) dan
+[Masalah (tiket)](/id/daily/tickets/).
+
+### Hari ini punya dua tab
+
+**Hari ini** terbuka di **Ringkasan** — hari itu dituliskan — dengan **Ikhtisar**, berisi okupansi
+malam ini, kedatangan, dan utas yang menunggu balasan, cukup satu klik. Lihat
+[Hari ini dan ringkasan harian](/id/daily/).
+
+### Kelebihan pesanan ditandai di mana-mana
+
+Saat sebuah kamar menampung lebih banyak masa menginap daripada unitnya, Reservasi menampilkan banner
+merah, setiap masa menginap mendapat lencana **Kelebihan pesanan**, kalender menggambar batang merah,
+dan lonceng memberi tahu Anda. Lihat [Kelebihan pesanan](/id/daily/bookings/#kelebihan-pesanan).
+
+### Strip kesehatan untuk channel Anda
+
+Saat koneksi atau sinkronisasi butuh perhatian Anda, sebuah strip muncul di bagian atas setiap
+halaman — satu baris per masalah, masing-masing dengan **Perbaiki**. Saat sebuah channel menolak
+pembaruan harga atau ketersediaan, lonceng memberi tahu, paling banyak sekali sehari untuk channel,
+properti, dan masalah yang sama. Jika akses Santara AI dicabut dari akun Airbnb, koneksinya
+menampilkan **Perlu dihubungkan ulang**; **Hubungkan ulang** dengan akun yang sama menyimpan listing
+dan riwayat Anda. Lihat [Di mana masalah terlihat](/id/channels/troubleshooting/#di-mana-masalah-terlihat)
+dan [Hubungkan ulang](/id/channels/airbnb/#hubungkan-ulang).
+
+### Target waktu balas di kotak masuk
+
+Utas yang menunggu Anda menampilkan **Menunggu 12 mnt**, lalu **Terlambat** begitu melewati target
+untuk momen menginap itu — 10 menit di hari check-in, 30 menit saat tamu menginap. Daftar **Saluran**
+menyaring utas per channel, dan **Tandai semua selesai** membersihkan **Perlu Anda** sekaligus. Lihat
+[Berapa lama tamu sudah menunggu](/id/daily/messages/#berapa-lama-tamu-sudah-menunggu).
+
+### Tampilan dan filter kalender
+
+Beralih antara **Linimasa** dan **Properti** (satu properti, satu bulan), pilih listing mana yang
+ditampilkan, dan saring per channel atau per masa menginap dengan sinyal upsell. Masa menginap yang
+tidak berada di kamar mana pun milik properti dikumpulkan di baris **Belum ada kamar**. Lihat
+[Tampilan dan filter](/id/daily/calendar/#tampilan-dan-filter).
+
+### Konten listing Anda dikirim ke channel
+
+Foto, deskripsi, kebijakan rumah, kebijakan pembatalan, dan fasilitas dikirim ke channel manager setiap
+kali Anda menyimpan, sehingga channel seperti Google Hotel Search menampilkan listing yang Anda kelola
+di sini. Sebelum Google Hotel Search aktif, sebuah daftar periksa menyebutkan apa saja yang masih
+kurang. Lihat [Konten listing Anda](/id/channels/other-channels/#konten-listing-anda).
+
+### Ulasan, diurutkan menurut yang perlu dibalas
+
+Ulasan punya empat tab — **Perlu dibalas**, **Di bawah 4★**, **Sudah dibalas**, dan **Semua** — dan
+**Ulas tamu ini** menerbitkan ulasan Anda tentang tamu Airbnb, dengan penilaian, ulasan publik, dan
+catatan pribadi opsional. Lihat [Ulasan](/id/daily/reviews/).
+
+### Upsell: Kirim semua dan Pengaturan
+
+**Kirim semua** terbuka dengan tawaran siap bernilai tertinggi tiap tamu sudah terpilih dan
+mengirimnya satu per satu, sedangkan tab **Pengaturan** mengatur harga, waktu, dan pesan tiap tawaran
+sekali untuk seluruh workspace. Lihat
+[Mengirim beberapa sekaligus](/id/money/upsells/#mengirim-beberapa-sekaligus) dan
+[Pengaturan](/id/money/upsells/#pengaturan).
+
+### Situs booking: Harga, SEO, Analitik, dan refund
+
+Situs booking punya tab **Harga**, **SEO**, dan **Analitik**, **editor visual** di Desain, serta
+**Pelacakan pihak ketiga** untuk ID Pengukuran Google Analytics dan ID Meta Pixel. Booking langsung
+yang sudah dibayar bisa di-refund sesuai kebijakan atau penuh. Lihat
+[Situs booking langsung Anda](/id/setup/booking-site/) dan [Uang](/id/setup/booking-site-requests/#uang).
+
+### Penagihan: uji coba, masa tenggang, dan faktur
+
+Uji coba gratis berlangsung 90 hari. Bila berakhir tanpa paket, Anda tetap mendapat akses penuh 7 hari
+lagi dengan sebuah banner, lalu workspace menjadi hanya-baca — tanpa dinding penghalang, dan tidak ada
+yang dihapus. Faktur tercantum di layar Tagihan untuk dilihat atau diunduh, dan **Ajak & dapatkan**
+memberi Anda tautan dan kode untuk dibagikan ke host lain. Lihat [Paket dan penagihan](/id/setup/billing/).
+
+### Harga dinamis: pratinjau sebelum terbit
+
+**Sinkronkan sekarang** di tab **Harga** sebuah listing menunjukkan harga setiap malam nantinya dan
+alasannya, dan **Terapkan harga ini** menerbitkannya. Lihat
+[Sinkronkan sekarang](/id/money/pricing/#sinkronkan-sekarang).
+
+### Lainnya
+
+- **Impor bawaan** menambahkan lima template pesan siap pakai —
+  [Lima template bawaan untuk diimpor](/id/setup/message-templates/#lima-template-bawaan-untuk-diimpor).
+- **Enam belas jenis notifikasi**, termasuk **Kelebihan pesanan** dan peringatan sinkronisasi channel —
+  [Notifikasi](/id/setup/workspace/#notifikasi).
+- **Hapus akun Anda sendiri** di santara.ai/delete-account —
+  [Menghapus akun Anda](/id/setup/account/#menghapus-akun-anda).
+- **Aplikasinya ada di App Store** untuk iPhone dan iPad, selain Google Play —
+  [Di ponsel Anda](/id/setup/mobile/).
 
 ### Kenalan dengan Santi dan kru AI Agents
 

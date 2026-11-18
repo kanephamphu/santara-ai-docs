@@ -48,6 +48,13 @@ properti**. Reservasi dan pesan mendatang mendarat di properti baru; yang sudah 
 **Hapus dari Santara AI** menghapus reservasi, pesan, tamu, dan ulasan kamar itu. Listing Anda di
 channel tidak terpengaruh. Anda bisa mengimpornya lagi nanti; riwayatnya ikut kembali.
 
+:::note[Masa inap yang akan datang tetap disimpan]
+Menghapus atau memutus koneksi hanya menghentikan sinkronisasi — tidak membatalkan apa pun di
+channel. Masa inap yang belum selesai tetap ada di Santara AI, jadi malam-malamnya tetap terblokir
+di channel lain dan tidak terjadi pemesanan ganda. Masa inap lampau beserta pesan dan ulasannya
+dihapus.
+:::
+
 ## Putuskan sebuah akun
 
 **Putuskan** menghentikan sinkronisasi dan menghapus semua yang diimpor dari akun itu. Sisi channel

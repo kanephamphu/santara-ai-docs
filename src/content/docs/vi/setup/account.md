@@ -11,7 +11,8 @@ sở hữu workspace nơi bạn làm việc.
 
 ## Nó nằm ở đâu
 
-Mở **menu tài khoản ở cuối thanh bên**, rồi chọn **Tài khoản cá nhân**. Đây cố ý không phải một tab
+Mở **menu tài khoản ở cuối thanh bên** (tên của bạn, bên dưới là *Tài khoản cá nhân*), rồi chọn
+**Cài đặt cá nhân**. Đây cố ý không phải một tab
 của Cài đặt: các tab ở đầu trang Cài đặt là thiết lập của *workspace*, còn mật khẩu của bạn không
 phải việc của workspace.
 
@@ -120,3 +121,15 @@ khác, trên cùng một tài khoản. Chuyển giữa chúng từ menu tài kho
 Đừng bao giờ dùng chung tài khoản thay cho việc mời người khác đúng cách. Mỗi lượt dọn được đánh dấu
 hoàn thành, mỗi tin nhắn đã gửi và mỗi ticket đã đóng đều gắn với một tài khoản, và chính ghi nhận
 đó giải quyết tranh cãi về sau. Xem [Đội ngũ và vai trò](/vi/setup/team/).
+
+## Xóa tài khoản
+
+Bạn có thể tự xóa tài khoản tại
+[santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=vi): đăng nhập rồi gõ email
+của tài khoản để xác nhận. Chức năng này không nằm trong Cài đặt hay trong ứng dụng di động.
+
+Yêu cầu sẽ đăng xuất bạn khỏi mọi thiết bị ngay lập tức, và nhân viên Santara AI hoàn tất trong vòng
+30 ngày. Thông tin cá nhân của bạn bị xóa; đặt phòng và hóa đơn của các workspace vẫn được giữ ở dạng
+ẩn danh. Nếu bạn là chủ duy nhất của một workspace có người khác dùng, hãy chuyển quyền chủ cho người
+khác trước. Chi tiết đầy đủ ở
+[Dữ liệu và quyền riêng tư](/vi/setup/data-and-privacy/#xóa-tài-khoản-của-bạn).

@@ -62,7 +62,8 @@ Mở **Công việc**. Mỗi thẻ là một lượt dọn và cho bạn biết:
 Khi phòng xong, bấm **Đánh dấu xong**. Bạn có thể đính kèm **ảnh** — hãy đính kèm. Nó giải
 quyết mọi thắc mắc về sau mà không ai phải tin vào lời nói của ai.
 
-Nếu có gì hỏng, đừng chỉ nói qua loa: hãy **mở một ticket** từ công việc đó. Như vậy vấn đề nằm ở
+Nếu có gì hỏng, đừng chỉ nói qua loa: hãy **mở một phiếu xử lý** — **Công việc → Sự cố
+→ Phiếu mới**. Như vậy vấn đề nằm ở
 nơi chủ nhà chắc chắn nhìn thấy và có thể lên lịch sửa chữa.
 
 ## Mã cửa và địa chỉ
@@ -76,20 +77,33 @@ chủ nhà.
 
 ## Nếu bạn không muốn dùng ứng dụng
 
-Không bắt buộc. Hãy nhờ chủ nhà gửi **tin nhắn cụm dọn phòng** — sản phẩm này viết một tin nhắn
-WhatsApp cho mỗi nhóm bất động sản, chỉ chứa công việc của nhóm đó và không có thông tin nào khác
-về việc kinh doanh của họ. Nhiều đội dọn phòng làm việc hoàn toàn theo cách này. Xem
+Không bắt buộc. Hãy nhờ chủ nhà gửi **tin nhắn cụm dọn phòng** — sản phẩm này viết một lịch dọn
+cho mỗi nhóm phòng, chỉ chứa công việc của nhóm đó và không có thông tin nào khác về việc kinh doanh
+của họ, và chủ nhà có thể gửi cho bạn qua Zalo, WhatsApp, Messenger, Telegram, SMS hoặc email.
+Nhiều đội dọn phòng làm việc hoàn toàn theo cách này. Xem
 [Cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng).
+
+## Bắt đầu, báo xong và gửi ảnh từ Telegram hoặc Zalo
+
+Nếu đội bạn nhắn tin trên Telegram hoặc Zalo, bạn có thể làm việc ngay ở đó với Santi:
+
+- Gửi **/jobs** để xem các việc dọn hôm nay, rồi bấm **▶ Bắt đầu** và **✅ Xong** cho từng việc (trên
+  Zalo, bạn trả lời bằng con số hiện ra).
+- Gửi **ảnh** và chọn việc dọn tương ứng — ảnh được gắn vào việc đó trong Santara AI, nơi chủ nhà
+  xem được.
+
+Bạn liên kết Telegram hoặc Zalo một lần bằng tài khoản Santara AI, và Santi chỉ hiện **việc của
+bạn**. Xem [Santi trên Telegram](/vi/help/santi-telegram/) hoặc [Santi trên Zalo](/vi/help/santi-zalo/).
 
 ## Trên điện thoại
 
-**Ứng dụng Santara AI cho Android** đã có trên
-[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) — đăng nhập bằng
+**Ứng dụng Santara AI** đã có trên [App Store](https://apps.apple.com/app/id6829604736) cho iPhone và trên
+[Google Play](https://play.google.com/store/apps/details?id=ai.santara.mobile) cho Android — đăng nhập bằng
 chính email và mật khẩu đó. Bạn sẽ thấy ba tab: **Hôm nay**, **Công việc** và **Thêm**. Trong
 **Công việc**, bạn bấm **Đánh dấu xong** và đính kèm tối đa 10 ảnh cho mỗi việc. Xem
 [Công việc & Bảo trì](/vi/mobile/tasks/).
 
-Ứng dụng iPhone chưa phát hành. Trên iPhone, hãy dùng website trong trình duyệt điện thoại: **Hôm
+Không muốn cài ứng dụng? Hãy dùng website trong trình duyệt điện thoại: **Hôm
 nay** và **Công việc** dùng tốt trên màn hình nhỏ. Xem [Trên điện thoại](/vi/setup/mobile/).
 
 ## Khi có gì đó sai

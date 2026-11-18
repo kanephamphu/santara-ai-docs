@@ -23,6 +23,15 @@ Utas diurutkan berdasarkan yang butuh perhatian, bukan berdasarkan waktu. Tiap u
 
 Utas tanpa hal tertunda turun sendiri dari daftar.
 
+Di kepala utas, **Tanya Santi** membuka Santi dengan percakapan itu sudah dijelaskan, jadi Anda bisa
+menanyakan apa yang perlu disampaikan ke tamu tanpa mengetik ulang. Jawaban Santi mencantumkan
+**Sumber**-nya, kapan data Anda dibaca (**Data per** suatu waktu), dan menandai angka yang tidak
+ditemukannya di ruang kerja Anda — *Saya belum bisa mencocokkan … dengan data Anda — cek dulu
+sebelum menindaklanjuti.*
+
+Di layar lebar, panel di samping utas diakhiri tombol **Lihat tamu**, yang membuka halaman
+[Tamu](/id/daily/guests/).
+
 ### Satu status per utas
 
 Setiap utas membawa tepat satu dari tiga status:
@@ -53,6 +62,28 @@ Di dalamnya, utas terbagi menjadi tiga kelompok:
 
 Bila daftar kosong, tertulis **Tidak ada yang perlu Anda tangani sekarang. Damai.** — itu
 tujuannya, bukan kesalahan.
+
+### Berapa lama tamu sudah menunggu
+
+Utas yang menunggu balasan Anda menampilkan berapa lama tamu sudah menunggu — **Menunggu 12 mnt** —
+dan berubah menjadi **Terlambat · 40 mnt** begitu melewati target balasan untuk momen menginap
+tersebut. Arahkan kursor ke labelnya untuk melihat sejak kapan tamu menunggu dan target mana yang
+berlaku. Hitungan dimulai dari pesan pertama tamu setelah balasan terakhir Anda.
+
+| Momen | Target balasan |
+| --- | --- |
+| Mendesak — utas ditandai mendesak | 15 mnt |
+| Hari check-in | 10 mnt |
+| Sedang menginap, termasuk hari check-out | 30 mnt |
+| Pertanyaan — belum ada masa menginap | 60 mnt |
+| Sebelum tiba | Hari yang sama — paling lambat akhir hari di lokasi properti, dan tidak pernah kurang dari 2 jam |
+| Setelah check-out | 24 jam |
+
+### Menyaring per channel
+
+Bila utas Anda datang dari lebih dari satu channel, daftar **Saluran** muncul di bawah filter:
+**Semua saluran**, lalu setiap channel dengan jumlah utasnya. Utas tanpa channel yang dikenali
+masuk ke **Lainnya**. Bila channel-nya banyak, daftar ini punya kotak pencarian sendiri.
 
 ### Membersihkan daftar sekaligus
 

@@ -9,7 +9,7 @@ Your [booking site](/setup/booking-site/) produces two inboxes, and they are not
 
 ## Enquiries
 
-**Booking Site → Leads** in the sidebar. Everyone who has used the contact form on your site: name,
+The **Leads** tab on **Booking Site**. Everyone who has used the contact form on your site: name,
 message, and how to reach them.
 
 If it is empty and you expected otherwise, the usual cause is that there is no form on the site —
@@ -19,9 +19,12 @@ These are leads, not bookings. Nothing is held and no dates are reserved.
 
 ## Booking requests
 
-**Booking Site → Requests** in the sidebar. These only exist for properties you have set to
+The **Requests** tab on **Booking Site**. Requests exist only for properties you have set to
 **request mode** rather than instant booking — the guest asks for dates, and nothing is reserved
 until you say yes.
+
+The same list also shows the stays guests **booked and paid for online**, marked **Paid**, so a
+direct payment always has a screen where you can see it and refund it.
 
 The screen tells you how many people are waiting on you, because that is the number that matters:
 a request sitting unanswered is a guest deciding to book somewhere else.
@@ -37,7 +40,18 @@ convenience.
 
 ### Money
 
-Santara AI takes 3% commission on the booking.
+A booking request is **not paid online** — nothing is charged when the guest asks, and the optional
+[Guest booking fee](/setup/booking-site/#5-connect-stripe) never applies to it.
+
+A stay paid online at checkout goes into your own Stripe account. If the Guest booking fee was on,
+the row shows the booking fee it includes; your payout is the rest. To refund one:
+
+- **Refund per policy** returns what your [cancellation policy](/setup/booking-site/#pricing-fees-and-cancellation)
+  allows today — the row previews it as *Policy refund now: amount (percent)*.
+- **Refund in full** returns everything that has not gone back yet.
+
+Partial refunds add up, and the row shows how much has been refunded so far. A refund also returns
+the matching share of any booking fee — Santara AI does not keep a fee on a stay that did not happen.
 
 :::caution[Refunding is not cancelling]
 **Refunding returns the money only. The stay remains on your calendar until you cancel it** — and

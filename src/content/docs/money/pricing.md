@@ -12,6 +12,10 @@ anything goes out.
 Nothing is priced automatically until you assign a rule set to a listing. A listing with no rules
 keeps whatever price it has.
 
+The **Pricing** screen is part of the **Operator** plan (and of the single plan in
+[markets with their own price](/setup/billing/#markets-with-their-own-price)). See
+[Plans and billing](/setup/billing/).
+
 To set one night by hand — or a minimum stay, or how many units are sellable — see
 **[Rates and availability](/money/rates/)**.
 
@@ -82,6 +86,34 @@ This is why you can safely hand-price a wedding week on a listing that is otherw
 The pricing screen shows a year of prices as a grid, and a trend chart of what the engine suggests
 against the base rate it started from and the floor and ceiling it may not cross. Assign a rule
 set, leave *Publish prices automatically* off, and watch it for a week before letting it out.
+
+### Sync now
+
+**Sync now** on the **Prices** tab runs the rules for the listing the chart is drawn for and opens
+the **Smart pricing preview**. Nothing is published yet. Every night is listed as **Will change**,
+**Your prices, untouched** (a price you typed by hand) or **Already correct**, and **Why this price**
+breaks a night down into base, season, day of week, event, booking pace, gap night and last minute.
+A night held at your floor or ceiling says so.
+
+**Apply these prices** publishes them to your channels. If *Publish prices automatically* is off for
+the listing, there is no Apply button — the list is what would be written, not what was. Saving a
+new base price under **Edit price** offers the same preview, so you do not have to wait for the
+night's run to see its effect. Only the workspace owner can run it.
+
+## When it runs
+
+Once a listing has a rule set and *Publish prices automatically* is on, the engine **runs every
+night** and publishes what changed. Two limits keep it steady, so it does not churn your channel
+rankings:
+
+- **A night it has already priced moves only a little per run** — by default at most 8% up or down.
+  A big seasonal jump is reached over several nights' runs, not in one leap. The first time a night
+  is priced, it goes straight to its target.
+- **It stays close to the seasonal calendar** — by default within 30% of the price the seasons, day
+  of week and events give — so demand signals cannot run away with it.
+
+Your minimum and maximum always win over both. A workspace whose billing has been read-only for 30
+days is skipped until it pays — see [If a payment fails](/setup/billing/#if-a-payment-fails).
 
 ## Did it work?
 

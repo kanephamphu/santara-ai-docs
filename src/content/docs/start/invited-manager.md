@@ -70,7 +70,7 @@ not its guests. A summary like *"3 buildings · 7 rooms"* on the team screen is 
    check-in times. Guest messages and the booking site both read from it, and half of all guest
    questions are answered by it. See
    [Stay information](/setup/properties/#stay-information-wifi-door-codes-access).
-2. **Set up the cleaning clusters** so the daily brief writes one WhatsApp message per cleaner
+2. **Set up the cleaning clusters** so the daily brief writes one shareable plan per cleaner
    rather than one per property — [Cleaning clusters](/daily/tasks/#cleaning-clusters).
 3. **Write the message templates** the owner keeps re-typing —
    [Message templates](/setup/message-templates/).

@@ -136,11 +136,23 @@ nối của Airbnb — việc đồng bộ dừng lại. Kết nối hiện **C�
 cập của Santara AI đã bị gỡ khỏi tài khoản Airbnb của bạn*. Bấm **Kết nối lại** và đăng nhập bằng
 **đúng** tài khoản Airbnb đó. Tin đăng và lịch sử của bạn vẫn được giữ nguyên.
 
+Bạn cũng có thể bấm **Kết nối lại** trên một tài khoản đang hoạt động bình thường — chẳng hạn để gia
+hạn quyền truy cập. Các tin đăng của bạn **vẫn trực tuyến** trong lúc bạn chấp thuận trong cửa sổ
+Airbnb; trang hiện *Đang chờ bạn chấp thuận trong cửa sổ Airbnb*, rồi *Đã kết nối lại* khi Airbnb
+xác nhận. Nếu bạn đăng nhập bằng một tài khoản Airbnb **khác**, không có gì thay đổi và trang sẽ báo
+cho bạn — để thêm tài khoản đó, hãy dùng **Thêm tài khoản khác**.
+
 ## Gỡ bỏ
 
 - **Gỡ khỏi Santara AI** trên một listing — xóa các đặt phòng, tin nhắn, khách và đánh giá của phòng đó
   tại đây. Listing Airbnb của bạn không bị ảnh hưởng và có thể nhập lại.
 - **Ngắt kết nối** tài khoản — tương tự, cho toàn bộ listing của tài khoản, và đồng bộ dừng lại.
+
+:::note[Các kỳ nghỉ sắp tới được giữ lại]
+Gỡ hoặc ngắt kết nối chỉ dừng đồng bộ — không hủy gì trên kênh. Các kỳ nghỉ chưa kết thúc vẫn ở lại
+Santara AI, nên những đêm đó vẫn bị chặn trên các kênh khác và không bị đặt trùng. Các kỳ nghỉ đã
+qua cùng tin nhắn và đánh giá của chúng sẽ bị xóa.
+:::
 
 ## Tin nhắn khách và đánh giá
 

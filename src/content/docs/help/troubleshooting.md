@@ -9,8 +9,9 @@ sidebar:
 
 1. **Refresh the page.** Santara AI updates screens live; a tab left open overnight can hold a stale
    view.
-2. **Check the channel.** **Settings → Channels** — is the connection *Connected*, and when did it
-   last sync? Press **Refresh** on it.
+2. **Check the channel.** A strip at the top of the page means something in your channels needs a
+   look — press **Fix** on it. Otherwise open **Settings → Channels**: is the connection
+   *Connected*, and when did it last sync? Press **Refresh** on it.
 3. **Check the timezone.** **Settings → Workspace** — a wrong timezone makes "today" wrong
    everywhere: arrivals, cleaning, the brief.
 4. **Ask the [assistant](/help/assistant/).** It can read your workspace and will tell you what it
@@ -55,6 +56,13 @@ See [Smart pricing](/money/pricing/).
 ## Availability is lower than expected
 
 Availability is capped at the room's **unit count**. One apartment is one unit. Check the room.
+
+## Two guests are booked into the same room
+
+Overlapping stays can add up to more than a room's units — two channels sold the last night before
+the update reached the second. Santara AI marks it with a red banner on Reservations, an
+**Overbooked** badge, a red bar on the calendar and a bell alert. Move or cancel one of the stays on
+its channel. See [Overbooked stays](/daily/bookings/#overbooked-stays).
 
 ## A cleaning task is missing
 

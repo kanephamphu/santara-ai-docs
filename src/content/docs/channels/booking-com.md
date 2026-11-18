@@ -143,10 +143,18 @@ prices here (or with [pricing rules](/money/pricing/)) and treat Santara AI as t
 ## Changing or removing
 
 - **Change property** — future reservations and messages land on the property you pick. Everything
-  already imported stays where it is and your room mappings are kept.
+  already imported stays where it is and your room mappings are kept. The button only appears when
+  the hotel is not tied to one of your properties' own rooms; otherwise disconnect and connect the
+  Hotel ID again on the other property.
 - **Remove from Santara AI** on one room — removes its imported data here only.
 - **Disconnect** — stops syncing and removes this property's imported Booking.com data. Your
   extranet is untouched. You can reconnect the same Hotel ID later.
+
+:::note[Upcoming stays are kept]
+Removing or disconnecting stops syncing — it does not cancel anything on the channel. Stays that
+have not ended yet stay in Santara AI, so their nights remain blocked on your other channels and
+nothing gets double-booked. Past stays, their messages and reviews are removed.
+:::
 
 :::caution[If the channel disappears]
 *"This channel was removed on the channel manager side"* means the connection was cancelled

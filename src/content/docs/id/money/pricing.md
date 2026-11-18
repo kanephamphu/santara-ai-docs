@@ -12,6 +12,10 @@ dilakukannya sebelum ada yang keluar.
 Tidak ada yang diberi harga otomatis sampai Anda menetapkan rule set pada sebuah listing. Listing
 tanpa aturan mempertahankan harga yang ada.
 
+Layar **Harga** adalah bagian dari paket **Operator** (dan dari paket tunggal di
+[pasar dengan harga sendiri](/id/setup/billing/#pasar-dengan-harga-sendiri)). Lihat
+[Paket dan penagihan](/id/setup/billing/).
+
 Untuk menetapkan satu malam secara manual — atau minimum menginap, atau berapa unit yang bisa dijual —
 lihat **[Tarif dan ketersediaan](/id/money/rates/)**.
 
@@ -64,15 +68,15 @@ Buka pengaturan pricing sebuah listing:
 | **Harga dasar** | Acuan semua pengali. Dipakai hanya bila rate plan tidak punya harga sendiri — harga plan didahulukan |
 | **Minimum / maksimum** | Batas keras. Pricing otomatis tidak pernah melewatinya. Minimum menggantikan lantai hasil hitungan; bukan menaikkannya |
 | **Biaya** | Biaya melayani satu malam. Isi keenam kolom atau tidak sama sekali — satu kolom kosong membuat lantai kembali ke porsi harga dasar |
-| **Beri harga otomatis untuk listing ini** | Mati berarti aturan tidak berjalan di sini sama sekali |
+| **Hargai properti ini otomatis** | Mati berarti aturan tidak berjalan di sini sama sekali |
 | **Terbitkan harga otomatis** | Mati berarti harga dihitung dan ditampilkan, tetapi tidak diterbitkan |
-| **Ganti harga yang saya ketik manual** | Mati secara bawaan. Lihat di bawah |
+| **Ganti harga yang saya ketik sendiri** | Mati secara bawaan. Lihat di bawah |
 | **Yang diterima channel** | Jendela terpisah milik Booking.com dan Airbnb. Ia mempersempit rentang di atas, bukan menggantikannya |
 
 ## Melindungi harga manual
 
 **Harga yang Anda ketik manual tidak pernah ditimpa**, kecuali Anda menyalakan *Ganti harga yang saya
-ketik manual* untuk listing itu. Bila menyala, tarif yang Anda ketik ditimpa dan **nilainya hilang —
+ketik sendiri* untuk listing itu. Bila menyala, tarif yang Anda ketik ditimpa dan **nilainya hilang —
 tidak ada undo**.
 
 Karena itulah Anda bisa dengan aman memberi harga manual untuk sepekan pernikahan pada listing yang
@@ -83,6 +87,36 @@ selebihnya otomatis.
 Layar pricing menampilkan setahun harga sebagai grid, dan grafik tren berisi saran mesin terhadap
 tarif dasar serta lantai dan plafon yang tidak boleh dilewati. Tetapkan rule set, biarkan *Terbitkan
 harga otomatis* mati, dan amati seminggu sebelum melepasnya.
+
+### Sinkronkan sekarang
+
+**Sinkronkan sekarang** di tab **Harga** menjalankan aturan untuk listing yang sedang digambar
+grafiknya dan membuka **Pratinjau harga dinamis**. Belum ada yang diterbitkan. Setiap malam
+ditampilkan sebagai **Akan berubah**, **Harga Anda, tidak disentuh** (harga yang Anda ketik manual),
+atau **Sudah tepat**, dan **Mengapa harga ini** menguraikan satu malam menjadi harga dasar, musim,
+hari dalam seminggu, acara, laju booking, malam celah, dan menit terakhir. Malam yang tertahan di
+lantai atau plafon Anda menyebutkannya.
+
+**Terapkan harga ini** menerbitkannya ke channel Anda. Kalau *Terbitkan harga otomatis* mati untuk
+listing itu, tombol Terapkan tidak ada — daftarnya adalah apa yang akan ditulis, bukan yang sudah.
+Menyimpan harga dasar baru di **Ubah harga** menawarkan pratinjau yang sama, jadi Anda tidak perlu
+menunggu proses malam hari untuk melihat dampaknya. Hanya pemilik workspace yang bisa menjalankannya.
+
+## Kapan mesin berjalan
+
+Begitu sebuah listing punya rule set dan *Terbitkan harga otomatis* menyala, mesin **berjalan setiap
+malam** dan menerbitkan yang berubah. Dua batas menjaganya tetap stabil, supaya peringkat Anda di
+channel tidak terganggu:
+
+- **Malam yang sudah pernah diberi harga hanya bergeser sedikit per proses** — secara default paling
+  banyak 8% naik atau turun. Lonjakan musiman yang besar dicapai lewat beberapa malam, bukan sekali
+  lompat. Saat sebuah malam diberi harga untuk pertama kalinya, ia langsung ke targetnya.
+- **Tetap dekat dengan kalender musiman** — secara default dalam 30% dari harga yang dihasilkan
+  musim, hari dalam seminggu, dan acara — sehingga sinyal permintaan tidak membuatnya lepas kendali.
+
+Harga minimum dan maksimum Anda selalu mengalahkan keduanya. Workspace yang penagihannya sudah
+hanya-baca selama 30 hari dilewati sampai membayar — lihat
+[Jika pembayaran gagal](/id/setup/billing/#jika-pembayaran-gagal).
 
 ## Apakah berhasil?
 

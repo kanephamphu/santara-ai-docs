@@ -47,6 +47,12 @@ sản**. Đặt phòng và tin nhắn trong tương lai về bất động sản
 **Gỡ khỏi Santara AI** xóa các đặt phòng, tin nhắn, khách và đánh giá của phòng đó. Listing của bạn trên
 kênh không bị ảnh hưởng. Bạn có thể nhập lại sau; lịch sử quay lại cùng nó.
 
+:::note[Các kỳ nghỉ sắp tới được giữ lại]
+Gỡ hoặc ngắt kết nối chỉ dừng đồng bộ — không hủy gì trên kênh. Các kỳ nghỉ chưa kết thúc vẫn ở lại
+Santara AI, nên những đêm đó vẫn bị chặn trên các kênh khác và không bị đặt trùng. Các kỳ nghỉ đã
+qua cùng tin nhắn và đánh giá của chúng sẽ bị xóa.
+:::
+
 ## Ngắt một tài khoản
 
 **Ngắt kết nối** dừng đồng bộ và xóa mọi thứ đã nhập từ tài khoản đó. Phía kênh vẫn nguyên. Kết nối

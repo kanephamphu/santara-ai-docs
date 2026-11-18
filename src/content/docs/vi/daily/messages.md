@@ -21,6 +21,14 @@ Các luồng được sắp theo mức cần chú ý, không theo thời gian. M
 
 Luồng không còn việc tồn đọng tự tụt xuống.
 
+Ở đầu luồng, nút **Hỏi Santi** mở Santi với cuộc trò chuyện đã được mô tả sẵn, để bạn hỏi nên trả
+lời khách thế nào mà không phải gõ lại. Câu trả lời của Santi ghi rõ **Nguồn**, thời điểm đọc dữ
+liệu (**Dữ liệu lúc** một giờ cụ thể), và đánh dấu con số nào nó không tìm thấy trong dữ liệu của
+bạn — *Mình chưa đối chiếu được … với dữ liệu — hãy kiểm tra trước khi dùng.*
+
+Trên màn hình rộng, bảng bên cạnh luồng có nút **Xem khách** ở cuối, mở trang
+[Khách](/vi/daily/guests/).
+
 ### Mỗi luồng một trạng thái
 
 Mỗi luồng mang đúng một trong ba trạng thái:
@@ -51,6 +59,28 @@ Bên trong, các luồng chia thành ba nhóm:
 
 Khi danh sách trống, nó ghi **Hiện không có việc nào cần bạn. Bình yên.** — đó là mục tiêu, không
 phải lỗi.
+
+### Khách đã chờ bao lâu
+
+Luồng đang chờ bạn trả lời cho biết khách đã chờ bao lâu — **Chờ 12 phút** — và chuyển thành
+**Trễ · 40 phút** khi đã quá mục tiêu trả lời của thời điểm đó trong kỳ lưu trú. Rê chuột lên nhãn
+để xem khách chờ từ lúc nào và mục tiêu nào đang áp dụng. Thời gian tính từ tin nhắn đầu tiên của
+khách sau lần trả lời gần nhất của bạn.
+
+| Thời điểm | Mục tiêu trả lời |
+| --- | --- |
+| Khẩn — luồng được đánh dấu khẩn | 15 phút |
+| Ngày nhận phòng | 10 phút |
+| Đang lưu trú, kể cả ngày trả phòng | 30 phút |
+| Hỏi đặt phòng — chưa có lượt lưu trú | 60 phút |
+| Trước khi đến | Trong ngày — trước khi hết ngày theo giờ của chỗ nghỉ, và không bao giờ ít hơn 2 giờ |
+| Sau trả phòng | 24 giờ |
+
+### Lọc theo kênh
+
+Khi các luồng đến từ nhiều kênh, danh sách **Kênh** nằm dưới các bộ lọc: **Tất cả kênh**, rồi từng
+kênh kèm số luồng. Luồng không rõ kênh nằm ở **Khác**. Khi có nhiều kênh, danh sách có ô tìm kiếm
+riêng.
 
 ### Dọn danh sách một lần
 

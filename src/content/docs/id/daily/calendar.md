@@ -18,6 +18,43 @@ tanggal berikutnya; malam kosong menampilkan harganya.
 - **Blok bergaris** adalah tiket yang dijadwalkan pada tanggal itu — perbaikan, pembersihan besar,
   atau tamu pemilik.
 - **Klik satu hari** untuk daftar harian: semua yang bergerak pada tanggal itu.
+- **Batang merah dengan tanda peringatan** adalah masa menginap yang kelebihan pesanan: kamar itu
+  menampung lebih banyak masa menginap daripada jumlah unitnya pada malam tersebut. Kartunya
+  bertuliskan **Kelebihan pesanan: kamar ini punya lebih banyak pemesanan daripada unit pada malam
+  ini**. Lihat [Kelebihan pesanan](/id/daily/bookings/#kelebihan-pesanan).
+- **Belum ada kamar** adalah baris abu-abu di bawah sebuah properti, berisi masa menginap yang tidak
+  berada di kamar mana pun. Baris ini hanya muncul bila memang ada masa menginap seperti itu. Jika
+  booking dari channel masuk ke sana, periksa pemetaan listing-nya — lihat
+  [Pemecahan masalah channel](/id/channels/troubleshooting/#setelah-live).
+- **Arahkan kursor ke sebuah batang** untuk melihat kartu masa menginapnya. **Tanya Santi** di kartu
+  itu membuka Santi dengan reservasi tersebut sudah dijelaskan, jadi Anda bisa langsung bertanya.
+
+## Tampilan dan filter
+
+Tombol di bagian atas halaman memilih tampilannya:
+
+- **Linimasa** — semua properti di sisi kiri, tanggal di atas, seperti gambar di atas. Di ponsel
+  tampilan ini menjadi **Harian**: satu hari sekaligus, berisi siapa yang **Masuk**, **Keluar**,
+  **Menginap**, dan kamar mana yang **Kosong**.
+- **Properti** — satu properti, satu bulan. Pilih propertinya, pindah bulan dengan **Bulan
+  sebelumnya** dan **Bulan berikutnya**; setiap bulan menampilkan berapa malam yang terisi (*12 dari
+  30 malam terisi*) dan pendapatannya. Klik malam kosong untuk menambah booking atau mengubah
+  tarifnya.
+
+Kedua tampilan membaca tanggal yang sama, jadi berpindah tampilan tidak membuat Anda kehilangan
+posisi, dan browser mengingat tampilan yang terakhir Anda pakai.
+
+**Properti yang ditampilkan** (dengan hitungan seperti *4/6*) menyalakan atau mematikan properti
+satu per satu, lengkap dengan **Tampilkan semua** dan **Sembunyikan semua**. Pilihan ini tersimpan
+di browser ini — berguna bila Anda hanya mengurus sebagian gedung.
+
+**Filter** membuka dua pilihan lagi:
+
+- **Saluran** — hanya tampilkan masa menginap dari satu channel. Daftarnya berisi channel dari
+  masa menginap yang sedang terlihat, masing-masing dengan jumlahnya.
+- **Filter masa inap** — **Semua masa inap**, atau hanya yang **Dengan sinyal upsell**.
+
+**Reset filter** mengembalikan keduanya.
 
 ## Memblokir atau membuka tanggal
 
@@ -85,7 +122,7 @@ Perubahan menunggu di **tertunda** sampai Anda mengklik **Simpan semua**; satu s
 
 Harga yang Anda ketik di sini adalah **harga manual**, dan
 [mesin pricing](/id/money/pricing/) tidak menyentuhnya — kecuali Anda menyalakan *Ganti harga yang
-saya ketik manual* untuk listing tersebut, yang menimpanya tanpa bisa dibatalkan.
+saya ketik sendiri* untuk listing tersebut, yang menimpanya tanpa bisa dibatalkan.
 
 Itulah seluruh hubungannya: aturan menentukan bentuk tahun, tangan Anda menang pada malam yang Anda
 sentuh.

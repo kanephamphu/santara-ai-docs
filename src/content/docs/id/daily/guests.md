@@ -5,6 +5,13 @@ sidebar:
   order: 7
 ---
 
+:::note[Cara membukanya]
+**Tamu** tidak ada di bilah samping. Buka dari [Pesan](/id/daily/messages/): **Lihat tamu** ada di
+bagian bawah panel tamu di sebelah kanan kotak masuk. Panel itu hanya tampil di layar lebar (1280
+piksel ke atas) — di jendela yang lebih kecil atau di ponsel, perlebar jendelanya atau gunakan layar
+yang lebih besar.
+:::
+
 **Tamu** adalah orang, bukan reservasi. Orang yang sama pada tiga kali menginap adalah satu catatan
 dengan riwayat, dicocokkan lintas channel bila channel memberi cukup data untuk mencocokkan.
 

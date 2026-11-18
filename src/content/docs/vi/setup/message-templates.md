@@ -42,17 +42,21 @@ sẽ điền bằng giá trị thật trong workspace thay vì chỗ giữ. Đó
 
 Không gì được gửi tự động. Mẫu điền vào khung; bạn là người bấm gửi.
 
-## Những mẫu có sẵn từ đầu
+## Năm mẫu mặc định để nhập
 
-Workspace mới có năm mẫu, bao phủ những gì hầu như ai cũng phải viết:
+Workspace mới bắt đầu **chưa có mẫu nào**. Bấm **Nhập mẫu mặc định** và năm mẫu sẽ được thêm vào, bao
+quát những gì hầu như ai cũng viết:
 
 | Mẫu | Khi nào |
 | --- | --- |
-| **Chào mừng / nhận phòng** | Trước giờ nhận phòng: giờ giấc, mã cửa, cách vào |
+| **Nhắc nhận phòng** | Trước giờ nhận phòng: giờ giấc, mã cửa, cách vào |
 | **Nhắc trả phòng** | Ngày hôm trước: giờ, chìa khóa, những gì cần để lại |
-| **Chào trả phòng muộn** | Khi lịch cho phép — xem [Upsell](/vi/money/upsells/) |
-| **Xin đánh giá** | Sau một lượt lưu trú tốt |
-| **Xin lỗi** | Khi có chuyện không ổn và bạn cần thời gian, một cách trung thực |
+| **Đề xuất trả phòng muộn** | Khi lịch cho phép — xem [Upsell](/vi/money/upsells/) |
+| **Yêu cầu đánh giá** | Sau một lượt lưu trú tốt |
+| **Xin lỗi khi có sự cố** | Khi có chuyện không ổn và bạn cần thời gian, một cách trung thực |
+
+Các mẫu được nhập theo ngôn ngữ giao diện bạn đang dùng lúc đó. Mẫu nào trùng tên với mẫu đã có trong
+danh sách sẽ được bỏ qua, nên bấm hai lần cũng không tạo bản trùng.
 
 Cứ sửa thoải mái — thay đổi chỉ áp cho mẫu đã lưu đó, và bản mặc định là điểm khởi đầu chứ không phải
 thứ sản phẩm liên tục cập nhật.

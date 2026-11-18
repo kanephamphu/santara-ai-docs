@@ -50,6 +50,9 @@ Từ lúc đó, với các listing đang chạy:
    tệ** và **Giá mỗi đêm**. Tình trạng trống bị chặn ở số đơn vị đó: nếu một phòng là một căn hộ mà
    bạn nhập 3, bạn vừa chào bán ba căn. Trước khi bạn xác nhận, hộp thoại cho biết bao nhiêu đêm sắp
    tới sẽ còn trống và bao nhiêu bị đóng vì kín chỗ.
+6. **Trên Google Hotel Search, nội dung tin đăng đã đầy đủ** — ảnh, mô tả, địa chỉ, tiện nghi và
+   chính sách. Kênh sẽ không hoạt động nếu thiếu; xem
+   [danh sách kiểm tra](/vi/channels/other-channels/#google-hotel-search).
 
 ## Lên chạy từng listing một
 
@@ -69,6 +72,12 @@ chạy thì đang chạy, phần còn lại vẫn giữ thiết lập, và bạn
   Dữ liệu và lịch sử của bạn được giữ lại.
 - **Để trả lại quyền kiểm soát**, gỡ listing khỏi Santara AI hoặc ngắt kết nối. Listing và lịch trên
   kênh không bị ảnh hưởng, nhưng các đặt phòng, tin nhắn và đánh giá đã nhập ở đây sẽ bị xóa theo.
+
+:::note[Các kỳ nghỉ sắp tới được giữ lại]
+Gỡ hoặc ngắt kết nối chỉ dừng đồng bộ — không hủy gì trên kênh. Các kỳ nghỉ chưa kết thúc vẫn ở lại
+Santara AI, nên những đêm đó vẫn bị chặn trên các kênh khác và không bị đặt trùng. Các kỳ nghỉ đã
+qua cùng tin nhắn và đánh giá của chúng sẽ bị xóa.
+:::
 
 :::caution[Đặt phòng phát sinh khi đang chạy là thật]
 Bất cứ điều gì khách đặt trong thời gian chạy đều tồn tại trên kênh và phải được thực hiện, dù sau đó

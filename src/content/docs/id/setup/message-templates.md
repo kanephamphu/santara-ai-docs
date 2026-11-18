@@ -44,17 +44,21 @@ template yang sudah Anda lihat menghasilkan kalimat sungguhan.
 
 Tidak ada yang dikirim otomatis. Template mengisi kotaknya; Anda yang menekan kirim.
 
-## Yang sudah tersedia sejak awal
+## Lima template bawaan untuk diimpor
 
-Workspace baru mendapat lima, mencakup apa yang hampir semua orang tulis:
+Workspace baru dimulai **tanpa template**. Tekan **Impor bawaan** dan lima template ditambahkan,
+mencakup apa yang hampir semua orang tulis:
 
 | Template | Kapan |
 | --- | --- |
-| **Sambutan / kedatangan** | Sebelum check-in: jam, kode pintu, cara masuk |
-| **Pengingat check-out** | Sehari sebelumnya: jam, kunci, apa yang perlu ditinggalkan |
-| **Tawaran late check-out** | Saat kalender memungkinkan — lihat [Upsell](/id/money/upsells/) |
+| **Reminder check-in** | Sebelum check-in: jam, kode pintu, cara masuk |
+| **Reminder check-out** | Sehari sebelumnya: jam, kunci, apa yang perlu ditinggalkan |
+| **Penawaran check-out terlambat** | Saat kalender memungkinkan — lihat [Upsell](/id/money/upsells/) |
 | **Permintaan ulasan** | Setelah masa menginap yang baik |
-| **Permintaan maaf** | Saat ada yang salah dan Anda perlu waktu, dengan jujur |
+| **Permintaan maaf isu** | Saat ada yang salah dan Anda perlu waktu, dengan jujur |
+
+Template diimpor dalam bahasa antarmuka Anda saat itu. Template yang namanya sudah ada di daftar Anda
+dilewati, jadi menekannya dua kali tidak membuat duplikat.
 
 Sunting sesuka Anda — perubahan hanya berlaku pada template tersimpan itu, dan bawaannya adalah titik
 awal, bukan sesuatu yang terus diperbarui produk.

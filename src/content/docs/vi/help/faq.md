@@ -34,7 +34,7 @@ nhưng không gửi gì. Khi chạy thật, nó chỉ trả lời các chủ đ�
 an toàn luôn chờ bạn. Ngoài ra, AI viết; bạn gửi.
 
 **Nó có tự đổi giá của tôi không?**
-Chỉ khi bạn gán một [rule set định giá](/vi/money/pricing/) cho listing và để *Tự xuất bản giá* bật.
+Chỉ khi bạn gán một [rule set định giá](/vi/money/pricing/) cho listing và để *Tự động đăng giá* bật.
 Giá bạn nhập tay không bao giờ bị ghi đè trừ khi bạn cho phép.
 
 **Có lượt đặt trên Airbnb. Tôi có cần khóa ở nơi khác không?**
@@ -81,7 +81,7 @@ Bất kỳ ai trong workspace có quyền vào các màn hình liên quan. **Li�
 English, Bahasa Indonesia và Tiếng Việt — cho giao diện, bản tin hằng ngày và tài liệu này.
 
 **Có ứng dụng di động không?**
-Có, trên Android — đã có trên Google Play. iOS sắp ra mắt. Xem
+Có — trên App Store cho iPhone và iPad, và trên Google Play cho Android. Xem
 [Bắt đầu & đăng nhập](/vi/mobile/getting-started/).
 
 **Hỗ trợ những kênh nào?**

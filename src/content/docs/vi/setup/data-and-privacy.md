@@ -113,7 +113,9 @@ Không có gì khác. Trong danh sách này không có mạng quảng cáo và k
 Thanh toán từ [website đặt phòng trực tiếp](/vi/setup/booking-site/) đi thẳng **vào tài khoản Stripe
 của chính bạn**, không phải của chúng tôi. Santara AI không bao giờ giữ tiền của khách.
 
-Santara AI lấy **3% hoa hồng** trên đặt phòng trực tiếp.
+Santara AI không lấy gì từ một lượt đặt trực tiếp, trừ khi bạn bật **Phí đặt phòng của khách** (tùy
+chọn) — 3%, do khách trả thêm trên tiền phòng, không bao giờ trừ vào số tiền bạn nhận. Phí này mặc
+định tắt. Xem [Hoa hồng](/vi/setup/billing/#hoa-hồng).
 
 ## Lấy dữ liệu ra
 
@@ -152,16 +154,16 @@ phía kênh cũng được dọn dẹp thay vì bị bỏ lại trỏ tới mộ
 
 ## Xóa tài khoản của bạn
 
-Bạn có thể tự xóa tài khoản của mình:
-
-- **Trong ứng dụng** — Cài đặt → Cài đặt cá nhân → **Xoá tài khoản**, rồi gõ email của bạn để xác
-  nhận.
-- **Trên web** — tại [santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=vi),
-  sau khi đăng nhập.
+Bạn có thể tự xóa tài khoản của mình, trên web: vào
+[santara.ai/delete-account](https://www.santara.ai/delete-account/?lang=vi), đăng nhập, rồi gõ email
+của tài khoản để xác nhận. Ứng dụng di động không có chức năng xóa — tài khoản được tạo và đóng trên
+web.
 
 Điều gì xảy ra:
 
-1. Bạn **bị đăng xuất khỏi mọi thiết bị ngay lập tức**, và tài khoản không thể đăng nhập nữa.
+1. Bạn **bị đăng xuất khỏi mọi thiết bị ngay lập tức**, và tài khoản không thể đăng nhập nữa. Thông
+   báo đẩy tới điện thoại của bạn dừng lại, và trợ lý AI bạn đã kết nối — ChatGPT, Claude — mất quyền
+   truy cập.
 2. Đội ngũ của chúng tôi xem xét yêu cầu và **hoàn tất trong vòng 30 ngày**.
 3. Tên, email, số điện thoại, ảnh và mật khẩu của bạn bị xóa. Đặt phòng, hóa đơn và các dữ liệu khác
    của workspace bạn từng làm việc **được giữ lại cho kế toán, ở dạng ẩn danh** — không còn thông tin

@@ -90,7 +90,7 @@ Within a few minutes:
 
 | You'll see | Where |
 | --- | --- |
-| Existing and future reservations | [Bookings](/daily/bookings/) and [Calendar](/daily/calendar/) |
+| Existing and future reservations | [Reservations](/daily/bookings/) and [Calendar](/daily/calendar/) |
 | Past guest conversations | [Messages](/daily/messages/) |
 | Reviews guests left you | [Reviews](/daily/reviews/) |
 | A turnover task for tonight's checkouts | [Tasks](/daily/tasks/) |

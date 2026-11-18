@@ -5,37 +5,71 @@ sidebar:
   order: 8
 ---
 
-Mọi đánh giá khách để lại, từ mọi kênh đã kết nối có chuyển đánh giá, trong một danh sách — với những cái chưa được phản
-hồi nằm trên đầu.
+Mọi đánh giá khách để lại, từ mọi kênh đã kết nối có chuyển đánh giá, trong một danh sách.
 
 ![Đánh giá từ mọi kênh, với số chưa được trả lời đếm ở phía trên.](/screens/reviews.vi.png)
 
+## Tìm những đánh giá cần chú ý
+
+Danh sách có bốn tab, mỗi tab có số đếm riêng:
+
+| Tab | Hiển thị gì | Thứ tự mặc định |
+| --- | --- | --- |
+| **Cần phản hồi** | Đánh giá bạn chưa trả lời | **Cũ nhất trước** — cái chờ lâu nhất |
+| **Dưới 4★** | Điểm thấp | **Điểm thấp nhất** |
+| **Đã phản hồi** | Đánh giá đã có phản hồi của bạn | **Mới nhất** |
+| **Tất cả** | Mọi đánh giá | **Mới nhất** |
+
+Trang mở ở **Cần phản hồi** khi có đánh giá đang chờ, và ở **Tất cả** khi không còn gì. Bạn có thể đổi
+thứ tự bằng **Sắp xếp** (**Mới nhất**, **Cũ nhất trước**, **Điểm thấp nhất**), thu hẹp theo **Khoảng
+thời gian** (toàn bộ, 30 hoặc 90 ngày qua, 12 tháng qua), theo chỗ nghỉ và phòng, hoặc **Tìm đánh giá**
+theo tên khách hay một từ trong nội dung.
+
+Trên màn hình rộng, bảng bên cạnh liệt kê **Chỗ nghỉ** của bạn kèm điểm trung bình — chọn một chỗ để lọc
+trang — và **Đánh giá khách của bạn**: những khách Airbnb vẫn đang chờ bạn đánh giá, kèm số ngày còn
+lại. Airbnb đóng cửa sổ này sau 14 ngày kể từ ngày trả phòng.
+
 ## Phản hồi
 
-Viết phản hồi ở đây và nó được xuất bản trở lại kênh. Khách thấy nó ở nơi họ để lại đánh giá. Mọi
-thành viên trong workspace đều có thể trả lời — đây là giao tiếp với khách, không phải hành động
-quản trị.
+Dưới một đánh giá chưa có phản hồi, chọn **Phản hồi cùng Santi** hoặc **Tự viết**.
 
-Danh sách đưa những cái bạn chưa trả lời lên đầu, và đó là tất cả mức ưu tiên cần có.
+- **Phản hồi cùng Santi** soạn sẵn một phản hồi cho bạn, có đánh dấu là do Santi viết. Bấm **Ấm áp
+  hơn** hoặc **Ngắn hơn**, hoặc chuyển sang **Ngôn ngữ của khách**, rồi sửa tùy ý.
+- **Tự viết** mở một ô trống.
+
+**Gửi phản hồi** xuất bản nó trở lại kênh. Khách — và mọi khách tương lai trên kênh đó — thấy nó ngay
+chỗ đánh giá được để lại, nên không có gì được đăng cho tới khi bạn bấm. Mọi thành viên của workspace
+đều có thể phản hồi — đây là giao tiếp với khách, không phải thao tác quản lý.
 
 ## Điểm số
 
-Các kênh chấm theo thang và tiêu chí khác nhau. Santara AI lưu chúng theo một dạng duy nhất, để 8,6 của
-Booking.com và 4,3 của Airbnb có thể nằm chung một mức trung bình mà không cái nào âm thầm sai. Cái
-hiển thị cho bạn là thang của chính kênh đó, để khớp với extranet.
+Các kênh chấm điểm theo thang và tiêu chí khác nhau. Santara AI lưu chúng theo một dạng duy nhất, để
+một điểm 8,6 của Booking.com và một điểm 4,3 của Airbnb có thể nằm trong cùng một trung bình mà không
+cái nào âm thầm bị sai.
 
-Điểm theo tiêu chí — sạch sẽ, chính xác, giao tiếp, vị trí, đáng tiền — hiển thị khi kênh cung cấp, và
-đó là thứ cần nhìn khi mức trung bình dịch chuyển và bạn muốn biết vì sao.
+- **Mỗi đánh giá** hiện điểm theo thang riêng của kênh — số sao, hoặc điểm trên 10 — để khớp với những
+  gì bạn thấy trong extranet.
+- **Điểm tổng thể** ở trên cùng hiển thị **trên 5**, kèm phân bố số sao và mức thay đổi so với kỳ
+  trước.
+- **Theo hạng mục** — sạch sẽ, độ chính xác, nhận phòng, giao tiếp, vị trí, giá trị và các hạng mục
+  khác — cũng **trên 5**, với hạng mục **Yếu nhất** được nêu ra. Đây là chỗ cần nhìn khi điểm trung bình
+  dịch chuyển và bạn muốn biết vì sao.
+- **Theo kênh** hiện điểm trung bình của từng kênh theo thang riêng của kênh đó, kèm **Tỷ lệ phản hồi**
+  của bạn.
 
 ## Đánh giá khách (Airbnb)
 
-Airbnb cho phép chủ nhà đánh giá khách, và Santara AI có thể xuất bản bài đó giúp bạn từ lượt lưu trú.
+Airbnb cho phép chủ nhà đánh giá khách, và Santara AI có thể xuất bản bài đó giúp bạn. Bấm **Đánh giá
+khách này** ở đánh giá của họ. Biểu mẫu gồm:
 
-Nó có ba phần:
+- **Điểm đánh giá** — một đến năm sao cho **Sạch sẽ**, **Giao tiếp** và **Tuân thủ nội quy**. Cả ba
+  đều bắt buộc.
+- **Bạn sẽ đón họ lần nữa chứ?** — cờ khuyến nghị của Airbnb, **Có** hoặc **Không**.
+- **Đánh giá công khai** — xuất hiện trên hồ sơ Airbnb của khách.
+- **Ghi chú riêng cho khách (tùy chọn)** — chỉ họ thấy.
 
-- **Bài đánh giá công khai** — xuất hiện trên hồ sơ Airbnb của khách.
-- **Ghi chú riêng gửi khách** — chỉ họ thấy.
-- **Bạn có đón họ lần nữa không?** — cờ khuyến nghị của Airbnb.
+Sau đó **Xem lại trước khi đăng** cho bạn xem lại toàn bộ một lần nữa, và **Đăng lên Airbnb** sẽ gửi
+đi.
 
 :::caution[Không thể hoàn tác]
 Xuất bản sẽ gửi bài đánh giá tới Airbnb ngay lập tức. Bài công khai xuất hiện trên hồ sơ của khách và

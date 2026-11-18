@@ -9,8 +9,9 @@ sidebar:
 
 1. **Segarkan halaman.** Santara AI memperbarui layar secara langsung; tab yang dibiarkan semalaman bisa
    menahan tampilan usang.
-2. **Periksa channel.** **Pengaturan → Channel** — apakah koneksinya *Terhubung*, dan kapan sinkron
-   terakhir? Tekan **Segarkan**.
+2. **Periksa channel.** Strip di bagian atas halaman berarti ada yang perlu dicek di channel Anda —
+   tekan **Perbaiki** di sana. Kalau tidak ada, buka **Pengaturan → Channel**: apakah koneksinya
+   *Terhubung*, dan kapan sinkron terakhir? Tekan **Segarkan**.
 3. **Periksa zona waktu.** **Pengaturan → Workspace** — zona waktu yang salah membuat "hari ini"
    salah di mana-mana.
 4. **Tanya [asisten](/id/help/assistant/).** Ia bisa membaca workspace Anda dan akan memberi tahu apa
@@ -41,11 +42,11 @@ Berurutan:
 
 1. Apakah ada **rule set yang ditetapkan** pada listing itu? Listing tanpa aturan tidak pernah diberi
    harga otomatis.
-2. Apakah **Beri harga otomatis untuk listing ini** menyala?
+2. Apakah **Hargai properti ini otomatis** menyala?
 3. Apakah **Terbitkan harga otomatis** menyala? Mati berarti harga dihitung tanpa dikirim.
 4. Apakah Anda menyentuh **lantai atau plafon**? Grafik tren menunjukkan batasnya.
 5. Apakah malam itu **harga manual**? Harga manual dilindungi kecuali *Ganti harga yang saya ketik
-   manual* menyala.
+   sendiri* menyala.
 6. Apakah **rentang yang diterima channel** mempersempitnya?
 
 Lihat [Smart pricing](/id/money/pricing/).
@@ -53,6 +54,14 @@ Lihat [Smart pricing](/id/money/pricing/).
 ## Ketersediaan lebih rendah dari perkiraan
 
 Ketersediaan dibatasi **jumlah unit** kamar. Satu apartemen adalah satu unit.
+
+## Dua tamu memesan kamar yang sama
+
+Masa menginap yang tumpang tindih bisa melebihi jumlah unit sebuah kamar — dua channel menjual malam
+terakhir sebelum pembaruan sampai ke channel kedua. Santara AI menandainya dengan banner merah di
+Reservasi, lencana **Kelebihan pesanan**, batang merah di kalender, dan peringatan di lonceng.
+Pindahkan atau batalkan salah satu masa menginap di channel-nya. Lihat
+[Kelebihan pesanan](/id/daily/bookings/#kelebihan-pesanan).
 
 ## Ada tugas kebersihan yang hilang
 

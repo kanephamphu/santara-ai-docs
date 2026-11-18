@@ -8,6 +8,31 @@ sidebar:
 Start with the two moves that fix most of it: check **Settings → Channels** for the connection's
 status and last sync, then press **Refresh**.
 
+## Where problems show up
+
+You do not have to go looking. Two things tell you when a channel stops working.
+
+**The health strip.** When something is wrong, a strip appears at the top of every page, under any
+billing banner. One problem is one line; several collapse into **3 things need a look**, with
+**Show** to list them. Each line has **Fix**, which opens the page where it is fixed. The **×**
+(*Hide until something changes*) hides those problems — a new problem shows again. When everything
+works there is no strip at all.
+
+| The strip says | What it means |
+| --- | --- |
+| *… is not connected. Reconnect it so bookings and prices keep flowing.* | The connection has stopped — access removed, expired, removed on the channel manager side, or activation failed. Reconnect it |
+| *… is waiting on one step from you.* | Something is unfinished: listings waiting to go live, capacity to confirm, or no room mapped yet |
+| *… sign-in expires on …. Reconnect before then.* | The channel sign-in runs out within 7 days. Reconnect before the date |
+| *…: the last sync failed.* | The latest sync failed and none has succeeded since. Press **Refresh** on the connection |
+| *3 price or availability updates keep failing to reach your channels.* | Updates have failed three times or more. Check the connection, then [contact support](/help/support/) if it stays |
+| *3 listings were rejected by the channel manager.* | A room or rate plan was refused. **Fix** opens the room, where the reason shows beside the setting that caused it |
+
+**Alerts in the bell.** When a channel refuses a price or availability update, the bell says
+**… didn't accept an update** — *prices or availability may be out of date there*. A milder **…
+sent a sync warning** means the update went through but the channel had a complaint worth a look.
+You get at most one alert a day for the same channel, property and problem. They go to owners,
+admins and co-hosts, and open **Settings → Channels**.
+
 ## Connecting
 
 **The Airbnb popup never opened.**
@@ -56,6 +81,11 @@ Press **Refresh** on the connection. If it persists, note the exact date and roo
 **Availability shows fewer nights than I expect.**
 Availability is capped at the room's unit count. One apartment is one unit. Check the room's unit
 count.
+
+**"Santara AI's access was removed from your Airbnb account, so syncing has stopped."**
+Someone removed Santara AI from the Airbnb account's connected apps, or Airbnb withdrew access. The
+connection shows **Needs reconnect**. Press **Reconnect** and sign in with the **same** Airbnb
+account — your listings and history are kept. See [Reconnect](/channels/airbnb/#reconnect).
 
 **"This channel was removed on the channel manager side."**
 The connection was cancelled upstream — usually the connectivity provider was removed in the

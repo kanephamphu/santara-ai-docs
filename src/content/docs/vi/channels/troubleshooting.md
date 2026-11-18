@@ -8,6 +8,30 @@ sidebar:
 Bắt đầu bằng hai thao tác xử lý được phần lớn vấn đề: kiểm tra trạng thái và lần đồng bộ cuối của kết
 nối tại **Cài đặt → Kênh**, rồi bấm **Làm mới**.
 
+## Sự cố hiện ra ở đâu
+
+Bạn không cần tự đi tìm. Có hai nơi báo cho bạn khi một kênh ngừng hoạt động.
+
+**Dải tình trạng.** Khi có gì đó trục trặc, một dải hiện ở đầu mọi trang, ngay dưới dải báo thanh
+toán nếu có. Một sự cố là một dòng; nhiều sự cố gộp lại thành **3 việc cần xem**, bấm **Xem** để mở
+danh sách. Mỗi dòng có nút **Sửa**, mở đúng trang để xử lý. Nút **×** (*Ẩn cho đến khi có thay đổi*)
+ẩn các sự cố đó — sự cố mới sẽ hiện lại. Khi mọi thứ ổn, dải này không xuất hiện.
+
+| Dải báo | Ý nghĩa |
+| --- | --- |
+| *… chưa được kết nối. Kết nối lại để đặt phòng và giá tiếp tục đồng bộ.* | Kết nối đã dừng — bị gỡ quyền, hết hạn, bị gỡ ở phía channel manager, hoặc kích hoạt thất bại. Hãy kết nối lại |
+| *… đang chờ bạn hoàn tất một bước.* | Còn việc dang dở: tin đăng chờ go live, sức chứa cần xác nhận, hoặc chưa ánh xạ phòng nào |
+| *Đăng nhập … hết hạn vào …. Hãy kết nối lại trước ngày đó.* | Phiên đăng nhập kênh hết hạn trong vòng 7 ngày. Kết nối lại trước ngày đó |
+| *…: lần đồng bộ gần nhất bị lỗi.* | Lần đồng bộ gần nhất lỗi và chưa có lần nào thành công sau đó. Bấm **Làm mới** trên kết nối |
+| *3 cập nhật giá hoặc phòng trống liên tục không gửi được tới kênh của bạn.* | Cập nhật đã lỗi từ ba lần trở lên. Kiểm tra kết nối, rồi [liên hệ hỗ trợ](/vi/help/support/) nếu vẫn còn |
+| *3 tin đăng bị channel manager từ chối.* | Một phòng hoặc rate plan bị từ chối. **Sửa** mở trang phòng, nơi lý do hiện cạnh cài đặt gây ra nó |
+
+**Cảnh báo ở chuông.** Khi một kênh từ chối bản cập nhật giá hoặc phòng trống, chuông báo **… không
+nhận bản cập nhật** — *giá hoặc phòng trống trên đó có thể chưa đúng*. Thông báo nhẹ hơn, **… gửi
+cảnh báo đồng bộ**, nghĩa là bản cập nhật vẫn được nhận nhưng kênh có góp ý nên xem qua. Mỗi ngày tối
+đa một cảnh báo cho cùng một kênh, chỗ nghỉ và lỗi. Cảnh báo gửi tới chủ, quản trị viên và co-host,
+và mở **Cài đặt → Kênh**.
+
 ## Khi kết nối
 
 **Popup Airbnb không mở ra.**
@@ -53,11 +77,16 @@ Bấm **Làm mới** trên kết nối. Nếu vẫn khác, ghi lại chính xác
 **Tình trạng trống ít hơn tôi nghĩ.**
 Tình trạng trống bị chặn ở số đơn vị của phòng. Một căn hộ là một đơn vị.
 
+**"Quyền truy cập của Santara AI đã bị gỡ khỏi tài khoản Airbnb của bạn nên việc đồng bộ đã dừng."**
+Ai đó đã gỡ Santara AI khỏi các ứng dụng đã kết nối của tài khoản Airbnb, hoặc Airbnb đã thu hồi
+quyền. Kết nối hiện **Cần kết nối lại**. Bấm **Kết nối lại** và đăng nhập bằng **đúng** tài khoản
+Airbnb đó — tin đăng và lịch sử của bạn vẫn được giữ. Xem [Kết nối lại](/vi/channels/airbnb/#kết-nối-lại).
+
 **"Kênh này đã bị gỡ ở phía channel manager."**
 Kết nối bị hủy ở đầu trên. Chấp nhận lại trên kênh, rồi ngắt và kết nối lại tại đây.
 
 **Giá tôi nhập tay bị ghi đè.**
-Kiểm tra cài đặt định giá của listing: *Thay giá tôi nhập tay* mặc định tắt, và khi bật nó ghi đè mà
+Kiểm tra cài đặt định giá của listing: *Ghi đè giá tôi tự nhập* mặc định tắt, và khi bật nó ghi đè mà
 không hoàn tác được. Xem [Smart pricing](/vi/money/pricing/#bảo-vệ-giá-nhập-tay).
 
 **Tin nhắn ngừng về.**

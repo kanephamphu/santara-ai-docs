@@ -5,14 +5,14 @@ sidebar:
   order: 1
 ---
 
-**Hari ini** adalah layar bawaan. Ada dua bagian: **ringkasan harian**, yaitu hari itu ditulis dalam
-kalimat, dan kartu metrik di bawahnya, yaitu angkanya.
+**Hari ini** adalah layar bawaan. Ada dua tab: **Ringkasan**, yang terbuka lebih dulu dan berisi hari
+itu ditulis dalam kalimat, dan **Ikhtisar**, yang berisi angka dan jadwal hari ini.
 
-![Hari ini. Ringkasan di atas menyampaikan apa yang butuh keputusan; kartu di bawahnya adalah angka di baliknya.](/screens/today.id.png)
+![Hari ini, di tab Ringkasan: hari itu dituliskan, dengan yang butuh keputusan di urutan pertama.](/screens/today.id.png)
 
 ## Ringkasan
 
-Ringkasan dibuat untuk workspace Anda setiap hari dan dikirim ke email Anda — pukul **06.00** di
+Tab **Ringkasan**. Ringkasan dibuat untuk workspace Anda setiap hari dan dikirim ke email Anda — pukul **06.00** di
 zona waktu workspace secara bawaan, atau jam mana pun yang Anda pilih — dalam **bahasa** yang Anda
 atur di [pengaturan workspace](/id/setup/workspace/#preferensi-operasional). Ringkasan yang sama ada
 di layar ini, dan diperbarui seiring hari berjalan. Satu lembar padat, dengan urutan:
@@ -29,8 +29,8 @@ di layar ini, dan diperbarui seiring hari berjalan. Satu lembar padat, dengan ur
    kalender, masing-masing dengan harga dan pesan yang siap dikirim.
 5. **Kebersihan, tiga hari ke depan** — dikelompokkan per
    [klaster kebersihan](/id/daily/tasks/#klaster-kebersihan). Tiap klaster punya menu **Bagikan**
-   dengan rencana hari itu yang sudah dituliskan — kirim ke Zalo, WhatsApp, Messenger, atau Telegram
-   dengan satu ketukan, atau salin. Petugas yang punya alamat email juga menerima email Ringkasan
+   dengan rencana hari itu yang sudah dituliskan — kirim ke Zalo, WhatsApp, Messenger, Telegram, SMS,
+   atau email, atau salin. Petugas yang punya alamat email juga menerima email Ringkasan
    Petugas Kebersihan sendiri secara otomatis, tanpa angka pendapatan.
 6. **Besok** — satu baris berisi kedatangan, keberangkatan, dan pergantian tamu besok.
 
@@ -59,25 +59,39 @@ mengubahnya), keduanya diatur di [Pengaturan workspace](/id/setup/workspace/). P
 yang lebih penting daripada kedengarannya, karena ringkasan dengan zona waktu salah melaporkan
 check-out kemarin.
 
-## Kartu metrik
-
-Di bawah ringkasan: jumlah kedatangan dan keberangkatan, okupansi, pendapatan periode, tugas terbuka,
-pesan belum dijawab. Masing-masing menautkan ke layarnya.
-
 **Pendapatan berarti payout bersih** — yang benar-benar dibayarkan channel. Selalu diberi label.
 Lihat [Laporan](/id/money/reports/).
+
+## Ikhtisar
+
+Tab **Ikhtisar** berisi hal yang ditindaklanjuti manajer sebelum makan siang. Tiga kartu:
+
+| Kartu | Yang dihitung |
+| --- | --- |
+| **Terisi malam ini** | Porsi unit Anda yang ada tamunya malam ini |
+| **Check-in hari ini** | Check-in hari ini, dengan jumlah check-out hari ini di bawahnya |
+| **Menunggu balasan** | Percakapan tamu yang belum dijawab |
+
+Di bawahnya: linimasa hari ini (check-out, pembersihan, check-in), pembersihan hari ini, dan — bila
+ada yang menunggu — satu baris seperti *"3 tamu menunggu balasan"* yang membuka
+[Pesan](/id/daily/messages/).
+
+Tidak ada kartu pendapatan di sini. Urusan uang ada di [Laporan](/id/money/reports/).
 
 ## Notifikasi
 
 Apa pun yang membutuhkan Anda saat tidak melihat layar ini memunculkan notifikasi di menu lonceng.
-Ada delapan jenis, dan itulah delapan hal yang benar-benar mengubah hari Anda:
+Ada enam belas jenis, dan itulah hal-hal yang benar-benar mengubah hari Anda:
 
 | | |
 | --- | --- |
-| **Booking** | Booking baru, booking berubah, pembatalan |
+| **Booking** | Booking baru, booking berubah, pembatalan, dan **Kelebihan pesanan** — kamar terjual melebihi unit yang tersedia, sehingga satu menginap harus dipindah |
 | **Kebersihan** | Pembersihan ditugaskan kepada Anda, pembersihan selesai |
-| **Tiket** | Tiket dibuka, ditugaskan kepada Anda, atau selesai |
+| **Tiket** | Tiket dibuka, ditugaskan kepada Anda, sedang dikerjakan, atau selesai |
+| **Saluran** | Saluran terhubung; saluran menolak pembaruan; peringatan sinkronisasi dari saluran |
+| **Permintaan tamu** | Tamu meminta layanan tambahan dari [buku panduan tamu](/id/setup/guidebook/) |
+| **Asisten AI** | Asisten luar yang perlu persetujuan Anda, atau yang membuat perubahan |
 
 Notifikasi dialamatkan berdasarkan **siapa yang bisa menindaklanjuti**, bukan berdasarkan nama, jadi
-manajer yang ditambahkan bulan depan langsung menerima yang memang ditujukan bagi perannya. Atur apa
-yang Anda terima di [Pengaturan workspace](/id/setup/workspace/#notifikasi).
+manajer yang ditambahkan bulan depan langsung menerima yang memang ditujukan bagi perannya. Selengkapnya
+di [Pengaturan workspace](/id/setup/workspace/#notifikasi).

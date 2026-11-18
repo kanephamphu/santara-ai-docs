@@ -12,13 +12,14 @@ menemukannya dengan membaca kalender, bukan dengan menebak keinginan tamu.
 
 ## Yang dicarinya
 
-Tiga aturan mencakup sebagian besar uangnya:
+Tiga tawaran, masing-masing aturan yang bisa Anda nyalakan, matikan, dan beri harga di
+[Pengaturan](#pengaturan):
 
-| Peluang | Kapan ditawarkan | Kenaikan tipikal |
+| Tawaran | Kapan ditawarkan | Harganya |
 | --- | --- | --- |
-| **Late check-out** | Kamar tidak ada kedatangan pada hari check-out | Sebagian dari tarif per malam |
-| **Malam tambahan** | Tepat satu malam kosong berdampingan dengan masa menginap | Mendekati tarif penuh per malam |
-| **Kedatangan awal** | Kamar kosong pada malam sebelumnya, atau dikosongkan lebih awal | Sebagian dari tarif per malam |
+| **Check-in lebih awal** | Pada hari kedatangan, jika malam sebelumnya kosong | Persentase dari satu malam |
+| **Check-out terlambat** | Pada pagi hari check-out, jika tidak ada tamu yang datang hari itu | Persentase dari satu malam |
+| **Perpanjangan masa inap** | Sebelum check-out, jika malam berikutnya kosong | Harga per malam dikurangi diskon |
 
 Semuanya digerakkan kalender dan deterministik: bila malamnya benar-benar kosong dan waktunya cocok,
 peluangnya ada. Bila tidak, tidak ada tawaran yang dibuat.
@@ -35,9 +36,16 @@ Layar **Upsell** memeringkat peluang terbuka berdasarkan nilai. Untuk masing-mas
 
 Terima dan ia menjadi tawaran yang Anda kirim. Abaikan dan ia berhenti disarankan.
 
+### Mengirim beberapa sekaligus
+
+**Antrean manajer** menampilkan tawaran yang pesannya sudah siap. **Kirim semua** membuka **Kirim pesan
+upsell** dengan tawaran bernilai tertinggi tiap tamu sudah terpilih — satu tawaran per tamu. Ganti
+pilihannya atau hapus centang, lalu tekan **Kirim semua**: pesan dikirim satu per satu, progres tiap
+tamu terlihat, dan **Berhenti** menghentikan sisanya.
+
 ## Apa yang terjadi kalau tamu setuju
 
-Anda memperpanjang atau menyesuaikan masa menginap di [Booking](/id/daily/bookings/) atau
+Anda memperpanjang atau menyesuaikan masa menginap di [Reservasi](/id/daily/bookings/) atau
 [kalender](/id/daily/calendar/). Malamnya tertutup di semua channel seperti biasa, dan pendapatan
 tambahannya muncul di [Laporan](/id/money/reports/).
 
@@ -47,8 +55,6 @@ Santara AI tidak mengubah reservasi diam-diam atas nama Anda.
 
 - Di [ringkasan harian](/id/daily/) — peluang bernilai tertinggi untuk tamu hari ini.
 - Di [Pesan](/id/daily/messages/) — sebagai prompt pada utas yang relevan.
-- Di [Laporan](/id/money/reports/) — laporan upsell yang memeringkat tawaran terbuka, terlewat, dan
-  diterima.
 
 ## Saat tamu meminta lebih dulu
 
@@ -58,8 +64,25 @@ kamarnya. Permintaan masuk ke sini dengan status **Diterima**, pada harga yang d
 dan tim mendapat notifikasi. Permintaan itu sudah lolos pemeriksaan kalender yang sama dengan tawaran
 yang terdeteksi, tetapi pemesanan tidak berubah sampai Anda menyesuaikan masa inapnya.
 
+## Pengaturan
+
+Tab **Pengaturan** di Upsell mengatur tiap tawaran sekali untuk seluruh ruang kerja:
+
+- **Aktif / Mati** untuk masing-masing dari tiga tawaran.
+- **Harga (% dari satu malam)** untuk check-in lebih awal dan check-out terlambat, dihitung dari tarif
+  kalender malam itu; **Diskon (% dari harga per malam)** untuk perpanjangan masa inap.
+- **Waktu yang ditawarkan** — check-in paling awal atau check-out paling lambat yang Anda tawarkan.
+- **Pesan untuk tamu** — teks yang dibaca tamu, terisi pesan bawaan Santara AI dalam bahasa ruang
+  kerja Anda. Sisipkan kolom seperti nama tamu, harga, atau jam; harga wajib ada. **Kembalikan ke
+  bawaan** memulihkan pesan bawaan.
+
+Setiap kamar mengikuti pengaturan ini kecuali Anda memberi kamar pengaturannya sendiri: buka kamar dari
+[Properti](/id/setup/properties/) dan ubah aturan upsell-nya di sana. **Simpan pengaturan** berlaku
+untuk tawaran baru mulai deteksi berikutnya.
+
 ## Tidak ada yang dikirim otomatis
 
-Setiap tawaran adalah draf. Anda yang mengirim. Tamu yang menerima tawaran otomatis untuk malam yang
+Setiap tawaran adalah draf. Anda yang mengirim — satu per satu, atau beberapa sekaligus dengan
+**Kirim semua**. Tamu yang menerima tawaran otomatis untuk malam yang
 lima menit lalu baru dipesan orang lain akan menulis ulasan tentang itu — karena itulah bagian ini
 tetap manual.

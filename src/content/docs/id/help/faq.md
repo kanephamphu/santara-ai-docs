@@ -82,7 +82,7 @@ klaster** tidak, dan isinya hanya pekerjaan klaster itu.
 English, Bahasa Indonesia, dan Tiếng Việt — untuk antarmuka, ringkasan harian, dan dokumentasi ini.
 
 **Ada aplikasi mobile?**
-Ada, untuk Android — sudah tersedia di Google Play. iOS segera menyusul. Lihat
+Ada — di App Store untuk iPhone dan iPad, serta di Google Play untuk Android. Lihat
 [Memulai & masuk](/id/mobile/getting-started/).
 
 **Channel apa saja yang didukung?**
