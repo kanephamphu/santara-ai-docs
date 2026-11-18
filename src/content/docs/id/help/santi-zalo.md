@@ -21,6 +21,12 @@ Balas **1**. Selesai — angka itu berlaku persis seperti mengetuk tombol, dan p
 
 ## Terhubung
 
+:::note[Mulai dari chat pribadi]
+Zalo tidak mengizinkan bot mengirim pesan lebih dulu kepada Anda. Jadi **pertama kali**, buka **chat
+pribadi dengan Bot SantiAI** dan kirim pesan di sana — meskipun tim Anda memakai Santi di grup.
+Setelah tertaut, Santi juga menjawab Anda di grup.
+:::
+
 ![Menghubungkan Santi di Zalo: sapa, buka tautan masuk dan tekan Link Zalo, lalu tanya apa saja.](/diagrams/santi-zalo-connect.id.svg)
 
 1. Buka **Bot SantiAI** di Zalo — host Anda atau tim Santara AI membagikan tautan atau kode QR-nya —
@@ -66,8 +72,11 @@ membalas daftar lama, kirim **/jobs** lagi untuk daftar baru.
 
 4. Tulis **@Santi** di awal pesan, atau kirim **/perintah** seperti **/jobs**.
 5. Saat Santi mengirim pilihan bernomor, balas dengan angkanya saja — **2** berarti "Selesai".
-6. Pertama kali, setiap orang menautkan Zalo-nya sendiri: Santi meminta mereka mengirim pesan
-   pribadi dan masuk (lihat *Terhubung* di atas).
+6. Setiap orang menautkan Zalo-nya sendiri sekali, **di chat pribadi dengan Bot SantiAI** (lihat
+   *Terhubung* di atas). Sebelum itu, Santi hanya mengingatkan mereka di grup untuk mengirim pesan
+   pribadi ke bot.
+7. Menyebut dengan ketukan juga bisa: Zalo menulis **@Bot SantiAI** dan Santi mengenalinya, sama
+   seperti mengetik **@Santi**.
 
 Seperti di Telegram, grup tim biasa hanya mendapat urusan tim — kebersihan, tiket, dan tanggal.
 Tanyakan pendapatan, pembayaran, atau pesan tamu di chat pribadi dengan Santi. Fitur grup untuk bot

@@ -21,6 +21,12 @@ apply (only the person who asked can confirm their own change).
 
 ## Connect
 
+:::note[Start in a private chat]
+Zalo doesn't let a bot write to you first. So the **first time**, open a **private chat with Bot
+SantiAI** and message it there — even if your team uses Santi in a group. After you have linked,
+Santi answers you in groups too.
+:::
+
 ![Connecting Santi on Zalo: say hi, open the sign-in link and press Link Zalo, then ask anything.](/diagrams/santi-zalo-connect.en.svg)
 
 1. Open **Bot SantiAI** on Zalo — your host or the Santara AI team shares its link or QR code — and
@@ -65,8 +71,10 @@ reply to an old list, send **/jobs** again for a fresh one.
 
 4. Write **@Santi** at the start of a message, or send a **/command** such as **/jobs**.
 5. When Santi sends numbered choices, reply with just the number — **2** taps "Done".
-6. The first time, each person links their own Zalo: Santi asks them to message it privately and
-   sign in (see *Connect* above).
+6. Each person links their own Zalo once, **in a private chat with Bot SantiAI** (see *Connect*
+   above). Until then, Santi only answers them in the group with a reminder to message it privately.
+7. Tap-mentioning works: Zalo writes **@Bot SantiAI** and Santi recognises it, as it does a typed
+   **@Santi**.
 
 As on Telegram, a normal team group only gets team things — cleaning, tickets and dates. Ask about
 revenue, payouts or guest messages in a private chat with Santi. Zalo groups for bots are still in
