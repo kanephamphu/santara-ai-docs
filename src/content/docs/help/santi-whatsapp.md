@@ -44,7 +44,10 @@ Write the way you would to a colleague — *"Who arrives tomorrow?"*, *"Draft a 
 *"Is villa 2 free next weekend?"*. Santi reads your live Santara AI data, answers in your language
 and keeps it short.
 
-Santi reads text and photos. Voice messages, stickers, videos and files are ignored.
+Santi reads text, photos and **voice messages**. Send a voice message (up to 2 minutes) and Santi
+shows what it heard — *🎤 I heard: "…"* — then answers. A change you ask for by voice still comes
+as a card you confirm by tapping; a spoken "ok" never confirms it. Stickers, videos and files are
+ignored.
 
 ### Changes ask first
 

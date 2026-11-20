@@ -41,7 +41,9 @@ Viết như nhắn cho đồng nghiệp — *"Ngày mai ai đến?"*, *"Soạn t
 sau còn trống không?"*. Santi đọc dữ liệu Santara AI hiện tại, trả lời bằng ngôn ngữ của bạn và ngắn
 gọn. Trong lúc Santi làm, bạn thấy dấu "…" của LINE.
 
-Santi đọc tin nhắn chữ và ảnh. Sticker, tin nhắn thoại, video và tệp sẽ bị bỏ qua.
+Santi đọc tin nhắn chữ, ảnh và **tin nhắn thoại**. Gửi tin nhắn thoại (tối đa 2 phút), Santi hiện
+điều nó nghe được — *🎤 Mình nghe được: "…"* — rồi trả lời. Thay đổi yêu cầu bằng giọng nói vẫn hiện
+thành thẻ để bạn bấm xác nhận; nói "ok" không bao giờ tự xác nhận. Sticker, video và tệp sẽ bị bỏ qua.
 
 ### Thay đổi luôn hỏi trước
 
