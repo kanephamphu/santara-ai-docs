@@ -92,6 +92,7 @@ jam. Masing-masing berisi tautan yang membuka Santi dengan pertanyaan yang sudah
 | **/jobs** | Tugas kebersihan hari ini dengan ▶ Mulai / ✅ Selesai |
 | **/use** | Hubungkan grup ini ke workspace Anda (host, admin, co-host) |
 | **/help** | Apa yang bisa Santi lakukan di sini |
+| **/workspace** | Lihat workspace Anda, atau ganti dengan tombol atau **/workspace** *nama* (chat pribadi) |
 | **/unlink** | Putuskan akun Telegram Anda |
 
 ## Kalau ada yang tidak berjalan

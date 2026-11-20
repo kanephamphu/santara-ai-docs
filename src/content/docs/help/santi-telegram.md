@@ -90,6 +90,7 @@ reply. Each comes with a link that opens Santi with the question already asked.
 | **/jobs** | Today's cleaning with ▶ Start / ✅ Done |
 | **/use** | Connect this group to your workspace (hosts, admins, co-hosts) |
 | **/help** | What Santi can do here |
+| **/workspace** | See your workspace, or switch with a button or **/workspace** *name* (private chat) |
 | **/unlink** | Disconnect your Telegram account |
 
 ## If something doesn't work

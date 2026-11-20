@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442 390" width="442" height="390" role="img" aria-label="Mengganti workspace di chat">
+  <title>Mengganti workspace di chat</title>
+  <circle cx="24" cy="16" r="11" fill="var(--sl-color-text-accent, #1440e0)"/>
+  <text x="24" y="20" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="42" y="20" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Kirim /workspace</text>
+  <rect x="12" y="34" width="200" height="300" rx="18" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <rect x="12" y="34" width="200" height="34" rx="16" fill="var(--santara-surface, #f8f9fb)"/>
+  <rect x="12" y="52" width="200" height="16" fill="var(--santara-surface, #f8f9fb)"/>
+  <circle cx="32" cy="51" r="9" fill="var(--sl-color-text-accent, #1440e0)"/>
+  <text x="47" y="55" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Santi</text>
+  <rect x="123.1" y="78" width="78.9" height="24" rx="9" fill="var(--sl-color-accent-low, #dbe4ff)" stroke="var(--sl-color-accent-low, #dbe4ff)" stroke-width="1"/>
+  <text x="132.1" y="93" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-white, #0b1930)" text-anchor="start">/workspace</text>
+  <rect x="22" y="111" width="150" height="52" rx="9" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="31" y="126" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Anda bekerja di Villa Co.</text>
+  <text x="31" y="140" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Ketuk workspace lain</text>
+  <text x="31" y="154" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-white, #0b1930)" text-anchor="start">untuk pindah.</text>
+  <rect x="22" y="168" width="150" height="22" rx="6" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-text-accent, #1440e0)" stroke-width="1"/>
+  <text x="97" y="183" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="var(--sl-color-text-accent, #1440e0)" text-anchor="middle">Beach Stays</text>
+  <rect x="22" y="194" width="150" height="22" rx="6" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-text-accent, #1440e0)" stroke-width="1"/>
+  <text x="97" y="209" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="9.5" font-weight="600" fill="var(--sl-color-text-accent, #1440e0)" text-anchor="middle">Tambah workspace</text>
+  <text x="112" y="352" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="middle">Lihat workspace yang dipakai</text>
+  <text x="112" y="367" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="middle">Santi.</text>
+  <path d="M215 184 L219 184" stroke="var(--sl-color-text-accent, #1440e0)" stroke-width="1.5" fill="none"/><path d="M218 179.5 L227 184 L218 188.5 Z" fill="var(--sl-color-text-accent, #1440e0)"/>
+  <circle cx="242" cy="16" r="11" fill="var(--sl-color-text-accent, #1440e0)"/>
+  <text x="242" y="20" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="260" y="20" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Ketuk salah satu</text>
+  <rect x="230" y="34" width="200" height="300" rx="18" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <rect x="230" y="34" width="200" height="34" rx="16" fill="var(--santara-surface, #f8f9fb)"/>
+  <rect x="230" y="52" width="200" height="16" fill="var(--santara-surface, #f8f9fb)"/>
+  <circle cx="250" cy="51" r="9" fill="var(--sl-color-text-accent, #1440e0)"/>
+  <text x="265" y="55" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Santi</text>
+  <rect x="240" y="78" width="150" height="24" rx="9" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="249" y="93" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Pindah ke Beach Stays.</text>
+  <rect x="298.47" y="111" width="121.52999999999999" height="24" rx="9" fill="var(--sl-color-accent-low, #dbe4ff)" stroke="var(--sl-color-accent-low, #dbe4ff)" stroke-width="1"/>
+  <text x="307.47" y="126" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Ada apa hari ini?</text>
+  <rect x="240" y="144" width="150" height="52" rx="9" fill="var(--sl-color-bg, #ffffff)" stroke="var(--sl-color-gray-5, #d7dbe3)" stroke-width="1"/>
+  <text x="249" y="159" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-white, #0b1930)" text-anchor="start">Hari ini: 2 tamu tiba, 3</text>
+  <text x="249" y="173" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-white, #0b1930)" text-anchor="start">tugas kebersihan. Villa A</text>
+  <text x="249" y="187" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-white, #0b1930)" text-anchor="start">siap 14:00.</text>
+  <text x="330" y="352" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="middle">Semua jawaban mengikutinya mulai</text>
+  <text x="330" y="367" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="10.5" font-weight="400" fill="var(--sl-color-gray-3, #5b6880)" text-anchor="middle">sekarang.</text>
+</svg>

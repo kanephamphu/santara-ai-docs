@@ -95,6 +95,7 @@ máy chủ): tóm tắt buổi sáng, đặt phòng mới và hủy phòng, khá
 | **/photo** | Gửi ảnh dọn phòng và chọn việc của nó |
 | **/use** | Kết nối kênh này với workspace (chủ nhà, admin, đồng chủ nhà) |
 | **/help** | Santi làm được gì ở đây |
+| **/workspace** | Xem workspace đang dùng, hoặc đổi bằng nút hay **/workspace** *tên* (chat riêng) |
 | **/unlink** | Ngắt kết nối tài khoản Discord của bạn |
 
 ## Nếu có gì không ổn

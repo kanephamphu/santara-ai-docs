@@ -158,5 +158,5 @@ hạn đặt lại vào ngày hôm sau. Tin nhắn trò chuyện được giữ 
 xác nhận vẫn ở lại cho tới khi bạn bảo Santi quên.
 
 :::note
-Santi cũng có trong các ứng dụng chat đội của bạn đang dùng: [Santi trên Telegram](/vi/help/santi-telegram/), [Santi trên Zalo](/vi/help/santi-zalo/), [Santi trên Discord](/vi/help/santi-discord/) và [Santi trên LINE](/vi/help/santi-line/). WhatsApp hiện chưa có.
+Santi cũng có trong các ứng dụng chat đội của bạn đang dùng: [Santi trên Telegram](/vi/help/santi-telegram/), [Santi trên Zalo](/vi/help/santi-zalo/), [Santi trên Discord](/vi/help/santi-discord/), [Santi trên LINE](/vi/help/santi-line/) và [Santi trên WhatsApp](/vi/help/santi-whatsapp/).
 :::

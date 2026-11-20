@@ -53,6 +53,15 @@ xác nhận trong ứng dụng Santi.
 LINE không xóa được nút khỏi tin nhắn đã gửi, nên nút cũ vẫn nằm trong chat. Bấm lại cũng không sao:
 mỗi xác nhận chỉ dùng được một lần, và Santi kiểm tra việc dọn trước khi đổi.
 
+## Đổi workspace
+
+![Đổi workspace trong chat: gửi /workspace, rồi bấm workspace khác.](/diagrams/santi-workspace-switch.vi.svg)
+
+Nếu bạn làm việc với nhiều workspace Santara AI, gửi **/workspace** trong chat riêng với Santi. Santi
+cho biết đang làm việc với workspace nào, kèm một nút cho mỗi workspace khác của bạn — bấm để chuyển.
+Bạn cũng có thể gõ tên: **/workspace beach**. Chat dùng chung workspace với ứng dụng Santi, nên đổi ở
+một nơi là đổi ở cả hai. Trong nhóm, workspace là workspace đã kết nối bằng **/use**.
+
 ## Dọn phòng: Bắt đầu, Xong và ảnh
 
 Gửi **/jobs** — hoặc hỏi *"hôm nay tôi dọn những đâu?"* — và bạn nhận danh sách việc hôm nay, mỗi
@@ -100,6 +109,7 @@ kết mở Santi với câu hỏi đã sẵn.
 | **/jobs** | Lịch dọn hôm nay với ▶ Bắt đầu / ✅ Xong |
 | **/use** | Kết nối nhóm này với workspace (chủ nhà, admin, đồng chủ nhà) |
 | **/help** | Santi làm được gì ở đây |
+| **/workspace** | Xem workspace đang dùng, hoặc đổi bằng nút hay **/workspace** *tên* (chat riêng) |
 | **/unlink** | Ngắt kết nối tài khoản LINE của bạn |
 
 ## Nếu có gì không hoạt động

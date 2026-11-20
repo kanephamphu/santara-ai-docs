@@ -54,6 +54,16 @@ LINE tidak bisa menghapus tombol dari pesan yang sudah terkirim, jadi tombol lam
 Mengetuknya lagi aman: konfirmasi hanya berlaku sekali, dan Santi memeriksa tugasnya sebelum
 mengubahnya.
 
+## Ganti workspace
+
+![Mengganti workspace di chat: kirim /workspace, lalu ketuk workspace lain.](/diagrams/santi-workspace-switch.id.svg)
+
+Kalau Anda bekerja di lebih dari satu workspace Santara AI, kirim **/workspace** di chat pribadi
+dengan Santi. Santi memberi tahu workspace yang sedang dipakai, dengan tombol untuk setiap workspace
+Anda yang lain — ketuk untuk pindah. Anda juga bisa mengetik namanya: **/workspace beach**. Chat
+mengikuti workspace yang sama dengan aplikasi Santi, jadi mengganti di satu tempat mengganti keduanya.
+Di grup, workspace-nya adalah yang dihubungkan dengan **/use**.
+
 ## Kebersihan: Mulai, Selesai, dan foto
 
 Kirim **/jobs** — atau tanya *"tugas kebersihan saya hari ini apa?"* — dan Anda mendapat daftar
@@ -104,6 +114,7 @@ jam. Masing-masing berisi tautan yang membuka Santi dengan pertanyaan yang sudah
 | **/jobs** | Tugas kebersihan hari ini dengan ▶ Mulai / ✅ Selesai |
 | **/use** | Hubungkan grup ini ke workspace Anda (host, admin, co-host) |
 | **/help** | Apa yang bisa Santi lakukan di sini |
+| **/workspace** | Lihat workspace Anda, atau ganti dengan tombol atau **/workspace** *nama* (chat pribadi) |
 | **/unlink** | Putuskan akun LINE Anda |
 
 ## Kalau ada yang tidak berjalan

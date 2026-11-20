@@ -90,7 +90,7 @@ If your team chats on Telegram or Zalo, you can do your jobs there with Santi:
   where the owner sees them.
 
 You link your Telegram or Zalo once with your Santara AI login, and Santi only shows **your** jobs.
-See [Santi on Telegram](/help/santi-telegram/), [Santi on Zalo](/help/santi-zalo/) or [Santi on LINE](/help/santi-line/).
+See [Santi on Telegram](/help/santi-telegram/), [Santi on Zalo](/help/santi-zalo/), [Santi on LINE](/help/santi-line/) or [Santi on WhatsApp](/help/santi-whatsapp/).
 
 ## On your phone
 

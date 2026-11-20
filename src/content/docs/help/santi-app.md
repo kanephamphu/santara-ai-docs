@@ -158,5 +158,5 @@ resets the next day. Chat messages are kept for 7 days, then removed. Memories y
 until you tell Santi to forget them.
 
 :::note
-Santi also works in chat apps your team already uses: [Santi on Telegram](/help/santi-telegram/), [Santi on Zalo](/help/santi-zalo/), [Santi on Discord](/help/santi-discord/) and [Santi on LINE](/help/santi-line/). WhatsApp is not available yet.
+Santi also works in chat apps your team already uses: [Santi on Telegram](/help/santi-telegram/), [Santi on Zalo](/help/santi-zalo/), [Santi on Discord](/help/santi-discord/), [Santi on LINE](/help/santi-line/) and [Santi on WhatsApp](/help/santi-whatsapp/).
 :::

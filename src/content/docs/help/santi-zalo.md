@@ -93,4 +93,5 @@ more than two hours — in their **private** Zalo chat with Santi, never in a gr
 | **/jobs** | Today's cleaning, numbered: reply to start or finish |
 | **/use** | Connect this group to your workspace (hosts, admins, co-hosts) |
 | **/help** | What Santi can do here |
+| **/workspace** | See your workspace, or switch with a button or **/workspace** *name* (private chat) |
 | **/unlink** | Disconnect your Zalo account |

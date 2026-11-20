@@ -95,4 +95,5 @@ tamu yang menunggu lebih dari dua jam — di chat Zalo **pribadi** dengan Santi,
 | **/jobs** | Tugas kebersihan hari ini, bernomor: balas untuk memulai atau menyelesaikan |
 | **/use** | Hubungkan grup ini ke workspace Anda (host, admin, co-host) |
 | **/help** | Apa yang bisa Santi lakukan di sini |
+| **/workspace** | Lihat workspace Anda, atau ganti dengan tombol atau **/workspace** *nama* (chat pribadi) |
 | **/unlink** | Putuskan akun Zalo Anda |
