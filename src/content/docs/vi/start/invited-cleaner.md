@@ -93,7 +93,7 @@ Nếu đội bạn nhắn tin trên Telegram hoặc Zalo, bạn có thể làm v
   xem được.
 
 Bạn liên kết Telegram hoặc Zalo một lần bằng tài khoản Santara AI, và Santi chỉ hiện **việc của
-bạn**. Xem [Santi trên Telegram](/vi/help/santi-telegram/) hoặc [Santi trên Zalo](/vi/help/santi-zalo/).
+bạn**. Xem [Santi trên Telegram](/vi/help/santi-telegram/), [Santi trên Zalo](/vi/help/santi-zalo/) hoặc [Santi trên LINE](/vi/help/santi-line/).
 
 ## Trên điện thoại
 

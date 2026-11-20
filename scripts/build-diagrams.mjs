@@ -831,6 +831,40 @@ const DCL = {
 const DC = "#5865f2";
 const perLocaleD = (build) => Object.fromEntries(Object.entries(CHAT).map(([loc, w]) => [loc, build({ ...w, ...DCL[loc] })]));
 
+// LINE: adding Santi as a friend opens the chat (Santi greets with the sign-in); groups need an
+// @mention picked from the list; buttons are a card under the message (they stay after a tap).
+const LNL = {
+  en: {
+    lAdd: "Add friend", lAddLines: ["Santi by Santara AI", "@313bjizp"], lAddBtn: "Add",
+    lPageHead: "Link LINE?", lPage: ["LINE account Linh will talk to Santi as linh@villa.co in Villa Co."], lLinkBtn: "Link LINE",
+    l1: "Add Santi", l2: "Check and link", l3: "Ask anything",
+    lc1: "Add @313bjizp — Santi replies with a sign-in.", lc2: "It opens in your phone's browser; check it names YOU.", lc3: "Santi answers in LINE.",
+    lJobs: "@Santi by Santara AI /jobs", lg1: "Invite Santi", lg2: "A host sends /use", lg3: "Mention Santi",
+    lgc1: "Group ≡ → Invite → pick Santi by Santara AI.", lgc2: "A host, admin or co-host connects the group.", lgc3: "Type @, pick Santi, then ask or send /jobs.",
+    lInvite: "Invite", tLn: "Connecting Santi on LINE", tLnG: "Adding Santi to a LINE group",
+  },
+  vi: {
+    lAdd: "Thêm bạn", lAddLines: ["Santi by Santara AI", "@313bjizp"], lAddBtn: "Thêm",
+    lPageHead: "Link LINE?", lPage: ["Tài khoản LINE Linh sẽ dùng Santi với tên linh@villa.co ở Villa Co."], lLinkBtn: "Link LINE",
+    l1: "Thêm Santi", l2: "Kiểm tra và liên kết", l3: "Hỏi bất cứ gì",
+    lc1: "Thêm @313bjizp — Santi gửi lời mời đăng nhập.", lc2: "Mở trong trình duyệt điện thoại; kiểm tra đúng là BẠN.", lc3: "Santi trả lời ngay trong LINE.",
+    lJobs: "@Santi by Santara AI /jobs", lg1: "Mời Santi", lg2: "Chủ nhà gửi /use", lg3: "Nhắc tên Santi",
+    lgc1: "Nhóm ≡ → Mời → chọn Santi by Santara AI.", lgc2: "Chủ nhà, admin hoặc đồng chủ nhà kết nối nhóm.", lgc3: "Gõ @, chọn Santi rồi hỏi hoặc gửi /jobs.",
+    lInvite: "Mời", tLn: "Kết nối Santi trên LINE", tLnG: "Thêm Santi vào nhóm LINE",
+  },
+  id: {
+    lAdd: "Tambah teman", lAddLines: ["Santi by Santara AI", "@313bjizp"], lAddBtn: "Tambah",
+    lPageHead: "Link LINE?", lPage: ["Akun LINE Linh akan berbicara dengan Santi sebagai linh@villa.co di Villa Co."], lLinkBtn: "Link LINE",
+    l1: "Tambahkan Santi", l2: "Periksa dan tautkan", l3: "Tanya apa saja",
+    lc1: "Tambahkan @313bjizp — Santi membalas dengan tautan masuk.", lc2: "Terbuka di browser ponsel; pastikan itu ANDA.", lc3: "Santi menjawab di LINE.",
+    lJobs: "@Santi by Santara AI /jobs", lg1: "Undang Santi", lg2: "Host mengirim /use", lg3: "Sebut Santi",
+    lgc1: "Grup ≡ → Undang → pilih Santi by Santara AI.", lgc2: "Host, admin, atau co-host menghubungkan grup.", lgc3: "Ketik @, pilih Santi, lalu tanya atau kirim /jobs.",
+    lInvite: "Undang", tLn: "Menghubungkan Santi di LINE", tLnG: "Menambahkan Santi ke grup LINE",
+  },
+};
+const LN = "#06c755";
+const perLocaleL = (build) => Object.fromEntries(Object.entries(CHAT).map(([loc, w]) => [loc, build({ ...w, ...LNL[loc] })]));
+
 const TG = "#2aabee";
 const ZA = "#0068ff";
 const perLocale = (build) => Object.fromEntries(Object.entries(CHAT).map(([loc, w]) => [loc, build(w)]));
@@ -882,6 +916,22 @@ const CHAT_FIGURES = {
       { step: w.dg1, caption: w.dgc1, title: "# villa-team", headerColor: DC, items: [{ kind: "me", text: w.dUse }, { kind: "bot", text: w.bound }] },
       { step: w.dg2, caption: w.dgc2, title: "# villa-team", headerColor: DC, items: [{ kind: "me", text: w.dJobs }, { kind: "bot", text: w.today, buttons: [[w.start, w.done]] }] },
       { step: w.dg3, caption: w.dgc3, title: "# villa-team", headerColor: DC, items: [{ kind: "bot", text: w.finished }] },
+    ],
+  })),
+  "santi-line-connect": perLocaleL((w) => ({
+    title: w.tLn,
+    phones: [
+      { step: w.l1, caption: w.lc1, title: "LINE", headerColor: LN, items: [{ kind: "page", heading: w.lAdd, lines: w.lAddLines, button: w.lAddBtn }, { kind: "bot", text: w.linkMsg, buttons: [[w.signIn]] }] },
+      { step: w.l2, caption: w.lc2, title: w.browser, headerColor: ACCENT, items: [{ kind: "page", heading: w.lPageHead, lines: w.lPage, button: w.lLinkBtn }] },
+      { step: w.l3, caption: w.lc3, title: "Santi by Santara AI", headerColor: LN, items: [{ kind: "bot", text: w.linked }, { kind: "me", text: w.hi }, { kind: "bot", text: w.answer }] },
+    ],
+  })),
+  "santi-line-group": perLocaleL((w) => ({
+    title: w.tLnG,
+    phones: [
+      { step: w.lg1, caption: w.lgc1, title: w.group, headerColor: LN, items: [{ kind: "note", text: w.lInvite }, { kind: "pick", label: "Santi", rows: ["Santi by Santara AI"], selected: 0 }] },
+      { step: w.lg2, caption: w.lgc2, title: w.group, headerColor: LN, items: [{ kind: "me", text: w.use }, { kind: "bot", text: w.bound }] },
+      { step: w.lg3, caption: w.lgc3, title: w.group, headerColor: LN, items: [{ kind: "me", text: w.lJobs }, { kind: "bot", text: w.today, buttons: [[w.start, w.done]] }, { kind: "bot", text: w.finished }] },
     ],
   })),
   "santi-photos": perLocale((w) => ({
