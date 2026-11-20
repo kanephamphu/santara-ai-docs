@@ -45,7 +45,10 @@ Tulis seperti kepada rekan kerja — *"Siapa yang tiba besok?"*, *"Buat balasan 
 2 kosong akhir pekan depan?"*. Santi membaca data Santara AI terbaru, menjawab dalam bahasa Anda, dan
 singkat.
 
-Santi membaca teks dan foto. Pesan suara, stiker, video, dan file diabaikan.
+Santi membaca teks, foto, dan **pesan suara**. Kirim pesan suara (maksimal 2 menit), Santi
+menampilkan apa yang didengarnya — *🎤 Saya dengar: "…"* — lalu menjawab. Perubahan yang diminta
+lewat suara tetap muncul sebagai kartu yang Anda konfirmasi dengan mengetuk; mengucapkan "ok" tidak
+pernah mengonfirmasinya. Stiker, video, dan file diabaikan.
 
 ### Perubahan selalu bertanya dulu
 

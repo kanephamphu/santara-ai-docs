@@ -37,6 +37,10 @@ Viết như nhắn cho đồng nghiệp — *"Ngày mai ai đến?"*, *"Soạn t
 sau còn trống không?"*. Santi đọc dữ liệu Santara AI hiện tại, trả lời bằng ngôn ngữ của bạn và ngắn
 gọn.
 
+Santi đọc tin nhắn chữ, ảnh và **tin nhắn thoại**. Gửi tin nhắn thoại (tối đa 2 phút), Santi hiện
+điều nó nghe được — *🎤 Mình nghe được: "…"* — rồi trả lời. Thay đổi yêu cầu bằng giọng nói vẫn hiện
+thành thẻ để bạn bấm xác nhận; nói "ok" không bao giờ tự xác nhận. Trong nhóm, hãy trả lời (reply) một tin của Santi bằng tin nhắn thoại.
+
 ### Thay đổi luôn hỏi trước
 
 Khi bạn yêu cầu một thay đổi — chặn lịch, gửi trả lời cho khách, phân công việc dọn — Santi liệt

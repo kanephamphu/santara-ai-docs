@@ -37,6 +37,10 @@ Write the way you would to a colleague — *"Who arrives tomorrow?"*, *"Draft a 
 *"Is villa 2 free next weekend?"*. Santi reads your live Santara AI data, answers in your language
 and keeps it short.
 
+Santi reads text, photos and **voice messages**. Send a voice message (up to 2 minutes) and Santi
+shows what it heard — *🎤 I heard: "…"* — then answers. A change you ask for by voice still comes
+as a card you confirm by tapping; a spoken "ok" never confirms it. In a group, reply to one of Santi's messages with your voice message.
+
 ### Changes ask first
 
 When you ask for a change — block dates, send a guest reply, assign a clean — Santi lists
