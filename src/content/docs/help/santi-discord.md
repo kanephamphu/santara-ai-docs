@@ -96,6 +96,7 @@ a reply.
 | **/photo** | Send a cleaning photo and pick its job |
 | **/use** | Connect this channel to your workspace (hosts, admins, co-hosts) |
 | **/help** | What Santi can do here |
+| **/workspace** | See your workspace, or switch with a button or **/workspace** *name* (private chat) |
 | **/unlink** | Disconnect your Discord account |
 
 ## If something doesn't work

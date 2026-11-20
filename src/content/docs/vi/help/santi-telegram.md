@@ -90,6 +90,7 @@ kết mở Santi với câu hỏi đã sẵn.
 | **/jobs** | Lịch dọn hôm nay với ▶ Bắt đầu / ✅ Xong |
 | **/use** | Kết nối nhóm này với workspace (chủ nhà, admin, đồng chủ nhà) |
 | **/help** | Santi làm được gì ở đây |
+| **/workspace** | Xem workspace đang dùng, hoặc đổi bằng nút hay **/workspace** *tên* (chat riêng) |
 | **/unlink** | Ngắt kết nối tài khoản Telegram của bạn |
 
 ## Nếu có gì không hoạt động

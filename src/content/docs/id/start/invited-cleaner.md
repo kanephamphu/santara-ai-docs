@@ -93,7 +93,7 @@ Kalau tim Anda mengobrol di Telegram atau Zalo, Anda bisa mengerjakan tugas di s
   melihatnya.
 
 Anda menautkan Telegram atau Zalo sekali dengan akun Santara AI, dan Santi hanya menampilkan
-**tugas Anda**. Lihat [Santi di Telegram](/id/help/santi-telegram/), [Santi di Zalo](/id/help/santi-zalo/), atau [Santi di LINE](/id/help/santi-line/).
+**tugas Anda**. Lihat [Santi di Telegram](/id/help/santi-telegram/), [Santi di Zalo](/id/help/santi-zalo/), [Santi di LINE](/id/help/santi-line/), atau [Santi di WhatsApp](/id/help/santi-whatsapp/).
 
 ## Di ponsel
 

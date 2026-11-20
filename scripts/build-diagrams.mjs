@@ -865,6 +865,36 @@ const LNL = {
 const LN = "#06c755";
 const perLocaleL = (build) => Object.fromEntries(Object.entries(CHAT).map(([loc, w]) => [loc, build({ ...w, ...LNL[loc] })]));
 
+// WhatsApp: 1:1 only; Santi greets with the sign-in after the first message; /workspace switches.
+const WAL = {
+  en: {
+    wPageHead: "Link WhatsApp?", wPage: ["WhatsApp +84 90… will talk to Santi as linh@villa.co in Villa Co."], wLinkBtn: "Link WhatsApp",
+    w1: "Message Santi", w2: "Check and link", w3: "Ask anything",
+    wc1: "Send hi to +1 917-277-7669 — Santi replies with a sign-in.", wc2: "Sign in to Santara AI; check it names YOU, then link.", wc3: "Santi answers in WhatsApp.",
+    wsAsk: "/workspace", wsCard: "You're working in Villa Co. Tap another workspace to switch.", wsOther: "Beach Stays", wsAdd: "Add a workspace", wsDone: "Switched to Beach Stays.",
+    ws1: "Send /workspace", ws2: "Tap one", wsc1: "See the workspace Santi works in.", wsc2: "Every answer is about it from now on.",
+    tWa: "Connecting Santi on WhatsApp", tWs: "Switching workspace in a chat",
+  },
+  vi: {
+    wPageHead: "Link WhatsApp?", wPage: ["WhatsApp +84 90… sẽ dùng Santi với tên linh@villa.co ở Villa Co."], wLinkBtn: "Link WhatsApp",
+    w1: "Nhắn Santi", w2: "Kiểm tra và liên kết", w3: "Hỏi bất cứ gì",
+    wc1: "Nhắn chào tới +1 917-277-7669 — Santi gửi lời mời đăng nhập.", wc2: "Đăng nhập Santara AI; kiểm tra đúng là BẠN rồi liên kết.", wc3: "Santi trả lời ngay trong WhatsApp.",
+    wsAsk: "/workspace", wsCard: "Bạn đang làm việc với Villa Co. Bấm workspace khác để chuyển.", wsOther: "Beach Stays", wsAdd: "Thêm workspace", wsDone: "Đã chuyển sang Beach Stays.",
+    ws1: "Gửi /workspace", ws2: "Bấm một cái", wsc1: "Xem Santi đang làm việc với workspace nào.", wsc2: "Từ giờ mọi câu trả lời theo workspace đó.",
+    tWa: "Kết nối Santi trên WhatsApp", tWs: "Đổi workspace trong chat",
+  },
+  id: {
+    wPageHead: "Link WhatsApp?", wPage: ["WhatsApp +62 81… akan berbicara dengan Santi sebagai linh@villa.co di Villa Co."], wLinkBtn: "Link WhatsApp",
+    w1: "Kirim pesan ke Santi", w2: "Periksa dan tautkan", w3: "Tanya apa saja",
+    wc1: "Kirim hai ke +1 917-277-7669 — Santi membalas dengan tautan masuk.", wc2: "Masuk ke Santara AI; pastikan itu ANDA, lalu tautkan.", wc3: "Santi menjawab di WhatsApp.",
+    wsAsk: "/workspace", wsCard: "Anda bekerja di Villa Co. Ketuk workspace lain untuk pindah.", wsOther: "Beach Stays", wsAdd: "Tambah workspace", wsDone: "Pindah ke Beach Stays.",
+    ws1: "Kirim /workspace", ws2: "Ketuk salah satu", wsc1: "Lihat workspace yang dipakai Santi.", wsc2: "Semua jawaban mengikutinya mulai sekarang.",
+    tWa: "Menghubungkan Santi di WhatsApp", tWs: "Mengganti workspace di chat",
+  },
+};
+const WA = "#25d366";
+const perLocaleW = (build) => Object.fromEntries(Object.entries(CHAT).map(([loc, w]) => [loc, build({ ...w, ...WAL[loc] })]));
+
 const TG = "#2aabee";
 const ZA = "#0068ff";
 const perLocale = (build) => Object.fromEntries(Object.entries(CHAT).map(([loc, w]) => [loc, build(w)]));
@@ -932,6 +962,21 @@ const CHAT_FIGURES = {
       { step: w.lg1, caption: w.lgc1, title: w.group, headerColor: LN, items: [{ kind: "note", text: w.lInvite }, { kind: "pick", label: "Santi", rows: ["Santi by Santara AI"], selected: 0 }] },
       { step: w.lg2, caption: w.lgc2, title: w.group, headerColor: LN, items: [{ kind: "me", text: w.use }, { kind: "bot", text: w.bound }] },
       { step: w.lg3, caption: w.lgc3, title: w.group, headerColor: LN, items: [{ kind: "me", text: w.lJobs }, { kind: "bot", text: w.today, buttons: [[w.start, w.done]] }, { kind: "bot", text: w.finished }] },
+    ],
+  })),
+  "santi-whatsapp-connect": perLocaleW((w) => ({
+    title: w.tWa,
+    phones: [
+      { step: w.w1, caption: w.wc1, title: "Santara AI", headerColor: WA, items: [{ kind: "me", text: w.hi }, { kind: "bot", text: w.linkMsg, buttons: [[w.signIn]] }] },
+      { step: w.w2, caption: w.wc2, title: w.browser, headerColor: ACCENT, items: [{ kind: "page", heading: w.wPageHead, lines: w.wPage, button: w.wLinkBtn }] },
+      { step: w.w3, caption: w.wc3, title: "Santara AI", headerColor: WA, items: [{ kind: "bot", text: w.linked }, { kind: "bot", text: w.answer }] },
+    ],
+  })),
+  "santi-workspace-switch": perLocaleW((w) => ({
+    title: w.tWs,
+    phones: [
+      { step: w.ws1, caption: w.wsc1, title: "Santi", headerColor: ACCENT, items: [{ kind: "me", text: w.wsAsk }, { kind: "bot", text: w.wsCard, buttons: [[w.wsOther], [w.wsAdd]] }] },
+      { step: w.ws2, caption: w.wsc2, title: "Santi", headerColor: ACCENT, items: [{ kind: "bot", text: w.wsDone }, { kind: "me", text: w.hi }, { kind: "bot", text: w.answer }] },
     ],
   })),
   "santi-photos": perLocale((w) => ({

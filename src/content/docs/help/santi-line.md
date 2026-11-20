@@ -52,6 +52,16 @@ confirmed in the Santi app instead.
 LINE can't remove buttons from a message once it's sent, so old buttons stay in the chat. Tapping
 one again is safe: a confirmation works only once, and Santi checks a job before changing it.
 
+## Switch workspace
+
+![Switching workspace in a chat: send /workspace, then tap another workspace.](/diagrams/santi-workspace-switch.en.svg)
+
+If you work in more than one Santara AI workspace, send **/workspace** in your private chat with
+Santi. Santi says which workspace it's working in, with a button for each of your other workspaces —
+tap one to switch. You can also type the name: **/workspace beach**. The chat follows the same
+workspace as the Santi app, so switching in one switches the other. In a group, the workspace is
+the one connected with **/use**.
+
 ## Cleaning: Start, Done and photos
 
 Send **/jobs** — or ask *"what are my cleans today?"* — and you get today's jobs with a button for
@@ -101,6 +111,7 @@ reply. Each comes with a link that opens Santi with the question already asked.
 | **/jobs** | Today's cleaning with ▶ Start / ✅ Done |
 | **/use** | Connect this group to your workspace (hosts, admins, co-hosts) |
 | **/help** | What Santi can do here |
+| **/workspace** | See your workspace, or switch with a button or **/workspace** *name* (private chat) |
 | **/unlink** | Disconnect your LINE account |
 
 ## If something doesn't work

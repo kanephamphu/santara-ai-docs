@@ -93,4 +93,5 @@ trả lời hơn hai giờ — trong chat Zalo **riêng** với Santi, không ba
 | **/jobs** | Lịch dọn hôm nay, đánh số: trả lời để bắt đầu hoặc báo xong |
 | **/use** | Kết nối nhóm này với workspace (chủ nhà, admin, đồng chủ nhà) |
 | **/help** | Santi làm được gì ở đây |
+| **/workspace** | Xem workspace đang dùng, hoặc đổi bằng nút hay **/workspace** *tên* (chat riêng) |
 | **/unlink** | Ngắt kết nối tài khoản Zalo của bạn |

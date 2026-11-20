@@ -96,6 +96,7 @@ balasan lebih dari dua jam.
 | **/photo** | Kirim foto kebersihan dan pilih tugasnya |
 | **/use** | Hubungkan kanal ini ke workspace Anda (host, admin, co-host) |
 | **/help** | Apa yang bisa dilakukan Santi di sini |
+| **/workspace** | Lihat workspace Anda, atau ganti dengan tombol atau **/workspace** *nama* (chat pribadi) |
 | **/unlink** | Putuskan akun Discord Anda |
 
 ## Jika ada yang tidak berjalan
