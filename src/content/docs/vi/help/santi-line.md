@@ -45,10 +45,11 @@ Santi đọc tin nhắn chữ và ảnh. Sticker, tin nhắn thoại, video và 
 
 ### Thay đổi luôn hỏi trước
 
-Khi bạn yêu cầu một thay đổi — chặn lịch, gửi trả lời cho khách, phân công việc dọn — Santi cho thấy
-chính xác điều gì sẽ thay đổi, kèm nút **Có** và **Không**. Bấm **Có**, rồi **Xác nhận**. Không có gì
-thay đổi trước đó, và chỉ người yêu cầu mới xác nhận được. Thay đổi lớn, như hủy một đặt phòng, được
-xác nhận trong ứng dụng Santi.
+Khi bạn yêu cầu một thay đổi — chặn lịch, gửi trả lời cho khách, phân công việc dọn — Santi liệt
+kê **đầy đủ chi tiết** ngay dưới câu trả lời (thay đổi gì, từ giá trị nào sang giá trị nào), kèm nút
+**✅ Xác nhận** và **Hủy**. Bấm **✅ Xác nhận** một lần — hoặc chỉ cần trả lời **OK** — là xong. Trả
+lời **Không** hoặc bấm **Hủy** để bỏ. Không có gì thay đổi trước đó, và chỉ người yêu cầu mới xác nhận
+được. Thay đổi lớn, như hủy một đặt phòng, được xác nhận trong ứng dụng Santi.
 
 LINE không xóa được nút khỏi tin nhắn đã gửi, nên nút cũ vẫn nằm trong chat. Bấm lại cũng không sao:
 mỗi xác nhận chỉ dùng được một lần, và Santi kiểm tra việc dọn trước khi đổi.

@@ -12,9 +12,9 @@ Santara AI login, so Santi only sees and does what their role allows.
 The one difference: **Zalo bots have no buttons.** Wherever Telegram shows buttons, Santi on Zalo
 sends **numbered choices**, and you answer with the number:
 
-> Here's the change: block Villa A for 1 night. Check it, then tap Yes.
+> 📝 Block Villa A · 1 night (12 Nov). Reply 1 or OK to do it.
 >
-> **[1] Yes   [2] No**
+> **[1] ✅ Confirm   [2] Cancel**
 
 Reply **1**. That's it — the number counts exactly like tapping the button, and the same checks
 apply (only the person who asked can confirm their own change).
@@ -47,7 +47,7 @@ that isn't you, don't press the button.
 Everything on [Santi on Telegram](/help/santi-telegram/) works here, with numbers instead of taps:
 
 - **Questions** — write normally; Santi answers in your language.
-- **Changes** — reply **1** for Yes, then **1** again for Confirm.
+- **Changes** — Santi lists every detail first; reply **1** (or **OK**) once to confirm, **2** (or **No**) to cancel.
 - **/jobs** — today's cleaning as a numbered list: *[1] ▶ Start · Villa A*, *[2] ✅ Done · Villa A*…
   Reply with the number to start or finish a clean.
 - **Photos** — send them to Santi (in a group, write **@Santi** in the caption). Santi lists today's

@@ -12,9 +12,9 @@ Santara AI miliknya sendiri**, jadi Santi hanya melihat dan melakukan apa yang d
 Satu-satunya perbedaan: **bot Zalo tidak punya tombol.** Di mana Telegram menampilkan tombol, Santi di
 Zalo mengirim **pilihan bernomor**, dan Anda membalas dengan angkanya:
 
-> Ini perubahannya: blokir Villa A untuk 1 malam. Periksa, lalu ketuk Ya.
+> 📝 Blokir Villa A · 1 malam (12 Nov). Balas 1 atau OK untuk menjalankannya.
 >
-> **[1] Ya   [2] Tidak**
+> **[1] ✅ Konfirmasi   [2] Batal**
 
 Balas **1**. Selesai — angka itu berlaku persis seperti mengetuk tombol, dan pemeriksaannya sama
 (hanya orang yang meminta yang bisa mengonfirmasi perubahannya sendiri).
@@ -48,7 +48,7 @@ Semua yang ada di [Santi di Telegram](/id/help/santi-telegram/) berlaku di sini,
 pengganti tombol:
 
 - **Pertanyaan** — tulis seperti biasa; Santi menjawab dalam bahasa Anda.
-- **Perubahan** — balas **1** untuk Ya, lalu **1** lagi untuk Konfirmasi.
+- **Perubahan** — Santi menampilkan semua detailnya dulu; balas **1** (atau **OK**) sekali untuk konfirmasi, **2** (atau **Tidak**) untuk membatalkan.
 - **/jobs** — tugas kebersihan hari ini sebagai daftar bernomor: *[1] ▶ Mulai · Villa A*, *[2] ✅
   Selesai · Villa A*… Balas dengan angkanya untuk memulai atau menyelesaikan tugas.
 - **Foto** — kirim ke Santi (di grup, tulis **@Santi** di keterangan). Santi menampilkan tugas hari
