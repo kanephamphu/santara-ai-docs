@@ -166,5 +166,5 @@ tahu Anda; batasnya diatur ulang keesokan harinya. Pesan obrolan disimpan selama
 dihapus. Ingatan yang sudah Anda konfirmasi tetap ada sampai Anda meminta Santi melupakannya.
 
 :::note
-Santi juga ada di aplikasi chat yang sudah dipakai tim Anda: [Santi di Telegram](/id/help/santi-telegram/) dan [Santi di Zalo](/id/help/santi-zalo/). WhatsApp belum tersedia.
+Santi juga ada di aplikasi chat yang sudah dipakai tim Anda: [Santi di Telegram](/id/help/santi-telegram/), [Santi di Zalo](/id/help/santi-zalo/), [Santi di Discord](/id/help/santi-discord/), dan [Santi di LINE](/id/help/santi-line/). WhatsApp belum tersedia.
 :::
