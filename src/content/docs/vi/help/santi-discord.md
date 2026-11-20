@@ -45,10 +45,11 @@ trả lời bằng ngôn ngữ của bạn và ngắn gọn.
 
 ### Thay đổi luôn hỏi trước
 
-Khi bạn yêu cầu thay đổi — chặn ngày, gửi trả lời cho khách, giao việc dọn — Santi cho thấy chính xác
-điều gì sẽ thay đổi, kèm nút **Có** và **Không**. Bấm **Có**, rồi **Xác nhận**. Trước đó không có gì
-thay đổi, và chỉ người yêu cầu mới xác nhận được. Thay đổi lớn, như hủy đặt phòng, được xác nhận
-trong ứng dụng Santi.
+Khi bạn yêu cầu một thay đổi — chặn lịch, gửi trả lời cho khách, phân công việc dọn — Santi liệt
+kê **đầy đủ chi tiết** ngay dưới câu trả lời (thay đổi gì, từ giá trị nào sang giá trị nào), kèm nút
+**✅ Xác nhận** và **Hủy**. Bấm **✅ Xác nhận** một lần — hoặc chỉ cần trả lời **OK** — là xong. Trả
+lời **Không** hoặc bấm **Hủy** để bỏ. Không có gì thay đổi trước đó, và chỉ người yêu cầu mới xác nhận
+được. Thay đổi lớn, như hủy một đặt phòng, được xác nhận trong ứng dụng Santi.
 
 ## Dọn phòng: Bắt đầu, Xong và ảnh
 

@@ -39,10 +39,11 @@ and keeps it short.
 
 ### Changes ask first
 
-When you ask for a change — block dates, send a guest reply, assign a clean — Santi shows exactly
-what will change with **Yes** and **No**. Tap **Yes**, then **Confirm**. Nothing changes before
-that, and only the person who asked can confirm. Big changes, such as cancelling a booking, are
-confirmed in the Santi app instead.
+When you ask for a change — block dates, send a guest reply, assign a clean — Santi lists
+**every detail** of it under the answer (what changes, from what to what) with **✅ Confirm** and
+**Cancel**. Tap **✅ Confirm** once — or simply reply **OK** — and it's done. Reply **No** or tap
+**Cancel** to drop it. Nothing changes before that, and only the person who asked can confirm. Big
+changes, such as cancelling a booking, are confirmed in the Santi app instead.
 
 ## Cleaning: Start, Done and photos
 

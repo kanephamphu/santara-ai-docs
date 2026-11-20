@@ -50,8 +50,10 @@ Santi membaca teks dan foto. Pesan suara, stiker, video, dan file diabaikan.
 ### Perubahan selalu bertanya dulu
 
 Saat Anda meminta perubahan — memblokir tanggal, mengirim balasan ke tamu, menugaskan kebersihan —
-Santi menunjukkan persis apa yang berubah, dengan tombol **Ya** dan **Tidak**. Ketuk **Ya**, lalu
-**Konfirmasi**. Tidak ada yang berubah sebelum itu. Perubahan besar, seperti membatalkan pemesanan,
+Santi menampilkan **semua detailnya** di bawah jawaban (apa yang berubah, dari apa menjadi apa), dengan
+tombol **✅ Konfirmasi** dan **Batal**. Ketuk **✅ Konfirmasi** sekali — atau cukup balas **OK** — dan
+selesai. Balas **Tidak** atau ketuk **Batal** untuk membatalkan. Tidak ada yang berubah sebelum itu, dan
+hanya orang yang meminta yang bisa mengonfirmasi. Perubahan besar, seperti membatalkan pemesanan,
 dikonfirmasi di aplikasi Santi.
 
 Kalau pilihannya lebih dari tiga, WhatsApp menampilkannya sebagai daftar: ketuk tombol di bawah pesan,

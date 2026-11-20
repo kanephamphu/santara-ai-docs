@@ -12,9 +12,9 @@ mình**, nên Santi chỉ xem và làm những gì vai trò của họ cho phép
 Khác biệt duy nhất: **bot Zalo không có nút bấm.** Chỗ nào Telegram có nút, Santi trên Zalo gửi **lựa
 chọn đánh số**, và bạn trả lời bằng con số:
 
-> Đây là thay đổi: chặn Villa A 1 đêm. Kiểm tra rồi bấm Có.
+> 📝 Chặn Villa A · 1 đêm (12/11). Trả lời 1 hoặc OK để thực hiện.
 >
-> **[1] Có   [2] Không**
+> **[1] ✅ Xác nhận   [2] Hủy**
 
 Trả lời **1**. Vậy thôi — con số có tác dụng y như bấm nút, và vẫn được kiểm tra như vậy (chỉ người
 yêu cầu mới xác nhận được thay đổi của mình).
@@ -48,7 +48,7 @@ Mọi thứ trong [Santi trên Telegram](/vi/help/santi-telegram/) đều dùng 
 cho nút:
 
 - **Câu hỏi** — viết bình thường; Santi trả lời bằng ngôn ngữ của bạn.
-- **Thay đổi** — trả lời **1** để chọn Có, rồi **1** lần nữa để Xác nhận.
+- **Thay đổi** — Santi liệt kê đầy đủ chi tiết trước; trả lời **1** (hoặc **OK**) một lần để xác nhận, **2** (hoặc **Không**) để hủy.
 - **/jobs** — lịch dọn hôm nay dạng danh sách số: *[1] ▶ Bắt đầu · Villa A*, *[2] ✅ Xong · Villa A*…
   Trả lời bằng con số để bắt đầu hoặc báo xong một việc.
 - **Ảnh** — gửi ảnh cho Santi (trong nhóm, viết **@Santi** trong chú thích). Santi liệt kê các việc
