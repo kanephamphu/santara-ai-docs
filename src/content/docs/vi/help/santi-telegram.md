@@ -41,13 +41,19 @@ Santi đọc tin nhắn chữ, ảnh và **tin nhắn thoại**. Gửi tin nhắ
 điều nó nghe được — *🎤 Mình nghe được: "…"* — rồi trả lời. Thay đổi yêu cầu bằng giọng nói vẫn hiện
 thành thẻ để bạn bấm xác nhận; nói "ok" không bao giờ tự xác nhận. Trong nhóm, hãy trả lời (reply) một tin của Santi bằng tin nhắn thoại.
 
+### Nút và menu
+
+Sau mỗi câu trả lời, Santi thêm tối đa ba nút cho bước tiếp theo — bấm một nút và Santi trả lời ngay trong chat. Sau khi soạn tin trả lời khách, các nút là **✅ Gửi tin này** và **✏️ Ngắn hơn**: bấm Gửi, xem thẻ, xác nhận là tin được gửi đi.
+
+Bấm **Menu** cạnh ô nhập tin để thấy **/today**, **/jobs**, **/guests** và **/workspace**.
+
 ### Thay đổi luôn hỏi trước
 
 Khi bạn yêu cầu một thay đổi — chặn lịch, gửi trả lời cho khách, phân công việc dọn — Santi liệt
 kê **đầy đủ chi tiết** ngay dưới câu trả lời (thay đổi gì, từ giá trị nào sang giá trị nào), kèm nút
 **✅ Xác nhận** và **Hủy**. Bấm **✅ Xác nhận** một lần — hoặc chỉ cần trả lời **OK** — là xong. Trả
 lời **Không** hoặc bấm **Hủy** để bỏ. Không có gì thay đổi trước đó, và chỉ người yêu cầu mới xác nhận
-được. Thay đổi lớn, như hủy một đặt phòng, được xác nhận trong ứng dụng Santi.
+được. Thay đổi lớn, như hủy một đặt phòng, không hoàn tác được, nên bấm nút hay trả lời **OK** là chưa đủ: trả lời đúng **ĐỒNG Ý THỰC HIỆN** trong chat riêng với Santi — hoặc xác nhận trong ứng dụng Santi. Trong nhóm, hãy mở ứng dụng Santi.
 
 ## Dọn phòng: Bắt đầu, Xong và ảnh
 
@@ -85,14 +91,17 @@ Mỗi người vẫn cần tự liên kết Telegram của mình lần đầu �
 ## Thông báo
 
 Người đã liên kết nhận thông báo của Santi trong chat **riêng** (không bao giờ trong nhóm): tóm tắt
-buổi sáng, đặt phòng mới và hủy phòng, và khách đã chờ trả lời hơn hai giờ. Mỗi thông báo có liên
-kết mở Santi với câu hỏi đã sẵn.
+buổi sáng, đặt phòng mới và hủy phòng, và khách đã chờ trả lời hơn hai giờ.
+
+Mỗi thông báo có nút trả lời ngay trong chat — **📋 Hôm nay**, **Chi tiết**, **✍️ Soạn trả lời** và hơn nữa. Nhân viên dọn phòng còn nhận lời nhắc khoảng 30 phút trước giờ dọn, kèm nút **▶ Bắt đầu**.
 
 ## Lệnh
 
 | Lệnh | Tác dụng |
 |---|---|
 | **/jobs** | Lịch dọn hôm nay với ▶ Bắt đầu / ✅ Xong |
+| **/today** | Hôm nay có gì |
+| **/guests** | Khách đang chờ trả lời |
 | **/use** | Kết nối nhóm này với workspace (chủ nhà, admin, đồng chủ nhà) |
 | **/help** | Santi làm được gì ở đây |
 | **/workspace** | Xem workspace đang dùng, hoặc đổi bằng nút hay **/workspace** *tên* (chat riêng) |

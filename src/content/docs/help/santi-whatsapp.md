@@ -49,13 +49,18 @@ shows what it heard — *🎤 I heard: "…"* — then answers. A change you ask
 as a card you confirm by tapping; a spoken "ok" never confirms it. Stickers, videos and files are
 ignored.
 
+### Buttons and menu
+
+After an answer, Santi adds up to three buttons for the next step — tap one and Santi answers it right here. After it drafts a guest reply, the buttons are **✅ Send this** and **✏️ Shorter**: tap Send, check the card, confirm, and the reply is on its way.
+
+Type **/** in the chat to see **/today**, **/jobs**, **/guests** and **/workspace**.
+
 ### Changes ask first
 
 When you ask for a change — block dates, send a guest reply, assign a clean — Santi lists
 **every detail** of it under the answer (what changes, from what to what) with **✅ Confirm** and
 **Cancel**. Tap **✅ Confirm** once — or simply reply **OK** — and it's done. Reply **No** or tap
-**Cancel** to drop it. Nothing changes before that, and only the person who asked can confirm. Big
-changes, such as cancelling a booking, are confirmed in the Santi app instead.
+**Cancel** to drop it. Nothing changes before that, and only the person who asked can confirm. Big changes, such as cancelling a booking, can't be undone, so a tap or **OK** isn't enough: reply exactly **YES DO IT** in your private chat with Santi — or confirm in the Santi app.
 
 When there are more than three choices, WhatsApp shows them as a list: tap the button under the
 message, then pick one.
@@ -86,6 +91,8 @@ job within 30 minutes.
 Linked people also get Santi's notices here: the morning summary, new bookings and cancellations,
 and guests who have waited more than two hours for a reply.
 
+Each notice has buttons that answer right in the chat — **📋 Today**, **Details**, **✍️ Draft reply** and more. Cleaners also get a reminder about 30 minutes before a clean starts, with **▶ Start**.
+
 :::note[The 24-hour window]
 WhatsApp lets Santi message you only within **24 hours of your last message** to it. If you haven't
 written to Santi today, a notice can't reach you on WhatsApp — open the Santi app, or send Santi any
@@ -97,6 +104,8 @@ message to open the window again.
 | Command | What it does |
 |---|---|
 | **/jobs** | Today's cleaning with ▶ Start / ✅ Done |
+| **/today** | What's on today |
+| **/guests** | Guests waiting for a reply |
 | **/workspace** | See your workspace, or switch with a button or **/workspace** *name* |
 | **/help** | What Santi can do here |
 | **/unlink** | Disconnect your WhatsApp number |

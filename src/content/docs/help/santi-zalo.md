@@ -48,6 +48,8 @@ Everything on [Santi on Telegram](/help/santi-telegram/) works here, with number
 
 - **Questions** — write normally; Santi answers in your language.
 - **Changes** — Santi lists every detail first; reply **1** (or **OK**) once to confirm, **2** (or **No**) to cancel.
+  Big changes, like cancelling a booking, need the exact reply **YES DO IT**.
+- **Next steps** — after an answer Santi offers numbered next steps; reply with the number and Santi answers it here.
 - **/jobs** — today's cleaning as a numbered list: *[1] ▶ Start · Villa A*, *[2] ✅ Done · Villa A*…
   Reply with the number to start or finish a clean.
 - **Photos** — send them to Santi (in a group, write **@Santi** in the caption). Santi lists today's
@@ -86,11 +88,15 @@ Beta at Zalo, so if Santi misses a message in a group, start it with **@Santi** 
 Linked people get Santi's notices — morning summary, new bookings and cancellations, guests waiting
 more than two hours — in their **private** Zalo chat with Santi, never in a group.
 
+Each notice has buttons that answer right in the chat — **📋 Today**, **Details**, **✍️ Draft reply** and more. Cleaners also get a reminder about 30 minutes before a clean starts, with **▶ Start**.
+
 ## Commands
 
 | Command | What it does |
 |---|---|
 | **/jobs** | Today's cleaning, numbered: reply to start or finish |
+| **/today** | What's on today |
+| **/guests** | Guests waiting for a reply |
 | **/use** | Connect this group to your workspace (hosts, admins, co-hosts) |
 | **/help** | What Santi can do here |
 | **/workspace** | See your workspace, or switch with a button or **/workspace** *name* (private chat) |

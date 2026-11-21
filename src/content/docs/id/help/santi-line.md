@@ -46,14 +46,19 @@ menampilkan apa yang didengarnya — *🎤 Saya dengar: "…"* — lalu menjawab
 lewat suara tetap muncul sebagai kartu yang Anda konfirmasi dengan mengetuk; mengucapkan "ok" tidak
 pernah mengonfirmasinya. Stiker, video, dan file diabaikan.
 
+### Tombol dan menu
+
+Setelah menjawab, Santi menambahkan hingga tiga tombol untuk langkah berikutnya — ketuk salah satu dan Santi menjawabnya langsung di chat. Setelah membuat draf balasan tamu, tombolnya **✅ Kirim ini** dan **✏️ Lebih singkat**: ketuk Kirim, periksa kartunya, konfirmasi, dan balasan terkirim.
+
+Menu selalu ada di atas keyboard di chat pribadi: **📋 Hari ini**, **🧹 Kebersihan**, **💬 Tamu menunggu**, dan **🏠 Workspace**.
+
 ### Perubahan selalu bertanya dulu
 
 Saat Anda meminta perubahan — memblokir tanggal, mengirim balasan ke tamu, menugaskan kebersihan —
 Santi menampilkan **semua detailnya** di bawah jawaban (apa yang berubah, dari apa menjadi apa), dengan
 tombol **✅ Konfirmasi** dan **Batal**. Ketuk **✅ Konfirmasi** sekali — atau cukup balas **OK** — dan
 selesai. Balas **Tidak** atau ketuk **Batal** untuk membatalkan. Tidak ada yang berubah sebelum itu, dan
-hanya orang yang meminta yang bisa mengonfirmasi. Perubahan besar, seperti membatalkan pemesanan,
-dikonfirmasi di aplikasi Santi.
+hanya orang yang meminta yang bisa mengonfirmasi. Perubahan besar, seperti membatalkan pemesanan, tidak bisa dibatalkan, jadi ketukan atau **OK** tidak cukup: balas persis **YA LAKUKAN** di chat pribadi dengan Santi — atau konfirmasi di aplikasi Santi. Di grup, buka aplikasi Santi.
 
 LINE tidak bisa menghapus tombol dari pesan yang sudah terkirim, jadi tombol lama tetap ada di chat.
 Mengetuknya lagi aman: konfirmasi hanya berlaku sekali, dan Santi memeriksa tugasnya sebelum
@@ -110,13 +115,17 @@ menunjukkan tautan tambah teman.
 
 Orang yang sudah tertaut juga menerima pemberitahuan Santi di chat **pribadi** (tidak pernah di
 grup): ringkasan pagi, pemesanan baru dan pembatalan, serta tamu yang menunggu balasan lebih dari dua
-jam. Masing-masing berisi tautan yang membuka Santi dengan pertanyaan yang sudah siap.
+jam.
+
+Setiap pemberitahuan punya tombol yang menjawab langsung di chat — **📋 Hari ini**, **Detail**, **✍️ Buat balasan**, dan lainnya. Petugas kebersihan juga mendapat pengingat sekitar 30 menit sebelum mulai, dengan tombol **▶ Mulai**.
 
 ## Perintah
 
 | Perintah | Fungsinya |
 |---|---|
 | **/jobs** | Tugas kebersihan hari ini dengan ▶ Mulai / ✅ Selesai |
+| **/today** | Ada apa hari ini |
+| **/guests** | Tamu yang menunggu balasan |
 | **/use** | Hubungkan grup ini ke workspace Anda (host, admin, co-host) |
 | **/help** | Apa yang bisa Santi lakukan di sini |
 | **/workspace** | Lihat workspace Anda, atau ganti dengan tombol atau **/workspace** *nama* (chat pribadi) |

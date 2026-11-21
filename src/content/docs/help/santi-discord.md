@@ -43,13 +43,18 @@ disconnect later, send **/unlink**.
 tomorrow?"*, *"Draft a reply to Anna"*, *"Is villa 2 free next weekend?"*. Santi reads your live
 Santara AI data, answers in your language and keeps it short.
 
+### Buttons and menu
+
+After an answer, Santi adds up to three buttons for the next step — tap one and Santi answers it right here. After it drafts a guest reply, the buttons are **✅ Send this** and **✏️ Shorter**: tap Send, check the card, confirm, and the reply is on its way.
+
+Type **/** to see Santi's commands, including **/today**, **/jobs** and **/guests**.
+
 ### Changes ask first
 
 When you ask for a change — block dates, send a guest reply, assign a clean — Santi lists
 **every detail** of it under the answer (what changes, from what to what) with **✅ Confirm** and
 **Cancel**. Tap **✅ Confirm** once — or simply reply **OK** — and it's done. Reply **No** or tap
-**Cancel** to drop it. Nothing changes before that, and only the person who asked can confirm. Big
-changes, such as cancelling a booking, are confirmed in the Santi app instead.
+**Cancel** to drop it. Nothing changes before that, and only the person who asked can confirm. Big changes, such as cancelling a booking, can't be undone, so a tap or **OK** isn't enough: reply exactly **YES DO IT** in your private chat with Santi — or confirm in the Santi app. In a group, open the Santi app.
 
 ## Cleaning: Start, Done and photos
 
@@ -88,12 +93,16 @@ Linked people also get Santi's notices as **direct messages** from Santi (never 
 morning summary, new bookings and cancellations, and guests who have waited more than two hours for
 a reply.
 
+Each notice has buttons that answer right in the chat — **📋 Today**, **Details**, **✍️ Draft reply** and more. Cleaners also get a reminder about 30 minutes before a clean starts, with **▶ Start**.
+
 ## Commands
 
 | Command | What it does |
 |---|---|
 | **/santi** | Ask Santi anything |
 | **/jobs** | Today's cleaning with ▶ Start / ✅ Done |
+| **/today** | What's on today |
+| **/guests** | Guests waiting for a reply |
 | **/photo** | Send a cleaning photo and pick its job |
 | **/use** | Connect this channel to your workspace (hosts, admins, co-hosts) |
 | **/help** | What Santi can do here |
