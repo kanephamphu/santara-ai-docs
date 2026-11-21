@@ -49,6 +49,8 @@ pengganti tombol:
 
 - **Pertanyaan** — tulis seperti biasa; Santi menjawab dalam bahasa Anda.
 - **Perubahan** — Santi menampilkan semua detailnya dulu; balas **1** (atau **OK**) sekali untuk konfirmasi, **2** (atau **Tidak**) untuk membatalkan.
+  Perubahan besar, seperti membatalkan pemesanan, perlu balasan persis **YA LAKUKAN**.
+- **Langkah berikutnya** — setelah menjawab, Santi menawarkan langkah berikutnya bernomor; balas dengan nomornya dan Santi menjawabnya di sini.
 - **/jobs** — tugas kebersihan hari ini sebagai daftar bernomor: *[1] ▶ Mulai · Villa A*, *[2] ✅
   Selesai · Villa A*… Balas dengan angkanya untuk memulai atau menyelesaikan tugas.
 - **Foto** — kirim ke Santi (di grup, tulis **@Santi** di keterangan). Santi menampilkan tugas hari
@@ -88,11 +90,15 @@ di Zalo masih Beta, jadi kalau Santi melewatkan pesan di grup, mulai dengan **@S
 Orang yang sudah tertaut menerima pemberitahuan Santi — ringkasan pagi, pemesanan baru dan pembatalan,
 tamu yang menunggu lebih dari dua jam — di chat Zalo **pribadi** dengan Santi, tidak pernah di grup.
 
+Setiap pemberitahuan punya tombol yang menjawab langsung di chat — **📋 Hari ini**, **Detail**, **✍️ Buat balasan**, dan lainnya. Petugas kebersihan juga mendapat pengingat sekitar 30 menit sebelum mulai, dengan tombol **▶ Mulai**.
+
 ## Perintah
 
 | Perintah | Fungsinya |
 |---|---|
 | **/jobs** | Tugas kebersihan hari ini, bernomor: balas untuk memulai atau menyelesaikan |
+| **/today** | Ada apa hari ini |
+| **/guests** | Tamu yang menunggu balasan |
 | **/use** | Hubungkan grup ini ke workspace Anda (host, admin, co-host) |
 | **/help** | Apa yang bisa Santi lakukan di sini |
 | **/workspace** | Lihat workspace Anda, atau ganti dengan tombol atau **/workspace** *nama* (chat pribadi) |

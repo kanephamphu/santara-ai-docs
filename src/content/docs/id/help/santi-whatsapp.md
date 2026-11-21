@@ -50,14 +50,19 @@ menampilkan apa yang didengarnya — *🎤 Saya dengar: "…"* — lalu menjawab
 lewat suara tetap muncul sebagai kartu yang Anda konfirmasi dengan mengetuk; mengucapkan "ok" tidak
 pernah mengonfirmasinya. Stiker, video, dan file diabaikan.
 
+### Tombol dan menu
+
+Setelah menjawab, Santi menambahkan hingga tiga tombol untuk langkah berikutnya — ketuk salah satu dan Santi menjawabnya langsung di chat. Setelah membuat draf balasan tamu, tombolnya **✅ Kirim ini** dan **✏️ Lebih singkat**: ketuk Kirim, periksa kartunya, konfirmasi, dan balasan terkirim.
+
+Ketik **/** di chat untuk melihat **/today**, **/jobs**, **/guests**, dan **/workspace**.
+
 ### Perubahan selalu bertanya dulu
 
 Saat Anda meminta perubahan — memblokir tanggal, mengirim balasan ke tamu, menugaskan kebersihan —
 Santi menampilkan **semua detailnya** di bawah jawaban (apa yang berubah, dari apa menjadi apa), dengan
 tombol **✅ Konfirmasi** dan **Batal**. Ketuk **✅ Konfirmasi** sekali — atau cukup balas **OK** — dan
 selesai. Balas **Tidak** atau ketuk **Batal** untuk membatalkan. Tidak ada yang berubah sebelum itu, dan
-hanya orang yang meminta yang bisa mengonfirmasi. Perubahan besar, seperti membatalkan pemesanan,
-dikonfirmasi di aplikasi Santi.
+hanya orang yang meminta yang bisa mengonfirmasi. Perubahan besar, seperti membatalkan pemesanan, tidak bisa dibatalkan, jadi ketukan atau **OK** tidak cukup: balas persis **YA LAKUKAN** di chat pribadi dengan Santi — atau konfirmasi di aplikasi Santi.
 
 Kalau pilihannya lebih dari tiga, WhatsApp menampilkannya sebagai daftar: ketuk tombol di bawah pesan,
 lalu pilih salah satu.
@@ -89,6 +94,8 @@ tugasnya dalam 30 menit.
 Orang yang sudah tertaut juga menerima pemberitahuan Santi di sini: ringkasan pagi, pemesanan baru dan
 pembatalan, serta tamu yang menunggu balasan lebih dari dua jam.
 
+Setiap pemberitahuan punya tombol yang menjawab langsung di chat — **📋 Hari ini**, **Detail**, **✍️ Buat balasan**, dan lainnya. Petugas kebersihan juga mendapat pengingat sekitar 30 menit sebelum mulai, dengan tombol **▶ Mulai**.
+
 :::note[Aturan 24 jam]
 WhatsApp hanya mengizinkan Santi mengirim pesan kepada Anda dalam **24 jam sejak pesan terakhir Anda**
 ke Santi. Kalau hari ini Anda belum mengirim pesan ke Santi, pemberitahuan tidak bisa sampai lewat
@@ -100,6 +107,8 @@ WhatsApp — buka aplikasi Santi, atau kirim pesan apa saja ke Santi untuk membu
 | Perintah | Fungsinya |
 |---|---|
 | **/jobs** | Tugas kebersihan hari ini dengan ▶ Mulai / ✅ Selesai |
+| **/today** | Ada apa hari ini |
+| **/guests** | Tamu yang menunggu balasan |
 | **/workspace** | Lihat workspace Anda, atau ganti dengan tombol atau **/workspace** *nama* |
 | **/help** | Apa yang bisa Santi lakukan di sini |
 | **/unlink** | Putuskan nomor WhatsApp Anda |

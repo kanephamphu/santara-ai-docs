@@ -45,13 +45,18 @@ shows what it heard — *🎤 I heard: "…"* — then answers. A change you ask
 as a card you confirm by tapping; a spoken "ok" never confirms it. Stickers, videos and files are
 ignored.
 
+### Buttons and menu
+
+After an answer, Santi adds up to three buttons for the next step — tap one and Santi answers it right here. After it drafts a guest reply, the buttons are **✅ Send this** and **✏️ Shorter**: tap Send, check the card, confirm, and the reply is on its way.
+
+The menu stays above the keyboard in your private chat: **📋 Today**, **🧹 Cleaning**, **💬 Guests waiting** and **🏠 Workspace**.
+
 ### Changes ask first
 
 When you ask for a change — block dates, send a guest reply, assign a clean — Santi lists
 **every detail** of it under the answer (what changes, from what to what) with **✅ Confirm** and
 **Cancel**. Tap **✅ Confirm** once — or simply reply **OK** — and it's done. Reply **No** or tap
-**Cancel** to drop it. Nothing changes before that, and only the person who asked can confirm. Big
-changes, such as cancelling a booking, are confirmed in the Santi app instead.
+**Cancel** to drop it. Nothing changes before that, and only the person who asked can confirm. Big changes, such as cancelling a booking, can't be undone, so a tap or **OK** isn't enough: reply exactly **YES DO IT** in your private chat with Santi — or confirm in the Santi app. In a group, open the Santi app.
 
 LINE can't remove buttons from a message once it's sent, so old buttons stay in the chat. Tapping
 one again is safe: a confirmation works only once, and Santi checks a job before changing it.
@@ -106,13 +111,17 @@ add-friend link.
 
 Linked people also get Santi's notices in their **private** chat (never in a group): the morning
 summary, new bookings and cancellations, and guests who have waited more than two hours for a
-reply. Each comes with a link that opens Santi with the question already asked.
+reply.
+
+Each notice has buttons that answer right in the chat — **📋 Today**, **Details**, **✍️ Draft reply** and more. Cleaners also get a reminder about 30 minutes before a clean starts, with **▶ Start**.
 
 ## Commands
 
 | Command | What it does |
 |---|---|
 | **/jobs** | Today's cleaning with ▶ Start / ✅ Done |
+| **/today** | What's on today |
+| **/guests** | Guests waiting for a reply |
 | **/use** | Connect this group to your workspace (hosts, admins, co-hosts) |
 | **/help** | What Santi can do here |
 | **/workspace** | See your workspace, or switch with a button or **/workspace** *name* (private chat) |

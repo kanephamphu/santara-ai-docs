@@ -48,13 +48,19 @@ Santi đọc tin nhắn chữ, ảnh và **tin nhắn thoại**. Gửi tin nhắ
 điều nó nghe được — *🎤 Mình nghe được: "…"* — rồi trả lời. Thay đổi yêu cầu bằng giọng nói vẫn hiện
 thành thẻ để bạn bấm xác nhận; nói "ok" không bao giờ tự xác nhận. Sticker, video và tệp sẽ bị bỏ qua.
 
+### Nút và menu
+
+Sau mỗi câu trả lời, Santi thêm tối đa ba nút cho bước tiếp theo — bấm một nút và Santi trả lời ngay trong chat. Sau khi soạn tin trả lời khách, các nút là **✅ Gửi tin này** và **✏️ Ngắn hơn**: bấm Gửi, xem thẻ, xác nhận là tin được gửi đi.
+
+Gõ **/** trong chat để thấy **/today**, **/jobs**, **/guests** và **/workspace**.
+
 ### Thay đổi luôn hỏi trước
 
 Khi bạn yêu cầu một thay đổi — chặn lịch, gửi trả lời cho khách, phân công việc dọn — Santi liệt
 kê **đầy đủ chi tiết** ngay dưới câu trả lời (thay đổi gì, từ giá trị nào sang giá trị nào), kèm nút
 **✅ Xác nhận** và **Hủy**. Bấm **✅ Xác nhận** một lần — hoặc chỉ cần trả lời **OK** — là xong. Trả
 lời **Không** hoặc bấm **Hủy** để bỏ. Không có gì thay đổi trước đó, và chỉ người yêu cầu mới xác nhận
-được. Thay đổi lớn, như hủy một đặt phòng, được xác nhận trong ứng dụng Santi.
+được. Thay đổi lớn, như hủy một đặt phòng, không hoàn tác được, nên bấm nút hay trả lời **OK** là chưa đủ: trả lời đúng **ĐỒNG Ý THỰC HIỆN** trong chat riêng với Santi — hoặc xác nhận trong ứng dụng Santi.
 
 Khi có hơn ba lựa chọn, WhatsApp hiện chúng thành danh sách: bấm nút dưới tin nhắn rồi chọn một mục.
 
@@ -83,6 +89,8 @@ vào việc trong Santara AI. Gửi một lần, tối đa 10 ảnh mỗi việc
 Người đã liên kết nhận thông báo của Santi ở đây: tóm tắt buổi sáng, đặt phòng mới và hủy phòng, và
 khách đã chờ trả lời hơn hai giờ.
 
+Mỗi thông báo có nút trả lời ngay trong chat — **📋 Hôm nay**, **Chi tiết**, **✍️ Soạn trả lời** và hơn nữa. Nhân viên dọn phòng còn nhận lời nhắc khoảng 30 phút trước giờ dọn, kèm nút **▶ Bắt đầu**.
+
 :::note[Quy tắc 24 giờ]
 WhatsApp chỉ cho Santi nhắn bạn trong vòng **24 giờ kể từ tin nhắn cuối của bạn** gửi Santi. Nếu hôm
 nay bạn chưa nhắn Santi, thông báo không đến được qua WhatsApp — hãy mở ứng dụng Santi, hoặc nhắn Santi
@@ -94,6 +102,8 @@ bất cứ điều gì để mở lại.
 | Lệnh | Tác dụng |
 |---|---|
 | **/jobs** | Lịch dọn hôm nay với ▶ Bắt đầu / ✅ Xong |
+| **/today** | Hôm nay có gì |
+| **/guests** | Khách đang chờ trả lời |
 | **/workspace** | Xem workspace đang dùng, hoặc đổi bằng nút hay **/workspace** *tên* |
 | **/help** | Santi làm được gì ở đây |
 | **/unlink** | Ngắt kết nối số WhatsApp của bạn |

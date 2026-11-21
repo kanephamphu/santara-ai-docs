@@ -43,13 +43,19 @@ liên kết mới. Muốn ngắt kết nối sau này, gửi **/unlink**.
 lời cho Anna"*, *"Villa 2 cuối tuần sau còn trống không?"*. Santi đọc dữ liệu Santara AI trực tiếp,
 trả lời bằng ngôn ngữ của bạn và ngắn gọn.
 
+### Nút và menu
+
+Sau mỗi câu trả lời, Santi thêm tối đa ba nút cho bước tiếp theo — bấm một nút và Santi trả lời ngay trong chat. Sau khi soạn tin trả lời khách, các nút là **✅ Gửi tin này** và **✏️ Ngắn hơn**: bấm Gửi, xem thẻ, xác nhận là tin được gửi đi.
+
+Gõ **/** để thấy các lệnh của Santi, gồm **/today**, **/jobs** và **/guests**.
+
 ### Thay đổi luôn hỏi trước
 
 Khi bạn yêu cầu một thay đổi — chặn lịch, gửi trả lời cho khách, phân công việc dọn — Santi liệt
 kê **đầy đủ chi tiết** ngay dưới câu trả lời (thay đổi gì, từ giá trị nào sang giá trị nào), kèm nút
 **✅ Xác nhận** và **Hủy**. Bấm **✅ Xác nhận** một lần — hoặc chỉ cần trả lời **OK** — là xong. Trả
 lời **Không** hoặc bấm **Hủy** để bỏ. Không có gì thay đổi trước đó, và chỉ người yêu cầu mới xác nhận
-được. Thay đổi lớn, như hủy một đặt phòng, được xác nhận trong ứng dụng Santi.
+được. Thay đổi lớn, như hủy một đặt phòng, không hoàn tác được, nên bấm nút hay trả lời **OK** là chưa đủ: trả lời đúng **ĐỒNG Ý THỰC HIỆN** trong chat riêng với Santi — hoặc xác nhận trong ứng dụng Santi. Trong nhóm, hãy mở ứng dụng Santi.
 
 ## Dọn phòng: Bắt đầu, Xong và ảnh
 
@@ -87,12 +93,16 @@ hiện cho riêng họ.
 Người đã liên kết nhận thông báo của Santi dưới dạng **tin nhắn riêng** từ Santi (không bao giờ trong
 máy chủ): tóm tắt buổi sáng, đặt phòng mới và hủy phòng, khách chờ trả lời hơn hai giờ.
 
+Mỗi thông báo có nút trả lời ngay trong chat — **📋 Hôm nay**, **Chi tiết**, **✍️ Soạn trả lời** và hơn nữa. Nhân viên dọn phòng còn nhận lời nhắc khoảng 30 phút trước giờ dọn, kèm nút **▶ Bắt đầu**.
+
 ## Lệnh
 
 | Lệnh | Tác dụng |
 |---|---|
 | **/santi** | Hỏi Santi bất cứ điều gì |
 | **/jobs** | Lịch dọn hôm nay với ▶ Bắt đầu / ✅ Xong |
+| **/today** | Hôm nay có gì |
+| **/guests** | Khách đang chờ trả lời |
 | **/photo** | Gửi ảnh dọn phòng và chọn việc của nó |
 | **/use** | Kết nối kênh này với workspace (chủ nhà, admin, đồng chủ nhà) |
 | **/help** | Santi làm được gì ở đây |

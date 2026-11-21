@@ -49,6 +49,8 @@ cho nút:
 
 - **Câu hỏi** — viết bình thường; Santi trả lời bằng ngôn ngữ của bạn.
 - **Thay đổi** — Santi liệt kê đầy đủ chi tiết trước; trả lời **1** (hoặc **OK**) một lần để xác nhận, **2** (hoặc **Không**) để hủy.
+  Thay đổi lớn, như hủy đặt phòng, cần trả lời đúng **ĐỒNG Ý THỰC HIỆN**.
+- **Bước tiếp theo** — sau câu trả lời, Santi gợi ý các bước tiếp theo có đánh số; trả lời bằng con số là Santi trả lời ngay tại đây.
 - **/jobs** — lịch dọn hôm nay dạng danh sách số: *[1] ▶ Bắt đầu · Villa A*, *[2] ✅ Xong · Villa A*…
   Trả lời bằng con số để bắt đầu hoặc báo xong một việc.
 - **Ảnh** — gửi ảnh cho Santi (trong nhóm, viết **@Santi** trong chú thích). Santi liệt kê các việc
@@ -86,11 +88,15 @@ Zalo vẫn đang Beta, nên nếu Santi bỏ sót tin nhắn trong nhóm, hãy b
 Người đã liên kết nhận thông báo của Santi — tóm tắt buổi sáng, đặt phòng mới và hủy phòng, khách chờ
 trả lời hơn hai giờ — trong chat Zalo **riêng** với Santi, không bao giờ trong nhóm.
 
+Mỗi thông báo có nút trả lời ngay trong chat — **📋 Hôm nay**, **Chi tiết**, **✍️ Soạn trả lời** và hơn nữa. Nhân viên dọn phòng còn nhận lời nhắc khoảng 30 phút trước giờ dọn, kèm nút **▶ Bắt đầu**.
+
 ## Lệnh
 
 | Lệnh | Tác dụng |
 |---|---|
 | **/jobs** | Lịch dọn hôm nay, đánh số: trả lời để bắt đầu hoặc báo xong |
+| **/today** | Hôm nay có gì |
+| **/guests** | Khách đang chờ trả lời |
 | **/use** | Kết nối nhóm này với workspace (chủ nhà, admin, đồng chủ nhà) |
 | **/help** | Santi làm được gì ở đây |
 | **/workspace** | Xem workspace đang dùng, hoặc đổi bằng nút hay **/workspace** *tên* (chat riêng) |
