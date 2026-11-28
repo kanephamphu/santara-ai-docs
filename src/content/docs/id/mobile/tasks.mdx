@@ -10,13 +10,18 @@ Tab **Tasks (Tugas)** adalah tempat tim pembersihan dan pemeliharaan memeriksa d
 ## 1. Cleans (Pembersihan)
 
 Berdasarkan jadwal kedatangan/keberangkatan tamu, sistem akan secara otomatis membuat Tugas Pergantian (Turnover) sebelum tanggal checkout.
-Di tab Cleans, Anda akan melihat daftar kamar yang perlu dibersihkan, waktu checkout, kedatangan berikutnya, dan staf yang ditugaskan.
 
-Setiap kartu Tugas dengan jelas menampilkan kamar dan properti tempatnya berada, dan punya tombol-tombol ini:
+Di bagian atas, tiga angka merangkum hari itu: **Perlu dibersihkan hari ini**, **Belum ditugaskan**, dan **Selesai hari ini**. Di bawahnya, persempit daftar:
 
-- **Tandai selesai** — ketuk saat kamar sudah beres. Tombolnya lalu berbunyi **Selesai · Batalkan**, kalau-kalau Anda salah ketuk.
-- **Tambah foto** — membuka **Bukti & catatan**, tempat Anda melampirkan foto dan catatan sebagai bukti pembersihan. Setiap tugas dapat memiliki **hingga 10 foto** (PNG, JPEG, WebP, atau GIF, masing-masing maks. 5 MB). Foto tidak wajib, tetapi menyelesaikan pertanyaan di kemudian hari.
-- **Lewati tugas pembersihan** — khusus manajer: pakai saat pembersihan tidak diperlukan. Setelah itu tombolnya berbunyi **Dilewati · Batalkan**.
+- **Waktu** — hari yang sedang Anda lihat, seperti **Hari ini**.
+- **Per hari** atau **Per gedung** — kelompokkan pembersihan menurut tanggal atau properti.
+- **Belum ditugaskan** — tampilkan hanya pembersihan yang belum ada petugasnya.
+
+Setiap kartu menunjukkan kamar, properti, dan tamu, jenis pembersihan (**Bersih setelah check-out** setelah tamu pergi, atau **Persiapan saja** sebelum tamu tiba), dan statusnya, seperti **Menunggu petugas kebersihan**. Pilih petugas langsung dari kartu, lalu gunakan tiga tombol di sebelahnya:
+
+- **✓ Tandai selesai** — ketuk saat kamar sudah beres. Tombolnya lalu berbunyi **Selesai · Batalkan**, kalau-kalau Anda salah ketuk.
+- **📷 Tambah foto** — membuka **Bukti & catatan**, tempat Anda melampirkan foto dan catatan sebagai bukti pembersihan. Setiap tugas dapat memiliki **hingga 10 foto** (PNG, JPEG, WebP, atau GIF, masing-masing maks. 5 MB). Foto tidak wajib, tetapi menyelesaikan pertanyaan di kemudian hari.
+- **✕ Lewati tugas pembersihan** — khusus manajer: pakai saat pembersihan tidak diperlukan. Setelah itu tombolnya berbunyi **Dilewati · Batalkan**.
 
 Petugas kebersihan hanya melihat pembersihan yang ditugaskan kepadanya.
 
@@ -26,13 +31,16 @@ Petugas kebersihan hanya melihat pembersihan yang ditugaskan kepadanya.
 
 Tab ini mengelola tiket masalah pemeliharaan. Jika tamu mengeluh atau staf melihat bola lampu putus atau AC rusak, mereka dapat membuka Issue (Masalah) langsung di aplikasi.
 
-Ketuk **Tiket baru** untuk membukanya: judul, **Kategori** (Keluhan, Perawatan, Antar-jemput bandara, atau Lainnya), **Prioritas** (Rendah sampai Mendesak), penanggung jawab, tenggat, dan rentang jadwal opsional. Tiket bergerak melalui **Perlu dikerjakan**, **Sedang dikerjakan**, **Selesai**, dan **Dibatalkan**; beralih antara **Papan** dan **Daftar**, dan saring dengan **Cari tiket**, **Semua prioritas**, dan **Terlambat**. Buka tiket untuk mengubah statusnya, melihat **Riwayat**-nya, atau ketuk **Buat detail dengan AI** untuk rencana penyelesaian. Selengkapnya di halaman web: [Masalah (tiket)](/id/daily/tickets/).
+Ketuk **Tiket baru** untuk membukanya: judul, **Kategori** (Keluhan, Perawatan, Antar-jemput bandara, atau Lainnya), **Prioritas** (Rendah sampai Mendesak), penanggung jawab, tenggat, dan rentang jadwal opsional. Tiket bergerak melalui **Perlu dikerjakan**, **Sedang dikerjakan**, **Selesai**, dan **Dibatalkan**; beralih antara **Papan** dan **Daftar**, dan saring dengan **Cari tiket**, **Semua prioritas**, dan **Terlambat**. Tiket yang lewat tenggat menunjukkan keterlambatannya, seperti **Telat 1 hr**, dengan tanggal berwarna merah. Buka tiket untuk mengubah statusnya, melihat **Riwayat**-nya, atau ketuk **Buat detail dengan AI** untuk rencana penyelesaian. Selengkapnya di halaman web: [Masalah (tiket)](/id/daily/tickets/).
 
 ![Manajemen Masalah dan Pemeliharaan](/screens/id/issues.id.png)
 
 ## 3. Default Cleaners (Pembersih Default)
 
-Di tab ini, manajer dapat melihat dan mengatur pembersih default untuk setiap kamar atau properti. Petugas kebersihan tidak melihat tab ini.
+Di tab ini, manajer menetapkan petugas default untuk setiap kamar. Petugas kebersihan tidak melihat tab ini.
+
+**Penugasan petugas default** di bagian atas menunjukkan berapa kamar yang sudah diatur, misalnya **2 / 11 dikonfigurasi**. Kamar dikelompokkan per properti; untuk setiap kamar, pilih **Petugas utama**, atau biarkan **Tidak ada petugas default**.
+
 Menyiapkan staf default membantu tugas pembersihan (saat dibuat otomatis) ditugaskan langsung ke orang yang tepat, menghemat waktu penugasan manual setiap pagi.
 
 ![Atur Staf Default](/screens/id/defaultcleaners.id.png)

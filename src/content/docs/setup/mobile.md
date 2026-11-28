@@ -28,12 +28,12 @@ The [Mobile App Guide](/mobile/getting-started/) section of this manual walks th
 
 | Page | What it covers |
 | --- | --- |
-| [Getting Started & Login](/mobile/getting-started/) | Installing, signing in, which tabs you see, deleting your account |
+| [Getting Started & Login](/mobile/getting-started/) | Installing, signing in, which tabs you see |
 | [Today & Daily Brief](/mobile/today/) | The morning brief and the day's operations |
 | [Omnichannel Inbox](/mobile/messages/) | Guest messages with suggested replies, and team chat |
 | [Tasks & Maintenance](/mobile/tasks/) | Cleans, issues and default cleaners |
-| [Calendar & Room Status](/mobile/calendar/) | Bookings, rates and availability |
-| [Settings & Search](/mobile/settings/) | Search, workspaces, appearance, your account |
+| [Calendar & Reservations](/mobile/calendar/) | The calendar, the reservations list, booking details, rates and availability |
+| [Settings & Menu](/mobile/settings/) | The More menu, workspaces, appearance, your account |
 | [Notifications](/mobile/notifications/) | The bell and push notifications |
 | [Ask Santara](/mobile/ai-assistant/) | The built-in assistant |
 | [Santi](/mobile/santi/) | The AI agent, by text or voice |

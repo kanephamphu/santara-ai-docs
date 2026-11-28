@@ -28,12 +28,12 @@ Phần [Hướng dẫn dùng App](/vi/mobile/getting-started/) của tài liệu
 
 | Trang | Nội dung |
 | --- | --- |
-| [Bắt đầu & Đăng nhập](/vi/mobile/getting-started/) | Cài đặt, đăng nhập, các tab bạn thấy, xoá tài khoản |
+| [Bắt đầu & Đăng nhập](/vi/mobile/getting-started/) | Cài đặt, đăng nhập, các tab bạn thấy |
 | [Hôm nay & Bản tóm tắt](/vi/mobile/today/) | Bản tin buổi sáng và vận hành trong ngày |
 | [Hộp thư Đa kênh](/vi/mobile/messages/) | Tin nhắn khách kèm phản hồi gợi ý, và chat nội bộ |
 | [Công việc & Bảo trì](/vi/mobile/tasks/) | Dọn phòng, sự cố và nhân viên mặc định |
-| [Lịch & Tình trạng phòng](/vi/mobile/calendar/) | Đặt phòng, giá và tình trạng phòng |
-| [Cài đặt & Tìm kiếm](/vi/mobile/settings/) | Tìm kiếm, workspace, giao diện, tài khoản của bạn |
+| [Lịch & Đặt phòng](/vi/mobile/calendar/) | Lịch, danh sách đặt phòng, chi tiết đặt phòng, giá và tình trạng phòng |
+| [Cài đặt & Menu](/vi/mobile/settings/) | Menu Thêm, workspace, giao diện, tài khoản của bạn |
 | [Chuông Thông báo](/vi/mobile/notifications/) | Chuông và thông báo đẩy |
 | [Hỏi Santara](/vi/mobile/ai-assistant/) | Trợ lý có sẵn trong ứng dụng |
 | [Santi](/vi/mobile/santi/) | Trợ lý AI, bằng chữ hoặc giọng nói |

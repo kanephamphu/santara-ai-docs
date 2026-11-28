@@ -1,43 +1,87 @@
 ---
-title: Calendar & Room Status
-description: Track unified booking calendars from multiple channels and perform quick actions on mobile.
+title: Calendar & Reservations
+description: See every booking on one calendar, browse the reservations list, and open a booking's details on mobile.
 sidebar:
   order: 5
 ---
 
-The **Calendar** tab displays a unified grid of all bookings from Airbnb, Booking.com, and direct sources. This is where you grasp the room availability and occupancy rate of the entire system at a glance.
+Bookings from Airbnb, Booking.com, Vrbo and your direct channel come together in one place. The **Calendar** tab shows which rooms are taken, the **Reservations** list shows every stay in order, and both open the same **booking details**.
 
-## 1. View Modes
+## 1. Calendar
 
-The application supports flexible switching between 2 viewing modes to suit your needs:
-- **Day View:** Displays detailed room status for a specific day.
-- **Listing View:** Displayed as a horizontal Timeline. The color blocks represent a stay (Booking). The horizontal axis is time, the vertical axis is the room list.
+The **Calendar** tab has two views: **Day** and **Listing**.
 
-![Unified Calendar on Mobile](/screens/en/calendar.en.png)
+### Day view
 
-## 2. Listings Panel
+**Day** lists every room for one date. Each room shows **Free**, or the stay in it — **Staying** with the guest's name and the channel icon.
 
-If you have too many rooms, the calendar can get cluttered. You can tap the **"Listings shown"** button (eye icon) to open the selection panel. Here, you can tick to show only specific rooms or properties on the calendar, and hide unnecessary ones.
+![Day view: every room and whether it is free or taken today](/screens/en/calendar.en.png)
 
-## 3. Smart Filters
+### Listing view
 
-Tap the **"Filters"** button to quickly filter the currently displayed bookings:
-- **By Source/Channel:** View only guests from Airbnb, or only direct bookings.
-- **By Upsell Opportunity:** Filter out customers with potential for service upgrades to prioritize care.
+**Listing** shows one listing as a month calendar. Pick the listing at the top, then read the month:
 
-## 4. Moving Through Dates
+- the price for each free night,
+- each booking as a bar with the guest's name and channel icon,
+- a summary line, for example *4 of 31 nights booked · $666.1 revenue*.
+
+![Listing view: one listing's month, with nightly prices and bookings](/screens/en/listing.en.png)
+
+### Listings shown
+
+If you have many rooms, tap **Listings shown** (the eye icon, with a count such as **6/6**) and tick only the rooms or properties you want on the calendar.
+
+### Filters
+
+Tap **Filters** to narrow the bookings on screen:
+
+- **By source/channel:** only Airbnb guests, or only direct bookings.
+- **By upsell opportunity:** guests worth offering an upgrade.
+
+### Moving through dates
 
 - **Day** view: the **‹** and **›** arrows move one day at a time. Tap the date between them to come back to today.
-- **Listing** view: the **‹** and **›** arrows beside the month name move a month at a time, into past stays or future ones. When you are away from the current month, a **Today** button appears — tap it to jump back.
+- **Listing** view: the **‹** and **›** arrows beside the month name move a month at a time, into past stays or future ones. **Today** takes you back to the current month.
 
 The calendar loads dates as you go, so you can go as far back or ahead as you like, even with many rooms. If a small spinner shows next to the month name, those dates are still loading; give it a moment.
 
-## 5. View Details and Quick Actions
-
-When you **tap a color block (Booking)** on the calendar, the application will immediately open a detailed interface to view the guest's name, number of nights, payment status, and revenue.
-
-![Booking Details (Listing)](/screens/en/listing.en.png)
-
-From the booking you can **Edit** it, **Cancel booking**, **Open the message thread** or **See the clean**. If you have connected Santi, an **Ask Santi** button on the booking hands it to Santi to look into — see [Santi — Your AI Agent](/mobile/santi/).
+### Selected dates
 
 To act on dates rather than a booking, select dates in **Listing** view: from **Selected dates** you can start a **New reservation** or open **Rates & availability** to change the price, minimum stay or **Stop sell** for those nights.
+
+## 2. Reservations
+
+### Reservations list
+
+On a phone, open **More** → **Reservations**. On a tablet, **Reservations** is a tab of its own. The list is every stay in the workspace:
+
+- **Search guest, property, or channel** finds a stay by any of the three.
+- **All channels** narrows the list to one channel; the number is how many stays match.
+- **Sort** orders the list by **Check-in date** (the default), **Check-out date**, **Revenue**, **Guest name**, **Property** or **Status**; the button beside it switches between ascending and descending.
+- Four tabs, each with a count: **Upcoming**, **In house**, **Past** and **Cancelled**.
+
+Each row shows the guest, the property and room, the dates and nights, the channel icon, the amount, and the status — **Confirmed** or **Pending**. Tap a row to open its [booking details](#3-booking-details).
+
+![The Reservations list, with search, channel filter, sort and status tabs](/screens/en/reservations.en.png)
+
+### Add reservation
+
+**+ Add reservation** sits at the top of both **Calendar** and **Reservations**. Use it to enter a booking by hand, such as a guest who booked by phone.
+
+## 3. Booking Details
+
+Tap a booking on the calendar, or a row in **Reservations**, and its details slide up:
+
+- **Phone**, **Property**, **Dates**, **Nights**, **Guests**
+- **Payout** — what the stay pays you
+- **Channel** and **Status**
+
+![Booking details: the guest, the stay, the payout and the channel](/screens/en/booking.en.png)
+
+Below the details:
+
+- **Open the message thread** — the conversation with this guest in **Messages**.
+- **See the clean** — the cleaning task for this stay in **Tasks**.
+- **Ask Santi** at the top, if you have connected Santi, hands the booking to Santi to look into — see [Santi — Your AI Agent](/mobile/santi/).
+
+A booking that came from a channel shows where it was made, for example *Booked on Vrbo — change or cancel it there*: change or cancel it on that channel. A direct booking can be changed here with **Edit** or **Cancel booking**.
