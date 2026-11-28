@@ -10,7 +10,7 @@ out through the channel the guest booked on — the guest sees it in the Airbnb,
 app, as they expect to. Those three are the channels replies can go out on; see
 [Supported channels](/channels/#supported-channels).
 
-![The inbox: one thread per guest conversation, ordered by what needs answering rather than by when it arrived.](/screens/messages.en.png)
+![The inbox, with a pinned thread that needs a reply open in the middle, Mark handled in its header, and the reservation details and AI summary beside it.](/screens/messages.en.png)
 
 ## The inbox
 
@@ -27,8 +27,10 @@ ask what to tell the guest without retyping anything. Santi's answer lists its *
 when it read your data (**Data as of** a time), and flags any figure it could not find in your
 workspace — *I couldn't match … to your data — check it before acting on it.*
 
-On wide screens, the panel beside the thread ends with **View guests**, which opens the
-[Guests](/daily/guests/) page.
+On wide screens, a panel beside the thread holds **Reservation details** — phone, check-in time,
+status, guests, what the guest paid, the source and access — then an **AI summary** of the
+conversation, the thread's **Signals** and the **Guest profile**. It ends with **View guests**, which
+opens the [Guests](/daily/guests/) page.
 
 ### One status per thread
 
@@ -46,9 +48,10 @@ becomes **Needs reply** again by itself the moment the guest writes.
 
 ### What the list shows
 
-The **Show** filter opens on **Needs you**, so the inbox starts as a to-do list rather than a
-history. The other filters are **Unread**, **Today** and **All**; each shows its count, and the
-inbox remembers the one you used last in this browser.
+The filters are the four icons beside the **Inbox** title, each with its count; hover one (or move
+to it with the keyboard) to see its name. The inbox opens on **Needs you**, so it starts as a to-do
+list rather than a history. The other three are **Unread**, **Today** and **All**. The inbox
+remembers the filter and channel you left it on, per workspace, in this browser.
 
 Inside it, threads fall into three groups:
 
@@ -79,13 +82,14 @@ guest's first message after your last reply.
 
 ### Filtering by channel
 
-When your threads come from more than one channel, a **Channel** list sits under the filters:
-**All channels**, then each channel with its number of threads. Threads with no known channel are
-under **Other**. With many channels the list has its own search box.
+When your threads come from more than one channel, a channel menu sits under the filters. It reads
+**All channels** with the number of threads, and lists each channel with its own count. Threads with
+no known channel are under **Other**. With more than eight channels the menu has its own search box.
 
 ### Clearing the list in one go
 
-Two buttons above the list work on everything at once, and each asks first:
+Two icon buttons beside the **Inbox** title work on everything at once — hover them for their
+names — and each asks first:
 
 - **Mark all as read** clears the unread dots. Read is not handled — anything waiting for your
   reply stays in **Needs you**.

@@ -8,36 +8,52 @@ sidebar:
 **Today** is the default screen. It has two tabs: **Brief**, which opens first and is the day
 written out in sentences, and **Overview**, which is the numbers and today's schedule.
 
-![Today, on the Brief tab: the day written out, with what needs a decision first.](/screens/today.en.png)
+![Today, on the Brief tab: "28 things need you today", the Needs you now and Today bands, and beside them Today's numbers with the workload gauge and the Tomorrow card.](/screens/today.en.png)
 
 ## The brief
 
 The **Brief** tab. The brief is generated for your workspace each day and emailed to you — at **06:00** in the
 workspace timezone by default, or whichever hour you pick — in the **language** you set under
 [workspace settings](/setup/workspace/#operations-preferences). The same brief is on this screen,
-and it is refreshed as the day moves. It is one dense sheet, in this order:
+and it is refreshed as the day moves. It reads in this order:
 
-1. **The header strip** — the date, today's arrivals, departures and turnovers, and how much of
-   your cleaners' day is already spoken for.
-2. **The scorecard** — revenue today, occupancy and average nightly rate, each against the
-   month to date.
-3. **AI insights** — one card per guest or problem that needs something, with what happened and
-   what to do: risky checkouts, unanswered questions, a complaint building over three messages,
-   unassigned cleans, tickets left open. Each card links to the exact thread or stay.
-4. **Upsell opportunities** — late checkouts, early check-ins and extra nights the calendar can
-   actually take, each with the price and the message to send.
-5. **Cleaning, three days out** — grouped by [cleaning cluster](/daily/tasks/#cleaning-clusters).
+1. **The headline** — the date, the workspace, how many listings and its timezone; then one
+   sentence, such as **28 things need you today**; then today's arrivals, departures and
+   turnovers. **Share** and **Regenerate** sit beside it.
+2. **What needs you**, in three bands named for *when* the work is due, so you can read down and
+   stop when the clock stops mattering:
+   - **Needs you now** · *time-boxed*
+   - **Today** · *tied to a check-in or checkout*
+   - **For information** · *no deadline*
+
+   Each row is one guest or problem — a maintenance issue, an unassigned turnover, a guest message
+   waiting, a complaint building over three messages — with what happened, what to do, and a
+   button for it (**Open**, **Message**, **Assign**). The headline counts the rows in the first two
+   bands, plus the offers below that are ready to send; *For information* rows have nothing to do,
+   so they are not counted.
+3. **Upsell Opportunities** — under the bands: late checkouts, early check-ins and extra nights
+   the calendar can actually take, each with the price and the message to send. **Review offers**
+   opens them all.
+4. **Today's numbers** — on the right. The **Workload** gauge shows how much of your cleaners' day
+   is already spoken for; open it to see how the number is made. Under it, if your role can see
+   money: **Revenue**, **Occupancy** and **Avg nightly rate** for today, each with the month to
+   date and the change.
+5. **Tomorrow** — tomorrow's arrivals, departures and turnovers, with a line on whether it is a
+   heavier or lighter day.
+6. **Cleaning, three days out** — grouped by [cleaning cluster](/daily/tasks/#cleaning-clusters).
    Each cluster has a **Share** menu with that day's plan already written — send it to Zalo,
    WhatsApp, Messenger, Telegram, SMS or email, or copy it. Cleaners with an email address also
    receive their own Cleaner Brief email automatically, without revenue in it.
-6. **Tomorrow** — one line with tomorrow's arrivals, departures and turnovers.
+
+**Regenerate** rebuilds the brief from the latest bookings and messages; offers and actions wait
+until it finishes.
 
 Nothing in the brief is sent to a guest or a cleaner on its own: every message waits for you to
 send it.
 
 ### Marking it reviewed
 
-Press **Mark all reviewed** when you have been through it. It is a signal to the rest of the team that
+Press **Mark all reviewed**, at the foot of the brief, when you have been through it. It is a signal to the rest of the team that
 someone has looked, not a completion score — nothing is hidden once you do.
 
 ### Sharing it
@@ -63,19 +79,24 @@ it appears. See [Reports](/money/reports/) for the full picture.
 
 ## Overview
 
-The **Overview** tab is what a manager acts on before lunch. Three tiles:
+The **Overview** tab — **Your hosting at a glance** — is the estate in one page rather than the day
+in sentences. From the top:
 
-| Tile | What it counts |
+| Panel | What it shows |
 | --- | --- |
-| **Occupied tonight** | The share of your units with a guest in them tonight |
-| **Arriving today** | Today's check-ins, with today's departures underneath |
-| **Waiting on a reply** | Guest threads nobody has answered |
+| Check-ins, check-outs, turnovers and stays | Who is moving, for **Today**, **Tomorrow** or the **Next 7 days** |
+| **Next 7 days** | A bar a day for check-ins, check-outs and turnovers, with occupancy as a line |
+| **Inbox** | How many guests are **Waiting for your reply**, and the oldest wait |
+| **Team today** | Each cleaner with their units and jobs, and what is **Unassigned** |
+| **Revenue · *month*** | **Booked this month**, **Occupancy**, **Avg nightly rate** and **RevPAR**, each against the previous month — only for roles that can see money |
+| **Reviews** | Reviews waiting for a reply, those below 4 stars, and the latest one |
+| **Where the next 3 months are heading** | Nights booked now and where each month will likely end, against last year, with a **Raise**, **Lower** or **Hold** hint for the price |
+| **Upcoming stays** | The next reservations, with guest, listing, dates, channel and status |
+| **Listings** | How booked each listing is over the next 30 days, with **Review pricing** on the weak ones |
 
-Under them: today's timeline of check-outs, cleans and check-ins, today's cleaning, and — when
-anyone is waiting — a line such as *"3 guests waiting on a reply"* that opens
-[Messages](/daily/messages/).
-
-There are no revenue tiles here. Money lives on [Reports](/money/reports/).
+When anyone is waiting, a line such as *"3 guests waiting on a reply"* at the foot opens
+[Messages](/daily/messages/). Someone whose day is their own job list — a cleaner, a technician —
+sees only today's timeline and cleaning here, with no money.
 
 ## Notifications
 

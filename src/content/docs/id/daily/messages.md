@@ -10,7 +10,7 @@ lewat channel tempat tamu memesan — tamu melihatnya di aplikasi Airbnb, Bookin
 yang mereka harapkan. Hanya tiga channel itu yang bisa dikirimi balasan; lihat
 [Channel yang didukung](/id/channels/#channel-yang-didukung).
 
-![Kotak masuk: satu utas per percakapan tamu, diurutkan berdasarkan yang perlu dijawab, bukan waktu kedatangannya.](/screens/messages.id.png)
+![Kotak masuk, dengan utas yang disematkan dan perlu dibalas terbuka di tengah, Tandai selesai di kepala utasnya, serta detail reservasi dan ringkasan AI di sampingnya.](/screens/messages.id.png)
 
 ## Kotak masuk
 
@@ -29,7 +29,9 @@ menanyakan apa yang perlu disampaikan ke tamu tanpa mengetik ulang. Jawaban Sant
 ditemukannya di ruang kerja Anda — *Saya belum bisa mencocokkan … dengan data Anda — cek dulu
 sebelum menindaklanjuti.*
 
-Di layar lebar, panel di samping utas diakhiri tombol **Lihat tamu**, yang membuka halaman
+Di layar lebar, panel di samping utas memuat **Detail reservasi** — telepon, jam check-in, status,
+jumlah tamu, yang sudah dibayar tamu, sumber, dan akses — lalu **Ringkasan AI** percakapan itu,
+**Sinyal** utas, dan **Profil tamu**. Panel diakhiri tombol **Lihat tamu**, yang membuka halaman
 [Tamu](/id/daily/guests/).
 
 ### Satu status per utas
@@ -48,9 +50,10 @@ yang sudah selesai otomatis kembali menjadi **Perlu dibalas** begitu tamu menuli
 
 ### Apa yang ditampilkan daftar
 
-Filter **Tampilkan** dibuka pada **Perlu Anda**, jadi kotak masuk dimulai sebagai daftar tugas,
-bukan riwayat. Filter lainnya **Belum dibaca**, **Hari ini**, dan **Semua**; masing-masing
-menampilkan jumlahnya, dan kotak masuk mengingat filter terakhir Anda di browser ini.
+Filternya adalah empat ikon di samping judul **Kotak masuk**, masing-masing dengan jumlahnya; arahkan
+kursor (atau pindah ke sana dengan keyboard) untuk melihat namanya. Kotak masuk dibuka pada **Perlu
+Anda**, jadi dimulai sebagai daftar tugas, bukan riwayat. Tiga lainnya **Belum dibaca**, **Hari ini**,
+dan **Semua**. Kotak masuk mengingat filter dan saluran terakhir Anda, per ruang kerja, di browser ini.
 
 Di dalamnya, utas terbagi menjadi tiga kelompok:
 
@@ -81,14 +84,15 @@ berlaku. Hitungan dimulai dari pesan pertama tamu setelah balasan terakhir Anda.
 
 ### Menyaring per channel
 
-Bila utas Anda datang dari lebih dari satu channel, daftar **Saluran** muncul di bawah filter:
-**Semua saluran**, lalu setiap channel dengan jumlah utasnya. Utas tanpa channel yang dikenali
-masuk ke **Lainnya**. Bila channel-nya banyak, daftar ini punya kotak pencarian sendiri.
+Bila utas Anda datang dari lebih dari satu channel, menu saluran muncul di bawah filter. Menu ini
+bertuliskan **Semua saluran** dengan jumlah utasnya, dan mencantumkan setiap channel dengan jumlahnya
+sendiri. Utas tanpa channel yang dikenali masuk ke **Lainnya**. Bila channel-nya lebih dari delapan,
+menu ini punya kotak pencarian sendiri.
 
 ### Membersihkan daftar sekaligus
 
-Dua tombol di atas daftar bekerja untuk semua utas sekaligus, dan masing-masing meminta konfirmasi
-dulu:
+Dua tombol ikon di samping judul **Kotak masuk** bekerja untuk semua utas sekaligus — arahkan kursor
+untuk melihat namanya — dan masing-masing meminta konfirmasi dulu:
 
 - **Tandai semua sudah dibaca** menghapus titik belum dibaca. Dibaca bukan berarti selesai — pesan
   yang menunggu balasan Anda tetap ada di **Perlu Anda**.

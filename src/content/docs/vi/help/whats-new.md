@@ -227,7 +227,7 @@ Xem [Quản lý listing sau khi thiết lập](/vi/channels/listings/).
 - **Đính kèm tệp trong tin nhắn cho khách** — [Tin nhắn](/vi/daily/messages/).
 - **Sửa được lượt lưu trú** ngay từ danh sách đặt phòng — [Đặt phòng](/vi/daily/bookings/).
 - **Ticket lên lịch được**, đưa việc sửa chữa lên lịch và giữ phòng lại —
-  [Ticket](/vi/daily/tickets/#lên-lịch-nghĩa-là-đưa-nó-lên-lịch-làm-việc).
+  [Ticket](/vi/daily/tickets/#lên-lịch-công-việc).
 - **Các chế độ xem lịch** và nút ẩn hiện listing — [Lịch](/vi/daily/calendar/).
 - **Ánh xạ theo từng phòng cho Booking.com** với kiểm tra trước về số khách và tiền tệ, nên một ánh
   xạ chắc chắn sẽ âm thầm hỏng sẽ bị từ chối kèm lý do —

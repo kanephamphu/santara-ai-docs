@@ -5,23 +5,27 @@ sidebar:
   order: 4
 ---
 
-![Bảng lệnh: lượt đặt, khách, bất động sản và phòng, trong một ô.](/screens/search.vi.png)
+![Bảng tìm kiếm: một ô, Tìm đặt phòng, khách, chỗ nghỉ…, với các bộ lọc Đặt phòng, Khách, Chỗ nghỉ và Phòng bên dưới.](/screens/search.vi.png)
 
 ## Tìm kiếm — <kbd>⌘K</kbd>
 
-Nhấn <kbd>⌘K</kbd> (hoặc <kbd>Ctrl</kbd>+<kbd>K</kbd>) ở bất cứ đâu trong sản phẩm. Tìm kiếm bao phủ
-bốn thứ:
+Nhấn <kbd>⌘K</kbd> (hoặc <kbd>Ctrl</kbd>+<kbd>K</kbd>) ở bất cứ đâu trong sản phẩm, hoặc bấm **Tìm
+kiếm** trên thanh trên cùng. Tìm kiếm bao phủ bốn thứ:
 
 | | Tìm bằng |
 | --- | --- |
-| **Lượt đặt** | Tên khách, mã xác nhận, ngày |
+| **Đặt phòng** | Tên khách, mã xác nhận, ngày |
 | **Khách** | Tên, email, điện thoại |
-| **Bất động sản** | Tên, thành phố |
-| **Phòng** | Tên, hoặc bất động sản chứa nó |
+| **Chỗ nghỉ** | Tên, thành phố |
+| **Phòng** | Tên, hoặc chỗ nghỉ chứa nó |
 
 Kết quả mang đủ bối cảnh để chọn đúng cái mà không cần mở ra — một lượt đặt hiển thị ngày và trạng
 thái, một phòng hiển thị tòa nhà của nó. Ngày và trạng thái hiển thị bằng ngôn ngữ **của bạn**, không
 phải ngôn ngữ của cơ sở dữ liệu.
+
+Các nút dưới ô tìm kiếm — **Đặt phòng**, **Khách**, **Chỗ nghỉ**, **Phòng** — thu hẹp tìm kiếm vào
+những loại đó; chọn một hoặc vài loại, và mỗi nút hiện số kết quả của nó. Nếu không có gì khớp trong
+các loại đã chọn, **Xóa bộ lọc** tìm lại trên tất cả.
 
 Đây là cách nhanh nhất để vào một lượt lưu trú cụ thể khi khách gọi điện. Mã xác nhận, enter, xong —
 nhanh hơn dòng [đặt phòng](/vi/daily/bookings/), vốn được làm ra để lướt chứ không phải để tra một thứ.

@@ -32,8 +32,8 @@ Glamping Hub phải cho phép kết nối trước. Channex là đối tác kế
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel Code | Mã khách sạn Glamping Hub của bạn. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Mã khách sạn | Mã khách sạn Glamping Hub của bạn. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Glamping Hub xác nhận chỗ nghỉ đã được kết nối với Channex.
 

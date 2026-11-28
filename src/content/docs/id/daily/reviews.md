@@ -8,7 +8,12 @@ sidebar:
 Setiap ulasan yang tamu tinggalkan, dari setiap channel terhubung yang meneruskan ulasan, dalam satu
 daftar.
 
-![Ulasan dari semua channel, dengan jumlah yang belum dibalas di bagian atas.](/screens/reviews.id.png)
+![Ulasan: jumlah yang perlu dibalas, kartu skor dengan rating keseluruhan, kategori, dan skala masing-masing saluran, lalu daftar Perlu dibalas dengan Balas dengan Santi dan Tulis sendiri.](/screens/reviews.id.png)
+
+Halaman ini dibaca dari atas ke bawah. Satu baris menyebut berapa ulasan yang **perlu dibalas** dan
+berapa yang **di bawah 4★**, dengan filter periode, properti, dan kamar di sebelahnya. Di bawahnya ada
+kartu skor — **Rating keseluruhan**, **Per kategori**, dan **Per saluran**, dijelaskan di
+[Skor](#skor) — lalu ulasannya sendiri.
 
 ## Menemukan yang penting
 

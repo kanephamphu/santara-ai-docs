@@ -23,14 +23,14 @@ Mr & Mrs Smith harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitr
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Mr & Mrs Smith**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Mr & Mrs Smith**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID Mr & Mrs Smith Anda. Jika mereka belum memberikannya, tanyakan. |
+| ID hotel | Hotel ID Mr & Mrs Smith Anda. Jika mereka belum memberikannya, tanyakan. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Mr & Mrs Smith memastikan properti sudah terhubung ke Channex.
 

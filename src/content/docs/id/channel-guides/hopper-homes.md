@@ -25,17 +25,17 @@ Hopper Homes harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra 
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Hopper Homes**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Hopper Homes**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Verified Host Email | Email yang Anda pakai mendaftar di Hopper. |
-| Display Host Name | Nama host yang dilihat tamu. |
-| Min Stay Type | **Arrival** atau **Through**. Biasanya Arrival. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Email host terverifikasi | Email yang Anda pakai mendaftar di Hopper. |
+| Tampilkan nama host | Nama host yang dilihat tamu. |
+| Jenis minimum menginap | **Saat tiba** atau **Sepanjang menginap**. Biasanya Saat tiba. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Hopper Homes memastikan properti sudah terhubung ke Channex.
 

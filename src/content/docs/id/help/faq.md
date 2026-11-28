@@ -34,8 +34,8 @@ balasan tapi tidak mengirim apa pun. Saat aktif, ia hanya menjawab topik yang An
 tanggal, keluhan, dan keselamatan selalu menunggu Anda. Selain itu, AI menulis; Anda yang mengirim.
 
 **Apakah ia akan mengubah harga saya otomatis?**
-Hanya jika Anda menetapkan [rule set pricing](/id/money/pricing/) pada listing dan membiarkan
-*Terbitkan harga otomatis* menyala. Harga yang Anda ketik manual tidak pernah ditimpa kecuali Anda
+Hanya jika Anda mengatur sebuah kamar ke *Otomatis (Santara AI)* di
+[Siapa yang menetapkan harga](/id/money/pricing/) dan membiarkan *Terbitkan harga otomatis* menyala. Harga yang Anda ketik manual tidak pernah ditimpa kecuali Anda
 mengizinkannya.
 
 **Ada booking masuk di Airbnb. Perlukah saya memblokir di tempat lain?**
@@ -88,5 +88,5 @@ Ada — di App Store untuk iPhone dan iPad, serta di Google Play untuk Android. 
 **Channel apa saja yang didukung?**
 54 channel penjualan, ditambah situs booking Anda sendiri. Airbnb dan Booking.com punya alur
 koneksi sendiri; Agoda, Expedia, Trip.com, Traveloka, dan lainnya terhubung dari daftar channel di
-**Pengaturan → Channel**. Balasan ke tamu dikirim di Airbnb, Booking.com, dan Expedia. Lihat
+**Pengaturan → Saluran**. Balasan ke tamu dikirim di Airbnb, Booking.com, dan Expedia. Lihat
 [Channel](/id/channels/).

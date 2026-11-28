@@ -17,8 +17,9 @@ mình, rồi kết nối nó với một chỗ nghỉ bạn đã có trong Santa
 - **Hotel ID** của bạn — con số ở đầu extranet, cạnh tên chỗ nghỉ.
 
 Quy trình gồm ba bước: **Chọn chỗ nghỉ**, **Kết nối và ánh xạ**, **Nhập dữ liệu**.
+**Hướng dẫn từng bước**, ở góc trên bên phải, mở trang này.
 
-![Bước kết nối Booking.com — ô xác nhận extranet và Hotel ID.](/screens/connect-booking-com.vi.png)
+![Trang kết nối Booking.com ở bước đầu, Chọn chỗ nghỉ: khách sạn này là chỗ nghỉ nào của bạn, còn Kết nối và ánh xạ và Nhập dữ liệu ở phía sau.](/screens/connect-booking-com.vi.png)
 
 ## 1. Bật kết nối trong extranet
 

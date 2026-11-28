@@ -9,7 +9,7 @@ Mỗi hội thoại với khách là một luồng, từ mọi kênh đã kết 
 kênh khách đã đặt — khách thấy nó trong ứng dụng Airbnb, Booking.com hay Expedia, như họ mong đợi. Chỉ ba kênh đó
 nhận được trả lời; xem [Các kênh được hỗ trợ](/vi/channels/#các-kênh-được-hỗ-trợ).
 
-![Hộp thư: mỗi hội thoại với khách là một luồng, sắp theo việc cần trả lời chứ không theo thời điểm đến.](/screens/messages.vi.png)
+![Hộp thư, với một luồng đã ghim đang cần phản hồi mở ở giữa, nút Đánh dấu đã xử lý ở đầu luồng, và chi tiết đặt phòng cùng tóm tắt AI bên cạnh.](/screens/messages.vi.png)
 
 ## Hộp thư
 
@@ -26,7 +26,9 @@ lời khách thế nào mà không phải gõ lại. Câu trả lời của Sant
 liệu (**Dữ liệu lúc** một giờ cụ thể), và đánh dấu con số nào nó không tìm thấy trong dữ liệu của
 bạn — *Mình chưa đối chiếu được … với dữ liệu — hãy kiểm tra trước khi dùng.*
 
-Trên màn hình rộng, bảng bên cạnh luồng có nút **Xem khách** ở cuối, mở trang
+Trên màn hình rộng, bảng bên cạnh luồng có **Chi tiết đặt phòng** — điện thoại, giờ nhận phòng, trạng
+thái, số khách, khách đã trả bao nhiêu, nguồn và cách vào phòng — rồi **Tóm tắt AI** của cuộc trò
+chuyện, **Tín hiệu** của luồng và **Hồ sơ khách**. Cuối bảng là nút **Xem khách**, mở trang
 [Khách](/vi/daily/guests/).
 
 ### Mỗi luồng một trạng thái
@@ -45,9 +47,10 @@ hồi** ngay khi khách nhắn tiếp.
 
 ### Danh sách hiển thị gì
 
-Bộ lọc **Hiển thị** mở ở **Cần bạn**, để hộp thư bắt đầu như một danh sách việc cần làm chứ không
-phải lịch sử. Các bộ lọc còn lại là **Chưa đọc**, **Hôm nay** và **Tất cả**; mỗi bộ lọc có số đếm, và
-hộp thư nhớ bộ lọc bạn dùng lần trước trên trình duyệt này.
+Các bộ lọc là bốn biểu tượng cạnh tiêu đề **Hộp thư**, mỗi biểu tượng kèm số đếm; rê chuột lên (hoặc
+di chuyển tới bằng bàn phím) để xem tên. Hộp thư mở ở **Cần bạn**, để bắt đầu như một danh sách việc
+cần làm chứ không phải lịch sử. Ba bộ lọc còn lại là **Chưa đọc**, **Hôm nay** và **Tất cả**. Hộp thư
+nhớ bộ lọc và kênh bạn để lại, theo từng workspace, trên trình duyệt này.
 
 Bên trong, các luồng chia thành ba nhóm:
 
@@ -78,13 +81,14 @@ khách sau lần trả lời gần nhất của bạn.
 
 ### Lọc theo kênh
 
-Khi các luồng đến từ nhiều kênh, danh sách **Kênh** nằm dưới các bộ lọc: **Tất cả kênh**, rồi từng
-kênh kèm số luồng. Luồng không rõ kênh nằm ở **Khác**. Khi có nhiều kênh, danh sách có ô tìm kiếm
-riêng.
+Khi các luồng đến từ nhiều kênh, một menu chọn kênh nằm dưới các bộ lọc. Menu ghi **Tất cả kênh** kèm
+tổng số luồng, và liệt kê từng kênh với số luồng riêng. Luồng không rõ kênh nằm ở **Khác**. Khi có hơn
+tám kênh, menu có ô tìm kiếm riêng.
 
 ### Dọn danh sách một lần
 
-Hai nút phía trên danh sách áp dụng cho mọi luồng cùng lúc, và nút nào cũng hỏi lại trước:
+Hai nút biểu tượng cạnh tiêu đề **Hộp thư** áp dụng cho mọi luồng cùng lúc — rê chuột lên để xem tên —
+và nút nào cũng hỏi lại trước:
 
 - **Đánh dấu tất cả đã đọc** xoá các chấm chưa đọc. Đã đọc không có nghĩa là đã xử lý — tin nhắn
   đang chờ bạn trả lời vẫn ở mục **Cần bạn**.

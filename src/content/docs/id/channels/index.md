@@ -28,8 +28,8 @@ dan fasilitasnya ke channel manager, yang meneruskannya ke channel yang menerima
 ## Channel yang didukung
 
 Santara AI terhubung ke **54 channel penjualan**, ditambah situs booking Anda sendiri. Setiap
-channel, termasuk Airbnb dan Booking.com, adalah satu kotak di **Pengaturan → Channel → Tambah
-channel**. Tekan **Hubungkan** pada sebuah kotak dan penyiapan tiga langkah terbuka.
+channel, termasuk Airbnb dan Booking.com, adalah satu kotak di **Pengaturan → Saluran → Tambah
+saluran**. Tekan **Hubungkan** pada sebuah kotak dan penyiapan tiga langkah terbuka.
 
 | Channel | Cara menghubungkan |
 | --- | --- |
@@ -43,9 +43,9 @@ kotaknya menampilkan **Tambah properti dulu** — menghubungkan channel memetaka
 punya, bukan membuatnya. Tambahkan di [Properti](/id/setup/properties/), atau hubungkan Airbnb dulu
 dan biarkan ia membuatnya.
 
-:::note[PriceLabs sedang dijeda]
-Koneksi PriceLabs baru sedang dijeda, jadi PriceLabs tidak punya kotak. Koneksi PriceLabs yang sudah
-ada tetap berjalan dan masih bisa diputus.
+:::note[PriceLabs]
+PriceLabs ada di **Alat pendapatan**. Ini bukan saluran penjualan: PriceLabs mengatur harga untuk
+kamar yang Anda serahkan kepadanya — lihat [Jika Anda sudah memakai PriceLabs](/id/money/pricing/#jika-anda-sudah-memakai-pricelabs).
 :::
 
 Setiap channel mendapat kalender, tarif, dan restriksi yang sama, serta membawa masuk booking,
@@ -56,14 +56,15 @@ pembatalan, dan tamu. Dua hal berbeda per channel:
   sendiri.
 - **Ulasan** masuk, dan bisa dibalas, bila channel meneruskannya.
 
-![Pengaturan → Channel sebelum ada yang terhubung. Tiap channel ditautkan sendiri-sendiri dengan status dan waktu sinkron terakhirnya.](/screens/channels.id.png)
+![Pengaturan → Saluran → Tambah saluran, sebelum ada yang terhubung: Saluran yang tersedia, dengan pencarian dan filter Semua, OTA, Alat pendapatan, Pesan, serta Hubungkan di setiap kotak.](/screens/channels.id.png)
 
 ## Tiga tab
 
-**Pengaturan → Channel** punya tiga tab:
+**Pengaturan → Saluran** punya tiga tab:
 
-- **Tambah channel** — katalognya. Cari berdasarkan nama, atau saring menurut jenis, lalu tekan
-  **Hubungkan**. Channel yang sudah Anda pakai menampilkan **Tambah akun lain**.
+- **Tambah saluran** — katalog **Saluran yang tersedia**. Cari berdasarkan nama atau jenis, atau
+  saring dengan **Semua**, **OTA**, **Alat pendapatan**, atau **Pesan**, lalu tekan **Hubungkan**.
+  Saluran yang sudah Anda pakai menampilkan **Tambah akun lain**.
 - **Terhubung** — semua koneksi Anda. Buka salah satunya untuk melihat listing, status sinkron, dan
   status tayangnya.
 - **Aplikasi** — aplikasi yang Anda izinkan masuk ke akun Anda, seperti Santi, ChatGPT, atau Claude.
@@ -79,7 +80,7 @@ pembatalan, dan tamu. Dua hal berbeda per channel:
 - channel lain dari daftar, **satu properti setiap kali** — hubungkan channel yang sama lagi untuk
   properti lain.
 
-Setiap koneksi punya halaman sendiri di **Pengaturan → Channel** yang menampilkan listing-nya, waktu
+Setiap koneksi punya halaman sendiri di **Pengaturan → Saluran** yang menampilkan listing-nya, waktu
 sinkron terakhir, dan seluruh tindakan yang tersedia. Tidak ada bagian Santara AI yang mengasumsikan
 hanya ada satu dari apa pun.
 

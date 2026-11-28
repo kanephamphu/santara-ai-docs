@@ -41,10 +41,10 @@ Despegar chỉ hiển thị API password một lần. Nếu làm mất, hãy đ�
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Property ID Despegar. |
-| Username | Username mà Despegar hiển thị. |
-| Password | **API password** — không phải mật khẩu extranet của bạn. |
-| Min stay type | Despegar chỉ nhận một loại; chọn loại sẽ gửi đi. |
+| ID khách sạn | Property ID Despegar. |
+| Tên đăng nhập | Username mà Despegar hiển thị. |
+| Mật khẩu | **API password** — không phải mật khẩu extranet của bạn. |
+| Loại lưu trú tối thiểu | Despegar chỉ nhận một loại; chọn loại sẽ gửi đi. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Despegar xác nhận chỗ nghỉ đã được kết nối với Channex.
 

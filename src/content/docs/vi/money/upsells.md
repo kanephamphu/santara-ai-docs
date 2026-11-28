@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-![Dòng cơ hội upsell: từng cơ hội kèm lượt lưu trú phía sau, giá trị của nó, và bản nháp tin nhắn để chào.](/screens/upsells.vi.png)
+![Màn hình Bán thêm: giá trị đã ghi nhận tháng này, tiềm năng đang mở, số lời chào sẵn sàng nhắn tin và sắp hết hạn, các ưu đãi theo phòng cùng cơ hội hàng đầu, và Hàng đợi quản lý với nút Gửi tất cả.](/screens/upsells.vi.png)
 
 Upsell là một đêm hoặc một giờ bạn đã có, bán cho khách đang ở. Santara AI tìm ra chúng bằng cách đọc
 lịch, không phải bằng cách đoán khách muốn gì.
@@ -25,14 +25,17 @@ tồn tại. Nếu không, không có lời chào nào được tạo ra.
 
 ## Xử lý dòng cơ hội
 
-Màn hình **Upsell** xếp hạng các cơ hội đang mở theo giá trị. Với mỗi cơ hội bạn thấy:
+Màn hình **Bán thêm** mở đầu bằng bốn con số — **Đã ghi nhận tháng này**, **Tiềm năng đang mở**,
+**Sẵn sàng nhắn tin** và **Sắp hết hạn** — rồi tới **Ưu đãi theo phòng**: phòng có giá trị cao nhất
+lên trước, mỗi phòng kèm **Cơ hội hàng đầu**, cái sắp hết hạn trước xếp trước. Mở một cơ hội để xem:
 
 - **Dữ kiện phía sau** — lượt đặt, các đêm trống, mức giá dùng làm cơ sở.
 - **Vì sao được khuyến nghị** — tín hiệu và độ tin cậy phía sau điểm số.
 - **Ràng buộc thời điểm** — khung vận hành, xung đột, và bất cứ điều gì đang kìm nó lại.
-- **Bản nháp tin nhắn** gửi khách, sẵn sàng gửi từ [Tin nhắn](/vi/daily/messages/).
+- **Duyệt ưu đãi**, mở bản nháp tin nhắn gửi khách trong [Tin nhắn](/vi/daily/messages/), sẵn sàng
+  gửi.
 
-Chấp nhận thì nó trở thành lời chào bạn gửi đi. Bỏ qua thì nó ngừng được gợi ý.
+Số liệu doanh thu và công suất không nằm ở màn hình này; chúng ở **Báo cáo → Hiệu quả kinh doanh**.
 
 ### Gửi nhiều lời chào một lúc
 

@@ -5,12 +5,12 @@ sidebar:
   order: 4
 ---
 
-![Palet perintah: reservasi, tamu, properti, dan kamar, dalam satu kotak.](/screens/search.id.png)
+![Palet pencarian: satu kotak, Cari pemesanan, tamu, properti…, dengan filter Reservasi, Tamu, Properti, dan Kamar di bawahnya.](/screens/search.id.png)
 
 ## Pencarian — <kbd>⌘K</kbd>
 
-Tekan <kbd>⌘K</kbd> (atau <kbd>Ctrl</kbd>+<kbd>K</kbd>) di mana pun dalam produk. Pencarian mencakup
-empat hal:
+Tekan <kbd>⌘K</kbd> (atau <kbd>Ctrl</kbd>+<kbd>K</kbd>) di mana pun dalam produk, atau klik **Cari**
+di bilah atas. Pencarian mencakup empat hal:
 
 | | Dicari lewat |
 | --- | --- |
@@ -22,6 +22,10 @@ empat hal:
 Hasilnya membawa cukup konteks untuk memilih yang benar tanpa membukanya — reservasi menampilkan
 tanggal dan statusnya, kamar menampilkan bangunannya. Tanggal dan status ditampilkan dalam bahasa
 **Anda**, bukan bahasa basis data.
+
+Chip di bawah kotak — **Reservasi**, **Tamu**, **Properti**, **Kamar** — mempersempit pencarian ke
+tipe tersebut; pilih satu atau beberapa, dan masing-masing menampilkan jumlah hasilnya. Jika tidak
+ada yang cocok pada tipe yang dipilih, **Hapus filter** mencari semuanya lagi.
 
 Ini cara tercepat masuk ke sebuah masa menginap saat tamu menelepon. Kode konfirmasi, enter, selesai
 — lebih cepat daripada aliran [booking](/id/daily/bookings/), yang dibuat untuk dipindai, bukan untuk
@@ -37,7 +41,7 @@ setiap minggu, go live, dan tempat mencari bantuan.
   yang sedang Anda jalani, bukan "langkah 11".
 - **"Jangan tampilkan lagi"** benar-benar berarti begitu. Anda tidak akan ditanya kedua kalinya.
 - **Mulai ulang** dari langkah persiapan di [Properti](/id/setup/properties/) atau
-  [Pengaturan → Channel](/id/channels/).
+  [Pengaturan → Saluran](/id/channels/).
 
 Ia menyesuaikan diri. Langkah untuk layar yang tidak bisa dibuka peran Anda dilewati, bukan membawa
 Anda ke penolakan, dan langkah untuk persiapan yang sudah selesai tidak muncul. Bagian produk yang
@@ -58,7 +62,7 @@ workspace kosong sampai live di channel Anda, dengan progres yang tercatat.
 2. [Impor listing Anda](/id/channels/airbnb/)
 3. [Periksa harga dan detail](/id/setup/properties/)
 
-Ia berada di atas halaman Properti dan Pengaturan → Channel sampai selesai. Tidak berjualan di Airbnb
+Ia berada di atas halaman Properti dan Pengaturan → Saluran sampai selesai. Tidak berjualan di Airbnb
 atau Booking.com? Ia menawarkan jalur manual — lihat
 [Properti dan kamar](/id/setup/properties/#membuatnya-manual).
 

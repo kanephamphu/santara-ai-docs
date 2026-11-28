@@ -23,15 +23,15 @@ Kliknbook harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra kon
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Kliknbook**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Kliknbook**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel Code | Hotel Code Kliknbook Anda. |
-| Max stay type | **Arrival** atau **Through** — sesuai cara Kliknbook menerapkan maksimum menginap. |
+| Kode hotel | Hotel Code Kliknbook Anda. |
+| Jenis maksimum menginap | **Saat tiba** atau **Sepanjang menginap** — sesuai cara Kliknbook menerapkan maksimum menginap. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Kliknbook memastikan properti sudah terhubung ke Channex.
 

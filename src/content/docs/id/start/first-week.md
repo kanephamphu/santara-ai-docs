@@ -37,9 +37,9 @@ pembersihan yang ditugaskan atau selesai, tiket yang dibuka atau selesai.
 ## Seminggu sekali — dua puluh menit
 
 - **[Kalender](/id/daily/calendar/)** — pindai 60 hari ke depan. Cari celah satu atau dua malam di
-  antara booking; itulah gunanya [aturan pricing](/id/money/pricing/) dan
+  antara booking; itulah gunanya [smart pricing](/id/money/pricing/) dan
   [upsell](/id/money/upsells/).
-- **[Upsell](/id/money/upsells/)** — terima atau abaikan yang ditemukan. Masing-masing adalah draf
+- **[Upsell](/id/money/upsells/)** — **Tinjau penawaran** untuk yang ditemukan. Masing-masing adalah draf
   pesan yang bisa dikirim sekali ketuk.
 - **[Ulasan](/id/daily/reviews/)** — balas yang masuk. Di Airbnb, kedua ulasan baru muncul setelah
   keduanya menulis, jadi ulasan tamu yang belum Anda balas adalah uang yang tertinggal.
@@ -49,21 +49,22 @@ pembersihan yang ditugaskan atau selesai, tiket yang dibuka atau selesai.
 
 - **[Laporan](/id/money/reports/)** — tambahkan biaya kebersihan, perawatan, dan utilitas bulan itu,
   lalu baca laporan pemilik dan unduh CSV-nya.
-- **[Pricing](/id/money/pricing/)** — lihat panel performa. RevPAN naik dan mesin makin tenang
-  (perubahan makin sedikit dan kecil) adalah tanda baik.
+- **[Laporan](/id/money/reports/)** — buka **Kinerja**. RevPAR yang naik adalah tanda pricing yang
+  baik; lalu periksa **Sinyal okupansi** di bawah grid [Harga](/id/money/pricing/) untuk kamar yang
+  perlu diubah harganya.
 
 ## Yang bisa dibiarkan
 
 - **Tugas turnover.** Dibuat sendiri semalam sebelum tiap check-out.
 - **Booking, tamu, pesan, ulasan.** Tersinkronisasi.
-- **Harga terbit.** Setelah rule set ditetapkan dan publikasi otomatis aktif, tarif keluar sendiri.
+- **Harga terbit.** Setelah kamar diatur ke Otomatis dan publikasi otomatis aktif, tarif keluar sendiri.
 - **Ketersediaan.** Satu booking di channel mana pun menutup malam itu di semua channel.
 
 ## Kalau ada yang janggal
 
 Lakukan tiga hal ini dulu:
 
-1. **Pengaturan → Channel** — apakah koneksi masih *Terhubung*, dan kapan sinkron terakhir?
+1. **Pengaturan → Saluran** — apakah koneksi masih *Terhubung*, dan kapan sinkron terakhir?
 2. Tekan **Segarkan** pada koneksi. Channel yang kehilangan webhook akan menyusul di sini.
 3. Tanya [asisten](/id/help/assistant/) — ia bisa membaca workspace Anda, jadi "kenapa tanggal 14
    belum terblokir di Airbnb" adalah pertanyaan yang wajar.

@@ -9,7 +9,7 @@ A **property** is a building or address. A **room** is a bookable unit inside it
 guests book, what channels map to, and what is billed. See
 [How Santara AI is put together](/start/concepts/#property-then-room) if that split is new to you.
 
-![Properties: your buildings, and the rooms inside them that guests actually book.](/screens/properties.en.png)
+![Properties: every room grouped under its property, with its price per night, units, channels and status, and the All / Needs you / Live / Not listed filters.](/screens/properties.en.png)
 
 ## Creating one by hand
 
@@ -86,9 +86,12 @@ they work on; they do not see codes for the rest of your estate. See
 ## Why filling these in matters
 
 The AI parts of the product are only as specific as the property behind them. A property with no
-check-in time, no wifi and no address produces vague guest drafts and weak upsell timing. The
-properties screen flags **context gaps** for exactly this reason — it is a list of the facts that,
-if filled in, make everything else sharper.
+check-in time, no wifi and no address produces vague guest drafts and weak upsell timing. That is
+why each room's page carries a **Ready to sell** checklist, and **Door code & Wi-Fi** is one of its
+items.
+
+On the properties screen, **Needs you** filters to the rooms that cannot sell properly yet — no
+nightly price, max guests not confirmed, or a channel sync that failed.
 
 ## Syncing from the channel
 

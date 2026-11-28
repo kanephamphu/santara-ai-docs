@@ -22,7 +22,7 @@ Emerging Travel Group harus mengizinkan koneksinya terlebih dahulu. Channex adal
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Emerging Travel Group**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Emerging Travel Group**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -31,9 +31,9 @@ Emerging Travel Group harus mengizinkan koneksinya terlebih dahulu. Channex adal
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID Emerging Travel Anda. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
-| Booking Amount | **With Commission** atau **Without Commission** — cara total pemesanan diterima. |
+| ID hotel | Hotel ID Emerging Travel Anda. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Jumlah pemesanan | **Dengan komisi** atau **Tanpa komisi** — cara total pemesanan diterima. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Emerging Travel Group memastikan properti sudah terhubung ke Channex.
 

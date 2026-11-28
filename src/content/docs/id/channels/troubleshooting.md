@@ -6,7 +6,7 @@ sidebar:
 ---
 
 Mulai dari dua langkah yang menyelesaikan sebagian besar masalah: periksa status dan sinkron terakhir
-koneksi di **Pengaturan → Channel**, lalu tekan **Segarkan**.
+koneksi di **Pengaturan → Saluran**, lalu tekan **Segarkan**.
 
 ## Di mana masalah terlihat
 
@@ -33,7 +33,7 @@ menampilkan **… menolak pembaruan** — *harga atau ketersediaan di sana mungk
 **Peringatan sinkronisasi dari …** yang lebih ringan berarti pembaruan tetap masuk, tetapi channel
 punya keberatan yang sebaiknya dicek. Paling banyak satu peringatan per hari untuk channel, properti,
 dan masalah yang sama. Peringatan dikirim ke pemilik, admin, dan co-host, dan membuka **Pengaturan →
-Channel**.
+Saluran**.
 
 ## Saat menghubungkan
 

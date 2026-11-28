@@ -35,10 +35,10 @@ Expedia phải cho phép kết nối trước. Channex là đối tác kết n�
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Expedia của bạn. Expedia gọi là property ID. |
-| Min Stay Type | Loại số đêm tối thiểu gửi đi: **Arrival** hoặc **Through**. Thường là Arrival. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
-| Booking Amount | **Collect Amount** — số tiền bạn thu của khách hoặc thẻ ảo; khớp với VCC. **Total Amount** — số khách đã trả, gồm thuế và phí. **Total Amount Excluding Tax** — cho chỗ nghỉ ở Mỹ. |
+| ID khách sạn | Hotel ID Expedia của bạn. Expedia gọi là property ID. |
+| Loại lưu trú tối thiểu | Loại số đêm tối thiểu gửi đi: **Theo ngày đến** hoặc **Suốt thời gian ở**. Thường là Theo ngày đến. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Số tiền đặt phòng | **Số tiền thu** — số tiền bạn thu của khách hoặc thẻ ảo; khớp với VCC. **Total Amount** — số khách đã trả, gồm thuế và phí. **Total Amount Excluding Tax** — cho chỗ nghỉ ở Mỹ. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Expedia xác nhận chỗ nghỉ đã được kết nối với Channex.
 

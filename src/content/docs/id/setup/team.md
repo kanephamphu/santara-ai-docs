@@ -1,6 +1,6 @@
 ---
 title: Tim dan peran
-description: Undang co-host, manajer, dan petugas kebersihan, lalu berikan masing-masing bagian workspace yang mereka butuhkan.
+description: Undang co-host, manajer, petugas kebersihan, teknisi, akuntan, dan sopir, lalu berikan masing-masing bagian workspace yang mereka butuhkan.
 sidebar:
   order: 6
 ---
@@ -37,15 +37,18 @@ Tautan yang kedaluwarsa meminta orang itu meminta tautan baru kepada Anda.
 Satu orang bisa memegang peran berbeda di workspace berbeda. Login-nya miliknya; aksesnya per
 workspace.
 
-![Layar tim: siapa yang ada di workspace, perannya, dan apa yang bisa mereka akses.](/screens/team.id.png)
+![Layar tim: enam peran sebagai kartu, masing-masing dengan apa yang bisa diaksesnya, dan Undang anggota tim di bagian atas.](/screens/team.id.png)
 
-## Tiga peran
+## Enam peran
 
 | Peran | Melihat | Contoh penggunaan |
 | --- | --- | --- |
 | **Host admin** | Semuanya: visibilitas portofolio penuh dan penagihan | Anda, dan orang yang Anda percayai soal uang |
 | **Co-host** | Akses alur kerja harian yang dibatasi cakupannya | Partner, manajer, kepala perawatan |
 | **Petugas kebersihan** | Pembersihan yang ditugaskan kepadanya, dan cukup info untuk menemukan bangunannya | Staf kebersihan Anda |
+| **Teknisi** | Tiket yang ditugaskan kepadanya, dan obrolan tim | Staf perawatan Anda |
+| **Akuntan** | Laporan, payout, pengeluaran, dan pemilik — hanya soal uang, tidak pernah nama tamu | Akuntan Anda |
+| **Sopir** | Penjemputan bandara miliknya, dan obrolan tim. Nama depan dan nomor telepon tamu hanya muncul sekitar waktu penjemputan | Sopir Anda |
 
 Tidak ada peran "manajer properti" terpisah, dan Anda memang tidak membutuhkannya: **co-host yang
 dibatasi ke dua bangunan** adalah manajer properti. Pembatasan cakupan adalah separuh kedua dari
@@ -89,7 +92,7 @@ pengaturan, dan karena itulah peran ini yang paling hati-hati Anda berikan.
 
 Mereka masuk dan melihat pembersihan yang ditugaskan kepadanya, pada hari pelaksanaannya, lengkap
 dengan alamat dan catatan akses untuk bangunan itu. Mereka menandai selesai, dengan foto bila perlu.
-Itulah seluruh produknya bagi mereka, dan itu disengaja. Di [aplikasi mobile](/id/mobile/getting-started/)
+Itulah seluruh produknya bagi mereka, dan itu disengaja. Di [aplikasi Android](/id/mobile/getting-started/)
 mereka hanya mendapat tab **Hari ini**, **Tugas**, dan **Lainnya**.
 
 Jika Anda tidak ingin memberi akun sama sekali, bagikan

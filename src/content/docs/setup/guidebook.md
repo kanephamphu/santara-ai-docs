@@ -51,7 +51,7 @@ room, and extras from your [upsell settings](/money/upsells/).
 The guest types the **booking code** from their confirmation — nothing else. Spaces, dashes and
 capital letters do not matter. Codes shorter than six characters are never matched.
 
-![The same page once the booking code is entered: a greeting, the door code (masked until tapped) and the Wi-Fi password.](/screens/guidebook-verified.en.png)
+![The same page once the booking code is entered: a greeting with the dates, the door code shown after tapping Show, the Wi-Fi password still masked, and how to get in.](/screens/guidebook-verified.en.png)
 
 Access then follows the stay, in the property's own time zone:
 

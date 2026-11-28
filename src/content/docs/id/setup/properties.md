@@ -10,7 +10,7 @@ adalah yang dipesan tamu, yang dipetakan channel, dan yang ditagihkan. Lihat
 [Bagaimana Santara AI disusun](/id/start/concepts/#properti-lalu-kamar) bila pembagian ini baru bagi
 Anda.
 
-![Properti: bangunan Anda, dan kamar-kamar di dalamnya yang benar-benar dipesan tamu.](/screens/properties.id.png)
+![Properti: setiap kamar dikelompokkan di bawah propertinya, dengan harga per malam, unit, saluran, dan status, serta filter Semua / Perlu tindakan / Aktif / Belum tayang.](/screens/properties.id.png)
 
 ## Membuatnya manual
 
@@ -87,8 +87,12 @@ melihat bangunan tempat mereka bekerja; mereka tidak melihat kode bangunan lain.
 ## Kenapa mengisinya penting
 
 Bagian AI produk ini hanya sespesifik properti di baliknya. Properti tanpa jam check-in, tanpa wifi,
-dan tanpa alamat menghasilkan draf tamu yang kabur dan waktu upsell yang lemah. Layar properti
-menandai **celah konteks** justru karena itu.
+dan tanpa alamat menghasilkan draf tamu yang kabur dan waktu upsell yang lemah. Justru karena itu
+halaman setiap kamar punya daftar periksa **Siap dijual**, dan **Kode pintu & Wi-Fi** termasuk di
+dalamnya.
+
+Di layar properti, filter **Perlu tindakan** menampilkan kamar yang belum bisa menjual dengan benar —
+belum ada harga per malam, tamu maksimum belum dikonfirmasi, atau sinkronisasi saluran gagal.
 
 ## Menyinkronkan dari channel
 

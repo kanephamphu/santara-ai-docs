@@ -23,14 +23,14 @@ Tidak menemukannya? Kirim email ke tim support MG untuk meminta koneksi.
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **MG Bedbank**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **MG Bedbank**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID MG Bedbank Anda. |
+| ID hotel | Hotel ID MG Bedbank Anda. |
 | Tax setting | Apakah total booking sudah termasuk pajak. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support MG Bedbank memastikan properti sudah terhubung ke Channex.

@@ -23,7 +23,7 @@ sidebar:
 
 ## Tempat memulai
 
-**Pengaturan → Channel → Tambah channel**, lalu tekan **Hubungkan** pada kotak **Airbnb**. Airbnb
+**Pengaturan → Saluran → Tambah saluran**, lalu tekan **Hubungkan** pada kotak **Airbnb**. Airbnb
 adalah satu-satunya channel yang tidak butuh properti lebih dulu — Santara AI membuat properti dan
 kamar dari listing Anda.
 
@@ -131,7 +131,7 @@ Listing lain tetap tayang. Hasil sebagian membuat sisanya tetap siap dan bisa di
 
 ## Beberapa akun Airbnb
 
-Tekan **Tambah akun lain** pada kotak Airbnb di **Tambah channel** dan ulangi. Tiap akun mendapat
+Tekan **Tambah akun lain** pada kotak Airbnb di **Tambah saluran** dan ulangi. Tiap akun mendapat
 halaman koneksi sendiri dengan listing-nya sendiri. Menghubungkan akun yang sudah terhubung akan
 ditolak — putuskan yang lama dulu.
 

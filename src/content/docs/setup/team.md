@@ -1,6 +1,6 @@
 ---
 title: Team and roles
-description: Invite co-hosts, managers and cleaners, and give each of them exactly the part of the workspace they need.
+description: Invite co-hosts, managers, cleaners, technicians, bookkeepers and drivers, and give each of them exactly the part of the workspace they need.
 sidebar:
   order: 6
 ---
@@ -37,15 +37,18 @@ An expired link tells the person to ask you for a new one.
 One person can hold different roles in different workspaces. Their login is theirs; the access is
 per workspace.
 
-![The team screen: who is in the workspace, their role, and what they can reach.](/screens/team.en.png)
+![The team screen: the six roles as cards, each with what it can reach, and Invite teammate at the top.](/screens/team.en.png)
 
-## The three roles
+## The six roles
 
 | Role | Sees | Typical use |
 | --- | --- | --- |
 | **Host admin** | Everything: full portfolio visibility and billing | You, and anyone you trust with the money |
 | **Co-host** | Scoped workflow access for daily operations | A partner, a manager, a maintenance lead |
 | **Cleaner** | Their own assigned cleans, and enough about the building to find it | Your cleaning staff |
+| **Technician** | Their own assigned tickets, and the team chat | Your maintenance staff |
+| **Bookkeeper** | Reports, payouts, expenses and owners — the money only, never a guest's name | Your accountant |
+| **Driver** | Their own airport transfers, and the team chat. The guest's first name and phone appear only around the pickup | Your driver |
 
 There is no separate "property manager" role, and you do not need one: a **co-host scoped to two
 buildings** is a property manager. Scope is the second half of every invitation — see below.
@@ -88,7 +91,7 @@ setting, and it is why the role is the one you hand out most carefully.
 
 They sign in and see the cleans assigned to them, on the days they happen, with the address and the
 access notes for those buildings. They mark work done, optionally with a photo. That is the whole
-product for them, on purpose. In the [mobile app](/mobile/getting-started/) they get only the
+product for them, on purpose. In the [Android app](/mobile/getting-started/) they get only the
 **Today**, **Tasks** and **More** tabs.
 
 If you would rather not give a cleaner an account at all, share the

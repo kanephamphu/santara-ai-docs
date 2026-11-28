@@ -118,4 +118,4 @@ thích bản nâng cấp mang lại gì. Xem [Gói và thanh toán](/vi/setup/bi
 ## Công suất, ADR và RevPAR
 
 Các con số đó — công suất, giá trung bình mỗi đêm của đặt phòng, RevPAR và phần so sánh từng phòng
-— nay nằm ở [Upsell](/vi/money/upsells/).
+— nằm ở tab **Hiệu quả kinh doanh** ở đầu trang này.

@@ -37,9 +37,9 @@ Hoặc nhắn bộ phận hỗ trợ của Agoda, qua mục tin nhắn trong ext
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Agoda của bạn. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
-| Tax Setting For Bookings | **Inclusive** — đã gồm thuế, đã trừ hoa hồng (khoản bạn nhận). **Inclusive With Commissions** — gồm cả thuế và hoa hồng (tổng khách trả). **Exclusive** — không gồm thuế hay hoa hồng (mô hình Mỹ). |
+| ID khách sạn | Hotel ID Agoda của bạn. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Cài đặt thuế cho đặt phòng | **Đã gồm thuế** — đã gồm thuế, đã trừ hoa hồng (khoản bạn nhận). **Inclusive With Commissions** — gồm cả thuế và hoa hồng (tổng khách trả). **Chưa gồm thuế** — không gồm thuế hay hoa hồng (mô hình Mỹ). |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Agoda xác nhận chỗ nghỉ đã được kết nối với Channex.
 

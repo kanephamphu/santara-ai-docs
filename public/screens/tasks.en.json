@@ -3,16 +3,16 @@
   "height": 760,
   "boxes": [
     {
-      "x": 303,
-      "y": 220,
+      "x": 291,
+      "y": 212,
       "width": 385.984375,
       "height": 66.5,
       "label": "Turnovers due today",
       "side": "right"
     },
     {
-      "x": 962.453125,
-      "y": 389.5,
+      "x": 1016.4375,
+      "y": 411,
       "width": 296,
       "height": 48,
       "label": "Assign a cleaner, then mark it done",

@@ -44,9 +44,9 @@ shows **Add a property first** — connecting a channel maps the rooms you alrea
 create them. Add one under [Properties](/setup/properties/), or connect Airbnb first and let it
 create them.
 
-:::note[PriceLabs is paused]
-New PriceLabs connections are paused, so PriceLabs has no tile. A PriceLabs connection you already
-have keeps working and can still be disconnected.
+:::note[PriceLabs]
+PriceLabs is under **Revenue tools**. It is not a booking channel: it sets prices for the rooms you
+hand to it — see [If you already use PriceLabs](/money/pricing/#if-you-already-use-pricelabs).
 :::
 
 Every channel gets the same calendar, rates and restrictions, and brings bookings, cancellations
@@ -57,14 +57,15 @@ and guests in. Two things differ by channel:
   guest in that channel's own inbox.
 - **Reviews** arrive, and can be answered, where the channel passes them on.
 
-![Settings → Channels before anything is connected. Each channel is linked on its own and carries its own status and last-sync time.](/screens/channels.en.png)
+![Settings → Channels → Add a channel, before anything is connected: Available channels, with search and the All, OTAs, Revenue tools and Messaging filters, and Connect on every tile.](/screens/channels.en.png)
 
 ## The three tabs
 
 **Settings → Channels** has three tabs:
 
-- **Add a channel** — the catalogue. Search by name, or filter by type, and press **Connect**.
-  A channel you already use shows **Add another account**.
+- **Add a channel** — the catalogue, **Available channels**. Search by name or type, or filter with
+  **All**, **OTAs**, **Revenue tools** or **Messaging**, and press **Connect**. A channel you already
+  use shows **Add another account**.
 - **Connected** — every connection you have. Open one to see its listings, sync status and
   go-live state.
 - **Apps** — the apps you have allowed into your account, such as Santi, ChatGPT or Claude. See

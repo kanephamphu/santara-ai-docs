@@ -3,16 +3,16 @@
   "height": 760,
   "boxes": [
     {
-      "x": 303,
-      "y": 220,
+      "x": 291,
+      "y": 212,
       "width": 399.203125,
       "height": 66.5,
       "label": "Turnover cần làm hôm nay",
       "side": "right"
     },
     {
-      "x": 983.921875,
-      "y": 389.5,
+      "x": 1095.515625,
+      "y": 411,
       "width": 296,
       "height": 48,
       "label": "Giao cho nhân viên, rồi đánh dấu xong",

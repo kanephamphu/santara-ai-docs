@@ -3,16 +3,16 @@
   "height": 760,
   "boxes": [
     {
-      "x": 303,
-      "y": 220,
+      "x": 291,
+      "y": 212,
       "width": 454.125,
       "height": 66.5,
       "label": "Turnover hari ini",
       "side": "right"
     },
     {
-      "x": 972.046875,
-      "y": 389.5,
+      "x": 1099.875,
+      "y": 411,
       "width": 296,
       "height": 48,
       "label": "Tugaskan petugas, lalu tandai selesai",

@@ -3,17 +3,17 @@
   "height": 900,
   "boxes": [
     {
-      "x": 478,
-      "y": 563.5,
-      "width": 161.328125,
-      "height": 56,
-      "label": "3. Stop sell → Closed",
+      "x": 482,
+      "y": 501,
+      "width": 476,
+      "height": 44,
+      "label": "3. Selling → Closed",
       "side": "left"
     },
     {
-      "x": 478,
-      "y": 640.5,
-      "width": 235.265625,
+      "x": 482,
+      "y": 690,
+      "width": 235.28125,
       "height": 56,
       "label": "4. Add to pending",
       "side": "left"

@@ -1,6 +1,6 @@
 ---
 title: Đội ngũ và vai trò
-description: Mời co-host, quản lý và nhân viên dọn phòng, rồi trao cho mỗi người đúng phần workspace họ cần.
+description: Mời co-host, quản lý, nhân viên dọn phòng, kỹ thuật viên, kế toán và tài xế, rồi trao cho mỗi người đúng phần workspace họ cần.
 sidebar:
   order: 6
 ---
@@ -37,15 +37,18 @@ Liên kết đã hết hạn sẽ nhắc người nhận xin bạn liên kết m
 Một người có thể giữ vai trò khác nhau ở các workspace khác nhau. Tài khoản đăng nhập là của họ; quyền
 truy cập là theo từng workspace.
 
-![Màn hình đội ngũ: ai đang trong workspace, vai trò của họ, và họ chạm được tới đâu.](/screens/team.vi.png)
+![Màn hình đội ngũ: sáu vai trò dưới dạng thẻ, mỗi thẻ ghi vai trò đó chạm được tới đâu, và nút Mời đồng đội ở trên cùng.](/screens/team.vi.png)
 
-## Ba vai trò
+## Sáu vai trò
 
 | Vai trò | Thấy gì | Dùng khi nào |
 | --- | --- | --- |
 | **Host admin** | Mọi thứ: toàn bộ danh mục và phần thanh toán | Bạn, và người bạn tin về chuyện tiền bạc |
 | **Co-host** | Quyền vận hành hằng ngày, có giới hạn phạm vi | Đối tác, quản lý, trưởng bộ phận bảo trì |
 | **Nhân viên dọn phòng** | Ca dọn được giao cho họ, và đủ thông tin để tìm ra tòa nhà | Nhân viên dọn phòng của bạn |
+| **Kỹ thuật viên** | Ticket được giao cho họ, và team chat | Nhân viên bảo trì của bạn |
+| **Kế toán** | Báo cáo, payout, chi phí và chủ nhà — chỉ phần tiền, không bao giờ thấy tên khách | Kế toán của bạn |
+| **Tài xế** | Các chuyến đón sân bay của họ, và team chat. Tên và số điện thoại của khách chỉ hiện quanh giờ đón | Tài xế của bạn |
 
 Không có vai trò "quản lý bất động sản" riêng, và bạn cũng không cần: một **co-host giới hạn ở hai
 tòa nhà** chính là quản lý bất động sản. Giới hạn phạm vi là nửa sau của mọi lời mời — xem bên dưới.
@@ -87,7 +90,7 @@ lập, và vì thế đây là vai trò bạn trao đi cẩn thận nhất.
 
 Họ đăng nhập và thấy các ca dọn được giao, đúng ngày diễn ra, kèm địa chỉ và ghi chú lối vào cho những
 tòa đó. Họ đánh dấu hoàn tất, kèm ảnh nếu cần. Với họ, sản phẩm chỉ có vậy, và đó là chủ ý. Trên
-[ứng dụng di động](/vi/mobile/getting-started/) họ chỉ thấy các tab **Hôm nay**, **Công việc** và
+[ứng dụng Android](/vi/mobile/getting-started/) họ chỉ thấy các tab **Hôm nay**, **Công việc** và
 **Thêm**.
 
 Nếu bạn không muốn cấp tài khoản, hãy chia sẻ

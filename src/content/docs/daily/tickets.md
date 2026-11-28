@@ -12,7 +12,7 @@ more; an old Tickets link opens this tab.
 
 Tickets are internal. **Guests never see one**, even the ones opened from their own message.
 
-![The Issues tab: tickets by status, with who each is assigned to and the property it came from.](/screens/tickets.en.png)
+![The Issues tab as a board: To do, In progress and Done columns, each card showing its category, the property and room, and who it is assigned to.](/screens/tickets.en.png)
 
 ## They open themselves
 
@@ -30,7 +30,7 @@ Three rules keep that from becoming noise:
 
 You can also open one by hand: **New ticket** on the Issues tab, **New ticket** from a guest
 conversation in [Messages](/daily/messages/) (where **Fill with AI** reads the conversation and
-fills in the fields for you to check), or by selecting dates on the [calendar](/daily/calendar/).
+fills in the fields for you to check), or the **+** at the top of the **To do** column.
 
 ## The board
 
@@ -43,14 +43,18 @@ Tickets move through four statuses:
 | **Done** | Fixed |
 | **Cancelled** | Not happening |
 
-Switch between **Board** — one column per status, drag a card to change its status — and **List**,
-a table with **Ticket**, **Category**, **Status**, **Priority**, **Assignee** and **Due**.
+Switch between **Board** and **List**. The board has three columns — **To do**, **In progress** and
+**Done** — and you drag a card to change its status. **Done** lists the most recent first, grouped
+by date, and loads older ones as you scroll; cancelled tickets sit behind **Show cancelled** under
+the board. The list is a table with **Ticket**, **Category**, **Status**, **Priority**, **Assignee**
+and **Due**.
 
 Above it: **Search tickets**, a priority filter (**All priorities**), and an **Overdue** toggle that
 shows only tickets past their due date.
 
-Each card shows its due date, marked **Overdue** once it has passed, and who it is assigned to —
-or **Unassigned**.
+Each card shows its category, the property (and room), its due date — marked **Overdue** once it
+has passed — and who it is assigned to. A card nobody has yet shows **Assign** — or **Unassigned**,
+if you cannot assign tickets.
 
 ## Working one
 
@@ -74,15 +78,13 @@ When the assignee moves a ticket to **In progress** or **Done**, whoever assigne
 An **Airport transfer** ticket also carries the **Pickup time**. The guest's name and phone appear
 on it the day before pickup.
 
-### Scheduling puts it on the calendar
+### Scheduling the work
 
-Give a ticket a **Scheduled from / Scheduled to** range and **it is drawn on the
-[calendar](/daily/calendar/)** across those nights. A two-day repair then sits visibly against the
-bookings around it, which is the point: you can see whether it collides with an arrival before you
-commit to it.
+**Scheduled from / Scheduled to** records the days the work takes — a two-day repair, say. It is
+separate from the **Due date**, which is what marks a ticket **Overdue**.
 
-It does not block the nights on its own. If the room genuinely cannot be sold, close the dates in
-the calendar as well.
+It does not block the nights. If the room genuinely cannot be sold, close the dates on the
+[calendar](/daily/calendar/#block-or-unblock-dates) as well.
 
 ### The AI resolution plan
 
@@ -95,9 +97,10 @@ It drafts. It does not order parts, message the guest, or close the ticket.
 
 ## How long closed tickets stay on the board
 
-Open tickets always show. **Done** and **Cancelled** ones stay on the board for **30 days after
-their last update**, then drop off it so the board stays about current work. Use **Show done &
-cancelled** to see them. Nothing is deleted: the ticket and its history are still there.
+Open tickets always show. **Done** tickets load as you scroll the Done column. **Cancelled** ones
+stay on the board for **30 days after their last update**, then drop off it so the board stays
+about current work. In the list, finished tickets sit behind **Show done & cancelled**. Nothing is
+deleted: the ticket and its history are still there.
 
 ## Who can see them
 

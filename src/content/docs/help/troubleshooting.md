@@ -41,7 +41,8 @@ two workspaces open in two tabs — the second sign-in wins.
 
 In order:
 
-1. Is a **rule set assigned** to the listing? A listing with none is never priced automatically.
+1. Is the room on **Automatic (Santara AI)** under **Who sets prices**, and does its property have an
+   area? A room on Manual, or in a property with no area, is never priced automatically.
 2. Is **Price this listing automatically** on?
 3. Is **Publish prices automatically** on? Off works prices out without sending them.
 4. Are you hitting the **floor or ceiling**? The trend chart shows the limits and whether prices

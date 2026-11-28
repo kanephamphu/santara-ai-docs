@@ -51,7 +51,7 @@ kamar, dan layanan tambahan dari [pengaturan upsell](/id/money/upsells/).
 Tamu mengetik **kode pemesanan** dari konfirmasinya — tidak ada yang lain. Spasi, tanda hubung, dan
 huruf besar tidak berpengaruh. Kode yang lebih pendek dari enam karakter tidak pernah dicocokkan.
 
-![Halaman yang sama setelah kode pemesanan dimasukkan: sapaan, kode pintu (disamarkan sampai diketuk), dan kata sandi Wi-Fi.](/screens/guidebook-verified.id.png)
+![Halaman yang sama setelah kode pemesanan dimasukkan: sapaan dengan tanggal menginap, kode pintu yang tampil setelah mengetuk Tampilkan, kata sandi Wi-Fi yang masih disamarkan, dan cara masuk.](/screens/guidebook-verified.id.png)
 
 Akses mengikuti masa inap, dalam zona waktu properti itu sendiri:
 

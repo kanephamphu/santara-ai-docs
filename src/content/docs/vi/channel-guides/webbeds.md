@@ -32,9 +32,9 @@ WebBeds phải cho phép kết nối trước. Channex là đối tác kết n�
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel Code | Mã khách sạn WebBeds của bạn. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
-| Min Stay Type | Loại số đêm tối thiểu gửi đi: **Arrival** hoặc **Through**. Thường là Arrival. |
+| Mã khách sạn | Mã khách sạn WebBeds của bạn. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Loại lưu trú tối thiểu | Loại số đêm tối thiểu gửi đi: **Theo ngày đến** hoặc **Suốt thời gian ở**. Thường là Theo ngày đến. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của WebBeds xác nhận chỗ nghỉ đã được kết nối với Channex.
 

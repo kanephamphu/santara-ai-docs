@@ -32,7 +32,7 @@ Hoặc tự kết nối trong giao diện của OpenGDS.
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID OpenGDS của bạn. |
+| ID khách sạn | Hotel ID OpenGDS của bạn. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của OpenGDS xác nhận chỗ nghỉ đã được kết nối với Channex.
 

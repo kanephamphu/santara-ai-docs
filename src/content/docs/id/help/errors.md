@@ -12,6 +12,8 @@ depan Anda. Kalau tidak ketemu, telusuri
 
 ## Masuk
 
+<div class="table-wrapper">
+
 | Pesan | Artinya | Yang dilakukan |
 | --- | --- | --- |
 | *Email atau kata sandi salah.* | Persis itu. Tidak pernah disebutkan mana yang salah, dan itu disengaja | Coba lagi, atau pakai *Lupa kata sandi?* |
@@ -27,12 +29,16 @@ depan Anda. Kalau tidak ketemu, telusuri
 | *Kata sandi tidak boleh memuat nama di alamat email Anda. Pilih kata sandi lain.* | Bagian email Anda sebelum @ muncul di kata sandi | Pilih kata sandi tanpa bagian itu |
 | *Silakan masuk lagi.* | Sesi Anda berakhir — biasanya perubahan kata sandi di tempat lain, atau browser membersihkan cookie | Masuk lagi. Kalau berulang, lihat [Sesi saya terus berakhir](/id/help/troubleshooting/#sesi-saya-terus-berakhir) |
 
+</div>
+
 :::note
 Pesan penguncian saat ini ditampilkan dalam bahasa Inggris meskipun sisa halaman masuk berbahasa
 Indonesia.
 :::
 
 ## Menghubungkan channel
+
+<div class="table-wrapper">
 
 | Pesan | Artinya | Yang dilakukan |
 | --- | --- | --- |
@@ -48,6 +54,8 @@ Indonesia.
 | *Akses Santara AI telah dicabut dari akun Airbnb Anda, sehingga sinkronisasi berhenti.* | Santara AI dihapus dari aplikasi terhubung di akun Airbnb, atau Airbnb mencabut aksesnya. Koneksi menampilkan **Perlu dihubungkan ulang** | Tekan **Hubungkan ulang** dan masuk dengan akun Airbnb yang sama. Listing dan riwayat tetap tersimpan — [Hubungkan ulang](/id/channels/airbnb/#hubungkan-ulang) |
 | *Akses Airbnb telah dicabut dari akun Anda. Hubungkan ulang untuk melanjutkan.* | Hal yang sama, terlihat saat memuat listing | Tekan **Hubungkan ulang** |
 | *Otorisasi Airbnb Anda telah kedaluwarsa. Hubungkan ulang untuk melanjutkan.* / *Koneksi Airbnb telah kedaluwarsa. Hubungkan ulang lalu coba lagi.* | Login Airbnb untuk koneksi ini sudah habis | Tekan **Hubungkan ulang** dan masuk lagi |
+
+</div>
 
 ## Impor dan pembacaan tarif
 
@@ -73,6 +81,8 @@ Indonesia.
 
 ## Kamar dan rate plan Booking.com
 
+<div class="table-wrapper">
+
 | Pesan | Artinya | Yang dilakukan |
 | --- | --- | --- |
 | *…tetap tertaut tetapi tidak terpetakan — rate plan-nya tidak memasang harga untuk jumlah tamu yang diterima Booking.com* | Jumlah tamu di rate plan tidak cocok dengan okupansi yang diterima Booking.com. Kami tidak menebak pada listing aktif | Buka rate plan kamar itu, sesuaikan jumlah tamunya, petakan lagi |
@@ -81,6 +91,8 @@ Indonesia.
 | *Tersimpan di sini, tetapi belum dikirim ke channel — konfirmasi kapasitas kamar ini dulu.* | Penahanan demi keamanan sebelum menulis ke listing aktif | Konfirmasi kapasitasnya, dan pastikan jumlah unitnya benar |
 | *Kalender Anda ditulis ke listing aktif seketika…* | Bukan error — peringatan bahwa mengonfirmasi akan menutup malam-malam mendatang pada jumlah unit yang ditampilkan | Periksa jumlah unit sebelum mengonfirmasi. Satu apartemen adalah satu unit |
 | *Tidak dapat mengubah properti tertaut.* | Penautan ulang tidak selesai | Coba lagi. Data yang sudah terimpor tetap di tempatnya |
+
+</div>
 
 ## Kesehatan channel dan peringatan
 
@@ -96,7 +108,7 @@ baris strip membuka halaman untuk memperbaikinya. Selengkapnya di
 | *…: sinkronisasi terakhir gagal.* | Sinkron terakhir gagal dan belum ada yang berhasil sesudahnya | Tekan **Segarkan** pada koneksi. Bila tetap, [hubungi dukungan](/id/help/support/) |
 | *… pembaruan harga atau ketersediaan terus gagal terkirim ke saluran Anda.* | Pembaruan sudah gagal tiga kali atau lebih | Pastikan koneksinya live; bila ya, hubungi dukungan |
 | *… listing ditolak oleh channel manager.* / *… ditolak oleh channel manager.* | Sebuah kamar atau rate plan ditolak | **Perbaiki** membuka kamarnya, dengan alasan di samping pengaturan penyebabnya |
-| **… menolak pembaruan** (lonceng) | Channel menolak pembaruan harga atau ketersediaan — *harga atau ketersediaan di sana mungkin belum terbaru* | Buka **Pengaturan → Channel** dan periksa koneksinya. Paling banyak satu peringatan per hari untuk channel, properti, dan masalah yang sama |
+| **… menolak pembaruan** (lonceng) | Channel menolak pembaruan harga atau ketersediaan — *harga atau ketersediaan di sana mungkin belum terbaru* | Buka **Pengaturan → Saluran** dan periksa koneksinya. Paling banyak satu peringatan per hari untuk channel, properti, dan masalah yang sama |
 | **Peringatan sinkronisasi dari …** (lonceng) | Pembaruan tetap masuk, dengan keberatan dari channel | Sebaiknya dicek, tidak mendesak |
 | **Kelebihan pesanan · …** (lonceng) | Sebuah kamar punya lebih banyak pemesanan daripada unit pada beberapa malam | Pindahkan atau batalkan satu masa menginap di channel-nya — [Kelebihan pesanan](/id/daily/bookings/#kelebihan-pesanan) |
 
@@ -122,6 +134,8 @@ Tidak ada yang berpindah dari *Siap* ke *Live* dengan sendirinya. Lihat
 
 ## Penagihan
 
+<div class="table-wrapper">
+
 | Pesan | Artinya | Yang dilakukan |
 | --- | --- | --- |
 | *Pembayaran terakhir Anda gagal.* | Stripe tidak bisa menagih kartu | Perbarui kartu. Stripe juga mencoba lagi sendiri |
@@ -135,6 +149,8 @@ Tidak ada yang berpindah dari *Siap* ke *Live* dengan sendirinya. Lihat
 | *Kode itu tidak dikenali.* / *…sudah kedaluwarsa.* / *…sudah habis dipakai.* | Masalah kode promo, persis seperti tertulis | Lanjutkan tanpa kode, atau tanyakan asal kodenya |
 | *Paket Anda sudah punya diskon* | Kode tidak bisa ditumpuk dengan diskon yang sudah ada | Tidak perlu apa-apa — harga Anda sudah termasuk diskon itu |
 
+</div>
+
 ## Akses dan izin
 
 | Pesan | Artinya | Yang dilakukan |
@@ -142,7 +158,7 @@ Tidak ada yang berpindah dari *Siap* ke *Live* dengan sendirinya. Lihat
 | Sebuah layar bilang Anda tidak punya akses | Peran Anda tidak memegang kapabilitas yang diminta layar itu | Pastikan Anda di workspace yang benar (menu akun), lalu minta pemilik — [Tim dan peran](/id/setup/team/) |
 | *Setup workspace hanya bisa dilihat untuk peran Anda.* | Co-host dan petugas kebersihan bisa melihat pengaturan workspace, bukan mengubahnya | Pemilik yang mengubahnya — [Diundang sebagai co-host atau manajer](/id/start/invited-manager/) |
 | *Setup workspace dikelola oleh pemilik workspace.* | Ditampilkan kepada petugas kebersihan di halaman pengaturan | Wajar. Pengaturan akun Anda sendiri tetap bisa |
-| *Peran tim tidak didukung.* | Undangan menyebut peran yang tidak bisa diundang | Hari ini hanya **host admin**, **co-host**, dan **petugas kebersihan** yang bisa diundang |
+| *Peran tim tidak didukung.* | Undangan menyebut peran yang tidak bisa diundang | Undang dengan salah satu dari enam peran — **host admin**, **co-host**, **petugas kebersihan**, **teknisi**, **akuntan**, atau **sopir**: [Tim dan peran](/id/setup/team/) |
 
 ## Yang terlihat seperti error padahal bukan
 

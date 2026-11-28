@@ -23,14 +23,14 @@ Jika tidak ada, buka tiket support Hotelbeds untuk menghubungkan Channex. Channe
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Hotelbeds**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Hotelbeds**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Username and password | Yang diberikan Hotelbeds kepada Anda. Keduanya sering sama — itu wajar. |
+| Nama pengguna / Kata sandi | Yang diberikan Hotelbeds kepada Anda. Keduanya sering sama — itu wajar. |
 | Contract | Muncul setelah Uji koneksi. Pilih kontrak untuk koneksi ini. |
 | Update availability / rates / restrictions | Apa yang dikirim. Biarkan ketiganya aktif kecuali kontrak Anda menetapkan harga atau alokasi secara tetap. |
 

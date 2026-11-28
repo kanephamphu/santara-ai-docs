@@ -15,8 +15,9 @@ tanggal berikutnya; malam kosong menampilkan harganya.
 - **Batang** adalah reservasi. Warnanya menunjukkan channel; labelnya menampilkan tamu dan
   pendapatan.
 - **Malam kosong** menampilkan tarif per malam yang akan dikenakan.
-- **Blok bergaris** adalah tiket yang dijadwalkan pada tanggal itu — perbaikan, pembersihan besar,
-  atau tamu pemilik.
+- **Okupansi**, baris pertama, menunjukkan berapa bagian kamar yang terisi tiap malam di semua yang
+  sedang tampil (*89%*, *17/19*). Baris judul tiap properti menunjukkan hitungan yang sama untuk
+  kamarnya sendiri (*2/3*).
 - **Klik satu hari** untuk daftar harian: semua yang bergerak pada tanggal itu.
 - **Batang merah dengan tanda peringatan** adalah masa menginap yang kelebihan pesanan: kamar itu
   menampung lebih banyak masa menginap daripada jumlah unitnya pada malam tersebut. Kartunya
@@ -56,6 +57,12 @@ di browser ini — berguna bila Anda hanya mengurus sebagian gedung.
 
 **Reset filter** mengembalikan keduanya.
 
+Di atas grid, tanda panah, **Hari ini** dan tanggal menggeser waktu, sedangkan **2 minggu**, **3
+minggu** atau **4 minggu** mengatur berapa hari yang muat di layar. **Tampilkan** menyalakan atau
+mematikan **Harga**, **Pendapatan** dan **Upsell** di grid. Di bawahnya, deretan chip merangkum yang
+sedang tampil: **Malam ini 13/19 terisi**, **7 malam ke depan 60%**, **8 tamu tiba hari ini**,
+**Pendapatan mendatang** dan **Upsell terbuka**.
+
 ## Memblokir atau membuka tanggal
 
 Memblokir malam sama dengan menutupnya: tidak ada yang bisa memesannya di channel mana pun. Anda
@@ -73,10 +80,11 @@ melakukannya langsung di grid — klik satu malam, atau seret melintasi beberapa
 
    ![Tiga malam diseret pada Garden Room: malamnya ditandai dan panel Tanggal dipilih terbuka di sampingnya.](/screens/calendar-block-select.id.png)
 
-3. Atur **Hentikan penjualan** ke **Ditutup** untuk memblokir, atau ke **Buka** untuk membuka
-   kembali. Biarkan kolom lain kosong agar tidak berubah.
+3. Di editor tarif, atur **Dijual** ke **Ditutup** untuk memblokir, atau ke **Buka** untuk membuka
+   kembali. Pilihan pertamanya, **Biarkan**, membiarkan malam itu seperti sekarang (*Biarkan
+   (Buka)*). Jangan ubah kolom lain agar tetap seperti semula.
 
-   ![Hentikan penjualan diatur ke Ditutup untuk tiga malam, dengan Tambahkan 3 malam ke tertunda di bawahnya.](/screens/calendar-block-close.id.png)
+   ![Editor tarif untuk tiga malam di Garden Room, dengan Dijual diatur ke Ditutup dan Tambahkan 3 malam ke tertunda di bawahnya.](/screens/calendar-block-close.id.png)
 
 4. Klik **Tambahkan 3 malam ke tertunda** (angkanya sesuai pilihan Anda). Malam-malam itu menjadi kuning dengan garis putus —
    belum ada yang dikirim, jadi Anda bisa terus memilih dan menumpuk perubahan lain.
@@ -86,7 +94,7 @@ melakukannya langsung di grid — klik satu malam, atau seret melintasi beberapa
    ![Tiga malam kini kuning bergaris putus, menunggu di tertunda; Simpan semua mengirimnya ke semua channel.](/screens/calendar-block-save.id.png)
 
 Malam yang ditutup lalu bertuliskan **Ditutup** di grid. Untuk membukanya lagi, pilih malam yang
-sama dan atur **Hentikan penjualan** ke **Buka**.
+sama dan atur **Dijual** ke **Buka**.
 
 :::note
 - Satu rentang hanya di **satu baris kamar** — untuk memblokir dua kamar, kerjakan tiap baris
@@ -99,22 +107,23 @@ sama dan atur **Hentikan penjualan** ke **Buka**.
 
 ## Mengedit rentang
 
-Pilih rentang malam pada satu kamar dan Anda mendapat tiga tindakan:
+Pilih rentang malam pada satu kamar dan panel **Tanggal dipilih** menawarkan dua tindakan:
 
-**Pesankan malam ini untuk tamu** — membuat reservasi manual. Gunakan untuk booking langsung lewat
-telepon, tamu pemilik, atau teman. Reservasi manual memblokir malam di semua channel terhubung
+**Reservasi baru** — pesankan malam ini untuk tamu secara manual. Gunakan untuk booking langsung
+lewat telepon, tamu pemilik, atau teman. Reservasi manual memblokir malam di semua channel terhubung
 seperti reservasi asli.
 
-**Jadwalkan perawatan atau pekerjaan** — membuka [tiket](/id/daily/tasks/#tiket) pada tanggal itu dan
-menggambarnya di sini.
-
-**Harga, minimum menginap, atau tutup tanggal** — editor ketersediaan:
+**Tarif & ketersediaan** — editor tarif:
 
 | Kolom | Fungsinya |
 | --- | --- |
-| **Harga** | Tarif per malam untuk malam-malam itu, pada rate plan terpilih |
-| **Minimum menginap** | Booking terpendek yang boleh dimulai pada malam itu |
-| **Hentikan penjualan** | **Ditutup** memblokir malam itu di semua channel; **Buka** menjualnya lagi |
+| **Harga per malam** | Tarif per malam untuk malam-malam itu. Harga ini dipublikasikan ke saluran yang terhubung |
+| **Kamar yang dijual** | Berapa unit kamar yang tetap dijual, hingga jumlah unitnya; pemesanan mengurangi angka ini |
+| **Dijual** | **Ditutup** memblokir malam itu di semua channel; **Buka** menjualnya lagi; **Biarkan** tidak mengubahnya |
+| **Aturan menginap** | Terlipat secara bawaan: **Menginap minimum (malam)**, **Menginap maksimum**, **Tidak ada check-in** dan **Tidak ada check-out** |
+
+**Hapus penimpaan** menghapus yang Anda atur sendiri pada malam itu. **Buka kalender tarif lengkap**
+membuka grid Harga di tab baru, untuk pekerjaan massal di banyak kamar.
 
 Perubahan menunggu di **tertunda** sampai Anda mengklik **Simpan semua**; satu simpan itu mengirimnya ke semua channel terhubung. Tidak ada langkah "terbitkan" lain.
 

@@ -30,7 +30,7 @@ Yatra phải cho phép kết nối trước. Channex là đối tác kết nối
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Yatra của bạn. |
+| ID khách sạn | Hotel ID Yatra của bạn. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Yatra xác nhận chỗ nghỉ đã được kết nối với Channex.
 

@@ -9,25 +9,40 @@ sidebar:
 tertentu secara manual, dan di sini pula aturan yang bukan harga — minimum menginap, berapa unit yang
 bisa dijual — berada.
 
-Buka dari sebuah properti: **Properti → properti tersebut → Tarif**.
+Buka dari **Harga → Kalender**, di tampilan **Grid**, lalu pilih properti dan kamarnya di bagian atas.
 
-![Grid tarif: ketersediaan di atas, harga di bawah, dan legenda yang menjelaskan cara mengedit satu rentang.](/screens/rates.id.png)
+![Tab Kalender di layar Harga dalam tampilan Grid: pemilih properti dan kamar, sakelar Grid / Tahun, Ubah harga dan Sinkronkan sekarang, angka 14 malam ke depan, Cek pasar, dan grid dengan baris Sisa dijual di atas harga per malam rate plan.](/screens/rates.id.png)
 
 ## Grid
 
-Kamar dan rate plan-nya di kiri, tanggal di atas. **Klik satu sel untuk mengeditnya, atau shift-klik
-sel lain di baris yang sama untuk mengedit seluruh rentang** di antaranya — begitulah Anda memberi
-harga satu minggu tanpa menyentuh tujuh sel.
+Kamar dan rate plan-nya di kiri, tanggal di atas, dengan baris **Sisa dijual** di atas plan tiap
+kamar. **Klik satu malam, lalu malam lain di baris yang sama — atau seret — untuk memilih rentang**;
+shift-klik juga memperluasnya. Begitulah Anda memberi harga satu minggu tanpa menyentuh tujuh sel.
+
+Kotak kecil **Malam terpilih** lalu menanyakan untuk apa rentang itu: **Ubah harga & aturan** atau
+**Lihat harga** — di baris Sisa dijual, **Ubah unit yang dijual** atau **Lihat ketersediaan**.
+Editornya berisi:
 
 | Kolom | Artinya |
 | --- | --- |
-| **Harga** | Tarif per malam untuk tanggal itu pada rate plan tersebut. Ini diterbitkan ke channel terhubung |
-| **Unit** | Berapa unit kamar itu yang bisa dijual malam itu. Dibatasi jumlah unit kamar — angka lebih tinggi ditolak, dan booking mengurangi sisanya |
-| **Minimum menginap** | Berlaku untuk aturan kedatangan maupun menginap-melewati |
-| **Ditutup** | Tidak ada yang bisa memesan malam itu, di channel mana pun |
+| **Harga per malam** | Tarif per malam untuk tanggal-tanggal itu pada rate plan tersebut. Ini diterbitkan ke channel terhubung |
+| **Kamar yang dijual** | Berapa unit kamar itu yang bisa dijual tiap malam. Dibatasi jumlah unit kamar, dan booking mengambil dari sini |
+| **Dijual** | **Biarkan** mempertahankan kondisi sekarang; **Buka**, atau **Ditutup** — tidak ada yang bisa memesan malam itu, di channel mana pun |
+| **Aturan menginap** | Menginap minimum (berlaku untuk aturan kedatangan maupun menginap-melewati), menginap maksimum, **Tidak ada check-in**, dan **Tidak ada check-out**, masing-masing dengan pilihan Biarkan yang sama |
 
-**Menyimpan akan mengirim pembaruan terkumpul ke channel Anda.** Tidak ada langkah terbit terpisah,
-dan tidak ada status draf — apa yang Anda simpan itulah yang diberitahukan ke channel.
+Pada satu malam, **Mengapa harga ini & riwayat** menampilkan harganya, siapa yang menetapkannya — Anda,
+harga dinamis, PriceLabs, atau impor — alasannya, harga di tiap saluran dan apakah sudah sampai ke
+sana, serta **Lihat riwayat perubahan** untuk malam itu.
+
+**Tambahkan ke tertunda** hanya menampung perubahan; **tidak ada yang dikirim sampai Anda menekan
+Simpan semua** di bilah yang menghitung perubahan belum tersimpan, tempat **Tinjau** menampilkannya dan
+**Buang semua** membuangnya. Menyimpan mengirim pembaruan terkumpul ke channel Anda — tidak ada langkah
+terbit terpisah. Malam yang masih menunggu dikirim menampilkan ikon jam.
+
+Di atas grid, **Harga untuk** beralih antara harga Anda dan harga yang dijual sebuah saluran; chip
+saluran di bawah tiap plan membuka penyesuaian saluran itu (lihat
+[Harga saluran](/id/money/pricing/#harga-saluran)); dan **Riwayat** mendaftar 50 perubahan terakhir
+pada harga, aturan menginap, dan jumlah unit di properti itu.
 
 ## Rate plan
 
@@ -65,13 +80,13 @@ Dari yang terkuat:
 
 1. **Ditutup** — tidak ada yang terjual, apa pun harganya.
 2. **Rentang yang diterima channel** — mempersempit harga Anda; tidak pernah melebarkan.
-3. **Lantai dan plafon Anda** di [pengaturan pricing](/id/money/pricing/) — pricing otomatis tidak
-   pernah melewatinya.
+3. **Lantai dan plafon Anda** di [Ubah harga](/id/money/pricing/#angka-milik-listing) — pricing
+   otomatis tidak pernah melewatinya.
 4. **Harga yang Anda ketik di sini** — dilindungi dari mesin pricing kecuali Anda mengizinkannya
    menimpa harga manual.
 5. **Aturan pricing** — selebihnya.
 
 ## Grid yang kosong
 
-*"Belum ada kamar dengan rate plan yang bisa diedit"* berarti properti punya kamar tetapi tidak satu
+*"Belum ada kamar dengan paket tarif yang bisa diedit"* berarti properti punya kamar tetapi tidak satu
 pun memiliki rate plan untuk diberi harga. Tambahkan satu dari kamarnya, lalu kembali ke sini.

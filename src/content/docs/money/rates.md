@@ -9,25 +9,39 @@ sidebar:
 night by hand, and where the rules that are not prices — minimum stay, how many units are
 sellable — live.
 
-Open it from a property: **Properties → the property → Rates**.
+Open it from **Pricing → Calendar**, in the **Grid** view, and pick the property and room at the top.
 
-![The rates grid: availability above, price below, and the legend that explains how to edit a range.](/screens/rates.en.png)
+![The Calendar tab of Pricing in Grid view: property and room pickers, the Grid / Year switch, Edit price and Sync now, the figures for the next 14 nights, Market check, and the grid with Left to sell above the rate plan's nightly prices.](/screens/rates.en.png)
 
 ## The grid
 
-Rooms and their rate plans down the left, dates across the top. **Click a cell to edit it, or
-shift-click another cell in the same row to edit the whole range** between them — which is how
-you price a week without touching seven cells.
+Rooms and their rate plans down the left, dates across the top, with **Left to sell** above each
+room's plans. **Click a night, then another night in the same row — or drag — to pick a range**;
+shift-click extends it too. That is how you price a week without touching seven cells.
+
+A small **Selected nights** box then asks what the range is for: **Edit price & rules** or **View
+prices** — on the Left to sell row, **Edit rooms to sell** or **View availability**. The editor has:
 
 | Field | What it means |
 | --- | --- |
-| **Price** | The nightly rate for that date on that rate plan. It publishes to your connected channels |
-| **Units** | How many of that room are sellable that night. Capped at the room's unit count — a higher number is rejected, and bookings reduce what remains |
-| **Minimum stay** | Applies to both arrival and through-stay rules |
-| **Closed** | Nobody can book that night, on any channel |
+| **Price per night** | The nightly rate for those dates on that rate plan. It publishes to your connected channels |
+| **Rooms to sell** | How many of that room are sellable each night. Capped at the room's unit count, and bookings take from it |
+| **Selling** | **Keep** leaves it as it is now; **Open**, or **Closed** — nobody can book those nights, on any channel |
+| **Stay rules** | Min stay (applies to both arrival and through-stay rules), max stay, **No check-ins** and **No check-outs**, each with the same Keep choice |
 
-**Saving pushes a batched update to your channels.** There is no separate publish step, and there
-is no draft state — what you save is what your channels are told.
+On a single night, **Why this price & history** shows the price, who set it — you, smart pricing,
+PriceLabs or an import — why, what each channel sells it at and whether it has reached them, with
+**Show change history** for that night.
+
+**Add to pending** stages the change; **nothing is sent until you press Save all** in the bar that
+counts your unsaved changes, where **Review** lists them and **Discard all** drops them. Saving pushes
+a batched update to your channels — there is no separate publish step. A night still waiting to send
+shows a clock.
+
+Above the grid, **Prices for** switches between your price and what a channel sells at; the channel
+chips under each plan open that channel's adjustment (see
+[Channel prices](/money/pricing/#channel-prices)); and **History** lists the last 50 changes to
+prices, stay rules and units at the property.
 
 ## Rate plans
 
@@ -63,8 +77,8 @@ Working from the strongest:
 
 1. **Closed** — nothing sells, whatever the price says.
 2. **The channel's own accepted range** — narrows your price; it never widens it.
-3. **Your floor and ceiling** in [pricing settings](/money/pricing/) — automatic pricing never
-   crosses them.
+3. **Your floor and ceiling** under [Edit price](/money/pricing/#the-listings-numbers) — automatic
+   pricing never crosses them.
 4. **A price you typed here** — protected from the pricing engine unless you have explicitly
    allowed it to overwrite manual prices.
 5. **The pricing rules** — everything else.

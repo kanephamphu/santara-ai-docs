@@ -11,7 +11,7 @@ một chuyến đưa đón sân bay cần sắp xếp. Phiếu nằm ở tab **S
 
 Phiếu là nội bộ. **Khách không bao giờ thấy**, kể cả phiếu mở ra từ chính tin nhắn của họ.
 
-![Tab Sự cố: phiếu theo trạng thái, người phụ trách, và chỗ nghỉ nó đến từ.](/screens/tickets.vi.png)
+![Tab Sự cố dạng bảng: các cột Cần làm, Đang xử lý và Hoàn tất, mỗi thẻ hiện loại phiếu, chỗ nghỉ và phòng, cùng người phụ trách.](/screens/tickets.vi.png)
 
 ## Phiếu tự mở
 
@@ -29,7 +29,7 @@ Ba quy tắc giữ cho nó không thành tạp âm:
 
 Bạn cũng có thể tạo thủ công: **Phiếu mới** ở tab Sự cố, **Tạo ticket** từ một hội thoại với khách
 trong [Tin nhắn](/vi/daily/messages/) (ở đó **Điền bằng AI** đọc hội thoại và điền sẵn các trường để
-bạn kiểm tra), hoặc chọn ngày trên [lịch](/vi/daily/calendar/).
+bạn kiểm tra), hoặc dấu **+** ở đầu cột **Cần làm**.
 
 ## Bảng phiếu
 
@@ -42,13 +42,18 @@ Phiếu đi qua bốn trạng thái:
 | **Hoàn tất** | Đã sửa xong |
 | **Đã hủy** | Không làm nữa |
 
-Chuyển giữa **Bảng** — mỗi trạng thái một cột, kéo thẻ sang cột khác để đổi trạng thái — và **Danh
-sách**, một bảng gồm **Phiếu**, **Loại**, **Trạng thái**, **Ưu tiên**, **Người phụ trách** và **Hạn**.
+Chuyển giữa **Bảng** và **Danh sách**. Bảng có ba cột — **Cần làm**, **Đang xử lý** và **Hoàn tất**
+— và bạn kéo thẻ sang cột khác để đổi trạng thái. Cột **Hoàn tất** xếp phiếu mới nhất lên đầu, nhóm
+theo ngày, và tải thêm phiếu cũ khi bạn cuộn; phiếu đã hủy nằm sau nút **Hiện đã hủy** bên dưới bảng.
+Danh sách là một bảng gồm **Phiếu**, **Loại**, **Trạng thái**, **Ưu tiên**, **Người phụ trách** và
+**Hạn**.
 
 Phía trên có **Tìm phiếu**, bộ lọc ưu tiên (**Mọi mức ưu tiên**) và nút **Quá hạn** để chỉ xem các
 phiếu đã trễ hạn.
 
-Mỗi thẻ hiện hạn xử lý, được đánh dấu **Quá hạn** khi đã trễ, và người phụ trách — hoặc **Chưa giao**.
+Mỗi thẻ hiện loại phiếu, chỗ nghỉ (và phòng), hạn xử lý — được đánh dấu **Quá hạn** khi đã trễ — và
+người phụ trách. Thẻ chưa có ai nhận hiện **Giao việc** — hoặc **Chưa giao** nếu bạn không có quyền
+giao phiếu.
 
 ## Xử lý một phiếu
 
@@ -73,13 +78,13 @@ thông báo.
 Phiếu **Đưa đón sân bay** còn có **Giờ đón**. Tên và số điện thoại của khách hiện ra trên phiếu từ một
 ngày trước giờ đón.
 
-### Lên lịch nghĩa là đưa nó lên lịch làm việc
+### Lên lịch công việc
 
-Đặt cho phiếu khoảng **Lên lịch từ / Lên lịch đến** và **nó được vẽ trên [lịch](/vi/daily/calendar/)**
-qua những đêm đó. Một lần sửa hai ngày khi đó nằm rõ ràng cạnh các lượt đặt xung quanh — và đó chính
-là điểm mấu chốt: bạn thấy được nó có đụng vào một lượt khách đến hay không trước khi cam kết.
+**Lên lịch từ / Lên lịch đến** ghi lại những ngày công việc diễn ra — chẳng hạn một lần sửa kéo dài
+hai ngày. Nó tách biệt với **Hạn xử lý**, thứ quyết định phiếu có bị đánh dấu **Quá hạn** hay không.
 
-Nó không tự khóa các đêm đó. Nếu phòng thực sự không bán được, hãy đóng luôn ngày trên lịch.
+Nó không khóa các đêm đó. Nếu phòng thực sự không bán được, hãy đóng luôn ngày trên
+[lịch](/vi/daily/calendar/#khóa-hoặc-mở-lại-ngày).
 
 ### Kế hoạch xử lý bằng AI
 
@@ -92,9 +97,10 @@ Nó soạn nháp. Nó không đặt linh kiện, không nhắn cho khách, và k
 
 ## Ticket đã đóng ở lại bảng bao lâu
 
-Phiếu đang mở luôn hiển thị. Phiếu **Hoàn tất** và **Đã hủy** ở lại trên bảng **30 ngày sau lần cập
-nhật cuối**, rồi rời khỏi bảng để bảng chỉ còn việc hiện tại. Dùng **Hiện mục đã xong & đã hủy** để
-xem lại. Không có gì bị xóa: phiếu và lịch sử của nó vẫn còn.
+Phiếu đang mở luôn hiển thị. Phiếu **Hoàn tất** được tải thêm khi bạn cuộn cột Hoàn tất. Phiếu **Đã
+hủy** ở lại trên bảng **30 ngày sau lần cập nhật cuối**, rồi rời khỏi bảng để bảng chỉ còn việc hiện
+tại. Trong danh sách, phiếu đã xong nằm sau nút **Hiện mục đã xong & đã hủy**. Không có gì bị xóa:
+phiếu và lịch sử của nó vẫn còn.
 
 ## Ai thấy được phiếu
 

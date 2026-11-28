@@ -71,7 +71,7 @@ otherwise the channel keeps a mapping to a room that no longer exists here.
 
 ## PriceLabs
 
-New PriceLabs connections are **paused**: PriceLabs has no tile in **Add a channel**, and a new
-connection cannot be made. A PriceLabs connection you already have keeps working — Santara AI's own
-pricing engine still stands aside for the listings PriceLabs manages — and it can still be
-disconnected from **Settings → Channels → Connected**.
+Connect PriceLabs from **Settings → Channels → Add a channel**, under **Revenue tools**. Then choose
+PriceLabs per room on **Pricing → Who sets prices** — Santara AI's own pricing engine stands aside
+for those rooms. See [If you already use PriceLabs](/money/pricing/#if-you-already-use-pricelabs).
+A connection can be disconnected from **Settings → Channels → Connected**.

@@ -22,15 +22,15 @@ Roibos harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra konekt
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Roibos**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Roibos**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Username and password | Yang diberikan Roibos kepada Anda. |
-| Booking amount | Apakah total booking sudah termasuk pajak. |
+| Nama pengguna / Kata sandi | Yang diberikan Roibos kepada Anda. |
+| Jumlah pemesanan | Apakah total booking sudah termasuk pajak. |
 | Contract | Tekan Uji koneksi **terlebih dahulu**, lalu pilih kontrak dari daftar. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Roibos memastikan properti sudah terhubung ke Channex.

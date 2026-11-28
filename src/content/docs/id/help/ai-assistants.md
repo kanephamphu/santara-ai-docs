@@ -141,7 +141,7 @@ ditanyakan setiap asisten.
 
 ## Putuskan koneksi
 
-Di Santara AI buka **Pengaturan → Channel → Aplikasi** lalu klik **Putuskan** di samping asisten.
+Di Santara AI buka **Pengaturan → Saluran → Aplikasi** lalu klik **Putuskan** di samping asisten.
 Perubahan berhenti dalam hitungan detik; akses baca berhenti dalam sepuluh menit. Menghapus connector
 di ChatGPT atau Claude juga bisa, tetapi hanya daftar di Santara AI yang menunjukkan aksesnya sudah
 dicabut.

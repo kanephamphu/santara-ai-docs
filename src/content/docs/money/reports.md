@@ -115,4 +115,4 @@ locked panel that explains what the upgrade adds. See [Plans and billing](/setup
 ## Occupancy, ADR and RevPAR
 
 Those figures — occupancy, reservation average daily rate, earnings per property per night and the
-room-by-room comparison — now live on [Upsells](/money/upsells/).
+room-by-room comparison — are on the **Performance** tab at the top of this page.

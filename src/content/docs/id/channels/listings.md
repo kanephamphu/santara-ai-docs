@@ -5,7 +5,7 @@ sidebar:
   order: 6
 ---
 
-Semua di bawah ini ada di **Pengaturan → Channel**, atau di halaman koneksi masing-masing — buka
+Semua di bawah ini ada di **Pengaturan → Saluran**, atau di halaman koneksi masing-masing — buka
 sebuah koneksi untuk melihat daftar lengkap listing-nya, yang dikelola satu per satu.
 
 ## Halaman koneksi
@@ -30,7 +30,7 @@ memetakan kamar yang menayangkannya.
 
 ## Tambah akun lain
 
-Buka **Pengaturan → Channel → Tambah channel** dan tekan **Tambah akun lain** pada kotak channel itu.
+Buka **Pengaturan → Saluran → Tambah saluran** dan tekan **Tambah akun lain** pada kotak channel itu.
 Umum bagi manajer yang memegang listing di beberapa login Airbnb. Tiap koneksi berdiri sendiri —
 listing, status, dan sinkronnya masing-masing.
 
@@ -70,7 +70,7 @@ channel akan tetap memetakan ke kamar yang sudah tidak ada di sini.
 
 ## PriceLabs
 
-Koneksi PriceLabs baru sedang **dijeda**: PriceLabs tidak punya kotak di **Tambah channel**, dan
-koneksi baru tidak bisa dibuat. Koneksi PriceLabs yang sudah ada tetap berjalan — mesin pricing
-Santara AI tetap mengalah untuk listing yang dikelola PriceLabs — dan masih bisa diputus dari
-**Pengaturan → Channel → Terhubung**.
+Hubungkan PriceLabs dari **Pengaturan → Saluran → Tambah saluran**, di bagian **Alat pendapatan**.
+Lalu pilih PriceLabs per kamar di **Harga → Siapa yang menetapkan harga** — mesin pricing Santara AI
+mengalah untuk kamar-kamar itu. Lihat [Jika Anda sudah memakai PriceLabs](/id/money/pricing/#jika-anda-sudah-memakai-pricelabs).
+Koneksi bisa diputus dari **Pengaturan → Saluran → Terhubung**.

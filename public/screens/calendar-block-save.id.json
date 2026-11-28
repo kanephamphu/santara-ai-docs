@@ -3,9 +3,9 @@
   "height": 640,
   "boxes": [
     {
-      "x": 1243.5,
-      "y": 265,
-      "width": 120.5,
+      "x": 1267.484375,
+      "y": 263,
+      "width": 120.515625,
       "height": 48,
       "label": "5. Simpan semua — dikirim ke semua channel",
       "side": "left"

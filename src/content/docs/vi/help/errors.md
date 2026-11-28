@@ -140,7 +140,7 @@ Không có gì tự chuyển từ *Sẵn sàng* sang *Live*. Xem [Go live](/vi/c
 | Một màn hình báo bạn không có quyền | Vai trò của bạn không có năng lực mà màn hình đó đòi | Kiểm tra bạn đang ở đúng workspace (menu tài khoản), rồi hỏi chủ sở hữu — [Đội ngũ và vai trò](/vi/setup/team/) |
 | *Setup workspace chỉ đọc đối với vai trò của bạn.* | Co-host và nhân viên dọn phòng xem được cài đặt workspace, không đổi được | Chủ sở hữu là người đổi — [Được mời làm co-host hoặc quản lý](/vi/start/invited-manager/) |
 | *Setup workspace do chủ workspace quản lý.* | Hiện với nhân viên dọn phòng trên trang cài đặt | Bình thường. Cài đặt tài khoản của riêng bạn vẫn dùng được |
-| *Vai trò đội ngũ không được hỗ trợ.* | Lời mời nêu một vai trò không thể mời | Hiện chỉ **host admin**, **co-host** và **nhân viên dọn phòng** mới mời được |
+| *Vai trò đội ngũ không được hỗ trợ.* | Lời mời nêu một vai trò không thể mời | Mời bằng một trong sáu vai trò — **host admin**, **co-host**, **nhân viên dọn phòng**, **kỹ thuật viên**, **kế toán** hoặc **tài xế**: [Đội ngũ và vai trò](/vi/setup/team/) |
 
 ## Những thứ trông như lỗi mà không phải
 

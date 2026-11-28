@@ -11,7 +11,7 @@ Mỗi workspace đều có thể xuất bản một website đặt phòng trực
 Phía trên là các tab: **Thiết lập**, **Thiết kế**, **Trang & blog**, **SEO**, **Giá**, **Khách tiềm
 năng**, **Yêu cầu** và **Phân tích**.
 
-![Trình dựng website đặt phòng: thiết lập bên trái, xem trước trực tiếp bên phải.](/screens/booking-site.vi.png)
+![Trình dựng website đặt phòng khi chưa thiết lập: Chi tiết trang bên trái, và xem trước trực tiếp bên phải — hiện ra sau khi lưu tên miền phụ.](/screens/booking-site.vi.png)
 
 ## 1. Chọn tên miền phụ
 

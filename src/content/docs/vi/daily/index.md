@@ -8,35 +8,50 @@ sidebar:
 **Hôm nay** là màn hình mặc định. Nó có hai tab: **Bản tin**, mở ra đầu tiên, là cả ngày được viết
 thành câu, và **Tổng quan**, là các con số và lịch của hôm nay.
 
-![Hôm nay, ở tab Bản tin: cả ngày được viết ra, việc cần quyết định đứng đầu.](/screens/today.vi.png)
+![Hôm nay, ở tab Bản tin: "28 việc cần bạn hôm nay", hai nhóm Cần xử lý ngay và Hôm nay, bên cạnh là Số liệu hôm nay với đồng hồ khối lượng việc và thẻ Ngày mai.](/screens/today.vi.png)
 
 ## Bản tin
 
 Tab **Bản tin**. Bản tin được tạo cho workspace của bạn mỗi ngày và gửi vào email của bạn — mặc định lúc **06:00**
 theo múi giờ workspace, hoặc bất kỳ giờ nào bạn chọn — bằng **ngôn ngữ** bạn đặt trong
 [cài đặt workspace](/vi/setup/workspace/#tùy-chọn-vận-hành). Cùng bản tin đó nằm trên màn hình này,
-và được làm mới khi ngày trôi đi. Một tờ duy nhất, theo thứ tự:
+và được làm mới khi ngày trôi đi. Bản tin đọc theo thứ tự:
 
-1. **Dải đầu trang** — ngày, số khách đến, khách đi và lượt dọn giữa hai lượt khách hôm nay, cùng
-   mức độ kín lịch của đội dọn phòng.
-2. **Thẻ điểm** — doanh thu hôm nay, công suất và giá trung bình mỗi đêm, mỗi chỉ số so với
-   tháng tính đến nay.
-3. **Nhận định AI** — mỗi khách hoặc vấn đề cần gì thì một thẻ, kèm chuyện đã xảy ra và việc cần
-   làm: lượt trả phòng rủi ro, câu hỏi chưa trả lời, một lời phàn nàn tích tụ qua ba tin nhắn, ca dọn
-   chưa có người, phiếu sự cố còn mở. Mỗi thẻ dẫn tới đúng luồng hội thoại hoặc lượt lưu trú.
-4. **Cơ hội bán thêm** — trả phòng muộn, nhận phòng sớm và đêm ở thêm mà lịch thực sự còn chỗ, mỗi
-   cơ hội kèm giá và tin nhắn để gửi.
-5. **Dọn phòng, ba ngày tới** — nhóm theo [cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng). Mỗi cụm
+1. **Dòng tiêu đề** — ngày, tên workspace, số chỗ nghỉ và múi giờ; rồi một câu, ví dụ **28 việc cần
+   bạn hôm nay**; rồi số khách đến, khách đi và lượt dọn giữa hai lượt khách hôm nay. **Chia sẻ** và
+   **Tạo lại** nằm bên cạnh.
+2. **Việc cần bạn**, chia thành ba nhóm đặt tên theo *lúc nào* việc phải xong, để bạn đọc từ trên
+   xuống và dừng lại khi thời gian không còn gấp:
+   - **Cần xử lý ngay** · *có giới hạn thời gian*
+   - **Hôm nay** · *gắn với nhận hoặc trả phòng*
+   - **Thông tin thêm** · *không có hạn chót*
+
+   Mỗi dòng là một khách hoặc một vấn đề — sự cố bảo trì, ca dọn chuyển khách chưa có người, tin nhắn
+   của khách đang chờ, một lời phàn nàn tích tụ qua ba tin nhắn — kèm chuyện đã xảy ra, việc cần làm,
+   và một nút để làm (**Mở**, **Nhắn tin**, **Phân công**). Câu tiêu đề đếm các dòng trong hai nhóm
+   đầu, cộng với các đề xuất bán thêm bên dưới đã sẵn sàng gửi; dòng *Thông tin thêm* không có việc gì
+   phải làm nên không được đếm.
+3. **Cơ hội bán thêm** — dưới các nhóm: trả phòng muộn, nhận phòng sớm và đêm ở thêm mà lịch thực sự
+   còn chỗ, mỗi cơ hội kèm giá và tin nhắn để gửi. **Duyệt ưu đãi** mở tất cả.
+4. **Số liệu hôm nay** — ở bên phải. Đồng hồ **Khối lượng việc** cho biết ngày của đội dọn phòng đã kín
+   tới đâu; mở nó để xem con số được tính thế nào. Bên dưới, nếu vai trò của bạn được xem tiền:
+   **Doanh thu**, **Công suất** và **Giá đêm trung bình** của hôm nay, mỗi chỉ số kèm số từ đầu tháng
+   và mức thay đổi.
+5. **Ngày mai** — số khách đến, khách đi và lượt dọn của ngày mai, kèm một dòng cho biết đó là ngày
+   bận hơn hay nhẹ hơn.
+6. **Dọn phòng, ba ngày tới** — nhóm theo [cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng). Mỗi cụm
    có menu **Chia sẻ** với kế hoạch trong ngày đã viết sẵn — gửi qua Zalo, WhatsApp, Messenger, Telegram,
    SMS hoặc email, hoặc sao chép. Người dọn có địa chỉ email còn tự động nhận email Bản tin
    vệ sinh riêng, không có số liệu doanh thu.
-6. **Ngày mai** — một dòng về khách đến, khách đi và lượt dọn của ngày mai.
+
+**Tạo lại** dựng lại bản tin từ các lượt đặt và tin nhắn mới nhất; các đề xuất và hành động sẽ chờ tới
+khi nó xong.
 
 Không gì trong bản tin tự gửi tới khách hay người dọn: mọi tin nhắn đều chờ bạn gửi.
 
 ### Đánh dấu đã xem
 
-Bấm **Đánh dấu đã duyệt tất cả** khi bạn đã đọc qua. Đó là tín hiệu cho đội ngũ rằng đã có người xem, không phải điểm
+Bấm **Đánh dấu đã duyệt tất cả**, ở cuối bản tin, khi bạn đã đọc qua. Đó là tín hiệu cho đội ngũ rằng đã có người xem, không phải điểm
 hoàn thành — không gì bị ẩn đi sau đó.
 
 ### Chia sẻ
@@ -59,18 +74,24 @@ Xem [Báo cáo](/vi/money/reports/).
 
 ## Tổng quan
 
-Tab **Tổng quan** là những gì người quản lý xử lý trước bữa trưa. Ba thẻ:
+Tab **Tổng quan** — **Tổng quan việc đón khách** — là toàn bộ cơ sở trên một trang, thay vì cả ngày
+viết thành câu. Từ trên xuống:
 
-| Thẻ | Đếm gì |
+| Phần | Hiển thị gì |
 | --- | --- |
-| **Có khách đêm nay** | Tỷ lệ phòng có khách ở đêm nay |
-| **Nhận phòng hôm nay** | Số lượt nhận phòng hôm nay, kèm số lượt trả phòng hôm nay bên dưới |
-| **Đang chờ trả lời** | Hội thoại khách chưa được trả lời |
+| Nhận phòng, trả phòng, dọn chuyển khách và đang lưu trú | Ai đang di chuyển, cho **Hôm nay**, **Ngày mai** hoặc **7 ngày tới** |
+| **7 ngày tới** | Mỗi ngày một cột cho nhận phòng, trả phòng và dọn chuyển khách, với công suất là một đường |
+| **Hộp thư** | Bao nhiêu khách **Đang chờ bạn trả lời**, và ai chờ lâu nhất |
+| **Đội ngũ hôm nay** | Từng người dọn với phòng và số việc của họ, và việc **Chưa giao** |
+| **Doanh thu · *tháng*** | **Đã đặt trong tháng**, **Công suất**, **Giá trung bình/đêm** và **RevPAR**, mỗi chỉ số so với tháng trước — chỉ với vai trò được xem tiền |
+| **Đánh giá** | Đánh giá chờ phản hồi, đánh giá dưới 4 sao, và đánh giá mới nhất |
+| **3 tháng tới đang đi về đâu** | Số đêm đã đặt và mỗi tháng nhiều khả năng sẽ kết thúc ở đâu, so với năm ngoái, kèm gợi ý **Tăng**, **Giảm** hoặc **Giữ** giá |
+| **Lượt lưu trú sắp tới** | Các lượt đặt tiếp theo, với khách, chỗ nghỉ, ngày, kênh và trạng thái |
+| **Chỗ nghỉ** | Mỗi chỗ nghỉ đã được đặt bao nhiêu trong 30 ngày tới, kèm **Xem lại giá** ở chỗ yếu |
 
-Bên dưới: dòng thời gian hôm nay (trả phòng, dọn phòng, nhận phòng), việc dọn phòng hôm nay, và — khi
-có khách đang chờ — một dòng như *"3 khách đang chờ trả lời"* dẫn tới [Tin nhắn](/vi/daily/messages/).
-
-Ở đây không còn thẻ doanh thu. Tiền nằm ở [Báo cáo](/vi/money/reports/).
+Khi có khách đang chờ, một dòng như *"3 khách đang chờ trả lời"* ở cuối trang dẫn tới
+[Tin nhắn](/vi/daily/messages/). Người mà cả ngày chỉ là danh sách việc của riêng mình — người dọn phòng,
+kỹ thuật viên — ở đây chỉ thấy dòng thời gian và việc dọn phòng hôm nay, không có số liệu tiền.
 
 ## Thông báo
 

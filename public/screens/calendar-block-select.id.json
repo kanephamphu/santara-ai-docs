@@ -3,10 +3,10 @@
   "height": 640,
   "boxes": [
     {
-      "x": 959,
-      "y": 529.5,
+      "x": 570,
+      "y": 565.5,
       "width": 264,
-      "height": 64,
+      "height": 80,
       "label": "2. Pilih Tarif & ketersediaan",
       "side": "left"
     }

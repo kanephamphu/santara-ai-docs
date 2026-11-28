@@ -35,9 +35,9 @@ Nếu chưa có channel manager nào được kết nối, bạn có thể tự 
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Tiket.com của bạn. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
-| Min Stay Type | Loại số đêm tối thiểu gửi đi: **Arrival** hoặc **Through**. Thường là Arrival. |
+| ID khách sạn | Hotel ID Tiket.com của bạn. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Loại lưu trú tối thiểu | Loại số đêm tối thiểu gửi đi: **Theo ngày đến** hoặc **Suốt thời gian ở**. Thường là Theo ngày đến. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Tiket.com xác nhận chỗ nghỉ đã được kết nối với Channex.
 

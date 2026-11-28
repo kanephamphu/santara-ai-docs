@@ -7,7 +7,12 @@ sidebar:
 
 Every review guests left you, from every connected channel that passes reviews on, in one list.
 
-![Reviews from every channel, with the ones still awaiting a reply counted at the top.](/screens/reviews.en.png)
+![Reviews: how many need a reply, the scorecard with the overall rating, categories and each channel's own scale, then the Needs reply list with Reply with Santi and Write my own.](/screens/reviews.en.png)
+
+The page reads top to bottom. One line says how many reviews **need a reply** and how many are
+**below 4★**, with the period, property and room filters beside it. Under it sits the scorecard —
+**Overall rating**, **By category** and **By channel**, explained under [Scores](#scores) — and then
+the reviews themselves.
 
 ## Finding the ones that matter
 

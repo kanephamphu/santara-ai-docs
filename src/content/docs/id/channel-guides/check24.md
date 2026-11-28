@@ -23,14 +23,14 @@ Check24 harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra konek
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Check24**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Check24**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID Check24 Anda. |
+| ID hotel | Hotel ID Check24 Anda. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Check24 memastikan properti sudah terhubung ke Channex.
 

@@ -23,7 +23,7 @@ MakeMyTrip and Goibibo harus mengizinkan koneksinya terlebih dahulu. Channex ada
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Make My Trip**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Make My Trip**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -32,11 +32,11 @@ MakeMyTrip and Goibibo harus mengizinkan koneksinya terlebih dahulu. Channex ada
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID MakeMyTrip Anda. |
-| Access Token | Token yang diberikan MakeMyTrip saat Channex dihubungkan. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
-| Sync B2B Rate Type / Sync MyBiz Rate Type | Opsional. Kirim harga juga ke tarif B2B atau MyBiz MakeMyTrip; kolom **Modifier (%)** muncul untuk menyesuaikannya. |
-| Booking Amount | **Payout Amount** atau **Total Amount**. |
+| ID hotel | Hotel ID MakeMyTrip Anda. |
+| Token akses | Token yang diberikan MakeMyTrip saat Channex dihubungkan. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Sinkronkan tarif B2B / Sinkronkan tarif MyBiz | Opsional. Kirim harga juga ke tarif B2B atau MyBiz MakeMyTrip; kolom **Modifier (%)** muncul untuk menyesuaikannya. |
+| Jumlah pemesanan | **Jumlah pembayaran ke host** atau **Total Amount**. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support MakeMyTrip and Goibibo memastikan properti sudah terhubung ke Channex.
 

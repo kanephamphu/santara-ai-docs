@@ -226,7 +226,7 @@ See [Managing listings after setup](/channels/listings/).
 - **Attachments in guest messages** — [Messages](/daily/messages/).
 - **Editable stays** from the reservation feed — [Bookings](/daily/bookings/).
 - **Tickets can be scheduled**, which puts the repair on the calendar and holds the room —
-  [Tickets](/daily/tickets/#scheduling-puts-it-on-the-calendar).
+  [Tickets](/daily/tickets/#scheduling-the-work).
 - **Calendar view modes** and a listing-visibility toggle — [Calendar](/daily/calendar/).
 - **Booking.com room-level mapping** with occupancy and currency preflight checks, so a mapping
   that would silently fail to sync is refused with a reason — [Connect Booking.com](/channels/booking-com/).

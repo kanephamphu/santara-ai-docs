@@ -34,9 +34,9 @@ Nếu tài khoản của bạn không có các mục này, hãy email Trip.com t
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel Code | Mã khách sạn Trip.com của bạn. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
-| Tax Setting For Bookings | **Inclusive** hoặc **Exclusive** — tổng tiền đặt phòng có gồm thuế hay không. |
+| Mã khách sạn | Mã khách sạn Trip.com của bạn. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Cài đặt thuế cho đặt phòng | **Đã gồm thuế** hoặc **Chưa gồm thuế** — tổng tiền đặt phòng có gồm thuế hay không. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Trip.com (Ctrip) xác nhận chỗ nghỉ đã được kết nối với Channex.
 

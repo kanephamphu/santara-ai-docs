@@ -7,7 +7,7 @@ sidebar:
 
 **Đặt phòng** liệt kê mọi lượt lưu trú từ mọi kênh, cộng với những lượt bạn nhập tay.
 
-![Đặt phòng — mọi lượt lưu trú từ mọi kênh, nhóm theo thời điểm khách đến.](/screens/bookings.vi.png)
+![Đặt phòng: tab Sắp tới liệt kê khách đến hôm nay ở bên trái, chi tiết lượt lưu trú đang chọn mở ra bên cạnh.](/screens/bookings.vi.png)
 
 ## Danh sách
 
@@ -35,7 +35,8 @@ Phía trên danh sách:
 
 Bấm vào bất kỳ lượt đặt nào và chi tiết mở ra cạnh danh sách:
 
-- **Mã đặt phòng** — mã tham chiếu của kênh, để tra cùng lượt đặt trong extranet.
+- **Mã đặt phòng** — mã tham chiếu của kênh, hiện cạnh tên kênh dưới tên khách, để tra cùng lượt
+  đặt trong extranet.
 - **Nhận phòng và trả phòng**, kèm giờ (**từ 14:00**, **trước 11:00**), và lượt lưu trú đang ở đâu —
   **Đến sau 3 ngày**, **Đêm 2/4**, **Trả phòng hôm nay**, **Đã hoàn tất lưu trú**.
 - **Chỗ nghỉ**, **Khách** và **Điện thoại** (hoặc **Chưa có số điện thoại**).
@@ -44,7 +45,7 @@ Bấm vào bất kỳ lượt đặt nào và chi tiết mở ra cạnh danh sá
 - **Ghi chú**, nếu có.
 - **Liên quan** — **Mở hội thoại** và **Xem ca dọn**.
 
-Ở cuối: **Nhắn tin cho khách**, và với lượt lưu trú bạn tạo trong Santara AI, **Sửa** và **Huỷ đặt
+Ở cuối: **Nhắn tin cho khách**, và với lượt lưu trú bạn tạo trong Santara AI, **Sửa** và **Hủy đặt
 phòng**. Lượt lưu trú đến từ kênh là bản ghi của kênh — hãy đổi hoặc hủy ở đó, và thay đổi sẽ về đây.
 
 ## Lượt đặt bị trùng phòng

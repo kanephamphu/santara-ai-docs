@@ -24,14 +24,14 @@ Atau minta tim support Traveloka menghubungkannya untuk Anda.
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Traveloka**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Traveloka**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Property ID berupa kode huruf yang diberikan Traveloka untuk koneksi ini. |
+| ID hotel | Property ID berupa kode huruf yang diberikan Traveloka untuk koneksi ini. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Traveloka memastikan properti sudah terhubung ke Channex.
 

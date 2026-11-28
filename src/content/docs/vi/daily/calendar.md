@@ -14,7 +14,9 @@ Phòng ở bên trái, ngày chạy ngang phía trên, lượt lưu trú vẽ th
 
 - **Một thanh** là một lượt đặt. Màu cho biết kênh; nhãn hiển thị khách và doanh thu.
 - **Đêm trống** hiển thị giá mỗi đêm sẽ được tính.
-- **Khối kẻ sọc** là một ticket đã lên lịch cho những ngày đó — sửa chữa, tổng vệ sinh, chủ nhà ở.
+- **Công suất**, hàng đầu tiên, cho biết mỗi đêm đã đặt bao nhiêu phần số phòng trên toàn bộ
+  những gì đang hiện (*89%*, *17/19*). Hàng tiêu đề của từng chỗ nghỉ cho biết con số tương tự cho
+  các phòng của nó (*2/3*).
 - **Bấm vào một ngày** để xem danh sách ngày: mọi thứ diễn ra trong ngày đó.
 - **Thanh màu đỏ có dấu cảnh báo** là một lượt lưu trú bị trùng phòng: phòng đó có nhiều lượt lưu
   trú hơn số đơn vị trong những đêm ấy. Thẻ của nó ghi **Trùng phòng: phòng này có nhiều đặt phòng
@@ -51,6 +53,12 @@ duyệt nhớ kiểu bạn dùng gần nhất.
 
 **Xóa bộ lọc** đưa cả hai về mặc định.
 
+Phía trên lưới, hai mũi tên, **Hôm nay** và ô ngày dùng để di chuyển theo thời gian, còn **2 tuần**,
+**3 tuần** hoặc **4 tuần** chọn số ngày hiển thị trên màn hình. **Hiện** bật hoặc tắt **Giá**,
+**Doanh thu** và **Bán thêm** trên lưới. Bên dưới là một hàng thẻ tóm tắt những gì đang hiện: **Tối
+nay đã đặt 13/19**, **7 đêm tới 60%**, **8 khách đến hôm nay**, **Doanh thu sắp tới** và **Bán thêm
+đang mở**.
+
 ## Khóa hoặc mở lại ngày
 
 Khóa một đêm cũng là đóng đêm đó: không ai đặt được ở bất kỳ kênh nào. Bạn làm ngay trên lưới — bấm
@@ -67,10 +75,11 @@ một đêm, hoặc kéo qua nhiều đêm.
 
    ![Kéo ba đêm trên Garden Room: các đêm được viền và bảng Ngày đã chọn mở ra bên cạnh.](/screens/calendar-block-select.vi.png)
 
-3. Đặt **Ngừng bán** thành **Đã đóng** để khóa, hoặc **Mở bán** để mở lại. Để trống các trường
-   khác thì chúng giữ nguyên.
+3. Trong trình chỉnh giá, đặt **Mở bán** thành **Đã đóng** để khóa, hoặc **Mở bán** để mở lại. Lựa
+   chọn đầu tiên, **Giữ**, để nguyên các đêm như hiện tại (*Giữ (Mở bán)*). Không đụng tới các
+   trường khác thì chúng giữ nguyên.
 
-   ![Ngừng bán đặt thành Đã đóng cho ba đêm, bên dưới là Thêm 3 đêm vào danh sách chờ.](/screens/calendar-block-close.vi.png)
+   ![Trình chỉnh giá cho ba đêm của Garden Room, Mở bán đặt thành Đã đóng, bên dưới là Thêm 3 đêm vào danh sách chờ.](/screens/calendar-block-close.vi.png)
 
 4. Bấm **Thêm 3 đêm vào danh sách chờ** (con số theo số đêm bạn chọn). Các đêm chuyển màu vàng với viền nét đứt — chưa có gì
    được gửi đi, nên bạn có thể tiếp tục chọn và cộng dồn thay đổi khác.
@@ -79,8 +88,8 @@ một đêm, hoặc kéo qua nhiều đêm.
 
    ![Ba đêm giờ màu vàng viền nét đứt, nằm trong danh sách chờ; Lưu tất cả đẩy chúng sang mọi kênh.](/screens/calendar-block-save.vi.png)
 
-Đêm đã đóng sẽ hiện **Đã đóng** trên lưới. Muốn mở lại, chọn lại đúng các đêm đó và đặt **Ngừng
-bán** thành **Mở bán**.
+Đêm đã đóng sẽ hiện **Đã đóng** trên lưới. Muốn mở lại, chọn lại đúng các đêm đó và ở mục **Mở
+bán** chọn **Mở bán**.
 
 :::note
 - Một khoảng chỉ nằm trên **một hàng phòng** — muốn khóa hai phòng thì làm lần lượt từng hàng (cả
@@ -93,22 +102,23 @@ bán** thành **Mở bán**.
 
 ## Chỉnh sửa một khoảng
 
-Chọn một khoảng đêm trên một phòng và bạn có ba thao tác:
+Chọn một khoảng đêm trên một phòng và bảng **Ngày đã chọn** đưa ra hai thao tác:
 
-**Đặt những đêm này cho khách** — tạo một lượt đặt thủ công. Dùng cho đặt phòng trực tiếp qua điện
+**Đặt phòng mới** — tự tay đặt những đêm này cho khách. Dùng cho đặt phòng trực tiếp qua điện
 thoại, chủ nhà ở, hay bạn bè. Đặt phòng thủ công khóa các đêm đó ở mọi kênh đã kết nối như một lượt
 đặt thật.
 
-**Lên lịch bảo trì hoặc công việc** — mở một [ticket](/vi/daily/tasks/#ticket) cho những ngày đó và vẽ
-nó ở đây.
-
-**Giá, số đêm tối thiểu hoặc đóng ngày** — trình chỉnh tình trạng trống:
+**Giá & tình trạng phòng** — trình chỉnh giá:
 
 | Trường | Tác dụng |
 | --- | --- |
-| **Giá** | Giá mỗi đêm cho những đêm đó, trên rate plan đã chọn |
-| **Số đêm tối thiểu** | Lượt đặt ngắn nhất được phép bắt đầu vào những đêm đó |
-| **Ngừng bán** | **Đã đóng** khóa những đêm đó ở mọi kênh; **Mở bán** bán lại |
+| **Giá mỗi đêm** | Giá mỗi đêm cho những đêm đó. Giá này được đăng lên các kênh đã kết nối |
+| **Số phòng mở bán** | Số đơn vị của phòng còn được bán, tối đa bằng số đơn vị; đặt phòng sẽ trừ vào số này |
+| **Mở bán** | **Đã đóng** khóa những đêm đó ở mọi kênh; **Mở bán** bán lại; **Giữ** để nguyên |
+| **Quy định lưu trú** | Mặc định được thu gọn: **Số đêm tối thiểu**, **Số đêm tối đa**, **Không nhận phòng** và **Không trả phòng** |
+
+**Xóa các ghi đè** bỏ những gì bạn đã tự đặt cho các đêm đó. **Mở lịch giá đầy đủ** mở lưới Giá
+trong một thẻ mới, để làm hàng loạt trên nhiều phòng.
 
 Thay đổi nằm trong **danh sách chờ** cho tới khi bạn bấm **Lưu tất cả**; một lần lưu đó đẩy chúng sang mọi kênh đã kết nối. Không có bước "xuất bản" nào khác.
 

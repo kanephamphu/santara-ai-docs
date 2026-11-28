@@ -17,8 +17,9 @@ permission in your own extranet, then connect it to a property you already have 
 - Your **Hotel ID** — the number at the top of the extranet, beside the property name.
 
 The setup has three steps: **Choose property**, **Connect and map**, **Import**.
+**Step-by-step guide**, at the top right of the setup, opens this page.
 
-![The Booking.com connect step — the extranet checkbox and the Hotel ID.](/screens/connect-booking-com.en.png)
+![The Booking.com connect page on its first step, Choose property: which of your properties this hotel is, with Connect and map and Import still to come.](/screens/connect-booking-com.en.png)
 
 ## 1. Enable the connection in your extranet
 

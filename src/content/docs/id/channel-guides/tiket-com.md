@@ -26,7 +26,7 @@ Jika belum ada channel manager yang terhubung, Anda bisa memilih Channex sendiri
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Tiket.com**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Tiket.com**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -35,9 +35,9 @@ Jika belum ada channel manager yang terhubung, Anda bisa memilih Channex sendiri
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID Tiket.com Anda. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
-| Min Stay Type | Minimum menginap yang dikirim: **Arrival** atau **Through**. Biasanya Arrival. |
+| ID hotel | Hotel ID Tiket.com Anda. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Jenis minimum menginap | Minimum menginap yang dikirim: **Saat tiba** atau **Sepanjang menginap**. Biasanya Saat tiba. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Tiket.com memastikan properti sudah terhubung ke Channex.
 

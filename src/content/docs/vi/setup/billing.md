@@ -8,12 +8,17 @@ sidebar:
 **Cài đặt → Thanh toán**. Các con số trên màn hình đó là căn cứ chính thức cho workspace của bạn —
 trang này giải thích hình dạng của chúng.
 
-![Thanh toán: gói, phần bị tính theo chỗ nghỉ, và thẻ đang lưu.](/screens/billing.vi.png)
+![Thanh toán khi workspace chưa có thẻ: Bắt đầu dùng thử miễn phí 3 tháng, ô mã giảm giá không bắt buộc, nút Bắt đầu dùng thử miễn phí, và Bạn trả bao nhiêu ở bên dưới.](/screens/billing.vi.png)
 
 ## Dùng thử
 
 Ba tháng miễn phí — **90 ngày** — và **bắt buộc có thẻ**. Không có khoản nào bị tính vào ngày bạn
 thêm thẻ, và hủy trước ngày thứ 91 thì không mất gì.
+
+Workspace chưa có thẻ sẽ mở **Cài đặt → Thanh toán** ở **Bắt đầu dùng thử miễn phí 3 tháng**. Nếu
+có mã, nhập vào ô **Có mã giảm giá? (không bắt buộc)**, rồi bấm **Bắt đầu dùng thử miễn phí**:
+Stripe mở biểu mẫu thẻ bảo mật của riêng họ, và hôm nay chưa tính phí. Ô **Bạn trả bao nhiêu** bên
+dưới cho biết gói sẽ tốn bao nhiêu mỗi tháng.
 
 :::caution[Bản dùng thử có hai giới hạn, không phải một]
 Nó kết thúc ở **90 ngày hoặc 3 listing, cái nào tới trước.** Kết nối listing thứ tư sẽ chấm dứt bản

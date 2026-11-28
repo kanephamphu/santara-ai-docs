@@ -25,7 +25,7 @@ channel](/id/channel-guides/) mencantumkan apa yang diminta masing-masing.
 
 ## 1. Pilih properti
 
-Buka **Pengaturan → Channel → Tambah channel**, cari di katalog, lalu tekan **Hubungkan** pada
+Buka **Pengaturan → Saluran → Tambah saluran**, cari di katalog, lalu tekan **Hubungkan** pada
 channel tersebut. Kemudian pilih properti yang dituju.
 
 Sebuah channel terhubung ke **satu properti setiap kali**, beserta kamarnya. Untuk menjual properti
@@ -69,7 +69,7 @@ dan impor dimulai dari sana.
 
 ## Setelah terhubung
 
-Channel muncul di **Pengaturan → Channel → Terhubung**, dengan kamar dan tarif yang sudah
+Channel muncul di **Pengaturan → Saluran → Terhubung**, dengan kamar dan tarif yang sudah
 dipetakan. Dari sana Anda bisa membuka lagi penyiapannya, dan channel yang terhubung tetapi belum
 live menampilkan catatan tentang itu.
 

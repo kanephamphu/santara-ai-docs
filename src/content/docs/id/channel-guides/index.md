@@ -14,9 +14,9 @@ tarifnya dipetakan**. Setiap panduan di bawah membahas satu channel.
 
 ## Tempat menghubungkan channel
 
-Buka **Pengaturan → Channel → Tambah channel** lalu tekan **Hubungkan** pada channel tersebut.
+Buka **Pengaturan → Saluran → Tambah saluran** lalu tekan **Hubungkan** pada channel tersebut.
 
-![Pengaturan → Channel → Tambah channel: semua channel yang bisa Anda hubungkan.](/screens/channel-guides/catalogue.id.png)
+![Pengaturan → Saluran → Tambah saluran: semua channel yang bisa Anda hubungkan.](/screens/channel-guides/catalogue.id.png)
 
 Lalu pilih properti untuk channel itu. Langkah 2 menampilkan kolom penyiapan milik channel tersebut — setiap panduan punya tangkapan layarnya.
 
@@ -43,43 +43,43 @@ Lalu pilih properti untuk channel itu. Langkah 2 menampilkan kolom penyiapan mil
 | Channel | Yang Anda isi di Santara AI | Pemetaan |
 | --- | --- | --- |
 | [Airbnb](/id/channels/airbnb/) | Masuk ke Airbnb (pop-up) | Listing demi listing |
-| [Booking.com](/id/channels/booking-com/) | Hotel ID | Kamar dan tarif |
-| [Agoda](/id/channel-guides/agoda/) | Hotel ID | Multi-okupansi |
-| [Expedia](/id/channel-guides/expedia/) | Hotel ID | Kamar dan tarif |
-| [Trip.com (Ctrip)](/id/channel-guides/trip-com/) | Hotel Code | Biasanya multi-okupansi |
+| [Booking.com](/id/channels/booking-com/) | ID hotel | Kamar dan tarif |
+| [Agoda](/id/channel-guides/agoda/) | ID hotel | Multi-okupansi |
+| [Expedia](/id/channel-guides/expedia/) | ID hotel | Kamar dan tarif |
+| [Trip.com (Ctrip)](/id/channel-guides/trip-com/) | Kode hotel | Biasanya multi-okupansi |
 | [Traveloka](/id/channel-guides/traveloka/) | Property ID (huruf) | Multi-okupansi, tarif RETAIL |
-| [Tiket.com](/id/channel-guides/tiket-com/) | Hotel ID | Kamar dan tarif |
-| [Klook](/id/channel-guides/klook/) | Hotel ID | Kamar dan tarif |
-| [MakeMyTrip and Goibibo](/id/channel-guides/makemytrip/) | Hotel ID + access token | Biasanya multi-okupansi |
-| [Hostelworld](/id/channel-guides/hostelworld/) | Hotel ID | Okupansi maksimum |
-| [Hotelbeds](/id/channel-guides/hotelbeds/) | Username + password, lalu kontrak | Kamar dan tarif |
-| [Despegar](/id/channel-guides/despegar/) | Hotel ID + username + API password | Kamar dan tarif |
-| [HRS](/id/channel-guides/hrs/) | Hotel ID | Satu tarif per kamar |
-| [Check24](/id/channel-guides/check24/) | Hotel ID | Multi-okupansi |
-| [Crewdogs](/id/channel-guides/crewdogs/) | Hotel Code | Kamar dan tarif |
-| [Dida Travel](/id/channel-guides/dida-travel/) | Hotel ID | Kamar dan tarif |
-| [Emerging Travel Group](/id/channel-guides/emerging-travel/) | Hotel ID | Biasanya multi-okupansi |
-| [Feratel](/id/channel-guides/feratel/) | Hotel ID | Multi-okupansi atau per kamar |
-| [Glamping Hub](/id/channel-guides/glamping-hub/) | Hotel Code | Per kamar |
-| [Hipcamp](/id/channel-guides/hipcamp/) | Hotel Code | Kamar dan tarif |
-| [Hotel Trader](/id/channel-guides/hotel-trader/) | Hotel Code | Kamar dan tarif |
-| [HotelTonight](/id/channel-guides/hoteltonight/) | Hotel ID | Kamar dan tarif |
+| [Tiket.com](/id/channel-guides/tiket-com/) | ID hotel | Kamar dan tarif |
+| [Klook](/id/channel-guides/klook/) | ID hotel | Kamar dan tarif |
+| [MakeMyTrip and Goibibo](/id/channel-guides/makemytrip/) | ID hotel + Token akses | Biasanya multi-okupansi |
+| [Hostelworld](/id/channel-guides/hostelworld/) | ID hotel | Okupansi maksimum |
+| [Hotelbeds](/id/channel-guides/hotelbeds/) | Nama pengguna + Kata sandi, lalu kontrak | Kamar dan tarif |
+| [Despegar](/id/channel-guides/despegar/) | ID hotel + Nama pengguna + Kata sandi (API password) | Kamar dan tarif |
+| [HRS](/id/channel-guides/hrs/) | ID hotel | Satu tarif per kamar |
+| [Check24](/id/channel-guides/check24/) | ID hotel | Multi-okupansi |
+| [Crewdogs](/id/channel-guides/crewdogs/) | Kode hotel | Kamar dan tarif |
+| [Dida Travel](/id/channel-guides/dida-travel/) | ID hotel | Kamar dan tarif |
+| [Emerging Travel Group](/id/channel-guides/emerging-travel/) | ID hotel | Biasanya multi-okupansi |
+| [Feratel](/id/channel-guides/feratel/) | ID hotel | Multi-okupansi atau per kamar |
+| [Glamping Hub](/id/channel-guides/glamping-hub/) | Kode hotel | Per kamar |
+| [Hipcamp](/id/channel-guides/hipcamp/) | Kode hotel | Kamar dan tarif |
+| [Hotel Trader](/id/channel-guides/hotel-trader/) | Kode hotel | Kamar dan tarif |
+| [HotelTonight](/id/channel-guides/hoteltonight/) | ID hotel | Kamar dan tarif |
 | [HyperGuest](/id/channel-guides/hyperguest/) | Property ID | Multi-okupansi |
-| [Inntopia](/id/channel-guides/inntopia/) | Hotel ID | Per kamar, tarif RACK |
-| [Kliknbook](/id/channel-guides/kliknbook/) | Hotel Code | Multi-okupansi |
-| [MG Bedbank](/id/channel-guides/mg-bedbank/) | Hotel ID | Biasanya multi-okupansi |
-| [Mr & Mrs Smith](/id/channel-guides/mr-and-mrs-smith/) | Hotel ID | Per kamar |
-| [OpenGDS](/id/channel-guides/opengds/) | Hotel ID | Per kamar |
-| [PriceTravel](/id/channel-guides/pricetravel/) | Hotel ID | Multi-okupansi |
-| [Roibos](/id/channel-guides/roibos/) | Username + password, lalu kontrak | Kamar dan tarif |
-| [WebBeds](/id/channel-guides/webbeds/) | Hotel Code | Kamar dan tarif |
-| [Yatra](/id/channel-guides/yatra/) | Hotel ID | Per kamar |
-| [Getaroom](/id/channel-guides/getaroom/) | Hotel ID | Kamar dan tarif |
+| [Inntopia](/id/channel-guides/inntopia/) | ID hotel | Per kamar, tarif RACK |
+| [Kliknbook](/id/channel-guides/kliknbook/) | Kode hotel | Multi-okupansi |
+| [MG Bedbank](/id/channel-guides/mg-bedbank/) | ID hotel | Biasanya multi-okupansi |
+| [Mr & Mrs Smith](/id/channel-guides/mr-and-mrs-smith/) | ID hotel | Per kamar |
+| [OpenGDS](/id/channel-guides/opengds/) | ID hotel | Per kamar |
+| [PriceTravel](/id/channel-guides/pricetravel/) | ID hotel | Multi-okupansi |
+| [Roibos](/id/channel-guides/roibos/) | Nama pengguna + Kata sandi, lalu kontrak | Kamar dan tarif |
+| [WebBeds](/id/channel-guides/webbeds/) | Kode hotel | Kamar dan tarif |
+| [Yatra](/id/channel-guides/yatra/) | ID hotel | Per kamar |
+| [Getaroom](/id/channel-guides/getaroom/) | ID hotel | Kamar dan tarif |
 | [Hopper](/id/channel-guides/hopper/) (khusus hotel) | — | Tarif terbaik yang tersedia |
 | [Nuitee](/id/channel-guides/nuitee/) (khusus hotel) | — | Tarif terbaik yang tersedia |
 | [Google Hotels dan Vacation Rentals](/id/channel-guides/google/) | Booking link atau halaman pemesanan bawaan | Rate plan yang ditampilkan |
 | [Hopper Homes](/id/channel-guides/hopper-homes/) | Daftar mitra + email host | Per listing |
-| [Channel lainnya](/id/channel-guides/more-channels/) — 35 channel katalog lainnya | Hotel Code (umumnya) | — |
+| [Channel lainnya](/id/channel-guides/more-channels/) — 35 channel katalog lainnya | Kode hotel (umumnya) | — |
 
 ## Pesan tamu
 

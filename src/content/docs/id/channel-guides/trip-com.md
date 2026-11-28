@@ -25,7 +25,7 @@ Jika opsi itu tidak ada di akun Anda, kirim email ke Trip.com di lodgingsupport@
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Trip.com (Ctrip)**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Trip.com (Ctrip)**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -34,9 +34,9 @@ Jika opsi itu tidak ada di akun Anda, kirim email ke Trip.com di lodgingsupport@
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel Code | Kode hotel Trip.com Anda. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
-| Tax Setting For Bookings | **Inclusive** atau **Exclusive** — apakah total pemesanan termasuk pajak. |
+| Kode hotel | Kode hotel Trip.com Anda. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Pengaturan pajak pemesanan | **Termasuk pajak** atau **Belum termasuk pajak** — apakah total pemesanan termasuk pajak. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Trip.com (Ctrip) memastikan properti sudah terhubung ke Channex.
 

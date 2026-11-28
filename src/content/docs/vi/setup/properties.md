@@ -10,11 +10,11 @@ thứ khách đặt, thứ kênh ánh xạ tới, và thứ được tính phí.
 [Santara AI được cấu trúc thế nào](/vi/start/concepts/#bất-động-sản-rồi-phòng) nếu cách chia này còn mới
 với bạn.
 
-![Bất động sản: các tòa nhà của bạn, và những phòng bên trong mà khách thực sự đặt.](/screens/properties.vi.png)
+![Chỗ nghỉ: mọi phòng nhóm theo chỗ nghỉ của nó, với giá mỗi đêm, số căn, kênh và trạng thái, cùng các bộ lọc Tất cả / Cần bạn xử lý / Đang bán / Chưa đăng.](/screens/properties.vi.png)
 
 ## Tạo thủ công
 
-Bạn không cần kênh nào. **Bất động sản → Thêm bất động sản**, điền phần cơ bản, rồi thêm phòng đầu tiên
+Bạn không cần kênh nào. **Chỗ nghỉ → Thêm chỗ nghỉ**, điền phần cơ bản, rồi thêm phòng đầu tiên
 — phòng mới là thứ khách đặt, nên bất động sản không có phòng thì không bán được.
 
 Đây là lối đi đúng nếu bạn chỉ nhận đặt phòng trực tiếp, hoặc muốn chuẩn bị mọi thứ trước khi kết nối
@@ -85,8 +85,11 @@ làm việc; họ không thấy mã của phần còn lại trong danh mục c�
 ## Vì sao điền đủ lại quan trọng
 
 Các phần AI của sản phẩm chỉ cụ thể bằng đúng mức bất động sản phía sau. Bất động sản không có giờ nhận
-phòng, wifi và địa chỉ sẽ cho ra bản nháp mơ hồ và thời điểm upsell yếu. Màn hình bất động sản đánh dấu
-**khoảng trống thông tin** chính vì lý do đó.
+phòng, wifi và địa chỉ sẽ cho ra bản nháp mơ hồ và thời điểm upsell yếu. Chính vì vậy trang của mỗi
+phòng có danh sách **Sẵn sàng bán**, và **Mã cửa & Wi-Fi** là một mục trong đó.
+
+Trên màn hình chỗ nghỉ, bộ lọc **Cần bạn xử lý** chỉ hiện những phòng chưa bán ổn được — chưa có giá
+mỗi đêm, chưa xác nhận số khách tối đa, hoặc đồng bộ kênh thất bại.
 
 ## Đồng bộ từ kênh
 

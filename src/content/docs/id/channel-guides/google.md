@@ -17,18 +17,18 @@ Cara menghubungkan Google Hotels dan Vacation Rentals ke Santara AI. Penyiapan d
 
 ## 1. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Google Hotel ARI**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Google Hotel ARI**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Partner Account | Biarkan apa adanya kecuali kami memberi tahu lain. |
-| Use built-in IBE | Dicentang: tamu yang mengklik di Google masuk ke halaman pemesanan siap pakai. Tidak dicentang: isi **Booking Link**. |
-| Booking Link | Halaman pemesanan Anda sendiri, dengan placeholder yang diisi Google — misalnya `https://example.com/book?checkin=(CHECKIN_DATE)&nights=(LENGTH)`. Lainnya: `(CHECKOUT_DATE)`, `(ADULTS)`, `(CURRENCY)`. |
-| Beds count / Bedrooms count / Bathrooms count | Wajib untuk vacation rental. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Akun mitra | Biarkan apa adanya kecuali kami memberi tahu lain. |
+| Gunakan mesin pemesanan bawaan | Dicentang: tamu yang mengklik di Google masuk ke halaman pemesanan siap pakai. Tidak dicentang: isi **Tautan pemesanan**. |
+| Tautan pemesanan | Halaman pemesanan Anda sendiri, dengan placeholder yang diisi Google — misalnya `https://example.com/book?checkin=(CHECKIN_DATE)&nights=(LENGTH)`. Lainnya: `(CHECKOUT_DATE)`, `(ADULTS)`, `(CURRENCY)`. |
+| Jumlah tempat tidur / Jumlah kamar tidur / Jumlah kamar mandi | Wajib untuk vacation rental. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
 
 ## 2. Petakan kamar dan tarif
 

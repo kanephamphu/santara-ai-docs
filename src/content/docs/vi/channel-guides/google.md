@@ -24,11 +24,11 @@ Cách kết nối Google Hotels và Vacation Rentals với Santara AI. Phần th
 
 | Trường | Nhập gì |
 | --- | --- |
-| Partner Account | Giữ nguyên trừ khi chúng tôi hướng dẫn khác. |
-| Use built-in IBE | Có tích: khách bấm trên Google sẽ vào trang đặt phòng có sẵn. Không tích: điền **Booking Link**. |
-| Booking Link | Trang đặt phòng của riêng bạn, với các biến Google tự điền — ví dụ `https://example.com/book?checkin=(CHECKIN_DATE)&nights=(LENGTH)`. Biến khác: `(CHECKOUT_DATE)`, `(ADULTS)`, `(CURRENCY)`. |
-| Beds count / Bedrooms count / Bathrooms count | Bắt buộc với nhà cho thuê. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Tài khoản đối tác | Giữ nguyên trừ khi chúng tôi hướng dẫn khác. |
+| Dùng công cụ đặt phòng có sẵn | Có tích: khách bấm trên Google sẽ vào trang đặt phòng có sẵn. Không tích: điền **Liên kết đặt phòng**. |
+| Liên kết đặt phòng | Trang đặt phòng của riêng bạn, với các biến Google tự điền — ví dụ `https://example.com/book?checkin=(CHECKIN_DATE)&nights=(LENGTH)`. Biến khác: `(CHECKOUT_DATE)`, `(ADULTS)`, `(CURRENCY)`. |
+| Số giường / Số phòng ngủ / Số phòng tắm | Bắt buộc với nhà cho thuê. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
 
 ## 2. Ánh xạ phòng và mức giá
 

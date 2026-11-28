@@ -3,17 +3,17 @@
   "height": 900,
   "boxes": [
     {
-      "x": 478,
-      "y": 573.5,
-      "width": 161.328125,
-      "height": 56,
-      "label": "3. Hentikan penjualan → Ditutup",
+      "x": 482,
+      "y": 501,
+      "width": 476,
+      "height": 44,
+      "label": "3. Dijual → Ditutup",
       "side": "left"
     },
     {
-      "x": 478,
-      "y": 650.5,
-      "width": 294.890625,
+      "x": 482,
+      "y": 690,
+      "width": 294.921875,
       "height": 56,
       "label": "4. Tambahkan ke tertunda",
       "side": "left"

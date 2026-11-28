@@ -140,7 +140,7 @@ Nothing moves from *Ready* to *Live* on its own. See [Going live](/channels/goin
 | A screen says you do not have access | Your role does not hold the capability that screen needs | Check you are in the right workspace (account menu), then ask an owner — [Team and roles](/setup/team/) |
 | *Workspace setup is read-only for your role.* | Co-hosts and cleaners can see workspace settings, not change them | The owner changes them — [Invited as a co-host or manager](/start/invited-manager/) |
 | *Workspace setup is managed by the workspace owner.* | Shown to cleaners on the settings page | Expected. Your own account settings still work |
-| *Unsupported team role.* | An invitation named a role that cannot be invited | Only **host admin**, **co-host** and **cleaner** can be invited today |
+| *Unsupported team role.* | An invitation named a role that cannot be invited | Invite with one of the six roles — **host admin**, **co-host**, **cleaner**, **technician**, **bookkeeper** or **driver**: [Team and roles](/setup/team/) |
 
 ## Things that look like errors and are not
 

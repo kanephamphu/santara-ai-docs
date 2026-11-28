@@ -34,7 +34,8 @@ nhưng không gửi gì. Khi chạy thật, nó chỉ trả lời các chủ đ�
 an toàn luôn chờ bạn. Ngoài ra, AI viết; bạn gửi.
 
 **Nó có tự đổi giá của tôi không?**
-Chỉ khi bạn gán một [rule set định giá](/vi/money/pricing/) cho listing và để *Tự động đăng giá* bật.
+Chỉ khi bạn đặt một phòng sang *Tự động (Santara AI)* ở [Ai đặt giá](/vi/money/pricing/) và để *Tự
+động đăng giá* bật.
 Giá bạn nhập tay không bao giờ bị ghi đè trừ khi bạn cho phép.
 
 **Có lượt đặt trên Airbnb. Tôi có cần khóa ở nơi khác không?**

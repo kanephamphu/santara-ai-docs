@@ -34,8 +34,8 @@ giao hoặc hoàn tất, ticket được mở hoặc đã xong.
 ## Mỗi tuần — hai mươi phút
 
 - **[Lịch](/vi/daily/calendar/)** — quét 60 ngày tới. Tìm khoảng trống một hoặc hai đêm giữa các lượt
-  đặt; đó chính là việc của [quy tắc định giá](/vi/money/pricing/) và [upsell](/vi/money/upsells/).
-- **[Upsell](/vi/money/upsells/)** — chấp nhận hoặc bỏ qua những gì đã tìm thấy.
+  đặt; đó chính là việc của [định giá thông minh](/vi/money/pricing/) và [upsell](/vi/money/upsells/).
+- **[Upsell](/vi/money/upsells/)** — bấm **Duyệt ưu đãi** cho những gì đã tìm thấy.
 - **[Đánh giá](/vi/daily/reviews/)** — trả lời những gì mới về. Trên Airbnb, cả hai đánh giá chỉ hiện
   khi hai bên cùng viết, nên một đánh giá bạn chưa đáp lại là tiền bỏ lại trên bàn.
 - **[Báo cáo](/vi/money/reports/)** — tháng này đang ở đâu so với tháng trước.
@@ -44,14 +44,15 @@ giao hoặc hoàn tất, ticket được mở hoặc đã xong.
 
 - **[Báo cáo](/vi/money/reports/)** — thêm chi phí dọn phòng, bảo trì và tiện ích của tháng, rồi đọc
   bảng kê cho chủ sở hữu và tải CSV.
-- **[Định giá](/vi/money/pricing/)** — xem bảng hiệu quả. RevPAN tăng và bộ máy dần ổn định (ít thay
-  đổi hơn, biên độ nhỏ hơn) là dấu hiệu tốt.
+- **[Báo cáo](/vi/money/reports/)** — mở **Hiệu quả kinh doanh**. RevPAR tăng là dấu hiệu định giá
+  tốt; sau đó xem **Tín hiệu công suất** dưới lưới [Giá](/vi/money/pricing/) để biết phòng nào cần
+  chỉnh giá.
 
 ## Những gì có thể để yên
 
 - **Công việc turnover.** Tự tạo vào đêm trước mỗi lượt trả phòng.
 - **Đặt phòng, khách, tin nhắn, đánh giá.** Chúng tự đồng bộ.
-- **Giá đã xuất bản.** Khi rule set đã gán và tự xuất bản đang bật, giá tự đi ra.
+- **Giá đã xuất bản.** Khi phòng ở chế độ Tự động và tự xuất bản đang bật, giá tự đi ra.
 - **Tình trạng trống.** Một lượt đặt ở bất kỳ kênh nào sẽ đóng đêm đó ở mọi kênh.
 
 ## Khi có gì đó bất thường
