@@ -13,7 +13,7 @@ bisnis Anda yang sebenarnya adalah wajar:
 - *Mengapa listing Airbnb untuk Unit 3 belum live?*
 - *Buatkan draf balasan untuk tamu yang menanyakan check-in lebih awal.*
 
-![Tanya Santi di halaman penuh: perkenalan dan empat pertanyaan untuk memulai.](/screens/assistant.id.png)
+![Tanya Santi di halaman penuh: tab Tanya Santi dan Bicara dengan orang, empat pertanyaan untuk memulai, dan kotak untuk mengetik.](/screens/assistant.id.png)
 
 :::note
 Santi juga punya aplikasinya sendiri, untuk ponsel Anda, di **santi.santara.ai** — Santi yang
@@ -27,7 +27,7 @@ sama, akun Santara AI yang sama. Lihat [Aplikasi Santi](/id/help/santi-app/), bu
 - **Di samping lonceng**, di bagian atas setiap layar. Klik Santi dan **Tanya Santi** terbuka.
 - **Di ponsel**, Santi melayang di pojok kanan bawah. Ia membuka panel yang sama.
 - **Halaman penuh** — tautan di bagian atas panel membuka `/dashboard/assistant`, obrolan yang sama
-  dalam bingkai lebih besar.
+  dalam bingkai lebih besar, dengan dua tab **Tanya Santi** dan **Bicara dengan orang** di atasnya.
 
 Wajah Santi menunjukkan keadaan sebenarnya, dari data Anda: ia tampak **waspada** saat ada pesan
 tamu yang menunggu balasan, **mengantuk** antara pukul 22.00 dan 06.00, **melambai** di pagi hari,
@@ -54,33 +54,41 @@ Anda terlebih dahulu.
 
 **AI Agents** di sidebar membuka halaman khusus kru:
 
-![Halaman AI Agents: kru beserta tugas masing-masing, dan Perlu Anda di atas obrolan.](/screens/agents.id.png)
+![Halaman AI Agents: Santi dan enam agen beserta tugas masing-masing, Perlu Anda dengan Serahkan ke Lulu dan Serahkan ke Loop, dan obrolan dengan dua pertanyaan untuk memulai.](/screens/agents.id.png)
 
-- **Daftar kru** menampilkan setiap agen dengan **{count} tugas**, **Semua beres**, atau **Belum
-  bisa dicek** bila datanya tidak terjangkau. **Muat ulang** memeriksa lagi.
+- **Daftar kru** diawali **Santi** · Orkestrator, yang angkanya adalah jumlah item di **Perlu
+  Anda**. Di bawahnya, setiap agen menampilkan jumlah tugas, tanda centang bila semua beres, atau
+  tanda strip bila **Belum bisa dicek** datanya. **Muat ulang** — tombol panah melingkar di kanan
+  atas — memeriksa lagi.
 - **Perlu Anda** mendaftar apa yang menunggu Anda, yang paling mendesak lebih dulu — tamu yang
-  menunggu balasan, pergantian tamu yang harus dibersihkan hari ini, koneksi channel yang perlu
-  perhatian, malam kosong ke depan, penawaran upsell yang siap dikirim, ulasan baru.
+  menunggu balasan, hal yang perlu Anda hari ini, koneksi saluran yang perlu perhatian, pergantian
+  tamu yang harus dibersihkan hari ini, malam kosong ke depan, penawaran upsell yang siap dikirim,
+  ulasan baru. Dua item tampil sekaligus; **Lihat semua ({count})** menampilkan sisanya.
 - Setiap item punya **Serahkan ke {name}** (agen itu memeriksanya dan memberi tahu Anda apa yang
   harus dilakukan) dan **Buka** (menuju layarnya).
-- Pilih agen di daftar kru untuk mengobrol hanya dengan agen itu.
+- **Obrolan** di bawahnya dimulai dengan dua pertanyaan untuk dicoba, dan kotaknya bertuliskan
+  **Tanya Santi…**. Pilih agen di daftar kru untuk mengobrol hanya dengan agen itu — kotaknya lalu
+  bertuliskan **Tanya Lulu…**, dan seterusnya.
 
 ### Pagi yang nyata di halaman AI Agents
 
 Gambar di atas adalah workspace demo persis seperti yang ditemukan kru. Dibaca dari atas ke bawah:
 
-1. **Lulu menunjukkan 3** dan **Perlu Anda** berkata *3 tamu menunggu balasan*. Tekan **Serahkan
+1. **Lulu menunjukkan 15** dan **Perlu Anda** berkata *15 tamu menunggu balasan*. Tekan **Serahkan
    ke Lulu** — Santi meminta Lulu membaca percakapan itu, dan Lulu melaporkan apa yang diminta
    setiap tamu. Lalu minta Santi *buatkan draf balasannya*: setiap draf disimpan di kotak masuk
    setelah **Konfirmasi**, dan tidak ada yang terkirim sampai Anda mengirimnya (atau minta Santi
    *kirim*, yang perlu **Konfirmasi** lagi).
-2. **Loop menunjukkan 1** — *Belum ada channel yang terhubung*. **Buka** membawa Anda ke
-   Pengaturan → Channel. Santi tidak akan menghubungkan channel untuk Anda; langkah itu tetap milik
+2. **Loop menunjukkan 1** — *Belum ada saluran terhubung*. **Buka** membawa Anda ke
+   Pengaturan → Saluran. Santi tidak akan menghubungkan channel untuk Anda; langkah itu tetap milik
    Anda.
-3. **Penny menunjukkan 4** — malam kosong ke depan. Tanyakan kepada Penny *malam mana yang kosong
+3. **Santi menunjukkan 5**, tetapi hanya dua item yang tampil. **Lihat semua (5)** memunculkan
+   tiga sisanya: pergantian tamu yang harus dibersihkan hari ini dari Bubbles, malam kosong ke
+   depan dari Penny, dan penawaran upsell yang siap dikirim dari Kiko.
+4. **Penny menunjukkan 8** — malam kosong ke depan. Tanyakan kepada Penny *malam mana yang kosong
    dan berapa harganya tahun lalu?* sebelum menyentuh harga; mengubahnya tetap Anda lakukan di
    Harga.
-4. **Sunny, Kiko, dan Bubbles bertanda centang** — tidak ada yang menunggu mereka hari ini.
+5. **Sunny bertanda centang** — tidak ada yang menunggu Sunny hari ini.
 
 ## Apa yang bisa dilihatnya
 
@@ -168,5 +176,5 @@ sama. Percakapannya ikut terkirim bersama pesan Anda.
 
 ## Meneruskan ke manusia
 
-**Bicara dengan orang**, di bagian atas panel, adalah saluran nyata ke tim Santara AI, terpisah dari
-Santi. Percakapan Anda dengan Santi ikut terbawa sehingga Anda tidak perlu mengulang.
+**Bicara dengan orang**, di bagian atas panel (sebuah tab di samping **Tanya Santi** di halaman
+penuh), adalah saluran nyata ke tim Santara AI, terpisah dari Santi. Percakapan Anda dengan Santi ikut terbawa sehingga Anda tidak perlu mengulang.

@@ -240,7 +240,7 @@ Lihat [Mengelola listing setelah setup](/id/channels/listings/).
 - **Lampiran di pesan tamu** — [Pesan](/id/daily/messages/).
 - **Menginap bisa diedit** dari daftar reservasi — [Booking](/id/daily/bookings/).
 - **Tiket bisa dijadwalkan**, yang menaruh perbaikan di kalender dan menahan kamarnya —
-  [Tiket](/id/daily/tickets/#menjadwalkan-berarti-menaruhnya-di-kalender).
+  [Tiket](/id/daily/tickets/#menjadwalkan-pekerjaan).
 - **Mode tampilan kalender** dan tombol sembunyikan listing — [Kalender](/id/daily/calendar/).
 - **Pemetaan level kamar Booking.com** dengan pemeriksaan okupansi dan mata uang di awal, jadi
   pemetaan yang akan gagal diam-diam ditolak dengan alasannya —

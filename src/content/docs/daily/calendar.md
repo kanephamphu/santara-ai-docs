@@ -15,8 +15,9 @@ free nights show their price.
 - **A bar** is a reservation. Its colour tells you the channel; its label shows the guest and the
   revenue.
 - **A free night** shows the nightly price that will be charged for it.
-- **A striped block** is a ticket scheduled over those dates — a repair, a deep clean, an owner
-  stay.
+- **Occupancy**, the first row, shows each night's share of rooms booked across everything on
+  screen (*89%*, *17/19*). Each property's own header row shows the same count for its rooms
+  (*2/3*).
 - **Click a day** for the day list: everything moving on that date, arrivals and departures
   together.
 - **A red bar with a warning sign** is an overbooked stay: the room holds more stays than units on
@@ -54,6 +55,12 @@ the buildings.
 
 **Clear filters** puts both back.
 
+Above the grid, the arrows, **Today** and the date move through time, and **2 weeks**, **3 weeks**
+or **4 weeks** sets how many days fit on screen. **Show** turns **Prices**, **Revenue** and
+**Upsell** on or off on the grid. Under them a row of chips sums up what is on screen: **Tonight
+13/19 booked**, **Next 7 nights 60%**, **8 arriving today**, **Booked revenue ahead** and
+**Upsells open**.
+
 ## Block or unblock dates
 
 Blocking a night is the same as closing it: nobody can book it on any channel. You do it straight
@@ -71,10 +78,11 @@ on the grid — click one night, or drag across several.
 
    ![Three nights dragged on Garden Room: the nights are outlined and the Selected dates panel opens beside them.](/screens/calendar-block-select.en.png)
 
-3. Set **Stop sell** to **Closed** to block the nights, or to **Open** to unblock them. Leave the
-   other fields empty to keep them as they are.
+3. In the rate editor, set **Selling** to **Closed** to block the nights, or to **Open** to
+   unblock them. Its first option, **Keep**, leaves the nights as they are now (*Keep (Open)*).
+   Leave the other fields as they are to keep them unchanged.
 
-   ![Stop sell set to Closed for the three nights, with Add 3 nights to pending below.](/screens/calendar-block-close.en.png)
+   ![The rate editor for three nights on Garden Room, with Selling set to Closed and Add 3 nights to pending below.](/screens/calendar-block-close.en.png)
 
 4. Click **Add 3 nights to pending** (the number is your selection). The nights turn amber with a dashed border — nothing
    has been sent yet, so you can keep selecting and stacking more changes.
@@ -84,7 +92,7 @@ on the grid — click one night, or drag across several.
    ![The three nights now amber and dashed, waiting in pending; Save all sends them to every channel.](/screens/calendar-block-save.en.png)
 
 Closed nights then read **Closed** on the grid. To unblock them later, select the same nights again
-and set **Stop sell** to **Open**.
+and set **Selling** to **Open**.
 
 :::note
 - A range stays on **one room row** — to block two rooms, do each row in turn (both can sit in
@@ -97,22 +105,23 @@ and set **Stop sell** to **Open**.
 
 ## Editing a range
 
-Select a range of nights on a room and you get three actions:
+Select a range of nights on a room and the **Selected dates** panel offers two actions:
 
-**Book these nights for a guest** — create a reservation by hand. Use it for a direct booking taken
+**New reservation** — book these nights for a guest by hand. Use it for a direct booking taken
 over the phone, an owner stay, or a friend. Manual reservations block the nights on every connected
 channel just like a real one.
 
-**Schedule maintenance or a job** — opens a [ticket](/daily/tasks/#tickets) over those dates and
-draws it here.
-
-**Price, min stay or close the dates** — the availability editor:
+**Rates & availability** — the rate editor:
 
 | Field | What it does |
 | --- | --- |
-| **Price** | The nightly rate for those nights, on the selected rate plan |
-| **Minimum stay** | The shortest booking that may start on those nights |
-| **Stop sell** | **Closed** blocks those nights on every channel; **Open** sells them again |
+| **Price per night** | The nightly rate for those nights. It publishes to your connected channels |
+| **Rooms to sell** | How many of the room's units stay on sale, up to its unit count; bookings take from this |
+| **Selling** | **Closed** blocks those nights on every channel; **Open** sells them again; **Keep** leaves them as they are |
+| **Stay rules** | Folded away by default: **Min stay (nights)**, **Max stay**, **No check-ins** and **No check-outs** |
+
+**Clear overrides** removes what you set by hand on those nights. **Open the full rate calendar**
+opens the Pricing grid in a new tab, for bulk work across many rooms.
 
 Changes wait in **pending** until you click **Save all**; that one save pushes them to every connected channel. There is no other "publish" step.
 

@@ -24,7 +24,7 @@ uang, perubahan tanggal, keluhan, dan keadaan darurat selalu diserahkan kepada A
 **Kapabilitas** — izin bernama seperti `stay.read` atau `pricing.write`. Peran adalah kumpulan
 kapabilitas; layar dan rute API meminta yang sama. Lihat [Tim dan peran](/id/setup/team/).
 
-**Channel** — tempat Anda berjualan: Airbnb, Booking.com, Agoda, Expedia, dan channel lain di katalog, situs booking Anda sendiri.
+**Channel** — tempat Anda berjualan: Airbnb, Booking.com, Agoda, Expedia, dan channel lain di katalog, situs booking Anda sendiri. Di aplikasi, channel disebut **Saluran**, dan semuanya dikelola di **Pengaturan → Saluran**.
 
 **Klaster kebersihan** — kelompok kamar yang ditangani satu petugas, sering kali tersebar di beberapa
 bangunan. Kamar dengan nama **Grup pembersihan** yang sama membentuk satu klaster. Ringkasan harian

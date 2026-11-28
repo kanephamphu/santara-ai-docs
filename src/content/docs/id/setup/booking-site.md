@@ -11,7 +11,7 @@ Setiap workspace dapat menerbitkan situs booking langsung. Uangnya masuk ke akun
 bagian atas ada tab-tabnya: **Pengaturan**, **Desain**, **Halaman & blog**, **SEO**, **Harga**,
 **Prospek**, **Permintaan** dan **Analitik**.
 
-![Pembangun situs booking: pengaturan di kiri, pratinjau langsung di kanan.](/screens/booking-site.id.png)
+![Pembangun situs booking yang belum disiapkan: Detail situs di kiri, dan pratinjau langsung di kanan, yang muncul setelah subdomain disimpan.](/screens/booking-site.id.png)
 
 ## 1. Pilih subdomain
 

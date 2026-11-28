@@ -29,12 +29,12 @@ layar:
 
 | Halaman | Isinya |
 | --- | --- |
-| [Memulai & Masuk](/id/mobile/getting-started/) | Memasang, masuk, tab yang Anda lihat, menghapus akun |
+| [Memulai & Masuk](/id/mobile/getting-started/) | Memasang, masuk, tab yang Anda lihat |
 | [Hari Ini & Ringkasan Singkat](/id/mobile/today/) | Ringkasan pagi dan operasional hari itu |
 | [Kotak Masuk Multi-channel](/id/mobile/messages/) | Pesan tamu dengan balasan yang disarankan, dan obrolan tim |
 | [Tugas & Pemeliharaan](/id/mobile/tasks/) | Pembersihan, masalah, dan petugas default |
-| [Kalender & Status Kamar](/id/mobile/calendar/) | Pemesanan, harga, dan ketersediaan |
-| [Pengaturan & Pencarian](/id/mobile/settings/) | Pencarian, workspace, tampilan, akun Anda |
+| [Kalender & Reservasi](/id/mobile/calendar/) | Kalender, daftar reservasi, detail pemesanan, harga, dan ketersediaan |
+| [Pengaturan & Menu](/id/mobile/settings/) | Menu Lainnya, workspace, tampilan, akun Anda |
 | [Pemberitahuan](/id/mobile/notifications/) | Lonceng dan notifikasi push |
 | [Tanya Santara](/id/mobile/ai-assistant/) | Asisten bawaan |
 | [Santi](/id/mobile/santi/) | Agen AI, lewat teks atau suara |

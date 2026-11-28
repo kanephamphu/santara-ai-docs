@@ -10,13 +10,18 @@ Tab **Tasks (Công việc)** là nơi đội ngũ dọn dẹp và bảo trì ki�
 ## 1. Cleans (Dọn dẹp)
 
 Dựa vào lịch khách đi/đến, hệ thống sẽ tự động sinh ra các Turnover Tasks (Nhiệm vụ dọn phòng) trước ngày checkout. 
-Tại tab Cleans, bạn sẽ thấy danh sách các phòng cần dọn, giờ trả phòng, lượt đến kế tiếp và nhân viên được phân công.
 
-Mỗi thẻ công việc hiển thị rõ thuộc phòng nào, căn nhà nào, và có các nút sau:
+Ở đầu màn hình, ba con số tóm tắt ngày: **Cần dọn hôm nay**, **Chưa phân công** và **Đã xong hôm nay**. Bên dưới, bạn thu hẹp danh sách:
 
-- **Đánh dấu xong** — bấm khi phòng đã dọn xong. Sau đó nút đổi thành **Đã xong · Hoàn tác**, phòng khi bạn lỡ bấm nhầm.
-- **Thêm ảnh** — mở **Bằng chứng & ghi chú**, nơi bạn đính kèm ảnh và ghi chú làm bằng chứng dọn phòng. Mỗi công việc được đính kèm **tối đa 10 ảnh** (PNG, JPEG, WebP hoặc GIF, mỗi ảnh tối đa 5 MB). Ảnh không bắt buộc, nhưng giúp giải quyết thắc mắc về sau.
-- **Bỏ qua công việc dọn phòng** — chỉ dành cho quản lý: dùng khi lượt dọn không còn cần nữa. Sau đó nút đổi thành **Đã bỏ qua · Hoàn tác**.
+- **Thời gian** — ngày đang xem, ví dụ **Hôm nay**.
+- **Theo ngày** hoặc **Theo tòa nhà** — nhóm các ca dọn theo ngày hoặc theo chỗ nghỉ.
+- **Chưa phân công** — chỉ hiện các ca dọn chưa có người nhận.
+
+Mỗi thẻ hiện phòng, chỗ nghỉ và khách, loại dọn (**Dọn sau trả phòng** sau khi khách đi, hoặc **Chỉ chuẩn bị** trước khi khách đến) và trạng thái, ví dụ **Chờ nhân viên dọn phòng**. Chọn người dọn ngay trên thẻ, rồi dùng ba nút bên cạnh:
+
+- **✓ Đánh dấu xong** — bấm khi phòng đã dọn xong. Sau đó nút đổi thành **Đã xong · Hoàn tác**, phòng khi bạn lỡ bấm nhầm.
+- **📷 Thêm ảnh** — mở **Bằng chứng & ghi chú**, nơi bạn đính kèm ảnh và ghi chú làm bằng chứng dọn phòng. Mỗi công việc được đính kèm **tối đa 10 ảnh** (PNG, JPEG, WebP hoặc GIF, mỗi ảnh tối đa 5 MB). Ảnh không bắt buộc, nhưng giúp giải quyết thắc mắc về sau.
+- **✕ Bỏ qua công việc dọn phòng** — chỉ dành cho quản lý: dùng khi lượt dọn không còn cần nữa. Sau đó nút đổi thành **Đã bỏ qua · Hoàn tác**.
 
 Nhân viên dọn phòng chỉ thấy các ca dọn được giao cho mình.
 
@@ -26,13 +31,16 @@ Nhân viên dọn phòng chỉ thấy các ca dọn được giao cho mình.
 
 Tab này quản lý các vé (ticket) sự cố bảo trì. Nếu khách phàn nàn hoặc nhân viên phát hiện bóng đèn cháy, điều hòa hỏng, họ có thể mở một Sự cố ngay trên app.
 
-Nhấn **Phiếu mới** để tạo: tiêu đề, **Loại** (Phàn nàn, Bảo trì, Đưa đón sân bay hoặc Khác), **Ưu tiên** (Thấp đến Khẩn cấp), người phụ trách, hạn xử lý và khoảng lên lịch tùy chọn. Phiếu đi qua **Cần làm**, **Đang xử lý**, **Hoàn tất** và **Đã hủy**; chuyển giữa **Bảng** và **Danh sách**, và lọc bằng **Tìm phiếu**, **Mọi mức ưu tiên** và **Quá hạn**. Mở một phiếu để đổi trạng thái, xem **Lịch sử**, hoặc nhấn **Tạo chi tiết bằng AI** để có kế hoạch xử lý. Chi tiết hơn ở trang web: [Sự cố (phiếu xử lý)](/vi/daily/tickets/).
+Nhấn **Phiếu mới** để tạo: tiêu đề, **Loại** (Phàn nàn, Bảo trì, Đưa đón sân bay hoặc Khác), **Ưu tiên** (Thấp đến Khẩn cấp), người phụ trách, hạn xử lý và khoảng lên lịch tùy chọn. Phiếu đi qua **Cần làm**, **Đang xử lý**, **Hoàn tất** và **Đã hủy**; chuyển giữa **Bảng** và **Danh sách**, và lọc bằng **Tìm phiếu**, **Mọi mức ưu tiên** và **Quá hạn**. Phiếu đã quá hạn cho biết trễ bao lâu, ví dụ **Trễ 1 ngày**, kèm ngày hạn tô đỏ. Mở một phiếu để đổi trạng thái, xem **Lịch sử**, hoặc nhấn **Tạo chi tiết bằng AI** để có kế hoạch xử lý. Chi tiết hơn ở trang web: [Sự cố (phiếu xử lý)](/vi/daily/tickets/).
 
 ![Quản lý Sự cố và Bảo trì](/screens/vi/issues.vi.png)
 
 ## 3. Default Cleaners (Nhân sự dọn dẹp)
 
-Tại tab này, quản lý có thể xem và sắp xếp người dọn dẹp mặc định cho từng phòng hoặc từng căn nhà. Nhân viên dọn phòng không thấy tab này.
+Tại tab này, quản lý đặt người dọn mặc định cho từng phòng. Nhân viên dọn phòng không thấy tab này.
+
+**Phân công nhân viên dọn phòng mặc định** ở đầu tab cho biết đã đặt cho bao nhiêu phòng, ví dụ **Đã cấu hình 2 / 11**. Các phòng được nhóm theo chỗ nghỉ; với mỗi phòng, chọn **Nhân viên chính**, hoặc để **Không có người dọn mặc định**.
+
 Việc cài đặt nhân sự mặc định giúp các công việc dọn phòng (khi tự động sinh ra) sẽ được gán thẳng cho đúng người phụ trách, tiết kiệm thời gian phải phân công thủ công mỗi sáng.
 
 ![Sắp xếp Nhân sự Mặc định](/screens/vi/defaultcleaners.vi.png)

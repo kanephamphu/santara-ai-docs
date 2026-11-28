@@ -14,15 +14,34 @@ lên) — với cửa sổ nhỏ hơn hoặc trên điện thoại, hãy mở r�
 **Khách** là một con người, không phải một lượt đặt. Cùng một người qua ba lượt lưu trú là một hồ sơ
 có lịch sử, được đối chiếu xuyên kênh ở những nơi kênh cung cấp đủ dữ liệu để đối chiếu.
 
-![Danh bạ khách, với những người cần chú ý ở trên đầu.](/screens/guests.vi.png)
+![Trang Khách: bảng Tín hiệu khách AI với Cần xem và Khiếu nại đang mở, các con số tổng bên cạnh, và danh bạ khách mở ở tab Đang lưu trú.](/screens/guests.vi.png)
+
+## Cần bạn chú ý
+
+Trang mở đầu bằng bảng **Tín hiệu khách AI**. Hai ô trong đó là bộ lọc, không phải để trang trí:
+**Cần xem** đếm những khách bị gắn cờ hoặc có rủi ro cao, và **Khiếu nại đang mở** đếm những khiếu nại
+chưa ai đánh dấu đã xử lý. Chạm vào ô nào thì danh bạ bên dưới chỉ hiện đúng những khách đó. Bên cạnh là
+**Tổng khách**, **Điểm khách TB** của nhóm đang xem, và **Bán thêm an toàn** — những khách có thể chào
+bán an toàn.
 
 ## Danh bạ
 
-Khách được liệt kê với những người cần chú ý ở trên đầu — **rủi ro, tin nhắn ưu tiên, hoặc một cơ hội
-doanh thu đang sống sẽ nổi lên trước**, chứ không phải lượt đến gần nhất. Tìm theo tên, ý định, ngôn
-ngữ hoặc kênh.
+**Danh bạ khách** thu hẹp theo hai cách cùng lúc:
 
-Mỗi dòng mang theo lượt lưu trú hiện tại của khách, điểm số của họ, và lý do họ đang ở vị trí đó.
+- **Theo rủi ro** — **Tất cả khách**, **Cao**, **Trung bình** và **Thấp**, mỗi mục kèm số đếm.
+- **Theo lượt lưu trú** — **Đang lưu trú**, **Sắp tới**, **Đã trả phòng** và **Tất cả**. Trang mở ở
+  tab đầu tiên trong Đang lưu trú, Sắp tới và Đã trả phòng có khách.
+
+Tìm theo tên, ý định, ngôn ngữ hoặc kênh, và **Sắp xếp** theo **Lưu trú gần nhất** (mặc định), điểm
+khách, mức rủi ro, doanh thu hoặc tên, tăng dần hay giảm dần.
+
+Mỗi dòng cho thấy khách cùng điểm số, ý định và giọng điệu, lượt đặt phòng, các tín hiệu — **Không có
+cờ đỏ** khi không có gì — và khách đó **An toàn để bán thêm** hay cần **Xử lý trước**. Mở một dòng để
+xem toàn bộ hồ sơ.
+
+**Hàng đợi cần chú ý** liệt kê những khách bị gắn cờ, có khiếu nại đang mở, rủi ro cao hoặc có tin nhắn
+ưu tiên. Một khiếu nại ở đó có **Đánh dấu đã xử lý** và **Tạo phiếu**; **Đánh dấu đã xong** đưa khách
+ra khỏi danh sách.
 
 ## Một hồ sơ khách chứa gì
 
@@ -51,13 +70,15 @@ thị cho khách.
 
 ## Các xu hướng
 
-Hai biểu đồ 90 ngày, cùng phần phân tích nhóm khách đang hiển thị:
+Cuối trang, mục **Số liệu** mở ra các biểu đồ. Chúng tính 30, 60 hoặc 90 ngày qua — 30 ngày nếu bạn
+không chọn khác — cho nhóm khách đang hiển thị:
 
-- **Điểm trung bình theo ngày lưu trú** — chất lượng các lượt đặt của bạn có đang dịch chuyển không.
-- **Số khách đang ở theo ngày** — khối lượng, thứ mà điểm số cần được đọc cùng.
-- **Phân bố** theo kênh đặt phòng và dải điểm. Nếu một kênh liên tục mang tới những vị khách khó hơn,
-  đây là chỗ nó lộ ra.
-- **Hiệu quả** — doanh thu, lòng trung thành và tín hiệu chất lượng của nhóm khách đang xem.
+- **Hiệu suất khách** — doanh thu, lòng trung thành và tín hiệu chất lượng của nhóm khách đang xem.
+- **Khách đang lưu trú** — khối lượng theo ngày, thứ mà điểm số cần được đọc cùng.
+- **Xu hướng điểm khách** — điểm trung bình theo ngày lưu trú, để thấy chất lượng các lượt đặt của bạn
+  có đang dịch chuyển không.
+- **Phân bố khách** theo kênh đặt phòng và dải điểm. Nếu một kênh liên tục mang tới những vị khách khó
+  hơn, đây là chỗ nó lộ ra.
 
 ## Dùng nó trước khi trả lời
 

@@ -26,7 +26,7 @@ Expedia harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra konek
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Expedia**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Expedia**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -35,10 +35,10 @@ Expedia harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra konek
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID Expedia Anda. Expedia menyebutnya property ID. |
-| Min Stay Type | Minimum menginap yang dikirim: **Arrival** atau **Through**. Biasanya Arrival. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
-| Booking Amount | **Collect Amount** — yang Anda tagih ke tamu atau kartu virtual; sama dengan VCC. **Total Amount** — yang dibayar tamu, termasuk pajak dan biaya. **Total Amount Excluding Tax** — untuk properti di AS. |
+| ID hotel | Hotel ID Expedia Anda. Expedia menyebutnya property ID. |
+| Jenis minimum menginap | Minimum menginap yang dikirim: **Saat tiba** atau **Sepanjang menginap**. Biasanya Saat tiba. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Jumlah pemesanan | **Jumlah yang ditagih** — yang Anda tagih ke tamu atau kartu virtual; sama dengan VCC. **Total Amount** — yang dibayar tamu, termasuk pajak dan biaya. **Total Amount Excluding Tax** — untuk properti di AS. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Expedia memastikan properti sudah terhubung ke Channex.
 

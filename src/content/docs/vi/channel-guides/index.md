@@ -43,43 +43,43 @@ Sau đó chọn chỗ nghỉ cho kênh. Bước 2 hiện các trường thiết 
 | Kênh | Bạn nhập gì vào Santara AI | Ánh xạ |
 | --- | --- | --- |
 | [Airbnb](/vi/channels/airbnb/) | Đăng nhập Airbnb (cửa sổ pop-up) | Từng listing |
-| [Booking.com](/vi/channels/booking-com/) | Hotel ID | Phòng và mức giá |
-| [Agoda](/vi/channel-guides/agoda/) | Hotel ID | Theo số khách |
-| [Expedia](/vi/channel-guides/expedia/) | Hotel ID | Phòng và mức giá |
-| [Trip.com (Ctrip)](/vi/channel-guides/trip-com/) | Hotel Code | Thường theo số khách |
+| [Booking.com](/vi/channels/booking-com/) | ID khách sạn | Phòng và mức giá |
+| [Agoda](/vi/channel-guides/agoda/) | ID khách sạn | Theo số khách |
+| [Expedia](/vi/channel-guides/expedia/) | ID khách sạn | Phòng và mức giá |
+| [Trip.com (Ctrip)](/vi/channel-guides/trip-com/) | Mã khách sạn | Thường theo số khách |
 | [Traveloka](/vi/channel-guides/traveloka/) | Property ID (chữ cái) | Theo số khách, mức giá RETAIL |
-| [Tiket.com](/vi/channel-guides/tiket-com/) | Hotel ID | Phòng và mức giá |
-| [Klook](/vi/channel-guides/klook/) | Hotel ID | Phòng và mức giá |
-| [MakeMyTrip and Goibibo](/vi/channel-guides/makemytrip/) | Hotel ID + access token | Thường theo số khách |
-| [Hostelworld](/vi/channel-guides/hostelworld/) | Hotel ID | Số khách tối đa |
-| [Hotelbeds](/vi/channel-guides/hotelbeds/) | Username + password, rồi chọn hợp đồng | Phòng và mức giá |
-| [Despegar](/vi/channel-guides/despegar/) | Hotel ID + username + API password | Phòng và mức giá |
-| [HRS](/vi/channel-guides/hrs/) | Hotel ID | Một gói giá mỗi phòng |
-| [Check24](/vi/channel-guides/check24/) | Hotel ID | Theo số khách |
-| [Crewdogs](/vi/channel-guides/crewdogs/) | Hotel Code | Phòng và mức giá |
-| [Dida Travel](/vi/channel-guides/dida-travel/) | Hotel ID | Phòng và mức giá |
-| [Emerging Travel Group](/vi/channel-guides/emerging-travel/) | Hotel ID | Thường theo số khách |
-| [Feratel](/vi/channel-guides/feratel/) | Hotel ID | Theo số khách hoặc theo phòng |
-| [Glamping Hub](/vi/channel-guides/glamping-hub/) | Hotel Code | Theo phòng |
-| [Hipcamp](/vi/channel-guides/hipcamp/) | Hotel Code | Phòng và mức giá |
-| [Hotel Trader](/vi/channel-guides/hotel-trader/) | Hotel Code | Phòng và mức giá |
-| [HotelTonight](/vi/channel-guides/hoteltonight/) | Hotel ID | Phòng và mức giá |
+| [Tiket.com](/vi/channel-guides/tiket-com/) | ID khách sạn | Phòng và mức giá |
+| [Klook](/vi/channel-guides/klook/) | ID khách sạn | Phòng và mức giá |
+| [MakeMyTrip and Goibibo](/vi/channel-guides/makemytrip/) | ID khách sạn + Mã truy cập | Thường theo số khách |
+| [Hostelworld](/vi/channel-guides/hostelworld/) | ID khách sạn | Số khách tối đa |
+| [Hotelbeds](/vi/channel-guides/hotelbeds/) | Tên đăng nhập + Mật khẩu, rồi chọn hợp đồng | Phòng và mức giá |
+| [Despegar](/vi/channel-guides/despegar/) | ID khách sạn + Tên đăng nhập + Mật khẩu (API password) | Phòng và mức giá |
+| [HRS](/vi/channel-guides/hrs/) | ID khách sạn | Một gói giá mỗi phòng |
+| [Check24](/vi/channel-guides/check24/) | ID khách sạn | Theo số khách |
+| [Crewdogs](/vi/channel-guides/crewdogs/) | Mã khách sạn | Phòng và mức giá |
+| [Dida Travel](/vi/channel-guides/dida-travel/) | ID khách sạn | Phòng và mức giá |
+| [Emerging Travel Group](/vi/channel-guides/emerging-travel/) | ID khách sạn | Thường theo số khách |
+| [Feratel](/vi/channel-guides/feratel/) | ID khách sạn | Theo số khách hoặc theo phòng |
+| [Glamping Hub](/vi/channel-guides/glamping-hub/) | Mã khách sạn | Theo phòng |
+| [Hipcamp](/vi/channel-guides/hipcamp/) | Mã khách sạn | Phòng và mức giá |
+| [Hotel Trader](/vi/channel-guides/hotel-trader/) | Mã khách sạn | Phòng và mức giá |
+| [HotelTonight](/vi/channel-guides/hoteltonight/) | ID khách sạn | Phòng và mức giá |
 | [HyperGuest](/vi/channel-guides/hyperguest/) | Property ID | Theo số khách |
-| [Inntopia](/vi/channel-guides/inntopia/) | Hotel ID | Theo phòng, mức giá RACK |
-| [Kliknbook](/vi/channel-guides/kliknbook/) | Hotel Code | Theo số khách |
-| [MG Bedbank](/vi/channel-guides/mg-bedbank/) | Hotel ID | Thường theo số khách |
-| [Mr & Mrs Smith](/vi/channel-guides/mr-and-mrs-smith/) | Hotel ID | Theo phòng |
-| [OpenGDS](/vi/channel-guides/opengds/) | Hotel ID | Theo phòng |
-| [PriceTravel](/vi/channel-guides/pricetravel/) | Hotel ID | Theo số khách |
-| [Roibos](/vi/channel-guides/roibos/) | Username + password, rồi chọn hợp đồng | Phòng và mức giá |
-| [WebBeds](/vi/channel-guides/webbeds/) | Hotel Code | Phòng và mức giá |
-| [Yatra](/vi/channel-guides/yatra/) | Hotel ID | Theo phòng |
-| [Getaroom](/vi/channel-guides/getaroom/) | Hotel ID | Phòng và mức giá |
+| [Inntopia](/vi/channel-guides/inntopia/) | ID khách sạn | Theo phòng, mức giá RACK |
+| [Kliknbook](/vi/channel-guides/kliknbook/) | Mã khách sạn | Theo số khách |
+| [MG Bedbank](/vi/channel-guides/mg-bedbank/) | ID khách sạn | Thường theo số khách |
+| [Mr & Mrs Smith](/vi/channel-guides/mr-and-mrs-smith/) | ID khách sạn | Theo phòng |
+| [OpenGDS](/vi/channel-guides/opengds/) | ID khách sạn | Theo phòng |
+| [PriceTravel](/vi/channel-guides/pricetravel/) | ID khách sạn | Theo số khách |
+| [Roibos](/vi/channel-guides/roibos/) | Tên đăng nhập + Mật khẩu, rồi chọn hợp đồng | Phòng và mức giá |
+| [WebBeds](/vi/channel-guides/webbeds/) | Mã khách sạn | Phòng và mức giá |
+| [Yatra](/vi/channel-guides/yatra/) | ID khách sạn | Theo phòng |
+| [Getaroom](/vi/channel-guides/getaroom/) | ID khách sạn | Phòng và mức giá |
 | [Hopper](/vi/channel-guides/hopper/) (chỉ khách sạn) | — | Mức giá tốt nhất hiện có |
 | [Nuitee](/vi/channel-guides/nuitee/) (chỉ khách sạn) | — | Mức giá tốt nhất hiện có |
 | [Google Hotels và Vacation Rentals](/vi/channel-guides/google/) | Booking link hoặc trang đặt phòng có sẵn | Các gói giá hiển thị |
 | [Hopper Homes](/vi/channel-guides/hopper-homes/) | Đăng ký đối tác + email host | Theo từng listing |
-| [Các kênh khác](/vi/channel-guides/more-channels/) — 35 kênh khác trong danh mục | Hotel Code (phần lớn) | — |
+| [Các kênh khác](/vi/channel-guides/more-channels/) — 35 kênh khác trong danh mục | Mã khách sạn (phần lớn) | — |
 
 ## Tin nhắn khách
 

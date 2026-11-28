@@ -8,41 +8,41 @@ sidebar:
 
 Các kênh này có trong **Cài đặt → Kênh → Thêm kênh** nhưng chưa có hướng dẫn riêng. Tất cả kết nối giống nhau: nhờ kênh kết nối chỗ nghỉ của bạn với **Channex** (đối tác kết nối của Santara AI), rồi nhập thông tin họ cung cấp — xem [Kết nối kênh khác](/vi/channels/other-channels/) để biết các bước.
 
-Hầu hết còn có **Send Property Notification** (tích chọn thì ô **Property Email** hiện ra) và một số có **Min Stay Type** (thường là Arrival). Cả hai không bắt buộc nên không ghi trong bảng.
+Hầu hết còn có **Gửi thông báo cho chỗ nghỉ** (tích chọn thì ô **Email chỗ nghỉ** hiện ra) và một số có **Loại lưu trú tối thiểu** (thường là Arrival). Cả hai không bắt buộc nên không ghi trong bảng.
 
 ## Kênh dùng biểu mẫu thiết lập của chúng tôi
 
 | Kênh | Bạn nhập gì |
 | --- | --- |
-| 1HotelRez | **Hotel Code** |
-| BookDirectOpen | **Hotel Code** |
-| Cakrahub Booking Engine | **Hotel Code**, **API Key** |
-| DolceBot | **Hotel Code** |
-| Gopaddi | **Hotel Code** |
-| Grevon AI | **Hotel Code**, **API Key** |
-| Guirez | **Hotel Code** |
-| GuruHotel | **Hotel Code**, **API Key** |
-| Heytrip | **Hotel Code** |
-| HLC+ | **Hotel Code** |
-| HotelREZ | **Hotel Code** |
-| JoodBooking | **Hotel Code** |
-| Julian Alps Booking | **Hotel Code** |
-| Levart | **Hotel Code**, **API Key** |
-| Novoya | **Hotel Code**, **API Key** |
-| Open Channel | **API Endpoint**, **API Key**, **Hotel Code** |
-| OutReserve | **Hotel Code** |
-| Padelbound | **Hotel Code** |
-| RevChill | **Hotel Code**, **API Key** |
-| Revenatium | **Hotel Code** |
-| RoomPanda | **Hotel Code** |
-| Rukiye Zara | **Hotel Code** |
-| Selah Comfort | **Hotel Code** |
-| Stayinto | **Hotel Code** |
-| Travia | **Hotel Code** |
-| Tripnera | **Hotel Code** |
-| WeSpeakOpen | **Hotel Code** |
-| Wigwam Holidays | **Hotel Code** |
-| Zenith Booking Engine | **Hotel Code**, **API Key** |
+| 1HotelRez | **Mã khách sạn** |
+| BookDirectOpen | **Mã khách sạn** |
+| Cakrahub Booking Engine | **Mã khách sạn**, **Khóa API** |
+| DolceBot | **Mã khách sạn** |
+| Gopaddi | **Mã khách sạn** |
+| Grevon AI | **Mã khách sạn**, **Khóa API** |
+| Guirez | **Mã khách sạn** |
+| GuruHotel | **Mã khách sạn**, **Khóa API** |
+| Heytrip | **Mã khách sạn** |
+| HLC+ | **Mã khách sạn** |
+| HotelREZ | **Mã khách sạn** |
+| JoodBooking | **Mã khách sạn** |
+| Julian Alps Booking | **Mã khách sạn** |
+| Levart | **Mã khách sạn**, **Khóa API** |
+| Novoya | **Mã khách sạn**, **Khóa API** |
+| Open Channel | **Endpoint API**, **Khóa API**, **Mã khách sạn** |
+| OutReserve | **Mã khách sạn** |
+| Padelbound | **Mã khách sạn** |
+| RevChill | **Mã khách sạn**, **Khóa API** |
+| Revenatium | **Mã khách sạn** |
+| RoomPanda | **Mã khách sạn** |
+| Rukiye Zara | **Mã khách sạn** |
+| Selah Comfort | **Mã khách sạn** |
+| Stayinto | **Mã khách sạn** |
+| Travia | **Mã khách sạn** |
+| Tripnera | **Mã khách sạn** |
+| WeSpeakOpen | **Mã khách sạn** |
+| Wigwam Holidays | **Mã khách sạn** |
+| Zenith Booking Engine | **Mã khách sạn**, **Khóa API** |
 
 ## Kênh mở màn hình thiết lập nhúng
 
@@ -50,7 +50,7 @@ Với các kênh này, bước 2 mở màn hình thiết lập riêng của chan
 
 | Kênh | Bạn nhập gì |
 | --- | --- |
-| Ascend Travel | **Hotel ID**, **Booking Amount** |
+| Ascend Travel | **ID khách sạn**, **Số tiền đặt phòng** |
 | More.com | Không có — chọn các gói giá cần gửi |
 | WeSpeak | Không có — chọn các gói giá cần gửi |
 
@@ -61,7 +61,7 @@ Không cần đăng nhập — chọn các gói giá gửi sang kênh.
 | Kênh | Bạn nhập gì |
 | --- | --- |
 | HotelPoint | Không có — chọn các gói giá cần gửi |
-| Open Shopping | **Property Slug** |
-| Reserva | **Agency ID** |
+| Open Shopping | **Slug chỗ nghỉ** |
+| Reserva | **ID đại lý** |
 
 Không chắc một trường nghĩa là gì? Hãy hỏi bộ phận hỗ trợ của kênh — họ cấp giá trị đó khi kết nối Channex.

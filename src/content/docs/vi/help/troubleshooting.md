@@ -36,8 +36,9 @@ Hãy đăng nhập lại. Nếu lặp lại, thường là trình duyệt chặn
 
 Theo thứ tự:
 
-1. Listing đã được **gán rule set** chưa? Listing không có quy tắc thì không bao giờ được định giá tự
-   động.
+1. Phòng có đang ở **Tự động (Santara AI)** trong **Ai đặt giá**, và chỗ nghỉ của nó đã có khu vực
+   chưa? Phòng ở chế độ Thủ công, hoặc thuộc chỗ nghỉ chưa có khu vực, thì không bao giờ được định giá
+   tự động.
 2. **Tự động định giá chỗ nghỉ này** có bật không?
 3. **Tự động đăng giá** có bật không? Tắt nghĩa là giá được tính nhưng không gửi đi.
 4. Bạn có đang chạm **sàn hoặc trần**? Biểu đồ xu hướng cho thấy các giới hạn.

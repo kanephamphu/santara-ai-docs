@@ -31,10 +31,10 @@ Hostelworld phải cho phép kết nối trước. Channex là đối tác kết
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Hostelworld của bạn. Hostelworld gửi dưới tên property ID. |
-| Min Stay Type | Loại số đêm tối thiểu gửi đi: **Arrival** hoặc **Through**. Thường là Arrival. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
-| Booking Amount | **With Commission** hoặc **Without Commission** — tổng tiền đặt phòng được nhận thế nào. |
+| ID khách sạn | Hotel ID Hostelworld của bạn. Hostelworld gửi dưới tên property ID. |
+| Loại lưu trú tối thiểu | Loại số đêm tối thiểu gửi đi: **Theo ngày đến** hoặc **Suốt thời gian ở**. Thường là Theo ngày đến. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Số tiền đặt phòng | **Gồm hoa hồng** hoặc **Không gồm hoa hồng** — tổng tiền đặt phòng được nhận thế nào. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Hostelworld xác nhận chỗ nghỉ đã được kết nối với Channex.
 

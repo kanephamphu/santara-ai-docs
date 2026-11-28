@@ -23,7 +23,7 @@ WebBeds harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra konek
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **WebBeds**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **WebBeds**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -32,9 +32,9 @@ WebBeds harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra konek
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel Code | Kode hotel WebBeds Anda. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
-| Min Stay Type | Minimum menginap yang dikirim: **Arrival** atau **Through**. Biasanya Arrival. |
+| Kode hotel | Kode hotel WebBeds Anda. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Jenis minimum menginap | Minimum menginap yang dikirim: **Saat tiba** atau **Sepanjang menginap**. Biasanya Saat tiba. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support WebBeds memastikan properti sudah terhubung ke Channex.
 

@@ -31,7 +31,7 @@ Chưa có trên HotelTonight? Đăng ký qua htmarketmanagement@airbnb.com.
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID HotelTonight của bạn. |
+| ID khách sạn | Hotel ID HotelTonight của bạn. |
 | Taxes | Giá bạn gửi có gồm thuế hay không. Thường là **không gồm** ở Mỹ, **gồm** ở châu Âu. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của HotelTonight xác nhận chỗ nghỉ đã được kết nối với Channex.

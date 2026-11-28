@@ -30,7 +30,7 @@ Dida Travel phải cho phép kết nối trước. Channex là đối tác kết
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Dida Travel của bạn. |
+| ID khách sạn | Hotel ID Dida Travel của bạn. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Dida Travel xác nhận chỗ nghỉ đã được kết nối với Channex.
 

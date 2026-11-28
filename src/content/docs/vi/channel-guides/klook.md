@@ -29,7 +29,7 @@ Klook phải cho phép kết nối trước. Channex là đối tác kết nối
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Klook trong thư trả lời của họ. |
+| ID khách sạn | Hotel ID Klook trong thư trả lời của họ. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Klook xác nhận chỗ nghỉ đã được kết nối với Channex.
 

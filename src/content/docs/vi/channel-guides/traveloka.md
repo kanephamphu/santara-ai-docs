@@ -31,7 +31,7 @@ Hoặc nhờ đội hỗ trợ của Traveloka kết nối giúp bạn.
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Property ID dạng chữ cái mà Traveloka cấp cho kết nối. |
+| ID khách sạn | Property ID dạng chữ cái mà Traveloka cấp cho kết nối. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Traveloka xác nhận chỗ nghỉ đã được kết nối với Channex.
 

@@ -22,7 +22,7 @@ Hostelworld harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra k
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Hostelworld**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Hostelworld**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -31,10 +31,10 @@ Hostelworld harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra k
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID Hostelworld Anda. Hostelworld mengirimnya sebagai property ID. |
-| Min Stay Type | Minimum menginap yang dikirim: **Arrival** atau **Through**. Biasanya Arrival. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
-| Booking Amount | **With Commission** atau **Without Commission** — cara total pemesanan diterima. |
+| ID hotel | Hotel ID Hostelworld Anda. Hostelworld mengirimnya sebagai property ID. |
+| Jenis minimum menginap | Minimum menginap yang dikirim: **Saat tiba** atau **Sepanjang menginap**. Biasanya Saat tiba. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Jumlah pemesanan | **Dengan komisi** atau **Tanpa komisi** — cara total pemesanan diterima. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Hostelworld memastikan properti sudah terhubung ke Channex.
 

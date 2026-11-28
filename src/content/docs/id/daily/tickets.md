@@ -13,7 +13,7 @@ membuka tab ini.
 Tiket bersifat internal. **Tamu tidak pernah melihatnya**, bahkan tiket yang dibuka dari pesan
 mereka sendiri.
 
-![Tab Masalah: tiket per status, dengan penanggung jawab dan properti asalnya.](/screens/tickets.id.png)
+![Tab Masalah sebagai papan: kolom Akan dikerjakan, Sedang dikerjakan, dan Selesai, tiap kartu menampilkan kategori, properti dan kamar, serta penanggung jawabnya.](/screens/tickets.id.png)
 
 ## Tiket membuka dirinya sendiri
 
@@ -32,7 +32,7 @@ Tiga aturan mencegahnya menjadi kebisingan:
 
 Anda juga bisa membukanya manual: **Tiket baru** di tab Masalah, **Tiket baru** dari percakapan tamu
 di [Pesan](/id/daily/messages/) (di sana **Isi dengan AI** membaca percakapan dan mengisi kolomnya
-untuk Anda periksa), atau dengan memilih tanggal di [kalender](/id/daily/calendar/).
+untuk Anda periksa), atau tanda **+** di bagian atas kolom **Akan dikerjakan**.
 
 ## Papan
 
@@ -45,15 +45,19 @@ Tiket melewati empat status:
 | **Selesai** | Sudah diperbaiki |
 | **Dibatalkan** | Tidak jadi dikerjakan |
 
-Beralih antara **Papan** — satu kolom per status, seret kartu untuk mengubah statusnya — dan
-**Daftar**, tabel berisi **Tiket**, **Kategori**, **Status**, **Prioritas**, **Penanggung jawab**,
-dan **Tenggat**.
+Beralih antara **Papan** dan **Daftar**. Papan punya tiga kolom — **Akan dikerjakan**, **Sedang
+dikerjakan**, dan **Selesai** — dan Anda menyeret kartu untuk mengubah statusnya. **Selesai**
+menampilkan yang terbaru lebih dulu, dikelompokkan per tanggal, dan memuat yang lebih lama saat Anda
+menggulir; tiket yang dibatalkan ada di balik **Tampilkan dibatalkan** di bawah papan. Daftar adalah
+tabel berisi **Tiket**, **Kategori**, **Status**, **Prioritas**, **Penanggung jawab**, dan
+**Tenggat**.
 
 Di atasnya: **Cari tiket**, filter prioritas (**Semua prioritas**), dan tombol **Terlambat** yang
 hanya menampilkan tiket yang sudah lewat tenggatnya.
 
-Tiap kartu menampilkan tenggatnya, ditandai **Terlambat** setelah lewat, dan penanggung jawabnya —
-atau **Belum ditugaskan**.
+Tiap kartu menampilkan kategori, properti (dan kamar), tenggatnya — ditandai **Terlambat** setelah
+lewat — dan penanggung jawabnya. Kartu yang belum dipegang siapa pun menampilkan **Tugaskan** — atau
+**Belum ditugaskan** bila Anda tidak bisa menugaskan tiket.
 
 ## Mengerjakan sebuah tiket
 
@@ -78,15 +82,14 @@ menugaskannya mendapat notifikasi.
 Tiket **Antar-jemput bandara** juga memuat **Waktu penjemputan**. Nama dan telepon tamu muncul di
 sana sehari sebelum penjemputan.
 
-### Menjadwalkan berarti menaruhnya di kalender
+### Menjadwalkan pekerjaan
 
-Beri tiket rentang **Dijadwalkan dari / Dijadwalkan sampai** dan **ia digambar di
-[kalender](/id/daily/calendar/)** pada malam-malam itu. Perbaikan dua hari kemudian terlihat jelas
-berdampingan dengan booking di sekitarnya — dan itulah intinya: Anda bisa melihat apakah ia
-bertabrakan dengan kedatangan sebelum menyanggupinya.
+**Dijadwalkan dari / Dijadwalkan sampai** mencatat hari-hari pekerjaan berlangsung — misalnya
+perbaikan dua hari. Ini terpisah dari **Tenggat waktu**, yang menentukan apakah tiket ditandai
+**Terlambat**.
 
-Ini tidak memblokir malamnya dengan sendirinya. Jika kamar benar-benar tidak bisa dijual, tutup
-juga tanggalnya di kalender.
+Ini tidak memblokir malamnya. Jika kamar benar-benar tidak bisa dijual, tutup juga tanggalnya di
+[kalender](/id/daily/calendar/#memblokir-atau-membuka-tanggal).
 
 ### Rencana penyelesaian AI
 
@@ -99,10 +102,10 @@ Ia membuat draf. Ia tidak memesan suku cadang, tidak mengirim pesan ke tamu, dan
 
 ## Berapa lama tiket tertutup tetap di papan
 
-Tiket terbuka selalu tampil. Tiket **Selesai** dan **Dibatalkan** tetap di papan selama **30 hari
-setelah pembaruan terakhirnya**, lalu hilang dari papan agar papan tetap berisi pekerjaan saat ini.
-Gunakan **Tampilkan yang selesai & dibatalkan** untuk melihatnya. Tidak ada yang dihapus: tiket dan
-riwayatnya tetap ada.
+Tiket terbuka selalu tampil. Tiket **Selesai** dimuat saat Anda menggulir kolom Selesai. Tiket
+**Dibatalkan** tetap di papan selama **30 hari setelah pembaruan terakhirnya**, lalu hilang dari
+papan agar papan tetap berisi pekerjaan saat ini. Di daftar, tiket yang sudah selesai ada di balik
+**Tampilkan yang selesai & dibatalkan**. Tidak ada yang dihapus: tiket dan riwayatnya tetap ada.
 
 ## Siapa yang bisa melihatnya
 

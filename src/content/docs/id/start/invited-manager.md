@@ -49,13 +49,17 @@ Praktis seluruh operasional:
 
 Hal-hal ini hanya bisa dibaca, dan itu disengaja, bukan kelalaian:
 
+<div class="table-wrapper">
+
 | Anda bisa melihat | Anda tidak bisa mengubah | Kenapa |
 | --- | --- | --- |
-| Tarif dan harga | Menerbitkan harga atau mengedit rule set | Kesalahan harga menjual malam sungguhan dengan harga salah |
+| Tarif dan harga | Menerbitkan harga atau mengubah siapa yang menetapkan harga | Kesalahan harga menjual malam sungguhan dengan harga salah |
 | Pengaturan workspace | Jam ringkasan, bahasa, mata uang, nada pesan | Semua itu berlaku bagi *semua orang* — mengubahnya mengganti waktu dan bahasa pagi hari seluruh tim |
 | Daftar tim | Mengundang orang atau mengubah peran | Akses adalah hak pemilik untuk memberikan |
 | Koneksi channel | Menghubungkan, memutus, atau go live | Menyerahkan kalender ke channel adalah keputusan pemilik |
 | Penagihan | Paket atau kartu | Itu uang mereka |
+
+</div>
 
 Kalau Anda memerlukan salah satunya, minta pemilik melakukannya atau memindahkan Anda ke **host
 admin** — yang memberi segalanya, termasuk penagihan. Tidak ada jenjang di antara keduanya, dan itu

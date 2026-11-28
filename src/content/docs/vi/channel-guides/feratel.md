@@ -32,7 +32,7 @@ Hoặc tự kết nối trong giao diện của Feratel.
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Feratel của bạn. |
+| ID khách sạn | Hotel ID Feratel của bạn. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Feratel xác nhận chỗ nghỉ đã được kết nối với Channex.
 

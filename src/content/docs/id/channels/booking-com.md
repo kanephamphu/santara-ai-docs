@@ -17,8 +17,9 @@ sendiri, lalu menghubungkannya ke properti yang sudah ada di Santara AI.
 - **Hotel ID** Anda — angka di bagian atas extranet, di sebelah nama properti.
 
 Penyiapannya tiga langkah: **Pilih properti**, **Hubungkan dan petakan**, **Impor**.
+**Panduan langkah demi langkah**, di kanan atas, membuka halaman ini.
 
-![Langkah koneksi Booking.com — kotak centang extranet dan Hotel ID.](/screens/connect-booking-com.id.png)
+![Halaman koneksi Booking.com di langkah pertama, Pilih properti: hotel ini properti Anda yang mana, dengan Hubungkan dan petakan serta Impor menyusul.](/screens/connect-booking-com.id.png)
 
 ## 1. Aktifkan koneksi di extranet
 
@@ -65,7 +66,7 @@ rates) — misalnya minimum menginap. Periksa setiap tarif turunan di extranet s
 
 ## 2. Pilih properti
 
-**Pengaturan → Channel → Tambah channel**, lalu tekan **Hubungkan** pada kotak **Booking.com**.
+**Pengaturan → Saluran → Tambah saluran**, lalu tekan **Hubungkan** pada kotak **Booking.com**.
 Langkah pertama menanyakan **Hotel ini properti yang mana?** Pilih properti Santara AI-nya, lalu
 tekan **Lanjut**. Kamar Booking.com Anda dipetakan ke kamar properti itu — tidak ada properti baru
 yang dibuat. Jika properti itu sudah ada di Airbnb, itu wajar; satu properti dijual di dua tempat.

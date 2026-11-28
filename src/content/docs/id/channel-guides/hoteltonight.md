@@ -24,14 +24,14 @@ Belum ada di HotelTonight? Daftar lewat htmarketmanagement@airbnb.com.
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **HotelTonight**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **HotelTonight**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID HotelTonight Anda. |
+| ID hotel | Hotel ID HotelTonight Anda. |
 | Taxes | Apakah harga yang Anda kirim sudah termasuk pajak. Biasanya **tidak termasuk** di AS, **termasuk** di Eropa. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support HotelTonight memastikan properti sudah terhubung ke Channex.

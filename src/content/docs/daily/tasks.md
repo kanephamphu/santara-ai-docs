@@ -25,7 +25,7 @@ cleaner assigned.
 The toolbar decides what you see:
 
 - **When** — **Today**, **Upcoming**, **Earlier** or **All**.
-- **Group by** — **By day** (day columns, then buildings) or **By building** (buildings, then days).
+- **Group by** — **By day** (a section per day, then buildings) or **By building** (buildings, then days).
 - **Unassigned** — only the cleans nobody has been given yet.
 
 Managers also get three counts at the top: **To clean today**, **Unassigned** and **Done today**.
@@ -35,9 +35,9 @@ For each clean you can:
 - **Assign a cleaner** — or leave the room's default assignment to do it.
 - **Mark done** when the room is finished. It reads **Undo** afterwards, in case it was pressed by
   mistake.
-- **Proof & notes** — attach photos (5 MB each) and notes: what you found, anything the host
-  should know. Optional, but it settles questions later.
-- **Take off schedule** — when a guest stays on or the room was not used. No reason is asked for;
+- **Add photo** — opens **Proof & notes**: attach photos (5 MB each) and notes, such as what you
+  found or anything the host should know. Optional, but it settles questions later.
+- **Take off schedule** (the **×** on the card) — when a guest stays on or the room was not used. No reason is asked for;
   the card then reads **Skipped · Undo**. Managers only: a cleaner does the work, they do not decide
   what work exists.
 
@@ -81,8 +81,7 @@ See [Team and roles](/setup/team/).
 The **Issues** tab: complaints and maintenance, tracked from **To do** through **In progress** to
 **Done** or **Cancelled**, as a **Board** or a **List**, with priority, category, due date and
 **Overdue** marking. Most open **by themselves** from guest messages that read as a complaint or a
-fault, and a scheduled ticket is drawn on the [calendar](/daily/calendar/) so a two-day repair is
-visible against the bookings around it.
+fault.
 
 Full detail — the automatic ones, the AI resolution plan, history, who can see them — on
 **[Issues (tickets)](/daily/tickets/)**.

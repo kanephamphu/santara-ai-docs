@@ -8,12 +8,17 @@ sidebar:
 **Settings → Billing**. The figures on that screen are authoritative for your workspace — this page
 explains the shape of them.
 
-![Billing: the plan, what is billed per property, and the card on file.](/screens/billing.en.png)
+![Billing on a workspace with no card yet: Start your 3-month free trial, an optional promo code, Start free trial, and What you pay below.](/screens/billing.en.png)
 
 ## The trial
 
 Three months free — **90 days** — and **a card is required**. Nothing is charged on the day you
 add it, and cancelling before day 91 costs nothing.
+
+A workspace with no card opens **Settings → Billing** on **Start your 3-month free trial**. Enter
+a promotion code under **Have a code? (optional)** if you have one, then press **Start free
+trial**: Stripe opens its own secure card form, and nothing is charged today. **What you pay**,
+below it, shows what the plan will cost each month.
 
 :::caution[The trial has two limits, not one]
 It ends at **90 days or 3 listings, whichever comes first.** Connecting a fourth listing ends the

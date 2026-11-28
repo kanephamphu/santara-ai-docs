@@ -32,11 +32,11 @@ MakeMyTrip and Goibibo phải cho phép kết nối trước. Channex là đối
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID MakeMyTrip của bạn. |
-| Access Token | Mã token MakeMyTrip cấp khi kết nối Channex. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
-| Sync B2B Rate Type / Sync MyBiz Rate Type | Không bắt buộc. Gửi giá cả sang mức giá B2B hoặc MyBiz của MakeMyTrip; ô **Modifier (%)** hiện ra để điều chỉnh. |
-| Booking Amount | **Payout Amount** hoặc **Total Amount**. |
+| ID khách sạn | Hotel ID MakeMyTrip của bạn. |
+| Mã truy cập | Mã token MakeMyTrip cấp khi kết nối Channex. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Đồng bộ loại giá B2B / Đồng bộ loại giá MyBiz | Không bắt buộc. Gửi giá cả sang mức giá B2B hoặc MyBiz của MakeMyTrip; ô **Modifier (%)** hiện ra để điều chỉnh. |
+| Số tiền đặt phòng | **Số tiền chi trả** hoặc **Total Amount**. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của MakeMyTrip and Goibibo xác nhận chỗ nghỉ đã được kết nối với Channex.
 

@@ -29,7 +29,7 @@ HyperGuest phải cho phép kết nối trước. Channex là đối tác kết 
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Property ID HyperGuest của bạn. |
+| ID khách sạn | Property ID HyperGuest của bạn. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của HyperGuest xác nhận chỗ nghỉ đã được kết nối với Channex.
 

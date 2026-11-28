@@ -37,7 +37,7 @@ Inntopia phải cho phép kết nối trước. Channex là đối tác kết n�
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Inntopia của bạn. |
+| ID khách sạn | Hotel ID Inntopia của bạn. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Inntopia xác nhận chỗ nghỉ đã được kết nối với Channex.
 

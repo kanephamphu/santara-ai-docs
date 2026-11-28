@@ -10,7 +10,10 @@ nên "mã cửa của bạn là 4417" chỉ gõ một lần, không phải bốn
 
 Mẫu **thuộc phạm vi workspace**, nên câu trả lời cả đội đã thống nhất là câu trả lời mọi người gửi.
 
-![Mẫu tin nhắn, với các biến tự điền từ lượt lưu trú.](/screens/message-templates.vi.png)
+![Mẫu tin nhắn: Mẫu đã lưu bên trái, Bối cảnh xem trước và Trình chỉnh mẫu bên phải, cùng Mẫu mới và Nhập mẫu mặc định ở trên.](/screens/message-templates.vi.png)
+
+**Mẫu mới** mở **Trình chỉnh mẫu**: **Tên mẫu**, **Danh mục** và **Giọng điệu**, rồi chính
+**Tin nhắn**. **Lưu mẫu** thêm nó vào **Mẫu đã lưu** ở bên trái.
 
 ## Biến
 

@@ -17,7 +17,7 @@ Cara menghubungkan Hopper ke Santara AI. Penyiapan di dalam Santara AI sama untu
 
 ## 1. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Hopper**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Hopper**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -26,8 +26,8 @@ Cara menghubungkan Hopper ke Santara AI. Penyiapan di dalam Santara AI sama untu
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
-| Max Stay Type | **Arrival** atau **Through** — cara maksimum menginap diterapkan. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Jenis maksimum menginap | **Saat tiba** atau **Sepanjang menginap** — cara maksimum menginap diterapkan. |
 
 ## 2. Petakan kamar dan tarif
 

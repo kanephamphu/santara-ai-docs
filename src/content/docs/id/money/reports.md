@@ -123,4 +123,4 @@ terbuka sebagai panel terkunci yang menjelaskan apa yang ditambahkan oleh upgrad
 ## Okupansi, ADR, dan RevPAR
 
 Angka-angka itu — okupansi, rata-rata harga harian dari reservasi, RevPAR, dan perbandingan per
-kamar — sekarang ada di [Upsell](/id/money/upsells/).
+kamar — ada di tab **Kinerja** di bagian atas halaman ini.

@@ -30,7 +30,7 @@ Không tìm thấy? Email bộ phận hỗ trợ của MG để đề nghị k�
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID MG Bedbank của bạn. |
+| ID khách sạn | Hotel ID MG Bedbank của bạn. |
 | Tax setting | Tổng tiền đặt phòng có gồm thuế hay không. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của MG Bedbank xác nhận chỗ nghỉ đã được kết nối với Channex.

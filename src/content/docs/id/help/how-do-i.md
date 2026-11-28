@@ -27,9 +27,9 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 
 | Saya ingin… | Lakukan ini |
 | --- | --- |
-| Menutup tanggal untuk perbaikan atau dipakai sendiri | Klik atau seret malamnya, lalu Hentikan penjualan → Ditutup — [Memblokir atau membuka tanggal](/id/daily/calendar/#memblokir-atau-membuka-tanggal) |
+| Menutup tanggal untuk perbaikan atau dipakai sendiri | Klik atau seret malamnya, lalu Dijual → Ditutup — [Memblokir atau membuka tanggal](/id/daily/calendar/#memblokir-atau-membuka-tanggal) |
 | Berhenti menjual sebuah kamar untuk satu musim | Tutup rentangnya di kalender. **Jangan putuskan koneksi channel** |
-| Membuka lagi tanggal yang tertutup karena salah | Pilih lagi, Hentikan penjualan → Buka — [Memblokir atau membuka tanggal](/id/daily/calendar/#memblokir-atau-membuka-tanggal) |
+| Membuka lagi tanggal yang tertutup karena salah | Pilih lagi, Dijual → Buka — [Memblokir atau membuka tanggal](/id/daily/calendar/#memblokir-atau-membuka-tanggal) |
 | Tahu kenapa satu malam tampak tidak tersedia | [Blok yang berasal dari channel](/id/daily/calendar/#blok-yang-berasal-dari-channel) |
 | Menjual dua apartemen identik sebagai satu listing | Atur jumlah unit kamar — [Ketersediaan dan jumlah unit](/id/daily/calendar/#ketersediaan-dan-jumlah-unit) |
 | Menetapkan menginap minimum | Ada di rate plan — [Rate plan](/id/money/rates/#rate-plan) |
@@ -42,13 +42,13 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | --- | --- |
 | Mengubah harga satu malam | Ketik di [kalender](/id/daily/calendar/) — harga yang diketik dilindungi |
 | Mengubah harga satu rentang tanggal | [Grid](/id/money/rates/#grid) |
-| Membuat harga bergerak sendiri | Tetapkan sebuah [rule set](/id/money/pricing/#menyusun-rule-set) |
+| Membuat harga bergerak sendiri | Atur kamar ke **Otomatis (Santara AI)** — [Siapa yang menetapkan harga tiap kamar](/id/money/pricing/#siapa-yang-menetapkan-harga-tiap-kamar) |
 | Mencegah mesin menimpa harga yang saya ketik | [Melindungi harga manual](/id/money/pricing/#melindungi-harga-manual) |
 | Menetapkan batas bawah agar tidak terlalu murah | [Angka milik listing](/id/money/pricing/#angka-milik-listing) |
-| Melihat efek rule set sebelum terbit | [Melihat sebelum menerbitkan](/id/money/pricing/#melihat-sebelum-menerbitkan) |
-| Melihat dulu apa yang akan diubah harga dinamis malam ini | **Sinkronkan sekarang** di tab **Harga** listing, lalu **Terapkan harga ini** — [Sinkronkan sekarang](/id/money/pricing/#sinkronkan-sekarang) |
+| Melihat efek smart pricing sebelum terbit | [Melihat sebelum menerbitkan](/id/money/pricing/#melihat-sebelum-menerbitkan) |
+| Melihat dulu apa yang akan diubah harga dinamis malam ini | **Sinkronkan sekarang** di tab **Kalender** layar Harga, lalu **Terapkan harga ini** — [Sinkronkan sekarang](/id/money/pricing/#sinkronkan-sekarang) |
 | Tahu apakah pricing benar-benar bekerja | [Apakah berhasil?](/id/money/pricing/#apakah-berhasil) |
-| Tetap memakai PriceLabs | Koneksi yang ada tetap berjalan; koneksi baru dijeda — [Jika Anda sudah memakai PriceLabs](/id/money/pricing/#jika-anda-sudah-memakai-pricelabs) |
+| Tetap memakai PriceLabs | Pilih **PriceLabs** untuk kamar di **Siapa yang menetapkan harga** — [Jika Anda sudah memakai PriceLabs](/id/money/pricing/#jika-anda-sudah-memakai-pricelabs) |
 | Menagih lebih untuk tamu tambahan | Ada di rate plan — [Rate plan](/id/money/rates/#rate-plan) |
 
 ## Booking dan tamu
@@ -95,7 +95,7 @@ Kalau tidak ada yang cocok, gunakan [pencarian](/id/help/finding-things/) atau t
 | Selalu menugaskan orang yang sama ke satu kamar | [Petugas bawaan per kamar](/id/daily/tasks/#petugas-bawaan-per-kamar) |
 | Mengelompokkan properti yang dipegang satu petugas | [Klaster kebersihan](/id/daily/tasks/#klaster-kebersihan) |
 | Melaporkan AC rusak atau masalah perawatan lain | **Tugas → Masalah → Tiket baru** — [Masalah (tiket)](/id/daily/tickets/#tiket-membuka-dirinya-sendiri) |
-| Menutup kamar selama perbaikan | [Menjadwalkan berarti menaruhnya di kalender](/id/daily/tickets/#menjadwalkan-berarti-menaruhnya-di-kalender) |
+| Menutup kamar selama perbaikan | Tutup malam-malam itu di kalender (menjadwalkan tiket tidak menahan kamar) — [Memblokir atau membuka tanggal](/id/daily/calendar/#memblokir-atau-membuka-tanggal) |
 | Memastikan pembersihan benar-benar dikerjakan | Petugas menandai selesai, bisa dengan foto — [Apa yang dilihat petugas kebersihan](/id/daily/tasks/#apa-yang-dilihat-petugas-kebersihan) |
 
 ## Channel

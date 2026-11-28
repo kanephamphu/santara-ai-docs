@@ -27,9 +27,9 @@ không phải câu trả lời chung chung.
 
 | Tôi muốn… | Làm thế này |
 | --- | --- |
-| Khóa ngày để sửa chữa hoặc tự ở | Bấm hoặc kéo qua các đêm, rồi Ngừng bán → Đã đóng — [Khóa hoặc mở lại ngày](/vi/daily/calendar/#khóa-hoặc-mở-lại-ngày) |
+| Khóa ngày để sửa chữa hoặc tự ở | Bấm hoặc kéo qua các đêm, rồi ở mục Mở bán chọn Đã đóng — [Khóa hoặc mở lại ngày](/vi/daily/calendar/#khóa-hoặc-mở-lại-ngày) |
 | Ngừng bán một phòng trong cả mùa | Đóng khoảng ngày trên lịch. **Đừng ngắt kết nối kênh** |
-| Mở lại những ngày lỡ đóng nhầm | Chọn lại, Ngừng bán → Mở bán — [Khóa hoặc mở lại ngày](/vi/daily/calendar/#khóa-hoặc-mở-lại-ngày) |
+| Mở lại những ngày lỡ đóng nhầm | Chọn lại, ở mục Mở bán chọn Mở bán — [Khóa hoặc mở lại ngày](/vi/daily/calendar/#khóa-hoặc-mở-lại-ngày) |
 | Hiểu vì sao một đêm hiện là không còn trống | [Các khóa lịch đến từ kênh](/vi/daily/calendar/#các-khóa-lịch-đến-từ-kênh) |
 | Bán hai căn hộ giống hệt nhau như một listing | Đặt số đơn vị của phòng — [Tình trạng trống và số đơn vị](/vi/daily/calendar/#tình-trạng-trống-và-số-đơn-vị) |
 | Đặt số đêm tối thiểu | Nằm ở rate plan — [Rate plan](/vi/money/rates/#rate-plan) |
@@ -42,13 +42,13 @@ không phải câu trả lời chung chung.
 | --- | --- |
 | Đổi giá một đêm | Gõ thẳng trên [lịch](/vi/daily/calendar/) — giá gõ tay được bảo vệ |
 | Đổi giá cả một khoảng ngày | [Lưới](/vi/money/rates/#lưới) |
-| Để giá tự chạy | Gán một [rule set](/vi/money/pricing/#dựng-một-rule-set) |
+| Để giá tự chạy | Đặt phòng sang **Tự động (Santara AI)** — [Ai đặt giá cho từng phòng](/vi/money/pricing/#ai-đặt-giá-cho-từng-phòng) |
 | Ngăn bộ máy ghi đè giá tôi đã gõ | [Bảo vệ giá nhập tay](/vi/money/pricing/#bảo-vệ-giá-nhập-tay) |
 | Đặt sàn để không bao giờ bán quá rẻ | [Các con số của listing](/vi/money/pricing/#các-con-số-của-listing) |
-| Xem rule set sẽ làm gì trước khi xuất bản | [Xem trước khi xuất bản](/vi/money/pricing/#xem-trước-khi-xuất-bản) |
-| Xem trước định giá động sẽ đổi gì đêm nay | **Đồng bộ ngay** ở tab **Giá** của listing, rồi **Áp dụng các mức giá này** — [Đồng bộ ngay](/vi/money/pricing/#đồng-bộ-ngay) |
+| Xem định giá thông minh sẽ làm gì trước khi xuất bản | [Xem trước khi xuất bản](/vi/money/pricing/#xem-trước-khi-xuất-bản) |
+| Xem trước định giá động sẽ đổi gì đêm nay | **Đồng bộ ngay** ở tab **Lịch giá** của màn hình Giá, rồi **Áp dụng các mức giá này** — [Đồng bộ ngay](/vi/money/pricing/#đồng-bộ-ngay) |
 | Biết việc định giá có thực sự hiệu quả không | [Nó có hiệu quả không?](/vi/money/pricing/#nó-có-hiệu-quả-không) |
-| Vẫn dùng PriceLabs | Kết nối đã có vẫn hoạt động; kết nối mới đang tạm dừng — [Nếu bạn đã dùng PriceLabs](/vi/money/pricing/#nếu-bạn-đã-dùng-pricelabs) |
+| Vẫn dùng PriceLabs | Chọn **PriceLabs** cho phòng ở **Ai đặt giá** — [Nếu bạn đã dùng PriceLabs](/vi/money/pricing/#nếu-bạn-đã-dùng-pricelabs) |
 | Thu thêm tiền cho khách phụ trội | Nằm ở rate plan — [Rate plan](/vi/money/rates/#rate-plan) |
 
 ## Đặt phòng và khách
@@ -95,7 +95,7 @@ không phải câu trả lời chung chung.
 | Luôn giao cùng một người cho một phòng | [Nhân viên mặc định theo phòng](/vi/daily/tasks/#nhân-viên-mặc-định-theo-phòng) |
 | Gom các bất động sản do một người phụ trách | [Cụm dọn phòng](/vi/daily/tasks/#cụm-dọn-phòng) |
 | Báo máy lạnh hỏng hay sự cố bảo trì khác | **Công việc → Sự cố → Phiếu mới** — [Sự cố (phiếu xử lý)](/vi/daily/tickets/#phiếu-tự-mở) |
-| Khóa phòng trong lúc sửa chữa | [Lên lịch nghĩa là đưa nó lên lịch làm việc](/vi/daily/tickets/#lên-lịch-nghĩa-là-đưa-nó-lên-lịch-làm-việc) |
+| Khóa phòng trong lúc sửa chữa | Đóng các đêm đó trên lịch (lên lịch cho ticket không giữ phòng) — [Khóa hoặc mở lại ngày](/vi/daily/calendar/#khóa-hoặc-mở-lại-ngày) |
 | Kiểm chứng phòng đã thực sự được dọn | Nhân viên đánh dấu xong, có thể kèm ảnh — [Nhân viên dọn phòng thấy gì](/vi/daily/tasks/#nhân-viên-dọn-phòng-thấy-gì) |
 
 ## Kênh

@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-![Pipeline upsell: setiap peluang dengan reservasi di baliknya, nilainya, dan draf pesan yang menawarkannya.](/screens/upsells.id.png)
+![Layar Upsell: nilai yang tercatat bulan ini, potensi aktif, jumlah yang siap pesan dan segera kedaluwarsa, penawaran per kamar dengan peluang teratasnya, dan Antrean manajer dengan tombol Kirim semua.](/screens/upsells.id.png)
 
 Upsell adalah malam atau jam yang sudah Anda miliki, dijual kepada tamu yang sudah menginap. Santara AI
 menemukannya dengan membaca kalender, bukan dengan menebak keinginan tamu.
@@ -26,15 +26,19 @@ peluangnya ada. Bila tidak, tidak ada tawaran yang dibuat.
 
 ## Menggarap pipeline
 
-Layar **Upsell** memeringkat peluang terbuka berdasarkan nilai. Untuk masing-masing Anda melihat:
+Layar **Upsell** dibuka dengan empat angka — **Tercatat bulan ini**, **Potensi aktif**, **Siap pesan**,
+dan **Segera kedaluwarsa** — lalu **Penawaran per kamar**: kamar dengan nilai terbesar lebih dulu,
+masing-masing dengan **Peluang Teratas**-nya, yang paling cepat kedaluwarsa lebih dulu. Buka sebuah
+peluang untuk melihat:
 
 - **Fakta di baliknya** — reservasinya, malam kosongnya, tarif yang menjadi dasarnya.
 - **Alasan direkomendasikan** — sinyal dan keyakinan di balik skornya.
 - **Kendala waktu** — jendela operasional, konflik, dan apa pun yang menekannya (pembersihan yang
   dijadwalkan pagi itu, booking yang baru masuk).
-- **Draf pesan** untuk tamu, siap dikirim dari [Pesan](/id/daily/messages/).
+- **Tinjau penawaran**, yang membuka draf pesan untuk tamu di [Pesan](/id/daily/messages/), siap
+  dikirim.
 
-Terima dan ia menjadi tawaran yang Anda kirim. Abaikan dan ia berhenti disarankan.
+Angka pendapatan dan okupansi tidak ada di layar ini; semuanya ada di **Laporan → Kinerja**.
 
 ### Mengirim beberapa sekaligus
 

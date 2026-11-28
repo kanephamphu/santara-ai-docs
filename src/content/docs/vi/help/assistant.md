@@ -13,7 +13,7 @@ việc thật của bạn là hợp lệ:
 - *Vì sao listing Airbnb của Unit 3 chưa chạy?*
 - *Soạn giúp câu trả lời cho khách hỏi nhận phòng sớm.*
 
-![Hỏi Santi ở chế độ toàn trang: lời chào và bốn câu hỏi để bắt đầu.](/screens/assistant.vi.png)
+![Hỏi Santi ở chế độ toàn trang: hai thẻ Hỏi Santi và Nói chuyện với người thật, bốn câu hỏi để bắt đầu, và ô để nhập.](/screens/assistant.vi.png)
 
 :::note
 Santi còn có ứng dụng riêng cho điện thoại của bạn, tại **santi.santara.ai** — cùng Santi, cùng tài
@@ -27,7 +27,7 @@ khoản Santara AI. Xem [Ứng dụng Santi](/vi/help/santi-app/), mở tại
 - **Bên cạnh chuông thông báo**, ở đầu mọi màn hình. Bấm vào Santi và **Hỏi Santi** mở ra.
 - **Trên điện thoại**, Santi nổi ở góc dưới bên phải. Nó mở cùng một bảng.
 - **Toàn trang** — liên kết ở đầu bảng mở `/dashboard/assistant`, cùng cuộc trò chuyện trong khung
-  lớn hơn.
+  lớn hơn, với hai thẻ **Hỏi Santi** và **Nói chuyện với người thật** ở trên cùng.
 
 Gương mặt của Santi cho bạn biết tình hình, từ dữ liệu thật: nó **cảnh giác** khi có tin nhắn khách
 đang chờ trả lời, **buồn ngủ** từ 22:00 đến 06:00, **vẫy tay** vào buổi sáng, và **bình thản** những
@@ -53,29 +53,35 @@ Santi làm và luôn hỏi bạn trước.
 
 **AI Agents** ở thanh bên mở trang riêng của đội:
 
-![Trang AI Agents: cả đội cùng số việc của từng agent, và mục Cần bạn phía trên khung chat.](/screens/agents.vi.png)
+![Trang AI Agents: Santi và sáu agent cùng số việc của từng người, mục Cần bạn với Giao cho Lulu và Giao cho Loop, và khung chat với hai câu hỏi để bắt đầu.](/screens/agents.vi.png)
 
-- **Danh sách đội** cho thấy mỗi agent với **{count} việc**, **Ổn cả**, hoặc **Chưa kiểm tra được**
-  khi không lấy được dữ liệu. **Làm mới** kiểm tra lại.
-- **Cần bạn** liệt kê những gì đang chờ bạn, gấp nhất lên trước — khách chờ trả lời, phòng cần dọn
-  hôm nay, kết nối kênh cần xem lại, đêm trống sắp tới, ưu đãi upsell sẵn sàng gửi, đánh giá mới.
+- **Danh sách đội** mở đầu bằng **Santi** · Điều phối, với con số là số mục trong **Cần bạn**. Bên
+  dưới, mỗi agent hiện số việc cần làm, dấu tích khi ổn cả, hoặc gạch ngang khi **Chưa kiểm tra
+  được** dữ liệu. **Làm mới** — nút mũi tên tròn ở góc trên bên phải — kiểm tra lại.
+- **Cần bạn** liệt kê những gì đang chờ bạn, gấp nhất lên trước — khách chờ trả lời, việc cần bạn
+  hôm nay, kết nối kênh cần chú ý, lượt chuyển phòng cần dọn hôm nay, đêm trống sắp tới, ưu đãi bán
+  thêm sẵn sàng gửi, đánh giá mới. Mỗi lần hiện hai mục; **Xem tất cả ({count})** mở phần còn lại.
 - Mỗi mục có **Giao cho {name}** (agent đó xem xét và cho bạn biết nên làm gì) và **Mở** (đi tới màn
   hình đó).
-- Chọn một agent trong danh sách để trò chuyện riêng với agent đó.
+- **Khung chat** bên dưới gợi ý sẵn hai câu hỏi, và ô nhập ghi **Hỏi Santi…**. Chọn một agent trong
+  danh sách để trò chuyện riêng với agent đó — ô nhập khi ấy ghi **Hỏi Lulu…**, v.v.
 
 ### Một buổi sáng thật trên trang AI Agents
 
 Hình trên là workspace demo đúng như cả đội nhìn thấy. Đọc từ trên xuống:
 
-1. **Lulu báo 3** và **Cần bạn** ghi *3 khách đang chờ trả lời*. Bấm **Giao cho Lulu** — Santi nhờ
+1. **Lulu báo 15** và **Cần bạn** ghi *15 khách đang chờ trả lời*. Bấm **Giao cho Lulu** — Santi nhờ
    Lulu đọc các cuộc trò chuyện đó, và Lulu báo lại điều mỗi khách cần. Sau đó nhờ Santi *soạn
    nháp câu trả lời*: mỗi bản nháp được lưu vào hộp thư sau khi bấm **Xác nhận**, và không có gì
    được gửi cho tới khi bạn gửi (hoặc bảo Santi *gửi đi*, việc này cần **Xác nhận** lần nữa).
 2. **Loop báo 1** — *Chưa kết nối kênh nào*. **Mở** đưa bạn tới Cài đặt → Kênh. Santi sẽ không kết
    nối kênh thay bạn; bước đó vẫn là của bạn.
-3. **Penny báo 4** — có đêm trống sắp tới. Hỏi Penny *đêm nào còn trống và năm ngoái bán giá bao
+3. **Santi báo 5**, nhưng màn hình chỉ hiện hai mục. **Xem tất cả (5)** mở ba mục còn lại: lượt
+   chuyển phòng cần dọn hôm nay của Bubbles, đêm trống sắp tới của Penny, và ưu đãi bán thêm sẵn
+   sàng gửi của Kiko.
+4. **Penny báo 8** — có đêm trống sắp tới. Hỏi Penny *đêm nào còn trống và năm ngoái bán giá bao
    nhiêu?* trước khi đụng vào giá; đổi giá vẫn do bạn làm ở trang Giá.
-4. **Sunny, Kiko và Bubbles có dấu tích** — hôm nay không có gì chờ họ.
+5. **Sunny có dấu tích** — hôm nay không có gì chờ Sunny.
 
 ## Nó thấy được gì
 
@@ -155,5 +161,6 @@ chuyện sẽ đi kèm tin nhắn.
 
 ## Chuyển cho người thật
 
-**Nói chuyện với người thật**, ở đầu bảng, là kênh thật tới đội ngũ Santara AI, tách biệt với Santi.
+**Nói chuyện với người thật**, ở đầu bảng (một thẻ cạnh **Hỏi Santi** ở chế độ toàn trang), là kênh
+thật tới đội ngũ Santara AI, tách biệt với Santi.
 Cuộc trò chuyện của bạn với Santi được chuyển theo để bạn không phải nhắc lại.

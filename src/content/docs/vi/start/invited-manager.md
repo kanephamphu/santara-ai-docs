@@ -50,7 +50,7 @@ Những mục này chỉ đọc, và đó là chủ đích chứ không phải t
 
 | Bạn xem được | Bạn không đổi được | Vì sao |
 | --- | --- | --- |
-| Giá và bảng giá | Xuất bản giá hoặc sửa rule set | Một sai sót về giá sẽ bán những đêm thật với giá sai |
+| Giá và bảng giá | Xuất bản giá hoặc đổi ai đặt giá | Một sai sót về giá sẽ bán những đêm thật với giá sai |
 | Cài đặt workspace | Giờ bản tóm tắt, ngôn ngữ, tiền tệ, giọng điệu | Chúng áp dụng cho *tất cả mọi người* — đổi chúng là đổi giờ và ngôn ngữ buổi sáng của cả đội |
 | Danh sách đội ngũ | Mời người hoặc đổi vai trò | Quyền truy cập là thứ chủ sở hữu trao |
 | Kết nối kênh | Kết nối, ngắt, hoặc go live | Giao lịch cho một kênh là quyết định của chủ sở hữu |

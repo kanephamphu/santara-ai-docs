@@ -34,17 +34,17 @@ Despegar menampilkan API password hanya sekali. Jika hilang, reset koneksinya di
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Despegar**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Despegar**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Property ID Despegar. |
-| Username | Username yang ditampilkan Despegar. |
-| Password | **API password** — bukan password extranet Anda. |
-| Min stay type | Despegar hanya menerima satu jenis; pilih yang akan dikirim. |
+| ID hotel | Property ID Despegar. |
+| Nama pengguna | Username yang ditampilkan Despegar. |
+| Kata sandi | **API password** — bukan password extranet Anda. |
+| Jenis minimum menginap | Despegar hanya menerima satu jenis; pilih yang akan dikirim. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Despegar memastikan properti sudah terhubung ke Channex.
 

@@ -13,7 +13,7 @@ actual business are fair:
 - *Why isn't the Airbnb listing for Unit 3 live?*
 - *Draft a reply to the guest asking about early check-in.*
 
-![Ask Santi on its full page: an intro and four questions to start from.](/screens/assistant.en.png)
+![Ask Santi on its full page: the Ask Santi and Talk to a person tabs, four questions to start from, and the box to type in.](/screens/assistant.en.png)
 
 :::note
 Santi also has an app of its own, for your phone, at **santi.santara.ai** — same Santi, same
@@ -27,7 +27,7 @@ Santara AI account. See [The Santi app](/help/santi-app/), open it at
 - **Beside the bell**, at the top of every screen. Click Santi and **Ask Santi** opens.
 - **On phones**, Santi floats in the bottom-right corner instead. It opens the same panel.
 - **Full page** — the link at the top of the panel opens `/dashboard/assistant`, the same chat in a
-  larger frame.
+  larger frame, with **Ask Santi** and **Talk to a person** as two tabs at the top.
 
 Santi's face tells you how things stand, from your real data: it looks **alert** when guest
 messages are waiting for a reply, **sleepy** between 22:00 and 06:00, **waves** in the morning, and
@@ -53,30 +53,37 @@ Santi and always asks you first.
 
 **AI Agents** in the sidebar opens the crew's own page:
 
-![The AI Agents page: the crew with what each has to do, and Needs you above the chat.](/screens/agents.en.png)
+![The AI Agents page: Santi and the six agents with what each has to do, Needs you with Hand to Lulu and Hand to Loop, and the chat with two questions to start from.](/screens/agents.en.png)
 
-- **The roster** shows each agent with **{count} to do**, **All clear**, or **Couldn't check** when
-  it could not reach its data. **Refresh** checks again.
-- **Needs you** lists what is waiting on you, most urgent first — guests waiting on a reply,
-  turnovers to clean today, channel connections that need attention, empty nights ahead, upsell
-  offers ready to send, new reviews.
+- **The roster** starts with **Santi** · Orchestrator, whose number is how many items are in
+  **Needs you**. Below it, each agent shows a number of things to do, a check when all is clear, or
+  a dash when it **Couldn't check** its data. **Refresh** — the round arrow at the top right —
+  checks again.
+- **Needs you** lists what is waiting on you, most urgent first — guests waiting on a reply, things
+  that need you today, channel connections that need attention, turnovers to clean today, empty
+  nights ahead, upsell offers ready to send, new reviews. It shows two items at a time; **Show all
+  ({count})** lists the rest.
 - Each item has **Hand to {name}** (that agent looks into it and tells you what to do) and
   **Open** (goes to the screen).
-- Pick an agent in the roster to chat with that agent alone.
+- **The chat** below starts with two questions to try, and the box reads **Ask Santi…**. Pick an
+  agent in the roster to chat with that agent alone — the box then says **Ask Lulu…**, and so on.
 
 ### A real morning on the AI Agents page
 
 The picture above is the demo workspace exactly as the crew found it. Reading it top to bottom:
 
-1. **Lulu shows 3** and **Needs you** says *3 guests waiting on a reply*. Press **Hand to Lulu** —
+1. **Lulu shows 15** and **Needs you** says *15 guests waiting on a reply*. Press **Hand to Lulu** —
    Santi asks Lulu to read those threads, and Lulu reports what each guest wants. Then ask Santi
    to *draft the replies*: each draft is saved to the inbox after **Confirm**, and nothing is sent
    until you send it (or tell Santi *send it*, which needs **Confirm** again).
 2. **Loop shows 1** — *No channels connected yet*. **Open** takes you to Settings → Channels.
    Santi will not connect a channel for you; that stays a step you take.
-3. **Penny shows 4** — empty nights ahead. Ask Penny *which nights are empty and what did they
+3. **Santi shows 5**, but only two items are on screen. **Show all (5)** brings in the other
+   three: turnovers to clean today for Bubbles, empty nights ahead for Penny, and upsell offers
+   ready to send for Kiko.
+4. **Penny shows 8** — empty nights ahead. Ask Penny *which nights are empty and what did they
    sell for last year?* before you touch a price; changing it is still yours to do on Pricing.
-4. **Sunny, Kiko and Bubbles show a check** — nothing waiting on them today.
+5. **Sunny shows a check** — nothing waiting on Sunny today.
 
 ## What it can see
 
@@ -154,5 +161,5 @@ screen. The conversation goes with the message.
 
 ## Escalating to a person
 
-**Talk to a person**, at the top of the panel, is a real channel to the Santara AI team, separate
-from Santi. Your conversation with Santi is carried over so you do not repeat yourself.
+**Talk to a person**, at the top of the panel (a tab beside **Ask Santi** on the full page), is a
+real channel to the Santara AI team, separate from Santi. Your conversation with Santi is carried over so you do not repeat yourself.

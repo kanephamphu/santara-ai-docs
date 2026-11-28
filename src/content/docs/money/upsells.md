@@ -5,7 +5,7 @@ sidebar:
   order: 3
 ---
 
-![The upsell pipeline: each opportunity with the stay behind it, what it is worth, and the draft message that offers it.](/screens/upsells.en.png)
+![The Upsells screen: this month's captured value, active potential, message-ready and expiring-soon counts, offers grouped by room with their top opportunities, and the Offers ready to send list with Send all.](/screens/upsells.en.png)
 
 An upsell is a night or an hour you already have, sold to a guest who is already staying. Santara AI
 finds them by reading the calendar, not by guessing at what a guest might want.
@@ -25,15 +25,18 @@ opportunity exists. If it does not, no offer is made — there is nothing to be 
 
 ## Working the pipeline
 
-The **Upsells** screen ranks open opportunities by value. For each one you see:
+The **Upsells** screen opens with four figures — **Captured this month**, **Active potential**,
+**Message-ready** and **Expiring soon** — and then **Offers by room**: the rooms worth most first, each
+with its **Top Opportunities**, soonest to expire first. Open an opportunity to see:
 
 - **The facts behind it** — the reservation, the free nights, the rate it is priced from.
 - **Why it was recommended** — the signals and the confidence behind the score.
 - **Timing constraints** — operational windows, conflicts, and anything suppressing it (a clean
   scheduled that morning, a booking that arrived since).
-- **A draft message** to the guest, ready to send from [Messages](/daily/messages/).
+- **Review offer**, which opens the drafted message to the guest in [Messages](/daily/messages/),
+  ready to send.
 
-Accept it and it becomes an offer you send. Dismiss it and it stops being suggested.
+Revenue and occupancy figures are not on this screen; they are on **Reports → Performance**.
 
 ### Sending several at once
 

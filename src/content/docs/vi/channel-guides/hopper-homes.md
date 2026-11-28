@@ -32,10 +32,10 @@ Hopper Homes phải cho phép kết nối trước. Channex là đối tác kế
 
 | Trường | Nhập gì |
 | --- | --- |
-| Verified Host Email | Email bạn đã dùng để đăng ký Hopper. |
-| Display Host Name | Tên host khách sẽ thấy. |
-| Min Stay Type | **Arrival** hoặc **Through**. Thường là Arrival. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Email chủ nhà đã xác minh | Email bạn đã dùng để đăng ký Hopper. |
+| Hiển thị tên chủ nhà | Tên host khách sẽ thấy. |
+| Loại lưu trú tối thiểu | **Theo ngày đến** hoặc **Suốt thời gian ở**. Thường là Theo ngày đến. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Hopper Homes xác nhận chỗ nghỉ đã được kết nối với Channex.
 

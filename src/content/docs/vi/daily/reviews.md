@@ -7,7 +7,12 @@ sidebar:
 
 Mọi đánh giá khách để lại, từ mọi kênh đã kết nối có chuyển đánh giá, trong một danh sách.
 
-![Đánh giá từ mọi kênh, với số chưa được trả lời đếm ở phía trên.](/screens/reviews.vi.png)
+![Đánh giá: số đánh giá cần phản hồi, bảng điểm với điểm tổng thể, các hạng mục và thang điểm riêng của từng kênh, rồi danh sách Cần phản hồi với Phản hồi cùng Santi và Tự viết.](/screens/reviews.vi.png)
+
+Trang đọc từ trên xuống. Một dòng cho biết bao nhiêu đánh giá **cần phản hồi** và bao nhiêu đánh giá
+**dưới 4★**, bên cạnh là bộ lọc khoảng thời gian, chỗ nghỉ và phòng. Bên dưới là bảng điểm —
+**Điểm tổng thể**, **Theo hạng mục** và **Theo kênh**, giải thích ở mục [Điểm số](#điểm-số) — rồi tới
+danh sách đánh giá.
 
 ## Tìm những đánh giá cần chú ý
 

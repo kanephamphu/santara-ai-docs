@@ -28,7 +28,7 @@ Anda — misalnya [Santi](/id/help/santi-app/) — beserta apa yang bisa dilakuk
 **Putuskan**. Menu **Aplikasi terhubung** di menu akun membuka tab yang sama. Daftar ini pribadi:
 hanya Anda yang melihatnya, dan rekan tim mengelola aplikasi mereka sendiri.
 
-![Pengaturan workspace: waktu dan bahasa ringkasan, zona waktu, mata uang, dan selebihnya.](/screens/workspace-settings.id.png)
+![Pengaturan → Ruang kerja: Detail Ruang kerja dengan nama dan avatar, Ringkasan Preferensi, Pintasan Ruang kerja, dan Preferensi Operasional di bawahnya.](/screens/workspace-settings.id.png)
 
 ## Bahasa
 
@@ -61,11 +61,14 @@ Tab workspace memuat pengaturan yang mengubah perilaku produk bagi semua orang d
 | **Bahasa ringkasan harian** | Bahasa penulisannya — terpisah dari bahasa antarmuka |
 | **Zona waktu workspace** | Arti "hari ini", di mana pun |
 | **Mata uang tampilan** | Mata uang untuk menampilkan angka |
-| **Nada pesan bawaan** | Nada awal draf balasan untuk tamu |
+| **Nada pesan default** | Nada awal draf balasan untuk tamu |
 | **Nilai upsell minimum** | Peluang di bawah nilai ini tidak ditampilkan, agar pipeline tetap layak dibaca |
 | **Buka Ringkasan Harian dulu** | Mulai aplikasi dari ringkasan, bukan dari dasbor |
 | **Peringatan kedatangan hari ini** | Kirim email ke tim saat ada pemesanan untuk tamu yang check-in hari ini — aktif secara bawaan |
-| **Channel notifikasi** | Dasbor untuk saat ini; email dan SMS belum tersambung |
+| **Ringkasan pagi di WhatsApp** | Pada jam ringkasan, host dan co-host yang punya nomor telepon di akunnya menerima angka hari ini lewat WhatsApp |
+| **Tugas kebersihan di WhatsApp** | Setiap petugas kebersihan yang punya nomor telepon menerima tugas hari ini lewat WhatsApp; ketuk **Mulai** atau **Selesai** untuk memperbarui papan kebersihan |
+| **Kepadatan dasbor** | **Nyaman** atau **Padat** |
+| **Saluran notifikasi** | **Email** (bawaan) atau **Dasbor saja** — pilihan ini menghentikan email ke tim saat Santi membuka tiket dari pesan tamu. **Email + SMS nanti** belum tersambung |
 
 ### Peringatan kedatangan hari ini
 

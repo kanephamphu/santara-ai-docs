@@ -7,7 +7,7 @@ sidebar:
 
 **Reservations** lists every stay across every channel, plus any you add by hand.
 
-![Reservations — every stay from every channel, grouped by when the guest arrives.](/screens/bookings.en.png)
+![Reservations: the Upcoming tab lists today's arrivals on the left, and the selected stay's details open beside it.](/screens/bookings.en.png)
 
 ## The list
 
@@ -35,7 +35,8 @@ Above the list:
 
 Click any reservation and its details open beside the list:
 
-- **Booking code** — the channel's reference, for looking the same booking up in an extranet.
+- **Booking code** — the channel's reference, shown beside the channel under the guest's name, for
+  looking the same booking up in an extranet.
 - **Check-in and check-out**, with the times (**from 14:00**, **by 11:00**), and how far the stay
   has got — **Arrives in 3 days**, **Night 2 of 4**, **Checks out today**, **Stay completed**.
 - **Property**, **Guests** and **Phone** (or **No phone number on file**).

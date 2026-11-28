@@ -8,12 +8,17 @@ sidebar:
 **Pengaturan → Tagihan**. Angka di layar itu otoritatif untuk workspace Anda — halaman ini
 menjelaskan bentuknya.
 
-![Tagihan: paketnya, apa yang ditagih per properti, dan kartu yang tersimpan.](/screens/billing.id.png)
+![Tagihan di workspace yang belum punya kartu: Mulai uji coba gratis 3 bulan, kode promo opsional, Mulai uji coba gratis, dan Yang Anda bayar di bawahnya.](/screens/billing.id.png)
 
 ## Uji coba
 
 Tiga bulan gratis — **90 hari** — dan **kartu wajib ada**. Tidak ada tagihan pada hari Anda
 menambahkannya, dan membatalkan sebelum hari ke-91 tidak berbiaya.
+
+Workspace yang belum punya kartu membuka **Pengaturan → Tagihan** pada **Mulai uji coba gratis 3
+bulan**. Jika punya kode promo, masukkan di **Punya kode? (opsional)**, lalu tekan **Mulai uji coba
+gratis**: Stripe membuka formulir kartu amannya sendiri, dan tidak ada tagihan hari ini. **Yang Anda
+bayar**, di bawahnya, menunjukkan biaya bulanannya.
 
 :::caution[Uji coba punya dua batas, bukan satu]
 Uji coba berakhir pada **90 hari atau 3 listing, mana yang lebih dulu.** Menghubungkan listing

@@ -11,7 +11,7 @@ Every workspace can publish a direct booking site. The money goes to your Stripe
 top are its tabs: **Setup**, **Design**, **Pages & blog**, **SEO**, **Pricing**, **Leads**,
 **Requests** and **Analytics**.
 
-![The booking site builder: setup on the left, live preview on the right.](/screens/booking-site.en.png)
+![The booking site builder, not set up yet: Site details on the left, and the live preview on the right, which appears once a subdomain is saved.](/screens/booking-site.en.png)
 
 ## 1. Pick a subdomain
 

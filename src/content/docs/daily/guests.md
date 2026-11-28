@@ -14,16 +14,34 @@ at the foot of the guest panel on the right of the inbox. That panel only shows 
 A **guest** is a person, not a reservation. The same person across three stays is one record with
 a history, matched across channels wherever the channel gives us enough to match on.
 
-![The guest directory, with the ones needing attention first.](/screens/guests.en.png)
+![The Guests page: the AI guest signal panel with Needs a look and Open complaints, the totals beside it, and the guest directory open on In-house.](/screens/guests.en.png)
+
+## Needs your attention
+
+The page opens on the **AI guest signal** panel. Its two tiles are filters, not decoration:
+**Needs a look** counts guests who are flagged or high-risk, and **Open complaints** counts
+complaints nobody has marked resolved. Tap either and the directory below shows exactly those
+guests. Beside them sit **Total guests**, the **Avg guest score** across the view, and **Safe
+upsells** — guests it is safe to offer something to.
 
 ## The directory
 
-Guests are listed with the ones needing attention first — **risk, priority messages, or a live
-revenue opportunity float to the top**, rather than the most recent arrival. Search by name,
-intent, language or channel.
+The **Guest directory** narrows two ways at once:
 
-Each row carries the guest's current stay, their score, and why they are where they are in the
-list.
+- **By risk** — **All guests**, **High**, **Medium** and **Low**, each with its count.
+- **By stay** — **In-house**, **Upcoming**, **Checked out** and **All**. It opens on the first of
+  In-house, Upcoming and Checked out that has anyone in it.
+
+Search by name, intent, language or channel, and **Sort** by **Most recent stay** (the default),
+guest score, risk level, revenue or name, ascending or descending.
+
+Each row carries the guest with their score, their intent and tone, the reservation, their signals
+— **No red flags** when there are none — and whether they are **Safe to upsell** or need you to
+**Resolve first**. Open a row for the whole record.
+
+The **Attention queue** lists the guests with a flag, an open complaint, high risk or a priority
+message. A complaint there has **Mark resolved** and **Create ticket**; **Mark handled** takes a
+guest off the list.
 
 ## What a guest record holds
 
@@ -52,13 +70,15 @@ It is a read on the stay so far, not a character judgement, and it is never show
 
 ## The trends
 
-Two 90-day charts, and a breakdown of the guests currently in view:
+At the foot of the page, **Numbers** opens the charts. They cover the last 30, 60 or 90 days — 30
+unless you pick another — for the guests currently in view:
 
-- **Average score by stay date** — whether the quality of your bookings is moving.
-- **Guests in house by date** — volume, which is what the score should be read against.
-- **Distribution** by booking channel and score band. If one channel brings consistently harder
-  guests, this is where it shows.
-- **Performance** — revenue, loyalty and quality signals across the guests in view.
+- **Guest performance** — revenue, loyalty and quality signals across the guests in view.
+- **Guests in-house** — volume by date, which is what the score should be read against.
+- **Guest score trend** — the average score by stay date, so you can see whether the quality of
+  your bookings is moving.
+- **Guest distribution** by booking channel and score band. If one channel brings consistently
+  harder guests, this is where it shows.
 
 ## Using it before you reply
 

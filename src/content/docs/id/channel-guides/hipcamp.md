@@ -23,7 +23,7 @@ Hipcamp harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra konek
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Hipcamp**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Hipcamp**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -32,8 +32,8 @@ Hipcamp harus mengizinkan koneksinya terlebih dahulu. Channex adalah mitra konek
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel Code | Property ID Hipcamp Anda. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Kode hotel | Property ID Hipcamp Anda. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Hipcamp memastikan properti sudah terhubung ke Channex.
 

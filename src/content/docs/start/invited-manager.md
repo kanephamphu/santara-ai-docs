@@ -49,7 +49,7 @@ You will find these are read-only, and it is deliberate rather than an oversight
 
 | You can see | You cannot change | Why |
 | --- | --- | --- |
-| Rates and prices | Publish prices or edit rule sets | A pricing mistake sells real nights at the wrong price |
+| Rates and prices | Publish prices or change who sets them | A pricing mistake sells real nights at the wrong price |
 | Workspace settings | The brief hour, language, currency, tone | Those apply to *everyone* — changing them re-times the morning for the whole team |
 | The team list | Invite people or change roles | Access is the owner's to grant |
 | Channel connections | Connect, disconnect or go live | Handing a calendar to a channel is the owner's decision |

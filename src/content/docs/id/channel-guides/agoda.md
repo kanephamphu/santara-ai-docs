@@ -28,7 +28,7 @@ Atau minta tim support Agoda, lewat fitur pesan di extranet, untuk menghubungkan
 
 ## 2. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Agoda**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Agoda**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Isi kolom di bawah, lalu tekan **Uji koneksi**.
 4. Setelah uji berhasil, tekan **Hubungkan dan lanjut**.
@@ -37,9 +37,9 @@ Atau minta tim support Agoda, lewat fitur pesan di extranet, untuk menghubungkan
 
 | Kolom | Yang diisi |
 | --- | --- |
-| Hotel ID | Hotel ID Agoda Anda. |
-| Send Property Notification | Opsional. Centang, lalu kolom **Property Email** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
-| Tax Setting For Bookings | **Inclusive** — termasuk pajak, dikurangi komisi (payout Anda). **Inclusive With Commissions** — termasuk pajak dan komisi (total tamu). **Exclusive** — tanpa pajak atau komisi (model AS). |
+| ID hotel | Hotel ID Agoda Anda. |
+| Kirim notifikasi ke properti | Opsional. Centang, lalu kolom **Email properti** muncul — alamat itu menerima email untuk setiap pemesanan baru. |
+| Pengaturan pajak pemesanan | **Termasuk pajak** — termasuk pajak, dikurangi komisi (payout Anda). **Inclusive With Commissions** — termasuk pajak dan komisi (total tamu). **Belum termasuk pajak** — tanpa pajak atau komisi (model AS). |
 
 Jika **Uji koneksi** gagal, periksa ID-nya, lalu minta tim support Agoda memastikan properti sudah terhubung ke Channex.
 

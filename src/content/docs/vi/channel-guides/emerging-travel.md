@@ -31,9 +31,9 @@ Emerging Travel Group phải cho phép kết nối trước. Channex là đối 
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Emerging Travel của bạn. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
-| Booking Amount | **With Commission** hoặc **Without Commission** — tổng tiền đặt phòng được nhận thế nào. |
+| ID khách sạn | Hotel ID Emerging Travel của bạn. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Số tiền đặt phòng | **Gồm hoa hồng** hoặc **Không gồm hoa hồng** — tổng tiền đặt phòng được nhận thế nào. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Emerging Travel Group xác nhận chỗ nghỉ đã được kết nối với Channex.
 

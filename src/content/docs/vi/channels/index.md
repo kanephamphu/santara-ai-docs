@@ -42,9 +42,9 @@ trình ba bước sẽ mở ra.
 chỗ nghỉ trước** — kết nối kênh chỉ ánh xạ những phòng bạn đã có, chứ không tạo mới. Hãy thêm ở
 [Chỗ nghỉ](/vi/setup/properties/), hoặc kết nối Airbnb trước để nó tạo giúp bạn.
 
-:::note[PriceLabs đang tạm dừng]
-Kết nối PriceLabs mới đang tạm dừng, nên PriceLabs không có ô nào. Kết nối PriceLabs bạn đã có vẫn
-hoạt động và vẫn có thể ngắt kết nối.
+:::note[PriceLabs]
+PriceLabs nằm ở mục **Công cụ doanh thu**. Đây không phải kênh bán phòng: nó đặt giá cho những phòng
+bạn giao cho nó — xem [Nếu bạn đã dùng PriceLabs](/vi/money/pricing/#nếu-bạn-đã-dùng-pricelabs).
 :::
 
 Mọi kênh đều dùng chung lịch, giá và ràng buộc, và đều đưa về đặt phòng, lượt hủy và khách. Có hai
@@ -54,14 +54,15 @@ Mọi kênh đều dùng chung lịch, giá và ràng buộc, và đều đưa v
   tin nhắn khách qua kết nối. Với kênh khác, hãy trả lời khách trong hộp thư của chính kênh đó.
 - **Đánh giá** được đưa về, và trả lời được, ở những kênh có chuyển đánh giá.
 
-![Cài đặt → Kênh trước khi kết nối bất cứ thứ gì. Mỗi kênh được liên kết riêng, với trạng thái và thời điểm đồng bộ cuối của nó.](/screens/channels.vi.png)
+![Cài đặt → Kênh → Thêm kênh, trước khi kết nối bất cứ thứ gì: Các kênh khả dụng, có ô tìm kiếm và các bộ lọc Tất cả, OTA, Công cụ doanh thu, Nhắn tin, và nút Kết nối trên mỗi ô.](/screens/channels.vi.png)
 
 ## Ba thẻ
 
 **Cài đặt → Kênh** có ba thẻ:
 
-- **Thêm kênh** — danh mục kênh. Tìm theo tên, hoặc lọc theo loại, rồi bấm **Kết nối**. Kênh bạn
-  đang dùng sẽ hiện **Thêm tài khoản khác**.
+- **Thêm kênh** — danh mục **Các kênh khả dụng**. Tìm theo tên hoặc loại, hoặc lọc bằng **Tất cả**,
+  **OTA**, **Công cụ doanh thu** hay **Nhắn tin**, rồi bấm **Kết nối**. Kênh bạn đang dùng sẽ hiện
+  **Thêm tài khoản khác**.
 - **Đã kết nối** — mọi kết nối của bạn. Mở một kết nối để xem tin đăng, trạng thái đồng bộ và trạng
   thái chạy.
 - **Ứng dụng** — các ứng dụng bạn đã cho phép vào tài khoản, như Santi, ChatGPT hoặc Claude. Xem

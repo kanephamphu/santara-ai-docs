@@ -15,15 +15,36 @@ yang lebih besar.
 **Tamu** adalah orang, bukan reservasi. Orang yang sama pada tiga kali menginap adalah satu catatan
 dengan riwayat, dicocokkan lintas channel bila channel memberi cukup data untuk mencocokkan.
 
-![Direktori tamu, dengan yang butuh perhatian di urutan teratas.](/screens/guests.id.png)
+![Halaman Tamu: panel Sinyal tamu AI dengan Perlu dicek dan Keluhan terbuka, angka totalnya di samping, dan direktori tamu yang terbuka di Sedang menginap.](/screens/guests.id.png)
+
+## Perlu perhatian Anda
+
+Halaman dibuka dengan panel **Sinyal tamu AI**. Dua kotaknya adalah filter, bukan hiasan:
+**Perlu dicek** menghitung tamu yang ditandai atau berisiko tinggi, dan **Keluhan terbuka** menghitung
+keluhan yang belum ditandai selesai. Ketuk salah satunya dan direktori di bawah hanya menampilkan tamu
+tersebut. Di sebelahnya ada **Total tamu**, **Skor tamu rata-rata** di tampilan ini, dan **Upsell
+aman** — tamu yang aman ditawari sesuatu.
 
 ## Direktori
 
-Tamu diurutkan dengan yang butuh perhatian di atas — **risiko, pesan prioritas, atau peluang
-pendapatan yang hidup naik ke atas**, bukan kedatangan terbaru. Cari berdasarkan nama, maksud,
-bahasa, atau channel.
+**Direktori tamu** bisa dipersempit dengan dua cara sekaligus:
 
-Tiap baris membawa masa menginap tamu saat ini, skornya, dan alasan mengapa ia berada di posisi itu.
+- **Menurut risiko** — **Semua tamu**, **Tinggi**, **Sedang**, dan **Rendah**, masing-masing dengan
+  jumlahnya.
+- **Menurut masa menginap** — **Sedang menginap**, **Akan datang**, **Sudah check-out**, dan **Semua**.
+  Halaman terbuka di yang pertama dari Sedang menginap, Akan datang, dan Sudah check-out yang ada
+  tamunya.
+
+Cari berdasarkan nama, niat, bahasa, atau saluran, lalu **Urutkan** menurut **Menginap terbaru**
+(bawaan), skor tamu, level risiko, pendapatan, atau nama, naik atau turun.
+
+Tiap baris memuat tamu dengan skornya, niat dan nadanya, reservasinya, sinyalnya — **Tidak ada tanda
+bahaya** bila tidak ada — dan apakah tamu itu **Aman untuk upsell** atau perlu **Selesaikan dulu**.
+Buka satu baris untuk melihat catatan lengkapnya.
+
+**Antrean perhatian** menampilkan tamu yang ditandai, punya keluhan terbuka, berisiko tinggi, atau
+punya pesan prioritas. Keluhan di sana punya **Tandai selesai** dan **Buat tiket**; **Tandai
+ditangani** mengeluarkan tamu dari daftar.
 
 ## Isi sebuah catatan tamu
 
@@ -52,13 +73,15 @@ ditampilkan kepada tamu.
 
 ## Trennya
 
-Dua grafik 90 hari, dan rincian tamu yang sedang ditampilkan:
+Di bagian bawah halaman, **Angka** membuka grafiknya. Semuanya mencakup 30, 60, atau 90 hari terakhir
+— 30 kecuali Anda memilih yang lain — untuk tamu yang sedang ditampilkan:
 
-- **Rata-rata skor per tanggal menginap** — apakah kualitas booking Anda bergerak.
-- **Tamu yang menginap per tanggal** — volume, yang menjadi pembanding skor tersebut.
-- **Distribusi** berdasarkan channel booking dan pita skor. Jika satu channel konsisten membawa tamu
-  yang lebih sulit, di sinilah terlihat.
-- **Performa** — pendapatan, loyalitas, dan sinyal kualitas di antara tamu yang ditampilkan.
+- **Performa tamu** — pendapatan, loyalitas, dan sinyal kualitas di antara tamu yang ditampilkan.
+- **Tamu menginap** — volume per tanggal, yang menjadi pembanding skor tersebut.
+- **Tren skor tamu** — rata-rata skor per tanggal menginap, untuk melihat apakah kualitas booking
+  Anda bergerak.
+- **Distribusi tamu** berdasarkan channel booking dan pita skor. Jika satu channel konsisten membawa
+  tamu yang lebih sulit, di sinilah terlihat.
 
 ## Memakainya sebelum membalas
 

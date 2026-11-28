@@ -49,7 +49,7 @@ và dịch vụ bán thêm từ [cài đặt upsell](/vi/money/upsells/).
 Khách chỉ nhập **mã đặt phòng** trong xác nhận đặt phòng — không cần gì khác. Khoảng trắng, dấu gạch và
 chữ hoa không quan trọng. Mã ngắn hơn sáu ký tự không bao giờ được khớp.
 
-![Cùng trang đó sau khi nhập mã đặt phòng: lời chào, mã cửa (được che cho tới khi chạm) và mật khẩu Wi-Fi.](/screens/guidebook-verified.vi.png)
+![Cùng trang đó sau khi nhập mã đặt phòng: lời chào kèm ngày ở, mã cửa đã hiện sau khi chạm Hiện, mật khẩu Wi-Fi vẫn được che, và cách vào.](/screens/guidebook-verified.vi.png)
 
 Quyền xem đi theo kỳ lưu trú, theo múi giờ của chính bất động sản:
 

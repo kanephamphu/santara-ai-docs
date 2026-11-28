@@ -5,12 +5,12 @@ sidebar:
   order: 4
 ---
 
-![The command palette: reservations, guests, properties and rooms, in one box.](/screens/search.en.png)
+![The search palette: one box, Search bookings, guests, properties…, with the Reservations, Guests, Properties and Rooms filters under it.](/screens/search.en.png)
 
 ## Search — <kbd>⌘K</kbd>
 
-Press <kbd>⌘K</kbd> (or <kbd>Ctrl</kbd>+<kbd>K</kbd>) anywhere in the product. Search covers four
-things:
+Press <kbd>⌘K</kbd> (or <kbd>Ctrl</kbd>+<kbd>K</kbd>) anywhere in the product, or click **Search** in
+the top bar. Search covers four things:
 
 | | Find it by |
 | --- | --- |
@@ -22,6 +22,10 @@ things:
 Results carry enough context to pick the right one without opening it — a reservation shows its
 dates and status, a room shows its building. Dates and statuses are shown in **your** language,
 not the database's.
+
+The chips under the box — **Reservations**, **Guests**, **Properties**, **Rooms** — narrow the search
+to those types; pick one or several, and each shows how many results it has. If nothing matches in
+the types you picked, **Clear filters** searches everything again.
 
 It is the fastest way into a specific stay when a guest phones. Confirmation code, enter, done —
 faster than the [bookings](/daily/bookings/) feed, which is built for scanning rather than

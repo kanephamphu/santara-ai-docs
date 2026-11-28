@@ -34,8 +34,8 @@ it is live it answers only the topics you allow; money, dates, complaints and sa
 for you. Otherwise the AI writes; you send.
 
 **Will it change my prices automatically?**
-Only if you assign a [pricing rule set](/money/pricing/) to a listing and leave *Publish prices
-automatically* on. Prices you type by hand are never overwritten unless you explicitly allow it.
+Only if you set a room to *Automatic (Santara AI)* under [Who sets prices](/money/pricing/) and leave
+*Publish prices automatically* on. Prices you type by hand are never overwritten unless you explicitly allow it.
 
 **A booking came in on Airbnb. Do I need to block it elsewhere?**
 No. Once a listing is live, a booking on any channel closes those nights on every channel.

@@ -26,8 +26,8 @@ Cách kết nối Hopper với Santara AI. Phần thiết lập trong Santara AI
 
 | Trường | Nhập gì |
 | --- | --- |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
-| Max Stay Type | **Arrival** hoặc **Through** — cách áp dụng số đêm tối đa. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Loại lưu trú tối đa | **Theo ngày đến** hoặc **Suốt thời gian ở** — cách áp dụng số đêm tối đa. |
 
 ## 2. Ánh xạ phòng và mức giá
 

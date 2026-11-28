@@ -10,7 +10,7 @@ sidebar:
 1. **Segarkan halaman.** Santara AI memperbarui layar secara langsung; tab yang dibiarkan semalaman bisa
    menahan tampilan usang.
 2. **Periksa channel.** Strip di bagian atas halaman berarti ada yang perlu dicek di channel Anda —
-   tekan **Perbaiki** di sana. Kalau tidak ada, buka **Pengaturan → Channel**: apakah koneksinya
+   tekan **Perbaiki** di sana. Kalau tidak ada, buka **Pengaturan → Saluran**: apakah koneksinya
    *Terhubung*, dan kapan sinkron terakhir? Tekan **Segarkan**.
 3. **Periksa zona waktu.** **Pengaturan → Workspace** — zona waktu yang salah membuat "hari ini"
    salah di mana-mana.
@@ -40,8 +40,9 @@ terbuka di dua tab — sesi kedua yang menang.
 
 Berurutan:
 
-1. Apakah ada **rule set yang ditetapkan** pada listing itu? Listing tanpa aturan tidak pernah diberi
-   harga otomatis.
+1. Apakah kamarnya diatur ke **Otomatis (Santara AI)** di **Siapa yang menetapkan harga**, dan apakah
+   propertinya sudah punya area? Kamar Manual, atau di properti tanpa area, tidak pernah diberi harga
+   otomatis.
 2. Apakah **Hargai properti ini otomatis** menyala?
 3. Apakah **Terbitkan harga otomatis** menyala? Mati berarti harga dihitung tanpa dikirim.
 4. Apakah Anda menyentuh **lantai atau plafon**? Grafik tren menunjukkan batasnya.

@@ -20,7 +20,7 @@ Ini jalur singkatnya. Setiap langkah punya halaman sendiri bila Anda butuh detai
 
 Daftar, lalu masukkan **kode 6 digit** yang kami kirim lewat email. Setelah itu ada survei singkat —
 beberapa pertanyaan tentang cara Anda mengelola properti — lalu tur produk keliling layar utama. Tur
-berakhir di **Pengaturan → Channel**, tempat langkah 2 dimulai. Anda bisa mengulang tur kapan saja
+berakhir di **Pengaturan → Saluran**, tempat langkah 2 dimulai. Anda bisa mengulang tur kapan saja
 dari checklist **Persiapan** di **Hari ini**; checklist itu mencatat kemajuan Anda, jadi boleh
 ditinggal dan dilanjutkan nanti.
 
@@ -38,7 +38,7 @@ Dua jam yang perlu diatur sekarang:
 
 ## 2. Hubungkan channel
 
-**Pengaturan → Channel → Tambah channel**. Setiap channel adalah satu kotak; tekan **Hubungkan** dan
+**Pengaturan → Saluran → Tambah saluran**. Setiap channel adalah satu kotak; tekan **Hubungkan** dan
 penyiapan tiga langkah terbuka.
 
 - **Airbnb** — tidak butuh persiapan apa pun. Anda mengotorisasi Santara AI di halaman Airbnb, dan
@@ -81,7 +81,7 @@ Buka **Properti** dan lihat tiap kamar hasil impor:
 
 Jika sebuah listing Airbnb belum tayang saat impor, ia bertuliskan **Sudah disiapkan — belum aktif**.
 Tekan **Aktifkan di Airbnb** di langkah impor, atau **Tayangkan** di sebelah listing di halaman
-koneksinya di **Pengaturan → Channel → Terhubung**. Jika Santara AI meminta Anda **Konfirmasi
+koneksinya di **Pengaturan → Saluran → Terhubung**. Jika Santara AI meminta Anda **Konfirmasi
 kapasitas**, lakukan itu dulu — lihat [Go live](/id/channels/going-live/#periksa-hal-hal-ini-dulu).
 
 ## Apa yang terjadi berikutnya

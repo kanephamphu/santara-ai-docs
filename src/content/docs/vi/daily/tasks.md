@@ -24,7 +24,7 @@ thẻ là một turnover: phòng, giờ trả phòng, lượt đến kế tiếp
 Thanh công cụ quyết định bạn thấy gì:
 
 - **Thời gian** — **Hôm nay**, **Sắp tới**, **Đã qua** hoặc **Tất cả**.
-- **Nhóm theo** — **Theo ngày** (cột ngày, rồi tòa nhà) hoặc **Theo tòa nhà** (tòa nhà, rồi ngày).
+- **Nhóm theo** — **Theo ngày** (mỗi ngày một mục, rồi tòa nhà) hoặc **Theo tòa nhà** (tòa nhà, rồi ngày).
 - **Chưa phân công** — chỉ những ca chưa giao cho ai.
 
 Quản lý còn thấy ba con số ở trên cùng: **Cần dọn hôm nay**, **Chưa phân công** và **Đã xong hôm nay**.
@@ -33,9 +33,9 @@ Với mỗi ca dọn bạn có thể:
 
 - **Phân công nhân viên** — hoặc để phân công mặc định của phòng làm việc đó.
 - **Đánh dấu xong** khi phòng đã dọn xong. Sau đó hiện **Hoàn tác**, phòng khi bấm nhầm.
-- **Bằng chứng & ghi chú** — đính kèm ảnh (mỗi ảnh tối đa 5 MB) và ghi chú: bạn thấy gì, điều gì chủ
-  nhà cần biết. Không bắt buộc, nhưng giúp giải quyết thắc mắc về sau.
-- **Bỏ khỏi lịch** — khi khách ở tiếp hoặc phòng không được dùng. Không cần nêu lý do; thẻ sau đó hiện
+- **Thêm ảnh** — mở **Bằng chứng & ghi chú**: đính kèm ảnh (mỗi ảnh tối đa 5 MB) và ghi chú, như bạn
+  thấy gì hay điều gì chủ nhà cần biết. Không bắt buộc, nhưng giúp giải quyết thắc mắc về sau.
+- **Bỏ khỏi lịch** (dấu **×** trên thẻ) — khi khách ở tiếp hoặc phòng không được dùng. Không cần nêu lý do; thẻ sau đó hiện
   **Đã bỏ qua · Hoàn tác**. Chỉ dành cho quản lý: nhân viên dọn phòng làm việc, không quyết định việc
   nào tồn tại.
 
@@ -79,9 +79,7 @@ Xem [Đội ngũ và vai trò](/vi/setup/team/).
 
 Tab **Sự cố**: phàn nàn và bảo trì, theo dõi từ **Cần làm** qua **Đang xử lý** đến **Hoàn tất** hoặc
 **Đã hủy**, dạng **Bảng** hoặc **Danh sách**, có mức ưu tiên, loại, hạn xử lý và nhãn **Quá hạn**.
-Phần lớn phiếu tự mở từ tin nhắn khách đọc ra như lời phàn nàn hoặc một hỏng hóc, và một phiếu đã lên
-lịch được vẽ lên [lịch](/vi/daily/calendar/) để đợt sửa hai ngày hiện rõ bên cạnh các lượt đặt xung
-quanh.
+Phần lớn phiếu tự mở từ tin nhắn khách đọc ra như lời phàn nàn hoặc một hỏng hóc.
 
 Chi tiết đầy đủ — phiếu tự động, kế hoạch xử lý bằng AI, lịch sử, ai thấy được — ở
 **[Sự cố (phiếu xử lý)](/vi/daily/tickets/)**.

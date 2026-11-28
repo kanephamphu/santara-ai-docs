@@ -30,7 +30,7 @@ Nếu không thấy, hãy mở một yêu cầu hỗ trợ với Hotelbeds để
 
 | Trường | Nhập gì |
 | --- | --- |
-| Username and password | Thông tin Hotelbeds cấp cho bạn. Hai giá trị thường giống nhau — điều đó bình thường. |
+| Tên đăng nhập / Mật khẩu | Thông tin Hotelbeds cấp cho bạn. Hai giá trị thường giống nhau — điều đó bình thường. |
 | Contract | Hiện ra sau khi Kiểm tra kết nối. Chọn hợp đồng dành cho kết nối này. |
 | Update availability / rates / restrictions | Những gì được gửi đi. Để bật cả ba, trừ khi hợp đồng của bạn cố định giá hoặc allotment. |
 

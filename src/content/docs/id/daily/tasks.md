@@ -25,7 +25,7 @@ dan petugas yang ditugaskan.
 Bilah alat menentukan apa yang Anda lihat:
 
 - **Rentang** — **Hari ini**, **Mendatang**, **Sebelumnya**, atau **Semua**.
-- **Kelompokkan** — **Per hari** (kolom hari, lalu bangunan) atau **Per bangunan** (bangunan, lalu
+- **Kelompokkan** — **Per hari** (satu bagian per hari, lalu bangunan) atau **Per bangunan** (bangunan, lalu
   hari).
 - **Belum ditugaskan** — hanya pembersihan yang belum diberikan kepada siapa pun.
 
@@ -36,9 +36,10 @@ Untuk tiap pembersihan Anda bisa:
 
 - **Menugaskan petugas** — atau membiarkan penugasan default kamar bekerja.
 - **Tandai selesai** saat kamar sudah beres. Setelahnya muncul **Batalkan**, kalau-kalau salah tekan.
-- **Bukti & catatan** — lampirkan foto (maks. 5 MB per foto) dan catatan: apa yang ditemukan, apa
-  pun yang perlu diketahui host. Tidak wajib, tetapi menyelesaikan pertanyaan di kemudian hari.
-- **Hapus dari jadwal** — saat tamu memperpanjang atau kamar tidak dipakai. Tidak perlu alasan;
+- **Tambah foto** — membuka **Bukti & catatan**: lampirkan foto (maks. 5 MB per foto) dan catatan,
+  misalnya apa yang ditemukan atau apa pun yang perlu diketahui host. Tidak wajib, tetapi
+  menyelesaikan pertanyaan di kemudian hari.
+- **Hapus dari jadwal** (tanda **×** di kartu) — saat tamu memperpanjang atau kamar tidak dipakai. Tidak perlu alasan;
   kartunya lalu bertuliskan **Dilewati · Batalkan**. Hanya manajer: petugas kebersihan mengerjakan
   pekerjaannya, bukan memutuskan pekerjaan apa yang ada.
 
@@ -84,9 +85,7 @@ pintu bangunan lain. Lihat [Tim dan peran](/id/setup/team/).
 Tab **Masalah**: keluhan dan perawatan, dilacak dari **Akan dikerjakan** melalui **Sedang
 dikerjakan** sampai **Selesai** atau **Dibatalkan**, sebagai **Papan** atau **Daftar**, dengan
 prioritas, kategori, tenggat, dan penanda **Terlambat**. Sebagian besar terbuka **dengan sendirinya**
-dari pesan tamu yang terbaca sebagai keluhan atau kerusakan, dan tiket yang dijadwalkan digambar di
-[kalender](/id/daily/calendar/) sehingga perbaikan dua hari terlihat berdampingan dengan booking di
-sekitarnya.
+dari pesan tamu yang terbaca sebagai keluhan atau kerusakan.
 
 Detail lengkap — tiket otomatis, rencana penyelesaian AI, riwayat, siapa yang bisa melihatnya — ada
 di **[Masalah (tiket)](/id/daily/tickets/)**.

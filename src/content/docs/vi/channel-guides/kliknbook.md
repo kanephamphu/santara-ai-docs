@@ -30,8 +30,8 @@ Kliknbook phải cho phép kết nối trước. Channex là đối tác kết n
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel Code | Hotel Code Kliknbook của bạn. |
-| Max stay type | **Arrival** hoặc **Through** — tùy cách Kliknbook áp dụng số đêm tối đa. |
+| Mã khách sạn | Hotel Code Kliknbook của bạn. |
+| Loại lưu trú tối đa | **Theo ngày đến** hoặc **Suốt thời gian ở** — tùy cách Kliknbook áp dụng số đêm tối đa. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Kliknbook xác nhận chỗ nghỉ đã được kết nối với Channex.
 

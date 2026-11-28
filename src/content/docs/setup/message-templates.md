@@ -12,7 +12,10 @@ times.
 Templates are **scoped to the workspace**, so an answer your team agreed on is the answer everyone
 sends.
 
-![Message templates, with the variables that fill themselves in from the stay.](/screens/message-templates.en.png)
+![Message templates: Saved templates on the left, the Preview context and the Template editor on the right, with New template and Import defaults above.](/screens/message-templates.en.png)
+
+**New template** opens the **Template editor**: a **Template name**, a **Category** and a **Tone**,
+then the **Message** itself. **Save template** adds it to **Saved templates** on the left.
 
 ## Variables
 

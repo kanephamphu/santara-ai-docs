@@ -7,7 +7,7 @@ sidebar:
 
 **Reservasi** memuat setiap masa menginap dari setiap channel, ditambah yang Anda masukkan manual.
 
-![Reservasi — setiap masa menginap dari setiap channel, dikelompokkan menurut kapan tamu datang.](/screens/bookings.id.png)
+![Reservasi: tab Mendatang memuat tamu yang tiba hari ini di kiri, dan detail masa menginap yang dipilih terbuka di sampingnya.](/screens/bookings.id.png)
 
 ## Daftarnya
 
@@ -22,7 +22,7 @@ Empat tab membagi masa menginap menurut posisinya:
 
 Masa menginap mendatang dikelompokkan menjadi **Hari ini**, **Besok**, **7 hari ke depan**, dan
 **Nanti**, jadi kedatangan yang paling dulu butuh Anda ada di atas. Label di baris menyebutkan
-**Tiba hari ini**, **Berangkat hari ini**, atau **Sedang menginap**.
+**Tiba hari ini**, **Check-out hari ini**, atau **Sedang menginap**.
 
 Di atas daftar:
 
@@ -35,7 +35,8 @@ Di atas daftar:
 
 Klik reservasi mana pun dan detailnya terbuka di samping daftar:
 
-- **Kode pemesanan** — referensi channel, untuk mencari booking yang sama di extranet.
+- **Kode pemesanan** — referensi channel, tampil di samping nama channel di bawah nama tamu, untuk
+  mencari booking yang sama di extranet.
 - **Check-in dan check-out**, dengan jamnya (**mulai 14:00**, **paling lambat 11:00**), dan sejauh
   mana masa menginapnya — **Tiba dalam 3 hari**, **Malam ke-2 dari 4**, **Check-out hari ini**,
   **Menginap selesai**.
@@ -46,7 +47,7 @@ Klik reservasi mana pun dan detailnya terbuka di samping daftar:
 - **Terkait** — **Buka percakapan** dan **Lihat pembersihan**.
 
 Di bagian bawah: **Kirim pesan ke tamu**, dan untuk masa menginap yang Anda buat di Santara AI,
-**Ubah** dan **Batalkan booking**. Masa menginap yang datang dari channel adalah catatan milik
+**Ubah** dan **Batalkan reservasi**. Masa menginap yang datang dari channel adalah catatan milik
 channel — ubah atau batalkan di sana, dan perubahannya tiba di sini.
 
 ## Kelebihan pesanan

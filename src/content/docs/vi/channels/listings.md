@@ -68,7 +68,7 @@ vẫn ánh xạ tới một phòng không còn tồn tại ở đây.
 
 ## PriceLabs
 
-Kết nối PriceLabs mới đang **tạm dừng**: PriceLabs không có ô nào trong **Thêm kênh**, và không thể
-tạo kết nối mới. Kết nối PriceLabs bạn đã có vẫn hoạt động — bộ máy định giá của Santara AI vẫn nhường
-bước cho các listing do PriceLabs quản lý — và vẫn có thể ngắt kết nối tại **Cài đặt → Kênh → Đã kết
-nối**.
+Kết nối PriceLabs tại **Cài đặt → Kênh → Thêm kênh**, ở mục **Công cụ doanh thu**. Sau đó chọn PriceLabs
+cho từng phòng ở **Giá → Ai đặt giá** — bộ máy định giá của Santara AI sẽ nhường bước cho các phòng đó.
+Xem [Nếu bạn đã dùng PriceLabs](/vi/money/pricing/#nếu-bạn-đã-dùng-pricelabs). Có thể ngắt kết nối tại
+**Cài đặt → Kênh → Đã kết nối**.

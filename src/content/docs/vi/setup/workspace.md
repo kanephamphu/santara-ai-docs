@@ -28,7 +28,7 @@ vì đó là nơi người ta tìm mật khẩu của chính mình. Xem
 Mục **Ứng dụng đã kết nối** trong menu tài khoản mở đúng tab này. Danh sách này là của riêng bạn: chỉ
 bạn thấy, và đồng đội tự quản lý ứng dụng của họ.
 
-![Cài đặt workspace: giờ và ngôn ngữ bản tin hằng ngày, múi giờ, tiền tệ và phần còn lại.](/screens/workspace-settings.vi.png)
+![Cài đặt → Không gian làm việc: Chi tiết không gian làm việc với tên và ảnh đại diện, Tóm tắt tùy chọn, Lối tắt không gian làm việc, và Tùy chọn vận hành bên dưới.](/screens/workspace-settings.vi.png)
 
 ## Ngôn ngữ
 
@@ -63,9 +63,12 @@ Tab workspace chứa những thiết lập thay đổi cách sản phẩm hoạt
 | **Tiền tệ hiển thị** | Đơn vị hiển thị các con số |
 | **Giọng điệu tin nhắn mặc định** | Giọng mà bản nháp trả lời khách bắt đầu từ đó |
 | **Giá trị upsell tối thiểu** | Cơ hội thấp hơn mức này không được đưa lên, để dòng cơ hội còn đáng đọc |
-| **Mở Bản tin hằng ngày trước** | Khởi động ứng dụng ở bản tin hằng ngày thay vì bảng điều khiển |
+| **Mở Báo cáo hằng ngày trước** | Khởi động ứng dụng ở bản tin hằng ngày thay vì bảng điều khiển |
 | **Cảnh báo khách đến trong ngày** | Gửi email cho nhóm khi có đặt phòng cho khách nhận phòng hôm nay — mặc định bật |
-| **Kênh thông báo** | Hiện tại là bảng điều khiển; email và SMS chưa nối |
+| **Tóm tắt buổi sáng qua WhatsApp** | Đến giờ bản tin, chủ nhà và đồng chủ nhà có số điện thoại trong tài khoản nhận số liệu hôm nay qua WhatsApp |
+| **Việc dọn phòng qua WhatsApp** | Mỗi người dọn phòng có số điện thoại nhận việc hôm nay qua WhatsApp; bấm **Bắt đầu** hoặc **Xong** sẽ cập nhật bảng dọn phòng |
+| **Mật độ trang chính** | **Thoải mái** hoặc **Gọn** |
+| **Kênh thông báo** | **Email** (mặc định) hoặc **Chỉ trang chính** — lựa chọn này tắt email gửi cho nhóm khi Santi mở ticket từ tin nhắn của khách. **Email + SMS sau** chưa được nối |
 
 ### Cảnh báo khách đến trong ngày
 

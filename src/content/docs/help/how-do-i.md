@@ -27,9 +27,9 @@ than in general.
 
 | I want to… | Do this |
 | --- | --- |
-| Block dates for maintenance or my own stay | Click or drag across the nights, then Stop sell → Closed — [Block or unblock dates](/daily/calendar/#block-or-unblock-dates) |
+| Block dates for maintenance or my own stay | Click or drag across the nights, then Selling → Closed — [Block or unblock dates](/daily/calendar/#block-or-unblock-dates) |
 | Stop selling a room for a season | Close the range in the calendar. **Do not disconnect the channel** |
-| Open dates I closed by mistake | Select them again, Stop sell → Open — [Block or unblock dates](/daily/calendar/#block-or-unblock-dates) |
+| Open dates I closed by mistake | Select them again, Selling → Open — [Block or unblock dates](/daily/calendar/#block-or-unblock-dates) |
 | Understand why a night shows as unavailable | [Blocks that came from the channel](/daily/calendar/#blocks-that-came-from-the-channel) |
 | Sell two identical apartments as one listing | Set the room's unit count — [Availability and unit count](/daily/calendar/#availability-and-unit-count) |
 | Set a minimum stay | It lives on the rate plan — [Rate plans](/money/rates/#rate-plans) |
@@ -42,13 +42,13 @@ than in general.
 | --- | --- |
 | Change the price of one night | Type it on the [calendar](/daily/calendar/) — a typed price is protected |
 | Change a price across a date range | [The grid](/money/rates/#the-grid) |
-| Have prices move on their own | Assign a [rule set](/money/pricing/#building-a-rule-set) |
+| Have prices move on their own | Set the room to **Automatic (Santara AI)** — [Who sets each room's price](/money/pricing/#who-sets-each-rooms-price) |
 | Stop the engine overwriting a price I typed | [Protecting manual prices](/money/pricing/#protecting-manual-prices) |
 | Set a floor so I never sell too cheap | [The listing's numbers](/money/pricing/#the-listings-numbers) |
-| See what a rule set would do before it goes out | [Seeing before publishing](/money/pricing/#seeing-before-publishing) |
-| Preview what smart pricing will change tonight | **Sync now** on the listing's **Prices** tab, then **Apply these prices** — [Sync now](/money/pricing/#sync-now) |
+| See what smart pricing would do before it goes out | [Seeing before publishing](/money/pricing/#seeing-before-publishing) |
+| Preview what smart pricing will change tonight | **Sync now** on the **Calendar** tab of Pricing, then **Apply these prices** — [Sync now](/money/pricing/#sync-now) |
 | Find out whether pricing is actually working | [Did it work?](/money/pricing/#did-it-work) |
-| Keep using PriceLabs | Existing connections keep working; new ones are paused — [If you already use PriceLabs](/money/pricing/#if-you-already-use-pricelabs) |
+| Keep using PriceLabs | Choose **PriceLabs** for the room under **Who sets prices** — [If you already use PriceLabs](/money/pricing/#if-you-already-use-pricelabs) |
 | Charge more for extra guests | It is on the rate plan — [Rate plans](/money/rates/#rate-plans) |
 
 ## Bookings and guests
@@ -95,7 +95,7 @@ than in general.
 | Always assign the same person to a room | [Default cleaner per room](/daily/tasks/#default-cleaner-per-room) |
 | Group properties one cleaner covers | [Cleaning clusters](/daily/tasks/#cleaning-clusters) |
 | Report a broken air-conditioner or other maintenance issue | **Tasks → Issues → New ticket** — [Issues (tickets)](/daily/tickets/#they-open-themselves) |
-| Block the room while a repair happens | [Scheduling puts it on the calendar](/daily/tickets/#scheduling-puts-it-on-the-calendar) |
+| Block the room while a repair happens | Close those nights in the calendar (scheduling a ticket does not hold the room) — [Block or unblock dates](/daily/calendar/#block-or-unblock-dates) |
 | Check a clean was actually done | The cleaner marks it done, optionally with a photo — [What a cleaner sees](/daily/tasks/#what-a-cleaner-sees) |
 
 ## Channels

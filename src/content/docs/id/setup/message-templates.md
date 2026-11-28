@@ -12,7 +12,10 @@ ratus kali.
 Template **dicakup oleh workspace**, jadi jawaban yang disepakati tim adalah jawaban yang dikirim
 semua orang.
 
-![Template pesan, dengan variabel yang terisi sendiri dari data menginap.](/screens/message-templates.id.png)
+![Template pesan: Template tersimpan di kiri, Konteks pratinjau dan Editor template di kanan, dengan Template baru dan Impor bawaan di atas.](/screens/message-templates.id.png)
+
+**Template baru** membuka **Editor template**: **Nama template**, **Kategori**, dan **Nada**, lalu
+**Pesan**-nya sendiri. **Simpan template** menambahkannya ke **Template tersimpan** di sebelah kiri.
 
 ## Variabel
 

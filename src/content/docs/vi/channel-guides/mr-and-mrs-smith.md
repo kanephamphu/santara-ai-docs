@@ -30,7 +30,7 @@ Mr & Mrs Smith phải cho phép kết nối trước. Channex là đối tác k�
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID Mr & Mrs Smith của bạn. Nếu họ chưa cấp, hãy hỏi họ. |
+| ID khách sạn | Hotel ID Mr & Mrs Smith của bạn. Nếu họ chưa cấp, hãy hỏi họ. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Mr & Mrs Smith xác nhận chỗ nghỉ đã được kết nối với Channex.
 

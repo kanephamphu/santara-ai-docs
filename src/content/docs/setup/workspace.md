@@ -28,7 +28,7 @@ Site** item in the sidebar, because its leads and booking requests are worked ev
 The account menu's **Connected apps** item opens the same tab. This list is personal: only you see
 it, and your teammates manage their own apps.
 
-![Workspace settings: the brief's time and language, timezone, currency and the rest.](/screens/workspace-settings.en.png)
+![Settings → Workspace: Workspace Details with the name and avatar, the Preference Summary, Workspace Shortcuts, and Operations Preferences below.](/screens/workspace-settings.en.png)
 
 ## Language
 
@@ -65,7 +65,10 @@ The workspace tab carries the settings that change how the product behaves for e
 | **Minimum upsell value** | Opportunities below this are not surfaced, so the pipeline stays worth reading |
 | **Open Daily Brief first** | Start the app on the brief rather than the dashboard |
 | **Same-day arrival alerts** | Email the team when a booking lands for a stay checking in today — on by default |
-| **Notification channel** | Dashboard today; email and SMS are not wired up yet |
+| **Morning summary on WhatsApp** | At brief time, hosts and co-hosts with a phone number on their account get today's counts on WhatsApp |
+| **Cleaning jobs on WhatsApp** | Each cleaner with a phone number gets today's jobs on WhatsApp; tapping **Started** or **Done** updates the cleaning board |
+| **Dashboard density** | **Comfortable** or **Compact** |
+| **Notification channel** | **Email** (the default) or **Dashboard only**, which stops the email the team gets when Santi opens a ticket from a guest message. **Email + SMS later** is not wired up yet |
 
 ### Same-day arrival alerts
 

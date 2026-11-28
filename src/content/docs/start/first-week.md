@@ -35,9 +35,9 @@ cancellation, a clean assigned or finished, a ticket opened or done.
 ## Once a week — twenty minutes
 
 - **[Calendar](/daily/calendar/)** — scan the next 60 days. Look for gaps of one or two nights
-  between bookings; those are what [pricing rules](/money/pricing/) and
+  between bookings; those are what [smart pricing](/money/pricing/) and
   [upsells](/money/upsells/) are for.
-- **[Upsells](/money/upsells/)** — accept or dismiss what has been found. Each one is a draft
+- **[Upsells](/money/upsells/)** — **Review offer** on what has been found. Each one is a draft
   message you can send in a tap.
 - **[Reviews](/daily/reviews/)** — reply to what came in. On Airbnb, both reviews only appear once
   you have each written one, so a guest review you have not returned is money left on the table.
@@ -47,14 +47,15 @@ cancellation, a clean assigned or finished, a ticket opened or done.
 
 - **[Reports](/money/reports/)** — add the month's cleaning, maintenance and utility costs, then
   read the owner statement and download the CSV.
-- **[Pricing](/money/pricing/)** — look at the performance panel. RevPAN up and the engine settling
-  down (fewer, smaller moves) is what good looks like.
+- **[Reports](/money/reports/)** — open **Performance**. RevPAR rising is what good pricing looks
+  like; then check **Occupancy signals** under the [Pricing](/money/pricing/) grid for rooms to
+  re-price.
 
 ## What you can leave alone
 
 - **Turnover tasks.** They create themselves the night before each checkout.
 - **Bookings, guests, messages, reviews.** They sync.
-- **Published prices.** Once a rule set is assigned and auto-publish is on, rates go out on their
+- **Published prices.** Once a room is on Automatic and auto-publish is on, rates go out on their
   own — including to the channels.
 - **Availability.** A booking on any channel closes the night everywhere.
 

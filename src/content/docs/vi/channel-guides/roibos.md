@@ -29,8 +29,8 @@ Roibos phải cho phép kết nối trước. Channex là đối tác kết nố
 
 | Trường | Nhập gì |
 | --- | --- |
-| Username and password | Thông tin Roibos cấp cho bạn. |
-| Booking amount | Tổng tiền đặt phòng có gồm thuế hay không. |
+| Tên đăng nhập / Mật khẩu | Thông tin Roibos cấp cho bạn. |
+| Số tiền đặt phòng | Tổng tiền đặt phòng có gồm thuế hay không. |
 | Contract | Bấm **Kiểm tra kết nối** **trước**, rồi chọn hợp đồng trong danh sách. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Roibos xác nhận chỗ nghỉ đã được kết nối với Channex.

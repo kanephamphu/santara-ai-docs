@@ -17,7 +17,7 @@ Cara menghubungkan Nuitee ke Santara AI. Penyiapan di dalam Santara AI sama untu
 
 ## 1. Hubungkan di Santara AI
 
-1. Buka **Pengaturan → Channel → Tambah channel**, cari **Nuitee**, lalu tekan **Hubungkan**.
+1. Buka **Pengaturan → Saluran → Tambah saluran**, cari **Nuitee**, lalu tekan **Hubungkan**.
 2. Pilih properti yang dituju.
 3. Tekan **Hubungkan dan lanjut**.
 

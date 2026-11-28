@@ -29,7 +29,7 @@ Getaroom phải cho phép kết nối trước. Channex là đối tác kết n�
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel ID | Hotel ID mà Getaroom đã xác nhận. |
+| ID khách sạn | Hotel ID mà Getaroom đã xác nhận. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Getaroom xác nhận chỗ nghỉ đã được kết nối với Channex.
 

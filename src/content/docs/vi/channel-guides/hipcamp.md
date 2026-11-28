@@ -32,8 +32,8 @@ Hipcamp phải cho phép kết nối trước. Channex là đối tác kết n�
 
 | Trường | Nhập gì |
 | --- | --- |
-| Hotel Code | Property ID Hipcamp của bạn. |
-| Send Property Notification | Không bắt buộc. Tích chọn thì ô **Property Email** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
+| Mã khách sạn | Property ID Hipcamp của bạn. |
+| Gửi thông báo cho chỗ nghỉ | Không bắt buộc. Tích chọn thì ô **Email chỗ nghỉ** hiện ra — địa chỉ đó nhận email cho mỗi đặt phòng mới. |
 
 Nếu **Kiểm tra kết nối** thất bại, hãy kiểm tra lại ID, rồi nhờ bộ phận hỗ trợ của Hipcamp xác nhận chỗ nghỉ đã được kết nối với Channex.
 

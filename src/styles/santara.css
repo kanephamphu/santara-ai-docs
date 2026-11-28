@@ -317,6 +317,17 @@ header.header {
   overflow-x: auto;
 }
 
+/* On a phone, a three-column table of long words is only a few pixels too wide: tighter cell
+   padding and slightly smaller text let it fit instead of scrolling. */
+@media (max-width: 30rem) {
+  .sl-markdown-content .table-wrapper table {
+    font-size: 0.875rem;
+  }
+  .sl-markdown-content .table-wrapper :is(th, td) {
+    padding-inline: 0.5rem;
+  }
+}
+
 .card {
   border-radius: 0.625rem;
   border-color: var(--sl-color-hairline);
